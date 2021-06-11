@@ -1,0 +1,33 @@
+<script context="module">
+  import Article from '$lib/my/Article.svelte'
+  import Images from '$lib/my/Images.svelte'
+  import Cta from '$lib/my/Cta.svelte'
+  import Video from '$lib/my/Video.svelte'
+  const options = {
+		article: Article,
+		images: Images,
+		cta: Cta,
+		video: Video,
+	};
+</script>
+<script>
+  export let comp//, lang
+
+</script>
+
+<article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
+  {#if comp.title}<h1 id="{comp.anchor}">{comp.title}</h1>{/if}
+  <section class="{comp.slide ? 'slides' : 'grid'}" style="--cols: {comp.components.length};">
+    {#each comp.components || [] as c}
+    c.lang = comp.lang
+    <svelte:component this={options[c.type]} comp={c}/>
+    {/each}
+  </section>
+</article>
+
+<style>
+  section.slides {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+</style>
