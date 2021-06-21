@@ -1,8 +1,8 @@
 <script context="module">
 	import { state, /*cookies, moved, */sitelang/*, pagepath*/ } from '$lib/stores'
   //import {footnav} from '$lib/config'
-  import {findPost} from '$lib/config'
-  import {findPosts} from '$lib/config'
+  //import {findPost} from '$lib/config'
+  //import {findPosts} from '$lib/config'
   import SubNav from '$lib/SubNav.svelte'
 </script>
 <script>

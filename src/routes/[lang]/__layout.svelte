@@ -18,7 +18,7 @@
 
 		if (res.ok) {
       const result = await res.json()
-      console.log('result_l',result.post)
+      //console.log('result_l',result.post)
 			return {
 				props: {
           result: result,

@@ -74,6 +74,7 @@ export async function _getConf(lang) {
   }*/
 
   async function _subnav(obj) {
+    let p
     //console.log('obj',obj)
     //console.log('obj.link',obj)
     if (!!obj.link && (p = await _findPost({path: obj.link, lang}))) {
@@ -108,8 +109,9 @@ export async function _getConf(lang) {
             if (item.lang == lang) page.title = item.title
           }
         }
-        if (!!page.link) modal = await _findBlock('modal/' + page.link.substring(1), lang)
-        if (modal) page.modal = modal
+        //if (!!page.link) modal = await _findBlock('modal/' + page.link.substring(1), lang)
+        //if (modal) page.modal = modal
+        page.modal = (!!page.link && await _findBlock('modal/' + page.link.substring(1), lang))
           //console.log('page.modal',await page.modal)
         
         subs.push(page)

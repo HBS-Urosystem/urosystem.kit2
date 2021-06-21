@@ -1,6 +1,6 @@
 <script context="module">
   import { /*state, */sitelang, pagepath } from '$lib/stores'
-  import { _getPost } from '$lib/utils'
+  //import { _getPost } from '$lib/utils'
 </script>
 
 <script>
