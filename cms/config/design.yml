@@ -1,0 +1,54 @@
+colors:
+  - title: purple-light
+    value: "#caa8cf"
+  - title: purple-dark
+    value: "#8376a3"
+  - title: green-light
+    value: "#78c7c9"
+  - title: green-mid
+    value: "#02979d"
+  - title: green-dark
+    value: "#005c5b"
+  - title: gray-dark
+    value: "#706f6f"
+  - title: gray-light
+    value: "#c6c6c6"
+  - title: test-red
+    value: "#ec1a1a"
+  - title: dark-blue
+    value: "#072c3f"
+  - title: mid-blue
+    value: "#0b3b54"
+  - title: light-blue
+    value: "#52b2d6"
+  - value: "#c7e1f0"
+    title: pale-blue
+  - title: dark-blue-75
+    value: "#072c3fc0"
+  - title: mid-blue-75
+    value: "#0b3b54c0"
+  - title: light-blue-75
+    value: "#52b2d6c0"
+  - title: pale-blue-75
+    value: "#c7e1f0c0"
+gradients:
+  - deg: 224
+    title: pale-blue
+    var1: pale-blue
+    var2: light-blue
+  - deg: 302
+    title: light-blue
+    var1: light-blue
+    var2: mid-blue
+  - deg: 302
+    title: dark-blue
+    var1: mid-blue
+    var2: dark-blue
+  - deg: 302
+    title: dark-blue-75
+    var1: mid-blue-75
+    var2: dark-blue-75
+  - deg: 302
+    title: light-blue-75
+    var1: light-blue-75
+    var2: mid-blue-75

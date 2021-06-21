@@ -1,0 +1,1863 @@
+backend:
+  name: git-gateway
+  branch: master
+site_url: https://www.urosystem.com
+#publish_mode: editorial_workflow
+local_backend: true
+media_folder: /static/uploads
+public_folder: /uploads
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+i18n:
+  structure: multiple_files
+  locales:
+    - en
+    - hu
+    - de
+    - es
+    - pt
+    - fr
+    - it
+    - ru
+    - zh
+    - jp
+    - ar
+    - he
+    - tr
+    - ko
+collections:
+  - sortable_fields:
+      - folder
+    label_singular: Page
+    identifier_field: id
+    path: "{{folder}}/{{slug}}"
+    summary: "{{folder}}/{{id}}"
+    view_groups:
+      - label: Folder
+        field: folder
+    delete: false
+    name: pages
+    slug: "{{id}}"
+    preview_path: "{{slug}}"
+    folder: cms/pages
+    label: Pages
+    create: false
+    i18n: true
+    media_folder: /static/uploads
+    public_folder: /uploads
+    fields:
+      - name: id
+        label: Unique ID (url)
+        widget: string
+        i18n: duplicate
+      - name: slug
+        label: ID translation
+        widget: string
+        i18n: true
+        required: false
+      - name: folder
+        label: Folder
+        i18n: duplicate
+        required: false
+        widget: string
+      - widget: relation
+        options_length: 999
+        name: fallback
+        default: en
+        value_field: i18n.locales.*
+        search_fields:
+          - i18n.locales.*
+        label: Fallback language
+        display_fields:
+          - i18n.locales.*
+        file: danger
+        i18n: true
+        collection: config
+        required: false
+      - name: published
+        label: Published
+        widget: boolean
+        i18n: true
+        required: false
+        default: true
+      - name: subpages
+        label: Subpages
+        label_singular: Subpage
+        i18n: true
+        required: false
+        widget: list
+        fields:
+          - label: Link to
+            name: link
+            required: false
+            widget: relation
+            options_length: 999
+            collection: pages
+            search_fields:
+              - id
+              - title
+            value_field: "{{folder}}/{{id}}"
+            display_fields:
+              - "{{folder}}/{{id}}"
+      - name: title
+        label: Title (<h1>)
+        widget: string
+        i18n: true
+        required: false
+      - label: Meta keywords
+        name: keywords
+        widget: string
+        required: false
+        i18n: true
+      - label: Meta description
+        name: description
+        widget: text
+        required: false
+        i18n: true
+      - label: Other Metas
+        label_singular: Meta
+        name: meta
+        widget: list
+        required: false
+        i18n: true
+        fields:
+          - title: name
+            name: name
+            widget: string
+          - title: content
+            name: content
+            widget: string
+      - label: Menutitle (short)
+        name: menutitle
+        widget: string
+        required: false
+        i18n: true
+      - label: Hero block
+        name: hero
+        i18n: true
+        required: false
+        widget: relation
+        options_length: 999
+        collection: blocks
+        display_fields:
+          - "{{folder}}/{{id}}"
+        search_fields:
+          - id
+        value_field: "{{folder}}/{{id}}"
+      - label: Content blocks
+        label_singular: Block
+        name: blocks
+        widget: list
+        i18n: true
+        fields:
+          - label: Block
+            name: id
+            widget: relation
+            options_length: 999
+            collection: blocks
+            search_fields:
+              - id
+              - folder
+            value_field: "{{folder}}/{{id}}"
+            display_fields:
+              - "{{folder}}/{{id}}"
+
+  - label_singular: Block
+    identifier_field: id
+    sortable_fields:
+      - id
+      - folder
+    path: "{{folder}}/{{slug}}"
+    summary: "{{folder}}/{{id}}"
+    view_groups:
+      - label: Folder
+        field: folder
+    name: blocks
+    slug: "{{id}}"
+    preview_path: "{{folder}}"
+    folder: cms/blocks
+    label: Blocks
+    create: true
+    delete: false
+    i18n: true
+    media_folder: /static/uploads
+    public_folder: /uploads
+    fields:
+      - name: id
+        label: Unique ID
+        widget: string
+        i18n: duplicate
+      - name: folder
+        label: Folder
+        widget: string
+        i18n: duplicate
+        required: false
+      - widget: relation
+        options_length: 999
+        name: fallback
+        default: en
+        value_field: i18n.locales.*
+        search_fields:
+          - i18n.locales.*
+        label: Fallback language
+        display_fields:
+          - i18n.locales.*
+        file: danger
+        i18n: true
+        collection: config
+        required: false
+      - label: Background layers
+        label_singular: Background layer
+        name: background
+        i18n: true
+        widget: list
+        types:
+          - label: Image
+            name: image
+            required: false
+            fields:
+              - label: Scale
+                name: scale
+                widget: number
+                required: false
+                value_type: float
+              - label: Position-X (%)
+                name: posx
+                widget: number
+                required: false
+                value_type: int
+                default: 50
+                max: 100
+              - label: Position-Y (%)
+                name: posy
+                widget: number
+                required: false
+                value_type: int
+                default: 50
+                max: 100
+              - label: Image
+                name: src
+                widget: image
+                required: false
+          - label: Color
+            name: color
+            widget: list
+            fields:
+              - label: Color
+                name: name
+                widget: relation
+                options_length: 999
+                file: design
+                value_field: colors.*.title
+                search_fields:
+                  - colors.*.title
+                display_fields:
+                  - colors.*.title
+                collection: config
+          - label: Gradient
+            name: gradient
+            widget: list
+            fields:
+              - label: Gradients
+                name: name
+                widget: relation
+                options_length: 999
+                file: design
+                value_field: gradients.*.title
+                search_fields:
+                  - gradients.*.title
+                display_fields:
+                  - gradients.*.title
+                collection: config
+      - label: Components
+        label_singular: Component
+        name: components
+        widget: list
+        i18n: true
+        summary: "{{id}}"
+        types:
+          - label: Buy Button
+            name: buy
+            summary: "Buy Button: {{button}}"
+            fields:
+              - label: Background layers
+                label_singular: Background layer
+                name: background
+                i18n: true
+                widget: list
+                types:
+                  - label: Image
+                    name: image
+                    required: false
+                    fields:
+                      - label: Scale
+                        name: scale
+                        widget: number
+                        required: false
+                        value_type: float
+                      - label: Position-X (%)
+                        name: posx
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Position-Y (%)
+                        name: posy
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                  - label: Color
+                    name: color
+                    widget: list
+                    fields:
+                      - label: Color
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: colors.*.title
+                        search_fields:
+                          - colors.*.title
+                        display_fields:
+                          - colors.*.title
+                        collection: config
+                  - label: Gradient
+                    name: gradient
+                    widget: list
+                    fields:
+                      - label: Gradients
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: gradients.*.title
+                        search_fields:
+                          - gradients.*.title
+                        display_fields:
+                          - gradients.*.title
+                        collection: config
+              - label: Header
+                name: title
+                widget: string
+                default: Call to Action
+                required: false
+              - label: Anchor
+                name: anchor
+                widget: string
+                required: false
+              - label: Text
+                name: text
+                widget: markdown
+                required: false
+              - label: Button
+                name: button
+                widget: string
+                default: Click
+              - label: Icon
+                name: icon
+                widget: image
+                required: false
+              - label: Product
+                name: product
+                widget: select
+                options:
+                  - { label: "UroDapter 5pcs", value: "5983114002592" }
+          - label: CTA
+            name: cta
+            summary: "CTA: {{button}}"
+            fields:
+              - label: Background layers
+                label_singular: Background layer
+                name: background
+                i18n: true
+                widget: list
+                types:
+                  - label: Image
+                    name: image
+                    required: false
+                    fields:
+                      - label: Scale
+                        name: scale
+                        widget: number
+                        required: false
+                        value_type: float
+                      - label: Position-X (%)
+                        name: posx
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Position-Y (%)
+                        name: posy
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                  - label: Color
+                    name: color
+                    widget: list
+                    fields:
+                      - label: Color
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: colors.*.title
+                        search_fields:
+                          - colors.*.title
+                        display_fields:
+                          - colors.*.title
+                        collection: config
+                  - label: Gradient
+                    name: gradient
+                    widget: list
+                    fields:
+                      - label: Gradients
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: gradients.*.title
+                        search_fields:
+                          - gradients.*.title
+                        display_fields:
+                          - gradients.*.title
+                        collection: config
+              - label: Header
+                name: title
+                widget: string
+                default: Call to Action
+                required: false
+              - label: Anchor
+                name: anchor
+                widget: string
+                required: false
+              - label: Text
+                name: text
+                widget: markdown
+                required: false
+              - label: Button
+                name: button
+                widget: string
+                default: Click
+              - label: Icon
+                name: icon
+                widget: image
+                required: false
+              - label: Link to
+                name: link
+                required: false
+                widget: relation
+                options_length: 999
+                collection: pages
+                search_fields:
+                  - id
+                  - title
+                value_field: "{{folder}}/{{id}}"
+                display_fields:
+                  - "{{folder}}/{{id}}"
+          - label: Modal
+            name: modal
+            summary: "Modal: {{button}}"
+            fields:
+              - label: Background layers
+                label_singular: Background layer
+                name: background
+                i18n: true
+                widget: list
+                types:
+                  - label: Image
+                    name: image
+                    required: false
+                    fields:
+                      - label: Scale
+                        name: scale
+                        widget: number
+                        required: false
+                        value_type: float
+                      - label: Position-X (%)
+                        name: posx
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Position-Y (%)
+                        name: posy
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                  - label: Color
+                    name: color
+                    widget: list
+                    fields:
+                      - label: Color
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: colors.*.title
+                        search_fields:
+                          - colors.*.title
+                        display_fields:
+                          - colors.*.title
+                        collection: config
+                  - label: Gradient
+                    name: gradient
+                    widget: list
+                    fields:
+                      - label: Gradients
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: gradients.*.title
+                        search_fields:
+                          - gradients.*.title
+                        display_fields:
+                          - gradients.*.title
+                        collection: config
+              - label: Header
+                name: title
+                widget: string
+                default: Call to Action
+                required: false
+              - label: Anchor
+                name: anchor
+                widget: string
+                required: false
+              - label: Text
+                name: text
+                widget: markdown
+                required: false
+              - label: Button
+                name: button
+                widget: string
+                default: Click
+              - label: Icon
+                name: icon
+                widget: image
+                required: false
+              - label: Link to
+                name: link
+                required: false
+                widget: string
+          - label: Images
+            name: images
+            summary: "Images: {{title}}"
+            fields:
+              - label: Horizontal carousel
+                name: slide
+                widget: boolean
+                default: false
+                required: false
+              - label: Background layers
+                label_singular: Background layer
+                name: background
+                i18n: true
+                widget: list
+                types:
+                  - label: Image
+                    name: image
+                    required: false
+                    fields:
+                      - label: Scale
+                        name: scale
+                        widget: number
+                        required: false
+                        value_type: float
+                      - label: Position-X (%)
+                        name: posx
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Position-Y (%)
+                        name: posy
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                  - label: Color
+                    name: color
+                    widget: list
+                    fields:
+                      - label: Color
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: colors.*.title
+                        search_fields:
+                          - colors.*.title
+                        display_fields:
+                          - colors.*.title
+                        collection: config
+                  - label: Gradient
+                    name: gradient
+                    widget: list
+                    fields:
+                      - label: Gradients
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: gradients.*.title
+                        search_fields:
+                          - gradients.*.title
+                        display_fields:
+                          - gradients.*.title
+                        collection: config
+              - label: Header
+                name: title
+                widget: string
+                default: Image Gallery
+                required: false
+              - label: Subtitle
+                name: subtitle
+                widget: string
+                required: false
+              - label: Anchor
+                name: anchor
+                widget: string
+                required: false
+              - label: Image shape
+                name: shape
+                default: default
+                required: true
+                widget: select
+                options:
+                  - { label: Angular, value: default }
+                  - { label: Rounded, value: rounded }
+              - label: Aspect ratio (100 = square/cicrle; empty = original)
+                name: ratio
+                widget: number
+                value_type: float
+                required: false
+              - label: Images
+                name: images
+                widget: list
+                summary: "{{src}}"
+                fields:
+                  - label: SEO (alt)
+                    name: alt
+                    widget: string
+                    required: true
+                    default: Illustration
+                  - label: Scale
+                    name: scale
+                    widget: number
+                    required: false
+                    value_type: float
+                  - label: Position-X (%)
+                    name: posx
+                    widget: number
+                    required: false
+                    value_type: int
+                    default: 50
+                    max: 100
+                  - label: Position-Y (%)
+                    name: posy
+                    widget: number
+                    required: false
+                    value_type: int
+                    default: 50
+                    max: 100
+                  - label: Image
+                    name: src
+                    widget: image
+                  - label: Caption
+                    name: text
+                    widget: markdown
+                    required: false
+          - label: Article
+            name: article
+            summary: "Article: {{title}}"
+            fields:
+              - label: Background layers
+                label_singular: Background layer
+                name: background
+                i18n: true
+                widget: list
+                types:
+                  - label: Image
+                    name: image
+                    required: false
+                    fields:
+                      - label: Scale
+                        name: scale
+                        widget: number
+                        required: false
+                        value_type: float
+                      - label: Position-X (%)
+                        name: posx
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Position-Y (%)
+                        name: posy
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                  - label: Color
+                    name: color
+                    widget: list
+                    fields:
+                      - label: Color
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: colors.*.title
+                        search_fields:
+                          - colors.*.title
+                        display_fields:
+                          - colors.*.title
+                        collection: config
+                  - label: Gradient
+                    name: gradient
+                    widget: list
+                    fields:
+                      - label: Gradients
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: gradients.*.title
+                        search_fields:
+                          - gradients.*.title
+                        display_fields:
+                          - gradients.*.title
+                        collection: config
+              - label: Header
+                name: title
+                widget: string
+                required: false
+              - label: Subtitle
+                name: subtitle
+                widget: string
+                required: false
+              - label: Anchor
+                name: anchor
+                widget: string
+                required: false
+              - label: Text
+                name: text
+                widget: markdown
+                required: false
+          - label: Product link
+            name: product
+            summary: "Product: {{title}}"
+            fields:
+              - label: Background layers
+                label_singular: Background layer
+                name: background
+                i18n: true
+                widget: list
+                types:
+                  - label: Image
+                    name: image
+                    required: false
+                    fields:
+                      - label: Scale
+                        name: scale
+                        widget: number
+                        required: false
+                        value_type: float
+                      - label: Position-X (%)
+                        name: posx
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Position-Y (%)
+                        name: posy
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                  - label: Color
+                    name: color
+                    widget: list
+                    fields:
+                      - label: Color
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: colors.*.title
+                        search_fields:
+                          - colors.*.title
+                        display_fields:
+                          - colors.*.title
+                        collection: config
+                  - label: Gradient
+                    name: gradient
+                    widget: list
+                    fields:
+                      - label: Gradients
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: gradients.*.title
+                        search_fields:
+                          - gradients.*.title
+                        display_fields:
+                          - gradients.*.title
+                        collection: config
+              - label: Product name
+                name: title
+                widget: string
+                required: false
+              - label: Text
+                name: text
+                widget: markdown
+                required: false
+              - label: Image
+                name: src
+                widget: image
+                required: false
+              - label: SEO (alt)
+                name: alt
+                widget: string
+                required: true
+                default: Illustration
+              - label: Link to
+                name: link
+                required: false
+                widget: relation
+                options_length: 999
+                collection: pages
+                search_fields:
+                  - id
+                  - title
+                value_field: "{{folder}}/{{id}}"
+                display_fields:
+                  - "{{folder}}/{{id}}"
+          - label: Q&As
+            name: qas
+            summary: "Q&A: {{title}}"
+            fields:
+              - label: Fixed always open
+                name: fixed
+                widget: boolean
+                default: false
+                required: false
+              - label: Background layers
+                label_singular: Background layer
+                name: background
+                i18n: true
+                widget: list
+                types:
+                  - label: Image
+                    name: image
+                    required: false
+                    fields:
+                      - label: Scale
+                        name: scale
+                        widget: number
+                        required: false
+                        value_type: float
+                      - label: Position-X (%)
+                        name: posx
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Position-Y (%)
+                        name: posy
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                  - label: Color
+                    name: color
+                    widget: list
+                    fields:
+                      - label: Color
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: colors.*.title
+                        search_fields:
+                          - colors.*.title
+                        display_fields:
+                          - colors.*.title
+                        collection: config
+                  - label: Gradient
+                    name: gradient
+                    widget: list
+                    fields:
+                      - label: Gradients
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: gradients.*.title
+                        search_fields:
+                          - gradients.*.title
+                        display_fields:
+                          - gradients.*.title
+                        collection: config
+              - label: Header
+                name: title
+                widget: string
+                default: Questions & Answers
+                required: false
+              - label: Anchor
+                name: anchor
+                widget: string
+                required: false
+              - label: Items
+                label_singular: Item
+                name: items
+                identifier_field: anchor
+                summary: "{{q}}"
+                widget: list
+                fields:
+                  - label: Anchor
+                    name: anchor
+                    widget: string
+                    required: false
+                  - label: Question
+                    name: q
+                    widget: string
+                  - label: Answer
+                    name: text
+                    widget: markdown
+          - label: Video
+            name: video
+            summary: "Video: {{title}}"
+            fields:
+              - label: Background layers
+                label_singular: Background layer
+                name: background
+                i18n: true
+                widget: list
+                types:
+                  - label: Image
+                    name: image
+                    required: false
+                    fields:
+                      - label: Scale
+                        name: scale
+                        widget: number
+                        required: false
+                        value_type: float
+                      - label: Position-X (%)
+                        name: posx
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Position-Y (%)
+                        name: posy
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                  - label: Color
+                    name: color
+                    widget: list
+                    fields:
+                      - label: Color
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: colors.*.title
+                        search_fields:
+                          - colors.*.title
+                        display_fields:
+                          - colors.*.title
+                        collection: config
+                  - label: Gradient
+                    name: gradient
+                    widget: list
+                    fields:
+                      - label: Gradients
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: gradients.*.title
+                        search_fields:
+                          - gradients.*.title
+                        display_fields:
+                          - gradients.*.title
+                        collection: config
+              - label: Header
+                name: title
+                widget: string
+                required: false
+              - label: Anchor
+                name: anchor
+                widget: string
+                required: false
+              - label: Source
+                name: source
+                widget: select
+                required: true
+                options: ["youtube", "vimeo", "local"]
+                default: ["youtube"]
+              - label: Video ID
+                name: id
+                widget: string
+                required: true
+              - label: Text
+                name: text
+                widget: markdown
+                required: false
+          - label: Form
+            name: form
+            summary: "Form: {{title}}"
+            fields:
+              - label: Background layers
+                label_singular: Background layer
+                name: background
+                i18n: true
+                widget: list
+                types:
+                  - label: Image
+                    name: image
+                    required: false
+                    fields:
+                      - label: Scale
+                        name: scale
+                        widget: number
+                        required: false
+                        value_type: float
+                      - label: Position-X (%)
+                        name: posx
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Position-Y (%)
+                        name: posy
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                  - label: Color
+                    name: color
+                    widget: list
+                    fields:
+                      - label: Color
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: colors.*.title
+                        search_fields:
+                          - colors.*.title
+                        display_fields:
+                          - colors.*.title
+                        collection: config
+                  - label: Gradient
+                    name: gradient
+                    widget: list
+                    fields:
+                      - label: Gradients
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: gradients.*.title
+                        search_fields:
+                          - gradients.*.title
+                        display_fields:
+                          - gradients.*.title
+                        collection: config
+              - label: Header
+                name: title
+                widget: string
+                required: false
+              - label: Subtitle
+                name: subtitle
+                widget: string
+                required: false
+              - label: Anchor
+                name: anchor
+                widget: string
+                required: false
+              - label: Netlify
+                name: netlify
+                widget: boolean
+                default: false
+                required: false
+              - label: Name
+                name: name
+                widget: string
+                required: false
+              - label: Action
+                name: action
+                widget: string
+                required: true
+                default: "/"
+              - label: HTML
+                name: text
+                widget: markdown
+                required: false
+          - label: Grid
+            name: grid
+            summary: "Grid: {{title}}"
+            fields:
+              - label: Background layers
+                label_singular: Background layer
+                name: background
+                i18n: true
+                widget: list
+                types:
+                  - label: Image
+                    name: image
+                    required: false
+                    fields:
+                      - label: Scale
+                        name: scale
+                        widget: number
+                        required: false
+                        value_type: float
+                      - label: Position-X (%)
+                        name: posx
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Position-Y (%)
+                        name: posy
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                  - label: Color
+                    name: color
+                    widget: list
+                    fields:
+                      - label: Color
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: colors.*.title
+                        search_fields:
+                          - colors.*.title
+                        display_fields:
+                          - colors.*.title
+                        collection: config
+                  - label: Gradient
+                    name: gradient
+                    widget: list
+                    fields:
+                      - label: Gradients
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: gradients.*.title
+                        search_fields:
+                          - gradients.*.title
+                        display_fields:
+                          - gradients.*.title
+                        collection: config
+              - label: Slideshow
+                name: slide
+                widget: boolean
+                default: false
+                required: false
+              - label: Header
+                name: title
+                widget: string
+                required: false
+              - label: Anchor
+                name: anchor
+                widget: string
+                required: false
+              - label: Components
+                label_singular: Component
+                name: components
+                widget: list
+                types:
+                  - label: CTA
+                    name: cta
+                    summary: "CTA: {{button}}"
+                    fields:
+                      - label: Background
+                        name: background
+                        widget: image
+                        required: false
+                      - label: Header
+                        name: title
+                        widget: string
+                        default: Call to Action
+                        required: false
+                      - label: Anchor
+                        name: anchor
+                        widget: string
+                        required: false
+                      - label: Text
+                        name: text
+                        widget: markdown
+                        required: false
+                      - label: Button
+                        name: button
+                        widget: string
+                        default: Click
+                      - label: Icon
+                        name: icon
+                        widget: image
+                        required: false
+                      - label: Link to
+                        name: link
+                        required: false
+                        widget: relation
+                        options_length: 999
+                        collection: pages
+                        search_fields:
+                          - id
+                          - title
+                        value_field: "{{folder}}/{{id}}"
+                        display_fields:
+                          - "{{folder}}/{{id}}"
+                  - label: Modal
+                    name: modal
+                    summary: "Modal: {{button}}"
+                    fields:
+                      - label: Background
+                        name: background
+                        widget: image
+                        required: false
+                      - label: Header
+                        name: title
+                        widget: string
+                        default: Call to Action
+                        required: false
+                      - label: Anchor
+                        name: anchor
+                        widget: string
+                        required: false
+                      - label: Text
+                        name: text
+                        widget: markdown
+                        required: false
+                      - label: Button
+                        name: button
+                        widget: string
+                        default: Click
+                      - label: Icon
+                        name: icon
+                        widget: image
+                        required: false
+                      - label: Link to
+                        name: link
+                        required: false
+                        widget: string
+                  - label: Article
+                    name: article
+                    summary: "Article: {{title}}"
+                    fields:
+                      - label: Background
+                        name: background
+                        widget: image
+                        required: false
+                      - label: Header
+                        name: title
+                        widget: string
+                        required: false
+                      - label: Subtitle
+                        name: subtitle
+                        widget: string
+                        required: false
+                      - label: Anchor
+                        name: anchor
+                        widget: string
+                        required: false
+                      - label: Text
+                        name: text
+                        widget: markdown
+                        required: false
+                  - label: Product link
+                    name: product
+                    summary: "Product: {{title}}"
+                    fields:
+                      - label: Product name
+                        name: title
+                        widget: string
+                        required: false
+                      - label: Text
+                        name: text
+                        widget: markdown
+                        required: false
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                      - label: SEO (alt)
+                        name: alt
+                        widget: string
+                        required: true
+                        default: Illustration
+                      - label: Link to
+                        name: link
+                        required: false
+                        widget: relation
+                        options_length: 999
+                        collection: pages
+                        search_fields:
+                          - id
+                          - title
+                        value_field: "{{folder}}/{{id}}"
+                        display_fields:
+                          - "{{folder}}/{{id}}"
+                  - label: Video
+                    name: video
+                    summary: "Video: {{title}}"
+                    fields:
+                      - label: Background
+                        name: background
+                        widget: image
+                        required: false
+                      - label: Header
+                        name: title
+                        widget: string
+                        required: false
+                      - label: Anchor
+                        name: anchor
+                        widget: string
+                        required: false
+                      - label: Source
+                        name: source
+                        widget: select
+                        required: true
+                        options: ["youtube", "vimeo", "local"]
+                        default: ["youtube"]
+                      - label: Video ID
+                        name: id
+                        widget: string
+                        required: true
+                      - label: Text
+                        name: text
+                        widget: markdown
+                        required: false
+          - label: Link list
+            name: links
+            summary: "Links: {{title}}"
+            fields:
+              - label: Background layers
+                label_singular: Background layer
+                name: background
+                i18n: true
+                widget: list
+                types:
+                  - label: Image
+                    name: image
+                    required: false
+                    fields:
+                      - label: Scale
+                        name: scale
+                        widget: number
+                        required: false
+                        value_type: float
+                      - label: Position-X (%)
+                        name: posx
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Position-Y (%)
+                        name: posy
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                  - label: Color
+                    name: color
+                    widget: list
+                    fields:
+                      - label: Color
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: colors.*.title
+                        search_fields:
+                          - colors.*.title
+                        display_fields:
+                          - colors.*.title
+                        collection: config
+                  - label: Gradient
+                    name: gradient
+                    widget: list
+                    fields:
+                      - label: Gradients
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: gradients.*.title
+                        search_fields:
+                          - gradients.*.title
+                        display_fields:
+                          - gradients.*.title
+                        collection: config
+              - label: Header
+                name: title
+                widget: string
+                default: Links and Documents
+                required: false
+              - label: Subtitle
+                name: subtitle
+                widget: string
+                required: false
+              - label: Anchor
+                name: anchor
+                widget: string
+                required: false
+              - label: Markers
+                name: marker
+                widget: image
+                required: false
+              - label: Items
+                label_singular: Item
+                name: items
+                identifier_field: anchor
+                summary: "{{title}}"
+                widget: list
+                fields:
+                  - label: Link text
+                    name: title
+                    widget: string
+                  - label: URL
+                    name: url
+                    widget: string
+                  - label: Link image/icon
+                    name: src
+                    widget: image
+                    required: false
+          - label: References
+            name: refs
+            summary: "References: {{title}}"
+            fields:
+              - label: Background layers
+                label_singular: Background layer
+                name: background
+                i18n: true
+                widget: list
+                types:
+                  - label: Image
+                    name: image
+                    required: false
+                    fields:
+                      - label: Scale
+                        name: scale
+                        widget: number
+                        required: false
+                        value_type: float
+                      - label: Position-X (%)
+                        name: posx
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Position-Y (%)
+                        name: posy
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                  - label: Color
+                    name: color
+                    widget: list
+                    fields:
+                      - label: Color
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: colors.*.title
+                        search_fields:
+                          - colors.*.title
+                        display_fields:
+                          - colors.*.title
+                        collection: config
+                  - label: Gradient
+                    name: gradient
+                    widget: list
+                    fields:
+                      - label: Gradients
+                        name: name
+                        widget: relation
+                        options_length: 999
+                        file: design
+                        value_field: gradients.*.title
+                        search_fields:
+                          - gradients.*.title
+                        display_fields:
+                          - gradients.*.title
+                        collection: config
+              - label: Header
+                name: title
+                widget: string
+                default: References
+                required: false
+              - label: Anchor
+                name: anchor
+                widget: string
+                required: false
+              - label: Markers
+                name: marker
+                widget: image
+                required: false
+              - label: Items
+                label_singular: Item
+                name: items
+                identifier_field: anchor
+                summary: "{{title}}"
+                widget: list
+                fields:
+                  - label: Link text
+                    name: title
+                    widget: string
+                  - label: URL
+                    name: url
+                    widget: string
+                  - label: Link image/icon
+                    name: src
+                    widget: image
+                    required: false
+
+  #- name: locale
+  #  label: Locale settings
+  #  create: false
+  #  i18n:
+  #    structure: single_file
+  #  files:
+  #    - label: "Languages"
+  #      name: "langs"
+  #      file: "cms/config/langs.yml"
+  #      i18n: true
+  #      identifier_field: id
+  #      fields:
+  #        - { label: ID, name: id, i18n: true, widget: string }
+  #        - { label: Label, name: title, i18n: true, widget: string }
+  #        - { label: Active, name: active, i18n: true, widget: boolean }
+  #        - { label: Flag, name: flag, i18n: true, widget: image, required: false }
+  #        - label: Text direction
+  #          name: dir
+  #          i18n: true
+  #          default: "ltr"
+  #          widget: select
+  #          options:
+  #            - { label: "Left to right", value: "ltr" }
+  #            - { label: "Right to left", value: "rtl" }
+  #        - label: Font Face
+  #          name: font
+  #          i18n: true
+  #          default: "default"
+  #          widget: select
+  #          options:
+  #            - { label: "Default", value: "default" }
+  #            - { label: "Serif", value: "serif" }
+
+  - name: config
+    label: Site settings
+    files:
+      - label: Visuals
+        file: cms/config/design.yml
+        name: design
+        fields:
+          - name: colors
+            label: Colors
+            label_singular: Color
+            widget: list
+            summary: "{{value}}: {{title}}"
+            fields:
+              - label: Name
+                name: title
+                widget: string
+              - name: value
+                label: Value
+                widget: color
+                allowInput: true
+                enableAlpha: true
+          - label: Gradients
+            label_singular: Gradient
+            name: gradients
+            widget: list
+            summary: "{{title}}"
+            fields:
+              - label: Name
+                name: title
+                widget: string
+              - label: Color 1
+                name: var1
+                widget: relation
+                options_length: 999
+                value_field: colors.*.title
+                search_fields:
+                  - colors.*.title
+                display_fields:
+                  - colors.*.title
+                file: design
+                collection: config
+              - label: Color 2
+                name: var2
+                widget: relation
+                options_length: 999
+                value_field: colors.*.title
+                search_fields:
+                  - colors.*.title
+                display_fields:
+                  - colors.*.title
+                file: design
+                collection: config
+              - name: deg
+                label: Degrees
+                widget: number
+                default: 0
+                min: 0
+                max: 360
+      - label: Languages
+        name: langs
+        file: cms/config/langs_glob.yml
+        fields:
+          - label: Languages
+            label_singular: Lang
+            name: langs
+            delete: false
+            widget: list
+            fields:
+              - label: ID
+                name: id
+                widget: string
+              - label: Label
+                name: title
+                widget: string
+              - { label: Active, name: active, required: false, widget: boolean }
+              - label: Flag
+                name: flag
+                widget: image
+                required: false
+              - label: Text direction
+                name: dir
+                default: ltr
+                widget: select
+                options:
+                  - label: Left to right
+                    value: ltr
+                  - label: Right to left
+                    value: rtl
+              - label: Font Face
+                name: font
+                default: default
+                widget: select
+                options:
+                  - label: Default
+                    value: default
+                  - label: Serif
+                    value: serif
+      - label: Danger zone
+        name: danger
+        file: /static/admin/config.yml
+        fields:
+          - label: i18n
+            name: i18n
+            delete: false
+            widget: object
+            fields:
+              - name: locales
+                label: Locales
+                widget: list
+          - name: local_backend
+            label: local_backend
+            widget: boolean
+
+      - label: Main nav
+        file: cms/config/nav.yml
+        name: nav
+        fields:
+          - name: top
+            label: Top menu items
+            label_singular: Item
+            widget: list
+            summary: "{{link}}"
+            fields:
+              - label: Menu title
+                name: titles
+                widget: list
+                fields:
+                  - name: lang
+                    label: Lang
+                    widget: string
+                  - name: title
+                    label: Menu title
+                    widget: string
+              - label: Link to
+                name: link
+                widget: string
+                required: false
+              - label: External?
+                name: ext
+                widget: boolean
+                required: false
+              - label: Submenu
+                name: subpages
+                required: false
+                widget: list
+                fields: 
+                  - label: Submenu Title
+                    name: titles
+                    widget: list
+                    fields:
+                      - name: lang
+                        label: Lang
+                        widget: string
+                      - name: title
+                        label: Menu title
+                        widget: string
+                  - label: Link
+                    name: link
+                    widget: string
+                    required: false
+                  - label: External?
+                    name: ext
+                    widget: boolean
+                    required: false
+      - label: Footer nav
+        file: cms/config/footnav.yml
+        name: footnav
+        fields:
+          - name: footer
+            label: Footer menu items
+            label_singular: Page
+            widget: list
+            summary: "{{link}}"
+            fields:
+              - label: Menu title
+                name: titles
+                widget: list
+                fields:
+                  - name: lang
+                    label: Lang
+                    widget: string
+                  - name: title
+                    label: Menu title
+                    widget: string
+              - label: Link to
+                name: link
+                widget: string
+                required: false
+              - label: External?
+                name: ext
+                widget: boolean
+                required: false
+              - label: Submenu
+                name: subpages
+                required: false
+                widget: list
+                fields: 
+                  - label: Submenu Title
+                    name: titles
+                    widget: list
+                    fields:
+                      - name: lang
+                        label: Lang
+                        widget: string
+                      - name: title
+                        label: Menu title
+                        widget: string
+                  - label: Link
+                    name: link
+                    widget: string
+                    required: false
+                  - label: External?
+                    name: ext
+                    widget: boolean
+                    required: false
+                  - label: Logo
+                    name: logo
+                    widget: image
+                    required: false
+                  - label: Logo name (SEO alt)
+                    name: alt
+                    widget: string
+                    required: false

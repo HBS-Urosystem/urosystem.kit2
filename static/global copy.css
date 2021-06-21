@@ -1,0 +1,255 @@
+/*! minireset.css v0.0.7 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit;outline-color:white}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+:root {
+  --base-font-size: 16px;
+  --fluid-typography-ratio: 0.2;
+  --rem: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 1vw);
+  --dark-blue: #072c3f;
+  --mid-blue: #0b3b54;
+  --light-blue: #52b2d6;
+  --pale-blue: #c7e1f0;
+  --dark-blue-75: #072c3fc0;
+  --mid-blue-75: #0b3b54c0;
+  --light-blue-75: #52b2d6c0;
+  --pale-blue-75: #c7e1f0c0;
+  --grad-light-blue: linear-gradient(224deg, var(--pale-blue), var(--light-blue));
+  --grad-dark-blue: linear-gradient(302deg, var(--mid-blue), var(--dark-blue));
+  --grad-dark-blue-75: linear-gradient(302deg, var(--mid-blue-75), var(--dark-blue-75));
+  --grad-light-blue-75: linear-gradient(302deg, var(--light-blue-75), var(--mid-blue-75));
+
+  --half: calc(var(--rem) / 2);
+  --gap: calc(3 * var(--rem));
+  --gap2: calc(4 * var(--rem));
+  --gap4: calc(8 * var(--rem));
+
+  --sides: max(12.5vw - 5rem, .5rem);
+
+  --marker: url(/uploads/open-right.svg);
+}
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* 1 */
+  font-size: var(--rem);
+  line-height: 1.5;
+  /*letter-spacing: .03em;*/
+  letter-spacing: .04em;
+  color: #fff;
+  background-color: var(--mid-blue);
+}
+
+header, article, aside, main > div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+}
+header {
+  padding-top: 9rem;
+}
+/*main header {
+  padding: var(--gap4) var(--sides) var(--gap);
+}*/
+article, aside {
+  padding: var(--gap) var(--sides);
+}
+article + aside {
+  padding-top: 0;
+}
+article > div, aside > div, figcaption {
+  max-width: 56ch;
+  margin: 0 auto;
+  padding: 0/* var(--rem)*/;
+}
+main > nav {
+  padding: 2rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1em;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+header article, header h1 {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/*h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child {*/
+  /*margin-bottom: 0;*/
+/*}*/
+*:last-child {
+  margin-bottom: 0;
+}
+
+section, fieldset {
+  /*display: grid;*/
+  /*grid-template-columns: repeat(var(--cols), 1fr);*/
+  /*grid-template-columns: repeat(var(--cols), minmax(min(30ch, 100%), 1fr));*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center
+}
+section > * {
+  max-width: 40ch;
+}
+section > article {
+  flex: 1 0 25ch;
+  padding: var(--rem);
+}
+fieldset { 
+  padding: 1rem 0;
+  border: none;
+}
+section > label {
+  flex: 1 0 20ch;
+  margin: 0 var(--rem);
+  /*border-bottom: 2px solid white;*/
+}
+fieldset > label {
+  flex: 1 0 20ch;
+  margin: 0 var(--rem);
+  border-bottom: 2px solid white;
+  display: flex;
+  flex-direction: column;
+}
+textarea {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  resize: vertical;
+}
+/*select {
+  appearance: none;
+  background: no-repeat;
+  border: none;
+  height: 1rem;
+  font-size: inherit;
+  color: inherit;
+  vertical-align: baseline;
+  font-family: inherit;
+}
+option {
+  appearance: none;
+  display: inline;
+}
+option:checked {
+  color: red;
+  background-color: transparent;
+}*/
+input {
+  background: transparent;
+  border: none;
+  margin: 0;
+  color: inherit;
+  font-size: inherit;
+}
+button {
+  cursor: pointer;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-radius: 1.75rem;
+  padding: 0 var(--gap2);
+  line-height: 3rem;
+  margin: var(--rem) auto 0;
+  background-color: var(--pale-blue);
+}
+button img {
+  width: 1.75rem;
+  margin: .5rem .5rem 0 0;
+}
+
+
+article p, article ul, article ol, article dl, article table {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: .04em;
+}
+
+article p, article ul, article ol, article dl, article table, aside p, aside ul, aside ol, aside dl, aside table, form {
+  margin: 0 0 1.5rem 0;
+  vertical-align: baseline;
+}
+
+article ul {
+  list-style: initial;
+  /*margin-left: 1rem;*/
+}
+
+a, a:visited {
+  color: inherit;
+}
+
+/*img {
+  max-width: 100%;
+}*/
+
+/*h2 {*/
+  /*padding-top: 2em;*/
+/*}*/
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.65rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  width: 55%;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+article li > a {
+  text-decoration: none;
+  display: block;
+  flex-basis: 100%;
+  /*border-bottom: 2px solid;*/
+  margin-bottom: var(--gap);
+  position: relative;
+  padding-right: .5rem;
+  margin-right: 1.5rem;
+}
+article li > a:after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  bottom: .25rem;
+  width: calc(1 * var(--rem));
+  height: calc(1 * var(--rem));
+  filter:invert();
+  background-image: var(--marker);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+article li > a:hover {
+  text-decoration: underline;
+}
+
+/*header, main {
+  color: white;
+}*/
