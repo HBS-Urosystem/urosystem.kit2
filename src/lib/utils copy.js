@@ -23,84 +23,80 @@ for (const p in allposts) {
 	//console.log(lang,slug,posts[lang][slug])
 }
 
-let theconf = []
-for (const p in allconfs) {
-	const parts = p.split('/')
-	const filename = parts[parts.length - 1]
-	const id = filename.substring(0, filename.length - 3)
-  theconf[id] = allconfs[p]//().then(({metadata}) => metadata)
-}
 //console.log(allconfs,theconf)
 
-export async function _getConf(lang) {
-  let config = []
-  /*const langs = await theconf['langs']().then(({metadata}) => metadata)
+export function _getConf(lang) {
+  let theconf = []
+  //console.log(allconfs)
+  for (const p in allconfs) {
+    const parts = p.split('/')
+    const filename = parts[parts.length - 1]
+    const id = filename.substring(0, filename.length - 3)
+    const funct = allconfs[p]()//.then(({metadata}) => metadata)
+    theconf[id] = funct['metadata']
+  }
+    let config = []
+  /*const langs = theconf['langs']().then(({metadata}) => metadata)
   //for (c in langs.langs)
   config.langs = _.chain(c)
     .filter(lang => console.log('lang',lang))//.active)
     .value()
   console.log(config.langs)*/
+  console.log(theconf)
   for (const b in theconf) {
-    //console.log('config[b]',await conf[b])
-    const c = await theconf[b]().then(({metadata}) => metadata)
+    //console.log('config[b]',conf[b])
+    const c = theconf[b]//().then(({metadata}) => metadata)
     //if (c.active) 
     config[Object.keys(c)[0]] = c[Object.keys(c)[0]]
     //config.push(c[Object.keys(c)[0]])
-    //console.log(c)
   }
+  //console.log(config)
 
   config.thislang = {}
   for (const l of config.langs) {
     if (l.id == lang) config.thislang = l
   }
 
-  //config.topnav = await _navs(config.top)
-  //config.topnav = await config.top.map(props => {return {...props}}).map(subs => _subnav(subs))
-  //config.footnav = await config.footer.map(props => {return {...props}}).map(subs => _subnav(subs))
-  config.topnav = await Promise.all(config.top.map(async (subs) => _subnav(subs)))
-  config.footnav = await Promise.all(config.footer.map(async (subs) => _subnav(subs)))
-  //_navs(config.footer).then(function(ret) {console.log(ret); config.footnav = ret})
+  //config.topnav = _navs(config.top)
+  config.topnav = config.top.map(props => {return {...props}}).map(_subnav)
+  // config.footnav = 
+  _navs(config.footer).then(function(ret) {console.log(ret); config.footnav = ret})
   //console.log('config.topnav',config.topnav)
-  //console.log('topfoot',config)
-  
+  console.log(config)
   return config
 
-  /*async function _navs (c) {
+  function _navs (c) {
     //console.log('config.top',c)
     const ret = c.map(props => {return {...props}}).map(_subnav)
     //
-    //.map(async obj => {return _subnav(obj)})
+    //.map(obj => {return _subnav(obj)})
     return ret
-  }*/
+  }
 
-  async function _subnav(obj) {
+  function _subnav(obj) {
     //console.log('obj',obj)
-    //console.log('obj.link',obj)
-    if (!!obj.link && (p = await _findPost({path: obj.link, lang}))) {
+    if (!!obj.link && (p = _findPost({path: obj.link, lang}))) {
       obj.title = p.menutitle || p.title
-
+      console.log(obj.title)
     }
-    //obj.title = (!!obj.link && await _findPost({path: obj.link, lang}).then(x => {return x}))
-    //console.log('obj.title',obj)
-
     if (obj.titles) {
       for (let item of obj.titles) {
         if (item.lang == lang) obj.title = item.title
       }
     }
 
-    /*if (!!obj.link && (modal = await _findBlock('modal/' + obj.link.substring(1), lang))) {
+    if (!!obj.link && (modal = _findBlock('modal/' + obj.link.substring(1), lang))) {
       obj.modal = modal
-      //console.log('obj.modal',await obj.modal)
-    }*/
-    obj.modal = (!!obj.link && await _findBlock('modal/' + obj.link.substring(1), lang))
+      //console.log('obj.modal',obj.modal)
+    }
   
     if (obj.subpages) {
       //console.log('obj.subpages',obj.subpages)
       let subs = []
       for (let page of obj.subpages) {
-        if (!!page.link && (p = await _findPost({path: page.link, lang}))) {
-          page.title = p.menutitle || p.title
+        if (!!page.link && (p = _findPost({path: page.link, lang}))) {
+          let post = {...p}
+          page.title = post.menutitle || post.title
         }
         if (page.titles) {
           for (let item of page.titles) {
@@ -108,9 +104,9 @@ export async function _getConf(lang) {
             if (item.lang == lang) page.title = item.title
           }
         }
-        if (!!page.link) modal = await _findBlock('modal/' + page.link.substring(1), lang)
+        if (!!page.link) modal = _findBlock('modal/' + page.link.substring(1), lang)
         if (modal) page.modal = modal
-          //console.log('page.modal',await page.modal)
+          //console.log('page.modal',page.modal)
         
         subs.push(page)
       }
@@ -126,18 +122,18 @@ export async function _getConf(lang) {
 
     return obj || {}
   }
-  /*async function _findPosts(path) {
+  /*function _findPosts(path) {
     let posts = []
     for (const s in theposts[lang]) {
       //if (s.endsWith(path)) {
         //console.log(s)
       if (s.match(`.*${path}`)) {
         //console.log('_findPost', path)
-        let p = await theposts[lang][s]().then(({metadata}) => metadata)
+        let p = theposts[lang][s]().then(({metadata}) => metadata)
         //console.log(p)
         if (p.fallback && p.fallback !== lang) {
           //p = mixing(p, _findPost({path, lang: p.fallback}), {recursive: true}) // A) recursive fallbacks
-          p = mixing(p, await theposts[p.fallback][s]().then(({metadata}) => metadata), {recursive: true}) // B) faster – single fallback
+          p = mixing(p, theposts[p.fallback][s]().then(({metadata}) => metadata), {recursive: true}) // B) faster – single fallback
         }
         //console.log('_findPost', lang, p.id)
         posts.push(p)
@@ -165,26 +161,26 @@ export async function _getConf(lang) {
   }*/
 }
 
-/*export async function _getLangs() {
-  const langs = await conf.langs().then(({metadata}) => metadata)
+/*export function _getLangs() {
+  const langs = conf.langs().then(({metadata}) => metadata)
   return {...langs}
 }*/
 
 
-export async function _getPost({path = 'index', lang = 'en', sub = null}) {
-  const p = await _findPost({path, lang})
+export function _getPost({path = 'index', lang = 'en', sub = null}) {
+  const p = _findPost({path, lang})
   //console.log('_getPost',p.menutitle)
   let post = {...p}
   //console.log('...p',p)
   if (p.hero) {
     //console.log('awaithero', lang)
-    post.hero = await _getBlock(p.hero, lang)
+    post.hero = _getBlock(p.hero, lang)
   }
 
   if (p.blocks) {
     let blocks = []
     for (const b of p.blocks) {
-      const block = await _getBlock(b.id, lang)
+      const block = _getBlock(b.id, lang)
       blocks.push(block)
     }
     post.blocks = blocks
@@ -197,7 +193,7 @@ export async function _getPost({path = 'index', lang = 'en', sub = null}) {
       if (s.link) s.link = s.link.replace('/.', '/whatis') // TODO: remove this
       //const parts = s.link.split('/')
       //console.log('parts2',parts,path)
-      let sp = await _getPost({path: s.link, lang, sub})
+      let sp = _getPost({path: s.link, lang, sub})
       sp.slug = sp.slug || sp.id
       if (sp.slug == '.' && !sub || sp.slug == sub) {
         //subpage = sp
@@ -214,22 +210,22 @@ export async function _getPost({path = 'index', lang = 'en', sub = null}) {
   }
 
   //console.log('>>>new',post)
-  return await post
+  return post
 }
 
-export async function _findPost({path = 'index', lang = 'en'}) {
+export function _findPost({path = 'index', lang = 'en'}) {
 for (const s in theposts[lang]) {
   if (s.endsWith(path)) {
     //console.log(s)
   //if (s.match(`.*${path}`)) {
     //console.log('_findPost', path)
-    let p = await theposts[lang][s]().then(({metadata}) => metadata)
+    let p = theposts[lang][s]().then(({metadata}) => metadata)
     //console.log(p.menutitle)
     if (p.fallback && p.fallback !== lang) {
-      p = mixing(p, await _findPost({path, lang: p.fallback}), {recursive: true}) // A) recursive fallbacks / cascading blocks
-      //p = mixing(p, await theposts[p.fallback][s]().then(({metadata}) => metadata), {recursive: true}) // B) faster – single block fallback
-      //console.log('bad mixing: no native desc & kw', await theposts[lang][s])
-      //console.log('bad mixing: no native desc & wk', await theposts[p.fallback][s])
+      p = mixing(p, _findPost({path, lang: p.fallback}), {recursive: true}) // A) recursive fallbacks / cascading blocks
+      //p = mixing(p, theposts[p.fallback][s]().then(({metadata}) => metadata), {recursive: true}) // B) faster – single block fallback
+      //console.log('bad mixing: no native desc & kw', theposts[lang][s])
+      //console.log('bad mixing: no native desc & wk', theposts[p.fallback][s])
     }
     //console.log('_findPost', p.menutitle)
     return p
@@ -239,8 +235,8 @@ return false
 }
 
 
-export async function _getBlock(id = path, l) {
-  let block = await _findBlock(id, l)
+export function _getBlock(id = path, l) {
+  let block = _findBlock(id, l)
   //console.log('_get', l, id)
   if (block) {
     for (let c of block.components) {
@@ -256,14 +252,14 @@ export async function _getBlock(id = path, l) {
   return block
 }
 
-async function _findBlock(id, l, all = allblocks) {
+function _findBlock(id, l, all = allblocks) {
 //console.log(id + '.' + l)
 for (const b in all) {
   if (b.indexOf(id + '.' + l) >= 0) {
-    const block = await all[b]().then(({metadata}) => metadata)
+    const block = all[b]().then(({metadata}) => metadata)
     //console.log('b.fb',block.fallback)
     if (block.fallback && block.fallback !== l) {
-      return mixing(_.cloneDeepWith(block, mdtext), await _findBlock(id, block.fallback), {recursive: true}) // A) recursive fallbacks / cascading blocks
+      return mixing(_.cloneDeepWith(block, mdtext), _findBlock(id, block.fallback), {recursive: true}) // A) recursive fallbacks / cascading blocks
     }
   return _.cloneDeepWith(block, mdtext)
   }

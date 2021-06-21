@@ -12,7 +12,7 @@ export const get = async (request) => {
 
 	const parts = path.split('/')
 	const post = await _getPost({path: parts[0], lang, sub: parts[1]})
-	const conf = await _getConf()
+	const conf = await _getConf(lang)
   //console.log('conf',conf)
 	
 	//const langs = await _getLangs()

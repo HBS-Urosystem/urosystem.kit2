@@ -2,7 +2,9 @@
   //export const hydrate = false
   import { state } from '$lib/stores'
   import { sitelang } from '$lib/stores'
-  import NewNav from '$lib/NewNav.svelte'
+  import { pagepath } from '$lib/stores'
+  import Nav from '$lib/Nav.svelte'
+  import Footer from '$lib/Footer.svelte'
   //import Footer from '$lib/Footer.svelte'
 
   export const load = async ({ page, fetch }) => {
@@ -17,11 +19,12 @@
 
 		if (res.ok) {
       const result = await res.json()
-      //console.log('result_l',result)
+      console.log('result_l',result.post)
 			return {
 				props: {
           result: result,
-          lang: lang
+          lang: lang,
+          path: path
         }
 			}
 			/*return {
@@ -42,20 +45,21 @@
   }
 </script>
 <script>
-  export let result, lang
+  export let result, lang, path
   $:  $state = result
+  $:  $pagepath = path
   $: if (lang && lang != 'undefined') $sitelang = lang
-
+//$: console.log('__layout $state:',$state)
 </script>
 
-<NewNav/><!--  dir={thislang.dir} -->
-<nav>
-  <a href="/en">en</a>
-  <a href="/hu">hu</a>
-  <a href="/hu/ic-bps">ic/bps</a>
-  <a href="/hu/rutis">rutis</a>
-  <a href="/hu/urodapter">urodapter</a>
-</nav>
+<!--<nav style="z-index: 999;">
+  <a href="/en/{path}">en</a>
+  <a href="/hu/{path}">hu</a>
+  <a href="/{lang}/ic-bps">ic/bps</a>
+  <a href="/{lang}/rutis">rutis</a>
+  <a href="/{lang}/urodapter">urodapter</a>
+</nav>-->
+<Nav/><!--  dir={thislang.dir} -->
 <slot></slot>
-<!--<Footer/>-->
+<Footer/>
 <!--<Cookies/>-->

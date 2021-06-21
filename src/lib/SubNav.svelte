@@ -1,47 +1,50 @@
 <script context="module">
-  import { config, sitelang } from '$lib/stores'
-  import {findPost} from '$lib/config'
+  import { /*state, */sitelang, pagepath } from '$lib/stores'
+  import { _getPost } from '$lib/utils'
 </script>
 
 <script>
 	//import { stores } from '@sapper/app';
-	const { /*preloading, */page/*, session */} = stores();
+	//const { /*preloading, */page/*, session */} = stores();
   //console.log($page)
-	import { lang } from '$lib/stores'
-  export let post, sub
-  $: post = $config.post
-  
+	//import { lang } from '$lib/stores'
+  //const lang = $sitelang
+  export let /*post, */sub
+  //console.log(sub)
+  //$: post = $state.post
+
   let sublink
   //console.log('subnav',sub)
-  $: subpage = findPost($page.params.lang || $lang, sub.link) || {}
+  //const subpage = _getPost($sitelang, sub.link) || {}
   $: if (sub.link && sub.link.startsWith('#')) {
-    sublink = $page.path + sub.link
+    sublink = '/' + $pagepath + sub.link
   } else if (sub.link && sub.link.startsWith('http')) {
     sublink = sub.link
   } else {
-    sublink = $page.params.lang + '/' + sub.link
+    sublink = '/' + $sitelang + '/' + sub.link
     //console.log(sub.link)
+    //sublink = sub.link
   }
-  //$: sublink = sub.link.startsWith('#') ? sub.link : `${$page.params.lang}/${sub.link}`
+  //$: sublink = sub.link.startsWith('#') ? sub.link : `${$sitelang}/${sub.link}`
   //$: console.log('titles:', titles)
 </script>
 
 {#if sub.ext}
-{#if sub.titles && sub.titles[$page.params.lang]}
-<a class="block" href="{sublink}" rel="noopener" target="_blank">{sub.titles[$page.params.lang]}</a>
-{:else if sub.logo}
-<a href="{sublink}" rel="noopener" target="_blank"><img src="{sub.logo}" alt="{sub.alt}"/></a>
-{:else if subpage}
-<a class="block" href="{sublink}" rel="noopener" target="_blank">{subpage.menutitle || subpage.title}</a>
-{/if}
+  {#if sub.logo}
+    <a href="{sublink}" rel="noopener" target="_blank"><img src="{sub.logo}" alt="{sub.alt}"/></a>
+  {:else if sub.title}
+    <a class="block" href="{sublink}" rel="noopener" target="_blank">{sub.title}</a>
+  <!--{:else if subpage}
+    <a class="block" href="{sublink}" rel="noopener" target="_blank">{subpage.menutitle || subpage.title}</a>-->
+  {/if}
 {:else}
-{#if sub.titles && sub.titles[$page.params.lang]}
-<a class="block" href="{sublink}">{sub.titles[$page.params.lang]}</a>
-{:else if sub.logo}
-<a href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
-{:else if subpage && (subpage.menutitle || subpage.title)}
-<a class="block" href="{sublink}">{subpage.menutitle || subpage.title}</a>
-{/if}
+  {#if sub.logo}
+    <a href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
+  {:else if sub.title}
+    <a class="block" href="{sublink}">{sub.title}</a>
+  <!--{:else if subpage && (subpage.menutitle || subpage.title)}
+    <a class="block" href="{sublink}">{subpage.menutitle || subpage.title}</a>-->
+  {/if}
 {/if}
 
 <style>

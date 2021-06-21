@@ -1,38 +1,42 @@
 <script context="module">
-  import {footnav} from '$lib/config'
+	import { state, /*cookies, moved, */sitelang/*, pagepath*/ } from '$lib/stores'
+  //import {footnav} from '$lib/config'
   import {findPost} from '$lib/config'
   import {findPosts} from '$lib/config'
   import SubNav from '$lib/SubNav.svelte'
 </script>
 <script>
+  //$: langs = $state.langs
+  $: footnav = $state.footnav
+  const dir = $state.thislang.dir
 	//import { stores } from '@sapper/app';
 	//const { page } = stores()
-	import { lang } from '$lib/stores'
+	//import { lang } from '$lib/stores'
   let post, sublinks
 </script>
 
 <footer>
-  <nav>{$lang}
+  <nav>{$sitelang}
     <ul>
       {#each footnav as nav}
       <li>
-        {#if sublinks = nav.subpages}
-        <h4><span tabindex="0">{nav[$lang] || nav['en']}</span></h4>
+        {#if sublinks = nav.sublinks}
+        <h4><span tabindex="0">{nav.title}</span></h4>
           {#each sublinks as sub}
           <SubNav {sub}/>
           {/each}
-        {:else if post = findPost($lang, nav.link)}
-        <h4><!--<a tabindex="0" href="{$lang}/{nav.link}">-->{nav[$lang] || nav['en']}<!--</a>--></h4>
+        <!--{:else if post = findPost($sitelang, nav.link)}
+        <h4>{nav[$sitelang] || nav['en']}</h4>
         {#if post.subpages}
           {#each post.subpages as sub}
           <SubNav {sub}/>
           {/each}
         {/if}
-        {:else if sublinks = findPosts($lang, nav.link)}
-        <h4><span tabindex="0">{nav[$lang] || nav['en']}</span></h4>
+        {:else if sublinks = findPosts($sitelang, nav.link)}
+        <h4><span tabindex="0">{nav[$sitelang] || nav['en']}</span></h4>
           {#each sublinks as sub}
           <SubNav {sub}/>
-          {/each}
+          {/each}-->
         {/if}
       </li>
       {/each}
@@ -51,11 +55,11 @@
     </ul>
   </nav>
   <div>
-    {#if $lang == 'hu'}
+    {#if $sitelang == 'hu'}
     <a href="hu/company#ginop" aria-label="ginop"><img src="/uploads/ginop.png" alt="GINOP pályázat" style="width:20ch;display:block;"/></a>
     {/if}
     <a href="/" aria-label="home"><img src="/uploads/urosystem_logo_02_web.svg" alt="Urosystem logo" style="filter:invert();width:20ch;display:block; aspect-ratio: 100 / 90.861"/></a>
-    {#if $lang == 'hu'}
+    {#if $sitelang == 'hu'}
     <a href="hu/company#nkfi" aria-label="nkfi"><img src="/uploads/nkfi.png" alt="Urosystem logo" style="width:20ch;display:block;"/></a>
     {/if}
   </div>

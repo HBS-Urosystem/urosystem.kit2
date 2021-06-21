@@ -5,7 +5,7 @@
   import { state, sitelang } from '$lib/stores'
 </script>
 <script>
-  export let nav, lang, langs
+  export let nav, lang//, langs
   nav = $state.nav
   lang = $sitelang
   //const alllangs = async (langs) => { return await langs }

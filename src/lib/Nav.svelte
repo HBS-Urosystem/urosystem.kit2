@@ -1,13 +1,14 @@
 <script context="module">
-  import { state } from '$lib/stores'
+  //import { state } from '$lib/stores'
+	import { state, cookies, moved, sitelang, pagepath } from '$lib/stores'
 	//import { langs } from '$lib/config';
-  import { topnav } from '$lib/config'
-  import { findPost } from '$lib/config'
-  import { findPosts } from '$lib/config'
-  import { findBlock } from '$lib/config'
+  //import { topnav } from '$lib/config'
+  //import { _findPost } from '$lib/utils'
+  //import { _findPosts } from '$lib/utils'
+  //import { _getBlock } from '$lib/utils'
   import Components from '$lib/Components.svelte'
   import SubNav from '$lib/SubNav.svelte'
-  import * as scrollnav from "svelte-scrollto"
+  //import * as scrollnav from "svelte-scrollto"
   import { createEventDispatcher } from "svelte";
   /*scrollnav.setGlobalOptions({
     container: 'nav',
@@ -25,8 +26,10 @@
   })*/
 </script>
 <script>
-  langs = $state.langs
-  import validate from "./config";
+  $: langs = $state.langs
+  $: topnav = $state.topnav
+  const dir = $state.thislang.dir
+  import validate from "./_validation";
   let duration = "300ms";
   let offset = 0;
   let tolerance = 4;
@@ -60,37 +63,37 @@
       dispatch(headerClass);
     }
     lastHeaderClass = headerClass;
+    console.log(headerClass)
   }
 
-	import { cookies, moved } from '$lib/stores'
-	const { page } = stores()
-  export let dir, segment
+	//const { page } = stores()
+  //export let segment
   let post, sublinks, navbar, navul, modal
 
-  let path, langchng = segment
-  $: path = $page.path.split('/')
+  let langchng = $sitelang
+  //const path = $pagepath.split('/')
+  //console.log(`${langchng}/${$pagepath}`)
   let subpath
   $: {
-    subpath = $page.path.split('/')
+    subpath = $pagepath.split('/')
     subpath.shift()
     subpath.shift()
   }
   //console.log($page)
 	/*async */function newlang() {
-    path[1] = langchng
+    //path[1] = langchng
+    //console.log(path)
     //await goto(path.join('/'))
-    window.location.href = path.join('/')
-    //console.log(langchng)
+    //window.location.href = path.join('/')
+    window.location.href = `/${langchng}/${$pagepath}`
+    //console.log(`${langchng}/${$pagepath}`)
   }
   let slct
 </script>
 
 <svelte:head>
-  <!--<link rel="alternate external" href="https://www.urosystem.com/en/{subpath.join('/')}" hreflang="en" />
-  <link rel="alternate external" href="https://www.urosystem.com/hu/{subpath.join('/')}" hreflang="hu" />
-  <link rel="alternate external" href="https://www.urosystem.com/ru/{subpath.join('/')}" hreflang="ru" />-->
   {#each langs as lang}
-  <link rel="alternate external" href="https://www.urosystem.com/{lang.id}/{subpath.join('/')}" hreflang="{lang.id}" />
+    <link rel="alternate external" href="https://www.urosystem.com/{lang.id}/{$pagepath}" hreflang="{lang.id}" />
   {/each}
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -149,61 +152,74 @@
         {/each}
       </select>
       <ul>
-        <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener" target="_blank"><img src="uploads/bxl-facebook.svg" alt="facebook"/></a></li>
-        <li><a href="https://www.instagram.com/urodapter/" rel="noopener" target="_blank"><img src="uploads/bxl-instagram.svg" alt="instagram"/></a></li>
-        <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener" target="_blank"><img src="uploads/bxl-youtube.svg" alt="youtube"/></a></li>
-        <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener" target="_blank"><img src="uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
-        <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener" target="_blank"><img src="uploads/bxl-twitter.svg" alt="twitter"/></a></li>
+        <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener" target="_blank"><img src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
+        <li><a href="https://www.instagram.com/urodapter/" rel="noopener" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
+        <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener" target="_blank"><img src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
+        <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener" target="_blank"><img src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
+        <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener" target="_blank"><img src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
         <li><a href="https://vk.com/urodapter" rel="noopener" target="_blank"><img src="/uploads/bxl-vk.svg" alt="vk"></a></li>
         <li><a href="https://ok.ru/urodapter" rel="noopener" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>
       </ul>
     </div>
     <ul bind:this={navul}>
-      <li><a tabindex="0" href="/" aria-label="home"><img src="/uploads/logo-03-web.svg" alt="UroDapter® – Revolutionizing bladder pain treatment"></a></li>
-      {#each topnav as top}
-      <li>
-        {#if sublinks = top.subpages}
-          <span tabindex="0">{top[$page.params.lang] || top['en']} <img src="/uploads/open-down.svg" alt="" aria-hidden="true"></span>
-          <ul>
-            {#each sublinks as sub}
-            <li><SubNav {sub}/></li>
-              {#if modal = findBlock({lang: $page.params.lang, id: 'modal/' + sub.link.substring(1)})}
-              {#each modal.components || [] as comp}
-              <Components {comp}/>
-              {/each}        
+      <li><a tabindex="0" href="/{$sitelang}" aria-label="home"><img src="/uploads/logo-03-web.svg" alt="UroDapter® – Revolutionizing bladder pain treatment"></a></li>
+      <!--{@debug topnav}-->
+      {#each topnav as nav}
+        {#if nav.title}
+          <li>
+            {#if nav.link}
+              <a tabindex="0" href="{$sitelang}/{nav.link}">{nav.title} </a>
+              {#if nav.modal} <!-- = _getBlock('index/'+nav.link.substring(1), 'en')}-->
+                {#each nav.modal.components || [] as comp}
+                  <Components {comp}/>
+                {/each}        
               {/if}
-            {/each}
-          </ul>
-        {:else if post = findPost($page.params.lang, top.link)}
-          {#if post.subpages}
-          <a tabindex="0" href="{$page.params.lang}/{top.link}">{top[$page.params.lang] || top['en']} </a><img src="/uploads/open-down.svg" alt="" aria-hidden="true">
-          <ul>
-            {#each post.subpages as sub}
-            <li><SubNav {sub}/></li>
-            {/each}
-          </ul>
-          {:else}
-          <a tabindex="0" href="{$page.params.lang}/{top.link}">{top[$page.params.lang] || top['en']}</a>
-          {/if}
-        {:else if sublinks = findPosts($page.params.lang, top.link)}
-          <span tabindex="0">{top[$page.params.lang] || top['en']} <img src="/uploads/open-down.svg" alt="" aria-hidden="true"></span>
-          <ul>
-            {#each sublinks as sub}
-            <li><SubNav {sub}/></li>
-            {/each}
-          </ul>
-        {:else if top.link.startsWith('#')}
-          <a tabindex="0" href="{top.link}">{top[$page.params.lang] || top['en']} </a><img src="/uploads/open-down.svg" alt="" aria-hidden="true">
-          {#if modal = findBlock({lang: 'en', id: 'index/'+top.link.substring(1)})}
-          {#each modal.components || [] as comp}
-          <Components {comp}/>
-          {/each}        
-          {/if}
+            {:else}
+              <span tabindex="0">{nav.title} <img src="/uploads/open-down.svg" alt="" aria-hidden="true"></span>
+            {/if}
+
+            {#if sublinks = nav.sublinks}<!--{@debug top}-->
+              <ul>
+                {#each sublinks as sub}
+                  <li><SubNav {sub}/></li>
+                  {#if sub.modal} <!-- = _getBlock('modal/' + sub.link.substring(1), $sitelang)}-->
+                    {#each sub.modal.components || [] as comp}
+                      <Components {comp}/>
+                    {/each}
+                  {/if}
+                {/each}
+              </ul>
+              <!--{:else} if post = _findPost($sitelang, nav.link)}
+              
+              {#if post.subpages}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">
+                <ul>
+                  {#each post.subpages as sub}
+                    <li><SubNav {sub}/></li>
+                  {/each}
+                </ul>
+              {:else}
+                <a tabindex="0" href="{$sitelang}/{nav.link}">{nav.title}</a>
+              {/if}
+              {:else if nav.sublinks}
+              <span tabindex="0">{nav.title} <img src="/uploads/open-down.svg" alt="" aria-hidden="true"></span>
+              <ul>
+                {#each nav.sublinks as sub}
+                <li><SubNav {sub}/></li>
+                {/each}
+              </ul>
+              {:else if nav.link.startsWith('#')}
+              <a tabindex="0" href="{nav.link}">{nav.title} </a><img src="/uploads/open-down.svg" alt="" aria-hidden="true">
+              {#if modal = _getBlock('index/'+nav.link.substring(1), 'en')}
+                {#each modal.components || [] as comp}
+                  <Components {comp}/>
+                {/each}        
+              {/if}-->
+            {/if}
+          </li>
         {/if}
-      </li>
       {/each}
       {#if navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}
-      <li id="over" on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? 200 : -200 )})}>
+      <li id="over"> <!--on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? 200 : -200 )})}-->
         <button aria-label="Scroll the nav"></button>
       </li>
       {/if}

@@ -34,29 +34,38 @@
   {/if}
 </svelte:head>
 
-{#if post.hero}
-<header style="{post.hero.background ? post.hero.background : ``}">
-  <h1 hidden>{post.title}</h1>
-  {#each post.hero.components || [] as comp}
-  <Components {comp}/><h2>{comp.type}</h2><!--  lang={post.hero.lang} -->
-  {/each}
-</header>
+<main>
+  {#if post.hero}
+  <header style="{post.hero.background ? post.hero.background : ``}">
+    <h1 hidden>{post.title}</h1>
+    {#each post.hero.components || [] as comp}
+    <Components {comp}/><h2>{comp.type}</h2><!--  lang={post.hero.lang} -->
+    {/each}
+  </header>
+  {#if post.subposts}
+    <nav>
+      <ul>
+        {#each post.subposts as sub}
+        <!--<SubPage link="{sub.link}" noscroll=true/>--><li><a href="/{lang}/{sub.folder}/{sub.slug}">{sub.menutitle}</a></li>
+        {/each}
+      </ul>
+    </nav>
+  {/if}
 {:else}
-<header>
-  <h1>{post.title}</h1>
-</header>
-{/if}
-
-{#if post.subposts}
 <nav>
+  <header>
+  <h1>{post.title}</h1>
+  {#if post.subposts}
   <ul>
     {#each post.subposts as sub}
-    <!--<SubPage link="{sub.link}" noscroll=true/>--><a href="/{lang}/{sub.folder}/{sub.slug}">{sub.menutitle}</a>
+    <!--<SubPage link="{sub.link}" noscroll=true/>--><li><a href="/{lang}/{sub.folder}/{sub.slug}">{sub.menutitle}</a></li>
     {/each}
   </ul>
+{/if}
+</header>
 </nav>
 {/if}
-<main>
+
   {#each post.blocks || [] as block}
   <div style="{block.background}">
     {#each block.components || [] as comp}
@@ -64,9 +73,7 @@
     {/each}
   </div>
   {/each}
-</main>
 {#if post.subpage}
-<main>
   {#each post.subpage.blocks || [] as block}
   <div style="{block.background}">
     {#each block.components || [] as comp}
@@ -74,6 +81,7 @@
     {/each}
   </div>
   {/each}
-</main>
 {/if}
+</main>
 
+<style></style>

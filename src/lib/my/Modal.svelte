@@ -1,5 +1,6 @@
 <script context="module">
   //import { goto } from '@sapper/app';
+  import { /*state, sitelang, */pagepath } from '$lib/stores'
   import { onMount } from 'svelte';
   import { fade } from 'svelte/transition'
 	//import { stores } from '@sapper/app';
@@ -7,7 +8,7 @@
 </script>
 <script>
 	//import { cookies, moved } from '$lib/stores'
-	const { page } = stores()
+	//const { page } = stores()
 	import { /*createEventDispatcher, */onDestroy } from 'svelte';
   export let comp, lang
   let rel = '', target = '', link, showModal;
@@ -30,8 +31,8 @@
 	const close = () => dispatch('close')*/
 	const close = () => {
     showModal = false
-    async () => await goto($page.path, true)
-    history.replaceState(null, null, $page.path)
+    async () => await goto($pagepath, true)
+    history.replaceState(null, null, $pagepath)
   }
   onMount(() => {
     window.addEventListener('hashchange', function() {
