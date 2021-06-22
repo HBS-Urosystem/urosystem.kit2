@@ -16,7 +16,7 @@
 </script>
 
 <footer>
-  <nav>{$sitelang}
+  <nav>
     <ul>
       {#each footnav as nav}
       <li>

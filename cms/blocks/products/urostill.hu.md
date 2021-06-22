@@ -4,17 +4,19 @@ folder: products
 fallback: en
 components:
   - type: article
-    text: "#### Egyedüli lehetőség, hogy a beteg a húgyhólyag önkezelését a katéter
-      nélküli módszerrel tudja könnyen, külső segítség nélkül elvégezni."
+    text: ""
   - type: qas
     fixed: true
     title: ""
     items:
       - q: Mi az öninstilláció?
         text: >-
-          A nőbetegek nagyon nehezen tudják megtalálni a saját
-          húgycsőnyílásukat. E probléma leküzdésére fejlesztettük ki az
-          UroStill® eszközt.
+          #### Egyedüli lehetőség, hogy a beteg a húgyhólyag önkezelését a
+          katéter nélküli módszerrel tudja könnyen, külső segítség nélkül
+          elvégezni.
+
+
+          A nőbetegek nagyon nehezen tudják megtalálni a saját húgycsőnyílásukat. E probléma leküzdésére fejlesztettük ki az UroStill® eszközt.
 
 
           Az UroStill® a következő elemekből áll: UroDapter®, toldó, háromágú csap, UroStill® befogó (50ml-es fecskendőkhöz). Az opcionális elemek: endoszkópos kamera, tablet, tabletállvány. Ezeket az elemeket tőlünk is megvásárolhatja, de másutt is beszerezheti. A steril fogyóeszközökből – ezek az UroDapter®, a toldó és a háromágú csap – minden instillációhoz új darabra van szüksége (egyszer használatos elemek).
@@ -35,16 +37,12 @@ components:
           A páciens az öninstillációt bármilyen, számára kényelmes pózban elvégezheti, miközben a képernyőn folyamatosan nyomon tudja követni az önkezelést.
       - q: Miért jó az önkezelés?
         text: >-
-          Egyre emelkedik azon interstitialis cystitis/hólyagfájdalom szindróma
-          páciensek száma, akiknek rendszeres hólyagfeltöltésre (instillációra)
-          van szüksége. Az egészégügyi rendszer azonban már a jelenlegi
-          mennyiséggel sem képes megküzdeni. A vizitek ideje, az utazás okozta
-          nehézségek és a terapeuták alacsony száma költségessé teszi a
-          kezeléseket. Az előre meghatározott időpontokban elvégzett instilláció
-          pedig gyakran vezet alul- vagy túlkezeltséghez.
+          #### Az UroStill® segítségével a páciensek – a kezelőorvosuk
+          útmutatásait követve – maguk is elvégezhetik az önkezelést, amikor
+          csak úgy érzik, hogy szükségük van rá.
 
 
-          Az UroStill® segítségével a páciensek – a kezelőorvosuk útmutatásait követve – maguk is elvégezhetik az önkezelést, amikor csak úgy érzik, hogy szükségük van rá.
+          Egyre emelkedik azon interstitialis cystitis/hólyagfájdalom szindróma páciensek száma, akiknek rendszeres hólyagfeltöltésre (instillációra) van szüksége. Az egészégügyi rendszer azonban már a jelenlegi mennyiséggel sem képes megküzdeni. A vizitek ideje, az utazás okozta nehézségek és a terapeuták alacsony száma költségessé teszi a kezeléseket. Az előre meghatározott időpontokban elvégzett instilláció pedig gyakran vezet alul- vagy túlkezeltséghez.
   - type: images
     slide: false
     title: ""

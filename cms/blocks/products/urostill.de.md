@@ -28,17 +28,12 @@ components:
           Der Patient kann die günstigste Position für die Selbstinstillation finden und den gesamten Vorgang auf dem Bildschirm verfolgen.
       - q: Warum Selbst-Instillation?
         text: >-
-          Eine wachsende Zahl von Patienten benötigt eine intravesikale
-          Instillationstherapie bei interstitieller
-          Cystitis/Blasenschmerzsyndrom, die durch das derzeitige
-          Gesundheitssystem keines Landes ausreichend abgedeckt werden kann. Der
-          Zeitaufwand für Besuche, die Reisekosten und die begrenzte
-          Verfügbarkeit von Therapeuten sind für die Patienten sehr teuer, und
-          der vorgegebene Zeitpunkt der Instillation bei den Therapeuten führt
-          oft zu einer Unter- oder Überbehandlung des Patienten.
+          #### Mit UroStill® können sich die Patienten laut der Beratung des
+          Therapeuten selbst behandeln, wann immer sie das Gefühl haben, dies
+          nötig zu haben.
 
 
-          Mit UroStill® können sich die Patienten laut der Beratung des Therapeuten selbst behandeln, wann immer sie das Gefühl haben, dies nötig zu haben.
+          Eine wachsende Zahl von Patienten benötigt eine intravesikale Instillationstherapie bei interstitieller Cystitis/Blasenschmerzsyndrom, die durch das derzeitige Gesundheitssystem keines Landes ausreichend abgedeckt werden kann. Der Zeitaufwand für Besuche, die Reisekosten und die begrenzte Verfügbarkeit von Therapeuten sind für die Patienten sehr teuer, und der vorgegebene Zeitpunkt der Instillation bei den Therapeuten führt oft zu einer Unter- oder Überbehandlung des Patienten.
   - type: images
     slide: false
     title: ""

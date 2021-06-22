@@ -31,17 +31,12 @@ components:
           Le patient peut trouver la position la plus pratique pour l'auto-instillation et suivre facilement l'ensemble du processus sur l'écran.
       - q: Pourquoi l'auto-instillation?
         text: >-
-          Un nombre croissant de patients ont besoin d'une thérapie par
-          instillation intravésicale pour la cystite interstitielle/syndrome
-          de la vessie douleureuse, qui ne peut être suffisamment couverte par
-          le système de santé actuel d'aucun pays. Le temps consacré à la
-          visite, les difficultés de déplacement et la disponibilité limitée des
-          thérapeutes sont très coûteux pour les patients, et le temps
-          prédéterminé d'instillation avec les thérapeutes conduit souvent à un
-          sous-traitement ou un sur-traitement du patient.
+          #### Avec UroStill®, les patients peuvent se soigner dans le cadre de
+          leurs conseils de thérapeute chaque fois qu'ils en ressentent le
+          besoin.
 
 
-          Avec UroStill®, les patients peuvent se soigner dans le cadre de leurs conseils de thérapeute chaque fois qu'ils en ressentent le besoin.
+          Un nombre croissant de patients ont besoin d'une thérapie par instillation intravésicale pour la cystite interstitielle/syndrome de la vessie douleureuse, qui ne peut être suffisamment couverte par le système de santé actuel d'aucun pays. Le temps consacré à la visite, les difficultés de déplacement et la disponibilité limitée des thérapeutes sont très coûteux pour les patients, et le temps prédéterminé d'instillation avec les thérapeutes conduit souvent à un sous-traitement ou un sur-traitement du patient.
   - type: images
     slide: false
     title: ""

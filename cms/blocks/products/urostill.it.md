@@ -31,17 +31,11 @@ components:
           La paziente può trovare la posizione più comoda per l'autoinstillazione e seguire facilmente l'intero processo sullo schermo.
       - q: Perché l’autoinstillazione?
         text: >-
-          Un numero sempre maggiore di pazienti che soffre della cistite
-          interstiziale/sindrome del dolore vescicale necessita di terapia di
-          instillazione intravescicale, che l’attuale sistema sanitario non può
-          garantire in maniera soddisfacente in nessun paese. Il tempo speso per
-          le visite, le difficoltà di viaggiare e la limitata disponibilità dei
-          terapeuti generano costi elevati alle pazienti, e il tempo
-          predeterminato dell’instillazione con i terapeuti spesso conduce a un
-          trattamento insufficiente o eccessivo della paziente. 
+          #### Con l’UroStill®, le pazienti possono trattarsi nel quadro dei
+          consigli del terapeuta ogni volta che sentono di doverlo fare.
 
 
-          Con l’UroStill®, le pazienti possono trattarsi nel quadro dei consigli del terapeuta ogni volta che sentono di doverlo fare.
+          Un numero sempre maggiore di pazienti che soffre della cistite interstiziale/sindrome del dolore vescicale necessita di terapia di instillazione intravescicale, che l’attuale sistema sanitario non può garantire in maniera soddisfacente in nessun paese. Il tempo speso per le visite, le difficoltà di viaggiare e la limitata disponibilità dei terapeuti generano costi elevati alle pazienti, e il tempo predeterminato dell’instillazione con i terapeuti spesso conduce a un trattamento insufficiente o eccessivo della paziente.
   - type: images
     slide: false
     title: ""

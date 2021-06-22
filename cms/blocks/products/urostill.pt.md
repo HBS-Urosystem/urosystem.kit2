@@ -31,17 +31,12 @@ components:
           O paciente pode encontrar a posição mais conveniente para a auto-instilação e acompanhar facilmente todo o processo no ecrã.
       - q: Por que auto-instilação?
         text: >-
-          Um número crescente de pacientes precisa de terapia de instilação
-          intravesical em casos de cistite intersticial/síndrome de dor na
-          bexiga, que não podem ser suficientemente cobertas pelo sistema de
-          saúde atual de nenhum país. O tempo gasto em visitas, as dificuldades
-          de viagem e a disponibilidade limitada de terapeutas são muito caros
-          para os pacientes, e o tempo predeterminado de instilação com os
-          terapeutas frequentemente leva a um tratamento insuficiente ou
-          excessivo do paciente. 
+          #### No caso de UroStill®, os pacientes podem tratar a si mesmos
+          dentro da estrutura do conselho do seu terapeuta sempre que acharem
+          que devem fazê-lo.
 
 
-          No caso de UroStill®, os pacientes podem tratar a si mesmos dentro da estrutura do conselho do seu terapeuta sempre que acharem que devem fazê-lo.
+          Um número crescente de pacientes precisa de terapia de instilação intravesical em casos de cistite intersticial/síndrome de dor na bexiga, que não podem ser suficientemente cobertas pelo sistema de saúde atual de nenhum país. O tempo gasto em visitas, as dificuldades de viagem e a disponibilidade limitada de terapeutas são muito caros para os pacientes, e o tempo predeterminado de instilação com os terapeutas frequentemente leva a um tratamento insuficiente ou excessivo do paciente.
   - type: images
     slide: false
     title: ""

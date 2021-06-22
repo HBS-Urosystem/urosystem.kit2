@@ -1,5 +1,5 @@
 <script context="module">
-  export const hydrate = false
+  //export const hydrate = false
   import { state } from '$lib/stores'
   import { sitelang } from '$lib/stores'
   import { pagepath } from '$lib/stores'

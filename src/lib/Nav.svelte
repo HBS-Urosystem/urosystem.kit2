@@ -63,7 +63,7 @@
       dispatch(headerClass);
     }
     lastHeaderClass = headerClass;
-    console.log(headerClass)
+    //console.log(headerClass)
   }
 
 	//const { page } = stores()
@@ -162,13 +162,13 @@
       </ul>
     </div>
     <ul bind:this={navul}>
-      <li><a tabindex="0" href="/{$sitelang}" aria-label="home"><img src="/uploads/logo-03-web.svg" alt="UroDapter® – Revolutionizing bladder pain treatment"></a></li>
+      <li><a tabindex="0" sveltekit:prefetch href="/{$sitelang}" aria-label="home"><img src="/uploads/logo-03-web.svg" alt="UroDapter® – Revolutionizing bladder pain treatment"></a></li>
       <!--{@debug topnav}-->
       {#each topnav as nav}
         {#if nav.title}
           <li>
             {#if nav.link}
-              <a tabindex="0" href="{$sitelang}/{nav.link}">{nav.title} </a>
+              <a sveltekit:prefetch tabindex="0" href="{$sitelang}/{nav.link}">{nav.title} </a>
               {#if nav.modal} <!-- = _getBlock('index/'+nav.link.substring(1), 'en')}-->
                 {#each nav.modal.components || [] as comp}
                   <Components {comp}/>
@@ -219,7 +219,7 @@
         {/if}
       {/each}
       {#if navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}
-      <li id="over"> <!--on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? 200 : -200 )})}-->
+      <li id="over" on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? 200 : -200 )})}>
         <button aria-label="Scroll the nav"></button>
       </li>
       {/if}
@@ -261,7 +261,8 @@
     overflow-x: auto;
     overflow-y: hidden;
     z-index: 1;
-    background-color: transparent;
+    /*background-color: transparent;*/
+    background-color: var(--dark-blue-75);
   }
   nav.moved{
     background-color: var(--dark-blue);

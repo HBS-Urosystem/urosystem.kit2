@@ -39,9 +39,9 @@
   {/if}
 {:else}
   {#if sub.logo}
-    <a href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
+    <a sveltekit:prefetch href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
-    <a class="block" href="{sublink}">{sub.title}</a>
+    <a sveltekit:prefetch class="block" href="{sublink}">{sub.title}</a>
   <!--{:else if subpage && (subpage.menutitle || subpage.title)}
     <a class="block" href="{sublink}">{subpage.menutitle || subpage.title}</a>-->
   {/if}

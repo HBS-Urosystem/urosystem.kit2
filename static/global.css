@@ -68,7 +68,7 @@ header, article, aside, main > div {
   background-blend-mode: soft-light, screen;
 }
 nav + main > header {
-  padding-top: 9rem;
+  padding-top: 10rem;
 }
 header figure {
   margin: 1em!important;
@@ -105,16 +105,20 @@ article > div, aside > div, figcaption {
   margin: 0 auto;
   padding: 0;
 }
-header + nav, main + nav {
+/*header + nav, */header {
   padding: var(--rem) 0;
   /*text-align: center;*/
   /*background-color: var(--light-blue);*/
   background-image: var(--grad-light-blue);
 }
-header + nav ul, main + nav ul {
+header ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+header li {
+  width: max-content;
+  margin: .5rem 0;
 }
 /*h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child {*/
   /*margin-bottom: 0;*/

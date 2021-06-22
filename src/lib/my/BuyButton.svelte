@@ -5,7 +5,7 @@
 <script>
   export let comp
   const langs = $state.langs
-  $: console.log('$state_BB',comp.lang)
+  //$: console.log('$state_BB',comp.lang)
   let mounted = false
   onMount(() => {
     mounted = []

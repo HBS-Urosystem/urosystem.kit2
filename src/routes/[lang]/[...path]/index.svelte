@@ -3,31 +3,30 @@
 
   import { state, sitelang } from '$lib/stores'
   import Components from '$lib/Components.svelte'
+  import SubPage from '$lib/SubPage.svelte'
   //import { amp, browser, dev, prerendering } from '$app/env'
 
 </script>
 <script>
-  export let lang, post
-  $: post = $state.post
-  $: lang = $sitelang
+  $: console.log('state.subpage', $state.post.subpage)
 </script>
 
 <svelte:head>
-  {#if post.subpage}
-    <title>{post.subpage.title}</title>
-    <meta name="description" content="{post.subpage.description}">
-    <meta name="keywords" content="{post.subpage.keywords}">
-    {#if post.subpage.meta}
-      {#each post.subpage.meta as meta}
+  {#if $state.post.subpage}
+    <title>{$state.post.subpage.title}</title>
+    <meta name="description" content="{$state.post.subpage.description}">
+    <meta name="keywords" content="{$state.post.subpage.keywords}">
+    {#if $state.post.subpage.meta}
+      {#each $state.post.subpage.meta as meta}
         <meta name={meta.name} content={meta.content}>
       {/each}
     {/if}
   {:else}
-    <title>{post.title}</title>
-    <meta name="description" content="{post.description}">
-    <meta name="keywords" content="{post.keywords}">
-    {#if post.meta}
-      {#each post.meta as meta}
+    <title>{$state.post.title}</title>
+    <meta name="description" content="{$state.post.description}">
+    <meta name="keywords" content="{$state.post.keywords}">
+    {#if $state.post.meta}
+      {#each $state.post.meta as meta}
         <meta name={meta.name} content={meta.content}>
       {/each}
     {/if}
@@ -35,49 +34,50 @@
 </svelte:head>
 
 <main>
-  {#if post.hero}
-  <header style="{post.hero.background ? post.hero.background : ``}">
-    <h1 hidden>{post.title}</h1>
-    {#each post.hero.components || [] as comp}
-    <Components {comp}/><h2>{comp.type}</h2><!--  lang={post.hero.lang} -->
-    {/each}
-  </header>
-  {#if post.subposts}
-    <nav>
-      <ul>
-        {#each post.subposts as sub}
-        <!--<SubPage link="{sub.link}" noscroll=true/>--><li><a href="/{lang}/{sub.folder}/{sub.slug}">{sub.menutitle}</a></li>
-        {/each}
-      </ul>
+  {#if $state.post.hero}
+    <header style="{$state.post.hero.background ? $state.post.hero.background : ``}">
+      <h1 hidden>{$state.post.title}</h1>
+      {#each $state.post.hero.components || [] as comp}
+      <Components {comp}/><!-- <h2>{comp.type}</h2> --><!--  lang={$state.post.hero.lang} -->
+      {/each}
+    </header>
+    {#if $state.post.subposts}
+      <nav>
+        <ul>
+          {#each $state.post.subposts as sub}
+          <!--<li><SubNav {sub}/></li>--><li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} noscroll/></li><!--<li><a href="/{$sitelang}/{sub.folder}/{sub.slug}">{sub.menutitle}</a></li>-->
+          {/each}
+        </ul>
+      </nav>
+    {/if}
+  {:else}
+    <header>
+      <h1>{$state.post.title}</h1>
+      <nav>
+        {#if $state.post.subposts}
+        <ul>
+          {#each $state.post.subposts as sub}
+          <!--<li><SubNav {sub}/></li>--><li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} noscroll=true/></li><!--<li><a href="/{$sitelang}/{sub.folder}/{sub.slug}">{sub.menutitle}</a></li>-->
+          {/each}
+        </ul>
+      {/if}
     </nav>
+  </header>
   {/if}
-{:else}
-<nav>
-  <header>
-  <h1>{post.title}</h1>
-  {#if post.subposts}
-  <ul>
-    {#each post.subposts as sub}
-    <!--<SubPage link="{sub.link}" noscroll=true/>--><li><a href="/{lang}/{sub.folder}/{sub.slug}">{sub.menutitle}</a></li>
-    {/each}
-  </ul>
-{/if}
-</header>
-</nav>
-{/if}
 
-  {#each post.blocks || [] as block}
+  {#each $state.post.blocks || [] as block}
   <div style="{block.background}">
     {#each block.components || [] as comp}
-    <Components {comp}/><h2>{comp.type}</h2><!--  lang={block.lang} -->
+    <Components {comp}/><!-- <h2>{comp.type}</h2> --><!--  lang={block.lang} -->
     {/each}
   </div>
   {/each}
-{#if post.subpage}
-  {#each post.subpage.blocks || [] as block}
+{#if $state.post.subpage}
+  <h1>{$state.post.subpage.title}</h1>
+  {#each $state.post.subpage.blocks || [] as block}
   <div style="{block.background}">
     {#each block.components || [] as comp}
-    <Components {comp}/><h2>{comp.type}</h2><!--  lang={block.lang} -->
+    <Components {comp}/><!-- <h2>{comp.type}</h2> --><!--  lang={block.lang} -->
     {/each}
   </div>
   {/each}

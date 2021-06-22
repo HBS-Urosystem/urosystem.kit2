@@ -1,29 +1,29 @@
 <script context="module">
-  import {findPost} from '$lib/config'
+  import { sitelang } from '$lib/stores'
+  //import _findPost from '$lib/utils'
   //import { onMount } from 'svelte';
+  //import { cubicInOut } from "svelte/easing"
+  //import * as scrollto from "svelte-scrollto"
 </script>
 
 <script>
-  import * as scrollto from "svelte-scrollto"
-	//import { stores } from '@sapper/app';
-	const { /*preloading, */page/*, session */} = stores();
-	//import { lang } from '$lib/stores'
-  export let link, noscroll
-  let subpage
-  $: {
-    subpage = findPost($page.params.lang, link) || []
-    //console.log(subpage)
-  }
+	//const { /*preloading, */page/*, session */} = stores();
+  export let sub, noscroll, active
+  //let subpage = _findPost($page.params.lang, link) || []
+    console.log(active)
+  
 </script>
 
-<li class:active={$page.params.slug == subpage.slug || !$page.params.slug && subpage.slug == '.'}><a href="{$page.params.lang}/{subpage.folder}/{subpage.slug}" sapper:noscroll={false} on:click={() => scrollto.scrollTo({element: noscroll ? 'main' : 'body', y: 0})}>{subpage.menutitle || subpage.title}</a></li>
+<!--<li class:active={$page.params.slug == sub.slug || !$page.params.slug && sub.slug == '.'}><a href="{$page.params.lang}/{sub.folder}/{sub.slug}" sapper:noscroll={false} on:click={() => scrollto.scrollTo({element: noscroll ? 'main' : 'body', y: 0})}>{sub.menutitle || sub.title}</a></li>-->
+<!--<li class:active={active}>--><a href="/{$sitelang}/{sub.folder}/{sub.slug}" sapper:noscroll={false}>{sub.menutitle || sub.title}</a><!--</li>--><!--  use:scrollto={noscroll ? 'main' : 'body'} -->
+<!--on:click={() => scrollto.scrollTo({element: noscroll ? 'main' : 'body', y: 0})}-->
 
 <style>
-  li {
+/*  li {
     width: max-content;
     margin: .5rem 0;
   }
-  li a {
+*/  /*li */a {
     padding: .25rem 1rem 0;
     display: block;
   }
@@ -32,7 +32,7 @@
     border: 2px transparent solid;
     border-radius: 1.5rem;
   }
-  .active a {
+  :global(.active) a {
     border-color: var(--pale-blue);
   }
   /*.active a::before {

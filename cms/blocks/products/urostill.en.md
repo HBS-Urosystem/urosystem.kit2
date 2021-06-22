@@ -9,8 +9,10 @@ components:
     items:
       - q: How does self-instillation work?
         text: >-
-          It is difficult for female patients to identify the urethral orifice.
-          That is why UroStill® have been invented.
+          #### By myself.
+
+
+          It is difficult for female patients to identify the urethral orifice. That is why UroStill® have been invented.
 
 
           UroStill® consists of the following elements: UroDapter®, extension, three-way-tap and UroStill® holder (for 50ml syringes). Its optional parts are the endoscopic camera, the tablet and the tablet stand. These you can purchase from us, or you can buy yourself elsewhere. For each instillation you will need to purchase sterile disposable elements as a set containing UroDapter®, extension and three-way-tap.
@@ -19,7 +21,7 @@ components:
           The UroDapter® adapter is the only part whose tip enters the orifice of the urethra to deliver the solution used for treating the bladder. An extension part is to be attached to the UroDapter® and a three-way tap to the extension and the syringe. These two elements transmit the solution from the syringe to the UroDapter®.
 
 
-          The core of the UroStill® is the plastic holder (non-disposable), which holds both the syringe and the endoscopic camera fast. 
+          The core of the UroStill® is the plastic holder (non-disposable), which holds both the syringe and the endoscopic camera. 
 
 
           A constrictor ring, which comes with the UroStill® holder, can be placed into the holder, so that UroStill® can be used with 20ml syringes, too. (The syringe with the medicine is not included.)
@@ -31,16 +33,12 @@ components:
           The patient can find the most convenient position for the self-instillation and easily follow the whole process on the screen.
       - q: Why self-instillation?
         text: >-
-          A growing number of patients need intravesical instillation therapy in
-          interstitial cystitis/bladder pain syndrome, which cannot be
-          sufficiently covered by the current healthcare system of any country.
-          The time spent on visiting, the traveling difficulties and the limited
-          availability of therapists are very expensive for the patients, and
-          the predetermined time of instillation with the therapists often leads
-          to under- or over-treatment of the patient.
+          #### With UroStill®, patients can treat themselves within the
+          framework of their therapist advice whenever they feel they have to do
+          so.
 
 
-          With UroStill®, patients can treat themselves within the framework of their therapist advice whenever they feel they have to do so.
+          A growing number of patients need intravesical instillation therapy in interstitial cystitis/bladder pain syndrome, which cannot be sufficiently covered by the current healthcare system of any country. The time spent on visiting, the traveling difficulties and the limited availability of therapists are very expensive for the patients, and the predetermined time of instillation with the therapists often leads to under- or over-treatment of the patient.
   - type: images
     slide: false
     title: ""
