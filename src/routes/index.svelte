@@ -1,27 +1,27 @@
 <script context="module">
+  import { onMount } from 'svelte'
   import { sitelang } from '$lib/stores'
-  export const load = async ({ page }) => {
+  /*export const load = async ({ page }) => {
     console.log('page',{...page})
     return {
 				props: {
-          params: {...page.params}/*,
-          lang: lang,
-          path: path*/
+          page: {...page}
         }
 			}
-  }
+  }*/
 </script>
 <script>
   import { goto/*, invalidate, prefetch, prefetchRoutes*/ } from '$app/navigation'
-  export let params
-  console.log($sitelang, params)
-  //if (!params) goto($sitelang || 'en')
-  //async ()=> {
-    console.log('goto')
+  //export let page
+  //if (!page) goto($sitelang || 'en')
+  onMount(() => {
+    //console.log('goto/' + page)
     goto('/' + $sitelang, { replaceState: true });
+	})
+  //async ()=> {
   //}
 </script>
 
 <svelte:head>
-<title>URO</title>
+<title>UroSystem_Inc</title>
 </svelte:head>

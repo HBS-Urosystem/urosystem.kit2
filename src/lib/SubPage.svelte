@@ -3,20 +3,20 @@
   //import _findPost from '$lib/utils'
   //import { onMount } from 'svelte';
   //import { cubicInOut } from "svelte/easing"
-  //import * as scrollto from "svelte-scrollto"
+  import * as scrollto from "svelte-scrollto"
 </script>
 
 <script>
 	//const { /*preloading, */page/*, session */} = stores();
-  export let sub, noscroll, active
+  export let sub, noscroll = false//, active
   //let subpage = _findPost($page.params.lang, link) || []
-    console.log(active)
+    //console.log(active)
   
 </script>
 
 <!--<li class:active={$page.params.slug == sub.slug || !$page.params.slug && sub.slug == '.'}><a href="{$page.params.lang}/{sub.folder}/{sub.slug}" sapper:noscroll={false} on:click={() => scrollto.scrollTo({element: noscroll ? 'main' : 'body', y: 0})}>{sub.menutitle || sub.title}</a></li>-->
-<!--<li class:active={active}>--><a href="/{$sitelang}/{sub.folder}/{sub.slug}" sapper:noscroll={false}>{sub.menutitle || sub.title}</a><!--</li>--><!--  use:scrollto={noscroll ? 'main' : 'body'} -->
-<!--on:click={() => scrollto.scrollTo({element: noscroll ? 'main' : 'body', y: 0})}-->
+<!--<li class:active={active}>--><a href="/{$sitelang}/{sub.folder}/{sub.slug}" sveltekit:noscroll on:click={() => scrollto.scrollTo({element: (noscroll ? 'header + h1' : 'body'), offset: -76})}>{sub.menutitle || sub.title}</a><!--</li>--><!--  use:scrollto={noscroll ? 'main' : 'body'} -->
+<!-- on:click={() => scrollto.scrollTo({element: noscroll ? 'main' : 'body', y: 0})}-->
 
 <style>
 /*  li {

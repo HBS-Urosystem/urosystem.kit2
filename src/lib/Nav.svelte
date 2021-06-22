@@ -8,7 +8,7 @@
   //import { _getBlock } from '$lib/utils'
   import Components from '$lib/Components.svelte'
   import SubNav from '$lib/SubNav.svelte'
-  //import * as scrollnav from "svelte-scrollto"
+  import * as scrollnav from "svelte-scrollto"
   import { createEventDispatcher } from "svelte";
   /*scrollnav.setGlobalOptions({
     container: 'nav',
@@ -219,7 +219,7 @@
         {/if}
       {/each}
       {#if navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}
-      <li id="over" on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? 200 : -200 )})}>
+      <li id="over" on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? 200 : -200 )})}><!--  -->
         <button aria-label="Scroll the nav"></button>
       </li>
       {/if}

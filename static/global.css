@@ -105,18 +105,18 @@ article > div, aside > div, figcaption {
   margin: 0 auto;
   padding: 0;
 }
-/*header + nav, */header {
+header ~ nav, header {
   padding: var(--rem) 0;
   /*text-align: center;*/
   /*background-color: var(--light-blue);*/
   background-image: var(--grad-light-blue);
 }
-header ul {
+header ~ nav ul, header ul {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-header li {
+header ~ nav li, header li {
   width: max-content;
   margin: .5rem 0;
 }

@@ -8,7 +8,7 @@
 
 </script>
 <script>
-  $: console.log('state.subpage', $state.post.subpage)
+  //$: console.log('state.subpage', $state.post.subpage)
 </script>
 
 <svelte:head>
@@ -55,33 +55,42 @@
       <h1>{$state.post.title}</h1>
       <nav>
         {#if $state.post.subposts}
-        <ul>
-          {#each $state.post.subposts as sub}
-          <!--<li><SubNav {sub}/></li>--><li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} noscroll=true/></li><!--<li><a href="/{$sitelang}/{sub.folder}/{sub.slug}">{sub.menutitle}</a></li>-->
-          {/each}
-        </ul>
-      {/if}
-    </nav>
-  </header>
+          <ul>
+            {#each $state.post.subposts as sub}
+            <!--<li><SubNav {sub}/></li>--><li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} noscroll/></li><!--<li><a href="/{$sitelang}/{sub.folder}/{sub.slug}">{sub.menutitle}</a></li>-->
+            {/each}
+          </ul>
+        {/if}
+      </nav>
+    </header>
   {/if}
 
   {#each $state.post.blocks || [] as block}
-  <div style="{block.background}">
-    {#each block.components || [] as comp}
-    <Components {comp}/><!-- <h2>{comp.type}</h2> --><!--  lang={block.lang} -->
-    {/each}
-  </div>
+    <div style="{block.background}">
+      {#each block.components || [] as comp}
+        <Components {comp}/><!-- <h2>{comp.type}</h2> --><!--  lang={block.lang} -->
+      {/each}
+    </div>
   {/each}
-{#if $state.post.subpage}
-  <h1>{$state.post.subpage.title}</h1>
-  {#each $state.post.subpage.blocks || [] as block}
-  <div style="{block.background}">
-    {#each block.components || [] as comp}
-    <Components {comp}/><!-- <h2>{comp.type}</h2> --><!--  lang={block.lang} -->
+  {#if $state.post.subpage}
+    <h1>{$state.post.subpage.title}</h1>
+    {#each $state.post.subpage.blocks || [] as block}
+      <div style="{block.background}">
+        {#each block.components || [] as comp}
+          <Components {comp}/><!-- <h2>{comp.type}</h2> --><!--  lang={block.lang} -->
+        {/each}
+      </div>
     {/each}
-  </div>
-  {/each}
-{/if}
+  {/if}
+  <nav>
+    {#if $state.post.subposts}
+      <ul>
+        {#each $state.post.subposts as sub}
+        <!--<li><SubNav {sub}/></li>--><li class:active={$state.post.subpage.id == sub.id}><SubPage {sub}/></li><!--<li><a href="/{$sitelang}/{sub.folder}/{sub.slug}">{sub.menutitle}</a></li>-->
+        {/each}
+      </ul>
+    {/if}
+  </nav>
 </main>
 
 <style></style>
