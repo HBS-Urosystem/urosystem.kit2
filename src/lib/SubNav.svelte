@@ -17,7 +17,8 @@
   //console.log('subnav',sub)
   //const subpage = _getPost($sitelang, sub.link) || {}
   $: if (sub.link && sub.link.startsWith('#')) {
-    sublink = '/' + $pagepath + sub.link
+    sublink = '/' + $sitelang + ($pagepath ? '/' + $pagepath : '') + sub.link
+    console.log(sublink)
   } else if (sub.link && sub.link.startsWith('http')) {
     sublink = sub.link
   } else {

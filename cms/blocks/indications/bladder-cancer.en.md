@@ -5,13 +5,13 @@ fallback: ""
 components:
   - type: article
     text: >-
-      With a yearly incidence of nearly 550,000 (worldwide), bladder cancer is
-      the 6th most common cancer in men and the 17<sup>th</sup> most common in
-      women.[1](https://www.wcrf.org/dietandcancer/cancer-trends/bladder-cancer-statistics) In
+      With nearly 550,000 incidence a year (worldwide), bladder cancer is the
+      6th most common cancer in men and the 17<sup>th</sup> most common in
+      women.[[1](https://www.wcrf.org/dietandcancer/cancer-trends/bladder-cancer-statistics)] In
       the non-muscle invasive (superficial) form of the disease intravesical
       instillation is an effective method of reducing recurrence; the two most
       frequently used drugs are BCG (Bacillus Calmette-Guérin) and
-      mitomycin.[2](https://www.healthline.com/health/bladder-cancer/bcg-treatment-for-bladder-cancer),[3](https://www.ncbi.nlm.nih.gov/pubmed/20562793).
+      mitomycin.[[2](https://www.healthline.com/health/bladder-cancer/bcg-treatment-for-bladder-cancer),[3](https://www.ncbi.nlm.nih.gov/pubmed/20562793)]
       Gemcitabine and valrubicin are less commonly used: the former one is less
       efficient but causes less side effects, the latter one may be applied if
       the patient has not responded to BCG. The therapy usually lasts for six
@@ -20,7 +20,7 @@ components:
       pathological staging. It is suggested by some experts that one single
       instillation after transurethral resection of the bladder might help lower
       the chance of
-      recurrence.[4](https://www.eu-focus.europeanurology.com/article/S2405-4569(18)30189-5/fulltext)
+      recurrence.[[4](https://www.eu-focus.europeanurology.com/article/S2405-4569(18)30189-5/fulltext)]
 
 
       Theoretically, performing the local chemotherapy with the UroDapter® would be beneficial because the drug would affect the urethra, too, where neoimplantation of tumorous cells could occur. Further clinical trials are needed to certificate this indication.

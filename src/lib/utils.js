@@ -49,7 +49,7 @@ export async function _getConf(lang) {
     //console.log(c)
   }
 
-  config.thislang = {}
+  config.thislang = null
   for (const l of config.langs) {
     if (l.id == lang) config.thislang = l
   }
@@ -112,7 +112,7 @@ export async function _getConf(lang) {
         //if (!!page.link) modal = await _findBlock('modal/' + page.link.substring(1), lang)
         //if (modal) page.modal = modal
         page.modal = (!!page.link && await _findBlock('modal/' + page.link.substring(1), lang))
-          //console.log('page.modal',await page.modal)
+        //console.log('page.modal',await page.modal)
         
         subs.push(page)
       }

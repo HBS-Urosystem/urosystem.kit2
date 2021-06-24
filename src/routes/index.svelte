@@ -1,5 +1,6 @@
 <script context="module">
   import { onMount } from 'svelte'
+  import { goto/*, invalidate, prefetch, prefetchRoutes*/ } from '$app/navigation'
   import { sitelang } from '$lib/stores'
   /*export const load = async ({ page }) => {
     console.log('page',{...page})
@@ -11,7 +12,6 @@
   }*/
 </script>
 <script>
-  import { goto/*, invalidate, prefetch, prefetchRoutes*/ } from '$app/navigation'
   //export let page
   //if (!page) goto($sitelang || 'en')
   onMount(() => {
@@ -23,5 +23,5 @@
 </script>
 
 <svelte:head>
-<title>UroSystem_Inc</title>
+<title>UroSystem Inc</title>
 </svelte:head>

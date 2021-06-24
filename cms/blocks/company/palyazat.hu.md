@@ -39,8 +39,8 @@ components:
           E fenntarthatóságot a hazai ismert betegek folyamatos kezelésével, illetve a magyar és nemzetközi betegképviseleti szervezetek segítségével az előzetesen felmért megrendelések alapján látjuk biztosítva. Célunk, hogy a projekt megvalósítása során a termék kifejlesztése és engedélyezése megtörténjen, és alkalmassá váljon a sorozatgyártásra. A betegszám ismeretében – az érintettek száma a világon többmillióra tehető – a készítmény, illetve a terápia várhatóan gyorsan elterjed, hiszen jelenleg nincs az IC betegek savas vizeletének savasságát a pH beállításával egyenletesen csökkentő, az állandó fájdalmat tartósan enyhítő megoldás. A hagyományos lúgosító tabletták ugyanis nem csökkentik hatékonyan a fájdalmat: nem biztosítanak egyenletes vizelet pH-t, és a káliumtartalom miatt a hólyagirritáció és a fájdalom folyamatosan jelentkezik.
         anchor: nkfi
       - type: article
-        title: Nőbetegek önkatéterezésre szolgáló gyógyászati segédeszköz prototípusának
-          kifejlesztés
+        title: Nőbetegek önkatéterezésére szolgáló gyógyászati segédeszköz
+          prototípusának kifejlesztése
         button: ""
         text: >-
           **Kedvezményezett neve:** Happy Business Services Zrt. (ma: Urosystem

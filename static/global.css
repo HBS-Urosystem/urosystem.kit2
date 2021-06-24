@@ -42,6 +42,9 @@ body {
   letter-spacing: .04em;
   color: #fff;
   background-color: var(--mid-blue);
+
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
 }
 html, body {
   height: 100%;
@@ -368,8 +371,10 @@ article summary > *:last-child {
 /*details:not([open]) > */summary::after {
   content: '';
   position: absolute;
-  inset-inline-end: 0;
-  bottom: .25rem;
+  /*inset-inline-start: 0;*/
+  /*bottom: .25rem;*/
+  inset-inline-start: -2rem;
+  top: 0;
   width: 1.5rem;
   height: 1.5rem;
   filter:invert();
@@ -379,6 +384,9 @@ article summary > *:last-child {
 }
 details[open] > summary::after {
   background-image: var(--marker-down);
+}
+:not([open]) > summary h3:not(:hover) {
+  color: var(--pale-blue);
 }
 
 [dir='rtl'] select {

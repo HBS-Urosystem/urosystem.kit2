@@ -7,17 +7,27 @@ export const get = async (request) => {
 
 	if (path.endsWith('.json')) { ///?
 		console.log('JSON',path)
-		return true
+		return false
 	}
 
-	const parts = path.split('/')
-	const post = await _getPost({path: parts[0], lang, sub: parts[1]})
-	const conf = await _getConf(lang)
-  //console.log('conf',conf)
-	
-	//const langs = await _getLangs()
-	
-	return {
-		body: {post, ...conf}
+	let post, conf
+
+	conf = await _getConf(lang)
+	if (!conf.thislang) {
+		return false
+		/*path = lang
+		lang = 'en'
+		conf = await _getConf(lang)*/
 	}
+
+	const parts = !!path && path !== 'undefined' && path.split('/')
+  console.log('conf',parts)
+
+	post = await _getPost({path: parts[0], lang, sub: parts[1]})
+	if (post.id) {
+			return {
+			body: {post, ...conf}
+		}
+	}
+	return false
 }

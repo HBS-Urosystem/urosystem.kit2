@@ -19,7 +19,7 @@
   {#if comp.title}<h1 id="{comp.anchor}">{comp.title}</h1>{/if}
   <section class="{comp.slide ? 'slides' : 'grid'}" style="--cols: {comp.components.length};">
     {#each comp.components || [] as c}
-    c.lang = comp.lang
+    <!--c.lang = comp.lang-->
     <svelte:component this={options[c.type]} comp={c}/>
     {/each}
   </section>

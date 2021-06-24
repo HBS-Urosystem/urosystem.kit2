@@ -1,5 +1,5 @@
 <script context="module">
-  export const hydrate = false
+  //export const hydrate = false
 
   import { state, sitelang } from '$lib/stores'
   import Components from '$lib/Components.svelte'
@@ -45,7 +45,7 @@
       <nav>
         <ul>
           {#each $state.post.subposts as sub}
-          <!--<li><SubNav {sub}/></li>--><li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} noscroll/></li><!--<li><a href="/{$sitelang}/{sub.folder}/{sub.slug}">{sub.menutitle}</a></li>-->
+          <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} noscroll/></li>
           {/each}
         </ul>
       </nav>
@@ -57,7 +57,7 @@
         {#if $state.post.subposts}
           <ul>
             {#each $state.post.subposts as sub}
-            <!--<li><SubNav {sub}/></li>--><li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} noscroll/></li><!--<li><a href="/{$sitelang}/{sub.folder}/{sub.slug}">{sub.menutitle}</a></li>-->
+            <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} noscroll/></li>
             {/each}
           </ul>
         {/if}
@@ -73,7 +73,7 @@
     </div>
   {/each}
   {#if $state.post.subpage}
-    <h1>{$state.post.subpage.title}</h1>
+    <h2>{$state.post.subpage.title}</h2>
     {#each $state.post.subpage.blocks || [] as block}
       <div style="{block.background}">
         {#each block.components || [] as comp}
@@ -82,15 +82,16 @@
       </div>
     {/each}
   {/if}
-  <nav>
     {#if $state.post.subposts}
+    <nav>
+      <h2>{$state.post.title}</h2>
       <ul>
         {#each $state.post.subposts as sub}
-        <!--<li><SubNav {sub}/></li>--><li class:active={$state.post.subpage.id == sub.id}><SubPage {sub}/></li><!--<li><a href="/{$sitelang}/{sub.folder}/{sub.slug}">{sub.menutitle}</a></li>-->
+        <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub}/></li>
         {/each}
       </ul>
-    {/if}
-  </nav>
+    </nav>
+  {/if}
 </main>
 
 <style></style>

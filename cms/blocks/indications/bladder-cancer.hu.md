@@ -7,11 +7,11 @@ components:
     text: >-
       Az évente világszerte közel 550 000 embert érintő állapot férfiak közt a
       6., nők közt a 17. leggyakoribb daganatos
-      betegség.[1](https://www.wcrf.org/dietandcancer/cancer-trends/bladder-cancer-statistics) A
+      betegség.[[1](https://www.wcrf.org/dietandcancer/cancer-trends/bladder-cancer-statistics)] A
       nem-izom invazív (felszínes) formája hatásosan kezelhető intravezikális
       instillációval. A leggyakrabban használt anyag a BCG (Bacillus
       Calmette-Guérin), a mitomycin és az
-      epirubicin.[2](https://www.healthline.com/health/bladder-cancer/bcg-treatment-for-bladder-cancer).[3](https://www.ncbi.nlm.nih.gov/pubmed/20562793) Ritkábban
+      epirubicin.[[2](https://www.healthline.com/health/bladder-cancer/bcg-treatment-for-bladder-cancer).[3](https://www.ncbi.nlm.nih.gov/pubmed/20562793)] Ritkábban
       alkalmazzák a gemcitabint és a valrubicint. Az előbbi kevésbé hatásos, ám
       kevesebb a mellékhatása is, az utóbbit akkor adják, ha a páciens nem
       reagált a BCG-re. A terápia, heti 1 instilláció mellett, általában 6 hétig
@@ -19,7 +19,7 @@ components:
       során ritkábbak az instillációk), ami a kórkép függvénye. Közvetlenül a
       hólyag transzuretrális reszekcióját követően adott egyetlen instilláció
       csökkenti az ismételt kialakulás
-      esélyét.[4](https://www.eu-focus.europeanurology.com/article/S2405-4569(18)30189-5/fulltext)
+      esélyét.[[4](https://www.eu-focus.europeanurology.com/article/S2405-4569(18)30189-5/fulltext)]
 
 
       Elméletileg, előnyös volna a (helyi) kemoterápiás kezelést UroDapterrel végezni, mivel így a drog egyben a húgycsőre is hatna – ami megakadályozhatná a tumoros sejtek neo-implantációját. További vizsgálatok szükségesek annak biztos megítélésére, hogy biztonságosan alkalmazható-e az UroDapter® a felületes hólyagrák kiújulásának megelőzésére.

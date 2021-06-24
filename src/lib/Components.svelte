@@ -9,7 +9,7 @@
   import Refs from '$lib/my/Refs.svelte'
   import Qas from '$lib/my/Qas.svelte'
   import Form from '$lib/my/Form.svelte'
-	import Modal from '$lib/my/Modal.svelte';
+	import Modal from '$lib/my/Modal.svelte'
 
   const options = {
 		article: Article,

@@ -186,9 +186,9 @@
   {#if comp.title}<h2 id="{comp.anchor}">{comp.title}</h2>{/if}
   {#if comp.text}<div>{@html comp.text}</div>{/if}
   {#if comp.button && langs}
-  {#each langs as lang}
-  <div tabindex="0" lang='{lang.id}' id='product-component-1616169000007-{lang.id}' hidden={comp.lang !== lang.id} aria-hidden={comp.lang !== lang.id}></div>
-  {/each}
+    {#each langs as lang}
+      <div tabindex="0" lang='{lang.id}' id='product-component-1616169000007-{lang.id}' hidden={comp.lang !== lang.id} aria-hidden={comp.lang !== lang.id}></div>
+    {/each}
   {/if}
 </aside>
 

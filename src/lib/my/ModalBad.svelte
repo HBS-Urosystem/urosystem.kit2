@@ -1,12 +1,16 @@
 <script context="module">
+  //import { goto } from '@sapper/app';
   import { goto/*, invalidate, prefetch, prefetchRoutes*/ } from '$app/navigation'
-  import { onMount, onDestroy } from 'svelte';
-  import { fade } from 'svelte/transition'
   import { /*state, */sitelang, pagepath } from '$lib/stores'
+  import { onMount } from 'svelte';
+  import { fade } from 'svelte/transition'
+	//import { stores } from '@sapper/app';
   import Portal from "svelte-portal/src/Portal.svelte"
 </script>
 <script>
-	//import { cookies, moved } from '@/stores'
+	//import { cookies, moved } from '$lib/stores'
+	//const { page } = stores()
+	import { /*createEventDispatcher,*/ onDestroy } from 'svelte';
   export let comp
   let rel = '', target = '', link, showModal;
   //$: console.log(comp)
@@ -20,7 +24,7 @@
     } else {
       //console.log(comp.link)
       //if (comp.link == 'index') comp.link = ''
-      link = '/' + $sitelang + (comp.link == 'index' ? '' : '/' + comp.link)
+      link = '/' + comp.lang + (comp.link == 'index' ? '' : '/' + comp.link)
     }
   }
 
@@ -28,18 +32,20 @@
 	const close = () => dispatch('close')*/
 	const close = () => {
     showModal = false
-    async () => await goto(`/${$sitelang}/${$pagepath}`, true)
-    history.replaceState(null, null, `/${$sitelang}/${$pagepath}`)
+    console.log('close',`${$sitelang}/${$pagepath}`)
+    /*async () => await*/ goto(`/${$sitelang}/${$pagepath}`, true)
+    .then(history.replaceState(null, null, `/${$sitelang}/${$pagepath}`) )
   }
+  
   onMount(() => {
     window.addEventListener('hashchange', function() {
-      showModal = document.location.hash == '#'+comp.anchor
-      console.log('hashchange',document.location.hash)
+      console.log('window.hashchange',window.location.hash)
+      showModal = window.location.hash == '#'+comp.anchor
     })
-    showModal = document.location.hash == '#'+comp.anchor
-    console.log('onMount','#'+comp.anchor)//comp.anchor,document.location.hash)
+    showModal = window.location.hash == '#'+comp.anchor
+    console.log('onMount',location)//comp.anchor,document.location.hash)
+    $: console.log(window.location.hash, '#'+comp.anchor)
   })
-  //$: console.log(document.location.hash, '#'+comp.anchor)
   
 	let modal
 	const handle_keydown = e => {
@@ -58,7 +64,7 @@
 			tabbable[index].focus();
 			e.preventDefault();
 		}
-	}
+	};
 	const previously_focused = typeof document !== 'undefined' && document.activeElement;
 	if (previously_focused) {
 		onDestroy(() => {

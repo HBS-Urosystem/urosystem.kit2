@@ -1,5 +1,4 @@
 <script context="module">
-  //import { state } from '$lib/stores'
 	import { state, cookies, moved, sitelang, pagepath } from '$lib/stores'
 	//import { langs } from '$lib/config';
   //import { topnav } from '$lib/config'
@@ -7,6 +6,7 @@
   //import { _findPosts } from '$lib/utils'
   //import { _getBlock } from '$lib/utils'
   import Components from '$lib/Components.svelte'
+	import Modal from '$lib/my/Modal.svelte'
   import SubNav from '$lib/SubNav.svelte'
   import * as scrollnav from "svelte-scrollto"
   import { createEventDispatcher } from "svelte";
@@ -26,8 +26,6 @@
   })*/
 </script>
 <script>
-  $: langs = $state.langs
-  $: topnav = $state.topnav
   const dir = $state.thislang.dir
   import validate from "./_validation";
   let duration = "300ms";
@@ -68,14 +66,15 @@
 
 	//const { page } = stores()
   //export let segment
-  let post, sublinks, navbar, navul, modal
+  let sublinks, navbar, navul, modal
 
   let langchng = $sitelang
   //const path = $pagepath.split('/')
   //console.log(`${langchng}/${$pagepath}`)
   let subpath
   $: {
-    subpath = $pagepath.split('/')
+  console.log('nav_$pagepath',$pagepath)
+  subpath = $pagepath && $pagepath.split('/') || []
     subpath.shift()
     subpath.shift()
   }
@@ -92,7 +91,7 @@
 </script>
 
 <svelte:head>
-  {#each langs as lang}
+  {#each $state.langs as lang}
     <link rel="alternate external" href="https://www.urosystem.com/{lang.id}/{$pagepath}" hreflang="{lang.id}" />
   {/each}
 
@@ -106,35 +105,47 @@
   </script>
 
 	{#if $cookies == true}
-	<script>
-  gtag('config', 'AW-433475160')
-  </script>
+    <script>
+      gtag('config', 'AW-433475160')
+    </script>
   
-  {#if $moved}
-	<!-- Facebook Pixel Code -->
-	<script>
-		!function (f, b, e, v, n, t, s) {
-			if (f.fbq) return; n = f.fbq = function () {
-				n.callMethod ?
-					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-			};
-			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-			n.queue = []; t = b.createElement(e); t.async = !0;
-			t.src = v; s = b.getElementsByTagName(e)[0];
-			s.parentNode.insertBefore(t, s)
-		}(window, document, 'script',
-			'https://connect.facebook.net/en_US/fbevents.js');
-	</script>
-	<script>
-		/* if (fbq.instance && fbq.instance.configsLoaded['451129772954138']) {
-			delete window.fbq.instance.pixelsByID['451129772954138']
-		} */
-		fbq('init', '699963074016051');
-		fbq('track', '699963074016051', 'PageView');
-	</script>
-	<noscript><img loading="lazy" height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=699963074016051&ev=PageView&noscript=1" alt="fb-pixel" /></noscript>
-	<!-- End Facebook Pixel Code -->
-	{/if}
+    {#if $moved == 'DEV'}
+      <!-- Hotjar Tracking Code for https://www.urosystem.com/ -->
+      <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:2464168,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+      </script>
+      
+      <!-- Facebook Pixel Code -->
+      <script>
+        !function (f, b, e, v, n, t, s) {
+          if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+              n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          };
+          if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+          n.queue = []; t = b.createElement(e); t.async = !0;
+          t.src = v; s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+      </script>
+      <script>
+        /* if (fbq.instance && fbq.instance.configsLoaded['451129772954138']) {
+          delete window.fbq.instance.pixelsByID['451129772954138']
+        } */
+        fbq('init', '699963074016051');
+        fbq('track', '699963074016051', 'PageView');
+      </script>
+      <noscript><img loading="lazy" height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=699963074016051&ev=PageView&noscript=1" alt="fb-pixel" /></noscript>
+      <!-- End Facebook Pixel Code -->
+    {/if}
 	{/if}
 </svelte:head>
 
@@ -147,7 +158,7 @@
     <div>
       <!-- svelte-ignore a11y-no-onchange -->
       <select on:focus={() => slct = true} on:blur={() => slct = false} bind:value={langchng} on:change={newlang}>
-        {#each langs as lang}
+        {#each $state.langs as lang}
         <option value={lang.id}>{lang.id} {#if slct}· {lang.title}{/if}</option>
         {/each}
       </select>
@@ -164,7 +175,7 @@
     <ul bind:this={navul}>
       <li><a tabindex="0" sveltekit:prefetch href="/{$sitelang}" aria-label="home"><img src="/uploads/logo-03-web.svg" alt="UroDapter® – Revolutionizing bladder pain treatment"></a></li>
       <!--{@debug topnav}-->
-      {#each topnav as nav}
+      {#each $state.topnav as nav}
         {#if nav.title}
           <li>
             {#if nav.link}
@@ -182,7 +193,7 @@
               <ul>
                 {#each sublinks as sub}
                   <li><SubNav {sub}/></li>
-                  {#if sub.modal} <!-- = _getBlock('modal/' + sub.link.substring(1), $sitelang)}-->
+                  {#if sub.modal}
                     {#each sub.modal.components || [] as comp}
                       <Components {comp}/>
                     {/each}
@@ -262,10 +273,13 @@
     overflow-y: hidden;
     z-index: 1;
     /*background-color: transparent;*/
-    background-color: var(--dark-blue-75);
+    /*background-color: var(--dark-blue-75);*/
+    /*background-image: var(--grad-light-blue-25);*/
   }
-  nav.moved{
+  nav.moved, nav:hover, nav:focus-within {
     background-color: var(--dark-blue);
+  }
+  nav.moved {
     top: -3rem;
     /*border-bottom: 2px var(--light-blue-75) solid;*/
   }
@@ -394,6 +408,7 @@
     border-radius: 1.5rem;
     /*border: 2px transparent solid;*/
     /*padding: 2px;*/
+    /*width: auto;*/
   }
   li li a {
     padding: .25rem 1rem 0;

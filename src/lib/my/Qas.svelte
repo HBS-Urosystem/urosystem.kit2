@@ -24,13 +24,15 @@
 
 <style>
   details {
-    margin: 3em 0;
+    margin: 4em 2rem;
+    margin-inline-start: 2rem;
   }
   /*[open] summary {
     list-style: none;
   }*/
   :not([open]) summary h3 {
     display: inline;
+    /*color: var(--pale-blue);*/
   }
   /*h3 {
     display: inline;

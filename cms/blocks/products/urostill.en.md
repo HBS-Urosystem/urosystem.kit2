@@ -9,10 +9,8 @@ components:
     items:
       - q: How does self-instillation work?
         text: >-
-          #### By myself.
-
-
-          It is difficult for female patients to identify the urethral orifice. That is why UroStill® have been invented.
+          It is difficult for female patients to identify the urethral orifice.
+          That is why UroStill® have been invented.
 
 
           UroStill® consists of the following elements: UroDapter®, extension, three-way-tap and UroStill® holder (for 50ml syringes). Its optional parts are the endoscopic camera, the tablet and the tablet stand. These you can purchase from us, or you can buy yourself elsewhere. For each instillation you will need to purchase sterile disposable elements as a set containing UroDapter®, extension and three-way-tap.
