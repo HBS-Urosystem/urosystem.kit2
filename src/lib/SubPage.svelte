@@ -15,7 +15,7 @@
 </script>
 
 <!--<li class:active={$page.params.slug == sub.slug || !$page.params.slug && sub.slug == '.'}><a href="{$page.params.lang}/{sub.folder}/{sub.slug}" sapper:noscroll={false} on:click={() => scrollto.scrollTo({element: noscroll ? 'main' : 'body', y: 0})}>{sub.menutitle || sub.title}</a></li>-->
-<!--<li class:active={active}>--><a href="/{$sitelang}/{sub.folder}/{sub.slug}" sveltekit:noscroll on:click={() => scrollto.scrollTo({element: (noscroll ? 'header + h2' : 'body'), offset: -52})}>{sub.menutitle || sub.title}</a><!--</li>--><!--  use:scrollto={noscroll ? 'main' : 'body'} -->
+<!--<li class:active={active}>--><a href="/{$sitelang}/{sub.folder}/{sub.slug}" sveltekit:noscroll on:click={() => scrollto.scrollTo({element: (noscroll ? '#content' : 'body'), offset: 0})}>{sub.menutitle || sub.title}</a><!--</li>--><!--  use:scrollto={noscroll ? 'main' : 'body'} -->
 <!-- on:click={() => scrollto.scrollTo({element: noscroll ? 'main' : 'body', y: 0})}-->
 
 <style>

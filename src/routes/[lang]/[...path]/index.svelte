@@ -72,7 +72,9 @@
       {/each}
     </div>
   {/each}
+
   {#if $state.post.subpage}
+    <div id="content"></div>
     <h2>{$state.post.subpage.title}</h2>
     {#each $state.post.subpage.blocks || [] as block}
       <div style="{block.background}">
@@ -82,7 +84,7 @@
       </div>
     {/each}
   {/if}
-    {#if $state.post.subposts}
+  {#if $state.post.subposts}
     <nav>
       <h2>{$state.post.title}</h2>
       <ul>
