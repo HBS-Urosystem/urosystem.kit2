@@ -6,7 +6,7 @@
   //import { _findPosts } from '$lib/utils'
   //import { _getBlock } from '$lib/utils'
   import Components from '$lib/Components.svelte'
-	import Modal from '$lib/my/Modal.svelte'
+	//import Modal from '$lib/my/Modal.svelte'
   import SubNav from '$lib/SubNav.svelte'
   import * as scrollnav from "svelte-scrollto"
   import { createEventDispatcher } from "svelte";
@@ -73,7 +73,7 @@
   //console.log(`${langchng}/${$pagepath}`)
   let subpath
   $: {
-  console.log('nav_$pagepath',$pagepath)
+  //console.log('nav_$pagepath',$pagepath)
   subpath = $pagepath && $pagepath.split('/') || []
     subpath.shift()
     subpath.shift()
