@@ -1,7 +1,7 @@
 <script context="module">
   //export const hydrate = false
 
-  import { state, sitelang } from '$lib/stores'
+  import { state } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
   //import { amp, browser, dev, prerendering } from '$app/env'
@@ -38,7 +38,7 @@
     <header style="{$state.post.hero.background ? $state.post.hero.background : ``}">
       <h1 hidden>{$state.post.title}</h1>
       {#each $state.post.hero.components || [] as comp}
-      <Components {comp}/><!-- <h2>{comp.type}</h2> --><!--  lang={$state.post.hero.lang} -->
+      <Components {comp}/>
       {/each}
     </header>
     {#if $state.post.subposts}
@@ -53,22 +53,22 @@
   {:else}
     <header>
       <h1>{$state.post.title}</h1>
-      <nav>
-        {#if $state.post.subposts}
+      {#if $state.post.subposts}
+        <nav>
           <ul>
             {#each $state.post.subposts as sub}
             <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} noscroll/></li>
             {/each}
           </ul>
-        {/if}
-      </nav>
+        </nav>
+      {/if}
     </header>
   {/if}
 
   {#each $state.post.blocks || [] as block}
     <div style="{block.background}">
       {#each block.components || [] as comp}
-        <Components {comp}/><!-- <h2>{comp.type}</h2> --><!--  lang={block.lang} -->
+        <Components {comp}/>
       {/each}
     </div>
   {/each}
@@ -79,7 +79,7 @@
     {#each $state.post.subpage.blocks || [] as block}
       <div style="{block.background}">
         {#each block.components || [] as comp}
-          <Components {comp}/><!-- <h2>{comp.type}</h2> --><!--  lang={block.lang} -->
+          <Components {comp}/>
         {/each}
       </div>
     {/each}

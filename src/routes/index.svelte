@@ -23,5 +23,21 @@
 </script>
 
 <svelte:head>
-<title>UroSystem Inc</title>
+  <link rel="canonical" href="https://urosystem.com/en"/>
+  <meta name='robots' content='noindex,follow' />
+  <title>Bladder instillation with UroDapter® urological syringe adapter</title>
+  <meta name="description" content="The UroDapter® urological adapter replaces catheter. It enables painless and complication-free bladder treatment for several lower urinary tract diseases.">
+  <meta name="keywords" content="instillation, urological adapter, bladder disease, pain-free, cystitis, catheter replacement, painless, complication-free, bladder, treatment">
 </svelte:head>
+<main>
+  <a href="/" aria-label="home"><img src="/uploads/urosystem_logo_02_web.svg" alt="Urosystem logo" style="filter:invert();width:20ch;display:block;margin:0 auto; aspect-ratio: 100 / 90.861"/></a>
+  <p>Loading…</p>
+  <noscript><p><a href="/en">NO JAVASCRIPT! Click here to load the website…</a></p></noscript>
+</main>
+
+<style>
+  main {
+    text-align: center;
+    /*padding-top: 9rem;*/
+  }
+</style>
