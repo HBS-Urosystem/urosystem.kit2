@@ -26,10 +26,9 @@ components:
         anchor: sparse-disease
         text: >-
           Considering the number of diagnosed cases, indeed, it appears so.
-          Depending on the way how the estimations are made, up to 2–5% of the
-          adult people may be affected. However, the diagnose rate of the
-          disease is very low: even in countries of most advanced healthcare it
-          is below 10%. (In most countries it is between 1–5%.)
+
+
+          Depending on the way how the estimations are made, up to 2–5% of the adult people may be affected. However, the diagnose rate of the disease is very low: even in countries of most advanced healthcare it is below 10%. (In most countries it is between 1–5%.)
 
 
           There are several factors behind the low diagnose rate. The disease itself is not known by most people; there are even doctors, gynecologists and urologists (!) who have never heard of it. Most who suffer from IC/BPS do not dare talk honestly about their symptoms, which greatly hinders the publicity of the disease.

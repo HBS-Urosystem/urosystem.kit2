@@ -5,293 +5,216 @@ fallback: en
 components:
   - type: article
     text: >-
-      We must face the fact: plenty of people have never heard of IC/BPS. In
-      spite of this, there are a lot of false assumption and incorrect
-      information on the Internet about this condition. Actually, a lot of
-      things are still not known about IC/BPS. Luckily, it has been studied
-      enthusiastically, so there have been more and more studies published, more
-      and more up-to-date diagnostic methods and treatments have been tried out.
+      IC/BPSを知らない人がたくさんいるという事実を直視しなければなりません。であるからにもかかわらず、インターネット上には、この疾患に関する誤った思い込みや間違った情報が多くあります。実際、IC/BPSについては、まだ知られていないことが多くあります。幸いなことに、IC/BPSは熱心に研究されているので、どんどん研究結果が発表され、最新の診断方法や治療法が試されています。
 
 
-      Unfortunately, the new facts spread on the Internet and people become aware of them with a significant delay. Obsolete views, hypotheses that were never proved, assumptions rejected later may be more known than the modern results and achievements. This is why popular misbeliefs can spread from website to website or among patients, too. In other words, even if a piece of information is available on plenty of webpages, it does not mean that it is correct, too. Social media is an especially “dangerous” platform, from this point of view. Every now and then it can happen that some farfetched assumption becomes considered a fact – misleading the visitors, and, eventually, the patients, too.
+      残念ながら、新しい事実のインターネット上での普及は急速で、人々が新情報においつくことは遅れがちです。時代遅れの見解や、証明されなかった仮説、後に否定された仮定などが、最新の結果や成果よりも知られていることがあります。そのため、ウェブサイトからウェブサイトへ、あるいは患者の間で、誤った情報が広まってしまうことがあります。つまり、ある情報が複数のウェブサイトに掲載されていたとしても、それが正しいとは限らないのです。その点、ソーシャルメディアは特に「危険」なプラットフォームです。時々、突拍子もない仮説が事実とみなされ、読者、そして最終的には患者にも誤解を与えてしまうことがあります。
 
 
-      This is why we would like to make a couple of things clear about this condition.
+      そのため、この症状についていくつかのポイントを明確にしておきたい。
   - type: qas
     items:
-      - q: IC/BPS is a sparse disease, isn’t it?
+      - q: IC/BPSは珍しい病気ですよね？
         anchor: sparse-disease
         text: >-
-          Considering the number of diagnosed cases, indeed, it appears so.
-          Depending on the way how the estimations are made, up to 2–5% of the
-          adult people may be affected. However, the diagnose rate of the
-          disease is very low: even in countries of most advanced healthcare it
-          is below 10%. (In most countries it is between 1–5%.)
+          診断された症例の数を考えると、確かにそのように見えます。
 
 
-          There are several factors behind the low diagnose rate. The disease itself is not known by most people; there are even doctors, gynecologists and urologists (!) who have never heard of it. Most who suffer from IC/BPS do not dare talk honestly about their symptoms, which greatly hinders the publicity of the disease.
+          推定方法にもよりますが、成人の2～5％程度の人が罹患している可能性があります。しかし、この病気の診断率は非常に低く、医療が発達している国でも10％以下です。ほとんどの国では1～5％程度です。）
 
 
-          This is why we are dedicated to inform the society: IC/BPS is a severe disease, which affects many people.
+          診断率の低さにはいくつかの要因があります。IC/BPSという病気自体がほとんどの人に知られておらず、医師や婦人科医、泌尿器科医の中にも聞いたことがない人がいる（！）。また、IC/BPSに罹患している人の多くは、自分の症状を正直に話す勇気がないため、この病気の周知を大きく妨げています。
 
 
-          If it is assumed that you have 250 acquaintance, it is likely that there is someone among them who suffers from IC/BPS. Even if he/she never talks about it.
-      - q: So what. If someone is ill, they have to see the doctor. IC/BPS is not an
-          exception, isn’t it?
+          だからこそ、私たちは社会に知らせることに専念しています。IC/BPSは、多くの人が罹患する深刻な病気です。
+
+
+          あなたに250人の知人がいると仮定すると、その中にIC/BPSを患っている人がいる可能性があります。たとえその人が口にしなくても。
+      - q: そうかもしれませんが、病気にかかれば医者に診てもらうべきです。IC/BPSも例外ではありませんよね？
         anchor: so-what
         text: >-
-          The most typical symptoms of IC/BPS are the bladder (and urethral)
-          pain and frequent urination. Unfortunately, these symptoms can be
-          present because of other conditions, too: for example, malignant
-          transformations (cancer) or bacterial urinary tract infections.
-          However, these diseases usually have definite markers, such as pus in
-          the urine.
+          IC/BPSの最も典型的な症状は、膀胱（および尿道）の痛みと頻尿です。残念ながら、これらの症状は、悪性腫瘍（がん）や細菌性尿路感染症など、他の疾患が原因である場合もあります。しかし、悪性腫瘍（がん）や細菌性尿路感染症は、通常、尿中の膿などの明確なマーカーを持っています。
 
 
-          IC/BPS has no similar markers, since it has no pathogen and there is no tumorous transformation either.
+          IC/BPSは病原体を持たず、腫瘍化もしていないので、同様のマーカーはありません。
 
 
-          Therefore, to diagnose IC/BPS all the other conditions may cause similar symptoms must be excluded.
+          したがって、IC/BPSを診断するためには、同じような症状を引き起こす他のすべての疾患を除外する必要があります。
 
 
-          If it gets diagnosed at all… Since most of the GPs and gynecologists do not know this disease, they cannot treat it either. They often set up a false diagnosis, which results in false and/or unnecessary treatments. Sadly, there are even urologists who do not have proper knowledge on IC/BPS. Often times, they do know the disease but they simply do not consider it – or if they do, they do not apply the up-to-date treatment methods since they are not aware of those.
+          もし診断されたとしても...ほとんどの開業医や婦人科医はこの病気を知らないため、治療もできません。彼らはしばしば誤った診断を下し、結果的に誤った、あるいは不必要な治療を行うことになります。悲しいことに、IC/BPSに関する適切な知識を持っていない泌尿器科医もいます。病気のことは知っていても、それを考慮しない、あるいは考慮したとしても、最新の治療法を知らないので適用しない、ということがよくあります。
 
 
-          Without a proper diagnosis, things can go wrong easily. Seriously wrong.
+          適切な診断なしでは、間違いが起こる可能性があります。悪化を伴うことまであるでしょう。
 
 
-          Patients may run from doctor to doctor, hoping that someone may be able to find out what the problem is and how to treat it. Which is far not the worst case. There have been plenty of patients who were mis-treated (for example, with some gynecological problem) since their doctor set up an entirely wrong diagnosis. Some patients stick to their therapists for long years, even a decade – and get a treatment which does not help at all or makes everything even worse. Antibiotics, for example.
+          患者は、医者から医者へと移り歩き、誰かに問題の原因と治療法を見つけてもらいたいと願っています。しかし、それは最悪のケースではありません。例えば、婦人科系の問題で、医師が間違った診断をしてしまったために、誤った治療を受けた患者もたくさんいます。患者の中には、何年も何十年も主治医を変えず、効果のない治療、あるいは症状や疾患を悪化させる治療を受ける人もいます。例えば、抗生物質の取り過ぎが一つの事例でしょう。
 
 
-          Sometimes the most terrible happens. Since there is noting to identify as the cause of the pain, the doctor assumes it is only in the patient’s mind – and redirects him/her to a psychologist or a psychiatrist.
+          時には、最も恐ろしいことが起こります。痛みの原因を特定できるものがないため、医師は、痛みは患者の心の中のあるものだと思い込み、心理学者や精神科医のところへ案内してしまうのです。
 
 
-          Meanwhile, the condition progresses. In case of a severe form of IC/BPS, the patient has to urinate in every hour. Or twice, three times an hour. Which, no surprise, hinders work, too. Pain can wreck the private life. Night becomes a nightmare because of the symptoms, which leads to sleep deprivation.
+          そうこうしているうちに、症状は進行していきます。重症のIC/BPSの場合、一時間に一回は排尿しなければならない。あるいは一時間に二回、三回と排尿しなければならない。当然、仕事にも支障が出てくる。痛みは私生活にも影響を与えます。夜になると、症状のために悪夢を見るようになり、睡眠不足に陥る。
 
 
-          There have already been patients who, having seen no other way out, committed suicide.
+          他に方法がないと判断して自殺してしまった患者もすでにいます。
 
 
-          Because of all these things, it is essential to diagnose IC/BPS quickly so that the proper treatment can start as soon as it is possible.
-      - q: "I have already checked it on the Internet: if my bladder hurts and I have to
-          urinate a lot, then I have IC/BPS…"
+          これらのことから、IC/BPSを迅速に診断し、適切な治療を早期に開始することが重要です。
+      - q: インターネットで調べてみましたが、膀胱が痛くて何度も排尿しなければならないので、私、IC/BPSにかかっているのだと思います。
         text: >-
-          Let’s make it clear: even much more known diseases or conditions with
-          much more definite symptoms can never be diagnosed by reading articles
-          on the Internet. No one should every self-diagnose themselves with the
-          help of the Internet.
+          はっきり言って、もっと知名度の高い疾患や、症状がはっきりしている病気でも、インターネットの記事を読んで診断することはできません。インターネットを利用した自己診断は絶対にしてはいけません。
 
 
-          As we said before, there are quite a lot of other conditions which may have similar symptoms. These, however, can be diagnosed by a urologist with routine tests. (For example, a simple urine test.) When it has happened, the proper treatment can start instantly.
+          先に述べたように、似たような症状を呈する疾患は他にも複数あります。しかし、これらのほとんどは、泌尿器科医が日常的な検査で診断することができるものです。症状が出た場合、すぐに適切な治療を開始することができます。
 
 
-          It is worth knowing, on the other hand, that finding an "easily diagnosable" disease does not essentially rule out IC/BPS. It is also possible that the symptoms indeed refer to IC/BPS.
+          一方で、「簡単に診断できる」病気が見つかったからといって、IC/BPSが絶対的に否定できるわけではないことも知っておきましょう。症状が本当にIC/BPSを指している可能性もありえます。
 
 
-          But it is not you who can find out what the problem is. Not even this webpage. You have to see a urologist, who can perform all the necessary examinations to diagnose you – who can confirm or deny IC/BPS.
+          しかし、何が問題なのかを見つけることができるのは、あなたではありませんし、このページでさえありません。泌尿器科医に診てもらわなければなりません。泌尿器科医は、あなたを診断するために必要なすべての検査を行うことができ、IC/BPSを肯定することも否定することもできます。
         anchor: internet
-      - q: Can IC/BPS be diagnosed then?
+      - q: では、IC/BPSは診断できるのでしょうか？
         anchor: diagnosis
         text: >-
-          Although there is no 100% method for diagnosing this disease, nowadays
-          it is possible to do so with high accuracy.
+          100％の診断法はありませんが、現在では高い精度で診断することができます。
 
 
-          All the symptoms of IC/BPS occur because of the deficiency of the mucus layer of the bladder – this layer is called GAG-layer. The GAG-layer insufficiency does not essentially mean the lack of it. Often times, the deficiency can be observed only in distinct regions or patches, or the permeability of the GAG-layer is increased. Moreover, this is not the same condition as IC/BPS (which is, per definition, the non-bacterial inflammation of the bladder wall), but with time the deficiency may lead to the development of IC/BPS.
+          IC/BPSのすべての症状は、膀胱の粘液層（この層はGAG層と呼ばれます）の欠陥によって起こります。GAG層の欠陥は、本質的にGAG層がないことを意味するものではありません。多くの場合、GAG層の欠陥は、特定の領域やパッチでのみ見られ、結果GAG層の透過性が増加します。GAG層の欠陥はすべてIC/BPSであるとは限りませんが、時間の経過とともにIC/BPS（膀胱壁の非細菌性炎症）を発症することがありえます。
 
 
-          The changes of the GAG-layer, on the other hand, can be identified. One of the newest methods how it can be performed is the GAG-layer integrity test. During this test, the patients have to log for two days the frequency and the volumes of their voidings. Further information can be found [here].
+          一方で、GAG層の変異は診断で特定することができます。GAG層の変異を確認する最新の診断方法として、GAG層完全性試験があります。このテストでは、患者は二日の間、排泄の頻度と量を記録しなければなりません。詳しい情報は【こちら】をご覧ください。
 
 
-          For the accurate diagnosis the doctors regularly apply further methods, too. They investigate the anamnesis of the patient, have them fill out questionnaires to evaluate their general condition, and, if needed, they confirm the diagnosis with other examinations, for example, cystoscopy.
-      - q: My therapist wants me to see a psychologist. This is totally unacceptable! I
-          have problems in my bladder, not in my mind!
+          正確な診断のために、主治医は定期的に別の診断方法も適用します。患者の既往歴を調査し、全身状態を把握するためにアンケートを記入してもらい、必要に応じて膀胱鏡検査などといった、他の検査で診断結果を確認します。
+      - q: かかりつけ医は、私に心理学者のセラピーを進めています。これは理解ができません。私は膀胱に問題があるのであって、心に問題があるわけではありません!
         anchor: psychology
         text: >-
-          As a matter of fact, if you are sent to a psychologist, that does not
-          mean that your therapist wants to get rid of you. Psychical stress can
-          often be a side-effect of a long-lasting condition of severe
-          pain. IC/BPS is not an exception. Psychical symptoms can make
-          everything worse, which may lead to suicidal thoughts. Unfortunately,
-          these thoughts may be translated to acts, too – as it has already
-          happened to a couple of patients.
+          実際のところ、あなたが心理学者のところに送られたとしても、それはかかりつけ医があなたの治療をしたくないと思っていることを意味するものではありません。長い間続いている激しい痛みは精神的なストレスを生むことが多い。IC/BPSもその例外ではありません。精神的な症状は、すべてを悪化させ、自殺願望につながる可能性があります。残念なことに、このような暗い考えが行為に結びついてしまうこともあります。すでに何人かの患者の事例があるように。
 
 
-          A psychologist can give important help to cope with the disease, improve the patient’s self-assessment – thus, may be an important part of the IC/BSP therapy.
+          心理学者は、病気に対処するための重要な助けとなり、患者の自己評価を向上させることができるため、IC/BSP治療の重要な部分として考えられています。
 
 
-          Certainly, it should never be forgotten that any psychological treatment may complement, but never replace the therapy of a professional urologist!
-      - q: I got diagnosed with IC/BPS, but my therapist hadn’t done cystoscopy, biopsy
-          or urodynamics!
+          もちろん、心理学的な治療は、専門の泌尿器科医の治療を補完することはあっても、それに取って代わるものではないことを忘れてはなりません。
+      - q: 私はIC/BPSと診断されましたが、かかりつけ医は膀胱鏡検査、生検、ウロダイナミクス検査（尿水力学的検査）を行いませんでした。
         text: >-
-          As it was explained above, diagnosing IC/BPS is a complicated task. It
-          does not essentially involve all the possible diagnostic methods.
-          Indeed, cystoscopy is frequently done by urologists. It is an
-          effective way to identify some abnormalities that may refer to certain
-          forms of IC/BPS. Nowadays, cystoscopy is a “mild” diagnostic tool,
-          which can be totally pain-free. However, it is still an invasive tool;
-          complications or side-effects might occur in a small percentage of
-          cases. So, without proper professional reasons, it is not
-          recommended. Especially, since there are forms of IC/BPS without any
-          characteristic signs on the cystoscopy image.
+          上記で説明したように、IC/BPSの診断は複雑な作業です。基本的には、可能なすべての診断方法を用いるわけではありません。確かに、泌尿器科医は膀胱鏡検査を頻繁に行います。膀胱鏡検査は、ある種のIC/BPSを示唆するいくつかの異常を特定するのに有効な方法です。
+          現在では、膀胱鏡検査は痛みを伴わない場合の多い、「マイルドな」診断法とななりました。しかし、侵襲的な検査であることに変わりはなく、ごく一部の症例では合併症や副作用が生じる可能性があります。そのため、適切な理由がない限り、お勧めできません。特に、IC/BPSの中には、膀胱鏡検査の画像に特徴がでないものもあります。
 
 
-          The biopsy of the bladder mucosa is not the part of diagnosing IC/BPS anymore, because the biopsy image does not give any relevant information. On the other hand, signs of a malignant transformation can be discovered by biopsy – but urine cytology examination is considered to be a more effective tool, which is less invasive, as well.
+          膀胱粘膜の生検は、生検画像からは何の関連情報も得られないため、IC/BPSの診断にはもはや含まれなくなりました。一方で、生検によって悪性化の兆候を発見することはできますが、しかし、尿の細胞診検査の方が侵襲性も低く、より効果的な手段であるとが考えられています。
 
 
-          Urodynamics are not only incapable of diagnosing IC/BPS, but also time-consuming, expensive and invasive. They are not recommended for this purpose anymore.
+          ウロダイナミクス検査は、IC/BPS の診断ができないだけでなく、時間と費用がかかり、かつ侵襲的です。現在では、この目的での使用は推奨されていません。
         anchor: complicated
-      - q: Wouldn’t it be easier to identify what causes IC/BPS and treat causes
-          themselves?
+      - q: 何がIC/BPSの原因なのかを明らかにして、原因そのものを治療する方が簡単ではないでしょうか？
         anchor: causes
         text: >-
-          Indeed, a major part of the IC/BPS researches focus on the cause why
-          IC/BPS develops – why the GAG-layer gets defective – so that a casual
-          treatment could be applied.
+          実際、IC/BPSの研究の大部分は、IC/BPSがなぜ発症するのか、つまりGAG層がなぜ欠損するのかという原因に焦点を当てており、原因療法の確立を目指しています。
 
 
-          There have been several theories introduced, but none of them have been proven so far. So, the real cause of IC/BPS is still not known, current therapies must focus on treating the symptoms: replenishing the GAG-layer or mitigating the symptoms.
-      - q: Can IC/BPS be cured permanently?
+          いくつかの説が紹介されていますが、今のところ証明されたものはありません。そのため、IC/BPSの真の原因はいまだに解明されておらず、現在の治療法は、GAG層の補充や症状の緩和など、症状の治療に重点を置くものに限られます。
+      - q: IC/BPSの永久治療はありますか？
         anchor: cure
         text: >-
-          Unfortunately, there is no treatment known which can cure IC/BPS for
-          good. However, if an effective treatment is applied, patients can be
-          symptom-free for long years. The sooner the condition is diagnosed,
-          the bigger the chance for this.
+          残念ながら、IC/BPSを完治させる治療法は存在しません。しかし、効果的な治療を行えば、何年にもわたって症状が出ないこともあります。診断が早ければ早いほど、その可能性は高くなります。
 
 
-          It must be noted that for achieving a good result the patient must work hard, too. The effective treatment includes lifestyle changes, abundant fluid intake, dietary changes and medical advice – these are to be obeyed for the best result.
-      - q: Are lifestyle changes enough?
+          ただし、良い結果を得るためには、患者自身も努力しなければなりません。効果的な治療には、生活習慣の改善、十分な水分摂取、食生活の改善、医師のアドバイスなどがあり、最良の結果を得るためには、これらを遵守する必要があります。
+      - q: 生活習慣の改善だけで十分ですか？
         anchor: lifestyle
         text: >-
-          If only it were so!
+          そうであればいいのですが…
 
 
-          Don’t put it in the wrong way, though: lifestyle changes – especially diet and abundant fluid intake – help a lot in mitigating the symptoms. They may be enough for being symptom-free in case of an early-phase IC/BPS.
+          しかし、誤解を恐れずに言えば、生活習慣の改善、特に食事や水分の摂取方法は、症状の緩和に大いに役立ちます。初期のIC/BPSであれば、それだけで症状が出なくなることもあります。
 
 
-          Unfortunately, in most cases, by the time the treatment starts, lifestyle changes are not enough anymore. Even if there are certain guides used in several countries which say the treatment is to start with the least invasive method and the steps should follow each other in the order of increasing invasiveness.
+          残念ながら、ほとんどの場合、治療が始まる頃には、生活習慣の改善だけでは不十分になってしまっています。侵襲性の低い方法で治療を開始し、侵襲性の高い順にステップを踏んでいくという、いくつかの国で使用されているガイドラインがあります。
 
 
-          In theory, this guideline is correct. In practice, on the other hand, the non-invasive methods (such as lifestyle changes, diet, oral medication etc.) may make the time elapsed until the effective treatment last longer. In order to focus on the patients’ interest, starting with a combined therapy seems to be the most effective. This means, administering anti-inflammatory, analgesic and GAG-layer strengthening medication orally and instilling GAG-layer replenishers simultaneously.
-      - q: I read that vegan diet would heal IC/BPS. Is that true?
+          理論的には、このガイドラインは正しいといえます。一方、実際には、非侵襲的な方法（生活習慣の改善、食事療法、内服薬など）により、効果的な治療までの経過時間が長くなってしまうことがあります。患者のメリットを重視するためには、複合的な治療から始めるのが最も効果的だと思われます。つまり、抗炎症剤、鎮痛剤、GAG層強化剤の内服とGAG層補充剤の注入を同時に行うことです。
+      - q: ヴィーガン食生活でIC/BPSが治るという記事を読みました。それは本当ですか？
         anchor: vegan-diet
-        text: There are certain people who admit by cutting out food of animal origin
-          they managed to heal their IC/BPS. It is not our task to decide
-          whether vegan diet is healthier, but there is something that needs to
-          be cleared. No research has shown any correlation between the symptoms
-          and having food of animal origin. It is proven, on the other hand,
-          that any food or drink makes the urine more acidic (such as tomato or
-          fruit juices) can irritate the bladder and worsen the symptoms. Most
-          sorts of meat can be had without any problems if prepared well (e.g.
-          without using irritative spices).
-      - q: Why to take medicine? Herbal products or teas can be more effective, can’t
-          they?
+        text: 動物性食品を断つことで、IC/BPSが治ったと報告している人はいます。ヴィーガン食生活が健康に良いかどうかを判断するのは私たちの仕事ではありませんが、明確にしておかなければならないことがあります。IC/BPSの症状と動物性食品の摂取との間に相関関係を示した研究はありません。一方で、尿を酸性にする食べ物や飲み物は明らかになっており、（トマトジュースやフルーツジュースなど）は膀胱を刺激し、症状を悪化させることは証明済みです。刺激的な香辛料を使わないなど、気を使って調理すれば、ほとんどの種類の肉は問題なく食べることができます。
+      - q: 薬を飲む必要は？ハーブ製品やお茶の方が効果があるのでは？
         anchor: herbal
-        text: There are not enough data available on herbal products available on the
-          market to decide whether they are effective or not. However, most
-          herbal teas and extracts contain substances which can irritate the
-          damaged bladder. Because of this, even if they are or may be
-          effective, they can do more harm than good.
-      - q: Which sort of antibiotics is the best for treating IC/BPS?
+        text: 市販されているハーブ製品については、効果があるかどうかを判断するのに十分なデータがありません。しかし、ほとんどのハーブティーやハーブエキスには、傷ついた膀胱を刺激する物質が含まれています。そのため、たとえ効果があったとしても膀胱を刺激する物質が含まれているため、かえって害になることがあります。
+      - q: IC/BPSの治療にはどのような抗生物質が適しているのでしょうか？
         anchor: antibiotics
         text: >-
-          Let’s make it clear: antibiotics are used for treating bacterial
-          infections, and IC/BPS has no pathogen. So, none of them are effective
-          for treating IC/BPS.
+          抗生物質は細菌感染症の治療に使われるもので、IC/BPSには細菌などの病原体はありませんので、よってIC/BPSの治療に効果的な抗生物質はありません。
 
 
-          If your urologist happens to have prescribed some antibiotics, it must have happened because you have a bacterial urinary tract infection. In this case, antibiotics are effective, but choosing the most effective one should happen only after a bacterial culture has been made (to decide what sort of bacteria are to be fought off).
+          泌尿器科医が万が一抗生物質を処方したとしたら、それはあなたが細菌性尿路感染症にかかっているからでしょう。この場合、抗生物質は効果的です。最も効果的なものを選ぶには、（どのような種類の細菌を退治するかを決定するために）細菌の培養を行った上で抗生物質を選ぶべきです。
 
 
-          In case an IC/BPS starts taking antibiotics – because of any condition or infection besides IC/BPS –, they should ask for advice from their urologist, since most antibiotics can irritate the damaged bladder – just in the same way as herbal products do!
-      - q: Which one is the best analgesic for IC/BPS?
+          もし、IC/BPSの患者が、IC/BPS以外の病気や感染症が原因で抗生物質を飲み始める場合は、泌尿器科医にアドバイスを求めてください。ハーブ製品と同様、ほとんどの抗生物質は傷ついた膀胱を刺激するので、要注意が必要です。
+      - q: IC/BPSに効く鎮痛剤は何ですか？
         anchor: analgesics
         text: >-
-          The cause of the pain is the increased permeability of the protective
-          bladder of the mucus. So, pain shows up because there are irritative
-          substances present in the urine. Therefore, the most effective way to
-          mitigate the pain is to drink a lot, which lowers the concentration of
-          these irritative substances in the urine. Also, a strict IC/BPS diet
-          must be followed (to lessen the intake of everything that makes the
-          urine more acidic), complemented with urine alkalization (with
-          alkalizing pills, alkalic mineral water, or lemon juice).
+          膀胱の痛みの原因は、粘液の保護膜である膀胱の透過性が高まることから来ています。つまり、痛みが現れるのは、尿の中に刺激物質が混じっているからです。したがって、痛みを和らげる最も効果的な方法は、尿中の刺激性物質の濃度を下げるよう、たくさんの飲み物を飲むことです。また、IC/BPSの厳格な食事療法（尿を酸性にするものの摂取を控える）を行い、尿のアルカリ化を促す必要があります。尿のアルカリ化（アルカリ化錠剤、アルカリ性のミネラルウォーター、レモンジュースなど）を行います。
 
 
-          Besides everything detailed so far has been applied, any general analgesic can be administered (such as Advil, Diclofenac, Algopyrin etc.).
-      - q: What sort of food supplement or vitamin should be taken?
+          上記の説明以外では、一般的な鎮痛剤（アドビル、ジクロフェナク、アルゴピリンなど）を投与することができます。
+      - q: どのようなサプリメントやビタミン剤を摂取すればよいのでしょうか？
         anchor: vitamins
         text: >-
-          Generally said, vitamin products do not help mitigate the
-          symptoms. Regardless of the plenty of pages on the Internet
-          advertising “magical products” good for everyone! Always be cautious –
-          especially if there is nothing said about contraindications. The best
-          thing you can do is to ask your therapist before you start taking a
-          new medicine or food supplement.
+          一般的に、ビタミン剤は症状を緩和するものではありません。
 
 
-          Also, it is worth knowing that vitamin B and C taken in big doses can worsen the symptoms – just like antibiotics and herbal products can.
-      - q: Is oral medication better than intravesical?
+          インターネット上には、誰にでも効く「万能薬」を宣伝するページがたくさんあります。常に注意が必要ですが、禁忌について何も書かれていない場合は特にです。新しい薬やサプリメントを飲み始める前に、かかりつけ医に確認するのが一番良いでしょう。
+
+
+          また、ビタミンBやCを大量に摂取すると、抗生物質やハーブ製品と同様に、症状が悪化する可能性があることも知っておくべきでしょう。
+      - q: 膀胱内注入よりも内服薬の方が良いのでしょうか？
         anchor: medication
         text: >-
-          The opposite is true. Local administration – instilling the medication
-          directly into the bladder – enables much bigger concentration of the
-          active agent in the target organ (in this case: the surface of the
-          bladder) than oral administration. Moreover, if a medicine is
-          instilled into the bladder, it does not enter the blood circulation,
-          which means, no systematic side-effects occur.
+          その逆です。局所投与、つまり膀胱に直接薬を注入することで、経口投与に比べて臓器（この場合は膀胱の壁面）に向けられる活性剤の濃度をはるかに高めることができます。また、膀胱内に薬を注入すれば、血液循環に乗らないので、全身的な副作用も起こりません。
 
 
-          That said, intravesical instillation is more effective than oral medication.
-      - q: But… intravesical instillation is done with a catheter!
+          つまり、内服よりも膀胱内注入の方が効果的なのです。
+      - q: でも......膀胱内注入はカテーテルで行うんですよね！？
         anchor: instillation
         text: >-
-          Indeed, for a long time, applying a catheter used to be the only way
-          of bladder instillation. Even if the procedure is painful,
-          uncomfortable, and infections often occurred after the treatment. To
-          overcome these problems have UroDapter® been developed, an urological
-          adapter which replaces catheter. You can read more about UroDapter®
-          on [this page].
+          確かに、長い間、カテーテルを使って膀胱に注入する方法しかありませんでした。しかし、この方法は痛みや不快感を伴い、治療後に感染症を起こすこともしばしばありました。これらの問題を解決するために、カテーテルに代わる泌尿器科用アダプター、UroDapter®が開発されました。UroDapter®については、【こちらのページ】で詳しく紹介しています。
 
 
-          Also, there is another medical device, UroStill®, which helps patients perform a self-treatment. With UroStill®, the bladder instillation through the urethra can be done without external help. More information can be found on [this page].
-      - q: Not only has the treatment help, but also it has made everything worse! I
-          must have received the wrong treatment!
+          また、患者の自己治療を支援する医療機器として、UroStill®があります。UroStill®を使用すると、外部の助けを借りずに、尿道を通して膀胱に注入することができます。詳細は【こちらのページ】をご覧ください。
+      - q: Not only has t治療は効果がなかったばかりか、よけいに悪化してしまいました。私は間違った治療を受けたに違いありません。he treatment
+          help, but also it has made everything worse! I must have received the
+          wrong treatment!
         anchor: treatment
         text: >-
-          There are a couple of things to be cleared.
+          ここでいくつかクリアしなければならないことがあります。
 
 
-          Firstly, it is not possible to achieve any improvement of a condition which has developed for long years, with one or very few treatments.
+          まず、長年をかけて発症した症状を、一回や数回の治療でよくすることはできません。
 
 
-          Secondly, there is no treatment that is effective for the 100% of the patients. That said, 20% of the patients do not respond to the usual ways of treatment. In their case, further examinations may be necessary; for example, (another) cystoscopy may confirm damaged areas in the bladder mucosa that are not responding to the local therapy anymore. In this case, fulguration of the affected areas may be necessary. Administering substances affecting the nerve system (antidepressants, nerval anti-inflammatories), anti-allergic compounds or strong, even dazing analgesics may help, as complementary forms of the treatment.
+          次に、すべての患者に効果ある治療法はありません。とはいえ、通常の治療法では効果が得られない患者の割合は20％あります。この場合、例えば、膀胱鏡検査を行って、膀胱粘膜の局所療法が効かなくなっている損傷部位を確認する必要があります。損傷部位が確認されたら患部の焼灼術が必要になるかもしれません。また、神経系に作用する物質（抗うつ剤、神経性抗炎症剤）、抗アレルギー剤、強力な鎮痛剤などを投与することで、治療を補完することができます。
 
 
-          Thirdly, solutions used for bladder instillation usually contain more components; including anti-inflammatories, anesthetics, analgesics, and GAG-layer replenishers. It’s rare, but not impossible that someone is allergic to one of these components – e.g. to lidocaine. However, this does not trigger pain, in most cases. It is much more likely that the symptoms are getting worse because the medicine is too concentrated or too acidic – these factors can indeed be irritative.
+          第三に、膀胱に注入する溶液には、抗炎症剤、麻酔剤、鎮痛剤、GAG層補充剤など、複数の成分が含まれています。稀ですが、これらの成分の一つ、例えばリドカインにアレルギーがある人もいます。しかし、ほとんどの場合、これが痛みの引き金になることはありません。それよりも、薬の濃度が高すぎたり、酸性すぎるなど、症状を悪化させている可能性の方が高いといえます。
 
 
-          Finally, the GAG-layer consists of more compounds; the bladder instillation solutions (or cocktails) usually contain one or some of them. Generally said, a patient responds with a bigger chance if the instilled cocktail contains more GAG-layer replenishment elements.
-      - q: It feels as if the doctors were experimenting on the patients…
+          最後に、GAG層は複数の物質で構成されており、膀胱注入液（またはカクテル）にはこれらの物質の一つまたはいくつかが含まれている。一般的には、GAG層を補充する成分が多く含まれているカクテルを注入した方が、患者が反応しやすいと言われています。
+      - q: まるで私たち患者は実験台のようです...
         anchor: experimenting
         text: >-
-          It must be pointed out that every medicine or pharmaceutical
-          composition has to undergo serious experiments and clinical
-          trials before they are allowed to be used in practice. In case of
-          lesser-known diseases like IC/BPS, it is a big achievement
-          that medicine the majority of the patients can be treated successfully
-          with do exist!
+          すべての医薬品と医薬部外品は、使用される前に実験や臨床試験が実施されなければならないことを指摘しておかなければならない。IC/BPSのようにあまり知られていない病気の場合、既存の薬で患者の大半が治療に成功しているのは大きな成果です。
 
 
-          If your therapist alters the ingredients of the cocktail administered, the frequency of the treatments, it indeed looks like “experimenting”. In fact, these decisions are based on the professional’s experience – which is based on hard work of long years, and feedback of hundreds of patients.
-      - q: I feel alone and isolated with my condition…
+          もしもかかりつけ医が、投与するカクテルの成分や治療の頻度を変えるとしたら、それは確かに「実験」のように感じられるかもしれません。けれどもこれは、長年の努力と何百人もの患者のフィードバックに基づく医師の判断からきているのです。
+      - q: この病気をもっているのはまるで私だけ、とても心細く感じます…
         text: >-
-          Not anymore.
+          今となっては孤立した病気ではなくなりました。
 
 
-          In most countries there are IC/BPS Patient Associations (since 2019, there has been a Hungarian organization, too). These associations dedicate themselves to help those who are suffering from this disease, and are open to the relatives of the patients, the doctors and everyone who would like to know more about this serious condition.
+          ほとんどの国には IC/BPS 患者協会があります (2019 年以来ハンガリーにも組織があります) 。これらの協会は、IC/BPSで苦しんでいる人々を助けることに専念しており、患者の親戚、医師、そしてこの深刻な状態についてもっと知りたいと思っているすべての人に情報提供を行っています。
 
 
-          These associations are co-operating with each other, asking for help and guidance from those who may have collected more knowledge and built more relationships. They even consult with professionals about the future of research and therapy of IC/BPS.
+          これらの協会は互いに協力しあい、お互いに情報交換をし、より多くの知識をもつ関係網の広い組織にガイダンスと指導を求めるなど、活動しています。 これらの協会は、IC/BPS の研究と治療の将来について専門家に相談することさえあります。
         anchor: associations
 ---

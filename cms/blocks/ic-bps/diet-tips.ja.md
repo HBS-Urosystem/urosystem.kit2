@@ -5,104 +5,98 @@ fallback: en
 components:
   - type: article
     text: >-
-      Regardless of any other therapy applied in case of severe symptoms, it is
-      worth for IC/BPS patients helping the recovery with lifestyle changes,
-      too. One of the most important parts of it is to create the best possible
-      diet.
+      IC/BPS患者にとっては、症状が重い場合の他の治療法を行うにもかかわらず、並行して生活習慣の改善によって回復を助けることが重要です。その中でも特に重要なのが、最適な食生活を送ることです。
 
 
-      The cornerstone of IC/BPS diet is to keep away from food and drinks that can irritate the bladder; doing so can comfort that organ.
+      IC/BPSの食事療法の基本は、膀胱を刺激するような食べ物や飲み物を避けることであり、そうすることで膀胱の快適な状態を保つことです。
 
 
-      Every person responds to a certain food differently, so there is no one-size-fits-all diet which is effective for everyone. Nevertheless, there has been a lot of experience gathered by and from patients, so it is easy to make a list out of food and drinks which do not trigger the symptoms in most cases – and out of those which usually causes problems.
+      人によって食べ物に対する反応が違うので、万人に効果的な食事療法というのはありません。とはいえ、患者さんから多くの経験が寄せられていますので、ほとんどの場合、症状を引き起こさない食べ物や飲み物、そして問題を引き起こすことが多い食べ物や飲み物をリストアップすることができます。
 
 
-      Also, there is some general advice which helps cope with the disease.
+      また、この疾患と上手に付き合うための一般的なアドバイスもあります。
 
 
-      1. It is better to eat more times and smaller quantities than eat a lot 1–2 times a day.
+      1. 一日に1～2回たくさん食べるよりも、回数を増やして少量ずつ食べる方が良いでしょう。
 
-      2. It is always worth making a diet log and note everything you eat and drink.
+      2. ダイエットログを作成し、食べたもの飲んだものをすべて記録しておくといいでしょう。
 
-      3. Most patients can have the following without any problems: rice, potato, pasta, meat, fish and most of the vegetables. It is easy to make proper, nutrient and delicious meal alone from these ingredients.
+      3. ほとんどの患者さんは、米、ジャガイモ、パスタ、肉、魚、そしてほとんどの野菜を問題なく食べることができます。これらの材料を使って、適切で栄養価の高い、おいしい食事を作ることは難しくありません。
 
-      4. In most cases the following food and drinks trigger the symptoms: caffein, alcohol, carbonated (sparkling) drinks, hot and spicy food, chocolate, sour cream, yoghurt, soy, several sorts of fruit and tomato.
+      4. ほとんどの場合、次の食べ物や飲み物は反応を引き起こすでしょう：カフェイン、アルコール、炭酸飲料、辛いものやスパイスをきかしたもの、チョコレート、サワークリーム、ヨーグルト、大豆、数種類の果物、トマト、などです。
 
-      5. Herbal teas and brews often cause irritation. It is best to avoid them even if certain sources put them on the list of recommended drinks.
+      5. ハーブティーやお茶類は刺激の原因となります。推奨する情報源があったとしても、避けた方がよいでしょう。
 
-      6. It is worth reading the label and packaging of everything you buy. The shorter the ingredient list is, the most likely it is that it can be had safely. Certain preservatives (e.g. nitrite) may cause problems – they can be found, for example, in several kinds of cold cuts.
+      6. 食品を購入する際には、あらかじめラベルやパッケージに目を通すことをお勧めします。成分表が短ければ短いほど、安全に食べられる可能性が高いと言えます。保存料（亜硝酸塩など）によっては問題を引き起こす可能性があります。例えばこれはハム類に含まれていることが多い。
 
-      7. Regarding vitamins, vitamin C (in a dose of more than 500mg/day) and B may trigger the symptoms. When possible, go for products containing only one vitamin or essential trace element instead of buying combination nutritional supplements.
+      7. ビタミン類では、ビタミンC（1日500mg以上）とビタミンBが症状を引き起こす可能性が高い。可能であれば、多くを含むサプリメントを購入するのではなく、1種類のビタミンや必須微量元素のみを含む製品を選ぶとよいでしょう。
 
-      8. If you have any allergy or intolerance besides IC/BPS, you have to keep away from the ingredients in question, too.
-
-
-      To find out which food and drink groups you can have safely, apply an elimination diet.
+      8. IC/BPS以外にもアレルギーや不耐性をお持ちの方は、該当する成分を避けてください。
 
 
-      ### What is an Elimination Diet?
+      安心して食べられる飲食物を知るためには、除去食を行いましょう。
 
 
-      Following an elimination diet, you have to cut out every food and drink that cause problems for most of the IC/BPS patients, in the first step. (See the list below.) It is essential to follow the diet strictly, and you have to pay attention to the ingredient list of ready-cooked or instant meal you buy. When you are symptomless, start to introduce every food or drink you would like to have; one by one and little by little. (This is called provocation phase.) Record everything in your diet log, and note it down if any symptom occurs. Once you are able to identify the food or drink triggers the symptoms you have to cut it out of your diet.
+      ### 除去食とは?
 
 
-      The following food and drinks cause problems for most of the IC/BPS patients:
+      除去食とは、IC/BPS患者の多くが問題としている食べ物や飲み物をまず断ってみることを意味します。（以下のリストをご参照。）この食事療法は厳密に行う必要があります。調理済みの食品やインスタント食品を購入する際には、成分表にご注意ください。症状がない時期に食べたい食べ物や飲み物を一つずつ、少しずつ取り入れていきましょう。（これは挑発フェーズと言います。）すべてを食事ログに残し、何か症状が出たらそれをメモしておきましょう。症状を引き起こす食べ物や飲み物を特定できたら、その食べ物や飲み物を食生活から排除しなければなりません。
 
 
-      * alcoholic drinks
-
-      * caffeinated drinks (coffee, black or green tea)
-
-      * carbonated (sparkling) drinks
-
-      * pineapple, strawberry, orange, grapefruit, grapes, apple and any drink made from them
-
-      * pickled food or anything made with vinegar (e.g. sauerkraut)
-
-      * tomato, both raw and as an ingredient (e.g. ketchup)
-
-      * products containing soy
-
-      * chocolate (exception: white chocolate)
-
-      * sugared food; cakes, cookies or pies – in large quantities
-
-      * artificial sweeteners or preservatives
-
-      * hot and spicy food (spices to avoid: pepper, paprika, pepperoni, chili, curry; vanilla, cinnamon or cloves can cause problems, too)
-
-      * herbal teas, brews or extracts
+      IC/BPS患者の多くは、以下の食べ物や飲み物が反応の原因となります：
 
 
-      During the elimination diet, you have to avoid everything listed above, for four weeks, alongside with any other ingredient you, personally, think it triggers the symptoms. You have to be patient, because the effect of the diet manifests slowly.
+      * アルコール飲料
+
+      * カフェイン飲料（コーヒー、紅茶、緑茶）
+
+      * 炭酸（スパークリング）飲料
+
+      * パイナップル、イチゴ、オレンジ、グレープフルーツ、ブドウ、リンゴ、およびこれらを原料とした飲料
+
+      * 漬け物や酢を使ったもの（例：サワークラウト、ピクルス、酢の物）
+
+      * トマトは生でも、材料として使った場合でも（例：ケチャップなど）
+
+      * 大豆を含む製品
+
+      * チョコレート（例外：ホワイトチョコレート）
+
+      * 砂糖を多く使用した食品、ケーキ、クッキー、パイなどの大量摂取
+
+      * 人工甘味料や保存料
+
+      * 辛くスパイシーな食べ物（避けるべきスパイス：コショウ、パプリカ、ペパロニ、チリ、カレー、バニラ、シナモン、クローブも問題を起こす可能性があります）。
+
+      * ハーブティー、ビール、エキスなど
 
 
-      In the next step, you can try having everything you cut out, one by one. Each test should last for three days.
+      除去食では、四週間、上記のすべてのものを避け、さらに個人的に症状の引き金になると思われる他の成分も避けなければなりません。食事療法の効果はゆっくりと現れるので、忍耐強く続けなければなりません。
 
 
-      On the first day, have the food or drink in question in a very small quantity.
+      次のステップでは、除去した食べ物を一つずつ試してみましょう。それぞれのテストは三日間です。
 
 
-      On the second day, increase the dose.
+      一日目は、問題の食べ物や飲み物をごく少量だけ取ります。
 
 
-      Assuming you still feel well, try having the amount you would normally on the third day.
+      二日目には量を増やします。
 
 
-      If the food or drink you have just tested has caused no problems, you can have it safely in the future.
+      三日目には、まだ調子が良いことを確認した上で、普段通りの量を食べてみてください。
 
 
-      If you have experienced mild symptoms only, you can still have the food or drink tested, but in small quantities only, and sparingly.
+      試した食品や飲料に問題がなければ、今後も安心してお召し上がりいただけます。
 
 
-      In case of severe symptoms, unfortunately, you have to keep away from the food or drink in question. (To lessen the symptoms, drink a lot of water.)
+      軽度の症状であれば、検査した食べ物や飲み物を食べても構いませんが、少量にとどめ、控えめにしてください。
 
 
-      Do not feel desperate if you find your favorite food on the “excluded list”! Each IC/BPS patient
+      症状が重い場合は、残念ながらその食べ物·飲み物を控えていただく必要があります。（症状を軽くするには、水をたくさん飲むことです）。
 
 
-      responds differently to a certain food or drink – it is not impossible that you do not have to cut out what you love. (Actually, certain IC/BPS patients are able to have coffee even if caffein causes pain for most IC/BPS patients.) However, be patients: always follow the steps strictly, and test every single thing for three days.
+      好物が「除去リスト」に載っていても、気を落とさないでください。IC/BPS患者によって、特定の食べ物や飲み物に対する反応は異なりますので、好きなものを除去なくてもよいということもあり得ます。（実際、多くのIC/BPS患者はカフェインで痛みの症状がでますが、でないIC/BPS患者もいます。）ただし、必ず除去食の手順を厳守して、三日間、それぞれの項目をテストしてください。
 
 
-      It is worth noting down which product or which brand you bought from a certain food. The full ingredient list of products from different companies can be different, too – sometimes, not the food or drink you test triggers the symptoms, but one of the extra ingredients does so. In this case, you only have to avoid the product which causes problems, not the sort of food or drink itself.
+      どの食品のどの製品、どのブランドを買ったかをメモしておくとよいでしょう。それぞれのメーカーのそれぞれの製品の成分リストも異なる場合があります。除去テストした食べ物や飲み物が症状を引き起こすのではなく、余分な成分の一つがそうさせている場合もあります。この場合、問題を起こす成分だけを避ければよく、食べ物や飲み物の種類そのものを避けなくてもよい可能性があります。
 ---
