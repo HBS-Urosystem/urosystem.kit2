@@ -2,7 +2,6 @@ backend:
   name: git-gateway
   branch: master
 site_url: https://www.urosystem.com
-#publish_mode: editorial_workflow
 local_backend: true
 media_folder: /static/uploads
 public_folder: /uploads
@@ -22,7 +21,7 @@ i18n:
     - it
     - ru
     - zh
-    - jp
+    - ja
     - ar
     - he
     - tr
@@ -32,21 +31,18 @@ collections:
       - folder
     label_singular: Page
     identifier_field: id
+    public_folder: /uploads
     path: "{{folder}}/{{slug}}"
     summary: "{{folder}}/{{id}}"
-    view_groups:
-      - label: Folder
-        field: folder
+    media_folder: /static/uploads
     delete: false
     name: pages
     slug: "{{id}}"
-    preview_path: "{{slug}}"
     folder: cms/pages
+    view_groups:
+      - label: Folder
+        field: folder
     label: Pages
-    create: false
-    i18n: true
-    media_folder: /static/uploads
-    public_folder: /uploads
     fields:
       - name: id
         label: Unique ID (url)
@@ -62,10 +58,10 @@ collections:
         i18n: duplicate
         required: false
         widget: string
-      - widget: relation
+      - default: en
+        widget: relation
         options_length: 999
         name: fallback
-        default: en
         value_field: i18n.locales.*
         search_fields:
           - i18n.locales.*
@@ -89,18 +85,18 @@ collections:
         required: false
         widget: list
         fields:
-          - label: Link to
-            name: link
-            required: false
-            widget: relation
+          - widget: relation
             options_length: 999
-            collection: pages
+            name: link
+            value_field: "{{folder}}/{{id}}"
             search_fields:
               - id
               - title
-            value_field: "{{folder}}/{{id}}"
+            label: Link to
             display_fields:
               - "{{folder}}/{{id}}"
+            collection: pages
+            required: false
       - name: title
         label: Title (<h1>)
         widget: string
@@ -134,18 +130,18 @@ collections:
         widget: string
         required: false
         i18n: true
-      - label: Hero block
-        name: hero
-        i18n: true
-        required: false
-        widget: relation
+      - widget: relation
         options_length: 999
-        collection: blocks
-        display_fields:
-          - "{{folder}}/{{id}}"
+        name: hero
+        value_field: "{{folder}}/{{id}}"
         search_fields:
           - id
-        value_field: "{{folder}}/{{id}}"
+        label: Hero block
+        display_fields:
+          - "{{folder}}/{{id}}"
+        i18n: true
+        collection: blocks
+        required: false
       - label: Content blocks
         label_singular: Block
         name: blocks
@@ -163,27 +159,26 @@ collections:
             value_field: "{{folder}}/{{id}}"
             display_fields:
               - "{{folder}}/{{id}}"
-
-  - label_singular: Block
-    identifier_field: id
-    sortable_fields:
+    create: false
+    preview_path: "{{slug}}"
+    i18n: true
+  - sortable_fields:
       - id
       - folder
+    label_singular: Block
+    identifier_field: id
+    public_folder: /uploads
     path: "{{folder}}/{{slug}}"
     summary: "{{folder}}/{{id}}"
+    media_folder: /static/uploads
+    delete: false
+    name: blocks
+    slug: "{{id}}"
+    folder: cms/blocks
     view_groups:
       - label: Folder
         field: folder
-    name: blocks
-    slug: "{{id}}"
-    preview_path: "{{folder}}"
-    folder: cms/blocks
     label: Blocks
-    create: true
-    delete: false
-    i18n: true
-    media_folder: /static/uploads
-    public_folder: /uploads
     fields:
       - name: id
         label: Unique ID
@@ -194,10 +189,10 @@ collections:
         widget: string
         i18n: duplicate
         required: false
-      - widget: relation
+      - default: en
+        widget: relation
         options_length: 999
         name: fallback
-        default: en
         value_field: i18n.locales.*
         search_fields:
           - i18n.locales.*
@@ -245,31 +240,31 @@ collections:
             name: color
             widget: list
             fields:
-              - label: Color
-                name: name
-                widget: relation
+              - widget: relation
                 options_length: 999
-                file: design
+                name: name
                 value_field: colors.*.title
                 search_fields:
                   - colors.*.title
+                label: Color
                 display_fields:
                   - colors.*.title
+                file: design
                 collection: config
           - label: Gradient
             name: gradient
             widget: list
             fields:
-              - label: Gradients
-                name: name
-                widget: relation
+              - widget: relation
                 options_length: 999
-                file: design
+                name: name
                 value_field: gradients.*.title
                 search_fields:
                   - gradients.*.title
+                label: Gradients
                 display_fields:
                   - gradients.*.title
+                file: design
                 collection: config
       - label: Components
         label_singular: Component
@@ -319,31 +314,31 @@ collections:
                     name: color
                     widget: list
                     fields:
-                      - label: Color
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: colors.*.title
                         search_fields:
                           - colors.*.title
+                        label: Color
                         display_fields:
                           - colors.*.title
+                        file: design
                         collection: config
                   - label: Gradient
                     name: gradient
                     widget: list
                     fields:
-                      - label: Gradients
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: gradients.*.title
                         search_fields:
                           - gradients.*.title
+                        label: Gradients
                         display_fields:
                           - gradients.*.title
+                        file: design
                         collection: config
               - label: Header
                 name: title
@@ -370,7 +365,8 @@ collections:
                 name: product
                 widget: select
                 options:
-                  - { label: "UroDapter 5pcs", value: "5983114002592" }
+                  - label: UroDapter 5pcs
+                    value: "5983114002592"
           - label: CTA
             name: cta
             summary: "CTA: {{button}}"
@@ -412,31 +408,31 @@ collections:
                     name: color
                     widget: list
                     fields:
-                      - label: Color
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: colors.*.title
                         search_fields:
                           - colors.*.title
+                        label: Color
                         display_fields:
                           - colors.*.title
+                        file: design
                         collection: config
                   - label: Gradient
                     name: gradient
                     widget: list
                     fields:
-                      - label: Gradients
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: gradients.*.title
                         search_fields:
                           - gradients.*.title
+                        label: Gradients
                         display_fields:
                           - gradients.*.title
+                        file: design
                         collection: config
               - label: Header
                 name: title
@@ -459,18 +455,18 @@ collections:
                 name: icon
                 widget: image
                 required: false
-              - label: Link to
-                name: link
-                required: false
-                widget: relation
+              - widget: relation
                 options_length: 999
-                collection: pages
+                name: link
+                value_field: "{{folder}}/{{id}}"
                 search_fields:
                   - id
                   - title
-                value_field: "{{folder}}/{{id}}"
+                label: Link to
                 display_fields:
                   - "{{folder}}/{{id}}"
+                collection: pages
+                required: false
           - label: Modal
             name: modal
             summary: "Modal: {{button}}"
@@ -512,31 +508,31 @@ collections:
                     name: color
                     widget: list
                     fields:
-                      - label: Color
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: colors.*.title
                         search_fields:
                           - colors.*.title
+                        label: Color
                         display_fields:
                           - colors.*.title
+                        file: design
                         collection: config
                   - label: Gradient
                     name: gradient
                     widget: list
                     fields:
-                      - label: Gradients
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: gradients.*.title
                         search_fields:
                           - gradients.*.title
+                        label: Gradients
                         display_fields:
                           - gradients.*.title
+                        file: design
                         collection: config
               - label: Header
                 name: title
@@ -609,31 +605,31 @@ collections:
                     name: color
                     widget: list
                     fields:
-                      - label: Color
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: colors.*.title
                         search_fields:
                           - colors.*.title
+                        label: Color
                         display_fields:
                           - colors.*.title
+                        file: design
                         collection: config
                   - label: Gradient
                     name: gradient
                     widget: list
                     fields:
-                      - label: Gradients
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: gradients.*.title
                         search_fields:
                           - gradients.*.title
+                        label: Gradients
                         display_fields:
                           - gradients.*.title
+                        file: design
                         collection: config
               - label: Header
                 name: title
@@ -654,8 +650,10 @@ collections:
                 required: true
                 widget: select
                 options:
-                  - { label: Angular, value: default }
-                  - { label: Rounded, value: rounded }
+                  - label: Angular
+                    value: default
+                  - label: Rounded
+                    value: rounded
               - label: Aspect ratio (100 = square/cicrle; empty = original)
                 name: ratio
                 widget: number
@@ -738,31 +736,31 @@ collections:
                     name: color
                     widget: list
                     fields:
-                      - label: Color
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: colors.*.title
                         search_fields:
                           - colors.*.title
+                        label: Color
                         display_fields:
                           - colors.*.title
+                        file: design
                         collection: config
                   - label: Gradient
                     name: gradient
                     widget: list
                     fields:
-                      - label: Gradients
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: gradients.*.title
                         search_fields:
                           - gradients.*.title
+                        label: Gradients
                         display_fields:
                           - gradients.*.title
+                        file: design
                         collection: config
               - label: Header
                 name: title
@@ -821,31 +819,31 @@ collections:
                     name: color
                     widget: list
                     fields:
-                      - label: Color
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: colors.*.title
                         search_fields:
                           - colors.*.title
+                        label: Color
                         display_fields:
                           - colors.*.title
+                        file: design
                         collection: config
                   - label: Gradient
                     name: gradient
                     widget: list
                     fields:
-                      - label: Gradients
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: gradients.*.title
                         search_fields:
                           - gradients.*.title
+                        label: Gradients
                         display_fields:
                           - gradients.*.title
+                        file: design
                         collection: config
               - label: Product name
                 name: title
@@ -864,18 +862,18 @@ collections:
                 widget: string
                 required: true
                 default: Illustration
-              - label: Link to
-                name: link
-                required: false
-                widget: relation
+              - widget: relation
                 options_length: 999
-                collection: pages
+                name: link
+                value_field: "{{folder}}/{{id}}"
                 search_fields:
                   - id
                   - title
-                value_field: "{{folder}}/{{id}}"
+                label: Link to
                 display_fields:
                   - "{{folder}}/{{id}}"
+                collection: pages
+                required: false
           - label: Q&As
             name: qas
             summary: "Q&A: {{title}}"
@@ -922,31 +920,31 @@ collections:
                     name: color
                     widget: list
                     fields:
-                      - label: Color
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: colors.*.title
                         search_fields:
                           - colors.*.title
+                        label: Color
                         display_fields:
                           - colors.*.title
+                        file: design
                         collection: config
                   - label: Gradient
                     name: gradient
                     widget: list
                     fields:
-                      - label: Gradients
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: gradients.*.title
                         search_fields:
                           - gradients.*.title
+                        label: Gradients
                         display_fields:
                           - gradients.*.title
+                        file: design
                         collection: config
               - label: Header
                 name: title
@@ -1015,31 +1013,31 @@ collections:
                     name: color
                     widget: list
                     fields:
-                      - label: Color
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: colors.*.title
                         search_fields:
                           - colors.*.title
+                        label: Color
                         display_fields:
                           - colors.*.title
+                        file: design
                         collection: config
                   - label: Gradient
                     name: gradient
                     widget: list
                     fields:
-                      - label: Gradients
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: gradients.*.title
                         search_fields:
                           - gradients.*.title
+                        label: Gradients
                         display_fields:
                           - gradients.*.title
+                        file: design
                         collection: config
               - label: Header
                 name: title
@@ -1053,8 +1051,12 @@ collections:
                 name: source
                 widget: select
                 required: true
-                options: ["youtube", "vimeo", "local"]
-                default: ["youtube"]
+                options:
+                  - youtube
+                  - vimeo
+                  - local
+                default:
+                  - youtube
               - label: Video ID
                 name: id
                 widget: string
@@ -1104,31 +1106,31 @@ collections:
                     name: color
                     widget: list
                     fields:
-                      - label: Color
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: colors.*.title
                         search_fields:
                           - colors.*.title
+                        label: Color
                         display_fields:
                           - colors.*.title
+                        file: design
                         collection: config
                   - label: Gradient
                     name: gradient
                     widget: list
                     fields:
-                      - label: Gradients
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: gradients.*.title
                         search_fields:
                           - gradients.*.title
+                        label: Gradients
                         display_fields:
                           - gradients.*.title
+                        file: design
                         collection: config
               - label: Header
                 name: title
@@ -1155,7 +1157,7 @@ collections:
                 name: action
                 widget: string
                 required: true
-                default: "/"
+                default: /
               - label: HTML
                 name: text
                 widget: markdown
@@ -1201,31 +1203,31 @@ collections:
                     name: color
                     widget: list
                     fields:
-                      - label: Color
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: colors.*.title
                         search_fields:
                           - colors.*.title
+                        label: Color
                         display_fields:
                           - colors.*.title
+                        file: design
                         collection: config
                   - label: Gradient
                     name: gradient
                     widget: list
                     fields:
-                      - label: Gradients
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: gradients.*.title
                         search_fields:
                           - gradients.*.title
+                        label: Gradients
                         display_fields:
                           - gradients.*.title
+                        file: design
                         collection: config
               - label: Slideshow
                 name: slide
@@ -1274,18 +1276,18 @@ collections:
                         name: icon
                         widget: image
                         required: false
-                      - label: Link to
-                        name: link
-                        required: false
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        collection: pages
+                        name: link
+                        value_field: "{{folder}}/{{id}}"
                         search_fields:
                           - id
                           - title
-                        value_field: "{{folder}}/{{id}}"
+                        label: Link to
                         display_fields:
                           - "{{folder}}/{{id}}"
+                        collection: pages
+                        required: false
                   - label: Modal
                     name: modal
                     summary: "Modal: {{button}}"
@@ -1364,18 +1366,18 @@ collections:
                         widget: string
                         required: true
                         default: Illustration
-                      - label: Link to
-                        name: link
-                        required: false
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        collection: pages
+                        name: link
+                        value_field: "{{folder}}/{{id}}"
                         search_fields:
                           - id
                           - title
-                        value_field: "{{folder}}/{{id}}"
+                        label: Link to
                         display_fields:
                           - "{{folder}}/{{id}}"
+                        collection: pages
+                        required: false
                   - label: Video
                     name: video
                     summary: "Video: {{title}}"
@@ -1396,8 +1398,12 @@ collections:
                         name: source
                         widget: select
                         required: true
-                        options: ["youtube", "vimeo", "local"]
-                        default: ["youtube"]
+                        options:
+                          - youtube
+                          - vimeo
+                          - local
+                        default:
+                          - youtube
                       - label: Video ID
                         name: id
                         widget: string
@@ -1447,31 +1453,31 @@ collections:
                     name: color
                     widget: list
                     fields:
-                      - label: Color
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: colors.*.title
                         search_fields:
                           - colors.*.title
+                        label: Color
                         display_fields:
                           - colors.*.title
+                        file: design
                         collection: config
                   - label: Gradient
                     name: gradient
                     widget: list
                     fields:
-                      - label: Gradients
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: gradients.*.title
                         search_fields:
                           - gradients.*.title
+                        label: Gradients
                         display_fields:
                           - gradients.*.title
+                        file: design
                         collection: config
               - label: Header
                 name: title
@@ -1548,31 +1554,31 @@ collections:
                     name: color
                     widget: list
                     fields:
-                      - label: Color
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: colors.*.title
                         search_fields:
                           - colors.*.title
+                        label: Color
                         display_fields:
                           - colors.*.title
+                        file: design
                         collection: config
                   - label: Gradient
                     name: gradient
                     widget: list
                     fields:
-                      - label: Gradients
-                        name: name
-                        widget: relation
+                      - widget: relation
                         options_length: 999
-                        file: design
+                        name: name
                         value_field: gradients.*.title
                         search_fields:
                           - gradients.*.title
+                        label: Gradients
                         display_fields:
                           - gradients.*.title
+                        file: design
                         collection: config
               - label: Header
                 name: title
@@ -1604,40 +1610,9 @@ collections:
                     name: src
                     widget: image
                     required: false
-
-  #- name: locale
-  #  label: Locale settings
-  #  create: false
-  #  i18n:
-  #    structure: single_file
-  #  files:
-  #    - label: "Languages"
-  #      name: "langs"
-  #      file: "cms/config/langs.yml"
-  #      i18n: true
-  #      identifier_field: id
-  #      fields:
-  #        - { label: ID, name: id, i18n: true, widget: string }
-  #        - { label: Label, name: title, i18n: true, widget: string }
-  #        - { label: Active, name: active, i18n: true, widget: boolean }
-  #        - { label: Flag, name: flag, i18n: true, widget: image, required: false }
-  #        - label: Text direction
-  #          name: dir
-  #          i18n: true
-  #          default: "ltr"
-  #          widget: select
-  #          options:
-  #            - { label: "Left to right", value: "ltr" }
-  #            - { label: "Right to left", value: "rtl" }
-  #        - label: Font Face
-  #          name: font
-  #          i18n: true
-  #          default: "default"
-  #          widget: select
-  #          options:
-  #            - { label: "Default", value: "default" }
-  #            - { label: "Serif", value: "serif" }
-
+    create: true
+    preview_path: "{{folder}}"
+    i18n: true
   - name: config
     label: Site settings
     files:
@@ -1668,24 +1643,24 @@ collections:
               - label: Name
                 name: title
                 widget: string
-              - label: Color 1
-                name: var1
-                widget: relation
+              - widget: relation
                 options_length: 999
+                name: var1
                 value_field: colors.*.title
                 search_fields:
                   - colors.*.title
+                label: Color 1
                 display_fields:
                   - colors.*.title
                 file: design
                 collection: config
-              - label: Color 2
-                name: var2
-                widget: relation
+              - widget: relation
                 options_length: 999
+                name: var2
                 value_field: colors.*.title
                 search_fields:
                   - colors.*.title
+                label: Color 2
                 display_fields:
                   - colors.*.title
                 file: design
@@ -1712,7 +1687,10 @@ collections:
               - label: Label
                 name: title
                 widget: string
-              - { label: Active, name: active, required: false, widget: boolean }
+              - label: Active
+                name: active
+                required: false
+                widget: boolean
               - label: Flag
                 name: flag
                 widget: image
@@ -1750,7 +1728,6 @@ collections:
           - name: local_backend
             label: local_backend
             widget: boolean
-
       - label: Main nav
         file: cms/config/nav.yml
         name: nav
@@ -1783,7 +1760,7 @@ collections:
                 name: subpages
                 required: false
                 widget: list
-                fields: 
+                fields:
                   - label: Submenu Title
                     name: titles
                     widget: list
@@ -1834,7 +1811,7 @@ collections:
                 name: subpages
                 required: false
                 widget: list
-                fields: 
+                fields:
                   - label: Submenu Title
                     name: titles
                     widget: list
