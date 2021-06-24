@@ -1,5 +1,6 @@
 <script context="module">
   //export const hydrate = false
+  import { onMount } from 'svelte'
   import { get } from 'svelte/store'
   import { state, sitelang, pagepath } from '$lib/stores'
   import Nav from '$lib/Nav.svelte'
@@ -69,7 +70,14 @@
   $:  $state = result
   $:  $pagepath = path
   $: if (lang && lang != 'undefined') $sitelang = lang
-  //$: console.log('__layout $state:',$state)
+  $: console.log('__layout $state:',$state)
+  let thislang = {dir: 'ltr'}
+	onMount(() => {
+    document.querySelector('html').lang = $sitelang
+    thislang = $state.thislang
+    document.querySelector('html').dir = thislang.dir
+    //console.log(thislang)
+	});
 </script>
 
 <Nav/><!--  dir={thislang.dir} -->
