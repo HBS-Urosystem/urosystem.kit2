@@ -48,7 +48,7 @@
     res = await fetch(`/${get(sitelang)}/cms.json`);
 		if (res.ok) {
       const result = await res.json()
-      console.log('result_l3',result.post)
+      //console.log('result_l3',result.post)
 
 			if (result.thislang) return {
 				props: {
@@ -70,7 +70,7 @@
   $:  $state = result
   $:  $pagepath = path
   $: if (lang && lang != 'undefined') $sitelang = lang
-  $: console.log('__layout $state:',$state)
+  //$: console.log('__layout $state:',$state)
   let thislang = {dir: 'ltr'}
 	onMount(() => {
     document.querySelector('html').lang = $sitelang

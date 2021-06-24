@@ -37,7 +37,7 @@
       console.log('hashchange',document.location.hash)
     })
     showModal = document.location.hash == '#'+comp.anchor
-    console.log('onMount','#'+comp.anchor)//comp.anchor,document.location.hash)
+    //console.log('onMount','#'+comp.anchor)//comp.anchor,document.location.hash)
   })
   //$: console.log(document.location.hash, '#'+comp.anchor)
   
