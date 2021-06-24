@@ -1,5 +1,5 @@
 <script context="module">
-  //export const hydrate = false
+  export const hydrate = false
 
   import { state, sitelang } from '$lib/stores'
   import Components from '$lib/Components.svelte'
