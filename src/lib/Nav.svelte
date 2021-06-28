@@ -67,7 +67,7 @@
 
 	//const { page } = stores()
   //export let segment
-  let sublinks, navbar, navul, modal
+  let navbar, navul, modal
 
   let langchng = $sitelang
   //const path = $pagepath.split('/')
@@ -180,19 +180,23 @@
         {#if nav.title}
           <li>
             {#if nav.link}
-              <a sveltekit:prefetch tabindex="0" href="/{$sitelang}/{nav.link}">{nav.title} </a>
-              {#if nav.modal} <!-- = _getBlock('index/'+nav.link.substring(1), 'en')}-->
-                {#each nav.modal.components || [] as comp}
-                  <Components {comp}/>
-                {/each}        
-              {/if}
+              <a sveltekit:prefetch tabindex="0" href="/{$sitelang}/{nav.link}">{nav.title} 
+                {#if nav.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
+              </a>
             {:else}
-              <span tabindex="0">{nav.title} <img src="/uploads/open-down.svg" alt="" aria-hidden="true"></span>
+              <span tabindex="0">{nav.title}
+                {#if nav.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
+              </span>
+            {/if}
+            {#if nav.modal} <!-- = _getBlock('index/'+nav.link.substring(1), 'en')}-->
+              {#each nav.modal.components || [] as comp}
+                <Components {comp}/>
+              {/each}        
             {/if}
 
-            {#if sublinks = nav.sublinks}
+            {#if nav.sublinks}
               <ul>
-                {#each sublinks as sub}
+                {#each nav.sublinks as sub}
                   <li><SubNav {sub}/></li>
                   {#if sub.modal}
                     {#each sub.modal.components || [] as comp}
@@ -201,31 +205,6 @@
                   {/if}
                 {/each}
               </ul>
-              <!--{:else} if post = _findPost($sitelang, nav.link)}
-              
-              {#if post.subpages}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">
-                <ul>
-                  {#each post.subpages as sub}
-                    <li><SubNav {sub}/></li>
-                  {/each}
-                </ul>
-              {:else}
-                <a tabindex="0" href="{$sitelang}/{nav.link}">{nav.title}</a>
-              {/if}
-              {:else if nav.sublinks}
-              <span tabindex="0">{nav.title} <img src="/uploads/open-down.svg" alt="" aria-hidden="true"></span>
-              <ul>
-                {#each nav.sublinks as sub}
-                <li><SubNav {sub}/></li>
-                {/each}
-              </ul>
-              {:else if nav.link.startsWith('#')}
-              <a tabindex="0" href="{nav.link}">{nav.title} </a><img src="/uploads/open-down.svg" alt="" aria-hidden="true">
-              {#if modal = _getBlock('index/'+nav.link.substring(1), 'en')}
-                {#each modal.components || [] as comp}
-                  <Components {comp}/>
-                {/each}        
-              {/if}-->
             {/if}
           </li>
         {/if}
@@ -269,12 +248,15 @@
     top: 0;
     transition: transform linear, top linear, background-color linear;
     height: auto;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
     z-index: 1;
     /*background-color: transparent;*/
     /*background-color: var(--dark-blue-75);*/
     /*background-image: var(--grad-light-blue-25);*/
+  }
+  nav:hover, nav:focus, nav:focus-within {
+    overflow-x: auto;
   }
   nav.moved, nav:hover, nav:focus-within {
     background-color: var(--dark-blue);
