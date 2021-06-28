@@ -322,6 +322,7 @@
     flex-wrap: nowrap;
     padding-inline-start: 1rem;
     margin: 1rem max(var(--sides), 0px) 0;
+    margin-top: 1rem;
     width: max-content;
     /*overflow-y: hidden;*/ /* just for sticky over */
     z-index: 1;
