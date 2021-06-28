@@ -83,7 +83,7 @@ components:
       8. Whom is data transferred to?
 
 
-       In case of purchasing, data describing financial information are transferred to and handled by PayPal. The Data Controller is being informed by PayPal on the corresponding data in the form of a success report.
+      In case of purchasing, data describing financial information are transferred to and handled by PayPal. The Data Controller is being informed by PayPal on the corresponding data in the form of a success report.
 
 
       PayPal Corporate Headquarters: 2211 North First Street, Jan Jose, California 95131 the USA – [www.paypal.com](http://www.paypal.com/)

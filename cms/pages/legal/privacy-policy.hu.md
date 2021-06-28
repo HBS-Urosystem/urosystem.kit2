@@ -4,5 +4,5 @@ folder: legal
 fallback: en
 published: true
 title: Adatkezelési tájékoztató
-menutitle:
+menutitle: null
 ---

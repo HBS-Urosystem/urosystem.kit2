@@ -25,6 +25,6 @@ components:
 
       5. Every product or product package which has been purchased separately is to be shipped as a separate unit.
 
-      6. Further information regarding shipping, delivery and refund that has not been detailed above is included in our [Terms and Conditions](https://urosystem-ru.myshopify.com/admin/settings/terms-of-service).
+      6. Further information regarding shipping, delivery and refund that has not been detailed above is included in our [Terms and Conditions](/terms-of-service).
     anchor: shipping-policy
 ---

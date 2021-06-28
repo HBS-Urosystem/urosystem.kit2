@@ -29,5 +29,5 @@ components:
       5. Chaque produit - ou ensemble de produits - emballé qui a été acheté séparément doit être expédié en tant qu'unité distincte.
 
 
-      6. De plus amples informations concernant l'expédition, la livraison et le remboursement qui n'ont pas été détaillées ci-dessus sont incluses dans notre [Conditions Générales](https://urosystem-ru.myshopify.com/admin/settings/terms-of-service).
+      6. De plus amples informations concernant l'expédition, la livraison et le remboursement qui n'ont pas été détaillées ci-dessus sont incluses dans notre [Conditions Générales](/terms-of-service).
 ---
