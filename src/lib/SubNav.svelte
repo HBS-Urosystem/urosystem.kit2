@@ -60,7 +60,7 @@
   a {
     text-decoration: none;
     white-space: nowrap;
-    padding-inline-end: .25rem;
+    padding-inline-end: .5rem;
   }
   a.block {
     padding: .5rem 1rem .25rem;
