@@ -81,7 +81,7 @@
          "price": false
          },
          "text": {
-         "button": comp.button || "Shop now"
+         "button": (comp.button || "Shop now") + ' ✔︎'
          }
     },
     "productSet": {
@@ -113,10 +113,11 @@
          "font-size": "18px",
          "padding-top": "16px",
          "padding-bottom": "16px",
+         "color": "revert",
          ":hover": {
               "background-color": "#4aa0c1"
          },
-         "background-color": "#52b2d6",
+         "background-color": "#var(--pale-blue)",
          ":focus": {
               "background-color": "#4aa0c1"
          },
