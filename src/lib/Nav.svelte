@@ -256,14 +256,13 @@
     /*background-image: var(--grad-light-blue-25);*/
   }
   nav:hover, nav:focus, nav:focus-within {
+    background-color: var(--dark-blue-75);
     overflow-x: auto;
-  }
-  nav.moved, nav:hover, nav:focus-within {
-    background-color: var(--dark-blue);
   }
   nav.moved {
     top: -3rem;
     /*border-bottom: 2px var(--light-blue-75) solid;*/
+    background-color: var(--dark-blue);
   }
   li#over {
     position: sticky;
