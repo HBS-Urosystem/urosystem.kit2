@@ -29,7 +29,7 @@
 <script>
   const dir = $state.thislang.dir
   import validate from "./_validation";
-  let duration = "300ms";
+  let duration = "450ms";
   let offset = 0;
   let tolerance = 4;
   let headerClass = "pin";
@@ -174,7 +174,11 @@
       </ul>
     </div>
     <ul bind:this={navul}>
-      <li><a tabindex="0" sveltekit:prefetch href="/{$sitelang}" aria-label="home"><img src="/uploads/logo-03-web.svg" alt="UroDapter® – Revolutionizing bladder pain treatment"></a></li>
+      <li>
+        <a tabindex="0" sveltekit:prefetch href="/{$sitelang}" aria-label="home">
+          <img src="/uploads/logo-03-web.svg" alt="UroDapter® – Revolutionizing bladder pain treatment">
+        </a>
+      </li>
       <!--{@debug topnav}-->
       {#each $state.topnav as nav}<!--{@debug nav}-->
         {#if nav.title}
@@ -210,9 +214,9 @@
         {/if}
       {/each}
       {#if navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}
-      <li id="over" on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? 200 : -200 )})}><!--  -->
-        <button aria-label="Scroll the nav"></button>
-      </li>
+        <li id="over" on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? 200 : -200 )})}><!--  -->
+          <button aria-label="Scroll the nav"></button>
+        </li>
       {/if}
       <!--<li><a href="/">Company</a></li>
       <li><a href="/">Downloads</a></li>
@@ -362,7 +366,7 @@
     visibility:hidden;
     height: 0;
     opacity: 0;
-    transition: opacity .5s;
+    transition: opacity 1.25s;
     width: 0;
     max-width: 0;
     overflow-x: visible;
