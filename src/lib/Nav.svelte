@@ -1,6 +1,7 @@
 <script context="module">
 	import { state, cookies, moved, sitelang, pagepath } from '$lib/stores'
-	//import { langs } from '$lib/config';
+  import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
+  //import { langs } from '$lib/config';
   //import { topnav } from '$lib/config'
   //import { _findPost } from '$lib/utils'
   //import { _findPosts } from '$lib/utils'
@@ -104,12 +105,12 @@
   gtag('config', 'UA-180221975-1');
   </script>
 
-	{#if $cookies == true}
+	{#if $cookies == true && !dev }
     <script>
       gtag('config', 'AW-433475160')
     </script>
   
-    {#if $moved == 'DEV'}
+    <!--{#if $moved}-->
       <!-- Hotjar Tracking Code for https://www.urosystem.com/ -->
       <script>
         (function(h,o,t,j,a,r){
@@ -145,7 +146,7 @@
       </script>
       <noscript><img loading="lazy" height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=699963074016051&ev=PageView&noscript=1" alt="fb-pixel" /></noscript>
       <!-- End Facebook Pixel Code -->
-    {/if}
+    <!--{/if}-->
 	{/if}
 </svelte:head>
 
@@ -175,11 +176,11 @@
     <ul bind:this={navul}>
       <li><a tabindex="0" sveltekit:prefetch href="/{$sitelang}" aria-label="home"><img src="/uploads/logo-03-web.svg" alt="UroDapter® – Revolutionizing bladder pain treatment"></a></li>
       <!--{@debug topnav}-->
-      {#each $state.topnav as nav}
+      {#each $state.topnav as nav}<!--{@debug nav}-->
         {#if nav.title}
           <li>
             {#if nav.link}
-              <a sveltekit:prefetch tabindex="0" href="{$sitelang}/{nav.link}">{nav.title} </a>
+              <a sveltekit:prefetch tabindex="0" href="/{$sitelang}/{nav.link}">{nav.title} </a>
               {#if nav.modal} <!-- = _getBlock('index/'+nav.link.substring(1), 'en')}-->
                 {#each nav.modal.components || [] as comp}
                   <Components {comp}/>
@@ -189,7 +190,7 @@
               <span tabindex="0">{nav.title} <img src="/uploads/open-down.svg" alt="" aria-hidden="true"></span>
             {/if}
 
-            {#if sublinks = nav.sublinks}<!--{@debug top}-->
+            {#if sublinks = nav.sublinks}
               <ul>
                 {#each sublinks as sub}
                   <li><SubNav {sub}/></li>
@@ -238,7 +239,6 @@
       <li><a href="/">Downloads</a></li>
       <li><a href="/">Events</a></li>-->
     </ul>
-  <!--</nav>-->
   </nav>
 <!--</div>-->
   
