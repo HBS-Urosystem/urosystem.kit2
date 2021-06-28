@@ -6,7 +6,5 @@ components:
     text: '<img src="/uploads/urosystem_logo_02_web.svg" alt="Urosystem logo"
       style="filter:invert();width:20ch;display:block;margin:0 auto;
       aspect-ratio: 100 / 90.861" />'
-    background:
-      - type: gradient
-        name: light-blue
+    background: []
 ---

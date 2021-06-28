@@ -9,7 +9,7 @@
   let mounted = false
   onMount(() => {
     mounted = []
-    console.log('mounted',mounted)
+    //console.log('mounted',mounted)
   });
   $: if (mounted && !mounted.includes(comp.lang)) {
     (function () {
