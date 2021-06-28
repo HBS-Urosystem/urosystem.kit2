@@ -114,12 +114,12 @@ header ~ nav, header {
   /*background-color: var(--light-blue);*/
   background-image: var(--grad-light-blue);
 }
-header ~ nav ul, header ul {
+header ~ nav ul, header > ul {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-header ~ nav li, header li {
+header ~ nav li, header > ul > li {
   width: max-content;
   margin: .5rem 0;
 }
