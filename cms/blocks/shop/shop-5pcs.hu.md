@@ -10,7 +10,7 @@ components:
     text: |-
       SZÁLLÍTÁSI DÍJAK:
 
-      * EU, Oroszország, Ukrajna: $9.50
+      * Európai országok, Oroszország, Ukrajna: $9.50
       * Egyéb országok: $10.00
 
       Regisztrált elsőbbségi küldmény
@@ -24,7 +24,7 @@ components:
       FOLLOWS:
 
 
-      * EU countries: 12 days
+      * European countries: 12 days
 
       * Russia, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
 

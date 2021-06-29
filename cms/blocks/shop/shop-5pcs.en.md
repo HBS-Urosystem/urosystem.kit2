@@ -15,7 +15,7 @@ components:
     text: |-
       SHIPPING COST:
 
-      * EU, Russia, Ukraine: $9.50
+      * European countries, Russia, Ukraine: $9.50
       * Other countries: $10.00
 
       Sent out by registered priority mail
@@ -32,7 +32,7 @@ components:
       FOLLOWS:
 
 
-      * EU countries: 12 days
+      * European countries: 12 days
 
       * Russia, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
 
