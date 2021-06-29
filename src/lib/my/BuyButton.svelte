@@ -58,12 +58,14 @@
          "padding-top": "16px",
          "padding-bottom": "16px",
          ":hover": {
-              "background-color": "#4aa0c1"
+              "background-color": "#52b2d6"
          },
-         "background-color": "#52b2d6",
+         /*"background-color": "#52b2d6",*/
          ":focus": {
-              "background-color": "#4aa0c1"
+              "background-color": "#52b2d6"
          },
+         "background-color": "#c7e1f0",
+         "color": "black",
          "border-radius": "40px",
          "padding-left": "80px",
          "padding-right": "80px"
@@ -115,7 +117,8 @@
          "padding-bottom": "16px",
          "color": "revert",
          ":hover": {
-              "background-color": "#4aa0c1"
+              //"background-color": "#4aa0c1"
+              "background-color": "#52b2d6"
          },
          "background-color": "#var(--pale-blue)",
          ":focus": {

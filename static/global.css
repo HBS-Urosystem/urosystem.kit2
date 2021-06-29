@@ -114,12 +114,12 @@ header ~ nav, header {
   /*background-color: var(--light-blue);*/
   background-image: var(--grad-light-blue);
 }
-header ~ nav ul, header > ul {
+header ~ nav ul, header > nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-header ~ nav li, header > ul > li {
+header ~ nav li, header > nav li {
   width: max-content;
   margin: .5rem 0;
 }
@@ -211,16 +211,23 @@ button {
   line-height: 3rem;
   margin-bottom: 1em;
   background-color: var(--pale-blue);
+  color: black;
   white-space: nowrap;
 }
-@media (max-width: 80ch) {
-  button {
-    --gap2: 1rem;
-  }
+button:hover, button:focus {
+  background-color: #52b2d6;
+  transition: background-color 200ms ease;
+  /*"background-color": "#52b2d6",*/
 }
 button img {
   width: 1.75rem;
   margin: .5rem .5rem 0 0;
+}
+
+@media (max-width: 80ch) {
+  button {
+    --gap2: 1rem
+  }
 }
 
 
