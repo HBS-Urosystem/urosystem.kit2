@@ -19,10 +19,10 @@
 <!-- on:click={() => scrollto.scrollTo({element: noscroll ? 'main' : 'body', y: 0})}-->
 
 <style>
-  li {
+  /*li {
     width: max-content;
     margin: .5rem 0;
-  }
+  }*/
   /*li */a {
     padding: .25rem 1rem 0;
     display: block;
