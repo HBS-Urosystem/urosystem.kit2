@@ -33,5 +33,15 @@
 	</head>
 	<body>
 		<div id="svelte">%svelte.body%</div>
+		<form hidden name="contact" method="POST" action="en/thankyou" netlify>
+			<input type="hidden" name="form-name" value="contact">
+			<input type="text" name="name">
+			<input type="email" name="email">
+			<input type="text" name="subject">
+			<textarea name="message" rows="4"></textarea>
+			<!--input type="checkbox" name="newsletter" /-->
+			<input type="checkbox" name="privacy">
+			<!--<button type="submit">Send</button>-->
+		</form>
 	</body>
 </html>
