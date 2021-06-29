@@ -4,7 +4,8 @@ folder: shop
 fallback: en
 components:
   - type: article
-    text: '<p><small>Az alábbi országokban a termék nem elérhető weboldalunkról:
+    text: '<p><small>AZ ALÁBBI ORSZÁGOKBAN A TERMÉK NEM ELÉRHETŐ CÉGÜNKTŐL:\
+
       Albánia, Ausztria, Belorusszia, Csehország, Ciprus, Dánia, Észtország,
       Finnország, Franciaország, Németország, Koszovó, Görögország,
       <b>Magyarország</b>, Írország, Olaszország, Lettország, Litvánia,

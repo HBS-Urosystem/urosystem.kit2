@@ -1,5 +1,5 @@
 ---
-id: covid-19
+id: delivery
 folder: shop
 fallback: en
 ---

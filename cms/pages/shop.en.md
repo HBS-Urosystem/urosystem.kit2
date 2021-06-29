@@ -8,8 +8,9 @@ keywords: Urosystem, UroDapter, UroStill, sample package, urological adapter,
 description: Sample packages of 5 pcs/10 pcs of UroDapter® can be purchased
   here. For larger quantities visit our Amazon page.
 menutitle: Purchase
-hero: shop/shop-5pcs
+hero: shop/hero
 blocks:
-  - id: shop/ibsa-countries
+  - id: shop/shop-5pcs
   - id: shop/amazon
+  - id: shop/advantages
 ---

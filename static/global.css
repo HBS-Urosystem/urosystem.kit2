@@ -67,7 +67,7 @@ header, article, aside, main > div {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 25%;
-  padding-bottom: 1rem;
+  /*padding-bottom: 1rem;*/
   background-blend-mode: soft-light, screen;
 }
 nav + main > header {
@@ -87,9 +87,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 article h1:first-child, article h2:first-child, article h3:first-child, article h4:first-child, article h5:first-child, article h6:first-child, aside h1:first-child, aside h2:first-child, aside h3:first-child, aside h4:first-child, aside h5:first-child, aside h6:first-child {
   padding-top: 1.5em;
-  /*margin-top: 0;*/
+  margin-top: 0;
 }
-article p:first-child {
+figure p {
+  margin-top: 0;
+}
+article > p:first-child {
   padding-top: 1em;
   margin-top: 0;
 }
@@ -101,7 +104,7 @@ header h1 {
   padding: var(--gap4) var(--sides) var(--gap);
 }*/
 article, aside {
-  padding: 0 var(--sides);
+  padding: 0 var(--sides) 1rem;
 }
 article > div, aside > div, figcaption {
   max-width: 56ch;

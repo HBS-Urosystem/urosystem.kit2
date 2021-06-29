@@ -8,7 +8,7 @@ components:
     subtitle: "Az 5 db-os mintacsomag ára: $40 / 10 db: $75"
     anchor: sample
     text: |-
-      Szállítási díjak:
+      SZÁLLÍTÁSI DÍJAK:
 
       * EU, Oroszország, Ukrajna: $9.50
       * Egyéb országok: $10.00
@@ -20,8 +20,8 @@ components:
     product: "5983114002592"
   - type: article
     text: >-
-      The estimated delivery time, according to the customer’s country as
-      follows:
+      THE ESTIMATED DELIVERY TIME, ACCORDING TO THE CUSTOMER'S COUNTRY AS
+      FOLLOWS:
 
 
       * EU countries: 12 days
@@ -29,7 +29,20 @@ components:
       * Russia, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
 
       * Other countries: 15 days
+  - type: article
+    subtitle: DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN USUAL.
+    anchor: ""
+  - type: article
+    text: >-
+      AZ ALÁBBI ORSZÁGOKBAN A TERMÉK NEM ELÉRHETŐ CÉGÜNKTŐL:\
+
+      *Albánia, Ausztria, Belorusszia, Csehország, Ciprus, Dánia, Észtország,
+      Finnország, Franciaország, Németország, Koszovó, Görögország,
+      <b>Magyarország</b>, Írország, Olaszország, Lettország, Litvánia,
+      Luxemburg, Észak-Macedónia, Málta, Hollandia, Lengyelország, Portugália,
+      Románia, Szerbia, Szlovákia, Szlovénia, Spanyolország, Svédország,
+      Egyesült Királyság, Törökország, Ausztrália, Új-Zéland.* 
 
 
-      #### Due to the COVID world wide pandemic delivery can be longer than usual.
+      TOVÁBBI INFORMÁCIÓÉRT LÁTOGASSA MEG PARTNERÜNK HONLAPJÁT: <a href="https://www.ibsagroup.com" rel="noopener" target="_blank">https://www.ibsagroup.com</a>
 ---

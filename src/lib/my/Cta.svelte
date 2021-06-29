@@ -3,15 +3,15 @@
   let rel = '', target = '', link
   $: {
     //console.log(comp)
-    if (comp.link.startsWith('/')) comp.link = comp.link.substring(1)
-    if (comp.link.startsWith('http')) {
+    if (comp.link && comp.link.startsWith('/')) comp.link = comp.link.substring(1)
+    if (comp.link && comp.link.startsWith('http')) {
       rel = 'noopener'
       target = '_blank'
       link = comp.link
     } else {
       //console.log(comp.link)
       //if (comp.link == 'index') comp.link = ''
-      link = '/' + comp.lang + (comp.link == 'index' ? '' : '/' + comp.link)
+      link = '/' + comp.lang + (comp.link && comp.link == 'index' ? '' : '/' + comp.link)
     }
   }
 </script>

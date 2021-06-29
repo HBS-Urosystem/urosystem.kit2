@@ -112,9 +112,9 @@
          },
          "button": {
          "font-family": "Gill Sans, sans-serif",
-         "font-size": "18px",
-         "padding-top": "16px",
-         "padding-bottom": "16px",
+         "font-size": "1em",
+         "padding-top": "1rem",
+         "padding-bottom": "1rem",
          "color": "revert",
          ":hover": {
               //"background-color": "#4aa0c1"
