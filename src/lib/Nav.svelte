@@ -324,8 +324,8 @@
     /*margin: 1rem max(var(--sides), 0px) 0;*/
     margin-top: 1rem;
     margin-bottom: 0;
-    margin-inline-start: max(var(--sides), 0px);
-    margin-inline-end: max(var(--sides), 0px);
+    margin-inline-start: var(--sides);
+    margin-inline-end: var(--sides);
     width: max-content;
     /*overflow-y: hidden;*/ /* just for sticky over */
     z-index: 1;
