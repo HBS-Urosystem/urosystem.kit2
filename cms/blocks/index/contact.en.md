@@ -28,13 +28,13 @@ components:
 
       <div>
         <!--label><input type="checkbox" name="newsletter" /> I want to subscribe to the newsletter</label><br><br-->
-        <label><input type="checkbox" name="privacy" required /> I've read and accepted the <a href="en/legal/privacy-policy" target="_blank">privacy policy</a>.</label><br><br>
+        <label><input type="checkbox" name="privacy" required /> I've read and accepted the <a href="/legal/privacy-policy" target="_blank">privacy policy</a>.</label><br><br>
       </div>
 
       <section>
         <button type="submit">Send</button>
       </section>
-    name: contact
+    name: Contact
     netlify: true
     action: /thankyou
 ---

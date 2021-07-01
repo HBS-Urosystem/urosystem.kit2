@@ -29,7 +29,7 @@ components:
         <button type="submit">Send</button>
         <p dir="ltr">Please note that in most cases we will response in English.</p>
       </section>
-    name: contact
+    name: Contact
     netlify: true
     action: /thankyou
 ---

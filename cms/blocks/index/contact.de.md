@@ -28,7 +28,7 @@ components:
       <section>
         <button type="submit">Absenden</button>
       </section>
-    name: contact
+    name: Contact
     netlify: true
     action: /thankyou
 ---
