@@ -35,13 +35,13 @@
 
 <main>
   {#if $state.post.hero}
-    <header style="{$state.post.hero.background ? $state.post.hero.background : ``}">
+    <header style="min-height:100vh;{$state.post.hero.background ? $state.post.hero.background : ``}">
       <h1 hidden>{$state.post.title}</h1>
       {#each $state.post.hero.components || [] as comp}
-      <Components {comp}/>
+        <Components {comp}/>
       {/each}
     </header>
-    {#if $state.post.subposts}
+    <!--{#if $state.post.subposts}
       <nav>
         <ul>
           {#each $state.post.subposts as sub}
@@ -49,10 +49,15 @@
           {/each}
         </ul>
       </nav>
-    {/if}
+    {/if}-->
   {:else}
     <header>
       <h1>{$state.post.title}</h1>
+      {#if $state.post.subhero}
+        {#each $state.post.subhero.components || [] as comp}
+          <Components {comp}/>
+        {/each}
+      {/if}
       {#if $state.post.subposts}
         <nav>
           <ul>

@@ -41,15 +41,18 @@
 		display: flex;
 		align-items: center;
 		/*z-index: 1;*/
+		padding-block: 0;
+		padding-inline-start: 1rem;
 	}
   p {
     font-size: smaller;
     max-height: 5em;
     overflow-y: auto;
+		margin: 0;
   }
 	button {
 		/*flex-shrink: 0;
     width: min-content;*/
-    margin: 1em 0
+    margin: 1.5rem
   }
 </style>

@@ -182,6 +182,10 @@ export async function _getPost({path = 'index', lang = 'en', sub = null}) {
     //console.log('awaithero', lang)
     post.hero = await _getBlock(p.hero, lang)
   }
+  if (p.subhero) {
+    //console.log('awaithero', lang)
+    post.subhero = await _getBlock(p.subhero, lang)
+  }
 
   if (p.blocks) {
     let blocks = []

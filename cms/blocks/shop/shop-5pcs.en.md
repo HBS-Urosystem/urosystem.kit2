@@ -3,32 +3,42 @@ id: shop-5pcs
 folder: shop
 fallback: ""
 background:
-  - type: gradient
-    name: light-blue-75
   - type: image
     posx: 50
-    posy: 50
+    posy: 30
     src: /uploads/shop_bg_group.png
-    scale: 85
+    scale: 115
+  - type: gradient
+    name: light-blue-75
 components:
-  - type: article
-    text: |-
-      SHIPPING COST:
+  - type: grid
+    slide: false
+    components:
+      - type: article
+        text: |-
+          #### SHIPPING COST
 
-      * European countries, Russia, Ukraine: $9.50
-      * Other countries: $10.00
+          * European countries, Russia, Ukraine: $9.50
+          * Other countries: $10.00
 
-      Sent out by registered priority mail
+          Sent out by registered priority mail
+        subtitle: ""
+        background:
+          - type: image
+            posx: 80
+            posy: 72
+            scale: 20
+            src: /uploads/urodapter-removebg.png
     title: UroDapter® new to you? Order a sample package today!
-    anchor: sample
     subtitle: Buy 5 pcs for $40 / 10 pcs for $75
+    background: []
   - type: buy
     title: ""
     button: Shop now
     product: "5983114002592"
   - type: article
     text: >-
-      THE ESTIMATED DELIVERY TIME, ACCORDING TO THE CUSTOMER'S COUNTRY AS
+      #### THE ESTIMATED DELIVERY TIME, ACCORDING TO THE CUSTOMER'S COUNTRY AS
       FOLLOWS:
 
 
@@ -37,9 +47,12 @@ components:
       * Russia, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
 
       * Other countries: 15 days
+    subtitle: ""
   - type: article
-    subtitle: DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN USUAL.
+    subtitle: ""
     anchor: ""
+    text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
+      USUAL."
   - type: article
     text: >-
       THE PRODUCT IS NOT AVAILABLE FROM OUR COMPANY IN THE FOLLOWING COUNTRIES:\

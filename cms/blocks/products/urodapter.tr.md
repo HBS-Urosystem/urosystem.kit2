@@ -33,7 +33,7 @@ components:
         anchor: ""
       - q: A small device with plenty of benefits
         text: >-
-          UroDapter® is perferred by all patients to catheters, because: 
+          UroDapter® is preferred by all patients to catheters, because: 
 
 
           * Performing the instillation with UroDapter® is pain-free

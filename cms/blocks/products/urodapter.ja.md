@@ -96,7 +96,7 @@ components:
       - title: Published Scientific Article of Sándor Lovász PhD, MD about UroDapter
         url: https://onlinelibrary.wiley.com/doi/pdf/10.1111/iju.13976
         src: /uploads/open-right.svg
-      - title: UroDapter® ユーザーズマニュアル 
+      - title: UroDapter® ユーザーズマニュアル
         url: uploads/Urodapter_user_guide_FINAL JP.pdf
       - title: UroDapter® Tips & Tricks
         url: uploads/Using_UroDapter_Tips_and_Tricks_v4.pdf

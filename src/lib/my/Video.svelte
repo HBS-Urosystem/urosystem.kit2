@@ -23,6 +23,8 @@
 <style>
   article {
     text-align: center;
+    padding: 0;
+    /*min-height: 100vh;*/
   }
   div {
     position: relative;
@@ -42,6 +44,10 @@
     top: 0;
     inset-inline-start: 0;
     height: 100%;
+  }
+  video {
+    object-fit: contain;
+    max-height: 100vh;
   }
 
 </style>

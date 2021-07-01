@@ -17,7 +17,7 @@
     {#each comp.images || [] as img}
     <figure>
       <div class="{comp.shape}" class:ratio={comp.ratio} style="--ratio: {comp.ratio};--ratiopct: {comp.ratio}%">
-        <img loading="lazy" src="{_sm(img.src)}" srcset="{img.src} 2x, {_sm(img.src)} 1x" alt="{img.alt}" style="object-position: {img.posx || 50}% {img.posy || 50}%; transform: scale({img.scale || 1})"/>
+        <img loading="lazy" src="{_sm(img.src)}" srcset="{img.src} 2x, {_sm(img.src)} 1x" alt="{img.alt}" style="object-position: {img.posx || 50}% {img.posy || 50}%; transform: scale({img.scale >=0 ? img.scale : 1})"/>
       </div>
       {#if img.text}<figcaption>{@html img.text}</figcaption>{/if}
     </figure>
@@ -51,7 +51,7 @@
     flex: 1 1 var(--img-width, 56ch);
     /*max-width: var(--img-width, 56ch);*/
     /*margin: 0 auto var(--gap);*/
-    margin: 0 2.5vw var(--gap);
+    margin: 0 2.5vw;
   }
   @media (min-width: 112ch) {
     section.slides {
@@ -66,10 +66,13 @@
   }
   div {
     position: relative;
-    width: var(--img-width, 56ch);
+    /*width: var(--img-width, 56ch);*/
     margin: 0 auto;
     overflow: hidden;
-    max-width: 100%;
+    /*max-width: 100%;*/
+    max-width: var(--img-width, 56ch);
+    /*width: min-content;*/
+    width: 100%;
   }
   .rounded {
     border-radius: 50%;

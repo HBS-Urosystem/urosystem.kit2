@@ -250,7 +250,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    transition: transform linear, top linear, background-color linear;
+    transition: transform 500ms linear, top linear, background-color linear;
     height: auto;
     overflow-x: hidden;
     overflow-y: hidden;

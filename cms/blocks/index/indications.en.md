@@ -6,7 +6,7 @@ background:
     name: dark-blue
 components:
   - type: article
-    title: Use cases and indications
+    title: Use cases and indication
     text: >-
       #### Many diseases of the bladder often require intravesical treatment
       (administering medicine directly into the bladder), but the conventional

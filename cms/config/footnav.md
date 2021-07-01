@@ -121,6 +121,10 @@ footer:
             title: 협력사
           - lang: tr
             title: Ortaklarımız
+      - titles:
+          - lang: hu
+            title: Pályázatok
+        link: company#palyazatok
   - link: ""
     titles:
       - lang: en

@@ -8,13 +8,13 @@ background:
     posy: 50
     src: /uploads/urodapter-closeup.jpg
   - type: gradient
-    name: dark-blue-75
+    name: light-blue-75
 components:
   - type: cta
     button: How to buy?
     link: /shop
-    text: "### A urological syringe adapter which completely replaces the catheter: it
-      enables painless and complication-free bladder instillation"
+    text: "### A urological syringe adapter which completely replaces the catheter:
+      it enables painless and complication-free bladder instillation"
     icon: ""
     title: UroDapter®
 ---

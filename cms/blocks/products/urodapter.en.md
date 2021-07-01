@@ -2,17 +2,26 @@
 id: urodapter
 folder: products
 components:
-  - type: images
-    title: UroDapter® can be attached directly to the syringe so that any solution
-      can be instilled with it into the bladder.
-    shape: default
-    images:
-      - alt: UroDapter® – Urological Syringe Adapter and its parts
-        src: /uploads/urodapter_illustration.png
-        text: UroDapter® – Urological Syringe Adapter and its parts
-      - alt: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
-        text: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
-        src: /uploads/img_2001-copy.jpg
+  - type: grid
+    slide: false
+    title: UroDapter® presentation videos
+    components:
+      - type: video
+        source: youtube
+        id: MONZqHMJv7Q
+        text: |-
+          ### VIDEO PRESENTATION
+
+          ### Dr. Sándor Lovász on the use of UroDapter®
+        anchor: lovasz
+      - type: video
+        source: youtube
+        anchor: using
+        id: OgwxcHuhQuQ
+        text: |-
+          ### IBSA VIDEO TUTORIAL
+
+          ### Using the iAluAdapter® (UroDapter®)
   - type: qas
     title: ""
     items:
@@ -32,7 +41,7 @@ components:
         anchor: ""
       - q: A small device with plenty of benefits
         text: >-
-          UroDapter® is perferred by all patients to catheters, because: 
+          UroDapter® is preferred by the patients to catheters, because: 
 
 
           * Performing the instillation with UroDapter® is pain-free
@@ -79,7 +88,7 @@ components:
 
 
           ​PCT international patent application number: PCT/HU2016/000063
-      - q: "iAluadapter®: UroDapter® on the European market"
+      - q: "UroDapter® on the European market: iAluadapter®"
         text: >-
           We concluded an agreement with IBSA granting them exclusivity for the
           marketing and sale of iAluadapter®/UroDapter®, which is packed in one
@@ -108,10 +117,21 @@ components:
         src: /uploads/Ialuadapter.jpg
         text: iAluadapter® (UroDapter®)
     ratio: 90
+  - type: images
+    title: UroDapter® can be attached directly to the syringe so that any solution
+      can be instilled with it into the bladder.
+    shape: default
+    images:
+      - alt: UroDapter® – Urological Syringe Adapter and its parts
+        src: /uploads/urodapter_illustration.png
+        text: UroDapter® – Urological Syringe Adapter and its parts
+      - alt: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
+        text: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
+        src: /uploads/img_2001-copy.jpg
   - type: links
     title: Information downloads & links
     items:
-      - title: Published Scientific Article of Sándor Lovász PhD, MD about UroDapter
+      - title: International Journal of Urology (2019) 26 (Suppl. 1), 57–60
         url: https://onlinelibrary.wiley.com/doi/pdf/10.1111/iju.13976
         src: /uploads/open-right.svg
       - title: UroDapter® user guide

@@ -4,7 +4,7 @@ folder: company
 fallback: en
 components:
   - type: article
-    title: Urosystem Zrt.
+    title: Rólunk
     subtitle: Magyarországi székhelyű cégünk számos innovatív urológiai eszközt
       fejlesztett ki és dobott piacra. Célunk, hogy forradalmasítsuk az alsó
       húgyutakat érintő megbetegedések intravezikális kezelését.  Legyen az

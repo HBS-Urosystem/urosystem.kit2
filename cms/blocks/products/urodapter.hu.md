@@ -77,7 +77,7 @@ components:
 
 
           Nemzetközi szabadalmi bejelentési száma: PCT/HU2016/000063
-      - q: "iAluadapter®: UroDapter® az európai piacon"
+      - q: "UroDapter® az európai piacon: iAluadapter®"
         text: >-
           A svájci IBSA céggel kötött szerződésünk értelmében az IBSA – az
           UroDapter® (az iAluRil® nevű gyógyszerükkel együtt csomagolva,
