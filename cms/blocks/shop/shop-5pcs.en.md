@@ -9,7 +9,7 @@ background:
     src: /uploads/shop_bg_group.png
     scale: 115
   - type: gradient
-    name: light-blue-75
+    name: dark-blue-75
 components:
   - type: grid
     slide: false

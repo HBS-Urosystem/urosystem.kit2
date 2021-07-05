@@ -3,26 +3,17 @@ id: shop-5pcs
 folder: shop
 fallback: en
 components:
-  - type: grid
-    slide: false
+  - type: article
     title: Az UroDapter® újdonság az Ön számára?  Rendeljen mintacsomagot!
     subtitle: "Az 5 db-os mintacsomag ára: $40 / 10 db: $75"
     anchor: sample
-    components:
-      - type: article
-        text: |-
-          SZÁLLÍTÁSI DÍJAK:
+    text: |-
+      SZÁLLÍTÁSI DÍJAK:
 
-          * Európai országok, Oroszország, Ukrajna: $9.50
-          * Egyéb országok: $10.00
+      * Európai országok, Oroszország, Ukrajna: $9.50
+      * Egyéb országok: $10.00
 
-          Regisztrált elsőbbségi küldmény
-        background:
-          - type: image
-            posx: 80
-            posy: 72
-            scale: 20
-            src: /uploads/urodapter-removebg.png
+      Regisztrált elsőbbségi küldmény
   - type: buy
     title: ""
     button: Vásárlás

@@ -148,5 +148,5 @@ components:
       ## Contacts
 
 
-      Tous questions sur les ‘Conditions générales’ doivent nous être envoyées à l'adresse [mail@urosystem.com](mail@urosystem.com).
+      Tous questions sur les ‘Conditions générales’ doivent nous être envoyées à l'adresse [mail@urosystem.com](mailto:mail@urosystem.com).
 ---

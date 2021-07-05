@@ -3,26 +3,17 @@ id: shop-5pcs
 folder: shop
 fallback: en
 components:
-  - type: grid
-    slide: false
+  - type: article
+    text: |-
+      Versandkosten:
+
+      * EU, Russland, Ukraine: $9.50
+      * Andere Länder: $10.00
+
+      Versand per Einschreiben mit Prioritätspriorität
     title: Kennen Sie UroDapter® noch nicht? Bestellen Sie 5/10 Produktproben!
     anchor: sample
     subtitle: Kaufen Sie 5 Stück für $40 / 10 Stück für $75
-    components:
-      - type: article
-        text: |-
-          Versandkosten:
-
-          * EU, Russland, Ukraine: $9.50
-          * Andere Länder: $10.00
-
-          Versand per Einschreiben mit Prioritätspriorität
-        background:
-          - type: image
-            posx: 80
-            posy: 72
-            scale: 20
-            src: /uploads/urodapter-removebg.png
   - type: buy
     title: ""
     button: Jetzt einkaufen

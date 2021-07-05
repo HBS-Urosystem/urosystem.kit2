@@ -8,5 +8,5 @@ keywords: Urosystem, privacy policy, data controlling, data protection, cookies,
 description: The Privacy Policy and the Cookie Policy of Urosystem Co. Ltd.
 menutitle: Privacy policy
 blocks:
-  - id: legal/privacy
+  - id: privacy
 ---

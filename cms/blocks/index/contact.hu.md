@@ -20,7 +20,7 @@ components:
 
       <div>
         <!--label><input type="checkbox" name="newsletter" /> Feliratkozom a hírlevelükre</label><br><br-->
-        <label><input type="checkbox" name="privacy" required /> Elolvastam és elfogadom az <a href="hu/legal/privacy-policy" target="_blank">adatkezelési tájékoztatót</a>.</label><br><br>
+        <label><input type="checkbox" name="privacy" required /> Elolvastam és elfogadom az <a href="/privacy-policy" target="_blank">adatkezelési tájékoztatót</a>.</label><br><br>
       </div>
 
       <section>

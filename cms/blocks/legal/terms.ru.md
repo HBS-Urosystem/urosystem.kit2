@@ -143,5 +143,5 @@ components:
       ## КОНТАКТЫ
 
 
-      Вопросы об условиях обслуживания следует отправлять нам по адресу [mail@urosystem.ru](mail@urosystem.ru).
+      Вопросы об условиях обслуживания следует отправлять нам по адресу [mail@urosystem.ru](mailto:mail@urosystem.ru).
 ---

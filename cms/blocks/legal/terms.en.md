@@ -144,5 +144,5 @@ components:
       ## CONTACT INFORMATION
 
 
-      Questions about the Terms of Service should be sent to us at [mail@urosystem.com](mail@urosystem.com).
+      Questions about the Terms of Service should be sent to us at [mail@urosystem.com](mailto:mail@urosystem.com).
 ---

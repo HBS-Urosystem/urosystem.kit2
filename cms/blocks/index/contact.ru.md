@@ -22,7 +22,7 @@ components:
 
       <div>
         <!--label><input type="checkbox" name="newsletter" /> Я хочу подписаться на рассылку новостей</label><br><br-->
-        <label><input type="checkbox" name="privacy" required /> Я прочитал и принимаю <a href="en/legal/privacy-policy" target="_blank">политику конфиденциальности</a>.</label><br><br>
+        <label><input type="checkbox" name="privacy" required /> Я прочитал и принимаю <a href="/privacy-policy" target="_blank">политику конфиденциальности</a>.</label><br><br>
       </div>
 
       <section>

@@ -139,5 +139,5 @@ components:
       ## お問い合わせ先
 
 
-      本ご利用規約に関するご質問は、[mail@urosystem.com](mail@urosystem.com)までご連絡ください。
+      本ご利用規約に関するご質問は、[mail@urosystem.com](mailto:mail@urosystem.com)までご連絡ください。
 ---
