@@ -10,6 +10,7 @@ export let comp
     <form name="{comp.name}" method="POST" action="/{comp.lang}{comp.action}" netlify="{!!comp.netlify}">
       <!--<input type="hidden" name="form-name" value="{comp.name}">-->
       {#if comp.text}{@html comp.text}{/if}
+      <a href="/{comp.lang}{comp.action}" hidden aria-hidden="true">{comp.name}</a>
     </form>
   </div>
 </article>
