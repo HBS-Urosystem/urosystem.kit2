@@ -28,8 +28,8 @@
 	const close = () => dispatch('close')*/
 	const close = () => {
     showModal = false
-    async () => await goto(`/${$sitelang}/${$state.post.path}`, true)
-    history.replaceState(null, null, `/${$sitelang}/${$state.post.path}`)
+    async () => await goto(`/${$sitelang}/${$state.post.path || ''}`, true)
+    history.replaceState(null, null, `/${$sitelang}/${$state.post.path || ''}`)
   }
   onMount(() => {
     window.addEventListener('hashchange', function() {

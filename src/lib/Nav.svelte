@@ -85,7 +85,7 @@
     //console.log(path)
     //await goto(path.join('/'))
     //window.location.href = path.join('/')
-    window.location.href = `/${langchng}/${$state.post.path}`
+    window.location.href = `/${langchng}/${$state.post.path || ''}`
     //console.log(`${langchng}/${$state.post.path}`)
   }
   let slct
@@ -93,7 +93,7 @@
 
 <svelte:head>
   {#each $state.langs as lang}
-    <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{$state.post.path}" hreflang="{lang.id}" />
+    <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{$state.post.path || ''}" hreflang="{lang.id}" />
   {/each}
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -151,7 +151,10 @@
 </svelte:head>
 
 <svelte:window bind:scrollY={y} />
-<!--<div class="sticky">-->
+  {#each $state.langs as lang}
+    <a hidden aria-hidden="true" href="/{lang.id}/{$state.post.path || ''}">/{lang.id}/{$state.post.path || ''}</a>
+  {/each}
+
   <nav
     use:action class={headerClass}
     class:moved={y>32}
