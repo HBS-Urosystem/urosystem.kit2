@@ -43,7 +43,7 @@ components:
       - alt: UroStill®
         posx: 50
         posy: 50
-        src: /uploads/urostill_assembled_02.jpg
+        src: /uploads/uroStill_assembled_02.jpg
   - type: images
     slide: false
     title: ""
