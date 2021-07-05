@@ -1,5 +1,5 @@
 <script context="module">
-	import { state, cookies, moved, sitelang, pagepath } from '$lib/stores'
+	import { state, cookies, moved, sitelang } from '$lib/stores'
   import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
   //import { langs } from '$lib/config';
   //import { topnav } from '$lib/config'
@@ -72,28 +72,28 @@
   let langchng = $sitelang
   //const path = $pagepath.split('/')
   //console.log(`${langchng}/${$pagepath}`)
-  let subpath
+  /*let subpath
   $: {
-  //console.log('nav_$pagepath',$pagepath)
-  subpath = $pagepath && $pagepath.split('/') || []
+    //console.log('nav_$pagepath',$pagepath)
+    subpath = $pagepath && $pagepath.split('/') || []
     subpath.shift()
     subpath.shift()
-  }
+  }*/
   //console.log($page)
 	/*async */function newlang() {
     //path[1] = langchng
     //console.log(path)
     //await goto(path.join('/'))
     //window.location.href = path.join('/')
-    window.location.href = `/${langchng}/${$pagepath}`
-    //console.log(`${langchng}/${$pagepath}`)
+    window.location.href = `/${langchng}/${$state.post.path}`
+    //console.log(`${langchng}/${$state.post.path}`)
   }
   let slct
 </script>
 
 <svelte:head>
   {#each $state.langs as lang}
-    <link rel="alternate external" href="https://www.urosystem.com/{lang.id}/{$pagepath}" hreflang="{lang.id}" />
+    <link rel="alternate external" href="https://www.urosystem.com/{lang.id}/{$state.post.path}" hreflang="{lang.id}" />
   {/each}
 
   <!-- Global site tag (gtag.js) - Google Analytics -->

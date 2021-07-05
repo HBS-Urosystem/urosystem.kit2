@@ -70,7 +70,7 @@ header, article, aside, main > div {
   /*padding-bottom: 1rem;*/
   background-blend-mode: soft-light, screen;
 }
-main > div > article:first-child{
+header + div > article:first-child {
   padding-top: 2rem;
 }
 nav + main > header {

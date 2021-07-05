@@ -173,10 +173,11 @@ export async function _getConf(lang) {
 }*/
 
 
-export async function _getPost({path = 'index', lang = 'en', sub = null}) {
+export async function _getPost({path, lang = 'en', sub = null}) {
   const p = await _findPost({path, lang})
   //console.log('_getPost',p.menutitle)
   let post = {...p}
+  post.path = path
   //console.log('...p',p)
   if (p.hero) {
     //console.log('awaithero', lang)
@@ -187,6 +188,7 @@ export async function _getPost({path = 'index', lang = 'en', sub = null}) {
     post.subhero = await _getBlock(p.subhero, lang)
   }
 
+  post.blocks = null
   if (p.blocks) {
     let blocks = []
     for (const b of p.blocks) {
@@ -196,27 +198,28 @@ export async function _getPost({path = 'index', lang = 'en', sub = null}) {
     post.blocks = blocks
   }
 
-  if (post.subpages) {
-    let subpages = []
-    post.subpage = null
-    for (let s of post.subpages) {
-      if (s.link) s.link = s.link.replace('/.', '/whatis') // TODO: remove this
-      //const parts = s.link.split('/')
-      //console.log('parts2',parts,path)
-      let sp = await _getPost({path: s.link, lang, sub})
+  post.subpages = null
+  post.subpage = null
+  if (p.subpages) {
+    post.subpages = []
+    for (let s of p.subpages) {
+      if (!!s.link) s.link = s.link.replace('/.', '/whatis') // TODO: remove this
+      const parts = s.link.split('/')
+      let sp = await _getPost({path: s.link, lang/*, sub*/})
       sp.slug = sp.slug || sp.id
+      //console.log('util_sub', sp.slug, lang, parts)
       if (sp.slug == '.' && !sub || sp.slug == sub) {
         //subpage = sp
         post.subpage = sp
         //console.log('>subpage',sp.slug)
       }
       //console.log('>slug',sp.slug)
-      subpages.push(sp)
+      post.subpages.push(sp)
     }
-    post.subposts = subpages
-  } else {
+    //post.subposts = subpages
+  /*} else {
     post.subposts = null
-    //console.log('_getPost',post)
+    //console.log('_getPost',post)*/
   }
 
   //console.log('>>>new',post)
@@ -224,24 +227,24 @@ export async function _getPost({path = 'index', lang = 'en', sub = null}) {
 }
 
 export async function _findPost({path = 'index', lang = 'en'}) {
-for (const s in theposts[lang]) {
-  if (s.endsWith(path)) {
-    //console.log(s)
-  //if (s.match(`.*${path}`)) {
-    //console.log('_findPost', path)
-    let p = await theposts[lang][s]().then(({metadata}) => metadata)
-    //console.log(p.menutitle)
-    if (p.fallback && p.fallback !== lang) {
-      p = mixing(p, await _findPost({path, lang: p.fallback}), {recursive: true}) // A) recursive fallbacks / cascading blocks
-      //p = mixing(p, await theposts[p.fallback][s]().then(({metadata}) => metadata), {recursive: true}) // B) faster – single block fallback
-      //console.log('bad mixing: no native desc & kw', await theposts[lang][s])
-      //console.log('bad mixing: no native desc & wk', await theposts[p.fallback][s])
+  for (const s in theposts[lang]) {
+    if (s.endsWith(path)) {
+      //console.log('endsWith', path,s)
+    //if (s.match(`.*${path}`)) {
+      //console.log('_findPost', path)
+      let p = await theposts[lang][s]().then(({metadata}) => metadata)
+      //console.log(p.menutitle)
+      if (p.fallback && p.fallback !== lang) {
+        p = mixing(p, await _findPost({path, lang: p.fallback}), {recursive: true}) // A) recursive fallbacks / cascading blocks
+        //p = mixing(p, await theposts[p.fallback][s]().then(({metadata}) => metadata), {recursive: true}) // B) faster – single block fallback
+        //console.log('bad mixing: no native desc & kw', await theposts[lang][s])
+        //console.log('bad mixing: no native desc & wk', await theposts[p.fallback][s])
+      }
+      //console.log('_findPost', p.menutitle)
+      return p
     }
-    //console.log('_findPost', p.menutitle)
-    return p
   }
-}
-return false
+  return false
 }
 
 

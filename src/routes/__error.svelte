@@ -6,11 +6,11 @@
 </script>
 
 <script>
-    console.log('goto/ ' + $sitelang)
+  export let message
+  console.log('goto / ' + $sitelang, message)
   onMount(() => {
-    goto(`/${$sitelang}`, { replaceState: true });
+    //goto(`/${$sitelang}`, { replaceState: true });
 	})
-export let message
 </script>
 
 <h1>404</h1>

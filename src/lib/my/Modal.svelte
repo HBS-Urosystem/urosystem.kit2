@@ -2,7 +2,7 @@
   import { goto/*, invalidate, prefetch, prefetchRoutes*/ } from '$app/navigation'
   import { onMount, onDestroy } from 'svelte';
   import { fade } from 'svelte/transition'
-  import { /*state, */sitelang, pagepath } from '$lib/stores'
+  import { state, sitelang } from '$lib/stores'
   import Portal from "svelte-portal/src/Portal.svelte"
 </script>
 <script>
@@ -28,8 +28,8 @@
 	const close = () => dispatch('close')*/
 	const close = () => {
     showModal = false
-    async () => await goto(`/${$sitelang}/${$pagepath}`, true)
-    history.replaceState(null, null, `/${$sitelang}/${$pagepath}`)
+    async () => await goto(`/${$sitelang}/${$state.post.path}`, true)
+    history.replaceState(null, null, `/${$sitelang}/${$state.post.path}`)
   }
   onMount(() => {
     window.addEventListener('hashchange', function() {

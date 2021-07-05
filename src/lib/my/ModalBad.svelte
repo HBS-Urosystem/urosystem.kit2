@@ -32,9 +32,9 @@
 	const close = () => dispatch('close')*/
 	const close = () => {
     showModal = false
-    console.log('close',`${$sitelang}/${$pagepath}`)
-    /*async () => await*/ goto(`/${$sitelang}/${$pagepath}`, true)
-    .then(history.replaceState(null, null, `/${$sitelang}/${$pagepath}`) )
+    console.log('close',`${$sitelang}/${$state.post.path}`)
+    /*async () => await*/ goto(`/${$sitelang}/${$state.post.path}`, true)
+    .then(history.replaceState(null, null, `/${$sitelang}/${$state.post.path}`) )
   }
   
   onMount(() => {

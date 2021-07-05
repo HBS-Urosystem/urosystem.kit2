@@ -29,20 +29,20 @@
     <ul>
       {#each footnav as nav}
       <li>
-        {#if sublinks = nav.sublinks}
         <h4><span tabindex="0">{nav.title}</span></h4>
+        {#if sublinks = nav.sublinks}
           {#each sublinks as sub}
-          <SubNav {sub}/>
+            <SubNav {sub}/>
           {/each}
-        <!--{:else if post = findPost($sitelang, nav.link)}
-        <h4>{nav[$sitelang] || nav['en']}</h4>
-        {#if post.subpages}
+          <!--{:else if post = findPost($sitelang, nav.link)}
+          <h4>{nav[$sitelang] || nav['en']}</h4>
+          {#if post.subpages}
           {#each post.subpages as sub}
           <SubNav {sub}/>
           {/each}
         {/if}
         {:else if sublinks = findPosts($sitelang, nav.link)}
-        <h4><span tabindex="0">{nav[$sitelang] || nav['en']}</span></h4>
+          <h4><span tabindex="0">{nav[$sitelang] || nav['en']}</span></h4>
           {#each sublinks as sub}
           <SubNav {sub}/>
           {/each}-->

@@ -1,29 +1,31 @@
 import { _getPost } from '$lib/utils'
 import { _getConf } from '$lib/utils'
+import { get as store} from 'svelte/store'
+import { sitelang } from '$lib/stores'
 //import { amp, browser, dev, prerendering } from '$app/env'
 
 export const get = async (request) => {
-	const { lang, path } = {...request.params}
-
+	let { lang, path } = {...request.params}
+//console.log('request.params',request.params)
 	if (path.endsWith('.json')) { ///?
 		console.log('JSON',path)
-		return false
+		return true
 	}
 
 	let post, conf
 
 	conf = await _getConf(lang)
 	if (!conf.thislang) {
-		return false
-		/*path = lang
-		lang = 'en'
-		conf = await _getConf(lang)*/
+		conf = await _getConf(store(sitelang))
+		if (!conf.thislang) return false
+		path = lang
+		lang = store(sitelang)
 	}
 
-	const parts = !!path && path !== 'undefined' && path.split('/')
-  //console.log('conf',parts)
+	const parts = (!!path && path !== 'undefined') && path.split('/') || []
+  //console.log('cms_parts',parts)
 
-	post = await _getPost({path: parts[0], lang, sub: parts[1]})
+	post = await _getPost({path: parts[0], lang, sub: parts[1] || null})
 	if (post.id) {
 			return {
 			body: {post, ...conf}

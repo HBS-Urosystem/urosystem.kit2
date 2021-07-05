@@ -41,10 +41,10 @@
         <Components {comp}/>
       {/each}
     </header>
-    <!--{#if $state.post.subposts}
+    <!--{#if $state.post.subpages}
       <nav>
         <ul>
-          {#each $state.post.subposts as sub}
+          {#each $state.post.subpages as sub}
           <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} noscroll/></li>
           {/each}
         </ul>
@@ -58,10 +58,10 @@
           <Components {comp}/>
         {/each}
       {/if}
-      {#if $state.post.subposts}
+      {#if $state.post.subpages}
         <nav>
           <ul>
-            {#each $state.post.subposts as sub}
+            {#each $state.post.subpages as sub}
             <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} noscroll/></li>
             {/each}
           </ul>
@@ -89,12 +89,12 @@
       </div>
     {/each}
   {/if}
-  {#if $state.post.subposts}
+  {#if $state.post.subpages}
     <nav>
       <h2>{$state.post.title}</h2>
       <ul>
-        {#each $state.post.subposts as sub}
-        <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub}/></li>
+        {#each $state.post.subpages as sub}
+        <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} noscroll/></li>
         {/each}
       </ul>
     </nav>

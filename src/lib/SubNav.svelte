@@ -1,5 +1,5 @@
 <script context="module">
-  import { /*state, */sitelang, pagepath } from '$lib/stores'
+  import { state, sitelang } from '$lib/stores'
   //import { _getPost } from '$lib/utils'
 </script>
 
@@ -17,7 +17,7 @@
   //console.log('subnav',sub)
   //const subpage = _getPost($sitelang, sub.link) || {}
   $: if (sub.link && sub.link.startsWith('#')) {
-    sublink = '/' + $sitelang + ($pagepath ? '/' + $pagepath : '') + sub.link
+    sublink = '/' + $sitelang + ($state.post.path ? '/' + $state.post.path : '') + sub.link
     console.log(sublink)
   } else if (sub.link && sub.link.startsWith('http')) {
     sublink = sub.link
