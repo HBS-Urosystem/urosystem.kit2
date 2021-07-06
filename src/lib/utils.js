@@ -290,24 +290,24 @@ function mdtext(value, key) {
 }
 
 function _getBg(obj) {
-let bgs = [], pos = [], siz = []
-for (let bg of obj) {
-  //console.log(bg)
-  /*if (bg.type == 'color') {
-    bgs[0] = (`var(--${bg.name})`)
-  }*/
-  if (bg.type == 'gradient') {
-    bgs.push(`var(--grad-${bg.name})`)
+  let bgs = [], pos = [], siz = []
+  for (let bg of obj) {
+    //console.log(bg)
+    /*if (bg.type == 'color') {
+      bgs[0] = (`var(--${bg.name})`)
+    }*/
+    if (bg.type == 'gradient') {
+      bgs.push(`var(--grad-${bg.name})`)
+    }
+    if (bg.type == 'image') {
+      bgs.push(`url(${bg.src})`)
+    }
+    pos.push(`${bg.posx || 50}% ${bg.posy || 50}%`)
+    siz.push(bg.scale ? `${bg.scale}%` : 'cover')
   }
-  if (bg.type == 'image') {
-    bgs.push(`url(${bg.src})`)
-  }
-  pos.push(`${bg.posx || 50}% ${bg.posy || 50}%`)
-  siz.push(bg.scale ? `${bg.scale}%` : 'cover')
-}
-//console.log(bgs)
-//bgs = bgs.filter(bg => bg)
-//return { img: bgs.join(), pos: pos.join(), siz: siz.join() }
-return `background-image:${bgs.join()};background-position:${pos.join()};background-size:${siz.join()};`
+  //console.log(bgs)
+  //bgs = bgs.filter(bg => bg)
+  //return { img: bgs.join(), pos: pos.join(), siz: siz.join() }
+  return bgs.length ? `background-image:${bgs.join()};` : '' + pos.length ? `background-position:${pos.join()};` : '' + siz.length ? `background-size:${siz.join()};` : ''
 }
 
