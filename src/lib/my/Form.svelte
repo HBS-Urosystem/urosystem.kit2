@@ -7,9 +7,8 @@ export let comp
   {#if comp.subtitle}<div><h3>{comp.subtitle}</h3></div>{/if}
   <div>
     <a href="/{comp.lang}{comp.action}" hidden aria-hidden="true">{!!comp.netlify} {comp.name}</a>
-    <form name="{comp.name}" method="POST" action="/{comp.lang}{comp.action}" netlify="{!!comp.netlify}">
-      <input name=form-name type=hidden value="{comp.name}">
-      <!--<input type="hidden" name="form-name" value="{comp.name}">-->
+    <form name="{comp.name}" method="POST" action="/{comp.lang}{comp.action}" data-netlify="{!!comp.netlify}">
+      <input type="hidden" name="form-name" value="{comp.name}">
       {#if comp.text}{@html comp.text}{/if}
       <a href="/{comp.lang}{comp.action}" hidden aria-hidden="true">{comp.name}</a>
     </form>
