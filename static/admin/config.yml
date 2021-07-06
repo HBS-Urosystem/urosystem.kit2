@@ -357,6 +357,7 @@ collections:
                 name: button
                 widget: string
                 default: Click
+                required: false
               - label: Icon
                 name: icon
                 widget: image
@@ -365,8 +366,10 @@ collections:
                 name: product
                 widget: select
                 options:
-                  - label: UroDapter 5pcs
+                  - label: UroDapter 5/10 pcs – EN
                     value: "5983114002592"
+                  - label: UroDapter 5/10 штук - RU
+                    value: "5450078683296"
           - label: CTA
             name: cta
             summary: "CTA: {{button}}"
