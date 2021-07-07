@@ -53,7 +53,7 @@
     {/if}-->
   {:else}
     <header>
-      <h1><a href="#content" on:click={() => scrollto.scrollTo({element: '#content', offset: 0})}>{$state.post.title}</a></h1>
+      <h1 on:click={() => scrollto.scrollTo({element: '#content', offset: 0})}>{$state.post.title}</h1>
       {#if $state.post.subhero}
         {#each $state.post.subhero.components || [] as comp}
           <Components {comp}/>
@@ -72,7 +72,8 @@
   {/if}
 
   {#each $state.post.blocks || [] as block}
-    <div id="content" style="{block.background}">
+  <div id="content"></div>
+  <div style="{block.background}">
       {#each block.components || [] as comp}
         <Components {comp}/>
       {/each}
@@ -81,14 +82,16 @@
 
   {#if $state.post.subpage}
     <div id="content"></div>
-    <h2>{$state.post.subpage.title}</h2>
-    {#each $state.post.subpage.blocks || [] as block}
-      <div style="{block.background}">
-        {#each block.components || [] as comp}
-          <Components {comp}/>
-        {/each}
-      </div>
-    {/each}
+    <div style="{$state.post.subpage.background}">
+      <h2>{$state.post.subpage.title}</h2>
+      {#each $state.post.subpage.blocks || [] as block}
+        <div style="{block.background}">
+          {#each block.components || [] as comp}
+            <Components {comp}/>
+          {/each}
+        </div>
+      {/each}
+    </div>
   {/if}
   {#if $state.post.subpages}
     <nav>
@@ -102,4 +105,8 @@
   {/if}
 </main>
 
-<style></style>
+<style>
+  h1 {
+    cursor: pointer;
+  }
+</style>
