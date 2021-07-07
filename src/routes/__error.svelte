@@ -9,7 +9,7 @@
   export let message
   console.log('goto / ' + $sitelang, message)
   onMount(() => {
-    //goto(`/${$sitelang}`, { replaceState: true });
+    goto(`/${$sitelang}`, { replaceState: true });
 	})
 </script>
 
