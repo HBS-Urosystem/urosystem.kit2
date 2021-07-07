@@ -116,7 +116,7 @@ components:
         url: https://onlinelibrary.wiley.com/doi/pdf/10.1111/iju.13976
         src: /uploads/open-right.svg
       - title: Manuale dell’utente
-        url: uploads/Urodapter_user_guide_20201112 8.180 IT.pdf
+        url: uploads/Urodapter_user_guide_20201112_8.180_IT.pdf
       - title: UroDapter® Tips & Tricks
         url: uploads/Using_UroDapter_Tips_and_Tricks_v4.pdf
       - title: UroStill® & UroDapter® Flyer
