@@ -32,11 +32,18 @@
 
 			if (result.thislang) return {
 				props: {
-          result: result/*,
+          result: await result/*,
           lang: result.thislang.id*/
         }
 			}
-		}/*
+		}
+    return {
+			status: res.status,
+			error: new Error(`Could not load ${url}`)
+		};
+
+    
+    /*
     //console.log(`1.Could not load ${url}`)
     console.log(`2.Trying /${get(sitelang)}/${lang}/cms.json`)
 
