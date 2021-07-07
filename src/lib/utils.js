@@ -308,6 +308,6 @@ function _getBg(obj) {
   //console.log(bgs)
   //bgs = bgs.filter(bg => bg)
   //return { img: bgs.join(), pos: pos.join(), siz: siz.join() }
-  return bgs.length ? `background-image:${bgs.join()};` : '' + pos.length ? `background-position:${pos.join()};` : '' + siz.length ? `background-size:${siz.join()};` : ''
+  return (bgs.length ? `background-image:${bgs.join()};` : '') + (pos.length ? `background-position:${pos.join()};` : '') + (siz.length ? `background-size:${siz.join()};` : '')
 }
 
