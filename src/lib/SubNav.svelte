@@ -18,7 +18,7 @@
   //const subpage = _getPost($sitelang, sub.link) || {}
   $: if (sub.link && sub.link.startsWith('#')) {
     sublink = '/' + $sitelang + ($state.post.path ? '/' + $state.post.path : '') + sub.link
-    //console.log(sublink)
+    console.log(sublink)
   } else if (sub.link && sub.link.startsWith('http')) {
     sublink = sub.link
   } else {
