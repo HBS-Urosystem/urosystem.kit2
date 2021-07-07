@@ -193,6 +193,105 @@ top:
         titles:
           - lang: hu
             title: Pályázatok
+  - link: ""
+    titles:
+      - lang: en
+        title: Events
+      - lang: ru
+        title: Мероприятия
+      - lang: hu
+        title: Események
+    subpages:
+      - link: "#masterclass"
+        titles:
+          - lang: en
+            title: MASTERCLASS in UROLOGY
+          - lang: ru
+            title: MASTERCLASS in UROLOGY
+          - lang: hu
+            title: MASTERCLASS in UROLOGY
+          - lang: de
+            title: MASTERCLASS in UROLOGY
+          - lang: ko
+            title: MASTERCLASS in UROLOGY
+          - lang: fr
+            title: MASTERCLASS in UROLOGY
+          - lang: he
+            title: MASTERCLASS in UROLOGY
+          - lang: it
+            title: MASTERCLASS in UROLOGY
+          - lang: ja
+            title: MASTERCLASS in UROLOGY
+          - lang: pt
+            title: MASTERCLASS in UROLOGY
+          - lang: es
+            title: MASTERCLASS in UROLOGY
+          - lang: tr
+            title: MASTERCLASS in UROLOGY
+          - lang: zh
+            title: MASTERCLASS in UROLOGY
+          - lang: ar
+            title: MASTERCLASS in UROLOGY
+      - link: "#gibs"
+        titles:
+          - lang: en
+            title: GIBS – Urologist's forum on IC/BPS
+          - lang: ru
+            title: GIBS – Urologist's forum on IC/BPS
+          - lang: hu
+            title: GIBS – Urologist's forum on IC/BPS
+          - lang: de
+            title: GIBS – Urologist's forum on IC/BPS
+          - lang: ko
+            title: GIBS – Urologist's forum on IC/BPS
+          - lang: fr
+            title: GIBS – Urologist's forum on IC/BPS
+          - lang: he
+            title: GIBS – Urologist's forum on IC/BPS
+          - lang: it
+            title: GIBS – Urologist's forum on IC/BPS
+          - lang: ja
+            title: GIBS – Urologist's forum on IC/BPS
+          - lang: pt
+            title: GIBS – Urologist's forum on IC/BPS
+          - lang: es
+            title: GIBS – Urologist's forum on IC/BPS
+          - lang: tr
+            title: GIBS – Urologist's forum on IC/BPS
+          - lang: zh
+            title: GIBS – Urologist's forum on IC/BPS
+          - lang: ar
+            title: GIBS – Urologist's forum on IC/BPS
+      - link: "#feppa"
+        titles:
+          - lang: en
+            title: Female Pelvic Pain Association (FEPPA)
+          - lang: ru
+            title: Female Pelvic Pain Association (FEPPA)
+          - lang: hu
+            title: Female Pelvic Pain Association (FEPPA)
+          - lang: de
+            title: Female Pelvic Pain Association (FEPPA)
+          - lang: ko
+            title: Female Pelvic Pain Association (FEPPA)
+          - lang: fr
+            title: Female Pelvic Pain Association (FEPPA)
+          - lang: he
+            title: Female Pelvic Pain Association (FEPPA)
+          - lang: it
+            title: Female Pelvic Pain Association (FEPPA)
+          - lang: ja
+            title: Female Pelvic Pain Association (FEPPA)
+          - lang: pt
+            title: Female Pelvic Pain Association (FEPPA)
+          - lang: es
+            title: Female Pelvic Pain Association (FEPPA)
+          - lang: tr
+            title: Female Pelvic Pain Association (FEPPA)
+          - lang: zh
+            title: Female Pelvic Pain Association (FEPPA)
+          - lang: ar
+            title: Female Pelvic Pain Association (FEPPA)
   - link: shop
     titles: []
 ---
