@@ -35,7 +35,7 @@
 
 <main>
   {#if $state.post.hero}
-    <header style="min-height:100vh;{$state.post.hero.background ? $state.post.hero.background : ``}">
+    <header style="min-height:100vh;display: flex;flex-direction: column;justify-content: center;{$state.post.hero.background ? $state.post.hero.background : ``}">
       <h1 hidden>{$state.post.title}</h1>
       {#each $state.post.hero.components || [] as comp}
         <Components {comp}/>
