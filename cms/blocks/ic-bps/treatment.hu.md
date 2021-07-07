@@ -129,7 +129,7 @@ components:
 
       <figure>
 
-      <img loading="lazy" src="/uploads/icbps_diagnosztika_terapia_folyamatabra.sm.png" srcset="/uploads/icbps_diagnosztika_terapia_folyamatabra.png 2x, /uploads/icbps_diagnosztika_terapia_folyamatabra.sm.png 1x" alt="Az IC/BPS diagnosztikájának és terápiájának algoritmusa"/>
+      <img loading="lazy" src="/uploads/icbps_diagnosztika_terapia_folyamatabra.sm.jpg" srcset="/uploads/icbps_diagnosztika_terapia_folyamatabra.jpg 2x, /uploads/icbps_diagnosztika_terapia_folyamatabra.sm.jpg 1x" alt="Az IC/BPS diagnosztikájának és terápiájának algoritmusa"/>
 
       <figcaption>Az IC/BPS diagnosztizálásának és terápiájának folyamatábrája. A GAG-réteg integritás teszt 100%-a az első napon (alacsony folyadékbevitel mellett) mért vizeletporciók átlagát jelenti. (Bővebben lásd az IC/BPS diagnosztizálása részben.)</figcaption>
 
