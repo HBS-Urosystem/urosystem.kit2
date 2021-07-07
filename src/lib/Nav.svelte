@@ -379,6 +379,7 @@
     overflow-x: visible;
     margin-inline-start: -1rem;
     text-transform: initial;
+    padding-bottom: 1rem;
   }
   ul li:hover ul, ul li:focus-within ul {
     visibility:visible;

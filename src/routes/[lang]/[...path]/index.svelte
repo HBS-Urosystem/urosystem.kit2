@@ -4,6 +4,7 @@
   import { state } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
+  import * as scrollto from "svelte-scrollto"
   //import { amp, browser, dev, prerendering } from '$app/env'
 
 </script>
@@ -52,7 +53,7 @@
     {/if}-->
   {:else}
     <header>
-      <h1>{$state.post.title}</h1>
+      <h1><a href="#content" on:click={() => scrollto.scrollTo({element: '#content', offset: 0})}>{$state.post.title}</a></h1>
       {#if $state.post.subhero}
         {#each $state.post.subhero.components || [] as comp}
           <Components {comp}/>
@@ -71,7 +72,7 @@
   {/if}
 
   {#each $state.post.blocks || [] as block}
-    <div style="{block.background}">
+    <div id="content" style="{block.background}">
       {#each block.components || [] as comp}
         <Components {comp}/>
       {/each}
