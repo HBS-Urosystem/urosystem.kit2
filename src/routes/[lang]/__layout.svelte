@@ -2,7 +2,7 @@
   //export const hydrate = false
   import { onMount } from 'svelte'
   import { get } from 'svelte/store'
-  import { state, sitelang, pagepath } from '$lib/stores'
+  import { state, sitelang/*, pagepath*/ } from '$lib/stores'
   import Nav from '$lib/Nav.svelte'
   import Footer from '$lib/Footer.svelte'
   import Cookies from '$lib/Cookies.svelte'
