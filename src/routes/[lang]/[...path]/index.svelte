@@ -4,12 +4,21 @@
   import { state } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
-  import * as scrollto from "svelte-scrollto"
+  //import { onMount } from 'svelte';
+  //import * as scroller from "svelte-scrollto"
   //import { amp, browser, dev, prerendering } from '$app/env'
 
 </script>
 <script>
+  import { snapto } from '$lib/stores'
   //$: console.log('state.subpage', $state.post.subpage)
+  /*$: {
+    if (!!$snapto) {
+      scroller.scrollTo({element: $snapto, offset: 0})
+      $snapto = ''
+    }
+  }*/
+
 </script>
 
 <svelte:head>
@@ -53,7 +62,8 @@
     {/if}-->
   {:else}
     <header>
-      <h1 on:click={() => scrollto.scrollTo({element: '#content', offset: 0})}>{$state.post.title}</h1>
+      <!--<h1 on:click={() => scroller.scrollTo({element: '#content', offset: 0})}>{$state.post.title}</h1>-->
+      <h1 on:click={() => $snapto = '#content'}>{$state.post.title}</h1>
       {#if $state.post.subhero}
         {#each $state.post.subhero.components || [] as comp}
           <Components {comp}/>
@@ -63,7 +73,7 @@
         <nav>
           <ul>
             {#each $state.post.subpages as sub}
-            <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} totop="#content"/></li>
+            <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
             {/each}
           </ul>
         </nav>
@@ -98,7 +108,7 @@
       <h2>{$state.post.title}</h2>
       <ul>
         {#each $state.post.subpages as sub}
-        <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub}/></li>
+        <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
         {/each}
       </ul>
     </nav>

@@ -61,8 +61,18 @@
       $moved = true
       dispatch(headerClass);
     }
-    lastHeaderClass = headerClass;
+    lastHeaderClass = headerClass
     //console.log(headerClass)
+  }
+  import { snapto } from '$lib/stores'
+  $: {
+    if (!!$snapto) {
+      scrollnav.scrollTo({element: $snapto, offset: -50, onDone: _snap})
+      //scrollnav.scrollTo({element: $snapto, offset: 0})
+      function _snap() {
+        scrollnav.scrollTo({element: $snapto, offset: 0, onDone: () => {$snapto = false} })
+      }
+    }
   }
 
 	//const { page } = stores()
@@ -89,6 +99,8 @@
     //console.log(`${langchng}/${$state.post.path}`)
   }
   let slct
+
+  //$: console.log('state.subpage', $state.post.subpage)
 </script>
 
 <svelte:head>

@@ -1,20 +1,20 @@
 <script context="module">
-  import { sitelang } from '$lib/stores'
+  import { sitelang, snapto } from '$lib/stores'
   //import _findPost from '$lib/utils'
   //import { onMount } from 'svelte';
   //import { cubicInOut } from "svelte/easing"
-  import * as scrollto from "svelte-scrollto"
+  //import * as scrollto from "svelte-scrollto"
 </script>
 
 <script>
 	//const { /*preloading, */page/*, session */} = stores();
-  export let sub, /*noscroll = false,*/ totop = ''
+  export let sub, /*noscroll = false,*/ scrollto = false
   //let subpage = _findPost($page.params.lang, link) || []
     //console.log(active)
   
 </script>
 
-<a href="/{$sitelang}/{sub.folder}/{sub.slug}{totop}">{sub.menutitle || sub.title}</a><!-- on:click={() => scrollto.scrollTo({element: totop, offset: 0})} -->
+<a href="/{$sitelang}/{sub.folder}/{sub.slug}" on:click={() => $snapto = scrollto}>{sub.menutitle || sub.title}</a><!-- -->
 
 <style>
   /*li {
