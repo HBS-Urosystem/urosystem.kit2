@@ -1,7 +1,7 @@
 <script context="module">
   //import { goto } from '@sapper/app';
   import { goto/*, invalidate, prefetch, prefetchRoutes*/ } from '$app/navigation'
-  import { /*state, */sitelang, pagepath } from '$lib/stores'
+  import { /*state, */sitelang/*, pagepath*/ } from '$lib/stores'
   import { onMount } from 'svelte';
   import { fade } from 'svelte/transition'
 	//import { stores } from '@sapper/app';

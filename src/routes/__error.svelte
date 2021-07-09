@@ -1,7 +1,7 @@
 <script context="module">
   import { onMount } from 'svelte'
   import { goto/*, invalidate, prefetch, prefetchRoutes*/ } from '$app/navigation'
-	import { sitelang, pagepath } from '$lib/stores'
+	import { sitelang/*, pagepath*/ } from '$lib/stores'
 
 </script>
 

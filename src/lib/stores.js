@@ -3,8 +3,9 @@ import { writable/*, readable, derived*/ } from 'svelte/store'
 
 export const state = writable({})
 export const moved = writable(false)
+export const snapto = writable(false)
 export const sitelang = persistent('frontend_lang', 'en')
-export const pagepath = writable()
+//export const pagepath = writable()
 //export const sitelang = writable('en')
 export const cookies = persistent('cookieconsent_status', false)
 
