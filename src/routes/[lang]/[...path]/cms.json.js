@@ -16,13 +16,13 @@ export const get = async (request) => {
 
 	conf = await _getConf(lang)
 	if (!conf.thislang) {
-		conf = await _getConf(store(sitelang))
+		conf = await _getConf(store(sitelang) || 'en')
 		if (!conf.thislang) return false
 		path = lang
-		lang = store(sitelang)
+		lang = store(sitelang) || 'en'
 	}
 
-	const parts = (!!path && path !== 'undefined') && path.split('/') || []
+	const parts = !!path && path.split('/') || []
   //console.log('cms_parts',parts)
 
 	post = await _getPost({path: parts[0], lang, sub: parts[1] || null})
