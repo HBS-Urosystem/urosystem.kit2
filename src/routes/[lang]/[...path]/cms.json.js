@@ -17,6 +17,7 @@ export const get = async (request) => {
 	conf = await _getConf(lang)
 	if (!conf.thislang) {
 		conf = await _getConf(store(sitelang) || 'en')
+//console.log(store(sitelang))
 		if (!conf.thislang) return false
 		path = lang
 		lang = store(sitelang) || 'en'
