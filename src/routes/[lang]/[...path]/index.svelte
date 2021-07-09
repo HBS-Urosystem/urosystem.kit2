@@ -98,7 +98,7 @@
       <h2>{$state.post.title}</h2>
       <ul>
         {#each $state.post.subpages as sub}
-        <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} totop="#svelte"/></li>
+        <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub}/></li>
         {/each}
       </ul>
     </nav>

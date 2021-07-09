@@ -8,7 +8,7 @@
 
 <script>
 	//const { /*preloading, */page/*, session */} = stores();
-  export let sub, /*noscroll = false,*/ totop = 'body'
+  export let sub, /*noscroll = false,*/ totop = ''
   //let subpage = _findPost($page.params.lang, link) || []
     //console.log(active)
   
