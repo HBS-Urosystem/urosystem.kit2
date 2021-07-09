@@ -8,15 +8,13 @@
 
 <script>
 	//const { /*preloading, */page/*, session */} = stores();
-  export let sub, noscroll = false, screlem = 'body'
+  export let sub, /*noscroll = false,*/ totop = 'body'
   //let subpage = _findPost($page.params.lang, link) || []
     //console.log(active)
   
 </script>
 
-<!--<li class:active={$page.params.slug == sub.slug || !$page.params.slug && sub.slug == '.'}><a href="{$page.params.lang}/{sub.folder}/{sub.slug}" sapper:noscroll={false} on:click={() => scrollto.scrollTo({element: noscroll ? 'main' : 'body', y: 0})}>{sub.menutitle || sub.title}</a></li>-->
-<!--<li class:active={active}>--><a href="/{$sitelang}/{sub.folder}/{sub.slug}" on:click={() => scrollto.scrollTo({element: screlem, offset: 0})} sveltekit:noscroll>{sub.menutitle || sub.title}</a><!--</li>--><!--  use:scrollto={noscroll ? 'main' : 'body'} -->
-<!-- on:click={() => scrollto.scrollTo({element: noscroll ? 'main' : 'body', y: 0})}-->
+<a href="/{$sitelang}/{sub.folder}/{sub.slug}{totop}">{sub.menutitle || sub.title}</a><!-- on:click={() => scrollto.scrollTo({element: totop, offset: 0})} -->
 
 <style>
   /*li {

@@ -63,7 +63,7 @@
         <nav>
           <ul>
             {#each $state.post.subpages as sub}
-            <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} screlem="#content"/></li>
+            <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} totop="#content"/></li>
             {/each}
           </ul>
         </nav>
@@ -98,7 +98,7 @@
       <h2>{$state.post.title}</h2>
       <ul>
         {#each $state.post.subpages as sub}
-        <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} screlem="#content"/></li>
+        <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} totop="#svelte"/></li>
         {/each}
       </ul>
     </nav>
