@@ -80,7 +80,7 @@
     justify-content: center;
   }*/
   li {
-    padding: 1rem 0;
+    padding: 2rem 0;
     white-space: nowrap;
   }
   li * {
