@@ -88,6 +88,7 @@ export async function _getConf(lang) {
       for (let item of obj.titles) {
         if (item.lang == lang) obj.title = item.title
       }
+      delete obj.titles /// ?
     }
 
     /*if (!!obj.link && (modal = await _findBlock('modal/' + obj.link.substring(1), lang))) {
@@ -108,6 +109,7 @@ export async function _getConf(lang) {
             //console.log(lang, item.lang, item.title)
             if (item.lang == lang) page.title = item.title
           }
+          delete page.titles /// ?
         }
         //if (!!page.link) modal = await _findBlock('modal/' + page.link.substring(1), lang)
         //if (modal) page.modal = modal
