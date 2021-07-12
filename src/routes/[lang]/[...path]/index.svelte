@@ -1,5 +1,5 @@
 <script context="module">
-  export const hydrate = false
+  //export const hydrate = false
 
   import { state } from '$lib/stores'
   import Components from '$lib/Components.svelte'
@@ -45,7 +45,7 @@
 
 <main>
   {#if $state.post.hero}
-    <header style="min-height:100vh;display: flex;flex-direction: column;justify-content: center;{$state.post.hero.background ? $state.post.hero.background : ``}">
+    <header class="full" style="{$state.post.hero.background ? $state.post.hero.background : ``}">
       <h1 hidden>{$state.post.title}</h1>
       {#each $state.post.hero.components || [] as comp}
         <Components {comp}/>
@@ -116,6 +116,18 @@
 </main>
 
 <style>
+  header {
+    padding-top: 12rem;
+    padding-bottom: 1rem;
+  }
+  header.full {
+    padding-top: 9rem;
+    padding-bottom: 12rem;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   h1 {
     cursor: pointer;
   }

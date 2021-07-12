@@ -73,14 +73,15 @@ header, article, aside, main > div {
 header + div > article:first-child {
   padding-top: 2rem;
 }
-nav + main > header {
+/*nav + main > header {
   padding-top: 9rem;
   padding-bottom: 12rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+}*/
+
 header figure {
   margin: 1em!important;
 }
@@ -276,6 +277,9 @@ article p, article ul, article ol, article dl, article table, aside p, aside ul,
   margin: 1em 0;
   vertical-align: baseline;
   color: var(--pale-blue);
+}
+article p:first-child, article ul:first-child, article ol:first-child, article dl:first-child, article table:first-child, aside p:first-child, aside ul:first-child, aside ol:first-child, aside dl:first-child, aside table:first-child {
+  margin-top: 1.5em;
 }
 article p:last-child, article ul:last-child, article ol:last-child, article dl:last-child, article table:last-child, aside p:last-child, aside ul:last-child, aside ol:last-child, aside dl:last-child, aside table:last-child {
   padding-bottom: 1em;
