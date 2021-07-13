@@ -76,26 +76,28 @@ export async function _getConf(lang) {
   async function _subnav(obj) {
     let p
     //console.log('obj',obj)
-    //console.log('obj.link',obj)
-    if (!!obj.link && (p = await _findPost({path: obj.link, lang}))) {
+    if (obj.titles) {
+      //console.log('obj.titles',lang)
+      for (let item of obj.titles) {
+        if (item.lang == lang) {
+          obj.title = item.title
+          console.log('obj.title',obj.title)
+        }
+      }
+      //delete obj.titles /// ?
+    } else if (!!obj.link && (p = await _findPost({path: obj.link, lang}))) {
+      //console.log('obj.link',obj.link)
       obj.title = p.menutitle || p.title
-
     }
     //obj.title = (!!obj.link && await _findPost({path: obj.link, lang}).then(x => {return x}))
     //console.log('obj.title',obj)
-
-    if (obj.titles) {
-      for (let item of obj.titles) {
-        if (item.lang == lang) obj.title = item.title
-      }
-      delete obj.titles /// ?
-    }
 
     /*if (!!obj.link && (modal = await _findBlock('modal/' + obj.link.substring(1), lang))) {
       obj.modal = modal
       //console.log('obj.modal',await obj.modal)
     }*/
-    obj.modal = (!!obj.link && await _findBlock('modal/' + obj.link.substring(1), lang))
+    //obj.modal = null
+    if (!!obj.link && obj.link.startsWith('#')) obj.modal = await _findBlock('modal/' + obj.link.substring(1), lang)
   
     if (obj.subpages) {
       //console.log('obj.subpages',obj.subpages)
@@ -279,7 +281,7 @@ for (const b in all) {
   return _.cloneDeepWith(block, mdtext)
   }
 }
-return false
+return null
 }
 function mdtext(value, key) {
   if (key == 'text') {
