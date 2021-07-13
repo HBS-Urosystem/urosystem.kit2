@@ -27,7 +27,7 @@
         loadScript();
       }
       function loadScript() {
-        console.log("loadScript");
+        //console.log("loadScript");
         var script = document.createElement("script");
         script.async = true;
         script.src = scriptURL;
@@ -171,13 +171,13 @@
                 events: {
                   beforeInit: function (cart) {
                     var actualOpen = cart.checkout.open;
-                    console.log('beforeInit',actualOpen)
+                    //console.log('beforeInit',actualOpen)
                     /*cart.checkout.open = function (url) {
                       var newUrl = new URL(url);
                       newUrl.searchParams.set("locale", comp.lang);
                       actualOpen.call(this, newUrl.toString());
                     };*/
-                    console.log('beforeInit',cart)
+                    //console.log('beforeInit',cart)
                   },
                   afterInit: (cart) => {
                     /*cart.onCheckout = () => {
