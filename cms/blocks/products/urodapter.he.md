@@ -3,17 +3,28 @@ id: urodapter
 folder: products
 fallback: en
 components:
-  - type: images
-    title: יכול להתחבר ישירות למזרק בצורה כזו שניתן יהיה להחדיר כל תמיסה שהיא לתוך
-      שלפוחית השתן.
-    shape: default
-    images:
-      - alt: UroDapter® – Urological Syringe Adapter and its parts
-        src: /uploads/urodapter_illustration.png
-        text: UroDapter® – Urological Syringe Adapter and its parts
-      - alt: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
-        text: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
-        src: /uploads/img_2001-copy.jpg
+  - type: grid
+    title: מצגת וידאו של UroDapter®
+    components:
+      - type: video
+        title: ""
+        text: |-
+          ### VIDEO PRESENTATION
+
+          ### Dr. Sándor Lovász on the use of UroDapter®
+        id: MONZqHMJv7Q
+        anchor: lovasz
+        source: youtube
+      - type: video
+        title: ""
+        text: |-
+          ### IBSA VIDEO TUTORIAL
+
+          ### Using the iAluAdapter® (UroDapter®)
+        id: OgwxcHuhQuQ
+        anchor: using
+        source: youtube
+    slide: false
   - type: qas
     title: ""
     items:
@@ -98,6 +109,17 @@ components:
         src: /uploads/Ialuadapter.jpg
         text: iAluadapter® (UroDapter®)
     ratio: 90
+  - type: images
+    title: יכול להתחבר ישירות למזרק בצורה כזו שניתן יהיה להחדיר כל תמיסה שהיא לתוך
+      שלפוחית השתן.
+    shape: default
+    images:
+      - alt: UroDapter® – Urological Syringe Adapter and its parts
+        src: /uploads/urodapter_illustration.png
+        text: UroDapter® – Urological Syringe Adapter and its parts
+      - alt: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
+        text: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
+        src: /uploads/img_2001-copy.jpg
   - type: links
     title: UroDapter® מידע על הורדות וקישורים
     items:

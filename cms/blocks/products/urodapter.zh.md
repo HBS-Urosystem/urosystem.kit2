@@ -3,16 +3,28 @@ id: urodapter
 folder: products
 fallback: en
 components:
-  - type: images
-    title: UroDapter® 可以直接连接到注射器上，以便将任何溶液滴入膀胱中
-    shape: default
-    images:
-      - alt: UroDapter® – Urological Syringe Adapter and its parts
-        src: /uploads/urodapter_illustration.png
-        text: UroDapter® – Urological Syringe Adapter and its parts
-      - alt: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
-        text: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
-        src: /uploads/img_2001-copy.jpg
+  - type: grid
+    title: UroDapter®演示視頻
+    components:
+      - type: video
+        title: ""
+        text: |-
+          ### VIDEO PRESENTATION
+
+          ### Dr. Sándor Lovász on the use of UroDapter®
+        id: MONZqHMJv7Q
+        anchor: lovasz
+        source: youtube
+      - type: video
+        title: ""
+        text: |-
+          ### IBSA VIDEO TUTORIAL
+
+          ### Using the iAluAdapter® (UroDapter®)
+        id: OgwxcHuhQuQ
+        anchor: using
+        source: youtube
+    slide: false
   - type: qas
     title: ""
     items:
@@ -76,6 +88,16 @@ components:
         src: /uploads/Ialuadapter.jpg
         text: iAluadapter® (UroDapter®)
     ratio: 90
+  - type: images
+    title: UroDapter® 可以直接连接到注射器上，以便将任何溶液滴入膀胱中
+    shape: default
+    images:
+      - alt: UroDapter® – Urological Syringe Adapter and its parts
+        src: /uploads/urodapter_illustration.png
+        text: UroDapter® – Urological Syringe Adapter and its parts
+      - alt: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
+        text: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
+        src: /uploads/img_2001-copy.jpg
   - type: links
     title: 信息下载和链接
     items:

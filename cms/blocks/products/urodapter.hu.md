@@ -3,16 +3,28 @@ id: urodapter
 folder: products
 fallback: en
 components:
-  - type: images
-    title: Az UroDapter® segítségével bármilyen oldat befecskendezhető a húgyhólyagba.
-    shape: default
-    images:
-      - alt: Az UroDapter® urológiai fecskendő adapter részei
-        src: /uploads/urodapter_illustration.png
-        text: Az UroDapter® urológiai fecskendő adapter részei
-      - alt: Az UroDapter® urológiai fecskendő adapter steril csomagolásban
-        text: Az UroDapter® urológiai fecskendő adapter steril csomagolásban
-        src: /uploads/img_2001-copy.jpg
+  - type: grid
+    title: UroDapter® bemutató videók
+    components:
+      - type: video
+        title: ""
+        text: |-
+          ### DR. LOVÁSZ SÁNDOR BEMUTATÓJA
+
+          ### Az UroDapter® használatáról
+        id: MONZqHMJv7Q
+        anchor: lovasz
+        source: youtube
+      - type: video
+        title: ""
+        text: |-
+          ### AZ IBSA BEMUTATÓJA
+
+          ### Az iAluAdapter® (UroDapter®) használatáról
+        id: GR2fk6xSquQ
+        anchor: using
+        source: youtube
+    slide: false
   - type: qas
     title: ""
     items:
@@ -106,6 +118,16 @@ components:
         src: /uploads/Ialuadapter.jpg
         text: iAluadapter® (UroDapter®)
     ratio: 90
+  - type: images
+    title: Az UroDapter® segítségével bármilyen oldat befecskendezhető a húgyhólyagba.
+    shape: default
+    images:
+      - alt: Az UroDapter® urológiai fecskendő adapter részei
+        src: /uploads/urodapter_illustration.png
+        text: Az UroDapter® urológiai fecskendő adapter részei
+      - alt: Az UroDapter® urológiai fecskendő adapter steril csomagolásban
+        text: Az UroDapter® urológiai fecskendő adapter steril csomagolásban
+        src: /uploads/img_2001-copy.jpg
   - type: links
     title: Letölthető segédanyagok és linkek (angol)
     items:

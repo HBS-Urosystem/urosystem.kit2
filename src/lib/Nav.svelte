@@ -207,7 +207,7 @@
                 {#if nav.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
               </span>
             {/if}
-            {#if nav.modal} <!-- = _getBlock('index/'+nav.link.substring(1), 'en')}-->
+            {#if nav.modal}
               {#each nav.modal.components || [] as comp}
                 <Components {comp}/>
               {/each}        

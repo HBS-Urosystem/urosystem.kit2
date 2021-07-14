@@ -3,16 +3,28 @@ id: urodapter
 folder: products
 fallback: en
 components:
-  - type: images
-    title: UroDapter®는 주사기에 직접 부착하여 모든 용액을 방광에 주입 할 수 있습니다.
-    shape: default
-    images:
-      - alt: UroDapter® – Urological Syringe Adapter and its parts
-        src: /uploads/urodapter_illustration.png
-        text: UroDapter® – 비뇨기과 용 주사기 어댑터 및 부품
-      - alt: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
-        text: UroDapter® 비뇨기과 용 주사기 어댑터 – 멸균 포장
-        src: /uploads/img_2001-copy.jpg
+  - type: grid
+    title: UroDapter® 프레젠테이션 비디오
+    components:
+      - type: video
+        title: ""
+        text: |-
+          ### 비디오 프레젠테이션
+
+          ### 로바스 산도 선생님의 UroDapter®설명
+        id: MONZqHMJv7Q
+        anchor: lovasz
+        source: youtube
+      - type: video
+        title: ""
+        text: |-
+          ### IBSA 비디오 설명서
+
+          ### iAluAdapter® (UroDapter®) 사용법
+        id: OgwxcHuhQuQ
+        anchor: using
+        source: youtube
+    slide: false
   - type: qas
     title: ""
     items:
@@ -90,6 +102,16 @@ components:
         src: /uploads/Ialuadapter.jpg
         text: iAluadapter® (UroDapter®)
     ratio: 90
+  - type: images
+    title: UroDapter®는 주사기에 직접 부착하여 모든 용액을 방광에 주입 할 수 있습니다.
+    shape: default
+    images:
+      - alt: UroDapter® – Urological Syringe Adapter and its parts
+        src: /uploads/urodapter_illustration.png
+        text: UroDapter® – 비뇨기과 용 주사기 어댑터 및 부품
+      - alt: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
+        text: UroDapter® 비뇨기과 용 주사기 어댑터 – 멸균 포장
+        src: /uploads/img_2001-copy.jpg
   - type: links
     title: 정보 다운로드 및 링크
     items:

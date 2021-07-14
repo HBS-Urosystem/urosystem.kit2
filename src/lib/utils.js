@@ -75,19 +75,21 @@ export async function _getConf(lang) {
 
   async function _subnav(obj) {
     let p
-    //console.log('obj',obj)
-    if (obj.titles) {
-      //console.log('obj.titles',lang)
+    //console.log('obj.link',obj.link)
+    if (obj.titles && obj.titles.length) {
+      //console.log('obj.titles',obj.titles)
       for (let item of obj.titles) {
         if (item.lang == lang) {
+          //console.log('obj.title1',item.title)
           obj.title = item.title
-          console.log('obj.title',obj.title)
         }
       }
       //delete obj.titles /// ?
     } else if (!!obj.link && (p = await _findPost({path: obj.link, lang}))) {
-      //console.log('obj.link',obj.link)
       obj.title = p.menutitle || p.title
+      //console.log('obj.title2',obj.title)
+    } else {
+      obj.title = null
     }
     //obj.title = (!!obj.link && await _findPost({path: obj.link, lang}).then(x => {return x}))
     //console.log('obj.title',obj)
@@ -103,19 +105,21 @@ export async function _getConf(lang) {
       //console.log('obj.subpages',obj.subpages)
       let subs = []
       for (let page of obj.subpages) {
-        if (!!page.link && (p = await _findPost({path: page.link, lang}))) {
-          page.title = p.menutitle || p.title
-        }
-        if (page.titles) {
+        if (page.titles && page.titles.length) {
           for (let item of page.titles) {
             //console.log(lang, item.lang, item.title)
             if (item.lang == lang) page.title = item.title
           }
-          delete page.titles /// ?
+          //delete page.titles /// ?
+        } else if (!!page.link && (p = await _findPost({path: page.link, lang}))) {
+          page.title = p.menutitle || p.title
+        } else {
+          page.title = null
         }
+        console.log('sub.title',page.title)
         //if (!!page.link) modal = await _findBlock('modal/' + page.link.substring(1), lang)
         //if (modal) page.modal = modal
-        page.modal = (!!page.link && await _findBlock('modal/' + page.link.substring(1), lang))
+        if (!!page.link && page.link.startsWith('#')) page.modal = await _findBlock('modal/' + page.link.substring(1), lang)
         //console.log('page.modal',await page.modal)
         
         subs.push(page)

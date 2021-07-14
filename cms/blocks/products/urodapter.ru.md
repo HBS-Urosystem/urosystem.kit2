@@ -3,17 +3,28 @@ id: urodapter
 folder: products
 fallback: en
 components:
-  - type: images
-    title: UroDapter® можно прикрепить непосредственно к шприцу, чтобы можно было
-      ввести любой раствор в мочевой пузырь.
-    shape: default
-    images:
-      - alt: UroDapter® – Урологический шприцевой адаптер и его части
-        src: /uploads/urodapter_illustration.png
-        text: UroDapter® – Урологический шприцевой адаптер и его части
-      - alt: UroDapter® Урологический шприцевой адаптер – В стерильной упаковке
-        text: Урологический шприцевой адаптер – В стерильной упаковке
-        src: /uploads/img_2001-copy.jpg
+  - type: grid
+    title: Видео презентации UroDapter®
+    components:
+      - type: video
+        title: ""
+        text: |-
+          ### ВИДЕО ДЕМОНСТРАЦИЯ UroDapter®
+
+          ### от доктора медицинских наук Ловаса Шандора
+        id: _aUhHHVzJGA
+        anchor: lovasz
+        source: youtube
+      - type: video
+        title: ""
+        text: |-
+          ### ВИДЕО ДЕМОНСТРАЦИЯ ОТ IBSA
+
+          ### Использование iAluadapter® (UroDapter®)
+        id: OgwxcHuhQuQ
+        anchor: using
+        source: youtube
+    slide: false
   - type: qas
     title: ""
     items:
@@ -113,6 +124,17 @@ components:
         src: /uploads/Ialuadapter.jpg
         text: iAluadapter® (UroDapter®)
     ratio: 90
+  - type: images
+    title: UroDapter® можно прикрепить непосредственно к шприцу, чтобы можно было
+      ввести любой раствор в мочевой пузырь.
+    shape: default
+    images:
+      - alt: UroDapter® – Урологический шприцевой адаптер и его части
+        src: /uploads/urodapter_illustration.png
+        text: UroDapter® – Урологический шприцевой адаптер и его части
+      - alt: UroDapter® Урологический шприцевой адаптер – В стерильной упаковке
+        text: Урологический шприцевой адаптер – В стерильной упаковке
+        src: /uploads/img_2001-copy.jpg
   - type: links
     title: Информация по скачиванию и ссылки
     items:
