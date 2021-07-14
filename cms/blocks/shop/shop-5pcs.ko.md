@@ -3,33 +3,56 @@ id: shop-5pcs
 folder: shop
 fallback: en
 components:
-  - type: article
-    text: |-
-      배송비:
+  - type: grid
+    slide: false
+    components:
+      - type: article
+        text: |-
+          #### 배송비
 
-      * EU, 러시아, 우크라이나: $9.50
-      * 기타 국가: $10.00
+          * EU, 러시아, 우크라이나: $9.50
+          * 기타 국가: $10.00
 
-      등기 우선 우편 발송
+          등기 우선 우편 발송
+        subtitle: ""
+        background:
+          - type: image
+            posx: 80
+            posy: 72
+            scale: 20
+            src: /uploads/urodapter-removebg.png
     title: UroDapter®가 처음이십니까? 오늘 샘플 패키지를 주문하세요!!
-    anchor: sample
     subtitle: $40에 5 / $75에 10 개 구매
+    background: []
   - type: buy
     title: ""
     button: 바로 구매
     product: "5983114002592"
   - type: article
     text: >-
-      The estimated delivery time, according to the customer’s country as
-      follows:
+      #### THE ESTIMATED DELIVERY TIME, ACCORDING TO THE CUSTOMER'S COUNTRY AS
+      FOLLOWS:
 
 
-      * EU countries: 12 days
+      * European countries: 12 days
 
       * Russia, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
 
       * Other countries: 15 days
+    subtitle: ""
+  - type: article
+    subtitle: ""
+    anchor: ""
+    text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
+      USUAL."
+  - type: article
+    text: >-
+      THE PRODUCT IS NOT AVAILABLE FROM OUR COMPANY IN THE FOLLOWING COUNTRIES:\
+
+      *Albania, Austria, Belarus, Belgium, Bosnia, Bulgaria, Croatia, Czech Republic, Cyprus, Denmark, Estonia, Finland, France, Germany, Kosovo, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, North Macedonia, Malta, The Netherlands, Poland, Portugal, Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, The United Kingdom, Turkey, Australia, New Zealand.* 
 
 
-      #### Due to the COVID world wide pandemic delivery can be longer than usual.
+      VISIT OUR PARTNER'S WEBPAGE FOR FURTHER INFORMATION: \
+
+      <a href="https://www.ibsagroup.com" rel="noopener" target="_blank">https://www.ibsagroup.com</a>
 ---

@@ -93,7 +93,7 @@
                 text: {
                   button: (comp.button || "Shop now") + " ✔︎",
                 },
-                width: "320px"
+                width: "360px"
               },
               productSet: {
                 styles: {

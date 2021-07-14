@@ -3,34 +3,48 @@ id: shop-5pcs
 folder: shop
 fallback: en
 components:
-  - type: article
-    text: |-
-      Versandkosten:
+  - type: grid
+    slide: false
+    components:
+      - type: article
+        text: |-
+          #### VERSANDKOSTEN
 
-      * EU, Russland, Ukraine: $9.50
-      * Andere Länder: $10.00
+          * EU, Russland, Ukraine: $9.50
+          * Andere Länder: $10.00
 
-      Versand per Einschreiben mit Prioritätspriorität
+          Versand per Einschreiben mit Prioritätspriorität
+        subtitle: ""
+        background:
+          - type: image
+            posx: 80
+            posy: 72
+            scale: 20
+            src: /uploads/urodapter-removebg.png
     title: Kennen Sie UroDapter® noch nicht? Bestellen Sie 5/10 Produktproben!
-    anchor: sample
     subtitle: Kaufen Sie 5 Stück für $40 / 10 Stück für $75
+    background: []
   - type: buy
     title: ""
     button: Jetzt einkaufen
     product: "5983114002592"
   - type: article
     text: >-
-      The estimated delivery time, according to the customer’s country as
-      follows:
+      #### THE ESTIMATED DELIVERY TIME, ACCORDING TO THE CUSTOMER'S COUNTRY AS
+      FOLLOWS:
 
 
-      * EU countries: 12 days
+      * European countries: 12 days
 
       * Russia, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
 
       * Other countries: 15 days
+    subtitle: ""
   - type: article
-    subtitle: DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN USUAL.
+    subtitle: ""
+    anchor: ""
+    text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
+      USUAL."
   - type: article
     text: >-
       THE PRODUCT IS NOT AVAILABLE FROM OUR COMPANY IN THE FOLLOWING COUNTRIES:\
