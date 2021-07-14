@@ -116,7 +116,7 @@ export async function _getConf(lang) {
         } else {
           page.title = null
         }
-        console.log('sub.title',page.title)
+        //console.log('sub.title',page.title)
         //if (!!page.link) modal = await _findBlock('modal/' + page.link.substring(1), lang)
         //if (modal) page.modal = modal
         if (!!page.link && page.link.startsWith('#')) page.modal = await _findBlock('modal/' + page.link.substring(1), lang)
