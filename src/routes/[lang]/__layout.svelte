@@ -68,7 +68,7 @@
   gtag('config', 'UA-180221975-1');
   </script>
 
-	{#if !!$cookies && !dev }
+	<!--{#if !!$cookies && !dev }-->
     <script>
       gtag('config', 'AW-433475160')
     </script>
@@ -110,7 +110,7 @@
       <noscript><img loading="lazy" height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=699963074016051&ev=PageView&noscript=1" alt="fb-pixel" /></noscript>
       <!-- End Facebook Pixel Code -->
     <!--{/if}--> <!-- $moved -->
-	{/if}
+	<!--{/if}--> <!-- $cookies -->
 </svelte:head>
 
 <Nav/><!--  dir={thislang.dir} -->
