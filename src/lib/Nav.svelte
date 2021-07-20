@@ -1,5 +1,5 @@
 <script context="module">
-	import { state/*, moved*/, sitelang } from '$lib/stores'
+	import { state, moved, sitelang } from '$lib/stores'
   //import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
   //import { langs } from '$lib/config';
   //import { topnav } from '$lib/config'
@@ -58,7 +58,7 @@
     validate({ duration, offset, tolerance });
     headerClass = updateClass(y);
     if (headerClass !== lastHeaderClass) {
-      //$moved = true
+      $moved = true
       dispatch(headerClass);
     }
     lastHeaderClass = headerClass
