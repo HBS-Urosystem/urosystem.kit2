@@ -5,328 +5,330 @@ fallback: en
 components:
   - type: article
     text: >-
-      **Acute** – In the medical terminology, acute refers to diseases,
-      illnesses or symptoms that develop fast and don’t last long. (Acute
-      doesn’t essentially mean severe.)
+      **急性** – 在医学术语中，急性是指快速发展且持续时间不长的疾病、
 
+      病症或症状。（急性并不一定
 
-      **Amitriptyline** – A sort of antidepressant; occasionally used in the therapy of IC/BPS, too. It mitigates the symptoms, but may have side effects if taken at large doses.
+      意味着严重。）
 
 
-      **Anamnesis** – Describing the history and the current status of a patient, including diseases/conditions in the pasts, injuries, operations, but diet and living conditions, too. An accurate anamnesis helps make the proper diagnosis.
+      **阿米替林** – 一种抗抑郁药； 偶尔也用于 IC/BPS 的治疗。它可以减轻症状，但如果大剂量服用可能会产生副作用。
 
 
-      **Antidepressants** – A group of medicine. In spite of the name, they are used not only for treating depression, but also for several other conditions, e.g. chronic pain syndromes. Certain kinds of them – tricyclic antidepressants – are widely used in the oral therapy of IC/BPS.
+      **既往症** – 描述患者的病史和现状，包括过去的疾病/状况、受伤、手术，以及饮食和生活状况。准确的病史有助于做出正确的诊断。
 
 
-      **Antihistamines** – The name refers to histamine antagonists. (Histamine is a compound produced by certain cells. It is involved in the immune response of the body and has inflammatory effect.) They generally have anti-inflammatory effect, certain types of them – e.g. hydroxyzine and cimetidine – are used in the oral therapy of IC/BPS. See also: Histamine
+      **抗抑郁药** – 是一组药物。尽管名称如此，但它们不仅用于治疗抑郁症，还用于治疗其他疾病，例如慢性疼痛综合征。其中某些种类——三环类抗抑郁药——广泛用于 IC/BPS 的口服治疗。
 
 
-      **Atrophy** – Partial or complete wasting away of a tissue, organ or body part.
+      **抗组胺剂** – 该名称是指组胺拮抗剂。（组织胺是由某些细胞产生的化合物。它参与身体的免疫反应并具有炎症作用。）它们通常具有抗炎作用，其中某些类型 - 例如羟嗪和西咪替丁——用于 IC/BPS 的口服治疗。参见：组织胺
 
 
-      **Autoimmune disease** – A general term for diseases in which the immune system – mistakenly – attacks the own cells, tissues and substances of the body. Some theorize IC/BPS is an autoimmune disease or develops on the basis of autoimmune processes. This theory has not been confirmed yet.
+      **萎缩** – 组织、器官或身体部位的部分或完全消瘦。
 
 
-      **Bacterial cystitis** – The inflammation of the bladder which is caused by bacteria.
+      **自身免疫病** – 免疫系统错误地攻击自身细胞、组织和身体物质的疾病的总称。一些理论认为 IC/BPS 是一种自身免疫病或在自身免疫过程的基础上发展。这个理论还没有得到证实。
 
 
-      **Baking Soda** – See Bicarbonates
+      **细菌性膀胱炎** – 由细菌引起的膀胱炎症。
 
 
-      **Bicarbonates** – A group of inorganic salts; in IC/BPS terminology it often refers to sodium bicarbonate (a.k.a. baking soda). It is used for urine alkalization (to mitigate the symptoms), as the part of the treatment.
+      **小苏打** - 参见”碳酸氢盐“
 
 
-      **Biopsy** – Collecting specimen from a tissue or an organ. In case of IC/BPS, biopsy is not performed unless the cystoscopy reveals areas that might refer to tumorous alterations.
+      **碳酸氢盐** – 一组无机盐； 在 IC/BPS 术语中，它通常是指碳酸氢钠（又名小苏打）。作为治疗的一部分，它用于碱化尿液（减轻症状）。
 
 
-      **Bladder Pain Syndrome** – See IC/BPS.
+      **活组织检查** – 从组织或器官收集标本。在 IC/BPS 的情况下，除非膀胱镜检查显示可能涉及肿瘤改变的区域，否则不会进行活检。
 
 
-      **BPS** – see IC/BPS
+      **膀胱疼痛综合征** – 参见 IC/BPS。
 
 
-      **BPIC/SS Questionnaire** – One of the questionnaires used for diagnosing IC/BPS; it surveys the voiding habits, the grade and the frequency of pelvic pain, focusing on the experience of the previous 7 days. It doesn’t seem to be a reliable method of diagnosing this disease.
+      **BPS** – 参见 IC/BPS。
 
 
-      **Capsaicin** – An alkaloid which is present e.g. in the paprika and chili (and responsible for the “hot” sensation). In the medical practice they occasionally use it as a local analgesic. It has been tried in the treatment of IC/BPS, but has failed to improve the condition.
+      **BPIC/SS 问卷** – 用于诊断 IC/BPS 的问卷之一。它调查了排尿习惯、骨盆疼痛的等级和频率，重点是前 7 天的体验。它似乎不是诊断这种疾病的可靠方法。
 
 
-      **Catheter** – A thin rubber pipe which is used for delivering solutions into certain organs (or draining solutions from them).
+      **辣椒素** – 一种存在的生物碱，例如在辣椒粉和辣椒中（并造成“热”的感觉）。在医疗实践中，辣椒素偶尔用作局部镇痛剂。曾尝试治疗IC/BPS，但未能改善病情。
 
 
-      **Chemotherapy Cystitis** (Chemo-Cystitis) – A form of cystitis may occur as a complication of the chemotherapy of a cancer. See more: Hemorrhagic Cystitis.
+      **导管** – 用于将溶液输送到某些器官（或从中排出溶液）的细橡胶管。
 
 
-      **Chondroitin** (Chondroitin Sulphate; CS) – A polysaccharide compound which is generally used for treating cartilage problems. In the therapy of IC/BPS, chondroitin sulphate is considered to be one of the GAG-layer replenishers.
+      **放射性膀胱炎**– 一种膀胱炎可能是癌症化疗的并发症。看更多：出血性膀胱炎（HC）
 
 
-      **Cimetidine** – See Antihistamines
+      **软骨素** （硫酸软骨素; CS） – 一种多糖化合物，通常用于治疗软骨问题。在 IC/BPS 的治疗中，硫酸软骨素被认为是 GAG 层补充剂之一。
 
 
-      **Citrates, Citric Acid** – The term is generally used for the salts of citric acid; despite the name these compounds have alkalizing effect.
+      **西咪替丁** – 参见“抗组胺剂“
 
 
-      **Chronic** – In the medical terminology it refers to long-lasting diseases, or conditions that persist for a long time.
+      **柠檬酸盐，柠檬酸** – 该术语通常用于柠檬酸盐； 尽管名称，这些化合物具有碱化作用。
 
 
-      **Classic IC/BPS** – An old term for IC/BPS with Hunner lesion.
+      **慢性** – 在医学术语中，它是指长期存在的疾病或持续很长时间的病症。
 
 
-      **Coagulation** – See Fulguration.
+      **经典 IC/BPS** – 具有洪纳损伤的 IC/BPS 的旧术语。
 
 
-      **Cocktail** – In the therapy of IC/BPS the term refers to solutions instilled into the bladder that contain more components.
+      **凝结** – 参见“电灼疗法“
 
 
-      **Corticosteroids** – A group of hormones produced by the body; the term refers to similar synthetic compounds, too. In the medical practice, a group of anti-inflammatory agents is called so, as well. In the oral medication of IC/BPS corticosteroids can be used, too.
+      **“鸡尾酒”** – 在 IC/BPS 治疗中，该术语是指注入膀胱的含有更多成分的溶液。
 
 
-      **Cystectomy** – Removing the bladder via a surgical operation. Current guidelines of treating IC/BPS say that cystectomy is recommended only if the patient hasn’t responded to any other therapy.
+      **皮质类固醇** – 身体产生的一组激素； 该术语也指类似的合成化合物。在医疗实践中，一组抗炎剂也被称为如此。在 IC/BPS 的口服药物中，也可以使用皮质类固醇。
 
 
-      **Cystitis** – A general term for bladder inflammation. (Its official plural form is Cystitides.)
+      **膀胱切除术** – 通过外科手术切除膀胱。目前治疗 IC/BPS 的指南指出，仅当患者对任何其他治疗没有反应时才推荐膀胱切除术。
 
 
-      **Cystoscopy** – Examining the inside of the bladder with a small camera (called cystoscope) which is lead into the bladder through the urethra. It was widely used in the past for diagnosing IC/BPS. Currently, it is performed only if it’s strongly suspected that there are alterations on the bladder wall or mucosa.
+      **膀胱炎** – 膀胱炎症的总称。（它的官方英文复数形式是 Cystitides。）
 
 
-      **Cytology** – See Urine Cytology
+      **膀胱镜检查** – 使用通过尿道进入膀胱的小型相机（称为膀胱镜）检查膀胱内部。它在过去被广泛用于诊断 IC/BPS。目前，只有在强烈怀疑膀胱壁或粘膜发生改变时才进行。
 
 
-      **Differential diagnosis** – Distinguishing conditions of similar symptoms and all the diagnostic methods of this purpose. This is the first step of diagnosing IC/BPS: the therapist has to rule out other conditions which may cause the symptoms, e.g. bacterial cystitis.
+      **细胞学** – 参见“尿细胞学”
 
 
-      **Diverticulum** – A pathological condition, a small bulging sac or sacs of a cavernous organ are pushing outward. The sacs may consist of one or more layers of the organ wall.
+      **鉴别诊断** – 区分相似症状的条件和所有用于此目的的诊断方法。这是诊断 IC/BPS 的第一步：治疗师必须排除可能导致症状的其他情况，例如细菌性膀胱炎。
 
 
-      **DMSO** – Dimethyl-sulfoxide; one of the compounds used in the local treatment of IC/BPS. It is the only agent approved by FDA (The USA) for this purpose. It mitigates the symptoms, but, in itself, doesn’t regenerate the GAG-layer.
+      **憩室** – 一种病理状况，囊子是在器官上的一个或多个小膨胀囊向外推。囊可由一层或多层器官壁组成。
 
 
-      **Dorfman (PUF) questionnaire** – One of the questionnaires widely used for diagnosing IC/BPS. It surveys the voiding habits, the presence and frequency of bladder pain, and the pain occurring during a sexual intercourse.
+      **DMSO** – 二甲亚砜; 用于局部治疗 IC/BPS 的化合物之一。它是美国FDA为此目的批准的唯一药剂。它减轻了症状，但本身并不能重新生成 GAG 层。
 
 
-      **Dyspareunia** – Painful sexual intercourse. IC/BPS patients may have dyspareunia, too.
+      **多尔夫曼（PUF）问卷** – 用于诊断IC/BPS的问卷之一。它调查了排尿习惯、膀胱疼痛的存在和频率，以及性交过程中发生的疼痛。
 
 
-      **Dysuria** – Painful urination. IC/BPS patients may have dysuria, too.
+      **性交困难** – 疼痛的性交。IC/BPS 患者也可能有性交困难。
 
 
-      **Elimination diet** – A form of diet. In the first step only the food and drinks are allowed to take that surely cause no problems. In the next step, each food or drink is to be added one by one – if no symptoms occur, it can be consumed in the future.
+      **排尿困难** – 排尿痛。IC/BPS 患者也可能有排尿困难。
 
 
-      **Elmiron** – See PPS
+      **排除饮食** – 一种饮食形式。第一步，只允许吃定不会造成问题的食物和饮料。下一步，每一种食物或饮料都要一一添加：如果没有出现症状，以后就可以食用了。
 
 
-      **Endometriosis** – A condition in which the endometrial tissue appears outside the uterus. It may cause pelvic pain or infertility. Endometriosis can be a comorbidity of IC/BPS.
+      **硫酸戊聚糖钠** – 参见PPS
 
 
-      **End-Stage Bladder** – An irreversible process during which the bladder wall becomes rigid, callused, and the volume of the bladder becomes abnormally small.
+      **子宫内膜异位** – 子宫内膜组织出现在子宫外的一种病症。它可能会导致骨盆疼痛或不孕。子宫内膜异位可能是 IC/BPS 的合并症。
 
 
-      **Epidemiology** – The discipline of researching the appearance, abundance, spread and dispersion of diseases.
+      **末期膀胱** – 一种不可逆的过程，在此过程中膀胱壁变得僵硬、老茧，并且膀胱的体积变得异常小。
 
 
-      **Etiology** – The discipline of researching the causes and the development of diseases.
+      **流行病学** – 研究疾病的出现、数量、传播和分散的学科。
 
 
-      **Fibromyalgia** – A condition characterized by wide-spread muscular or musculoskeletal pain. Its etiology is unknown. Fibromyalgia may be a comorbidity of IC/BPS.
+      **病原学** – 研究疾病的原因和发展的学科。
 
 
-      **Fulguration (Coagulation)** – Destroying certain tissues or areas with laser or electricity. (Although the word itself refers to the use of diathermy.) In the treatment of (Hunner lesion) IC/BPS the term refers to the process when the damaged parts of the bladder mucosa are being destroyed. Fulguration destroys the majority of the pain nerve endings, too, so it may greatly decrease the level of pain. After this process can the GAG-layer replenishment start. (Coagulation originally means the irreversible destruction of proteins, but in the terminology of IC/BPS the two expressions may be used in an interchangeable way.)
+      **纤维肌痛症** – 一种以广泛的肌肉或肌肉骨骼疼痛为特征的病症。其病因不明纤维肌痛症可能是 IC/BPS 的合并症。
 
 
-      **Gabapentin** – A sort of medicine used for different conditions. In the oral therapy of IC/BPS, it is applied for lessening the neuropathic pain.
+      **电灼疗法 （凝结）** – 用激光或电破坏组织或区域。（虽然这个词本身是指使用透热疗法。）在（洪纳损伤）IC/BPS 的治疗中，该术语是指膀胱粘膜受损部分被破坏的过程。电灼疗法也会破坏大部分疼痛神经末梢，因此可以大大降低疼痛程度。这个过程之后就可以开始GAG层补充了。（凝结最初意味着蛋白质的不可逆破坏，但在 IC/BPS 的术语中，这两种表达方式可以互换使用。）
 
 
-      **GAG-layer** – A mucus (mucosal) layer which covers the inner surface of the bladder, it consists of glycosaminoglycans. The GAG-layer protects the deeper regions of the bladder wall (including the pain receptors) from the irritative substances that are present normally in the urine. In the condition of IC/BPS this GAG-layer gets damaged, which leads to pain and frequent voiding stimulation.
+      **加巴喷丁** – 一种用于不同疾病的药物。在IC/BPS的口服治疗中，用于减轻神经性疼痛。
 
 
-      **GAG-layer integrity test** a.k.a. **Two-day voiding diary** – A new method of diagnosing IC/BPS. The basic principle is the following: since the damaged bladder gets irritated because of the salts present in the concentrated urine, the more concentrated the urine is, the smaller the urine portions (the total amount of urine of a voiding) are. For the test, the patient makes a two-day voiding diary. On the first day he/she needs to take the less fluid they can, whereas on the second day the most. In case of a healthy bladder, the mean of the urine portions is the same, regardless of the fluid intake. The bigger the difference of the portions is, the more advanced IC/BPS is.
+      **GAG层** – 覆盖膀胱内表面的粘液（粘膜）层，它由糖胺聚糖组成。GAG 层保护膀胱壁的较深区域（包括疼痛感受器）免受尿液中正常存在的刺激性物质的影响。在 IC/BPS 的情况下，这个 GAG 层被损坏，导致疼痛和频繁的排尿刺激。
 
 
-      **GAG-layer replenisher** – A general term for the compounds that supposed to help the replenishment of the GAG-layer. E.g. heparin, hyaluronic acid and chondroitin sulphate belong to this group.
+      **GAG层完整性测试** 又称 **两天排尿日记** – 一种诊断 IC/BPS 的新方法。基本原理如下：由于浓缩尿液中存在盐分，受损的膀胱会受到刺激，尿液越浓缩，尿液部分就越小（排尿的尿液总量）。为了进行测试，患者会记录两天的排尿日记。在第一天，需要尽可能少地摄入液体，而在第二天需要摄入最多的液体。在膀胱健康的情况下，无论液体摄入量如何，尿液部分的平均值都是相同的。部分差异越大，IC/BPS 越严重。
 
 
-      **Glycosaminoglycan** – A general term for certain polysaccharides containing nitrogen. These compounds are among the main components of the mucus layer covering the inner surface of the bladder. Chondroitin and hyaluronic acid are glycosaminoglycans, too. See also: GAG-layer.
+      **GAG层补充剂** – 应该有助于补充 GAG 层的化合物的总称。例如肝素、透明质酸和硫酸软骨素属于这一组。
 
 
-      **Hematuria** – Blood is present in the urine. In case of IC/BPS hematuria rarely occurs; even if so, the amount of blood is so small that it can be detected by certain laboratorial examinations. Hematuria is a typical symptom of hemorrhagic cystitides.
+      **糖胺聚糖** – 某些含氮多糖的总称。这些化合物是覆盖膀胱内表面的粘液层的主要成分之一。软骨素和透明质酸也是糖胺聚糖。参见：“GAG层”。
 
 
-      **Hemorrhagic Cystitis (HC)** – An umbrella term for conditions in which the bladder is inflamed and its mucosa is bleeding. Different authors use HC for different group of conditions. On this page, Hemorrhagic Cystitis is used for complications of oncotherapeutical treatment: chemotherapy cystitis and radiation cystitis.
+      **血尿** – 尿液中存在血液。在 IC/BPS 的情况下，很少发生血尿； 即使是这样，血量也太少了，可以通过某些实验室检查来检测到。血尿是出血性膀胱炎的典型症状。
 
 
-      **Heparin** – A polysaccharide compound which contains nitrogen and sulfur. It’s widely used in the medical practice as anticoagulant. In the treatment of IC/BPS it’s one of the GAG-layer replenishers.
+      **出血性膀胱炎（HC）** – 膀胱发炎和粘膜出血的总称。不同的作者将 HC 用于不同的疾病组。在此页面上，出血性膀胱炎（HC）用于治疗肿瘤治疗的并发症：化疗性膀胱炎和放射性膀胱炎。
 
 
-      **Histamine** – A transmitter molecule naturally present in the human body. It has a key role in inflammatory processes. It dilates the smaller blood vessels whose wall become more permeable for certain chemical compounds. This results in the typical reddish color of the affected area. Histamine also stimulates the nerve endings whose effect is the itchiness. The therapy of IC/BPS is often complemented with antihistamine substances – certain sorts of medicine that antagonize histamine.
+      **肝素** – 一种含有氮和硫的多糖化合物。它在医疗实践中广泛用作抗凝剂。在 IC/BPS 的治疗中，它是 GAG 层补充剂之一。
 
 
-      **Hunner Lesion (Hunner Ulcer)** – In case of the 10–30% of the IC/BPS patients, characteristic lesions can be observed on the bladder wall. In the past they used the term as a synonym of IC/BPS, because this form of the disease was discovered earlier (by Guy Hunner, in 1915). In fact, in case of most of the IC/BPS patients there are no Hunner lesions. The term “Hunner Ulcer”, which used to be the old name of the phenomenon, is misleading, because there are no ulcers present at all. (Ulcerative IC used to be a term that referred to this form of IC/BPS.)
+      **组织胺** – 一种天然存在于人体中的递质分子。它在炎症过程中起关键作用。它扩张较小的血管，其壁变得对某些化合物更具渗透性。这导致受影响区域的典型微红色。组织胺还刺激神经末梢，其作用是发痒。IC/BPS 的治疗通常辅以抗组织胺药物质 - 某些类型的对抗组胺的药物。
 
 
-      **Hyaluronic Acid** – A polysaccharide molecule. It is regularly used for treating joint problems and skin regeneration. Several cosmetics contain hyaluronic acid, too. In the treatment of IC/BPS it is one of the GAG-layer replenishers.
+      **洪纳损伤** – 在 10-30% 的 IC/BPS 患者中，可以在膀胱壁上观察到特征性病变。过去，他们将该术语用作 IC/BPS 的同义词，因为这种形式的疾病是较早发现的（由 Guy Hunner 于 1915 年发现）。事实上，在大多数 IC/BPS 患者的情况下，没有洪纳损伤病变。曾经是该现象的旧名称“洪纳溃疡”一词具有误导性，因为根本不存在溃疡。（溃疡性 IC 曾经是一个术语，指的是这种形式的 IC/BPS。）
 
 
-      **Hydrodistension** – High pressure cystoscopy. During this process the bladder is being filled up with water; while the cystoscopy is performed the water pressure is being lessened gradually so that the alterations of the bladder mucosa can be examined. It is an effective method for identifying certain typical forms of bleeding which are often present in IC/BPS patients. It is performed in anesthesia. Hydrodistension used to be a common therapeutical tool; currently it is mostly used for diagnostic purposes.
+      **透明质酸** – 多糖分子。它经常用于治疗关节问题和皮肤再生。一些化妆品也含有透明质酸。在 IC/BPS 的治疗中，它是 GAG 层补充剂之一。
 
 
-      **Hydroxyzine** – See Antihistamines
+      **水膨胀** – 高压膀胱镜检查。在这个过程中，膀胱充满了水； 在进行膀胱镜检查时，水压逐渐降低，以便检查膀胱粘膜的变化。它是识别 IC/BPS 患者中经常出现的某些典型出血的有效方法。它是在麻醉下进行的。水膨胀曾经是一种常见的治疗工具； 目前它主要用于诊断目的。
 
 
-      **Hypersensitive Bladder (HSB)** – See IC/BPS
+      **羟嗪** – 参见“抗组胺剂”
 
 
-      **IC/BPS, Interstitial Cystitis, Bladder Pain Syndrome** – A condition of urinary symptoms and severe pain. Its etiology is not known, diagnosing it is complicated. According to our current knowledge, there is no permanent cure for IC/BPS, but with an effective treatment, patients can be symptom-free for long years. The naming of the disease in the scientific literature is confusing. In Europe, it’s usually called Interstitial Cystitis (IC). In America, it’s mostly known as Bladder Pain Syndrome. In the Far East, the condition is often called Hypersensitive Bladder (HBS), sometimes they refer to certain types of it with the term. In fact, neither the name nor the definition of the disease is standardized, which often leads to confusion. Most articles use the Interstitial Cystitis/Bladder Pain Syndrome (or shortly IC/BPS) expression (even if both names may be used as an “umbrella term”, or one may be considered a sub-type of the other one.)
+      **超敏膀胱 （HSB）** – 参见IC/BPS
 
 
-      **Incontinence** – The lack of control over urination. Most IC/BPS patients don’t suffer from incontinence.
+      **IC/BPS，间质性膀胱炎，膀胱疼痛综合征** – 一种泌尿系统症状和剧烈疼痛的情况。其病因不明，诊断复杂。根据我们目前的知识，还没有针对IC/BPS的最终解决方案。但通过有效的治疗，患者可以多年无症状。科学文献中对这种疾病的命名令人困惑。在欧洲，通常被称为间质性膀胱炎（IC）。在美国，通常被称为膀胱疼痛综合征（BPS）。在亚洲，通常被称为过超敏膀胱 （HSB），有时用该术语来指代某些类型的膀胱问题。事实上，疾病的名称和定义都没有标准化，这往往会导致混淆。大多数文章使用间质性膀胱炎/膀胱疼痛综合征（或简称 IC/BPS）表达（即使这两个名称都可以用作“总称术语”，或者一个可能被认为是另一个的含义。）
 
 
-      **Instillation** – Delivering a substance directly into the bladder. It can be performed with or without a catheter, too.
+      **尿失禁** – 对排尿缺乏控制。大多数 IC/BPS 患者不会出现尿失禁。
 
 
-      **Interstitial Cystitis** – See IC/BPS.
+      **滴注** – 将物质直接输送到膀胱中。也可以在有或没有导管的情况下进行。
 
 
-      **Invasive** – In the medical practice the term refers to technics or devices that intrude the body or a cavity of it. In a wider context, it refers to the grade of this “introduction”. Using a catheter, for example, is more invasive than oral medication, but less invasive than performing a surgery.
+      **间质性膀胱炎** – 参见IC/BPS。
 
 
-      **Irritable Bowel Syndrome (IBS)** – A disease of the stomach and/or the bowels, its usual symptoms are abdominal pain and defecation disorders. No alteration of the affected organs can be observed. In case of IC/BPS patients the risk of developing IBS is higher.
+      **入侵性** – 在医疗实践中，该术语是指侵入身体或其腔体的技术或设备。在更广泛的背景下，它指的是“侵入”的程度。例如，使用导管比口服药物更具侵入性，但比进行手术侵入性小。
 
 
-      **Lidocaine (Lignocaine)** – A local analgesic widely used in the therapy of IC/BPS, too.
+      **肠道易激综合症（IBS)）** – 一种胃和/或肠道疾病，其常见症状是腹痛和排便障碍。无观察到受影响器官的改变。对于 IC/BPS 患者，发生 IBS 的风险更高。
 
 
-      **Local Therapy** – Treating directly the affected organ or area. In the field of IC/BPS, it primarily refers to bladder instillation.
+      **利多卡因** – 一种局部镇痛剂，也广泛用于 IC/BPS 的治疗。
 
 
-      **Lovász Questionnaire** – One of the questionnaires used for diagnosing IC/BPS. It surveys the level and frequency of bladder pain.
+      **局部治疗** – 直接治疗受影响的器官或区域。在IC/BPS方面，主要指膀胱滴注。
 
 
-      **Lupus** – In its scientific name Systemic Lupus Erythematosus (SLE); a chronic autoimmune disease; inflammations develop in the effected organs. It may be a comorbidity of IC/BPS.
+      **罗浩斯（Lovász）问卷** – 用于诊断IC/BPS的问卷之一。它调查膀胱疼痛的程度和频率。
 
 
-      **Malignant** – In the term of medicine it refers to tumorous transformations that may lead to a life-threatening condition without a proper treatment.
+      **狼疮** – 它的学名是系统性红斑狼疮（SLE）； 一种慢性自身免疫性疾病； 受影响的器官发生炎症。可能是 IC/BPS 的合并症。
 
 
-      **Malignoma** – A general term for malignant transformations of epithelial origin.
+      **恶性** – 在医学术语中，它指的是在没有适当治疗的情况下可能导致危及生命的情况的肿瘤转化。
 
 
-      **Marker** – In the field of diagnostics it refers to substances, molecules, cells etc. whose presence is/are a typical sign of a certain disease or condition. IC/BPS has no known marker.
+      **赘生物** – 上皮恶性转化的总称。
 
 
-      **Mast Cell** – A common type of cells in the immune system. Its size is relatively big. Mast cells have a key role in inflammatory and allergic processes, they produce several kind of transmitter molecules, including histamine (see there). Large amount of mast cells can be present in the connective tissues, e.g. around the blood vessels. In the condition of IC/BPS an increased amount of mast cells can be observed.
+      **标志物** – 在诊断方面，它是指物质、分子、细胞等，其存在是某种疾病或病症的典型标志物。IC/BPS 没有已知的标记。
 
 
-      **Nocturia** – The condition in which the patient has to wake up during the night to void. If nocturia occurs frequently, and two or more times a night, that may be a sign of IC/BPS. In sever cases the patient has to void in every 20–30 minutes.
+      **肥大细胞** – 免疫系统中常见的细胞类型。它的尺寸比较大。肥大细胞在炎症和过敏过程中起着关键作用，它们产生多种递质分子，包括组织胺（参见“组织胺”）。结缔组织中可存在大量肥大细胞，例如血管周围。在 IC/BPS 中，可以观察到肥大细胞的数量增加。
 
 
-      **Non-Steroids** (Non-Steroidal Anti-Inflammatory Drugs, NSAID) – Anti-inflammatory agents with a similar effect but a different mechanism of action to Corticosteroids (see there). NSAIDs are widely used in the oral therapy of IC/BPS.
+      **夜尿症** – 患者必须在夜间醒来才能排尿的情况。如果夜尿频繁，并且每晚发生两次或两次以上，则可能是 IC/BPS 的征兆。在严重的情况下，患者必须每 20-30 分钟排尿一次。
 
 
-      **O’Leary–Sant Questionnaire** – A questionnaire used for diagnosing IC/BPS. It surveys the voiding habits, the level and the frequency of bladder pain. It consists of two parts: IC Symptom Index (ICSI) and IC Problem Index (ICPI). Sometimes they evaluate these parts separately.
+      **非类固醇** （非甾体抗炎药，NSAID）——与皮质类固醇具有相似作用，但作用机制不同的抗炎药（参见此处）。NSAID广泛用于 IC/BPS 的口服治疗。
 
 
-      **Onabotulinumtoxin A** a.k.a. **Botox** – In the treatment it is injected into the muscles nearby or the mucosa to mitigate the symptoms. It is an experimental method, whose efficiency hasn’t been confirmed.
+      **奥莱利—桑特（O’Leary–San）问卷** –– 用于诊断IC/BPS的问卷之一。它调查排尿习惯、膀胱疼痛的程度和频率。由两部分组成：IC 症状指数 (ICSI) 和 IC 问题指数 (ICPI)。有时他们会分别评估这些部分。
 
 
-      **Oral Therapy** – Administrating medicine orally for treating a disease or condition.
+      **肉毒杆菌毒素制剂 A**又称 **波托克斯** – 在治疗中，它被注射到附近的肌肉或粘膜中以减轻症状。这是一种实验方法，其效率尚未得到证实。
 
 
-      **Overactive Bladder Syndrome (OAB)** – A condition of urinary urgency, in most cases with increased urinary frequency and nocturia; incontinence may occur, too. OAB is not clearly defined in the scientific literature. Some of the symptoms are the same as those of IC/BPS. However, incontinence is a relatively common symptom of OAB but pain rarely occurs, whereas in case of IC/BPS the situation is the opposite.
+      **口服疗法** – 口服药物治疗疾病或病症。
 
 
-      **Parsons-Test** – One of the methods of diagnosing IC/BPS. They fill up the bladder with potassium salts; the increasing pain refers to the damaged or deficient status of the bladder mucosa. Currently, it is not a recommended method of diagnosis, because it is painful and not very reliable.
+      **膀胱过度活动症（OAB）** – 尿急的情况，在大多数情况下尿频和夜尿增多； 尿失禁也可能发生。OAB 在科学文献中没有明确定义。部分症状与IC/BPS相同。然而，尿失禁是 OAB 的一种相对常见的症状，但很少发生疼痛，而在 IC/BPS 的情况下，情况正好相反。
 
 
-      **Pentosan Polysulfate Sodium** (PPS, Elmiron, SP 54, Comfora, Jelmiron) – One of the agents used in the therapy of IC/BPS. Several products available in different countries (see the brackets) contain this compound; Elmiron is the only medicine in the USA with an FDA-approval for the oral treatment of IC/BPS. Patients usually start to respond to PPS after about 6 months of therapy, and side-effects may occur, too. There have been attempts to use PPS for bladder instillation, as well.
+      **帕森斯测试** – 诊断 IC/BPS 的方法之一。他们用钾盐填满膀胱； 疼痛加重是指膀胱黏膜受损或不足的状态。目前，它不是一种推荐的诊断方法，因为它很痛苦并且不是很可靠。
 
 
-      **Placebo** – A substance (e.g. pill, liquid etc.) which cannot be distinguished from a certain medicine (e.g. it looks like the same), but contains no active agents. In clinical trials one group of the patients usually get the “real” medicine (whose effect is examined), whereas the other group receives placebo. The patients don’t know whether they got the medicine or the placebo. It can be evaluated how the condition of those who got the medicine has changed, compared to those who got the placebo, so that it can be learnt how effective the medicine actually is.
+      **木聚硫钠** （PPS，硫酸戊聚糖钠，SP 54，Comfora, Jelmiron） – 用于治疗 IC/BPS 的药物之一。不同国家（见括号）的几种产品都含有这种化合物； 硫酸戊聚糖钠是美国唯一获得 FDA 批准用于 IC/BPS 口服治疗的药物。患者通常在治疗约 6 个月后开始对 PPS 产生反应，也可能出现副作用。也曾尝试使用 PPS 进行膀胱滴注。
 
 
-      **Potassium** – A chemical element, in the medical terminology they often refer to its salts with the word. The potassium present in the urine is highly irritative – and causes pain – in case of a damaged GAG-layer.
+      **安慰剂** – 一种物质（例如药丸、液体等）与某种药物无法区分（例如看起来一样），但不含活性剂。在临床试验中，一组患者通常服用“真正的”药物（检查其效果），而另一组接受安慰剂。患者不知道他们服用的是药物还是安慰剂。与服用安慰剂的人相比，可以评估服用药物的人的状况如何变化，以便了解药物的实际效果。
 
 
-      **Potassium Test** – See Parsons-test.
+      **钾** – 一种化学元素，在医学术语中，经常用这个词来指代它的盐。如果 GAG 层受损，尿液中的钾具有高度刺激性，并会引起疼痛。
 
 
-      **Prolapsus Uteri** – See Uterine Prolapse
+      **钾测试** - 参见“帕森斯测试”。
 
 
-      **Prostatitis** – The inflammation of the prostate gland.
+      **Prolapsus Uteri （拉丁文）** – 参见“子宫脱垂”。
 
 
-      **Qualitative Examination** – An examination whose goal is to detect the presence of something (e.g. a pathogen or a molecule), but it doesn’t detect its quantity.
+      **前列腺炎** – 前列腺的炎症。
 
 
-      **Quantitative Examination** – An examination whose goal is to detect both the presence and the quantity of something (e.g. a pathogen or a molecule).
+      **定性检查** – 旨在检测某物（例如病原体或分子）的存在，但不检测其数量的检查。
 
 
-      **Radiation Cystitis (RC)** – The inflammation of the bladder caused by the radiation therapy of the bladder. It is a post-cancer condition.
+      **定量检查** – 旨在检测某物（例如病原体或分子）的存在和数量的检查。
 
 
-      **rUTI, Recurring Urinary Tract Information** – See Urinary Tract Infection  
+      **放射性膀胱炎（RC）** – 膀胱放射治疗引起的膀胱炎症。这是一种癌症后病症。
 
 
-      **Sacral Neuromodulation (SNM)**, a.k.a. **Sacral Nerve Stimulation** – A treatment in which the sacral nerve (situated between the spinal cord and the bladder) is being stimulated to mitigate the pain and the voiding urgency. The results of the clinical trials regarding sacral neuromodulation are controversial.
+      **rUTI，复发的尿路感染** – 参见”尿路感染“  
 
 
-      **Sjögren Syndrome** – An autoimmune disease in which the lachrymal and the salivary glands are affected. It may be a comorbidity of IC/BPS.
+      **骶神经调节（SNM）** 又称 **骶神经刺激** – 一种刺激骶神经（位于脊髓和膀胱之间）以减轻疼痛和排尿紧迫感的治疗。关于骶神经调节的临床试验结果是有争议的。
 
 
-      **Sodium Bicarbonate** – See Bicarbonates
+      **干燥综合征** – 一种自身免疫性疾病，其中泪腺和唾液腺受到影响。可能是 IC/BPS 的合并症。
 
 
-      **SP 54** – See Pentosan Polysulfate Sodium
+      **碳酸氢钠** - 参见“碳酸氢盐”
 
 
-      **Sterile Inflammation** – Any inflammation which develops not because of a pathogen (e.g. a bacterium).
+      **SP 54** – 参见“木聚硫钠”
 
 
-      **Substance P** – One of the neurotransmitters (molecules of a messenger function in the nerveous system). Substance P plays a key role in inflammatory processes, and in increasing the pain in case of IC/BPS patients.
+      **无菌性炎症** – 不是由病原体（例如细菌）引起的任何炎症。
 
 
-      **Transcutaneous Electrical Nerve Stimulation (TENS)** – A process for pain relief; the pain nerves are being stimulated with electricity to mitigate the pain. It doesn’t affect the condition itself which causes the pain, though.
+      **P物质** – 一种神经递质（神经系统中信使功能的分子）。物质 P 在炎症过程中起着关键作用，并且在增加 IC/BPS 患者的疼痛方面起着关键作用。
 
 
-      **Two-Day Voiding Diary** – See GAG-Layer Integrity Test.
+      **经皮电神经刺激（TENS）** – 缓解疼痛的过程； 疼痛神经被电刺激以减轻疼痛。不过，它不会影响导致疼痛的病症本身。
 
 
-      **Urethritis** – A general term for any form of the inflammation of the urethra. In case of IC/BPS, the urethra is often affected, too.
+      **2天作排尿日记** - 请参阅 “GAG 层完整性测试”。
 
 
-      **Urinary Tract Infection (UTI)** – An infection caused by any pathogen (bacteria, in most cases) and in which the urethra, the bladder, and – in worst case – the kidneys are affected. The symptoms may be similar to those of IC/BPS, but it can be symptomless, as well. Occasionally, the GAG-layer might become damaged, too, but it is being regenerated after fighting of the infection, normally. The medical practice focuses primarily on prophylaxis; the treatment itself, in most cases, consists of administering agents effective against the pathogen (e.g. antibiotics). Recurrent Urinary Tract Infection (rUTI), is a condition of two or more proven infections in 6 months, or 3 or more infections in 12 months. UTIs are amongst the most common diseases.
+      **尿道炎** – 任何形式的尿道炎症的总称。在 IC/BPS 的情况下，尿道也经常受到影响。
 
 
-      **Urine Cytology** – The examination of the cells present in the urine. Its primary goal is to detect whether the cause of the symptoms is a sort of malignant transformation.
+      **尿路感染 (UTI)** – 由任何病原体（在大多数情况下为细菌）引起的感染，其中尿道、膀胱和 - 在最坏的情况下 - 肾脏受到影响。症状可能与 IC/BPS 的症状相似，但也可能是无症状的。有时，GAG 层也可能会损坏，但通常在与感染作斗争后会再生。医疗实践主要侧重于预防； 在大多数情况下，治疗本身包括使用对病原体有效的药物（例如抗生素）。复发性尿路感染是指在6个月内有3例或3例以上已证实的感染或12个月内2例被感染的情况。尿路感染是最常见的疾病之一。
 
 
-      **Urine Portion** – The amount (volume) of urine produced during a single voiding occasion. Generally said, urine portions are smaller in case of IC/BPS patients than those of healthy people.
+      **尿细胞学** – 检查尿液中存在的细胞。它的主要目标是检测症状的原因是否是一种恶性转化。
 
 
-      **Urine Retention** – After voiding there is still some urine remaining in the bladder. It may occur in case of IC/BPS patients.
+      **尿液量** – 单次排尿时产生的尿液量（体积）。一般说来，IC/BPS 患者的尿液量比健康人要少。
 
 
-      **Urodynamics** a.k.a. **Urodynamic Testing** – A complicated process to monitor the pressure in the bladder to evaluate the bladder capacity, the urine flow, the resistance of the urethra and other parameters. It is not applied in the diagnoses of IC/BPS, because it doesn’t provide enough information. On the other hand, it is used for discovering the cause of incontinence.
+      **尿潴留** – 排尿后，膀胱内仍有一些尿液。它可能发生在 IC/BPS 患者的情况下。
 
 
-      **Urothelium** – A special form of epithelium which can be found at the inner surface of the bladder.
+      **尿动力学** 又称**尿动力学测试** – 监测膀胱压力以评估膀胱容量、尿流量、尿道阻力和其他参数的复杂过程。它不适用于 IC/BPS 的诊断，因为它没有提供足够的信息。另一方面，它用于发现尿失禁的原因。
 
 
-      **Uterine Prolapse (Prolapsus Uteri)** – The uterus descends towards or even through the opening of the vagina.
+      **膀胱上皮** – 一种特殊形式的上皮，位于膀胱内表面。
 
 
-      **Vaginitis** – The inflammation of the vagina.
+      **子宫脱垂（Prolapsus Uteri）** – 子宫朝向或什至穿过阴道开口下降。
 
 
-      **VAS Scale** – Visual Analogue pain Scale; a widely known method for estimating the amount of pain. The patient himself/herself determines the pain they experience and assign a number between 1–10 to the sensation. The drawback of this method is that different people usually have different opinion on the severeness of pain.
+      **鞘炎** – 阴道炎症。
 
 
-      **Vesicoureteral Reflux** – A pathological condition in which the urine flows back from the bladder to the ureters, and to the kidneys, severely damaging the latter organs.
+      **VAS量表** – 视觉模拟疼痛量表； 一种广为人知的估计疼痛程度的方法。患者自己确定自己所经历的疼痛，并为感觉分配一个1-10 之间的数字。这种方法的缺点是不同的人通常对疼痛的严重度有不同的看法。
 
 
-      **Vulvodynia** – Vaginal pain. IC/BPS patients can experience it more often than those who don’t suffer from this condition.
+      **膀胱输尿管反流** – 尿液从膀胱流回输尿管和肾脏的一种病理状况，严重损害后者的器官。
+
+
+      **外阴痛** – 阴痛。IC/BPS 患者可能比没有患这种疾病的人更频繁地经历它。
 ---

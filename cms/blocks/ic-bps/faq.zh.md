@@ -5,293 +5,275 @@ fallback: en
 components:
   - type: article
     text: >-
-      We must face the fact: plenty of people have never heard of IC/BPS. In
-      spite of this, there are a lot of false assumption and incorrect
-      information on the Internet about this condition. Actually, a lot of
-      things are still not known about IC/BPS. Luckily, it has been studied
-      enthusiastically, so there have been more and more studies published, more
-      and more up-to-date diagnostic methods and treatments have been tried out.
+      我们必须面对一个事实：很多人从未听说过 IC/BPS。尽管如此，网上有很多关于这种疾病的错误假设和不正确的信息。
 
 
-      Unfortunately, the new facts spread on the Internet and people become aware of them with a significant delay. Obsolete views, hypotheses that were never proved, assumptions rejected later may be more known than the modern results and achievements. This is why popular misbeliefs can spread from website to website or among patients, too. In other words, even if a piece of information is available on plenty of webpages, it does not mean that it is correct, too. Social media is an especially “dangerous” platform, from this point of view. Every now and then it can happen that some farfetched assumption becomes considered a fact – misleading the visitors, and, eventually, the patients, too.
+      实际上，关于IC/BPS还有很多不为人知的事情。
+
+      幸运的是，人们对IC/BPS有关研究非常热情，因此发表了越来越多的研究，并尝试了越来越多的最新诊断方法和治疗方法。
 
 
-      This is why we would like to make a couple of things clear about this condition.
+      不幸的是，虽然新的事实在网上传播，但人们意识到它们的时间很长。过时的观点、从未被证实的假设、后来被拒绝的假设可能比现在的结果和成就更广为人知。这就是为什么流行的误解可以从一个网站传播到另一个网站或在患者之间传播。换句话说，即使一条信息在大量网页上可用，也不意味着它也是正确的。从这个角度来看，社交媒体是一个特别“危险”的平台。有时可能会发生一些假设被认为是事实——误导读者，最终也会误导患者。
+
+
+      这就是为什么我们要对该疾病进行一些说明。
   - type: qas
     items:
-      - q: IC/BPS is a sparse disease, isn’t it?
+      - q: IC/BPS 是一种稀疏疾病，不是吗？
         anchor: sparse-disease
         text: >-
-          Considering the number of diagnosed cases, indeed, it appears so.
-          Depending on the way how the estimations are made, up to 2–5% of the
-          adult people may be affected. However, the diagnose rate of the
-          disease is very low: even in countries of most advanced healthcare it
-          is below 10%. (In most countries it is between 1–5%.)
+          考虑到确诊病例的数量，确实如此。
+
+          取决于估算的方式，多达 2-5% 的成年人可能会受到影响。
+
+          然而，这种疾病的诊断率非常低：即使在医疗保健最先进的国家，也低于 10%。（在大多数国家，它在 1-5% 之间。）
 
 
-          There are several factors behind the low diagnose rate. The disease itself is not known by most people; there are even doctors, gynecologists and urologists (!) who have never heard of it. Most who suffer from IC/BPS do not dare talk honestly about their symptoms, which greatly hinders the publicity of the disease.
+          低诊断率背后有几个因素。大多数人并不知道这种疾病本身； 甚至有医生、妇科医生和泌尿科医生 （！）从未听说过。大多数患有IC/BPS的人都不敢诚实地谈论他们的症状，这极大地阻碍了疾病的宣传。
 
 
-          This is why we are dedicated to inform the society: IC/BPS is a severe disease, which affects many people.
+          这就是我们致力于告知社会的原因：IC/BPS 是一种严重的疾病，会影响许多人。
 
 
-          If it is assumed that you have 250 acquaintance, it is likely that there is someone among them who suffers from IC/BPS. Even if he/she never talks about it.
-      - q: So what. If someone is ill, they have to see the doctor. IC/BPS is not an
-          exception, isn’t it?
+          如果假设您有 250 个熟人，那么其中很可能有人患有 IC/BPS。即使TA从不谈论到自己的疾病情况。
+      - q: 怎么办呢？如果有人生病了，他们必须去看医生。IC/BPS 不是一个例外，是吗？
         anchor: so-what
         text: >-
-          The most typical symptoms of IC/BPS are the bladder (and urethral)
-          pain and frequent urination. Unfortunately, these symptoms can be
-          present because of other conditions, too: for example, malignant
-          transformations (cancer) or bacterial urinary tract infections.
-          However, these diseases usually have definite markers, such as pus in
-          the urine.
+          IC/BPS 最典型的症状是膀胱（和尿道）疼痛和尿频。
+
+          不幸的是，这些症状也可能因其他疾病而出现：例如，恶性转化（癌症）或细菌性尿路感染。
 
 
-          IC/BPS has no similar markers, since it has no pathogen and there is no tumorous transformation either.
+          然而，这些疾病通常有明确的标志物，如尿液中的脓液。
 
 
-          Therefore, to diagnose IC/BPS all the other conditions may cause similar symptoms must be excluded.
+          IC/BPS 没有类似的标志物，因为它没有病原体，也没有肿瘤转化。
 
 
-          If it gets diagnosed at all… Since most of the GPs and gynecologists do not know this disease, they cannot treat it either. They often set up a false diagnosis, which results in false and/or unnecessary treatments. Sadly, there are even urologists who do not have proper knowledge on IC/BPS. Often times, they do know the disease but they simply do not consider it – or if they do, they do not apply the up-to-date treatment methods since they are not aware of those.
+          因此，要诊断 IC/BPS，必须排除可能导致类似症状的所有其他情况。
 
 
-          Without a proper diagnosis, things can go wrong easily. Seriously wrong.
+          如果 IC/BPS被诊断出来......由于大多数全科医生和妇科医生不知道这种疾病，他们也无法治疗它。他们经常建立错误的诊断，从而导致错误和/或不必要的治疗。可悲的是，甚至有泌尿科医生对 IC/BPS 没有适当的了解。很多时候，他们确实知道这种疾病，但他们不考虑它——或者即使他们知道，他们也不会应用最新的治疗方法，因为他们不知道这些新的治疗法。
 
 
-          Patients may run from doctor to doctor, hoping that someone may be able to find out what the problem is and how to treat it. Which is far not the worst case. There have been plenty of patients who were mis-treated (for example, with some gynecological problem) since their doctor set up an entirely wrong diagnosis. Some patients stick to their therapists for long years, even a decade – and get a treatment which does not help at all or makes everything even worse. Antibiotics, for example.
+          如果没有正确的诊断，事情很容易出错。严重错误。
 
 
-          Sometimes the most terrible happens. Since there is noting to identify as the cause of the pain, the doctor assumes it is only in the patient’s mind – and redirects him/her to a psychologist or a psychiatrist.
+          患者可能会从一个医生跑到另一个医生，希望有人能够找出问题所在以及如何治疗。这远不是最坏的情况。自从医生做出完全错误的诊断以来，已经有很多患者受到了错误的治疗（例如，有一些妇科问题）。一些患者多年坚持有自己习惯的治疗师，甚至十年 - 并且得到的治疗根本无济于事或使一切变得更糟。例如，吃抗生素。
 
 
-          Meanwhile, the condition progresses. In case of a severe form of IC/BPS, the patient has to urinate in every hour. Or twice, three times an hour. Which, no surprise, hinders work, too. Pain can wreck the private life. Night becomes a nightmare because of the symptoms, which leads to sleep deprivation.
+          有时最可怕的事情会发生。由于没有什么可以确定疼痛的原因，医生假设它只是在患者的脑海中 - 并将TA重定向到心理学家或精神科医生。
 
 
-          There have already been patients who, having seen no other way out, committed suicide.
+          与此同时，病情进展。在严重 IC/BPS 的情况下，患者必须每小时排尿一次。或者每小时两次，三次。毫不奇怪，这也会阻碍工作。痛苦可以毁掉一个人的私生活。由于症状，晚上变成了噩梦，导致睡眠不足。
 
 
-          Because of all these things, it is essential to diagnose IC/BPS quickly so that the proper treatment can start as soon as it is possible.
-      - q: "I have already checked it on the Internet: if my bladder hurts and I have to
-          urinate a lot, then I have IC/BPS…"
+          已经有病人在别无他法的情况下自杀了。
+
+
+          由于所有这些因素，必须快速诊断 IC/BPS，以便尽快开始正确的治疗。
+      - q: 我已经在网上查过：如果我的膀胱很痛，排尿很多，那么我就有IC/BPS…
         text: >-
-          Let’s make it clear: even much more known diseases or conditions with
-          much more definite symptoms can never be diagnosed by reading articles
-          on the Internet. No one should every self-diagnose themselves with the
-          help of the Internet.
+          让我们明确一点：通过阅读网上的文章，永远无法诊断出更多已知疾病或症状更明确的病症。
 
 
-          As we said before, there are quite a lot of other conditions which may have similar symptoms. These, however, can be diagnosed by a urologist with routine tests. (For example, a simple urine test.) When it has happened, the proper treatment can start instantly.
+          任何人都不应借助互联网的帮助进行自我诊断。
 
 
-          It is worth knowing, on the other hand, that finding an "easily diagnosable" disease does not essentially rule out IC/BPS. It is also possible that the symptoms indeed refer to IC/BPS.
+          正如我们之前所说，还有很多其他疾病可能有类似的症状。但是，这些疾病可以由泌尿科医生通过常规检查进行诊断。（例如，简单的尿检。）确定诊断后，适当的治疗可以立即开始。
 
 
-          But it is not you who can find out what the problem is. Not even this webpage. You have to see a urologist, who can perform all the necessary examinations to diagnose you – who can confirm or deny IC/BPS.
+          另一方面，值得知道的是，诊断出“易于诊断”的疾病并不能从本质上排除 IC/BPS。症状也可能确实涉及 IC/BPS。
+
+
+          但不是您能找出问题所在。甚至在这个网页上。您必须去看泌尿科医生，他可以进行所有必要的检查来诊断您——他可以确认或拒绝 IC/BPS。
         anchor: internet
-      - q: Can IC/BPS be diagnosed then?
+      - q: 那么可以诊断出 IC/BPS 吗？
         anchor: diagnosis
         text: >-
-          Although there is no 100% method for diagnosing this disease, nowadays
-          it is possible to do so with high accuracy.
+          虽然没有 100% 的方法可以诊断这种疾病，但现在
+
+          可以高精度地做到这一点。
 
 
-          All the symptoms of IC/BPS occur because of the deficiency of the mucus layer of the bladder – this layer is called GAG-layer. The GAG-layer insufficiency does not essentially mean the lack of it. Often times, the deficiency can be observed only in distinct regions or patches, or the permeability of the GAG-layer is increased. Moreover, this is not the same condition as IC/BPS (which is, per definition, the non-bacterial inflammation of the bladder wall), but with time the deficiency may lead to the development of IC/BPS.
+          IC/BPS 的所有症状都是由于膀胱粘液层的缺乏而发生的——这一层被称为 GAG 层。GAG 层的不足并不意味着缺乏它。通常，缺陷只能在不同的区域或斑块中观察到，或者 GAG 层的渗透性增加。此外，这与 IC/BPS（根据定义，膀胱壁的非细菌性炎症）不同，但随着时间的推移，这种缺乏可能会导致 IC/BPS 的发展。
 
 
-          The changes of the GAG-layer, on the other hand, can be identified. One of the newest methods how it can be performed is the GAG-layer integrity test. During this test, the patients have to log for two days the frequency and the volumes of their voidings. Further information can be found [here].
+          另一方面，可以识别 GAG 层的变化。执行检查的最新方法之一是 GAG 层完整性测试。在此测试期间，患者必须记录两天的排尿频率和排尿量。可在 [此处] 找到更多信息。
 
 
-          For the accurate diagnosis the doctors regularly apply further methods, too. They investigate the anamnesis of the patient, have them fill out questionnaires to evaluate their general condition, and, if needed, they confirm the diagnosis with other examinations, for example, cystoscopy.
-      - q: My therapist wants me to see a psychologist. This is totally unacceptable! I
-          have problems in my bladder, not in my mind!
+          为了准确诊断，医生也定期应用其他方法。医生调查患者的病史，让患者填写问卷以评估自己的一般状况，并在需要时通过其他检查（例如膀胱镜检查）确认诊断。
+      - q: 我的治疗师要我去看心理医生。这是完全不可以接受的！我的膀胱有问题，而不是我的精神！
         anchor: psychology
+        text: |-
+          事实上，如果您被送到心理医生那里，这并不意味着您的治疗师想要摆脱您。
+          身体压力通常是长期严重疼痛的副作用。
+
+          IC/BPS 也不例外。身体症状会使一切变得更糟，这可能导致自杀念头。
+          不幸的是，这些想法也可能转化为行动——因为它已经发生在几个病人身上。
+
+          心理学家可以提供重要的帮助来应对疾病，改善患者的自我评估——因此，可能是 IC/BSP 治疗的重要组成部分。
+
+          当然，永远不要忘记，任何心理治疗都可以补充，但绝不能取代专业泌尿科医生的治疗！
+      - q: 我被诊断出患有 IC/BPS，但我的治疗师没有做过膀胱镜检查、活检或尿液细胞学检查！
         text: >-
-          As a matter of fact, if you are sent to a psychologist, that does not
-          mean that your therapist wants to get rid of you. Psychical stress can
-          often be a side-effect of a long-lasting condition of severe
-          pain. IC/BPS is not an exception. Psychical symptoms can make
-          everything worse, which may lead to suicidal thoughts. Unfortunately,
-          these thoughts may be translated to acts, too – as it has already
-          happened to a couple of patients.
+          如上所述，诊断 IC/BPS 是一项复杂的任务。IC/BPS本质上并不涉及所有可能的诊断方法。
 
 
-          A psychologist can give important help to cope with the disease, improve the patient’s self-assessment – thus, may be an important part of the IC/BSP therapy.
+          事实上，膀胱镜检查经常由泌尿科医生进行。这是识别某些可能与IC/BPS 种类有关的异常的有效方法。
 
 
-          Certainly, it should never be forgotten that any psychological treatment may complement, but never replace the therapy of a professional urologist!
-      - q: I got diagnosed with IC/BPS, but my therapist hadn’t done cystoscopy, biopsy
-          or urodynamics!
-        text: >-
-          As it was explained above, diagnosing IC/BPS is a complicated task. It
-          does not essentially involve all the possible diagnostic methods.
-          Indeed, cystoscopy is frequently done by urologists. It is an
-          effective way to identify some abnormalities that may refer to certain
-          forms of IC/BPS. Nowadays, cystoscopy is a “mild” diagnostic tool,
-          which can be totally pain-free. However, it is still an invasive tool;
-          complications or side-effects might occur in a small percentage of
-          cases. So, without proper professional reasons, it is not
-          recommended. Especially, since there are forms of IC/BPS without any
-          characteristic signs on the cystoscopy image.
+          如今，膀胱镜检查是一种“温和”的诊断工具，可以完全无痛。
+
+          然而，它仍然是一种侵入性工具；在一小部分病例中可能会出现并发症或副作用。
 
 
-          The biopsy of the bladder mucosa is not the part of diagnosing IC/BPS anymore, because the biopsy image does not give any relevant information. On the other hand, signs of a malignant transformation can be discovered by biopsy – but urine cytology examination is considered to be a more effective tool, which is less invasive, as well.
+          因此，如果没有适当的专业理由，不建议这样做。
+
+          特别是，由于存在膀胱镜检查图像上没有任何特征性迹象的IC/BPS。
 
 
-          Urodynamics are not only incapable of diagnosing IC/BPS, but also time-consuming, expensive and invasive. They are not recommended for this purpose anymore.
+
+          膀胱黏膜活检不再是诊断 IC/BPS 的一部分，因为活检图像没有提供任何相关信息。另一方面，活检可以发现恶变的迹象——但尿液细胞学检查被认为是一种更有效的工具，它的侵入性也更小。
+
+
+          尿液细胞学检查不仅无法诊断 IC/BPS，而且耗时、昂贵且具有侵入性。不再推荐用于此目的。
         anchor: complicated
-      - q: Wouldn’t it be easier to identify what causes IC/BPS and treat causes
-          themselves?
+      - q: 确定导致 IC/BPS 的原因并治疗原因不会更容易吗？
         anchor: causes
         text: >-
-          Indeed, a major part of the IC/BPS researches focus on the cause why
-          IC/BPS develops – why the GAG-layer gets defective – so that a casual
-          treatment could be applied.
+          事实上，IC/BPS 研究的主要部分集中在IC/BPS 发展的原因——为什么 GAG 层有缺陷——以便可以应用随意的处理。
 
 
-          There have been several theories introduced, but none of them have been proven so far. So, the real cause of IC/BPS is still not known, current therapies must focus on treating the symptoms: replenishing the GAG-layer or mitigating the symptoms.
-      - q: Can IC/BPS be cured permanently?
+          已经引入了几种理论，但迄今为止都没有得到证实。因此，IC/BPS 的真正原因尚不清楚，目前的疗法必须专注于治疗症状：补充 GAG 层或减轻症状。
+      - q: IC/BPS 可以永久治愈吗？
         anchor: cure
         text: >-
-          Unfortunately, there is no treatment known which can cure IC/BPS for
-          good. However, if an effective treatment is applied, patients can be
-          symptom-free for long years. The sooner the condition is diagnosed,
-          the bigger the chance for this.
+          不幸的是，没有已知的治疗方法可以彻底治愈 IC/BPS。
+
+          但是，如果采用有效的治疗方法，患者可以长期无症状。
+
+          越早诊断出病情，发生这种情况的机会就越大。
 
 
-          It must be noted that for achieving a good result the patient must work hard, too. The effective treatment includes lifestyle changes, abundant fluid intake, dietary changes and medical advice – these are to be obeyed for the best result.
-      - q: Are lifestyle changes enough?
+          必须指出的是，为了获得良好的结果，患者也必须努力工作。有效的治疗包括生活方式的改变、大量的液体摄入、饮食的改变和医疗建议的uing用——为了获得最佳结果，必须遵守这些。
+      - q: 生活方式的改变就足够了吗？
         anchor: lifestyle
         text: >-
-          If only it were so!
+          要是这样就好了！
 
 
-          Don’t put it in the wrong way, though: lifestyle changes – especially diet and abundant fluid intake – help a lot in mitigating the symptoms. They may be enough for being symptom-free in case of an early-phase IC/BPS.
+          不过，不要说错了：生活方式的改变——尤其是饮食和大量的液体摄入——对减轻症状有很大帮助。在早期 IC/BPS 的情况下，它们可能足以无症状。
 
 
-          Unfortunately, in most cases, by the time the treatment starts, lifestyle changes are not enough anymore. Even if there are certain guides used in several countries which say the treatment is to start with the least invasive method and the steps should follow each other in the order of increasing invasiveness.
+          不幸的是，在大多数情况下，到治疗开始时，生活方式的改变已经不够了。即使有几个国家使用的某些指南说治疗是从侵入性最小的方法开始，并且步骤应该按照侵入性增加的顺序相互遵循。
 
 
-          In theory, this guideline is correct. In practice, on the other hand, the non-invasive methods (such as lifestyle changes, diet, oral medication etc.) may make the time elapsed until the effective treatment last longer. In order to focus on the patients’ interest, starting with a combined therapy seems to be the most effective. This means, administering anti-inflammatory, analgesic and GAG-layer strengthening medication orally and instilling GAG-layer replenishers simultaneously.
-      - q: I read that vegan diet would heal IC/BPS. Is that true?
+          从理论上讲，这个指导方针是正确的。在实践中，另一方面，非侵入性方法（如生活方式改变、饮食、口服药物等）可能会使有效治疗的时间延长。为了关注患者的利益，从联合治疗开始似乎是最有效的。这意味着，口服抗炎、镇痛和 GAG 层强化药物并同时滴注 GAG 层补充剂。
+      - q: 我读到纯素饮食可以治愈 IC/BPS。真的吗？
         anchor: vegan-diet
-        text: There are certain people who admit by cutting out food of animal origin
-          they managed to heal their IC/BPS. It is not our task to decide
-          whether vegan diet is healthier, but there is something that needs to
-          be cleared. No research has shown any correlation between the symptoms
-          and having food of animal origin. It is proven, on the other hand,
-          that any food or drink makes the urine more acidic (such as tomato or
-          fruit juices) can irritate the bladder and worsen the symptoms. Most
-          sorts of meat can be had without any problems if prepared well (e.g.
-          without using irritative spices).
-      - q: Why to take medicine? Herbal products or teas can be more effective, can’t
-          they?
+        text: |-
+          有些人承认通过排除动物源性食物，他们设法治愈了自己的 IC/BPS。
+          决定纯素饮食是否更健康不是我们的任务，但有一些事情需要清除。
+
+          没有研究表明症状与食用动物源性食物之间有任何相关性。另一方面，事实证明任何食物或饮料会使尿液变酸（例如番茄或果汁）都会刺激膀胱并使症状恶化。
+
+          如果准备得好，大多数肉类都可以毫无问题地食用（例如不使用刺激性香料）。
+      - q: 为什么要吃药？草药产品或茶可能更有效，对不对？
         anchor: herbal
-        text: There are not enough data available on herbal products available on the
-          market to decide whether they are effective or not. However, most
-          herbal teas and extracts contain substances which can irritate the
-          damaged bladder. Because of this, even if they are or may be
-          effective, they can do more harm than good.
-      - q: Which sort of antibiotics is the best for treating IC/BPS?
+        text: |-
+          市场上的草药产品没有足够的数据来确定它们是否有效。
+          然而，大多数草药茶和提取物含有会刺激受损膀胱的物质。
+
+          因此，即使它们可能有效，它们也弊大于利。
+      - q: 哪种抗生素最适合治疗 IC/BPS？
         anchor: antibiotics
         text: >-
-          Let’s make it clear: antibiotics are used for treating bacterial
-          infections, and IC/BPS has no pathogen. So, none of them are effective
-          for treating IC/BPS.
+          让我们明确一点：抗生素用于治疗细菌感染，而 IC/BPS 没有病原体。
+
+          因此，它们都不能有效治疗 IC/BPS。
 
 
-          If your urologist happens to have prescribed some antibiotics, it must have happened because you have a bacterial urinary tract infection. In this case, antibiotics are effective, but choosing the most effective one should happen only after a bacterial culture has been made (to decide what sort of bacteria are to be fought off).
+          如果您的泌尿科医生推荐了抗生素，那一定是因为您患有细菌性尿路感染。在这种情况下，抗生素是有效的，但只有在进行细菌培养实验后才能选择最有效的抗生素（以确定要抵抗哪种细菌）。
 
 
-          In case an IC/BPS starts taking antibiotics – because of any condition or infection besides IC/BPS –, they should ask for advice from their urologist, since most antibiotics can irritate the damaged bladder – just in the same way as herbal products do!
-      - q: Which one is the best analgesic for IC/BPS?
+          如果 IC/BPS 开始服用抗生素——因为除 IC/BPS 之外的任何疾病或感染——他们应该咨询泌尿科医生的建议，因为大多数抗生素会刺激受损的膀胱——就像草药产品一样！
+      - q: 哪一种是最好的 IC/BPS 镇痛药？
         anchor: analgesics
-        text: >-
-          The cause of the pain is the increased permeability of the protective
-          bladder of the mucus. So, pain shows up because there are irritative
-          substances present in the urine. Therefore, the most effective way to
-          mitigate the pain is to drink a lot, which lowers the concentration of
-          these irritative substances in the urine. Also, a strict IC/BPS diet
-          must be followed (to lessen the intake of everything that makes the
-          urine more acidic), complemented with urine alkalization (with
-          alkalizing pills, alkalic mineral water, or lemon juice).
+        text: |-
+          疼痛的原因是黏液保护性膀胱的通透性增加。
+          因此，疼痛出现是因为尿液中存在刺激性物质。
+          因此，减轻疼痛最有效的方法是多喝水，从而降低尿液中这些刺激性物质的浓度。
 
+          此外，必须遵循严格的 IC/BPS 饮食（以减少使尿液酸性更强的所有物质的摄入），并辅以碱化尿液（使用碱化药片、碱性矿泉水或柠檬汁）。
 
-          Besides everything detailed so far has been applied, any general analgesic can be administered (such as Advil, Diclofenac, Algopyrin etc.).
-      - q: What sort of food supplement or vitamin should be taken?
+          除了迄今为止详细的所有内容外，还可以使用任何一般镇痛药（例如 Advil、双氯芬酸、阿尔戈比林等）。
+      - q: 应该服用什么样的食品补充剂或维生素？
         anchor: vitamins
         text: >-
-          Generally said, vitamin products do not help mitigate the
-          symptoms. Regardless of the plenty of pages on the Internet
-          advertising “magical products” good for everyone! Always be cautious –
-          especially if there is nothing said about contraindications. The best
-          thing you can do is to ask your therapist before you start taking a
-          new medicine or food supplement.
+          一般来说，维生素产品无助于减轻症状。
 
 
-          Also, it is worth knowing that vitamin B and C taken in big doses can worsen the symptoms – just like antibiotics and herbal products can.
-      - q: Is oral medication better than intravesical?
+          不管网上的大量网页广告对每个人都有好处的“神奇产品”！一直保持谨慎——尤其是在没有提及禁忌症的情况下。您能做的最好的是在开始服用新药或食品补充剂之前询问您的治疗师。
+
+
+          此外，值得注意的是，大剂量服用维生素 B 和 C 会加重症状——就像抗生素和草药产品一样。
+      - q: 口服药物比膀胱内药物更好吗？
         anchor: medication
-        text: >-
-          The opposite is true. Local administration – instilling the medication
-          directly into the bladder – enables much bigger concentration of the
-          active agent in the target organ (in this case: the surface of the
-          bladder) than oral administration. Moreover, if a medicine is
-          instilled into the bladder, it does not enter the blood circulation,
-          which means, no systematic side-effects occur.
+        text: |-
+          事实正好相反。局部给药——将药物直接滴入膀胱——使靶器官（在这种情况下：膀胱表面）中的活性剂浓度比口服给药高得多。
 
+          而且，如果将药物滴入膀胱，不会进入血液循环，这意味着不会发生系统性副作用。
 
-          That said, intravesical instillation is more effective than oral medication.
-      - q: But… intravesical instillation is done with a catheter!
+          也就是说，膀胱内滴注比口服药物更有效。
+      - q: 但是…膀胱内滴注是用导管完成的！
         anchor: instillation
         text: >-
-          Indeed, for a long time, applying a catheter used to be the only way
-          of bladder instillation. Even if the procedure is painful,
-          uncomfortable, and infections often occurred after the treatment. To
-          overcome these problems have UroDapter® been developed, an urological
-          adapter which replaces catheter. You can read more about UroDapter®
-          on [this page].
+          事实上，长期以来，使用导管是膀胱滴注的唯一方法。
+
+          即使手术过程痛苦，不舒服，治疗后也经常发生感染。
+
+          为了克服这些问题，我们开发了 UroDapter®，是一种替代导管的泌尿外科适配器。
 
 
-          Also, there is another medical device, UroStill®, which helps patients perform a self-treatment. With UroStill®, the bladder instillation through the urethra can be done without external help. More information can be found on [this page].
-      - q: Not only has the treatment help, but also it has made everything worse! I
-          must have received the wrong treatment!
+          您可以在 [此页面] 上阅读 UroDapter®有关的更多信息。
+
+
+          此外，还有另一种医疗设备 UroStill®，可帮助患者进行自我治疗。使用 UroStill®，无需外部帮助即可通过尿道进行膀胱滴注。可在 [此处] 找到更多信息。
+      - q: 治疗不仅没有帮助，反而让一切都变得更糟！我一定是接受了错误的治疗！
         anchor: treatment
         text: >-
-          There are a couple of things to be cleared.
+          有几件事需要清除。
 
 
-          Firstly, it is not possible to achieve any improvement of a condition which has developed for long years, with one or very few treatments.
+          首先，通过一次或很少的治疗，不可能实现多年发展的病症的任何改善。
 
 
-          Secondly, there is no treatment that is effective for the 100% of the patients. That said, 20% of the patients do not respond to the usual ways of treatment. In their case, further examinations may be necessary; for example, (another) cystoscopy may confirm damaged areas in the bladder mucosa that are not responding to the local therapy anymore. In this case, fulguration of the affected areas may be necessary. Administering substances affecting the nerve system (antidepressants, nerval anti-inflammatories), anti-allergic compounds or strong, even dazing analgesics may help, as complementary forms of the treatment.
+          其次，没有对 100% 的患者有效的治疗方法。也就是说，20% 的患者对通常的治疗方法没有反应。在这种情况下，可能需要进一步检查； 例如，（另一个）膀胱镜检查可以确认膀胱粘膜中的受损区域不再对局部治疗产生反应。在这种情况下，可能需要对受影响的区域进行电灼。服用影响神经系统的物质（抗抑郁药、神经消炎药）、抗过敏化合物或强效、甚至眩晕的镇痛药，作为一种治疗的补充可能会有所帮助。
 
 
-          Thirdly, solutions used for bladder instillation usually contain more components; including anti-inflammatories, anesthetics, analgesics, and GAG-layer replenishers. It’s rare, but not impossible that someone is allergic to one of these components – e.g. to lidocaine. However, this does not trigger pain, in most cases. It is much more likely that the symptoms are getting worse because the medicine is too concentrated or too acidic – these factors can indeed be irritative.
+          第三，用于膀胱灌注的溶液通常含有更多成分； 包括抗炎药、麻醉药、镇痛药和 GAG 层补充剂。有人对这些成分之一过敏的情况很少见，但并非不可能——例如对利多卡因过敏。但是，在大多数情况下，这不会引发疼痛。由于药物浓度太高或酸性太强，症状恶化的可能性更大——这些因素确实具有刺激性。
 
 
-          Finally, the GAG-layer consists of more compounds; the bladder instillation solutions (or cocktails) usually contain one or some of them. Generally said, a patient responds with a bigger chance if the instilled cocktail contains more GAG-layer replenishment elements.
-      - q: It feels as if the doctors were experimenting on the patients…
+          最后，GAG 层由更多的化合物组成； 膀胱灌注溶液（或“鸡尾酒”）通常含有其中一种或几种。一般而言，如果滴注的“鸡尾酒”含有更多 GAG 层补充元素，则患者有更大的反应机会。
+      - q: 感觉好像医生在对病人做实验…
         anchor: experimenting
         text: >-
-          It must be pointed out that every medicine or pharmaceutical
-          composition has to undergo serious experiments and clinical
-          trials before they are allowed to be used in practice. In case of
-          lesser-known diseases like IC/BPS, it is a big achievement
-          that medicine the majority of the patients can be treated successfully
-          with do exist!
+          必须指出的是，每一种药物或药物成分都必须经过严格的实验和临床试验，才能用于实际应用。
 
 
-          If your therapist alters the ingredients of the cocktail administered, the frequency of the treatments, it indeed looks like “experimenting”. In fact, these decisions are based on the professional’s experience – which is based on hard work of long years, and feedback of hundreds of patients.
-      - q: I feel alone and isolated with my condition…
+          对于不太为人所知的疾病，如IC/BPS，确实存在可以成功治疗大多数患者的药物，这是一项重大成就！
+
+
+          如果您的治疗师改变了“鸡尾酒”的成分，治疗的频率，确实看起来像是“实验”。事实上，这些决定是基于专业人士的经验——这是基于多年的辛勤工作和数百名患者的反馈。
+      - q: 我感到孤独和孤立于我的疾病…
         text: >-
-          Not anymore.
+          不再如此。
 
 
-          In most countries there are IC/BPS Patient Associations (since 2019, there has been a Hungarian organization, too). These associations dedicate themselves to help those who are suffering from this disease, and are open to the relatives of the patients, the doctors and everyone who would like to know more about this serious condition.
+          大多数国家都有 IC/BPS 患者协会（自 2019 年以来，也有一个匈牙利组织）。这些协会致力于帮助患有这种疾病的人，并向患者的亲属、医生和所有想了解更多关于这种严重疾病的人开放。
 
 
-          These associations are co-operating with each other, asking for help and guidance from those who may have collected more knowledge and built more relationships. They even consult with professionals about the future of research and therapy of IC/BPS.
+          这些协会正在相互合作，向那些可能收集了更多知识并建立更多关系的人寻求帮助和指导。关于 IC/BPS 研究和治疗的未来，他们甚至咨询专业人士。
         anchor: associations
 ---

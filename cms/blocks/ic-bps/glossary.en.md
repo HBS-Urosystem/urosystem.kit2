@@ -269,7 +269,7 @@ components:
       **Radiation Cystitis (RC)** – The inflammation of the bladder caused by the radiation therapy of the bladder. It is a post-cancer condition.
 
 
-      **rUTI, Recurring Urinary Tract Information** – See Urinary Tract Infection  
+      **rUTI, Recurring Urinary Tract Information** – See Urinary Tract Infection
 
 
       **Sacral Neuromodulation (SNM)**, a.k.a. **Sacral Nerve Stimulation** – A treatment in which the sacral nerve (situated between the spinal cord and the bladder) is being stimulated to mitigate the pain and the voiding urgency. The results of the clinical trials regarding sacral neuromodulation are controversial.

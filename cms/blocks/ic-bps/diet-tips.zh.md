@@ -5,104 +5,100 @@ fallback: en
 components:
   - type: article
     text: >-
-      Regardless of any other therapy applied in case of severe symptoms, it is
-      worth for IC/BPS patients helping the recovery with lifestyle changes,
-      too. One of the most important parts of it is to create the best possible
-      diet.
+      无论在严重症状的情况下应用任何其他疗法，对于 IC/BPS 患者来说，值得通过改变生活方式来帮助康复。
 
 
-      The cornerstone of IC/BPS diet is to keep away from food and drinks that can irritate the bladder; doing so can comfort that organ.
+      其中最重要的部分之一是创造最好的饮食。
 
 
-      Every person responds to a certain food differently, so there is no one-size-fits-all diet which is effective for everyone. Nevertheless, there has been a lot of experience gathered by and from patients, so it is easy to make a list out of food and drinks which do not trigger the symptoms in most cases – and out of those which usually causes problems.
+      IC/BPS 饮食的基石是远离会刺激膀胱的食物和饮料； 这样做可以安慰该器官。
 
 
-      Also, there is some general advice which helps cope with the disease.
+      每个人对某种食物的反应都不同，因此没有一种对所有人都有效的万能饮食法。尽管如此，已经从患者收集了很多经验，因此很容易列出在大多数情况下不会引发症状的食物和饮料，以及通常会引起问题的食物和饮料。
 
 
-      1. It is better to eat more times and smaller quantities than eat a lot 1–2 times a day.
-
-      2. It is always worth making a diet log and note everything you eat and drink.
-
-      3. Most patients can have the following without any problems: rice, potato, pasta, meat, fish and most of the vegetables. It is easy to make proper, nutrient and delicious meal alone from these ingredients.
-
-      4. In most cases the following food and drinks trigger the symptoms: caffein, alcohol, carbonated (sparkling) drinks, hot and spicy food, chocolate, sour cream, yoghurt, soy, several sorts of fruit and tomato.
-
-      5. Herbal teas and brews often cause irritation. It is best to avoid them even if certain sources put them on the list of recommended drinks.
-
-      6. It is worth reading the label and packaging of everything you buy. The shorter the ingredient list is, the most likely it is that it can be had safely. Certain preservatives (e.g. nitrite) may cause problems – they can be found, for example, in several kinds of cold cuts.
-
-      7. Regarding vitamins, vitamin C (in a dose of more than 500mg/day) and B may trigger the symptoms. When possible, go for products containing only one vitamin or essential trace element instead of buying combination nutritional supplements.
-
-      8. If you have any allergy or intolerance besides IC/BPS, you have to keep away from the ingredients in question, too.
+      此外，还有一些有助于应对该疾病的一般建议。
 
 
-      To find out which food and drink groups you can have safely, apply an elimination diet.
+      1. 每天多次少吃比多吃 1-2 次要好。
+
+      2. 制作饮食日志并记下吃喝的一切总是好主意。
+
+      3. 大多数患者可以毫无问题地吃以下食物：米饭、土豆、意大利面、肉、鱼和大部分蔬菜。吃这些食物，就可以轻松做出营养丰富、美味可口的饭菜。
+
+      4. 在大多数情况下，以下食物和饮料会引发症状：咖啡因、酒精、碳酸（气泡）饮料、辛辣食物、巧克力、酸奶油、酸奶、大豆、几种水果和番茄。
+
+      5. 花草茶和冲泡茶通常会引起刺激。即使某些资料将茶列入推荐饮料清单上，也最好避免使饮用该茶类。
+
+      6. 值得阅读您购买的所有物品的标签和包装。成分列表越短，就越有可能安全食用。某些防腐剂（例如亚硝酸盐）可能会引起问题——例如，可以在几种冷切菜中找到。
+
+      7. 对于维生素，维生素 C（剂量超过 500 毫克/天）和 B 可能会引发症状。如果可以的话，选择只含有一种维生素或必需微量元素的产品，而不是购买组合营养补充剂。
+
+      8. 如果您有 IC/BPS 以外的任何过敏或不耐受，您也必须远离相关成分。
 
 
-      ### What is an Elimination Diet?
+      要找出您可以安全食用的食物和饮料组，请应用排除饮食。
 
 
-      Following an elimination diet, you have to cut out every food and drink that cause problems for most of the IC/BPS patients, in the first step. (See the list below.) It is essential to follow the diet strictly, and you have to pay attention to the ingredient list of ready-cooked or instant meal you buy. When you are symptomless, start to introduce every food or drink you would like to have; one by one and little by little. (This is called provocation phase.) Record everything in your diet log, and note it down if any symptom occurs. Once you are able to identify the food or drink triggers the symptoms you have to cut it out of your diet.
+      ### 什么是排除饮食？
 
 
-      The following food and drinks cause problems for most of the IC/BPS patients:
+      在消除饮食之后，您必须在第一步中戒掉对大多数 IC/BPS 患者造成问题的所有食物和饮料。（请参阅下面的列表。）严格遵循饮食是必不可少的，您必须注意您购买的即食或速食的成分表。当您没有症状时，开始介绍您想吃的每一种食物或饮料； 一点一点。（称为激发阶段。）在您的饮食日志中记录所有内容，如果出现任何症状，请记下。一旦您能够识别引发的症状的食物或饮料，您就必须将其从饮食中剔除。
 
 
-      * alcoholic drinks
+      以下食物和饮料会给大多数 IC/BPS 患者带来问题：
 
-      * caffeinated drinks (coffee, black or green tea)
+      * 有酒精的饮品
 
-      * carbonated (sparkling) drinks
+      * 含咖啡因的饮料（咖啡、红茶或绿茶）
 
-      * pineapple, strawberry, orange, grapefruit, grapes, apple and any drink made from them
+      * 碳酸（气泡）饮料
 
-      * pickled food or anything made with vinegar (e.g. sauerkraut)
+      * 菠萝、草莓、橙子、葡萄柚、葡萄、苹果和任何由它们制成的饮料
 
-      * tomato, both raw and as an ingredient (e.g. ketchup)
+      * 腌制食物或任何用醋制成的食物（例如酸菜）
 
-      * products containing soy
+      * 番茄，生的和作为配料的（例如番茄酱）
 
-      * chocolate (exception: white chocolate)
+      * 含有大豆的产品
 
-      * sugared food; cakes, cookies or pies – in large quantities
+      *巧克力（例外：白巧克力）
 
-      * artificial sweeteners or preservatives
+      * 含糖食物； 蛋糕、饼干或馅饼——大量吃
 
-      * hot and spicy food (spices to avoid: pepper, paprika, pepperoni, chili, curry; vanilla, cinnamon or cloves can cause problems, too)
+      * 人造甜味剂或防腐剂
 
-      * herbal teas, brews or extracts
+      * 辛辣食物（要避免的香料：胡椒、辣椒粉、意大利辣香肠、辣椒、咖喱；香草、肉桂或丁香也会引起问题）
 
-
-      During the elimination diet, you have to avoid everything listed above, for four weeks, alongside with any other ingredient you, personally, think it triggers the symptoms. You have to be patient, because the effect of the diet manifests slowly.
-
-
-      In the next step, you can try having everything you cut out, one by one. Each test should last for three days.
+      * 花草茶、冲泡茶或提取物
 
 
-      On the first day, have the food or drink in question in a very small quantity.
+      在排除饮食期间，您必须在四个星期内避免上面列出的所有东西，以及您个人认为会引发症状的任何其他成分。你必须要有耐心，因为饮食的效果是慢慢显现的。
 
 
-      On the second day, increase the dose.
+      在下一步中，您可以尝试一个接一个地排除所有内容。每次测试应持续三天。
 
 
-      Assuming you still feel well, try having the amount you would normally on the third day.
+      在第一天，少量食用有问题的食物或饮料。
 
 
-      If the food or drink you have just tested has caused no problems, you can have it safely in the future.
+      第二天，增加剂量。
 
 
-      If you have experienced mild symptoms only, you can still have the food or drink tested, but in small quantities only, and sparingly.
+      假设您感觉良好仍然，请尝试在第三天使用正常量。
 
 
-      In case of severe symptoms, unfortunately, you have to keep away from the food or drink in question. (To lessen the symptoms, drink a lot of water.)
+      如果您刚刚测试的食物或饮料没有引起任何问题，您将来可以安全食用。
 
 
-      Do not feel desperate if you find your favorite food on the “excluded list”! Each IC/BPS patient
+      如果您仅出现轻微症状，您仍然可以对食物或饮料进行测试，但数量很少，要谨慎。
 
 
-      responds differently to a certain food or drink – it is not impossible that you do not have to cut out what you love. (Actually, certain IC/BPS patients are able to have coffee even if caffein causes pain for most IC/BPS patients.) However, be patients: always follow the steps strictly, and test every single thing for three days.
+      不幸的是，如果出现严重症状，您必须远离相关食物或饮料。（要减轻症状，请多喝水。）
 
 
-      It is worth noting down which product or which brand you bought from a certain food. The full ingredient list of products from different companies can be different, too – sometimes, not the food or drink you test triggers the symptoms, but one of the extra ingredients does so. In this case, you only have to avoid the product which causes problems, not the sort of food or drink itself.
+      如果您在“排除名单”上找到您最喜欢的食物，请不要感到绝望！每个 IC/BPS 患者对某种食物或饮料的反应不同——您不必切掉自己喜欢的东西。（实际上，即使咖啡因会导致大多数 IC/BPS 患者疼痛，某些 IC/BPS 患者也可以喝咖啡。）但是，要有耐心：始终严格按照步骤操作，并测试一切为三天。
+
+
+      值得注意的是，您从某种食物中购买了哪种产品或哪个品牌。来自不同公司的产品的成分清单也可能不同——有时，不是您测试的食物或饮料会引发症状，而是其中一种额外成分会引发症状。在这种情况下，您只需要避免导致问题的产品，而不是食物或饮料本身。
 ---
