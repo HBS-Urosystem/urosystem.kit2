@@ -101,7 +101,7 @@ components:
         url: uploads/UroStill_Users_Manual_v1_2.pdf
         title: UroStill® User's Manual
       - title: UroStill® Benutzerhandbuch
-        url: uploads/UroStill_users_guide_6.917_DE.pdf
+        url: uploads/UroStill_Users_Guide_7_DE.pdf
       - title: UroStill® & UroDapter® Flyer
         url: uploads/UroDapter_UroStill_Flyer_EN_vr3.pdf
       - title: UroStill® Clinical Trial (Summary)

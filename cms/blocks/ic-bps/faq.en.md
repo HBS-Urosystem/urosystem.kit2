@@ -251,10 +251,10 @@ components:
           uncomfortable, and infections often occurred after the treatment. To
           overcome these problems have UroDapter® been developed, an urological
           adapter which replaces catheter. You can read more about UroDapter®
-          on [this page].
+          on [this page](/urodapter).
 
 
-          Also, there is another medical device, UroStill®, which helps patients perform a self-treatment. With UroStill®, the bladder instillation through the urethra can be done without external help. More information can be found on [this page].
+          Also, there is another medical device, UroStill®, which helps patients perform a self-treatment. With UroStill®, the bladder instillation through the urethra can be done without external help. More information can be found on [this page](/urostill).
       - q: Not only has the treatment given no help, but also it has made everything
           worse! I must have received the wrong treatment!
         anchor: treatment
