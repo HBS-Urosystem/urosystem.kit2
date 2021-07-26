@@ -55,13 +55,9 @@ components:
 
       2. Unser Unternehmen behält sich das Recht vor,
 
-
-      * den Preis eines Produkts zu ändern
-
-      * ein Produkt, einschließlich seiner Spezifikationen, zu ändern
-
-      * ein Produkt zurückzuziehen
-
+         * den Preis eines Produkts zu ändern
+         * ein Produkt, einschließlich seiner Spezifikationen, zu ändern
+         * ein Produkt zurückzuziehen
       ohne die vorherige Benachrichtigung des Kunden.
 
       Aufträge in Fertigstellung werden aufgrund dieser Änderungen nicht geändert.
