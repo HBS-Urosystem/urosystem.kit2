@@ -234,7 +234,7 @@ button {
   white-space: nowrap;
 }
 button:hover, button:focus {
-  background-color: #52b2d6;
+  background-color: var(--light-blue);
   transition: background-color 350ms ease;
   /*"background-color": "#52b2d6",*/
 }

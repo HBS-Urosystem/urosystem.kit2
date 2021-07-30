@@ -40,69 +40,64 @@ components:
       To find out which food and drink groups you can have safely, apply an elimination diet.
 
 
-      ### What is an Elimination Diet?
+      ### ما هي حمية الإقصاء؟
 
 
-      Following an elimination diet, you have to cut out every food and drink that cause problems for most of the IC/BPS patients, in the first step. (See the list below.) It is essential to follow the diet strictly, and you have to pay attention to the ingredient list of ready-cooked or instant meal you buy. When you are symptomless, start to introduce every food or drink you would like to have; one by one and little by little. (This is called provocation phase.) Record everything in your diet log, and note it down if any symptom occurs. Once you are able to identify the food or drink triggers the symptoms you have to cut it out of your diet.
+      بعد اتباع نظام غذائي للإقصاء ، يجب عليك في الخطوة الأولى قطع كل طعام وشراب يسبب مشاكل لمعظم مرضى IC / BPS ، في الخطوة الأولى. (انظر القائمة أدناه.) من الضروري اتباع النظام الغذائي بدقة ، وعليك الانتباه إلى قائمة المكونات للوجبات الجاهزة التي تشتريها. عندما لا تظهر عليك أعراض ، ابدأ في تناول كل طعام أو شراب ترغب في تناوله ؛ واحدًا تلو الآخر وشيئًا فشيئًا. (وهذا ما يسمى بمرحلة الاستفزاز). سجل كل شيء في سجل النظام الغذائي الخاص بك ، وقم بتدوينه في حالة حدوث أي أعراض. بمجرد أن تكون قادرًا على تحديد الطعام أو الشراب الذي يؤدي إلى ظهور الأعراض ، يجب عليك استبعاده من نظامك الغذائي.
 
 
-      The following food and drinks cause problems for most of the IC/BPS patients:
+      تسبب الأطعمة والمشروبات التالية مشاكل لمعظم مرضى :IC / BPS
+
+      * المشروبات الكحولية
+
+      * المشروبات المحتوية على الكافيين (القهوة ، الشاي الأسود أو الأخضر)
+
+      * المشروبات الغازية (الفوارة)
+
+      * أناناس ، فراولة ، برتقال ، جريب فروت ، عنب ، تفاح وأي مشروب مصنوع من المذكور
+
+      * المخلل أو أي شيء مصنوع من الخل (مثل مخلل الملفوف)
+
+      * الطماطم ، نيئة و صلصة (مثل الكاتشب)
+
+      * المنتجات التي تحتوي على فول الصويا
+
+      * شوكولاتة (استثناء: شوكولاتة بيضاء)
+
+      * الكعك أو البسكويت أو الفطائر - بكميات كبيرة
+
+      * المحليات الصناعية أو المواد الحافظة
+
+      * الأطعمة الحدة والتوابل (يجب تجنب التوابل: الفلفل والفلفل الحلو والبيبروني والفلفل الحار والكاري والفانيليا والقرفة والقرنفل يمكن أن تسبب مشاكل أيضًا)
+
+      * شاي الاعشاب ، المشروبات أو المستخلصات
+
+      أثناء حمية الإقصاء ، عليك تجنب كل ما هو مذكور أعلاه ، لمدة أربعة أسابيع ، جنبًا إلى جنب مع أي مكون آخر تعتقد ، شخصيًا ، أنه يتسبب في ظهور الأعراض. عليك أن تتحلى بالصبر ، لأن تأثير النظام الغذائي يظهر ببطء.
 
 
-      * alcoholic drinks
-
-      * caffeinated drinks (coffee, black or green tea)
-
-      * carbonated (sparkling) drinks
-
-      * pineapple, strawberry, orange, grapefruit, grapes, apple and any drink made from them
-
-      * pickled food or anything made with vinegar (e.g. sauerkraut)
-
-      * tomato, both raw and as an ingredient (e.g. ketchup)
-
-      * products containing soy
-
-      * chocolate (exception: white chocolate)
-
-      * sugared food; cakes, cookies or pies – in large quantities
-
-      * artificial sweeteners or preservatives
-
-      * hot and spicy food (spices to avoid: pepper, paprika, pepperoni, chili, curry; vanilla, cinnamon or cloves can cause problems, too)
-
-      * herbal teas, brews or extracts
+      في الخطوة التالية ، يمكنك تجربة كل شيء قطعته ، واحدًا تلو الآخر. يجب أن يستمر كل اختبار لمدة ثلاثة أيام.
 
 
-      During the elimination diet, you have to avoid everything listed above, for four weeks, alongside with any other ingredient you, personally, think it triggers the symptoms. You have to be patient, because the effect of the diet manifests slowly.
+      في اليوم الأول ، تناول الطعام أو الشراب المعني بكمية قليلة جدًا.
 
 
-      In the next step, you can try having everything you cut out, one by one. Each test should last for three days.
+      في اليوم الثاني ، قم بزيادة الجرعة.
 
 
-      On the first day, have the food or drink in question in a very small quantity.
+      بافتراض أنك ما زلت على ما يرام ، حاول الحصول على الكمية التي كنت معتادًا عليها في اليوم الثالث.
 
 
-      On the second day, increase the dose.
+      إذا لم يتسبب الطعام أو الشراب الذي اختبرته للتو في حدوث مشاكل ، فيمكنك تناوله بأمان في المستقبل.
 
 
-      Assuming you still feel well, try having the amount you would normally on the third day.
+      إذا كنت قد عانيت من أعراض خفيفة فقط ، فقد لا يزال بإمكانك اختبار الطعام أو الشراب ، ولكن بكميات صغيرة فقط 
 
 
-      If the food or drink you have just tested has caused no problems, you can have it safely in the future.
+      في حالة الأعراض الشديدة ، للأسف ، عليك الابتعاد عن الطعام أو الشراب المعني. (لتقليل الأعراض ، اشرب الكثير من الماء).
 
 
-      If you have experienced mild symptoms only, you can still have the food or drink tested, but in small quantities only, and sparingly.
+      لا تشعر باليأس إذا وجدت طعامك المفضل في "قائمة المستبعدين"! يستجيب كل مريض IC / BPS بشكل مختلف لطعام أو شراب معين - ليس من المستحيل أن لا تضطر إلى قطع ما تحب. في الواقع ، بعض مرضى IC / BPS قادرين على تناول القهوة حتى لو تسبب الكافيين في الألم لمعظم مرضى IC / BPS ومع ذلك ، تحلى بالصبر و اتبع دائمًا الخطوات بدقة ، واختبر كل شيء لمدة ثلاثة أيام.
 
 
-      In case of severe symptoms, unfortunately, you have to keep away from the food or drink in question. (To lessen the symptoms, drink a lot of water.)
-
-
-      Do not feel desperate if you find your favorite food on the “excluded list”! Each IC/BPS patient
-
-
-      responds differently to a certain food or drink – it is not impossible that you do not have to cut out what you love. (Actually, certain IC/BPS patients are able to have coffee even if caffein causes pain for most IC/BPS patients.) However, be patients: always follow the steps strictly, and test every single thing for three days.
-
-
-      It is worth noting down which product or which brand you bought from a certain food. The full ingredient list of products from different companies can be different, too – sometimes, not the food or drink you test triggers the symptoms, but one of the extra ingredients does so. In this case, you only have to avoid the product which causes problems, not the sort of food or drink itself.
+      يجدر الإشارة إلى أن المنتج أو العلامة التجارية التي اشتريتها من طعام معين. يمكن أن تكون مختلفة في قائمة المكونات من شركة لأخرى أيضًا - في بعض الأحيان ، لا يؤدي الطعام أو الشراب الذي تختبره إلى ظهور الأعراض ، ولكن أحد المكونات الإضافية يفعل ذلك. في هذه الحالة ، ما عليك سوى تجنب المنتج الذي يسبب المشاكل ، وليس نوع الطعام أو الشراب نفسه.
 ---

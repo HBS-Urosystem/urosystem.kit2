@@ -5,293 +5,270 @@ fallback: en
 components:
   - type: article
     text: >-
-      We must face the fact: plenty of people have never heard of IC/BPS. In
-      spite of this, there are a lot of false assumption and incorrect
-      information on the Internet about this condition. Actually, a lot of
-      things are still not known about IC/BPS. Luckily, it has been studied
-      enthusiastically, so there have been more and more studies published, more
-      and more up-to-date diagnostic methods and treatments have been tried out.
+      يجب أن نواجه الحقيقة: لم يسمع الكثير من الناس عن IC / BPS  على الرغم من
+      ذلك ، هناك الكثير من الافتراضات الخاطئة والغير صحيحة على الإنترنت حول هذا
+      المرض. في الواقع ، الكثير من الملفات لا تزال غير معروفة عن IC / BPS.  لحسن
+      الحظ ، تمت دراستها بحماس ، لذلك تم نشر المزيد والمزيد من الدراسات وقد تم
+      تجربة طرق التشخيص والعلاجات الأكثر حداثة.
 
 
-      Unfortunately, the new facts spread on the Internet and people become aware of them with a significant delay. Obsolete views, hypotheses that were never proved, assumptions rejected later may be more known than the modern results and achievements. This is why popular misbeliefs can spread from website to website or among patients, too. In other words, even if a piece of information is available on plenty of webpages, it does not mean that it is correct, too. Social media is an especially “dangerous” platform, from this point of view. Every now and then it can happen that some farfetched assumption becomes considered a fact – misleading the visitors, and, eventually, the patients, too.
+      لسوء الحظ ، انتشرت الحقائق الجديدة على الإنترنت وأصبح الناس على دراية بها بتأخير كبير. وجهات النظر القديمة ، والفرضيات التي لم يتم إثباتها مطلقًا ، والافتراضات التي تم رفضها لاحقًا قد تكون معروفة أكثر من النتائج والإنجازات الحديثة. هذا هو السبب في أن المعتقدات الخاطئة الشائعة يمكن أن تنتشر من موقع إلى آخر أو بين المرضى أيضًا. بعبارة أخرى ، حتى لو كان جزء من المعلومات متاحًا على الكثير من صفحات الويب ، فهذا لا يعني أنه صحيح أيضًا. وسائل الإعلام الاجتماعية هي منصة "خطيرة" بشكل خاص ، من وجهة النظر هذه. بين الحين والآخر ، يمكن أن يتم اعتبار بعض الافتراضات البعيدة حقيقة - تضليل الزوار ، وفي النهاية المرضى أيضًا.
 
 
-      This is why we would like to make a couple of things clear about this condition.
+      هذا هو سبب رغبتنا في توضيح بعض الأمور حول هذه الحالة.
   - type: qas
     items:
-      - q: IC/BPS is a sparse disease, isn’t it?
+      - q: IC / BPS هو مرض شائع ، أليس كذلك؟
         anchor: sparse-disease
         text: >-
-          Considering the number of diagnosed cases, indeed, it appears so.
-          Depending on the way how the estimations are made, up to 2–5% of the
-          adult people may be affected. However, the diagnose rate of the
-          disease is very low: even in countries of most advanced healthcare it
-          is below 10%. (In most countries it is between 1–5%.)
+          بالنظر إلى عدد الحالات التي تم تشخيصها ، يبدو الأمر كذلك بالفعل.
+          اعتمادًا على الطريقة التي يتم بها إجراء التقديرات ، تصل إلى 2-5٪ من
+          الكبار قد يتأثر. ومع ذلك ، فإن معدل تشخيص المرض منخفض للغاية حتى في
+          البلدان الأكثر تقدمًا في مجال الرعاية الصحية تقدر بأقل من 10٪. (تتراوح
+          النسبة في معظم البلدان بين 1-5٪).
 
 
-          There are several factors behind the low diagnose rate. The disease itself is not known by most people; there are even doctors, gynecologists and urologists (!) who have never heard of it. Most who suffer from IC/BPS do not dare talk honestly about their symptoms, which greatly hinders the publicity of the disease.
+          هناك عدة عوامل وراء انخفاض معدل التشخيص. المرض نفسه غير معروف من قبل معظم الناس. حتى أن هناك أطباء وأطباء أمراض النساء وأطباء المسالك البولية  لم يسمعوا به من قبل. لا يجرؤ معظم الذين يعانون من التهاب المثانة الخلالي المتضخم / متلازمة البروستاتا الحميد على التحدث بصراحة عن أعراضهم ، مما يعيق بشكل كبير انتشار المرض.
 
 
-          This is why we are dedicated to inform the society: IC/BPS is a severe disease, which affects many people.
+          هذا هو السبب في أننا ملتزمون بإبلاغ المجتمع: IC / BPS هو مرض خطير يصيب الكثير من الناس.
 
 
-          If it is assumed that you have 250 acquaintance, it is likely that there is someone among them who suffers from IC/BPS. Even if he/she never talks about it.
-      - q: So what. If someone is ill, they have to see the doctor. IC/BPS is not an
-          exception, isn’t it?
+          إذا كان من المفترض أن لديك 250 من معارفك ، فمن المحتمل أن يكون هناك شخص من بينهم يعاني من IC / BPS. حتى لو لم يتحدث عن ذلك أبدًا.
+      - q: وماذا إذا كان شخص ما مريضًا ، فعليه مراجعة الطبيب. IC / BPS ليس مرض استثناء
+          أليس كذلك؟
         anchor: so-what
         text: >-
-          The most typical symptoms of IC/BPS are the bladder (and urethral)
-          pain and frequent urination. Unfortunately, these symptoms can be
-          present because of other conditions, too: for example, malignant
-          transformations (cancer) or bacterial urinary tract infections.
-          However, these diseases usually have definite markers, such as pus in
-          the urine.
+          الأعراض الأكثر شيوعًا لـ IC / BPS هي ألم المثانة (والإحليل) وكثرة
+          التبول. لسوء الحظ ، يمكن أن تكون هذه الأعراض موجودة بسبب حالات أخرى
+          أيضًا على سبيل المثال ، الأمراض الخبيثة (السرطان) أو التهابات المسالك
+          البولية البكتيرية. ومع ذلك ، فإن هذه الأمراض عادة ما يكون لها علامات
+          محددة ، مثل وجود صديد في
+
+          البول.
 
 
-          IC/BPS has no similar markers, since it has no pathogen and there is no tumorous transformation either.
+          لا يحتوي IC / BPS على علامات مماثلة ، لأنه لا يحتوي على مسببات الأمراض ولا يوجد تحول ورمي أيضًا.
 
 
-          Therefore, to diagnose IC/BPS all the other conditions may cause similar symptoms must be excluded.
+          لذلك ، لتشخيص IC / BPS ، يجب استبعاد جميع الحالات الأخرى التي قد تسبب أعراضًا مماثلة.
 
 
-          If it gets diagnosed at all… Since most of the GPs and gynecologists do not know this disease, they cannot treat it either. They often set up a false diagnosis, which results in false and/or unnecessary treatments. Sadly, there are even urologists who do not have proper knowledge on IC/BPS. Often times, they do know the disease but they simply do not consider it – or if they do, they do not apply the up-to-date treatment methods since they are not aware of those.
+          إذا تم تشخيصه على الإطلاق ... نظرًا لأن معظم الأطباء وأطباء النساء لا يعرفون هذا المرض ، فلا يمكنهم علاجه أيضًا. غالبًا ما يقومون بإعداد تشخيص خاطئ ، مما يؤدي إلى علاجات خاطئة و / أو غير ضرورية. للأسف ، هناك حتى أطباء المسالك البولية الذين ليس لديهم معرفة مناسبة عن IC / BPS. في كثير من الأحيان ، يعرفون المرض ولكنهم ببساطة لا يفكرون فيه - أو إذا عرفوا ذلك ، فإنهم لا يطبقون طرق العلاج الحديثة لأنهم ليسوا على علم بها.
 
 
-          Without a proper diagnosis, things can go wrong easily. Seriously wrong.
+          بدون التشخيص المناسب ، يمكن أن تسوء الأمور بسهولة.
 
 
-          Patients may run from doctor to doctor, hoping that someone may be able to find out what the problem is and how to treat it. Which is far not the worst case. There have been plenty of patients who were mis-treated (for example, with some gynecological problem) since their doctor set up an entirely wrong diagnosis. Some patients stick to their therapists for long years, even a decade – and get a treatment which does not help at all or makes everything even worse. Antibiotics, for example.
+          قد يتنقل المرضى من طبيب إلى آخر ، على أمل أن يتمكن شخص ما من معرفة ماهية المشكلة وكيفية علاجها. وهي ليست أسوأ حالة على الإطلاق. كان هناك الكثير من المرضى الذين عولجوا بشكل خاطئ (على سبيل المثال ، يعانون من بعض مشاكل أمراض النساء) منذ أن وضع طبيبهم تشخيصًا خاطئًا تمامًا. يلتزم بعض المرضى بمعالجهم لسنوات طويلة ، حتى لعقد من الزمن - ويحصلون على علاج لا يساعد على الإطلاق أو يجعل كل شيء أسوأ. المضادات الحيوية ، على سبيل المثال.
 
 
-          Sometimes the most terrible happens. Since there is noting to identify as the cause of the pain, the doctor assumes it is only in the patient’s mind – and redirects him/her to a psychologist or a psychiatrist.
+          في بعض الأحيان يحدث أسوأ ما في الأمر. نظرًا لوجود ملاحظة لتحديد سبب الألم ، يفترض الطبيب أن ذلك في ذهن المريض فقط - ويعيد توجيهه إلى طبيب نفسي أو طبيب نفسي.
 
 
-          Meanwhile, the condition progresses. In case of a severe form of IC/BPS, the patient has to urinate in every hour. Or twice, three times an hour. Which, no surprise, hinders work, too. Pain can wreck the private life. Night becomes a nightmare because of the symptoms, which leads to sleep deprivation.
+          في غضون ذلك ، تتطور الحالة. في حالة وجود شكل حاد من IC / BPS ، يجب على المريض التبول كل ساعة. أو مرتين ، ثلاث في الساعة. مما لا يثير الدهشة أنه يعيق الممرسات اليومية أيضًا. يمكن للألم تدمير الحياة الخاصة. يتحول الليل إلى كابوس بسبب الأعراض التي تؤدي إلى الحرمان من النوم.
 
 
-          There have already been patients who, having seen no other way out, committed suicide.
+          هناك بالفعل مرضى انتحروا بعد أن لم يروا أي مخرج آخر.
 
 
-          Because of all these things, it is essential to diagnose IC/BPS quickly so that the proper treatment can start as soon as it is possible.
-      - q: "I have already checked it on the Internet: if my bladder hurts and I have to
-          urinate a lot, then I have IC/BPS…"
+          بسبب كل هذه الأشياء ، من الضروري تشخيص IC / BPS بسرعة حتى يبدأ العلاج المناسب في أقرب وقت ممكن.
+      - q: "لقد تحققت بالفعل على الإنترنت: إذا كانت مثانتي تؤلمني ويجب علي التبول كثيرًا
+          ، فلدي IC / BPS"
         text: >-
-          Let’s make it clear: even much more known diseases or conditions with
-          much more definite symptoms can never be diagnosed by reading articles
-          on the Internet. No one should every self-diagnose themselves with the
-          help of the Internet.
+          دعونا نوضح الأمر: الكثير من الأمراض أو الحالات المرضية المعروفة لا
+          يمكن تشخيص الأعراض الأكثر تحديدًا من خلال قراءة المقالات على شبكة
+          الانترنت. لا ينبغي لأي شخص أن يشخص نفسه بنفسه مع
+
+          مساعدة من الإنترنت.
 
 
-          As we said before, there are quite a lot of other conditions which may have similar symptoms. These, however, can be diagnosed by a urologist with routine tests. (For example, a simple urine test.) When it has happened, the proper treatment can start instantly.
+          كما قلنا من قبل ، هناك الكثير من الحالات الأخرى التي قد يكون لها أعراض مماثلة. ومع ذلك ، يمكن تشخيص هذا المرض من قبل طبيب المسالك البولية من خلال اختبارات روتينية. (على سبيل المثال ، اختبار بسيط للبول.) عندما يحدث ذلك ، يمكن أن يبدأ العلاج المناسب على الفور.
 
 
-          It is worth knowing, on the other hand, that finding an "easily diagnosable" disease does not essentially rule out IC/BPS. It is also possible that the symptoms indeed refer to IC/BPS.
+          من الجدير بالمعرفة ، من ناحية أخرى ، أن العثور على مرض "يسهل تشخيصه" لا يستبعد بشكل أساسي IC / BPS. من الممكن أيضًا أن تشير الأعراض بالفعل إلى IC / BPS.
 
 
-          But it is not you who can find out what the problem is. Not even this webpage. You have to see a urologist, who can perform all the necessary examinations to diagnose you – who can confirm or deny IC/BPS.
+          لكنك لست من يمكنه معرفة ما هية المشكلة. ولا حتى صفحة الويب هذه. عليك أن ترى طبيب المسالك البولية ، والذي يمكنه إجراء جميع الفحوصات اللازمة لتشخيص حالتك - من يمكنه تأكيد أو رفض IC / BPS.
         anchor: internet
-      - q: Can IC/BPS be diagnosed then?
+      - q: هل يمكن تشخيص IC / BPS ؟
         anchor: diagnosis
         text: >-
-          Although there is no 100% method for diagnosing this disease, nowadays
-          it is possible to do so with high accuracy.
+          على الرغم من عدم وجود طريقة 100٪ لتشخيص هذا المرض في الوقت الحاضر من
+          الممكن القيام بذلك بدقة عالية.
 
 
-          All the symptoms of IC/BPS occur because of the deficiency of the mucus layer of the bladder – this layer is called GAG-layer. The GAG-layer insufficiency does not essentially mean the lack of it. Often times, the deficiency can be observed only in distinct regions or patches, or the permeability of the GAG-layer is increased. Moreover, this is not the same condition as IC/BPS (which is, per definition, the non-bacterial inflammation of the bladder wall), but with time the deficiency may lead to the development of IC/BPS.
+          تحدث جميع أعراض IC / BPS بسبب نقص الطبقة المخاطية في المثانة - تسمى هذه الطبقة GAG-layer.  لا يعني قصور طبقة GAG أساسًا عدم وجودها. في كثير من الأحيان ، يمكن ملاحظة النقص فقط في مناطق أو بقع متميزة ، أو تزداد نفاذية طبقة GAG.  علاوة على ذلك ، هذه ليست نفس حالة IC / BPS وهي ، حسب التعريف ، التهاب غير جرثومي لجدار المثانة ، ولكن مع مرور الوقت ، قد يؤدي النقص إلى تطوير IC / BPS.
 
 
-          The changes of the GAG-layer, on the other hand, can be identified. One of the newest methods how it can be performed is the GAG-layer integrity test. During this test, the patients have to log for two days the frequency and the volumes of their voidings. Further information can be found [here].
+          من ناحية أخرى ، يمكن تحديد التغييرات في طبقة  GAG يعد اختبار سلامة طبقة GAG من أحدث الطرق التي يمكن إجراؤها. خلال هذا الاختبار ، يجب على المرضى أن يسجلوا تواتر وكمية البول لمدة يومين. يمكن العثور على مزيد من المعلومات [هنا].
 
 
-          For the accurate diagnosis the doctors regularly apply further methods, too. They investigate the anamnesis of the patient, have them fill out questionnaires to evaluate their general condition, and, if needed, they confirm the diagnosis with other examinations, for example, cystoscopy.
-      - q: My therapist wants me to see a psychologist. This is totally unacceptable! I
-          have problems in my bladder, not in my mind!
+          من أجل التشخيص الدقيق ، يطبق الأطباء بانتظام طرقًا أخرى أيضًا. إنهم يحققون في سوابق المريض ، ويطلبون منهم ملء استبيانات لتقييم حالتهم العامة ، وإذا لزم الأمر ، يؤكدون التشخيص بفحوصات أخرى ، على سبيل المثال ، تنظير المثانة.
+      - q: طبيبي الشخصي يريد مني أن أرى طبيب نفسي. هذا غير مقبول على الإطلاق! أنا لدي
+          مشاكل في مثانتي ، وليس في ذهني!
         anchor: psychology
         text: >-
-          As a matter of fact, if you are sent to a psychologist, that does not
-          mean that your therapist wants to get rid of you. Psychical stress can
-          often be a side-effect of a long-lasting condition of severe
-          pain. IC/BPS is not an exception. Psychical symptoms can make
-          everything worse, which may lead to suicidal thoughts. Unfortunately,
-          these thoughts may be translated to acts, too – as it has already
-          happened to a couple of patients.
+          في الواقع ، إذا تم إرسالك إلى طبيب نفسي ، فهذا لا يحدث يعني أن طبيبك
+          يريد التخلص منك. يمكن للضغط النفسي غالبًا أن يكون أحد الآثار الجانبية
+          لحالة طويلة الأمد شديدة الإلم لل IC / BPS . يمكن أن تحدث الأعراض
+          النفسية و من ثم إلى أفكار انتحارية. لسوء الحظ، يمكن ترجمة هذه الأفكار
+          إلى أفعال أيضًا - كما حدث بالفعل حدث لاثنين من المرضى.
 
 
-          A psychologist can give important help to cope with the disease, improve the patient’s self-assessment – thus, may be an important part of the IC/BSP therapy.
+          يمكن للأخصائي النفسي أن يقدم مساعدة مهمة للتعامل مع المرض ، وتحسين التقييم الذاتي للمريض - وبالتالي ، قد يكون جزءًا مهمًا من علاج IC / BSP.
 
 
-          Certainly, it should never be forgotten that any psychological treatment may complement, but never replace the therapy of a professional urologist!
-      - q: I got diagnosed with IC/BPS, but my therapist hadn’t done cystoscopy, biopsy
-          or urodynamics!
+          بالتأكيد ، لا ينبغي أن ننسى أبدًا أن أي العلاج النفسي مهم ، ولكن لا يحل محل العلاج الذي يقدمه طبيب المسالك البولية المحترف!
+      - q: تم تشخيص بـ IC / BPS ، لكن معالجي لم يقم بإجراء تنظير المثانة أو تحليل البول!
         text: >-
-          As it was explained above, diagnosing IC/BPS is a complicated task. It
-          does not essentially involve all the possible diagnostic methods.
-          Indeed, cystoscopy is frequently done by urologists. It is an
-          effective way to identify some abnormalities that may refer to certain
-          forms of IC/BPS. Nowadays, cystoscopy is a “mild” diagnostic tool,
-          which can be totally pain-free. However, it is still an invasive tool;
-          complications or side-effects might occur in a small percentage of
-          cases. So, without proper professional reasons, it is not
-          recommended. Especially, since there are forms of IC/BPS without any
-          characteristic signs on the cystoscopy image.
+          كما تم شرحه أعلاه ، يعد تشخيص IC / BPS مهمة معقدة. هي لا تتضمن بشكل
+          أساسي جميع طرق التشخيص الممكنة.
+
+          في الواقع ، يتم إجراء تنظير المثانة بشكل متكرر من قبل أطباء المسالك البولية. إنه طريقة فعالة للتعرف على بعض التشوهات التي قد تشير إلى بعض أشكال  IC / BPS. في الوقت الحاضر ، يعد تنظير المثانة أداة تشخيص "خفيفة" ، والتي يمكن أن تكون خالية تمامًا من الألم. ومع ذلك ، فهي لا تزال أداة توغل؛ قد تحدث مضاعفات أو آثار جانبية في نسبة صغيرة من الحالات. لذلك ، بدون أسباب مهنية مناسبة ، فهو ليس موصى به. خاصة ، نظرًا لوجود أشكال من IC / BPS بدون أي علامات مميزة على صورة تنظير المثانة.
 
 
-          The biopsy of the bladder mucosa is not the part of diagnosing IC/BPS anymore, because the biopsy image does not give any relevant information. On the other hand, signs of a malignant transformation can be discovered by biopsy – but urine cytology examination is considered to be a more effective tool, which is less invasive, as well.
-
-
-          Urodynamics are not only incapable of diagnosing IC/BPS, but also time-consuming, expensive and invasive. They are not recommended for this purpose anymore.
+          لم تعد خزعة الغشاء المخاطي للمثانة جزءًا من تشخيص IC / BPS ، لأن صورة الخزعة لا تقدم أي معلومات ذات صلة. من ناحية أخرى ، يمكن اكتشاف علامات التحول الخبيث عن طريق الخزعة - ولكن يعتبر فحص الخلايا البولية أداة أكثر فاعلية ، وهي أقل توغلاً أيضًا.
         anchor: complicated
-      - q: Wouldn’t it be easier to identify what causes IC/BPS and treat causes
-          themselves?
+      - q: أليس أسهل تحديد أسباب التهاب المثانة الخلالي / متلازمة البروستاتا الحميد
+          ومعالجة الأسباب أنفسها؟
         anchor: causes
         text: >-
-          Indeed, a major part of the IC/BPS researches focus on the cause why
-          IC/BPS develops – why the GAG-layer gets defective – so that a casual
-          treatment could be applied.
+          في الواقع ، يركز جزء كبير من أبحاث IC / BPS على السبب وراء IC / BPS
+          -  
 
 
-          There have been several theories introduced, but none of them have been proven so far. So, the real cause of IC/BPS is still not known, current therapies must focus on treating the symptoms: replenishing the GAG-layer or mitigating the symptoms.
-      - q: Can IC/BPS be cured permanently?
+          تم تقديم العديد من النظريات ، لكن لم يتم إثبات أي منها حتى الآن. لذلك ، لا يزال السبب الحقيقي لـ IC / BPS غير معروف ، يجب أن تركز العلاجات الحالية على علاج الأعراض: تجديد طبقة GAG أو تخفيف الأعراض.
+      - q: هل يمكن علاج IC / BPS بشكل دائم؟
         anchor: cure
         text: >-
-          Unfortunately, there is no treatment known which can cure IC/BPS for
-          good. However, if an effective treatment is applied, patients can be
-          symptom-free for long years. The sooner the condition is diagnosed,
-          the bigger the chance for this.
+          لسوء الحظ ، لا يوجد علاج معروف يمكنه علاج IC / BPS ومع ذلك ، إذا تم
+          تطبيق علاج فعال ، يمكن للمرضى أن يكونو خاليين من الأعراض لسنوات طويلة.
+          كلما تم تشخيص الحالة مبكرًا ، كلما زادت فرصة ذلك.
 
 
-          It must be noted that for achieving a good result the patient must work hard, too. The effective treatment includes lifestyle changes, abundant fluid intake, dietary changes and medical advice – these are to be obeyed for the best result.
-      - q: Are lifestyle changes enough?
+          وتجدر الإشارة إلى أنه لتحقيق نتيجة جيدة ، يجب على المريض أن يعمل بجد أيضًا. يشمل العلاج الفعال تغييرات في نمط الحياة ، وتناول كميات كبيرة من السوائل ، وتغييرات في النظام الغذائي ، ونصائح طبية - يجب اتباعها للحصول على أفضل نتيجة.
+      - q: هل تغييرات نمط الحياة كافية؟
         anchor: lifestyle
         text: >-
-          If only it were so!
+          ولو كان الأمر كذلك!
 
 
-          Don’t put it in the wrong way, though: lifestyle changes – especially diet and abundant fluid intake – help a lot in mitigating the symptoms. They may be enough for being symptom-free in case of an early-phase IC/BPS.
+          لا تنظر للأمر بطريقة خاطئة ، على الرغم من أن التغييرات في نمط الحياة - وخاصة النظام الغذائي وتناول السوائل بكثرة - تساعد كثيرًا في تخفيف الأعراض. قد تكون كافية لتكون خالية من الأعراض في حالة المرحلة المبكرة من IC / BPS.
 
 
-          Unfortunately, in most cases, by the time the treatment starts, lifestyle changes are not enough anymore. Even if there are certain guides used in several countries which say the treatment is to start with the least invasive method and the steps should follow each other in the order of increasing invasiveness.
+          لسوء الحظ ، في معظم الحالات ، بحلول الوقت الذي يبدأ فيه العلاج ، لم تعد تغييرات نمط الحياة كافية. حتى إذا كانت هناك أدلة معينة مستخدمة في العديد من البلدان والتي تنص على أن العلاج يبدأ بالطريقة الأقل توغلاً ويجب أن تتبع الخطوات بعضها البعض بترتيب زيادة الغزو.
 
 
-          In theory, this guideline is correct. In practice, on the other hand, the non-invasive methods (such as lifestyle changes, diet, oral medication etc.) may make the time elapsed until the effective treatment last longer. In order to focus on the patients’ interest, starting with a combined therapy seems to be the most effective. This means, administering anti-inflammatory, analgesic and GAG-layer strengthening medication orally and instilling GAG-layer replenishers simultaneously.
-      - q: I read that vegan diet would heal IC/BPS. Is that true?
+          من الناحية النظرية ، هذا المبدأ التوجيهي صحيح. في الممارسة العملية ، من ناحية أخرى ، فإن الأساليب غير الجراحية (مثل تغيير نمط الحياة ، والنظام الغذائي ، والأدوية عن طريق الفم ، وما إلى ذلك) قد تجعل الوقت ينقضي حتى يستمر العلاج الفعال لفترة أطول. من أجل التركيز على اهتمامات المرضى ، يبدو أن البدء بعلاج مشترك هو الأكثر فعالية. وهذا يعني ، إعطاء الأدوية المضادة للالتهابات والمسكنات وتقوية طبقة GAG عن طريق الفم وغرس مواد تجديد طبقة GAG في وقت واحد.
+      - q: قرأت أن النظام الغذائي النباتي سيشفي  IC / BPS. هل هذا صحيح؟
         anchor: vegan-diet
-        text: There are certain people who admit by cutting out food of animal origin
-          they managed to heal their IC/BPS. It is not our task to decide
-          whether vegan diet is healthier, but there is something that needs to
-          be cleared. No research has shown any correlation between the symptoms
-          and having food of animal origin. It is proven, on the other hand,
-          that any food or drink makes the urine more acidic (such as tomato or
-          fruit juices) can irritate the bladder and worsen the symptoms. Most
-          sorts of meat can be had without any problems if prepared well (e.g.
-          without using irritative spices).
-      - q: Why to take medicine? Herbal products or teas can be more effective, can’t
-          they?
+        text: >-
+          هناك بعض الأشخاص الذين يعترفون بذلك عن طريق الاستغناء عن الأطعمة ذات
+          الأصل الحيواني و بالفعل تمكنوا من شفاء IC / BPS . ليس من مهمتنا أن
+          نقرر ما إذا كان النظام الغذائي النباتي أكثر صحة ، لم يظهر أي بحث أي
+          علاقة بين الأعراض وتناول طعام من أصل حيواني. من ناحية أخرى ثبت أنه أن
+          أي طعام أو شراب يجعل البول أكثر حمضية (مثل الطماطم أو عصائر الفاكهة)
+          يمكن أن تهيج المثانة وتزيد الأعراض سوءًا. معظم المرضى
+
+          يمكنهم تناول أنواع اللحوم دون أي مشاكل إذا تم تحضيرها جيدًا (على سبيل المثال بدون استخدام التوابل).
+      - q: "لماذا تأخذ الدواء؟ يمكن أن تكون المنتجات العشبية أو الشاي أكثر فعالية "
         anchor: herbal
-        text: There are not enough data available on herbal products available on the
-          market to decide whether they are effective or not. However, most
-          herbal teas and extracts contain substances which can irritate the
-          damaged bladder. Because of this, even if they are or may be
-          effective, they can do more harm than good.
-      - q: Which sort of antibiotics is the best for treating IC/BPS?
+        text: لا توجد بيانات كافية متاحة عن المنتجات العشبية المتاحة في السوق لتقرير ما
+          إذا كانت فعالة أم لا. ومع ذلك ، فإن معظم أنواع الشاي ومستخلصات الأعشاب
+          تحتوي على مواد يمكن أن تهيج المثانة . لهذا السبب ، حتى لو كانت فعالة
+          أو قد تكون فعالة ، فإنها يمكن أن تضر أكثر مما تنفع.
+      - q: أي نوع من المضادات الحيوية هو الأفضل لعلاج IC / BPS؟
         anchor: antibiotics
         text: >-
-          Let’s make it clear: antibiotics are used for treating bacterial
-          infections, and IC/BPS has no pathogen. So, none of them are effective
-          for treating IC/BPS.
+          لنجعل الأمر واضحًا: تستخدم المضادات الحيوية لعلاج البكتيريا ، و IC /
+          BPS ليس له مسببات. لذلك ، لا يوجد منها أي فعال في علاج IC / BPS.
 
 
-          If your urologist happens to have prescribed some antibiotics, it must have happened because you have a bacterial urinary tract infection. In this case, antibiotics are effective, but choosing the most effective one should happen only after a bacterial culture has been made (to decide what sort of bacteria are to be fought off).
+          إذا صادف أن طبيب المسالك البولية قد وصف بعض المضادات الحيوية ، فلا بد أن ذلك حدث لأنك مصاب بعدوى بكتيرية في المسالك البولية. في هذه الحالة ، تكون المضادات الحيوية فعالة ، لكن اختيار الأكثر فاعلية يجب أن يتم فقط بعد التحليل (لتحديد نوع البكتيريا التي يجب محاربتها).
 
 
-          In case an IC/BPS starts taking antibiotics – because of any condition or infection besides IC/BPS –, they should ask for advice from their urologist, since most antibiotics can irritate the damaged bladder – just in the same way as herbal products do!
-      - q: Which one is the best analgesic for IC/BPS?
+          في حالة IC / BPS البدء في تناول المضادات الحيوية - بسبب أي حالة أو عدوى إلى جانب يجب طلب النصيحة من طبيب المسالك البولية ، لأن معظم المضادات الحيوية يمكن أن تهيج المثانة - تمامًا كما تفعل المنتجات العشبية!
+      - q: أيهما أفضل المسكنات لـ IC / BPS؟
         anchor: analgesics
         text: >-
-          The cause of the pain is the increased permeability of the protective
-          bladder of the mucus. So, pain shows up because there are irritative
-          substances present in the urine. Therefore, the most effective way to
-          mitigate the pain is to drink a lot, which lowers the concentration of
-          these irritative substances in the urine. Also, a strict IC/BPS diet
-          must be followed (to lessen the intake of everything that makes the
-          urine more acidic), complemented with urine alkalization (with
-          alkalizing pills, alkalic mineral water, or lemon juice).
+          سبب الألم هو زيادة نفاذية المثانة الواقية للمخاط. لذلك ، يظهر الألم
+          بسبب وجود مواد مهيجة في البول. لذلك ، فإن الطريقة الأكثر فعالية لتخفيف
+          الألم هي شرب الكثير من السوائل ، مما يقلل من تركيز هذه المواد المهيجة
+          في البول. أيضًا ، يجب اتباع نظام غذائي صارم IC / BPS (لتقليل تناول كل
+          ما يجعل البول أكثر حمضية) ، مع استكماله بقلونة البول (بحبوب قلوية ، أو
+          مياه معدنية قلوية ، أو عصير الليمون).
 
 
-          Besides everything detailed so far has been applied, any general analgesic can be administered (such as Advil, Diclofenac, Algopyrin etc.).
-      - q: What sort of food supplement or vitamin should be taken?
+          إلى جانب كل ما تم تطبيقه بالتفصيل حتى الآن ، يمكن إعطاء أي مسكن عام (مثل Advil و Diclofenac و Algopyrin وما إلى ذلك).
+      - q: ما نوع المكملات الغذائية أو الفيتامينات التي يجب تناولها؟
         anchor: vitamins
         text: >-
-          Generally said, vitamin products do not help mitigate the
-          symptoms. Regardless of the plenty of pages on the Internet
-          advertising “magical products” good for everyone! Always be cautious –
-          especially if there is nothing said about contraindications. The best
-          thing you can do is to ask your therapist before you start taking a
-          new medicine or food supplement.
+          بشكل عام ، لا تساعد منتجات الفيتامينات في تخفيف الأعراض.
 
 
-          Also, it is worth knowing that vitamin B and C taken in big doses can worsen the symptoms – just like antibiotics and herbal products can.
-      - q: Is oral medication better than intravesical?
+          بغض النظر عن كثرة الصفحات التي تعلن على الإنترنت عن "منتجات سحرية" جيدة للجميع! كن حذرًا دائمًا - خاصةً إذا لم يكن هناك شيء يقال عن موانع الاستعمال. أفضل شيء يمكنك القيام به هو أن تسأل طبيبك قبل البدء في تناول دواء جديد أو مكمل غذائي.
+
+
+          أيضًا ، من الجدير معرفة أن تناول فيتامين B و C بجرعات كبيرة يمكن أن يؤدي إلى تفاقم الأعراض - تمامًا مثل المضادات الحيوية والمنتجات العشبية.
+      - q: هل الدواء عن طريق الفم أفضل من الحقن داخل المثانة؟
         anchor: medication
         text: >-
-          The opposite is true. Local administration – instilling the medication
-          directly into the bladder – enables much bigger concentration of the
-          active agent in the target organ (in this case: the surface of the
-          bladder) than oral administration. Moreover, if a medicine is
-          instilled into the bladder, it does not enter the blood circulation,
-          which means, no systematic side-effects occur.
+          العكس هو الصحيح. يتيح الإعطاء الموضعي - غرس الدواء مباشرة في المثانة -
+          تركيزًا أكبر بكثير للعامل النشط في العضو المستهدف (في هذه الحالة: سطح
+          المثانة) مقارنة بالإعطاء عن طريق الفم. علاوة على ذلك ، إذا تم غرس دواء
+          في المثانة ، فإنه لا يدخل الدورة الدموية ، مما يعني عدم حدوث آثار
+          جانبية منتظمة.
 
 
-          That said, intravesical instillation is more effective than oral medication.
-      - q: But… intravesical instillation is done with a catheter!
+          فإن التقطير داخل المثانة أكثر فعالية من الأدوية التي تؤخذ عن طريق الفم.
+      - q: لكن ... يتم تقطير داخل المثانة باستخدام قسطرة!
         anchor: instillation
         text: >-
-          Indeed, for a long time, applying a catheter used to be the only way
-          of bladder instillation. Even if the procedure is painful,
-          uncomfortable, and infections often occurred after the treatment. To
-          overcome these problems have UroDapter® been developed, an urological
-          adapter which replaces catheter. You can read more about UroDapter®
-          on [this page].
+          في الواقع ، لفترة طويلة ، كان استخدام القسطرة هو الطريقة الوحيدة
+          لتقطير المثانة. حتى لو كان الإجراء مؤلمًا وغير مريح ، وغالبًا ما تحدث
+          التهابات بعد العلاج. للتغلب على هذه المشاكل ، تم تطوير UroDapter® ،
+          وهو محول للمسالك البولية يحل محل القسطرة. يمكنك قراءة المزيد حول
+          UroDapter® على [هذه الصفحة].
 
 
-          Also, there is another medical device, UroStill®, which helps patients perform a self-treatment. With UroStill®, the bladder instillation through the urethra can be done without external help. More information can be found on [this page].
-      - q: Not only has the treatment help, but also it has made everything worse! I
-          must have received the wrong treatment!
+          يوجد أيضًا جهاز طبي آخر ، UroStill® ، يساعد المرضى على إجراء العلاج الذاتي. باستخدام UroStill® ، يمكن إجراء تقطير المثانة عبر مجرى البول دون مساعدة شخص أخر. يمكن العثور على مزيد من المعلومات على [هذه الصفحة].
+      - q: لم يقتصر الأمر على أن العلاج لم يقدم أي مساعدة ، ولكنه صنع كل شيء أيضًا أسوأ!
+          لابد أنني تلقيت معاملة خاطئة!
         anchor: treatment
         text: >-
-          There are a couple of things to be cleared.
+          للتوضيح.
 
 
-          Firstly, it is not possible to achieve any improvement of a condition which has developed for long years, with one or very few treatments.
+          أولاً ، ليس من الممكن تحقيق أي تحسن في حالة تطورت لسنوات طويلة ، مع علاج واحد أو علاج قليل جدًا.
 
 
-          Secondly, there is no treatment that is effective for the 100% of the patients. That said, 20% of the patients do not respond to the usual ways of treatment. In their case, further examinations may be necessary; for example, (another) cystoscopy may confirm damaged areas in the bladder mucosa that are not responding to the local therapy anymore. In this case, fulguration of the affected areas may be necessary. Administering substances affecting the nerve system (antidepressants, nerval anti-inflammatories), anti-allergic compounds or strong, even dazing analgesics may help, as complementary forms of the treatment.
+          ثانياً ، لا يوجد علاج فعال لـ 100٪ من المرضى. ومع ذلك ، فإن 20٪ من المرضى لا يستجيبون لطرق العلاج المعتادة. في حالتهم ، قد يكون من الضروري إجراء مزيد من الفحوصات ؛ على سبيل المثال ، قد يؤكد تنظير المثانة في المناطق التالفة في الغشاء المخاطي للمثانة التي لا تستجيب للعلاج الموضعي بعد الآن. في هذه الحالة ، قد يكون من الضروري علاج المناطق المصابة. قد يساعد استخدام المواد التي تؤثر على الجهاز العصبي (مضادات الاكتئاب ومضادات الالتهاب العصبي) والمركبات المضادة للحساسية أو المسكنات القوية، كأشكال تكميلية للعلاج.
 
 
-          Thirdly, solutions used for bladder instillation usually contain more components; including anti-inflammatories, anesthetics, analgesics, and GAG-layer replenishers. It’s rare, but not impossible that someone is allergic to one of these components – e.g. to lidocaine. However, this does not trigger pain, in most cases. It is much more likely that the symptoms are getting worse because the medicine is too concentrated or too acidic – these factors can indeed be irritative.
+          ثالثًا ، عادةً ما تحتوي المحاليل المستخدمة في تقطير المثانة على المزيد من المكونات ؛ بما في ذلك مضادات الالتهاب والمخدرات والمسكنات ومكملات طبقة GAG. من النادر ، ولكن ليس من المستحيل أن يعاني شخص ما من حساسية تجاه أحد هذه المكونات - على سبيل المثال ليدوكائين. ومع ذلك ، فإن هذا لا يسبب الألم ، في معظم الحالات. من الأرجح أن الأعراض تزداد سوءًا لأن الدواء شديد التركيز أو شديد الحموضة - يمكن أن تكون هذه العوامل مهيجة بالفعل.
 
 
-          Finally, the GAG-layer consists of more compounds; the bladder instillation solutions (or cocktails) usually contain one or some of them. Generally said, a patient responds with a bigger chance if the instilled cocktail contains more GAG-layer replenishment elements.
-      - q: It feels as if the doctors were experimenting on the patients…
+          أخيرًا ، تتكون طبقة GAG من المزيد من المركبات ؛ عادة ما تحتوي محاليل تقطير المثانة (أو الكوكتيلات) على واحد أو بعض منها. بشكل عام ، يستجيب المريض بفرصة أكبر إذا كان الكوكتيل المغروس يحتوي على المزيد من عناصر تجديد طبقة GAG.
+      - q: يبدو الأمر كما لو أن الأطباء كانوا يجرون تجارب على المرضى ...
         anchor: experimenting
         text: >-
-          It must be pointed out that every medicine or pharmaceutical
-          composition has to undergo serious experiments and clinical
-          trials before they are allowed to be used in practice. In case of
-          lesser-known diseases like IC/BPS, it is a big achievement
-          that medicine the majority of the patients can be treated successfully
-          with do exist!
+          يجب الإشارة إلى أن كل دواء أو تركيبة صيدلانية يجب أن تخضع لتجارب
+          وتجارب إكلينيكية جادة قبل السماح باستخدامها في الممارسة العملية. في
+          حالة الأمراض الأقل شهرة مثل التهاب المثانة الخلالي / متلازمة
+          البروستاتا الحميد ، فإنه يعد إنجازًا كبيرًا ، حيث يمكن علاج غالبية
+          المرضى بنجاح.
 
 
-          If your therapist alters the ingredients of the cocktail administered, the frequency of the treatments, it indeed looks like “experimenting”. In fact, these decisions are based on the professional’s experience – which is based on hard work of long years, and feedback of hundreds of patients.
-      - q: I feel alone and isolated with my condition…
+          إذا قام طبيبك بتغيير مكونات الكوكتيل المعطى ، وتكرار العلاجات ، فإنه يبدو بالفعل وكأنه "تجربة". في الواقع ، تستند هذه القرارات إلى الخبرة المهنية - التي تستند إلى العمل الشاق لسنوات طويلة ، وتعليقات مئات المرضى.
+      - q: أشعر بالوحدة والعزلة مع حالتي ...
         text: >-
-          Not anymore.
+          ليس بعد الآن.
 
 
-          In most countries there are IC/BPS Patient Associations (since 2019, there has been a Hungarian organization, too). These associations dedicate themselves to help those who are suffering from this disease, and are open to the relatives of the patients, the doctors and everyone who would like to know more about this serious condition.
+          توجد في معظم البلدان جمعيات مرضى IC / BPS (منذ عام 2019 ، كانت هناك منظمة مجرية أيضًا). هذه الجمعيات تكرس نفسها لمساعدة من يعانون من هذا المرض ، وهي مفتوحة لأقارب المرضى والأطباء وكل من يرغب في معرفة المزيد عن هذه الحالة الخطيرة.
 
 
-          These associations are co-operating with each other, asking for help and guidance from those who may have collected more knowledge and built more relationships. They even consult with professionals about the future of research and therapy of IC/BPS.
+          تتعاون هذه الجمعيات مع بعضها البعض ، وتطلب المساعدة والتوجيه من أولئك الذين ربما جمعوا المزيد من المعرفة وأقاموا المزيد من العلاقات. حتى أنهم يتشاورون مع المتخصصين حول مستقبل البحث والعلاج لـ IC / BPS.
         anchor: associations
 ---

@@ -5,293 +5,302 @@ fallback: en
 components:
   - type: article
     text: >-
-      We must face the fact: plenty of people have never heard of IC/BPS. In
-      spite of this, there are a lot of false assumption and incorrect
-      information on the Internet about this condition. Actually, a lot of
-      things are still not known about IC/BPS. Luckily, it has been studied
-      enthusiastically, so there have been more and more studies published, more
-      and more up-to-date diagnostic methods and treatments have been tried out.
+      Dobbiamo affrontare il fatto: molte persone non hanno mai sentito parlare
+      dell’IC/BPS. Ciò nonostante, ci sono molte supposizioni false e
+      informazioni errate su Internet su questa condizione. In realtà, molte
+      cose non sono ancora note sull’IC/BPS. Per fortuna è stata studiata
+
+      con entusiasmo, quindi sono stati pubblicati sempre più studi, sono stati sperimentati metodi diagnostici e trattamenti sempre più aggiornati.
 
 
-      Unfortunately, the new facts spread on the Internet and people become aware of them with a significant delay. Obsolete views, hypotheses that were never proved, assumptions rejected later may be more known than the modern results and achievements. This is why popular misbeliefs can spread from website to website or among patients, too. In other words, even if a piece of information is available on plenty of webpages, it does not mean that it is correct, too. Social media is an especially “dangerous” platform, from this point of view. Every now and then it can happen that some farfetched assumption becomes considered a fact – misleading the visitors, and, eventually, the patients, too.
+      Sfortunatamente, i nuovi fatti si sono diffusi su Internet con certa dilazione e le persone ne vengono a conoscenza con un notevole ritardo. Viste obsolete, ipotesi che non sono mai state dimostrate, presupposti rifiutati in seguito possono essere più conosciuti dei risultati e delle conquiste moderne. Questo è il motivo per cui le credenze popolari possono diffondersi da un sito web all’altro o anche tra i pazienti. In altre parole, anche se un’informazione è disponibile su molte pagine web, ciò non significa che sia anche corretta. I social media sono una piattaforma particolarmente “pericolosa”, da questo punto di vista. Ogni tanto può capitare che qualche presupposto inverosimile venga considerato un dato di fatto, ingannando i visitatori e, eventualmente, anche i pazienti.
 
 
-      This is why we would like to make a couple of things clear about this condition.
+      Questo è il motivo per cui vorremmo chiarire un paio di cose su questa condizione.
   - type: qas
     items:
-      - q: IC/BPS is a sparse disease, isn’t it?
+      - q: L’IC/BPS è una malattia sparsa, vero?
         anchor: sparse-disease
         text: >-
-          Considering the number of diagnosed cases, indeed, it appears so.
-          Depending on the way how the estimations are made, up to 2–5% of the
-          adult people may be affected. However, the diagnose rate of the
-          disease is very low: even in countries of most advanced healthcare it
-          is below 10%. (In most countries it is between 1–5%.)
+          Considerando il numero di casi diagnosticati, infatti, sembra proprio
+          di sì.
 
 
-          There are several factors behind the low diagnose rate. The disease itself is not known by most people; there are even doctors, gynecologists and urologists (!) who have never heard of it. Most who suffer from IC/BPS do not dare talk honestly about their symptoms, which greatly hinders the publicity of the disease.
+          A seconda del modo in cui vengono effettuate le stime, può essere colpito fino al 2-5% delle persone adulte. Comunque, il tasso di diagnosi della malattia è molto basso: anche nei paesi con un’assistenza sanitaria più avanzata è inferiore al 10%. (Nella maggior parte dei paesi è compreso tra l’1 e il 5%.)
 
 
-          This is why we are dedicated to inform the society: IC/BPS is a severe disease, which affects many people.
+          Ci sono diversi fattori dietro il basso tasso di diagnosi. La malattia stessa non è conosciuta dalla maggior parte della gente; ci sono persino medici, ginecologi e urologi (!) che non ne hanno mai sentito parlare. La maggior parte di coloro che soffrono dell’IC/BPS non osa parlare onestamente dei propri sintomi, il che ostacola notevolmente la divulgazione della conoscenza di questa malattia.
 
 
-          If it is assumed that you have 250 acquaintance, it is likely that there is someone among them who suffers from IC/BPS. Even if he/she never talks about it.
-      - q: So what. If someone is ill, they have to see the doctor. IC/BPS is not an
-          exception, isn’t it?
+          Questo è il motivo per cui ci dedichiamo a informare la società: L’IC/BPS è una malattia grave che colpisce molte persone.
+
+
+          Se si presume che Lei ha 250 conoscenti, è probabile che ci sia qualcuno tra loro che soffre dell’IC/BPS. Anche se questa persona non ne parla mai.
+      - q: E allora? Se qualcuno è malato, deve consultare il medico. L’IC/BPS non fa
+          eccezione, vero?
         anchor: so-what
         text: >-
-          The most typical symptoms of IC/BPS are the bladder (and urethral)
-          pain and frequent urination. Unfortunately, these symptoms can be
-          present because of other conditions, too: for example, malignant
-          transformations (cancer) or bacterial urinary tract infections.
-          However, these diseases usually have definite markers, such as pus in
-          the urine.
+          I sintomi più tipici dell’IC/BPS sono il dolore alla vescica (e
+          all’uretra) e la minzione frequente. Sfortunatamente, questi sintomi
+          possono essere presenti anche a causa di altre condizioni: ad es.,
+          trasformazioni maligne (cancro) o infezioni batteriche delle vie
+          urinarie.
 
 
-          IC/BPS has no similar markers, since it has no pathogen and there is no tumorous transformation either.
+          Comunque, queste malattie di solito hanno marcatori definiti, come il pus nelle urine.
 
 
-          Therefore, to diagnose IC/BPS all the other conditions may cause similar symptoms must be excluded.
+          L’IC/BPS non ha marcatori simili, poiché non ha agenti patogeni e non è nemmeno presente nessuna trasformazione tumorale.
 
 
-          If it gets diagnosed at all… Since most of the GPs and gynecologists do not know this disease, they cannot treat it either. They often set up a false diagnosis, which results in false and/or unnecessary treatments. Sadly, there are even urologists who do not have proper knowledge on IC/BPS. Often times, they do know the disease but they simply do not consider it – or if they do, they do not apply the up-to-date treatment methods since they are not aware of those.
+          Pertanto, per poter diagnosticare l’IC/BPS, si devono escludere tutte le altre condizioni che possono causare sintomi simili.
 
 
-          Without a proper diagnosis, things can go wrong easily. Seriously wrong.
+          Se viene diagnosticata del tutto... Considerando che la maggior parte dei medici di famiglia e dei ginecologi non conoscono questa malattia, non possono nemmeno curarla. Spesso formulano una diagnosi sbagliata, che si traduce in trattamenti erronei e/o non necessari. Purtroppo, ci sono persino urologi che mancano di una conoscenza adeguata sull’IC/BPS. Spesso conoscono la malattia ma semplicemente non la considerano o, se lo fanno, non applicano i metodi di trattamento aggiornati poiché non li conoscono.
 
 
-          Patients may run from doctor to doctor, hoping that someone may be able to find out what the problem is and how to treat it. Which is far not the worst case. There have been plenty of patients who were mis-treated (for example, with some gynecological problem) since their doctor set up an entirely wrong diagnosis. Some patients stick to their therapists for long years, even a decade – and get a treatment which does not help at all or makes everything even worse. Antibiotics, for example.
+          Senza una diagnosi corretta, le cose possono andare storte facilmente. Seriamente storte.
 
 
-          Sometimes the most terrible happens. Since there is noting to identify as the cause of the pain, the doctor assumes it is only in the patient’s mind – and redirects him/her to a psychologist or a psychiatrist.
+          I pazienti possono correre da un medico all’altro, sperando che qualcuno possa essere in grado di scoprire qual è il problema e come trattarlo. E questo non è ancora il caso peggiore. C’erano molti pazienti che venivano curati male (ad es., con qualche problema ginecologico) dato che il loro medico ha formulato una diagnosi completamente sbagliata. Alcuni pazienti si attengono ai loro terapeuti per lunghi anni, anche un decennio, e ricevono un trattamento che non aiuta affatto o peggiora ulteriormente le condizioni. Antibiotici, per esempio.
 
 
-          Meanwhile, the condition progresses. In case of a severe form of IC/BPS, the patient has to urinate in every hour. Or twice, three times an hour. Which, no surprise, hinders work, too. Pain can wreck the private life. Night becomes a nightmare because of the symptoms, which leads to sleep deprivation.
+          A volte accade il più terribile. Poiché non c’è nulla da identificare come la causa del dolore, il medico presume che questo esista solo nella mente del paziente e lo reindirizza a uno psicologo o uno psichiatra.
 
 
-          There have already been patients who, having seen no other way out, committed suicide.
+          Nel frattempo, la condizione progredisce. In caso di una forma grave dell’IC/BPS, il paziente deve urinare ogni ora. Una volta, due volte, tre volte. Il che, nessuna sorpresa, ostacola anche il lavoro. Il dolore può distruggere la vita privata. La notte diventa un incubo a causa dei sintomi, che porta alla privazione del sonno.
 
 
-          Because of all these things, it is essential to diagnose IC/BPS quickly so that the proper treatment can start as soon as it is possible.
-      - q: "I have already checked it on the Internet: if my bladder hurts and I have to
-          urinate a lot, then I have IC/BPS…"
+          Ci sono già stati pazienti che, non vedendo altra via d’uscita, si sono suicidati.
+
+
+          A causa di tutte queste cose, la diagnosi precoce dell’IC/BPS è fondamentale, in modo che il trattamento adeguato possa iniziare non appena possibile.
+      - q: "L’ho già verificato su Internet: se mi fa male la vescica e devo urinare
+          molto, allora ho la IC/BPS..."
         text: >-
-          Let’s make it clear: even much more known diseases or conditions with
-          much more definite symptoms can never be diagnosed by reading articles
-          on the Internet. No one should every self-diagnose themselves with the
-          help of the Internet.
+          Mettiamo in chiaro: neanche malattie o condizioni molto più conosciute
+          con sintomi molto più definiti possono essere diagnosticate leggendo
+          articoli su Internet. Nessuno dovrebbe auto-diagnosticarsi con l’aiuto
+          di Internet.
 
 
-          As we said before, there are quite a lot of other conditions which may have similar symptoms. These, however, can be diagnosed by a urologist with routine tests. (For example, a simple urine test.) When it has happened, the proper treatment can start instantly.
+          Come abbiamo detto prima, ci sono molte altre condizioni che possono avere sintomi simili. Questi, tuttavia, possono essere diagnosticati da un urologo con i test di routine. (Ad es., un semplice esame delle urine.) Una volta fatta la diagnosi, il trattamento adeguato può iniziare immediatamente.
 
 
-          It is worth knowing, on the other hand, that finding an "easily diagnosable" disease does not essentially rule out IC/BPS. It is also possible that the symptoms indeed refer to IC/BPS.
+          D’altra parte, vale la pena sapere che trovare una malattia “facilmente diagnosticabile” non per forza esclude l’IC/BPS. È anche possibile che i sintomi si riferiscano effettivamente all’IC/BPS.
 
 
-          But it is not you who can find out what the problem is. Not even this webpage. You have to see a urologist, who can perform all the necessary examinations to diagnose you – who can confirm or deny IC/BPS.
+          Ma non è Lei che può determinare qual è il problema. Nemmeno questa pagina web. Deve rivolgersi a un urologo, che può eseguire tutti gli esami necessari per diagnosticarla, che può confermare o negare la presenza dell’IC/BPS.
         anchor: internet
-      - q: Can IC/BPS be diagnosed then?
+      - q: È possibile quindi diagnosticare l’IC/BPS?
         anchor: diagnosis
         text: >-
-          Although there is no 100% method for diagnosing this disease, nowadays
-          it is possible to do so with high accuracy.
+          Sebbene, per diagnosticare questa malattia non esista un metodo al
+          100%, al giorno d’oggi
+
+          è possibile farlo con un’elevata precisione.
 
 
-          All the symptoms of IC/BPS occur because of the deficiency of the mucus layer of the bladder – this layer is called GAG-layer. The GAG-layer insufficiency does not essentially mean the lack of it. Often times, the deficiency can be observed only in distinct regions or patches, or the permeability of the GAG-layer is increased. Moreover, this is not the same condition as IC/BPS (which is, per definition, the non-bacterial inflammation of the bladder wall), but with time the deficiency may lead to the development of IC/BPS.
+          Tutti i sintomi dell’IC/BPS si verificano a causa della carenza dello strato di muco della vescica - questo strato è chiamato strato di GAG. L’insufficienza dello strato di GAG non per forza significa la sua mancanza. La carenza spesso può essere osservata solo in certe aree o macchie, oppure la permeabilità dello strato di GAG è aumentata. Inoltre, questa non è la stessa condizione dell’IC/BPS (che è, per definizione, l’infiammazione non batterica della parete vescicale), ma con il tempo la carenza può portare allo sviluppo dell’IC/BPS.
 
 
-          The changes of the GAG-layer, on the other hand, can be identified. One of the newest methods how it can be performed is the GAG-layer integrity test. During this test, the patients have to log for two days the frequency and the volumes of their voidings. Further information can be found [here].
+          D’altro canto, i cambiamenti dello strato di GAG possono essere identificati. Uno dei metodi più recenti per eseguirlo è il test di integrità dello strato di GAG. Durante questo test, i pazienti devono registrare la frequenza e i volumi delle loro minzioni per due giorni. Per ulteriori informazioni cliccate [qui].
 
 
-          For the accurate diagnosis the doctors regularly apply further methods, too. They investigate the anamnesis of the patient, have them fill out questionnaires to evaluate their general condition, and, if needed, they confirm the diagnosis with other examinations, for example, cystoscopy.
-      - q: My therapist wants me to see a psychologist. This is totally unacceptable! I
-          have problems in my bladder, not in my mind!
+          Per una diagnosi accurata i medici applicano regolarmente anche altri metodi. Indagano l’anamnesi del paziente, gli fanno compilare questionari per valutare le sue condizioni generali e, se necessario, con altri esami, ad es. con la cistoscopia confermano la diagnosi.
+      - q: Il mio terapeuta vuole inviarmi da uno psicologo. Questo è totalmente
+          inaccettabile! Io ho problemi alla vescica, non nella mia mente!
         anchor: psychology
         text: >-
-          As a matter of fact, if you are sent to a psychologist, that does not
-          mean that your therapist wants to get rid of you. Psychical stress can
-          often be a side-effect of a long-lasting condition of severe
-          pain. IC/BPS is not an exception. Psychical symptoms can make
-          everything worse, which may lead to suicidal thoughts. Unfortunately,
-          these thoughts may be translated to acts, too – as it has already
-          happened to a couple of patients.
+          In effetti, se Lei viene mandata da uno psicologo, non significa che
+          il Suo terapeuta voglia liberarsi di Lei. Lo stress psichico spesso
+          può essere un effetto collaterale di una condizione di lunga durata di
+          forte dolore. L’IC/BPS non fa eccezione. I sintomi psichici possono
+          peggiorare tutto, il che può portare a pensieri suicidi.
+          Sfortunatamente, questi pensieri possono essere tradotti anche in
+          atti, come è già successo a un paio di pazienti.
 
 
-          A psychologist can give important help to cope with the disease, improve the patient’s self-assessment – thus, may be an important part of the IC/BSP therapy.
+          Uno psicologo può offrire un aiuto notevole per far fronte alla malattia, migliorare l’autovalutazione del paziente, quindi può essere una parte importante della terapia dell’IC/BSP.
 
 
-          Certainly, it should never be forgotten that any psychological treatment may complement, but never replace the therapy of a professional urologist!
-      - q: I got diagnosed with IC/BPS, but my therapist hadn’t done cystoscopy, biopsy
-          or urodynamics!
+          Certamente, non va mai dimenticato che qualsiasi trattamento psicologico può completare, ma mai sostituire, la terapia di un urologo professionista!
+      - q: Sono stato diagnosticato con IC/BPS, ma il mio terapeuta non aveva fatto
+          cistoscopia, biopsia o urodinamica!
         text: >-
-          As it was explained above, diagnosing IC/BPS is a complicated task. It
-          does not essentially involve all the possible diagnostic methods.
-          Indeed, cystoscopy is frequently done by urologists. It is an
-          effective way to identify some abnormalities that may refer to certain
-          forms of IC/BPS. Nowadays, cystoscopy is a “mild” diagnostic tool,
-          which can be totally pain-free. However, it is still an invasive tool;
-          complications or side-effects might occur in a small percentage of
-          cases. So, without proper professional reasons, it is not
-          recommended. Especially, since there are forms of IC/BPS without any
-          characteristic signs on the cystoscopy image.
+          Come è stato spiegato sopra, la diagnosi dell’IC/BPS è un compito
+          complesso. Non coinvolge per forza tutti i possibili metodi
+          diagnostici. In effetti, la cistoscopia viene spesso eseguita dagli
+          urologi. È un modo efficace per identificare alcune anomalie che
+          possono indicare determinate forme dell’IC/BPS. Al giorno d’oggi, la
+          cistoscopia è uno strumento diagnostico “leggero”, che può essere
+          totalmente indolore. Comunque, è sempre uno strumento invasivo; in una
+          piccola percentuale dei casi possono verificarsi complicazioni o
+          effetti collaterali. Quindi, senza motivi professionali validi, non è
+          raccomandato. Soprattutto perché ci sono forme dell’IC/BPS senza segni
+          caratteristici visibili sull’immagine della cistoscopia.
 
 
-          The biopsy of the bladder mucosa is not the part of diagnosing IC/BPS anymore, because the biopsy image does not give any relevant information. On the other hand, signs of a malignant transformation can be discovered by biopsy – but urine cytology examination is considered to be a more effective tool, which is less invasive, as well.
+          La biopsia della mucosa vescicale non fa più parte della diagnosi dell’IC/BPS, perché l’immagine bioptica non fornisce alcuna informazione rilevante. D’altra parte, i segni di una trasformazione maligna possono essere scoperti dalla biopsia, ma l’esame citologico delle urine è considerato uno strumento più efficace, che è anche meno invasivo.
 
 
-          Urodynamics are not only incapable of diagnosing IC/BPS, but also time-consuming, expensive and invasive. They are not recommended for this purpose anymore.
+          L’urodinamica non solo non è in grado di diagnosticare l’IC/BPS, ma è anche lunga, costosa e invasiva. Per questo scopo non è più raccomandato.
         anchor: complicated
-      - q: Wouldn’t it be easier to identify what causes IC/BPS and treat causes
-          themselves?
+      - q: Non sarebbe più facile identificare le cause dell’IC/BPS e trattarle
+          direttamente?
         anchor: causes
         text: >-
-          Indeed, a major part of the IC/BPS researches focus on the cause why
-          IC/BPS develops – why the GAG-layer gets defective – so that a casual
-          treatment could be applied.
+          In effetti, una parte importante delle ricerche dell’IC/BPS si
+          concentra sulla causa per cui si sviluppa questa patologia, perché lo
+          strato di GAG diventa difettoso, affinché si possa applicare un
+          trattamento casuale.
 
 
-          There have been several theories introduced, but none of them have been proven so far. So, the real cause of IC/BPS is still not known, current therapies must focus on treating the symptoms: replenishing the GAG-layer or mitigating the symptoms.
-      - q: Can IC/BPS be cured permanently?
+          Sono state introdotte diverse teorie, ma nessuna di esse è stata finora confermata. Quindi, la vera causa dell’IC/BPS non è ancora conosciuta, le terapie attuali devono concentrarsi sul trattamento dei sintomi: reintegrare lo strato di GAG o mitigare i sintomi.
+      - q: L’IC/BPS può essere curata per sempre?
         anchor: cure
         text: >-
-          Unfortunately, there is no treatment known which can cure IC/BPS for
-          good. However, if an effective treatment is applied, patients can be
-          symptom-free for long years. The sooner the condition is diagnosed,
-          the bigger the chance for this.
+          Sfortunatamente, non è noto alcun trattamento che possa curare
+          definitivamente l’IC/BPS. Nonostante, se viene applicato un
+          trattamento efficace, i pazienti possono rimanere senza sintomi per
+          lunghi anni. Prima viene diagnosticata la condizione, maggiore è la
+          possibilità che ciò accada.
 
 
-          It must be noted that for achieving a good result the patient must work hard, too. The effective treatment includes lifestyle changes, abundant fluid intake, dietary changes and medical advice – these are to be obeyed for the best result.
-      - q: Are lifestyle changes enough?
+          Va notato che per ottenere un buon risultato anche il paziente deve lavorare sodo. Il trattamento efficace include cambiamenti nello stile di vita, un’abbondante assunzione di liquidi, cambiamenti nella dieta e consigli medici: questi devono essere seguiti per il miglior risultato.
+      - q: I cambiamenti nello stile di vita sono sufficienti?
         anchor: lifestyle
         text: >-
-          If only it were so!
+          Magari lo fossero!
 
 
-          Don’t put it in the wrong way, though: lifestyle changes – especially diet and abundant fluid intake – help a lot in mitigating the symptoms. They may be enough for being symptom-free in case of an early-phase IC/BPS.
+          Non metterla nel modo sbagliato, però: i cambiamenti dello stile di vita - in particolare la dieta e l’abbondante assunzione di liquidi - aiutano molto a mitigare i sintomi. Possono essere sufficienti per essere asintomatici in caso di una IC/BPS in fase iniziale.
 
 
-          Unfortunately, in most cases, by the time the treatment starts, lifestyle changes are not enough anymore. Even if there are certain guides used in several countries which say the treatment is to start with the least invasive method and the steps should follow each other in the order of increasing invasiveness.
+          Sfortunatamente, nella maggior parte dei casi, quando inizia il trattamento, i cambiamenti dello stile di vita non sono più sufficienti. Anche se ci sono alcune guide utilizzate in diversi paesi che dicono che il trattamento deve iniziare con il metodo meno invasivo e che i passaggi dovrebbero seguirsi l’un l’altro nell’ordine di crescente invasività.
 
 
-          In theory, this guideline is correct. In practice, on the other hand, the non-invasive methods (such as lifestyle changes, diet, oral medication etc.) may make the time elapsed until the effective treatment last longer. In order to focus on the patients’ interest, starting with a combined therapy seems to be the most effective. This means, administering anti-inflammatory, analgesic and GAG-layer strengthening medication orally and instilling GAG-layer replenishers simultaneously.
-      - q: I read that vegan diet would heal IC/BPS. Is that true?
+          In teoria, questa linea guida è corretta. In pratica, invece, i metodi non invasivi (come cambiamenti dello stile di vita, dieta, farmaci per via di somministrazione orale, ecc.) possono prolungare il tempo durante il quale il trattamento risulta efficace. Per concentrarsi sull’interesse dei pazienti, iniziare con una terapia combinata sembra essere il più efficace. Ciò significa somministrare per via orale farmaci antinfiammatori, analgesici e rinforzanti e instillare contemporaneamente ricostituenti dello strato di GAG.
+      - q: Ho letto che la dieta vegana può guarire l’IC/BPS. Questo è vero?
         anchor: vegan-diet
-        text: There are certain people who admit by cutting out food of animal origin
-          they managed to heal their IC/BPS. It is not our task to decide
-          whether vegan diet is healthier, but there is something that needs to
-          be cleared. No research has shown any correlation between the symptoms
-          and having food of animal origin. It is proven, on the other hand,
-          that any food or drink makes the urine more acidic (such as tomato or
-          fruit juices) can irritate the bladder and worsen the symptoms. Most
-          sorts of meat can be had without any problems if prepared well (e.g.
-          without using irritative spices).
-      - q: Why to take medicine? Herbal products or teas can be more effective, can’t
-          they?
+        text: Ci sono alcune persone che ammettono che escludendo il cibo di origine
+          animale sono riuscite a curare la loro IC/BPS. Non è nostro compito
+          decidere se la dieta vegana sia più sana, ma c’è qualcosa che deve
+          essere chiarito. Nessuna ricerca ha dimostrato alcuna correlazione tra
+          i sintomi e il consumo di alimenti di origine animale.
+          È dimostrato, comunque, che qualsiasi cibo o bevanda che rende più
+          acida l’urina (come il pomodoro o i succhi di frutta) può irritare la
+          vescica e peggiorare i sintomi. La maggior parte dei tipi di carne può
+          essere consumata senza problemi se viene preparata bene (cioè senza
+          spezie irritanti).
+      - q: Perché prendere i farmaci? I prodotti erboristici o le tisane possono
+          rivelarsi più efficaci, vero?
         anchor: herbal
-        text: There are not enough data available on herbal products available on the
-          market to decide whether they are effective or not. However, most
-          herbal teas and extracts contain substances which can irritate the
-          damaged bladder. Because of this, even if they are or may be
-          effective, they can do more harm than good.
-      - q: Which sort of antibiotics is the best for treating IC/BPS?
+        text: Non ci sono dati disponibili sufficienti sui prodotti erboristici
+          disponibili sul mercato per decidere se sono efficaci o meno.
+          Nonostante, la maggior parte delle tisane e degli estratti contiene
+          sostanze che possono irritare la vescica danneggiata. Per questo
+          motivo, anche se sono o potrebbero essere efficaci, possono fare più
+          male che bene.
+      - q: Quale tipo di antibiotico è il migliore per il trattamento dell’IC/BPS?
         anchor: antibiotics
         text: >-
-          Let’s make it clear: antibiotics are used for treating bacterial
-          infections, and IC/BPS has no pathogen. So, none of them are effective
-          for treating IC/BPS.
+          Mettiamo in chiaro: gli antibiotici si usano per trattare le infezioni
+          batteriche e nel caso dell’IC/BPS non sono presenti agenti patogeni.
+          Quindi, nessuno è efficace per il trattamento dell’IC/BPS.
 
 
-          If your urologist happens to have prescribed some antibiotics, it must have happened because you have a bacterial urinary tract infection. In this case, antibiotics are effective, but choosing the most effective one should happen only after a bacterial culture has been made (to decide what sort of bacteria are to be fought off).
+          Se il Suo urologo Le ha prescritto degli antibiotici, questo poteva accadere perché era stata verificata un’infezione batterica del Suo tratto urinario. In questo caso, gli antibiotici risultano efficaci, ma la scelta di quello più efficace dovrebbe avvenire solo dopo che sia stata effettuata una coltura batterica (per decidere che tipo di batteri devono essere combattuti).
 
 
-          In case an IC/BPS starts taking antibiotics – because of any condition or infection besides IC/BPS –, they should ask for advice from their urologist, since most antibiotics can irritate the damaged bladder – just in the same way as herbal products do!
-      - q: Which one is the best analgesic for IC/BPS?
+          Quando un paziente con IC/BPS inizia a prendere antibiotici, a causa di qualsiasi condizione o infezione oltre all’IC/BPS, dovrebbe chiedere consiglio al proprio urologo, poiché la maggior parte degli antibiotici può irritare la vescica danneggiata, proprio come fanno i prodotti a base di erbe!
+      - q: Qual è il miglior analgesico per l’IC/BPS?
         anchor: analgesics
         text: >-
-          The cause of the pain is the increased permeability of the protective
-          bladder of the mucus. So, pain shows up because there are irritative
-          substances present in the urine. Therefore, the most effective way to
-          mitigate the pain is to drink a lot, which lowers the concentration of
-          these irritative substances in the urine. Also, a strict IC/BPS diet
-          must be followed (to lessen the intake of everything that makes the
-          urine more acidic), complemented with urine alkalization (with
-          alkalizing pills, alkalic mineral water, or lemon juice).
+          La causa del dolore è la permeabilità aumentata dello strato mucoso
+          protettivo della vescica. Quindi, il dolore si presenta perché ci sono
+          sostanze irritant presenti nelle urine. Pertanto, il modo più efficace
+          per alleviare il dolore è bere molto, il che riduce la concentrazione
+          di queste sostanze irritanti nelle urine. Inoltre, deve essere seguita
+          una dieta rigorosa, specifica all’IC/BPS per ridurre il consumo di
+          tutto ciò che rende l’urina più acida, completata con
+          l’alcalinizzazione delle urine, con pillole alcalinizzanti, acqua
+          minerale alcalina o succo di limone.
 
 
-          Besides everything detailed so far has been applied, any general analgesic can be administered (such as Advil, Diclofenac, Algopyrin etc.).
-      - q: What sort of food supplement or vitamin should be taken?
+          Oltre a quanto descritto finora, qualsiasi analgesico generico (come Advil, Diclofenac, Novalgina ecc.) può essere somministrato.
+      - q: Che tipo di integratore alimentare o vitamina si dovrebbe assumere?
         anchor: vitamins
         text: >-
-          Generally said, vitamin products do not help mitigate the
-          symptoms. Regardless of the plenty of pages on the Internet
-          advertising “magical products” good for everyone! Always be cautious –
-          especially if there is nothing said about contraindications. The best
-          thing you can do is to ask your therapist before you start taking a
-          new medicine or food supplement.
+          In generale, i prodotti vitaminici non aiutano a mitigare i sintomi.
 
 
-          Also, it is worth knowing that vitamin B and C taken in big doses can worsen the symptoms – just like antibiotics and herbal products can.
-      - q: Is oral medication better than intravesical?
+          Indipendentemente dalle tante pagine su Internet che pubblicizzano “prodotti magici”, panacea per tutte le malattie! Siate sempre cauti, soprattutto se non si parla delle controindicazioni. La cosa migliore che si può fare è rivolgersi al proprio terapeuta prima di iniziare ad assumere un nuovo medicinale o integratore alimentare.
+
+
+          Inoltre, vale la pena sapere che le vitamine B e C assunte in grandi dosi possono peggiorare i sintomi, proprio come gli antibiotici e i prodotti a base di erbe.
+      - q: I farmaci orali sono migliori di quelli intravescicali?
         anchor: medication
         text: >-
-          The opposite is true. Local administration – instilling the medication
-          directly into the bladder – enables much bigger concentration of the
-          active agent in the target organ (in this case: the surface of the
-          bladder) than oral administration. Moreover, if a medicine is
-          instilled into the bladder, it does not enter the blood circulation,
-          which means, no systematic side-effects occur.
+          Proprio il contrario. La somministrazione locale, quando il farmaco
+          viene instillato direttamente nella vescica, consente una
+          concentrazione molto maggiore dell’agente attivo nell’organo bersaglio
+          (in questo caso: la superficie della vescica), rispetto alla
+          somministrazione orale. Inoltre, se un medicinale viene instillato
+          nella vescica, non entra nella circolazione sanguigna, il che
+          significa che non si verificheranno effetti collaterali sistematici.
 
 
-          That said, intravesical instillation is more effective than oral medication.
-      - q: But… intravesical instillation is done with a catheter!
+          Detto questo, l’instillazione intravescicale è più efficace dei farmaci per via orale.
+      - q: Ma... l’instillazione intravescicale si fa con un catetere!
         anchor: instillation
         text: >-
-          Indeed, for a long time, applying a catheter used to be the only way
-          of bladder instillation. Even if the procedure is painful,
-          uncomfortable, and infections often occurred after the treatment. To
-          overcome these problems have UroDapter® been developed, an urological
-          adapter which replaces catheter. You can read more about UroDapter®
-          on [this page].
+          In effetti, durante molto tempo, l’applicazione di un catetere era
+          l’unica modalità dell’instillazione intravescicale. Anche se la
+          procedura è dolorosa, scomoda e spesso si sono verificate infezioni
+          dopo il trattamento. Per combattere questi problemi è stato
+          sviluppato l’UroDapter®, un adattatore urologico che sostituisce il
+          catetere. Ulteriori informazioni sull’UroDapter® sono disponibili su
+          [questa pagina].
 
 
-          Also, there is another medical device, UroStill®, which helps patients perform a self-treatment. With UroStill®, the bladder instillation through the urethra can be done without external help. More information can be found on [this page].
-      - q: Not only has the treatment help, but also it has made everything worse! I
-          must have received the wrong treatment!
+          Inoltre, esiste un altro dispositivo medico, l’UroStill®, che aiuta i pazienti a eseguire un autotrattamento. Con l’UroStill®, l’instillazione intravescicale attraverso l’uretra può essere eseguita senza aiuto esterno. Ulteriori informazioni sono disponibili su [questa pagina].
+      - q: Il trattamento non soltanto non mi ha aiutato, ma addirittura ha peggiorato i
+          sintomi! Devo aver ricevuto un trattamento sbagliato!
         anchor: treatment
         text: >-
-          There are a couple of things to be cleared.
+          Ci sono un paio di cose da chiarire.
 
 
-          Firstly, it is not possible to achieve any improvement of a condition which has developed for long years, with one or very few treatments.
+          In primo luogo, con uno o pochissimi trattamenti non è possibile ottenere un miglioramento sostanziale di una condizione che si è sviluppata per lunghi anni.
 
 
-          Secondly, there is no treatment that is effective for the 100% of the patients. That said, 20% of the patients do not respond to the usual ways of treatment. In their case, further examinations may be necessary; for example, (another) cystoscopy may confirm damaged areas in the bladder mucosa that are not responding to the local therapy anymore. In this case, fulguration of the affected areas may be necessary. Administering substances affecting the nerve system (antidepressants, nerval anti-inflammatories), anti-allergic compounds or strong, even dazing analgesics may help, as complementary forms of the treatment.
+          In secondo luogo, non esiste un trattamento efficace per il 100% dei pazienti. Detto questo, il 20% dei pazienti non risponde alle solite modalità di trattamento. Nel loro caso potrebbero essere necessari ulteriori esami; per esempio, un’altra cistoscopia può confermare aree danneggiate della mucosa vescicale che non rispondono più alla terapia locale. In questo caso, potrebbe essere necessaria la folgorazione delle aree colpite. La somministrazione di sostanze che agiscono sul sistema nervoso (antidepressivi, antinfiammatori nervosi), composti antiallergici o analgesici forti, anche abbaglianti, può servire di aiuto, come forme complementari del trattamento.
 
 
-          Thirdly, solutions used for bladder instillation usually contain more components; including anti-inflammatories, anesthetics, analgesics, and GAG-layer replenishers. It’s rare, but not impossible that someone is allergic to one of these components – e.g. to lidocaine. However, this does not trigger pain, in most cases. It is much more likely that the symptoms are getting worse because the medicine is too concentrated or too acidic – these factors can indeed be irritative.
+          In terzo luogo, le soluzioni utilizzate per l’instillazione intravescicale di solito contengono più componenti; compresi antinfiammatori, anestetici, analgesici e ricostituenti dello strato di GAG. È raro, ma non impossibile, che qualcuno sia allergico a uno di questi componenti, ad es. alla lidocaina. Comunque, questo, nella maggior parte dei casi, non provoca dolore. È molto più probabile che i sintomi peggiorino perché il medicinale è troppo concentrato o troppo acido: questi fattori possono effettivamente essere irritanti.
 
 
-          Finally, the GAG-layer consists of more compounds; the bladder instillation solutions (or cocktails) usually contain one or some of them. Generally said, a patient responds with a bigger chance if the instilled cocktail contains more GAG-layer replenishment elements.
-      - q: It feels as if the doctors were experimenting on the patients…
+          Infine, lo strato di GAG è costituito da più composti; le soluzioni per l’instillazione intravescicale (o cocktail) di solito contengono uno o alcuni di essi. In generale, un paziente risponde con maggiori possibilità se la miscela instillata contiene più elementi di riempimento dello strato di GAG.
+      - q: Sembra come se i medici stessero sperimentando sui pazienti...
         anchor: experimenting
         text: >-
-          It must be pointed out that every medicine or pharmaceutical
-          composition has to undergo serious experiments and clinical
-          trials before they are allowed to be used in practice. In case of
-          lesser-known diseases like IC/BPS, it is a big achievement
-          that medicine the majority of the patients can be treated successfully
-          with do exist!
+          Va sottolineato che ogni medicinale o composizione farmaceutica deve
+          essere sottoposta a seri esperimenti e sperimentazioni cliniche prima
+          di poter essere utilizzato nella pratica. In caso di malattie meno
+          conosciute come l’IC/BPS, è un grande risultato che la medicina sia in
+          grado di trattare con successo la maggior parte dei pazienti!
 
 
-          If your therapist alters the ingredients of the cocktail administered, the frequency of the treatments, it indeed looks like “experimenting”. In fact, these decisions are based on the professional’s experience – which is based on hard work of long years, and feedback of hundreds of patients.
-      - q: I feel alone and isolated with my condition…
+          Se il Suo terapeuta altera gli ingredienti del cocktail somministrato, oppure la frequenza dei trattamenti, può sembrare infatti “che stia sperimentando”. In effetti, queste decisioni si basano sull’esperienza del professionista, che si basa sul duro lavoro di lunghi anni e sul feedback di centinaia di pazienti.
+      - q: Mi sento solo e isolato con la mia condizione...
         text: >-
-          Not anymore.
+          Adesso non più.
 
 
-          In most countries there are IC/BPS Patient Associations (since 2019, there has been a Hungarian organization, too). These associations dedicate themselves to help those who are suffering from this disease, and are open to the relatives of the patients, the doctors and everyone who would like to know more about this serious condition.
+          Nella maggior parte dei paesi esistono associazioni dei pazienti con IC/BPS (dal 2019 esiste anche un’organizzazione ungherese). Queste associazioni si dedicano ad aiutare coloro che sono affetti da questa malattia e sono aperte ai parenti dei pazienti, ai medici e a tutti coloro che desiderano sapere di più di questa grave condizione.
 
 
-          These associations are co-operating with each other, asking for help and guidance from those who may have collected more knowledge and built more relationships. They even consult with professionals about the future of research and therapy of IC/BPS.
+          Queste associazioni stanno cooperando tra loro, chiedendo aiuto e guida a coloro che potrebbero aver raccolto più conoscenze e costruito più relazioni. Si consulta persino con professionisti sul futuro della ricerca e della terapia dell’IC/BPS.
         anchor: associations
 ---

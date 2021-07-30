@@ -5,104 +5,101 @@ fallback: en
 components:
   - type: article
     text: >-
-      Regardless of any other therapy applied in case of severe symptoms, it is
-      worth for IC/BPS patients helping the recovery with lifestyle changes,
-      too. One of the most important parts of it is to create the best possible
-      diet.
+      Indipendentemente da qualsiasi altra terapia applicata in caso di sintomi
+      gravi, vale la pena che i pazienti con IC/BPS aiutino il recupero anche
+      con i cambiamenti dello stile di vita. Una delle parti più importanti è
+      creare la migliore dieta possibile.
 
 
-      The cornerstone of IC/BPS diet is to keep away from food and drinks that can irritate the bladder; doing so can comfort that organ.
+      La pietra angolare della dieta IC/BPS è astenersi da cibi e bevande che possono irritare la vescica; farlo può confortare quell’organo.
 
 
-      Every person responds to a certain food differently, so there is no one-size-fits-all diet which is effective for everyone. Nevertheless, there has been a lot of experience gathered by and from patients, so it is easy to make a list out of food and drinks which do not trigger the symptoms in most cases – and out of those which usually causes problems.
+      Ogni persona risponde in modo diverso a un alimento determinato, quindi non esiste una dieta valida per tutti che sia efficace per tutti. Tuttavia, c’è molta esperienza raccolta dai pazienti e tra essi, quindi è facile fare un elenco di cibi e bevande che nella maggior parte dei casi non scatenano i sintomi e di quelli che di solito causano problemi.
 
 
-      Also, there is some general advice which helps cope with the disease.
+      Inoltre, ci sono alcuni consigli generali che aiutano a far fronte alla malattia.
 
 
-      1. It is better to eat more times and smaller quantities than eat a lot 1–2 times a day.
+      1. È meglio mangiare più volte e in quantità minori che mangiare molto 1-2 volte al giorno.
 
-      2. It is always worth making a diet log and note everything you eat and drink.
+      2. Sempre vale la pena di fare un diario della dieta e annotare tutto ciò che si mangia e si beve.
 
-      3. Most patients can have the following without any problems: rice, potato, pasta, meat, fish and most of the vegetables. It is easy to make proper, nutrient and delicious meal alone from these ingredients.
+      3. La maggior parte dei pazienti può prendere quanto segue senza problemi: riso, patate, pasta, carne, pesce e la maggior parte delle verdure. È facile preparare un cibo adeguato, nutriente e delizioso solo con questi ingredienti.
 
-      4. In most cases the following food and drinks trigger the symptoms: caffein, alcohol, carbonated (sparkling) drinks, hot and spicy food, chocolate, sour cream, yoghurt, soy, several sorts of fruit and tomato.
+      4. Nella maggior parte dei casi i seguenti cibi e bevande attivano i sintomi: caffeina, alcol, bevande gassate (frizzanti), cibi caldi e piccanti, cioccolato, panna acida, yogurt, soia, diversi tipi di frutta e pomodoro.
 
-      5. Herbal teas and brews often cause irritation. It is best to avoid them even if certain sources put them on the list of recommended drinks.
+      5. Tisane e infusi spesso causano irritazione. È meglio evitarli anche se alcune fonti li inseriscono nell’elenco delle bevande consigliate.
 
-      6. It is worth reading the label and packaging of everything you buy. The shorter the ingredient list is, the most likely it is that it can be had safely. Certain preservatives (e.g. nitrite) may cause problems – they can be found, for example, in several kinds of cold cuts.
+      6. Vale la pena di leggere l’etichetta e la confezione di tutto ciò che si acquista. Più breve è l'elenco degli ingredienti, più è probabile che possa essere consumato in sicurezza. Alcuni conservanti (ad es. nitrito) possono causare problemi: si trovano, ad esempio, in diversi tipi di salumi.
 
-      7. Regarding vitamins, vitamin C (in a dose of more than 500mg/day) and B may trigger the symptoms. When possible, go for products containing only one vitamin or essential trace element instead of buying combination nutritional supplements.
+      7. Per quanto riguarda le vitamine, la vitamina C (in una dose superiore a 500 mg/giorno) e B possono scatenare i sintomi. Quando possibile, scelga prodotti che contengono soltanto una vitamina o un oligoelemento essenziale invece di acquistare integratori alimentari combinati.
 
-      8. If you have any allergy or intolerance besides IC/BPS, you have to keep away from the ingredients in question, too.
-
-
-      To find out which food and drink groups you can have safely, apply an elimination diet.
+      8. Se Lei ha qualche allergia o intolleranza oltre all’IC/BPS, deve astenersi dagli ingredienti sopramenzionati.
 
 
-      ### What is an Elimination Diet?
+      Per identificare i gruppi di cibi e bevande che possa consumare in sicurezza, applichi una dieta di esclusione.
 
 
-      Following an elimination diet, you have to cut out every food and drink that cause problems for most of the IC/BPS patients, in the first step. (See the list below.) It is essential to follow the diet strictly, and you have to pay attention to the ingredient list of ready-cooked or instant meal you buy. When you are symptomless, start to introduce every food or drink you would like to have; one by one and little by little. (This is called provocation phase.) Record everything in your diet log, and note it down if any symptom occurs. Once you are able to identify the food or drink triggers the symptoms you have to cut it out of your diet.
+      ### Che cos’è una dieta di esclusione?
 
 
-      The following food and drinks cause problems for most of the IC/BPS patients:
+      Seguendo una dieta di esclusione, nella prima fase, deve eliminare tutti i cibi e le bevande che provocano problemi alla maggior parte dei pazienti con IC/BPS. (cfr. l’elenco sotto.) È fondamentale seguire rigorosamente la dieta e deve prestare attenzione alla lista degli ingredienti del pasto pronto o istantaneo che acquista. Quando è asintomatico, inizi a introdurre ogni cibo o bevanda che vorrebbe; uno per uno e in piccole quantità. (Questa è la così chiamata fase di provocazione.) Registri tutto nel Suo diario della dieta e annoti se si verifica qualche sintomo. Una volta che é in grado di identificare il cibo o la bevanda che innesca i sintomi, deve eliminarlo dalla Sua dieta.
 
 
-      * alcoholic drinks
-
-      * caffeinated drinks (coffee, black or green tea)
-
-      * carbonated (sparkling) drinks
-
-      * pineapple, strawberry, orange, grapefruit, grapes, apple and any drink made from them
-
-      * pickled food or anything made with vinegar (e.g. sauerkraut)
-
-      * tomato, both raw and as an ingredient (e.g. ketchup)
-
-      * products containing soy
-
-      * chocolate (exception: white chocolate)
-
-      * sugared food; cakes, cookies or pies – in large quantities
-
-      * artificial sweeteners or preservatives
-
-      * hot and spicy food (spices to avoid: pepper, paprika, pepperoni, chili, curry; vanilla, cinnamon or cloves can cause problems, too)
-
-      * herbal teas, brews or extracts
+      I seguenti cibi e bevande causano problemi per la maggior parte dei pazienti con IC/BPS:
 
 
-      During the elimination diet, you have to avoid everything listed above, for four weeks, alongside with any other ingredient you, personally, think it triggers the symptoms. You have to be patient, because the effect of the diet manifests slowly.
+      * bevande alcoliche
+
+      * bevande contenenti caffeina (caffè, tè nero o verde)
+
+      * bevande gassate (frizzanti)
+
+      * ananas, fragola, arancia, pompelmo, uva, mela e qualsiasi bevanda a base di essi
+
+      * cibo in salamoia o qualsiasi cosa fatta con aceto (ad es. crauti)
+
+      * pomodoro, sia crudo che come ingrediente (ad es. ketchup)
+
+      * prodotti contenenti soia
+
+      * cioccolato (eccezione: cioccolato bianco)
+
+      * cibo zuccherato; torte, biscotti o crostate – in grandi quantità
+
+      * dolcificanti artificiali o conservanti
+
+      * cibi piccanti e speziati (spezie da evitare: pepe, paprika, peperoni, peperoncino, curry; anche vaniglia, cannella o chiodi di garofano possono causare problemi)
+
+      * tisane, infusi o estratti
 
 
-      In the next step, you can try having everything you cut out, one by one. Each test should last for three days.
+      Durante la dieta di esclusione, deve evitare tutto ciò che è elencato sopra, per quattro settimane, insieme a qualsiasi altro ingrediente che, personalmente, pensa che scateni i sintomi. Deve essere paziente, perché l’effetto della dieta si manifesta lentamente.
 
 
-      On the first day, have the food or drink in question in a very small quantity.
+      Nel passaggio successivo, può provare a introdurre tutto ciò che previamente aveva escluso, uno per uno. Ogni prova dovrebbe durare tre giorni.
 
 
-      On the second day, increase the dose.
+      Il primo giorno, il cibo o la bevanda in questione in una quantità molto moderata.
 
 
-      Assuming you still feel well, try having the amount you would normally on the third day.
+      Il secondo giorno, può aumentare la dose.
 
 
-      If the food or drink you have just tested has caused no problems, you can have it safely in the future.
+      Supponendo che si senta ancora bene, il terzo giorno provi a consumare la quantità che avrebbe preso normalmente.
 
 
-      If you have experienced mild symptoms only, you can still have the food or drink tested, but in small quantities only, and sparingly.
+      Se il cibo o la bevanda che ha appena testato non ha causato problemi, può consumarlo in sicurezza in futuro.
 
 
-      In case of severe symptoms, unfortunately, you have to keep away from the food or drink in question. (To lessen the symptoms, drink a lot of water.)
+      Se ha riscontrato solo sintomi lievi può comunque testare quel cibo o bevanda, ma solo in piccole quantità e con parsimonia.
 
 
-      Do not feel desperate if you find your favorite food on the “excluded list”! Each IC/BPS patient
+      In caso di sintomi gravi, purtroppo, deve astenersi dal cibo o dalle bevande che causano i sintomi. (Per alleviare i sintomi, beva molta acqua.)
 
 
-      responds differently to a certain food or drink – it is not impossible that you do not have to cut out what you love. (Actually, certain IC/BPS patients are able to have coffee even if caffein causes pain for most IC/BPS patients.) However, be patients: always follow the steps strictly, and test every single thing for three days.
+      Non si disperi se il suo cibo preferito si trova nella “lista degli esclusi”! Ogni paziente con l’IC/BPS risponde in modo diverso a un determinato cibo o bevanda: non è impossibile che Lei non debba eliminare ciò che ama. (In realtà, alcuni pazienti con IC/BPS sono in grado di bere caffè anche se la caffeina provoca dolore per la maggior parte dei pazienti con IC/BPS.) Comunque, sia paziente: segua sempre rigorosamente i passaggi e testi ogni singola cosa per tre giorni.
 
 
-      It is worth noting down which product or which brand you bought from a certain food. The full ingredient list of products from different companies can be different, too – sometimes, not the food or drink you test triggers the symptoms, but one of the extra ingredients does so. In this case, you only have to avoid the product which causes problems, not the sort of food or drink itself.
+      Vale la pena di annotare quale prodotto o quale marca ha acquistato di un determinato alimento. Anche l’elenco completo degli ingredienti dei prodotti di diverse aziende può essere diverso: a volte, non il cibo o la bevanda che prova attiva i sintomi, ma uno degli ingredienti extra lo fa. In questo caso, deve evitare soltanto il prodotto che causa i problemi, non il tipo di cibo o bevanda in sé.
 ---

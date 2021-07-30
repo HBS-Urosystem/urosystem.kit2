@@ -5,293 +5,278 @@ fallback: en
 components:
   - type: article
     text: >-
-      We must face the fact: plenty of people have never heard of IC/BPS. In
-      spite of this, there are a lot of false assumption and incorrect
-      information on the Internet about this condition. Actually, a lot of
-      things are still not known about IC/BPS. Luckily, it has been studied
-      enthusiastically, so there have been more and more studies published, more
-      and more up-to-date diagnostic methods and treatments have been tried out.
+      אנחנו צריכים להתמודד עם העובדה: הרבה אנשים מעולם לא שמעו על דלקת משתית
+      השלפוחית/ תסמונת שלפוחית השתן הכאובה. למרות זאת, יש הרבה הנחות שווא ומידע
+      כוזב ברחבי האינטרנט על מצב זה. למעשה, דברים רבים עדיין אינם ידועים אודות
+      דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה. למרבה המזל, זה נחקר
+      בהתלהבות, כך פורסמו יותר ויותר מחקרים,  נוסו יותר ויותר שיטות אבחון
+      עדכניות וטיפולים.
 
 
-      Unfortunately, the new facts spread on the Internet and people become aware of them with a significant delay. Obsolete views, hypotheses that were never proved, assumptions rejected later may be more known than the modern results and achievements. This is why popular misbeliefs can spread from website to website or among patients, too. In other words, even if a piece of information is available on plenty of webpages, it does not mean that it is correct, too. Social media is an especially “dangerous” platform, from this point of view. Every now and then it can happen that some farfetched assumption becomes considered a fact – misleading the visitors, and, eventually, the patients, too.
+      למרבה הצער, העובדות החדשות מופצות ברחבי האינטרנט ואנשים מתוודעים אליהן באיחור משמעותי. דעות מיושנות, השערות שלא הוכחו מעולם, הנחות שנדחו מאוחר יותר ידועות יותר מההישגים ומהתוצאות העכשוויות. זו גם הסיבה לכך שאמונות שווא יכולות להתפשט מאתר לאתר וגם בין החולים. במילים אחרות, אפילו אם פיסת מידע זמינה בהרבה אתרים, זה לא אומר שהיא גם נכונה. הרשתות החברתיות הן פלטפורמה "מסוכנת", מהבחינה הזו. מדי פעם, זה יכול לקרות שהנחה לא סבירה הופכת לנחשבת לעובדה- כך מטעה את המבקרים ובסופו של דבר, גם את המטופלים.
 
 
-      This is why we would like to make a couple of things clear about this condition.
+      לכן, היינו רוצים להבהיר כמה דברים על מצב זה.
   - type: qas
     items:
-      - q: IC/BPS is a sparse disease, isn’t it?
+      - q: דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה היא מחלה דלילה, לא?
         anchor: sparse-disease
         text: >-
-          Considering the number of diagnosed cases, indeed, it appears so.
-          Depending on the way how the estimations are made, up to 2–5% of the
-          adult people may be affected. However, the diagnose rate of the
-          disease is very low: even in countries of most advanced healthcare it
-          is below 10%. (In most countries it is between 1–5%.)
+          בהתחשב במספר המקרים המאובחנים, אכן, נראה כך. בהתאם לאופן ההערכות,
+          כ-2-5% מהמבוגרים עלולים לחלות במחלה. עם זאת, שיעור האבחנה של המחלה
+          נמוך מאוד: אפילו במדינות עם ביטוח הבריאות המתקדם ביותר, הוא מתחת ל10%.
+          (ברוב המדינות הוא נע בין 1-5%.)
 
 
-          There are several factors behind the low diagnose rate. The disease itself is not known by most people; there are even doctors, gynecologists and urologists (!) who have never heard of it. Most who suffer from IC/BPS do not dare talk honestly about their symptoms, which greatly hinders the publicity of the disease.
+          ישנם מספר גורמים מאחורי שיעור האבחנה הנמוך. המחלה עצמה אינה ידועה לרוב האנשים; יש רופאים, גניקולוגים ואורולוגים (!), אשר מעולם לא שמעו עליה. רוב מי שסובל מדלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה לא מעז לדבר בכנות על התסמינים שהם חווים,  מה שמעכב מאוד את פרסום המחלה.
 
 
-          This is why we are dedicated to inform the society: IC/BPS is a severe disease, which affects many people.
+          לכן, אנחנו מחוייבים ליידע את הציבור: דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה היא מחלה קשה, הפוגעת באנשים רבים.
 
 
-          If it is assumed that you have 250 acquaintance, it is likely that there is someone among them who suffers from IC/BPS. Even if he/she never talks about it.
-      - q: So what. If someone is ill, they have to see the doctor. IC/BPS is not an
-          exception, isn’t it?
+          אם ההנחה היא שיש לך 250 מכרים, סביר להניח שיש מישהו מביניהם, הסובל מדלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה. אפילו אם הוא/היא לא מדבר/ת על זה.
+      - q: " אז מה. אם מישהו חולה, הוא צריך לראות רופא. מקרה של דלקת משתית השלפוחית/
+          תסמונת שלפוחית השתן הכאובה אינו יוצא מן הכלל, לא?"
         anchor: so-what
         text: >-
-          The most typical symptoms of IC/BPS are the bladder (and urethral)
-          pain and frequent urination. Unfortunately, these symptoms can be
-          present because of other conditions, too: for example, malignant
-          transformations (cancer) or bacterial urinary tract infections.
-          However, these diseases usually have definite markers, such as pus in
-          the urine.
+          התסמינים האופייניים ביותר לדלקת משתית השלפוחית/ תסמונת שלפוחית השתן
+          הכאובה הם כאבים בשלפוחית (ובשופכה) ותכיפות במתן שתן. למרבה הצער,
+          תסמינים אלה יכולים להופיע גם כתוצאה ממצבים אחרים, למשל: טרנספורמציות
+          ממאירות (סרטן) או זיהומים חיידקיים בדרכי השתן. עם זאת, לרוב למחלות אלה
+          יש סמנים מוגדרים, כמו מוגלה בשתן.
 
 
-          IC/BPS has no similar markers, since it has no pathogen and there is no tumorous transformation either.
+          לדלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה אין סמנים דומים, מאחר שאין לה פתוגן וגם אין לה טרנספורמציות גידוליות.
 
 
-          Therefore, to diagnose IC/BPS all the other conditions may cause similar symptoms must be excluded.
+          לכן, כדי לאבחן את דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה יש לשלול את כל המצבים האחרים, אשר עלולים לגרום לתסמינים דומים.
 
 
-          If it gets diagnosed at all… Since most of the GPs and gynecologists do not know this disease, they cannot treat it either. They often set up a false diagnosis, which results in false and/or unnecessary treatments. Sadly, there are even urologists who do not have proper knowledge on IC/BPS. Often times, they do know the disease but they simply do not consider it – or if they do, they do not apply the up-to-date treatment methods since they are not aware of those.
+          אם היא מאובחנת בכלל... מכיוון שרוב רופאי המשפחה ורופאי הנשים לא מכירים את המחלה הזו, הם לא יכולים לטפל בה. לעיתים קרובות, הם קובעים אבחנה כוזבת, שמביאה לטיפולים לא נכונים ו/או לא רצויים. למרבה הצער, יש אפילו אורולוגים שאין להם את הידע המתאים אודות דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה. לעיתים קרובות, הם מכירים את המחלה, אך פשוט לא לוקחים אותה בחשבון- או אפילו אם כן, הם לא מיישמים את שיטות הטיפול העדכניות, מפני שהם לא מודעים להן.
 
 
-          Without a proper diagnosis, things can go wrong easily. Seriously wrong.
+          ללא אבחון מתאים, דברים יכולים להשתבש בקלות, להשתבש מאוד.
 
 
-          Patients may run from doctor to doctor, hoping that someone may be able to find out what the problem is and how to treat it. Which is far not the worst case. There have been plenty of patients who were mis-treated (for example, with some gynecological problem) since their doctor set up an entirely wrong diagnosis. Some patients stick to their therapists for long years, even a decade – and get a treatment which does not help at all or makes everything even worse. Antibiotics, for example.
+          מטופלים יכולים לרוץ מרופא לרופא, לקוות שמישהו ימצא מה הבעיה ויידע לטפל בה. וזה בהחלט לא המקרה הגרוע ביותר. היו הרבה חולים שטופלו בצורה לא נכונה (לדוגמא, עם מספר בעיות גניקולוגיות), מאחר שהרופא שלהם קבע אבחנה שגויה לחלוטין. חלק מהמטופלים דבקים במטפלים שלהם לאורך שנים ארוכות, אפילו לאורך עשור- והטיפול אשר אינו עוזר להם כלל או אפילו מחריף את המצב כולו. למשל, עם אנטיביוטיקה.
 
 
-          Sometimes the most terrible happens. Since there is noting to identify as the cause of the pain, the doctor assumes it is only in the patient’s mind – and redirects him/her to a psychologist or a psychiatrist.
+          לפעמים, הגרוע מכל קורה. מכיוון שלא ניתן לזהות את הגורם לכאב, הרופא מניח שזה רק במוחו של המטופל- ומפנה אותו/אותה לפסיכולוג או לפסיכיאטר.
 
 
-          Meanwhile, the condition progresses. In case of a severe form of IC/BPS, the patient has to urinate in every hour. Or twice, three times an hour. Which, no surprise, hinders work, too. Pain can wreck the private life. Night becomes a nightmare because of the symptoms, which leads to sleep deprivation.
+          בינתיים, המצב מתקדם. במקרה של דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה קשה, המטופל צריך להטיל שתן בכל שעה. או פעמיים,שלוש פעמים בכל שעה. מה שבאופן לא מפתיע, גם מעכב עבודה. כאב כזה יכול להרוס את החיים הפרטיים. הלילה הופך לסיוט בגלל התסמינים, מה שמוביל למחסור בשינה.
 
 
-          There have already been patients who, having seen no other way out, committed suicide.
+          היו כבר הרבה חולים, שלא ראו את הדרך החוצה ושמו קץ לחייהם.
 
 
-          Because of all these things, it is essential to diagnose IC/BPS quickly so that the proper treatment can start as soon as it is possible.
-      - q: "I have already checked it on the Internet: if my bladder hurts and I have to
-          urinate a lot, then I have IC/BPS…"
+          בגלל כל הדברים האלה, הכרחי לאבחן את דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה במהירות, כך שיתאפשר למטופל לקבל טיפול נכון בהקדם האפשרי.
+      - q: "כבר בדקתי באינטרנט: אם כואבת לי השלפוחית ואני צריכה להטיל שתן הרבה, אז יש לי
+          דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה..."
         text: >-
-          Let’s make it clear: even much more known diseases or conditions with
-          much more definite symptoms can never be diagnosed by reading articles
-          on the Internet. No one should every self-diagnose themselves with the
-          help of the Internet.
+          בואו נעשה את זה ברור: אף פעם לא ניתן לאבחן אפילו מחלות מוכרות הרבה
+          יותר או מצבים עם הרבה יותר תסמינים מוגדרים ע"י קריאת מאמרים באינטרנט.
+          אסור לאף אחד לעשות לעצמו אבחון עצמי בעזרת האינטרנט.
 
 
-          As we said before, there are quite a lot of other conditions which may have similar symptoms. These, however, can be diagnosed by a urologist with routine tests. (For example, a simple urine test.) When it has happened, the proper treatment can start instantly.
+          כפי שאמרנו קודם, יש הרבה מצבים אחרים, אשר יש להם תסמינים דומים. עם זאת, אלה יכולים להיות מאובחנים ע"י אורולוג עם בדיקות שגרתיות. (למשל, בדיקת שתן פשוטה.) כאשר זה קרה, ניתן להתחיל בטיפול באופן מיידי.
 
 
-          It is worth knowing, on the other hand, that finding an "easily diagnosable" disease does not essentially rule out IC/BPS. It is also possible that the symptoms indeed refer to IC/BPS.
+          כדאי לדעת, לעומת זאת, שמציאת מחלה "ניתנת לאבחון בקלות", בעצם אינה שוללת דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה. ייתכן גם שהתסמינים אכן מזכירים את דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה.
 
 
-          But it is not you who can find out what the problem is. Not even this webpage. You have to see a urologist, who can perform all the necessary examinations to diagnose you – who can confirm or deny IC/BPS.
+          אך זה לא אתה שיכול למצוא מה הבעיה. אפילו לא אתר האינטרנט הזה. אתה צריך לראות אורולוג, שיכול לבצע את כל הבדיקות הנדרשות, כדי לאבחן אותך- מישהו שיכול לאשר או לשלול את דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה.
         anchor: internet
-      - q: Can IC/BPS be diagnosed then?
+      - q: אז האם ניתן לאבחן את דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה?
         anchor: diagnosis
         text: >-
-          Although there is no 100% method for diagnosing this disease, nowadays
-          it is possible to do so with high accuracy.
+          למרות שאין שיטה שיכולה לאבחן ב100% את המחלה, כיום אפשרי לעשות זאת
+          בדיוק מירבי.
 
 
-          All the symptoms of IC/BPS occur because of the deficiency of the mucus layer of the bladder – this layer is called GAG-layer. The GAG-layer insufficiency does not essentially mean the lack of it. Often times, the deficiency can be observed only in distinct regions or patches, or the permeability of the GAG-layer is increased. Moreover, this is not the same condition as IC/BPS (which is, per definition, the non-bacterial inflammation of the bladder wall), but with time the deficiency may lead to the development of IC/BPS.
+          כל התסמינים של דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה מופיעים בגלל מחסור בשכבת הרירית של שלפוחית השתן- שכבה זו נקראת שכבת הגליקוזאמינוגליקן. אי-ספיקה בשכבת הגליקוזאמינוגליקן, אינה משמעותה בעצם היעדרה. לעיתים קרובות, ניתן לראות את המחסור רק באיזורים או בטלאים נפרדים, או אם חדירות שכבת הגליקוזאמינוגליקן מוגברת. יתר על כן, זה לא אותו מצב כמו דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה (שהוא, לפי ההגדרה, דלקת לא-בקטריאלית של שלפוחית השתן), אך עם הזמן המחסור עלול להוביל להתפתחות של דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה.
 
 
-          The changes of the GAG-layer, on the other hand, can be identified. One of the newest methods how it can be performed is the GAG-layer integrity test. During this test, the patients have to log for two days the frequency and the volumes of their voidings. Further information can be found [here].
+          השינויים בשכבת הגליקוזאמינוגליקן, לעומת זאת, ניתנים לזיהוי. אחת מהשיטות החדשות, דרכן ניתן לבצע זאת, היא בדיקת תקינות של שכבת הגליקוזאמינוגליקן. במהלך הבדיקה, המטופלים צריכים לרשום במשך יומיים את התדירות והנפח של השתן שהם מרוקנים. ניתן למצוא מידע נוסף [כאן].
 
 
-          For the accurate diagnosis the doctors regularly apply further methods, too. They investigate the anamnesis of the patient, have them fill out questionnaires to evaluate their general condition, and, if needed, they confirm the diagnosis with other examinations, for example, cystoscopy.
-      - q: My therapist wants me to see a psychologist. This is totally unacceptable! I
-          have problems in my bladder, not in my mind!
+          בשביל אבחנה מדויקת, לרוב מיישמים הרופאים גם שיטות נוספות. הם חוקרים את האנמנזה של המטופל, הם ממלאים שאלונים על-מנת להעריך את המצב הכללי, ואם יש צורך, הם מאשרים את האבחנה עם בדיקות נוספות, למשל, ציטוסקופיה.
+      - q: המטפל שלי רוצה שאראה פסיכולוג. זה לגמרי לא מקובל! יש לי בעיות עם שלפוחית השתן
+          שלי, לא בראש שלי!
         anchor: psychology
         text: >-
-          As a matter of fact, if you are sent to a psychologist, that does not
-          mean that your therapist wants to get rid of you. Psychical stress can
-          often be a side-effect of a long-lasting condition of severe
-          pain. IC/BPS is not an exception. Psychical symptoms can make
-          everything worse, which may lead to suicidal thoughts. Unfortunately,
-          these thoughts may be translated to acts, too – as it has already
-          happened to a couple of patients.
+          למעשה, אם את מופנית לפסיכולוג, זה לא אומר שהמטפל שלך רוצה להיפטר ממך.
+          לחץ פיזי יכול להיות תופעת לוואי של מצב ארוך-טווח של כאבים קשים. דלקת
+          משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה היא לא יוצאת מן הכלל.
+          תסמינים פיזיים יכולים להחריף הכל, מה שעלול להוביל למחשבות אובדניות.
+          למרבה הצער, מחשבות אלה יכולות להיות מתורגמות גם למעשים- זה כבר קרה
+          למספר חולים.
 
 
-          A psychologist can give important help to cope with the disease, improve the patient’s self-assessment – thus, may be an important part of the IC/BSP therapy.
+          פסיכולוג יכול לתת עזרה חשובה להתמודדות עם המחלה, לשפר את ההערכה העצמית של המטופל- כך יכולה להיות חלק חשוב כחלק מהטיפול בדלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה. 
 
-
-          Certainly, it should never be forgotten that any psychological treatment may complement, but never replace the therapy of a professional urologist!
-      - q: I got diagnosed with IC/BPS, but my therapist hadn’t done cystoscopy, biopsy
-          or urodynamics!
+           אין ספק שלעולם אין לשכוח, כי טיפול פסיכולוגי עשוי להשלים, אך לעולם לא להחליף את הטיפול של אורולוג מקצועי!
+      - q: אובחנתי עם דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה, אך המטפל שלי לא
+          עשה ציטוסקופיה, ביופסיה, או אורודינמיקה!
         text: >-
-          As it was explained above, diagnosing IC/BPS is a complicated task. It
-          does not essentially involve all the possible diagnostic methods.
-          Indeed, cystoscopy is frequently done by urologists. It is an
-          effective way to identify some abnormalities that may refer to certain
-          forms of IC/BPS. Nowadays, cystoscopy is a “mild” diagnostic tool,
-          which can be totally pain-free. However, it is still an invasive tool;
-          complications or side-effects might occur in a small percentage of
-          cases. So, without proper professional reasons, it is not
-          recommended. Especially, since there are forms of IC/BPS without any
-          characteristic signs on the cystoscopy image.
+          כפי שהוסבר לעיל, אבחון דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה
+          הוא משימה מורכבת. היא לא מערבת בעצם את כל שיטות האבחון האפשריות. אכן,
+          ציטוסקופיה נעשית לעיתים קרובות ע"י אורולוגים. זו דרך יעילה לזהות
+          חריגויות, העשויות להצביע על צורות שונות של דלקת משתית השלפוחית/ תסמונת
+          שלפוחית השתן הכאובה. כיום, ציטוסקופיה היא כלי אבחון "מתון", שיכול
+          להיות נטול כאב לחלוטין. עם זאת, זה עדיין כלי פולשני; סיכובים או תופעות
 
 
-          The biopsy of the bladder mucosa is not the part of diagnosing IC/BPS anymore, because the biopsy image does not give any relevant information. On the other hand, signs of a malignant transformation can be discovered by biopsy – but urine cytology examination is considered to be a more effective tool, which is less invasive, as well.
+          לוואי יכולים להופיע באחוז קטן מהמקרים. כך, ללא סיבות מקצועיות מתאימה, אינה מומלצת. במיוחד, מאחר שיש צורות שונות של דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה ללא סימנים אופייניים על צילום הציטוסקופיה.
 
 
-          Urodynamics are not only incapable of diagnosing IC/BPS, but also time-consuming, expensive and invasive. They are not recommended for this purpose anymore.
+          לביופסיה של רירית שלפוחית השתן אין יותר חלק באבחון דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה, מכיוון שצילום הביופסיה לא נותן שום מידע רלוונטי. מצד שני, סימנים לטרנספורמציה ממאירה יכולים להתגלות בביופסיה- אך ציטולוגיה של השתן נחשבת לכלי יעיל יותר שגם פחות פולשני.
+
+
+          אורודינמיקה, לא רק שאיננה מסוגלת לאבחן את דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה, אלא גם גוזלת זמן, יקרה ופולשנית. היא לא מומלצת יותר למטרה זו.
         anchor: complicated
-      - q: Wouldn’t it be easier to identify what causes IC/BPS and treat causes
-          themselves?
+      - q: לא יהיה קל יותר לזהות מה הם הגורמים לדלקת משתית השלפוחית/ תסמונת שלפוחית השתן
+          הכאובה ולטפל בגורמים עצמם?
         anchor: causes
         text: >-
-          Indeed, a major part of the IC/BPS researches focus on the cause why
-          IC/BPS develops – why the GAG-layer gets defective – so that a casual
-          treatment could be applied.
+          אכן, חלק גדול מהמחקרים של דלקת משתית השלפוחית/ תסמונת שלפוחית השתן
+          הכאובה מתמקד בגורם להתפתחות דלקת משתית השלפוחית/ תסמונת שלפוחית השתן
+          הכאובה- לסיבה להיפגמות שכבת הגליקוזאמינוגליקן- כך שטיפול מזדמן יוכל
+          להיות מיושם.
 
 
-          There have been several theories introduced, but none of them have been proven so far. So, the real cause of IC/BPS is still not known, current therapies must focus on treating the symptoms: replenishing the GAG-layer or mitigating the symptoms.
-      - q: Can IC/BPS be cured permanently?
+          מספר תאוריות הוצגו, אך אף אחת מהן לא הוכחה עד כה. כך שהגורם האמיתי לדלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה עדיין לא ידוע. טיפולים עדכניים חייבים להתמקד בטיפול בתסמינים: חידוש שכבת הגליקוזאמינוגליקן או הפחתת התסמינים.
+      - q: האם ניתן לרפא לצמיתות את דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה?
         anchor: cure
         text: >-
-          Unfortunately, there is no treatment known which can cure IC/BPS for
-          good. However, if an effective treatment is applied, patients can be
-          symptom-free for long years. The sooner the condition is diagnosed,
-          the bigger the chance for this.
+          למרבה הצער, אין טיפול ידוע שיכול לרפא את דלקת משתית השלפוחית/ תסמונת
+          שלפוחית השתן הכאובה. עם זאת, אם טיפול יעיל מיושם, המטופל יכול להיות
+          נטול תסמינים לאורך שנים ארוכות. ככל שהמחלה מאובחנת בשלב מוקדם יותר, כך
+          גדול יותר הסיכוי לכך.
 
 
-          It must be noted that for achieving a good result the patient must work hard, too. The effective treatment includes lifestyle changes, abundant fluid intake, dietary changes and medical advice – these are to be obeyed for the best result.
-      - q: Are lifestyle changes enough?
+          חשוב לציין, כי על מנת להשיג תוצאה טובה, גם המטופל חייב לעבוד קשה. הטיפול היעיל כולל שינויים באורח החיים, צריכת נוזלים בשפע, שינויי תזונה ויעוץ רפואי- יש לציית לכל אלה על מנת להשיג את התוצאה הטובה ביותר.
+      - q: האם שינויים באורח החיים מספיקים?
         anchor: lifestyle
         text: >-
-          If only it were so!
+          הלוואי וזה היה כך!
 
 
-          Don’t put it in the wrong way, though: lifestyle changes – especially diet and abundant fluid intake – help a lot in mitigating the symptoms. They may be enough for being symptom-free in case of an early-phase IC/BPS.
+          אל תבין את זה לא נכון, אך: שינויים באורח החיים- במיוחד דיאטה וצריכת נוזלים בשפע- מסייעים רבות בהפחתת התסמינים. הם עלולים להיות מספיקים כדי להיות נטולי תסמינים במקרה של דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה בשלב מוקדם.
 
 
-          Unfortunately, in most cases, by the time the treatment starts, lifestyle changes are not enough anymore. Even if there are certain guides used in several countries which say the treatment is to start with the least invasive method and the steps should follow each other in the order of increasing invasiveness.
+          למרבה הצער, במרבית המקרים, עד שהטיפול מתחיל, שינויים באורח חיים אינם מספיקים יותר. אפילו אם יש מדריכים מסוימים שמשתמשים בהם במספר מדינות, אשר אומרים, כי יש להתחיל בטיפול בשיטה הכי פחות פולשנית וצריך להתקדם צעד אחר צעד, עד שמגיעים לשיטה הפולשנית ביותר.
 
 
-          In theory, this guideline is correct. In practice, on the other hand, the non-invasive methods (such as lifestyle changes, diet, oral medication etc.) may make the time elapsed until the effective treatment last longer. In order to focus on the patients’ interest, starting with a combined therapy seems to be the most effective. This means, administering anti-inflammatory, analgesic and GAG-layer strengthening medication orally and instilling GAG-layer replenishers simultaneously.
-      - q: I read that vegan diet would heal IC/BPS. Is that true?
+          בתאוריה, הקו המנחה הזה נכון. בפועל, לעומת זאת, השיטות הלא-פולשניות (כמו שינויים באורח החיים, דיאטה, מתן תרופות דרך הפה וכו'), עשויות להפוך את הזמן שחולף עד לטיפול היעיל לארוך יותר. על-מנת להתמקד בטובת המטופלים,
+
+           יש להתחיל טיפול משולב, אשר נראה כפיתרון היעיל ביותר. פירוש הדבר, מתן תרופות אנטי-דלקתיות, משככי כאבים ותרופות לחיזוק שכבת הגליקוזאמינוגליקן דרך הפה והחדרת מחדשי שכבת גליקוזאמינוגליקן בו-זמנית.
+      - q: קראתי שדיאטה טבעונית יכולה לרפא את דלקת משתית השלפוחית/ תסמונת שלפוחית השתן
+          הכואבת. האם זה נכון?
         anchor: vegan-diet
-        text: There are certain people who admit by cutting out food of animal origin
-          they managed to heal their IC/BPS. It is not our task to decide
-          whether vegan diet is healthier, but there is something that needs to
-          be cleared. No research has shown any correlation between the symptoms
-          and having food of animal origin. It is proven, on the other hand,
-          that any food or drink makes the urine more acidic (such as tomato or
-          fruit juices) can irritate the bladder and worsen the symptoms. Most
-          sorts of meat can be had without any problems if prepared well (e.g.
-          without using irritative spices).
-      - q: Why to take medicine? Herbal products or teas can be more effective, can’t
-          they?
+        text: יש אנשים מסוימים, המעידים שבזכות הוצאת מזון שמקורו מן החי מהתפריט שלהם,
+          הצליחו לרפא את דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה. זה לא
+          התפקיד שלנו להחליט, אם דיאטה טבעונית היא בריאה יותר, אך יש משהו שצריך
+          להיות ברור. אין מחקר שמראה כל קורלציה בין התסמינים לבין אכילת מזון מן
+          החי. זה מוכח, לעומת זאת, שכל מאכל או משקה שגורם לשתן להיות חומצי יותר
+          (כמו עגבניות או מיצי פירות), יכול לגרות את שלפוחית השתן ולהחריף את
+          התסמינים. ניתן לצרוך את רוב סוגי הבשר ללא בעיות, אם מכינים אותם היטב
+          (למשל, ללא שימוש בתבלינים מגרים).
+      - q: למה לקחת תרופה? מוצרים צמחיים או סוגי תה יכולים להיות יעילים יותר, לא?
         anchor: herbal
-        text: There are not enough data available on herbal products available on the
-          market to decide whether they are effective or not. However, most
-          herbal teas and extracts contain substances which can irritate the
-          damaged bladder. Because of this, even if they are or may be
-          effective, they can do more harm than good.
-      - q: Which sort of antibiotics is the best for treating IC/BPS?
+        text: אין מספיק נתונים זמינים על המוצרים הצמחיים, אשר ניתן להשיג בשווקים, על-מנת
+          להחליט אם הם יעילים או לא. עם זאת, רוב סוגי התה ותמציות הצמחים כוללים
+          מכילים חומרים, אשר יכולים לגרות את שלפוחית השתן הניזוקה. לכן, אפילו אם
+          הם עלולים להיות יעילים או לא, הם יכולים לעשות יותר נזק מתועלת.
+      - q: איזה סוג של אנטיביוטיקה הכי טוב לטיפול בדלקת משתית השלפוחית/ תסמונת שלפוחית
+          השתן הכאובה?
         anchor: antibiotics
         text: >-
-          Let’s make it clear: antibiotics are used for treating bacterial
-          infections, and IC/BPS has no pathogen. So, none of them are effective
-          for treating IC/BPS.
+          בואו נעשה את זה ברור: משתמשים באנטיביוטיקה לטיפול בזיהומים חיידקיים
+          ולדלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה אין פתוגן. אז, אף
+          אחת מהן אינה יעילה לטיפול בדלקת משתית השלפוחית/ תסמונת שלפוחית השתן
+          הכאובה.
 
 
-          If your urologist happens to have prescribed some antibiotics, it must have happened because you have a bacterial urinary tract infection. In this case, antibiotics are effective, but choosing the most effective one should happen only after a bacterial culture has been made (to decide what sort of bacteria are to be fought off).
+          אם האורולוג שלך רשם במקרה אנטיביוטיקה, זה בוודאי קרה מפני שיש לך זיהום חיידקי בדרכי השתן. במקרה זה, אנטיביוטיקה יעילה, אך הבחירה ביעילה ביותר צריכה להתרחש רק לאחר ביצוע תרבית חיידקים (כדי להחליט באיזה סוג של חיידקים יש להילחם).
 
 
-          In case an IC/BPS starts taking antibiotics – because of any condition or infection besides IC/BPS –, they should ask for advice from their urologist, since most antibiotics can irritate the damaged bladder – just in the same way as herbal products do!
-      - q: Which one is the best analgesic for IC/BPS?
+          במקרה של דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה, תחילת נטילת אנטיביוטיקה- בגלל כל מצב או זיהום מלבד דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה- מצריכה בקשת יעוץ מאורולוג, מפני שרוב סוגי האנטיביוטיקה יכולה לגרות את שלפוחית השתן הניזוקה- בדיוק באותו אופן כמו מוצרים צמחיים!
+      - q: מה משכך הכאבים הטוב ביותר לדלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה?
         anchor: analgesics
         text: >-
-          The cause of the pain is the increased permeability of the protective
-          bladder of the mucus. So, pain shows up because there are irritative
-          substances present in the urine. Therefore, the most effective way to
-          mitigate the pain is to drink a lot, which lowers the concentration of
-          these irritative substances in the urine. Also, a strict IC/BPS diet
-          must be followed (to lessen the intake of everything that makes the
-          urine more acidic), complemented with urine alkalization (with
-          alkalizing pills, alkalic mineral water, or lemon juice).
+          הגורם לכאב הוא החדירות המוגברת של הרירית המגנה על שלפוחית השתן. אז,
+          הכאב מופיע מפני שנמצאים חומרים מגרים בשתן. לכן, הדרך היעילה ביותר
+          להפחית את הכאב, היא לשתות הרבה, מה שמוריד את הריכוז של החומרים המגרים
+          האלה בשתן. גם יש לעשות דיאטה נוקשה מותאמת לדלקת משתית השלפוחית/ תסמונת
+          שלפוחית השתן הכאובה (כדי להפחית את הצריכה של כל מה שגורם לשתן להיות
+          חומצי יותר), בתוספת אלקליזציה של שתן (עם גלולות אלקליות, מים מינרליים
+          אלקליים או מיץ לימון).
 
 
-          Besides everything detailed so far has been applied, any general analgesic can be administered (such as Advil, Diclofenac, Algopyrin etc.).
-      - q: What sort of food supplement or vitamin should be taken?
+          מלבד כל מה שפורט עד כה ויושם, ניתן לתת כל משכך כאבים כללי (אדויל, דיקלופנק, אלגופירין וכו').
+      - q: אילו תוספי מזון או ויטמינים צריך לקחת?
         anchor: vitamins
         text: >-
-          Generally said, vitamin products do not help mitigate the
-          symptoms. Regardless of the plenty of pages on the Internet
-          advertising “magical products” good for everyone! Always be cautious –
-          especially if there is nothing said about contraindications. The best
-          thing you can do is to ask your therapist before you start taking a
-          new medicine or food supplement.
+          באופן כללי, מוצרי ויטמינים לא מסייעים להפחית את התסמינים.
 
 
-          Also, it is worth knowing that vitamin B and C taken in big doses can worsen the symptoms – just like antibiotics and herbal products can.
-      - q: Is oral medication better than intravesical?
+          ללא קשר לשפע העמודים ברחבי האינטרנט, אשר מפרסמים "מוצרים קסומים" טובים לכולם! תמיד היה זהיר- במיוחד, אם אין דבר שנאמר על התוויות נגד. הדבר הטוב ביותר שאתה יכול לעשות, הוא לשאול את המטפל שלך לפני שתתחיל ליטול תרופה או תוסף מזון חדש.
+
+
+          גם כדאי לדעת, כי ויטמינים בי וסי הנלקחים בכמויות גדולות יכולים להחריף את התסמינים- בדיוק כמו אנטיביוטיקה ומוצרים צמחיים!
+      - q: האם תרופות הניתנות דרך הפה עדיפות על תרופות הניתנות לפנים שלפוחית השתן?
         anchor: medication
-        text: >-
-          The opposite is true. Local administration – instilling the medication
-          directly into the bladder – enables much bigger concentration of the
-          active agent in the target organ (in this case: the surface of the
-          bladder) than oral administration. Moreover, if a medicine is
-          instilled into the bladder, it does not enter the blood circulation,
-          which means, no systematic side-effects occur.
-
-
-          That said, intravesical instillation is more effective than oral medication.
-      - q: But… intravesical instillation is done with a catheter!
+        text: "ההפך הוא הנכון. מתן תרופות מקומי- החדרת התרופות לתוך שלפוחית השתן- מאפשרת
+          ריכוז גדול יותר של החומר הפעיל באיבר המטרה (במקרה זה: פני השטח של
+          השלפוחית) מאשר מתן תרופות דרך הפה. יתר על כן, אם התרופה מוחדרת
+          לשלפוחית השתן, היא לא נכנסת למחזור הדם, מה שאומר שלא מופיעות תופעות
+          לוואי מערכתיות."
+      - q: אבל... החדרה לפנים שלפוחית השתן נעשית עם קתטר!
         anchor: instillation
         text: >-
-          Indeed, for a long time, applying a catheter used to be the only way
-          of bladder instillation. Even if the procedure is painful,
-          uncomfortable, and infections often occurred after the treatment. To
-          overcome these problems have UroDapter® been developed, an urological
-          adapter which replaces catheter. You can read more about UroDapter®
-          on [this page].
+          אכן, לאורך זמן רב הכנסת קתטר הייתה הדרך היחידה להחדרה לשלפוחית השתן.
+          אפילו אם התהליך היה מכאיב, לא נוח ולעיתים קרובות, הופיעו זיהומים לאחר
+          הטיפול. בכדי להתגבר על הבעיות האלה פותח ה®אורודפטר, מתאם אורולוגי, אשר
+          מחליף את הקתטר. תוכל לקרוא יותר על ®אורודפטר [בעמוד הזה].
 
 
-          Also, there is another medical device, UroStill®, which helps patients perform a self-treatment. With UroStill®, the bladder instillation through the urethra can be done without external help. More information can be found on [this page].
-      - q: Not only has the treatment help, but also it has made everything worse! I
-          must have received the wrong treatment!
+          יש גם מכשיר רפואי אחר, ®אורוסטיל, אשר מסייע לחולים לבצע טיפול עצמי. בעזרת ®אורוסטיל, ההחדרה לשלפוחית השתן דרך השופכה יכולה להתבצע ללא עזרה חיצונית. ניתן למצוא יותר מידע [בעמוד הזה].
+      - q: לא רק שהטיפול לא עזר! הוא גם גרם להכל להיות רע יותר! בטח קיבלתי טיפול לא
+          נכון!
         anchor: treatment
         text: >-
-          There are a couple of things to be cleared.
+          יש כמה דברים שצריך להבהיר.
 
 
-          Firstly, it is not possible to achieve any improvement of a condition which has developed for long years, with one or very few treatments.
+          ראשית, זה בלתי אפשרי להשיג שיפור במצב שהתפתח לאורך שנים ארוכות, תוך טיפול אחד או מספר מועט של טיפולים.
 
 
-          Secondly, there is no treatment that is effective for the 100% of the patients. That said, 20% of the patients do not respond to the usual ways of treatment. In their case, further examinations may be necessary; for example, (another) cystoscopy may confirm damaged areas in the bladder mucosa that are not responding to the local therapy anymore. In this case, fulguration of the affected areas may be necessary. Administering substances affecting the nerve system (antidepressants, nerval anti-inflammatories), anti-allergic compounds or strong, even dazing analgesics may help, as complementary forms of the treatment.
+          שנית, אין טיפול שיעיל במאת האחוזים לכל המטופלים. למרות זאת, 20% מהמטופלים לא מגיבים לדרכים המקובלות של הטיפול. במקרה שלהם, ייתכן ויש צורך לעשות בדיקות נוספות; למשל, ציטוסקופיה (נוספת) עלולה לאשש איזורים ניזוקים ברירית שלפוחית השתן, שאינה מגיבה יותר לטיפול המקומי. במקרה זה, פולגורציה של האיזורים הניזוקים עשויה להיות הכרחית. מתן דרך הפה של חומרים המשפיעים על מערכת העצבים (נוגדי דיכאון, נוגדי דלקת עצביים), תרכובות אנטי-אלרגניות או משככי כאבים חזקים או אפילו מסחררים,  עשויים לעזור כצורות משלימות של הטיפול.
 
 
-          Thirdly, solutions used for bladder instillation usually contain more components; including anti-inflammatories, anesthetics, analgesics, and GAG-layer replenishers. It’s rare, but not impossible that someone is allergic to one of these components – e.g. to lidocaine. However, this does not trigger pain, in most cases. It is much more likely that the symptoms are getting worse because the medicine is too concentrated or too acidic – these factors can indeed be irritative.
+          שלישית, תמיסות, אשר משתמשים בהן להחדרה לשלפוחית השתן, מכילות לרוב יותר מרכיבים:כולל חומרים אנטי-דלקתיים, חומרי הרדמה, משככי כאבים ומחדשי שכבת הגליקוזאמינוגליקן. זה נדיר, אך לא בלתי אפשרי, שמישהו אלרגי לחומרים האלה- למשל, ללידוקאין. עם זאת, זה לא גורם לכאב, ברוב המקרים.זה הרבה יותר סביר שהתסמינים מחריפים כי התרופה מרוכזת מדי או חומצית מדי- גורמים אלה אכן עלולים לגרום לגירוי.
 
 
-          Finally, the GAG-layer consists of more compounds; the bladder instillation solutions (or cocktails) usually contain one or some of them. Generally said, a patient responds with a bigger chance if the instilled cocktail contains more GAG-layer replenishment elements.
-      - q: It feels as if the doctors were experimenting on the patients…
+          לבסוף, שכבת הגליקוזאמינוגליקן כוללת מספר תרכובות; התמיסות (או הקוקטיילים) המוחדרות לשלפוחית השתן, לרוב מכילות אחת או יותר מהן. באופן כללי, מטופל יגיב עם סיכוי גדול יותר, אם הקוקטייל המוחדר מכיל יותר חומרים המחדשים את שכבת הגליקוזאמינוגליקן.
+      - q: זה מרגיש כאילו שהרופאים עשו ניסויים על המטופלים...
         anchor: experimenting
         text: >-
-          It must be pointed out that every medicine or pharmaceutical
-          composition has to undergo serious experiments and clinical
-          trials before they are allowed to be used in practice. In case of
-          lesser-known diseases like IC/BPS, it is a big achievement
-          that medicine the majority of the patients can be treated successfully
-          with do exist!
+          חשוב לציין, שכל תרופה או תרכובת תרופתית צריכה לעבור בדיקות מחמירות
+          וניסויים קליניים לפני שהיא מורשית לשימוש בפועל. במקרה של מחלות פחות
+          מוכרות, כמו דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה, זה הישג
+          גדול שתרופה שרוב החולים מטופלים בה בהצלחה קיימת!
 
 
-          If your therapist alters the ingredients of the cocktail administered, the frequency of the treatments, it indeed looks like “experimenting”. In fact, these decisions are based on the professional’s experience – which is based on hard work of long years, and feedback of hundreds of patients.
-      - q: I feel alone and isolated with my condition…
+          אם המטפל שלך משנה את המרכיבים של הקוקטייל שאתה נוטל ואת תדירות הטיפולים, זה אכן נראה כמו "ניסוי". בפועל, כל ההחלטות מבוססות על הניסיון המקצועי- אשר מבוסס על עבודה קשה של שנים ארוכות ועל התגובות של מאות מטופלים.
+      - q: אני מרגיש לבד ובודד במצבי...
         text: >-
-          Not anymore.
+          לא עוד.
 
 
-          In most countries there are IC/BPS Patient Associations (since 2019, there has been a Hungarian organization, too). These associations dedicate themselves to help those who are suffering from this disease, and are open to the relatives of the patients, the doctors and everyone who would like to know more about this serious condition.
+          ברוב המדינות, יש איגודי חולי דלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה (מאז 2019, יש גם ארגון הונגרי). ארגונים אלה, מקדישים את עבודתם לעזרה לאלה הסובלים מהמחלה, ודלתם פתוחה גם לקרובי המשפחה של החולים, לרופאים ולכל מי שמעוניין לדעת יותר על המצב הקשה הזה.
 
 
-          These associations are co-operating with each other, asking for help and guidance from those who may have collected more knowledge and built more relationships. They even consult with professionals about the future of research and therapy of IC/BPS.
+          איגודים אלה משתפים פעולה אחד עם השני, מבקשים עזרה והדרכה מאלה שאספו יותר ידע ובנו יותר קשרים. הם אפילו מתייעצים עם מקצוענים בנוגע לעתיד המחקר ולטיפול בדלקת משתית השלפוחית/ תסמונת שלפוחית השתן הכאובה.
         anchor: associations
 ---

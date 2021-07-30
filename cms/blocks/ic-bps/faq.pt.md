@@ -5,293 +5,294 @@ fallback: en
 components:
   - type: article
     text: >-
-      We must face the fact: plenty of people have never heard of IC/BPS. In
-      spite of this, there are a lot of false assumption and incorrect
-      information on the Internet about this condition. Actually, a lot of
-      things are still not known about IC/BPS. Luckily, it has been studied
-      enthusiastically, so there have been more and more studies published, more
-      and more up-to-date diagnostic methods and treatments have been tried out.
+      Devemos encarar o facto: muita gente nunca ouviu falar de CI/BPS. Apesar
+      disso, há muitas suposições falsas e informações incorretas na Internet
+      sobre essa doença. Na verdade, ainda não se sabe muita coisa sobre a
+      CI/BPS. Felizmente, tem sido estudado com entusiasmo, assim tem-se
+      publicado cada vez mais estudos, cada vez mais métodos de diagnóstico e
+      tratamentos atualizados têm sido experimentados.
 
 
-      Unfortunately, the new facts spread on the Internet and people become aware of them with a significant delay. Obsolete views, hypotheses that were never proved, assumptions rejected later may be more known than the modern results and achievements. This is why popular misbeliefs can spread from website to website or among patients, too. In other words, even if a piece of information is available on plenty of webpages, it does not mean that it is correct, too. Social media is an especially “dangerous” platform, from this point of view. Every now and then it can happen that some farfetched assumption becomes considered a fact – misleading the visitors, and, eventually, the patients, too.
+      Infelizmente, os novos factos espalham-se na Internet e as pessoas ficam sabendo dos mesmos com um atraso significativo. Visões obsoletas, hipóteses que nunca foram provadas, suposições rejeitadas posteriormente podem ser mais conhecidas do que os resultados e façanhas modernos. É por isso que as crenças populares podem espalhar-se de um site para outro ou mesmo entre os pacientes. Em outras palavras, mesmo que uma informação esteja disponível em muitas páginas web, isso não significa que também esteja correta. As redes sociais são uma plataforma sobretudo “perigosa”, desse ponto de vista. De vez em quando, pode acontecer que alguma suposição rebuscada seja considerada um facto - enganando os visitantes e, eventualmente, os pacientes também.
 
 
-      This is why we would like to make a couple of things clear about this condition.
+      É por isso que gostaríamos de esclarecer algumas coisas sobre essa doença.
   - type: qas
     items:
-      - q: IC/BPS is a sparse disease, isn’t it?
+      - q: CI/BPS é uma doença esparsa, não é?
         anchor: sparse-disease
         text: >-
-          Considering the number of diagnosed cases, indeed, it appears so.
-          Depending on the way how the estimations are made, up to 2–5% of the
-          adult people may be affected. However, the diagnose rate of the
-          disease is very low: even in countries of most advanced healthcare it
-          is below 10%. (In most countries it is between 1–5%.)
+          Considerando o número de casos diagnosticados, de facto, parece que
+          sim. Em função da forma como as estimativas são feitas, até 2–5% dos
+          adultos podem ser afetados. No entanto, a taxa de diagnóstico da
+          doença é muito baixa: mesmo em países com cuidados de saúde mais
+          avançados, é inferior a 10%. (Na maioria dos países, é entre 1–5%.)
 
 
-          There are several factors behind the low diagnose rate. The disease itself is not known by most people; there are even doctors, gynecologists and urologists (!) who have never heard of it. Most who suffer from IC/BPS do not dare talk honestly about their symptoms, which greatly hinders the publicity of the disease.
+          Há vários fatores por trás da baixa taxa de diagnóstico. A doença em si não é conhecida pela maioria das pessoas; há até médicos, ginecologistas e urologistas (!) que nunca ouviram falar dela. Grande parte dos que sofrem de CI/BPS não ousa falar honestamente sobre os seus sintomas, o que atrapalha muito a divulgação da doença.
 
 
-          This is why we are dedicated to inform the society: IC/BPS is a severe disease, which affects many people.
+          É por isso que nos estamos empenhados a informar a sociedade: a CI/BPS é uma doença grave que afeta muitas pessoas.
 
 
-          If it is assumed that you have 250 acquaintance, it is likely that there is someone among them who suffers from IC/BPS. Even if he/she never talks about it.
-      - q: So what. If someone is ill, they have to see the doctor. IC/BPS is not an
-          exception, isn’t it?
+          Se assumirmos que tem 250 conhecidos, é provável que haja alguém entre eles que sofra de CI/BPS. Mesmo que ele/ela nunca fale sobre isso.
+      - q: E se alguém está doente, tem que ir ao médico. A CI/BPS não é uma exceção,
+          pois não?
         anchor: so-what
         text: >-
-          The most typical symptoms of IC/BPS are the bladder (and urethral)
-          pain and frequent urination. Unfortunately, these symptoms can be
-          present because of other conditions, too: for example, malignant
-          transformations (cancer) or bacterial urinary tract infections.
-          However, these diseases usually have definite markers, such as pus in
-          the urine.
+          Os sintomas mais típicos da CI/BPS são a dor na bexiga (e uretral) e
+          micção frequente. Infelizmente, esses sintomas também podem estar
+          presentes devido a outras doenças: por exemplo, transformações
+          malignas (cancro) ou infecções bacterianas do trato urinário. No
+          entanto, essas doenças geralmente têm marcadores definidos, como pus
+          na urina.
 
 
-          IC/BPS has no similar markers, since it has no pathogen and there is no tumorous transformation either.
+          A CI/BPS não tem marcadores semelhantes, uma vez que não tem patógenos e também não há transformação tumoral.
 
 
-          Therefore, to diagnose IC/BPS all the other conditions may cause similar symptoms must be excluded.
+          Portanto, para diagnosticar a CI/BPS, todas as outras doenças que possam causar sintomas semelhantes devem ser excluídas.
 
 
-          If it gets diagnosed at all… Since most of the GPs and gynecologists do not know this disease, they cannot treat it either. They often set up a false diagnosis, which results in false and/or unnecessary treatments. Sadly, there are even urologists who do not have proper knowledge on IC/BPS. Often times, they do know the disease but they simply do not consider it – or if they do, they do not apply the up-to-date treatment methods since they are not aware of those.
+          Se for diagnosticado... Como a maioria dos médicos clínicos gerais e ginecologistas não conhece esta doença, também não conseguem tratá-la. Frequentemente, eles fazem um diagnóstico falso, o que resulta em tratamentos falsos e/ou desnecessários. Infelizmente, existem mesmo urologistas que não têm conhecimento adequado sobre a CI/BPS. Muitas vezes, eles conhecem a doença, mas simplesmente não a levam em consideração - ou se o fazem, não aplicam os métodos de tratamento atualizados, uma vez que não os conhecem.
 
 
-          Without a proper diagnosis, things can go wrong easily. Seriously wrong.
+          Sem um diagnóstico adequado, as coisas podem dar errado facilmente. Gravemente errado.
 
 
-          Patients may run from doctor to doctor, hoping that someone may be able to find out what the problem is and how to treat it. Which is far not the worst case. There have been plenty of patients who were mis-treated (for example, with some gynecological problem) since their doctor set up an entirely wrong diagnosis. Some patients stick to their therapists for long years, even a decade – and get a treatment which does not help at all or makes everything even worse. Antibiotics, for example.
+          Os pacientes podem correr de um médico a outro, na esperança de que alguém possa descobrir qual é o problema e como tratá-lo. O que é longe de ser o pior caso. Muitos pacientes foram tratados de forma errada (por exemplo, com algum problema ginecológico) desde que o médico fez um diagnóstico totalmente errado. Alguns pacientes seguem os seus terapeutas por muitos anos, até uma década - e recebem um tratamento que não ajuda em nada ou torna tudo ainda pior. Antibióticos, por exemplo.
 
 
-          Sometimes the most terrible happens. Since there is noting to identify as the cause of the pain, the doctor assumes it is only in the patient’s mind – and redirects him/her to a psychologist or a psychiatrist.
+          Às vezes, o mais terrível acontece. Como não há nada para identificar como causa da dor, o médico assume que isso está apenas na mente do paciente - e encaminha o mesmo a um psicólogo ou psiquiatra.
 
 
-          Meanwhile, the condition progresses. In case of a severe form of IC/BPS, the patient has to urinate in every hour. Or twice, three times an hour. Which, no surprise, hinders work, too. Pain can wreck the private life. Night becomes a nightmare because of the symptoms, which leads to sleep deprivation.
+          Enquanto isso, a doença progride. No caso de uma forma grave de CI/BPS, o paciente deve urinar a cada hora. Ou duas, três vezes por hora. O que, sem surpresa, também atrapalha o trabalho. A dor pode destruir a vida privada. A noite torna-se um pesadelo por causa dos sintomas, o que leva à privação do sono.
 
 
-          There have already been patients who, having seen no other way out, committed suicide.
+          Já houve pacientes que, não tendo visto outra solução, cometeram suicídio.
 
 
-          Because of all these things, it is essential to diagnose IC/BPS quickly so that the proper treatment can start as soon as it is possible.
-      - q: "I have already checked it on the Internet: if my bladder hurts and I have to
-          urinate a lot, then I have IC/BPS…"
+          Por tudo isso, é essencial diagnosticar a CI/BPS rapidamente para que o tratamento adequado possa ser iniciado o mais rápido possível.
+      - q: "Já verifiquei na Internet: se a minha bexiga dói e tenho que urinar muito,
+          então tenho CI/BPS…"
         text: >-
-          Let’s make it clear: even much more known diseases or conditions with
-          much more definite symptoms can never be diagnosed by reading articles
-          on the Internet. No one should every self-diagnose themselves with the
-          help of the Internet.
+          Vamos esclarecer: mesmo doenças ou condições muito mais conhecidas com
+          sintomas muito mais definidos nunca podem ser diagnosticadas pela
+          leitura de artigos na Internet. Ninguém deve autodiagnosticar-se com a
+          ajuda da Internet.
 
 
-          As we said before, there are quite a lot of other conditions which may have similar symptoms. These, however, can be diagnosed by a urologist with routine tests. (For example, a simple urine test.) When it has happened, the proper treatment can start instantly.
+          Como dissemos antes, há muitas outras doenças que podem ter sintomas semelhantes. No entanto, elas podem ser diagnosticados por um urologista através de exames de rotina. (Por exemplo, um simples teste de urina.) Quando isso acontecer, o tratamento adequado pode começar instantaneamente.
 
 
-          It is worth knowing, on the other hand, that finding an "easily diagnosable" disease does not essentially rule out IC/BPS. It is also possible that the symptoms indeed refer to IC/BPS.
+          Vale a pena saber, por outro lado, que encontrar uma doença “facilmente diagnosticável” não exclui essencialmente a CI/BPS. Também é possível que os sintomas realmente se refiram a CI/BPS.
 
 
-          But it is not you who can find out what the problem is. Not even this webpage. You have to see a urologist, who can perform all the necessary examinations to diagnose you – who can confirm or deny IC/BPS.
+          Mas não é o paciente quem pode descobrir qual é o problema. Nem mesmo esta página da web. Tem que consultar um urologista, que pode realizar todos os exames necessários para diagnosticá-lo – o que pode confirmar ou negar a CI/BPS.
         anchor: internet
-      - q: Can IC/BPS be diagnosed then?
+      - q: A CI/BPS pode ser diagnosticada então?
         anchor: diagnosis
         text: >-
-          Although there is no 100% method for diagnosing this disease, nowadays
-          it is possible to do so with high accuracy.
+          Embora não haja um método 100% de diagnóstico dessa doença, hoje em
+          dia é possível fazê-lo com grande precisão.
 
 
-          All the symptoms of IC/BPS occur because of the deficiency of the mucus layer of the bladder – this layer is called GAG-layer. The GAG-layer insufficiency does not essentially mean the lack of it. Often times, the deficiency can be observed only in distinct regions or patches, or the permeability of the GAG-layer is increased. Moreover, this is not the same condition as IC/BPS (which is, per definition, the non-bacterial inflammation of the bladder wall), but with time the deficiency may lead to the development of IC/BPS.
+          Todos os sintomas da CI/BPS ocorrem por causa da deficiência da camada de muco da bexiga - essa camada chama-se de camada GAG. A insuficiência da camada GAG não significa essencialmente a falta dela. Muitas vezes, a deficiência pode ser observada apenas em regiões ou manchas distintas, ou a permeabilidade da camada GAG é aumentada. Além disso, esta não é a mesma doença que CI/BPS (que é, por definição, a inflamação não bacteriana da parede da bexiga), mas com o tempo a deficiência pode levar ao desenvolvimento de CI/BPS.
 
 
-          The changes of the GAG-layer, on the other hand, can be identified. One of the newest methods how it can be performed is the GAG-layer integrity test. During this test, the patients have to log for two days the frequency and the volumes of their voidings. Further information can be found [here].
+          As mudanças da camada GAG, por outro lado, podem ser identificadas. Um dos métodos mais recentes de como isso pode ser realizado é o teste de integridade da camada GAG. Durante esse teste, os pacientes devem registar por dois dias a frequência e os volumes das suas micções. Informações adicionais podem ser encontradas [aqui].
 
 
-          For the accurate diagnosis the doctors regularly apply further methods, too. They investigate the anamnesis of the patient, have them fill out questionnaires to evaluate their general condition, and, if needed, they confirm the diagnosis with other examinations, for example, cystoscopy.
-      - q: My therapist wants me to see a psychologist. This is totally unacceptable! I
-          have problems in my bladder, not in my mind!
+          Para o diagnóstico preciso, os médicos também aplicam regularmente outros métodos. Investigam a anamnese do paciente, pedem que preencham questionários para avaliar o estado geral dos mesmos e, se for preciso, confirmam o diagnóstico com ajuda de outros exames, por exemplo, da cistoscopia.
+      - q: O meu terapeuta quer que eu consulte um psicólogo. Isso é completamente
+          inaceitável! Tenho problemas na bexiga, não na mente!
         anchor: psychology
         text: >-
-          As a matter of fact, if you are sent to a psychologist, that does not
-          mean that your therapist wants to get rid of you. Psychical stress can
-          often be a side-effect of a long-lasting condition of severe
-          pain. IC/BPS is not an exception. Psychical symptoms can make
-          everything worse, which may lead to suicidal thoughts. Unfortunately,
-          these thoughts may be translated to acts, too – as it has already
-          happened to a couple of patients.
+          Na verdade, se for encaminhado a um psicólogo, isso não significa que
+          o seu terapeuta queira librar-se de si. O stresse psíquico muitas
+          vezes pode ser um efeito colateral de uma condição duradoura de dor
+          intensa. A CI/BPS também não é uma exceção. Os sintomas psíquicos
+          podem piorar tudo, o que pode levar a pensamentos suicidas.
+          Infelizmente, esses pensamentos também podem ser traduzidos em atos -
+          como já aconteceu com alguns pacientes.
 
 
-          A psychologist can give important help to cope with the disease, improve the patient’s self-assessment – thus, may be an important part of the IC/BSP therapy.
+          Um psicólogo pode oferecer uma ajuda importante para lidar com a doença, melhorar a autoavaliação do paciente - assim, pode ser uma parte importante da terapia CI/BSP.
 
 
-          Certainly, it should never be forgotten that any psychological treatment may complement, but never replace the therapy of a professional urologist!
-      - q: I got diagnosed with IC/BPS, but my therapist hadn’t done cystoscopy, biopsy
-          or urodynamics!
+          Certamente, nunca se deve esquecer que qualquer tratamento psicológico pode complementar, mas nunca substituir a terapia de um urologista profissional!
+      - q: Fui diagnosticado com CI/BPS, mas o meu terapeuta não tinha realizado nem
+          cistoscopia, biópsia ou urodinâmica!
         text: >-
-          As it was explained above, diagnosing IC/BPS is a complicated task. It
-          does not essentially involve all the possible diagnostic methods.
-          Indeed, cystoscopy is frequently done by urologists. It is an
-          effective way to identify some abnormalities that may refer to certain
-          forms of IC/BPS. Nowadays, cystoscopy is a “mild” diagnostic tool,
-          which can be totally pain-free. However, it is still an invasive tool;
-          complications or side-effects might occur in a small percentage of
-          cases. So, without proper professional reasons, it is not
-          recommended. Especially, since there are forms of IC/BPS without any
-          characteristic signs on the cystoscopy image.
+          Como foi explicado acima, diagnosticar a CI/BPS é uma tarefa
+          complicada. Essencialmente não envolve todos os métodos diagnósticos
+          possíveis. Na verdade, a cistoscopia é frequentemente realizada por
+          urologistas. É uma forma eficaz de identificar algumas anormalidades
+          que podem referir-se a certas formas da CI/BPS. Hoje em dia, a
+          cistoscopia é uma ferramenta diagnóstica “leve”, que pode ser
+          totalmente indolor. No entanto, ainda é uma ferramenta invasiva; pode
+          haver complicações ou efeitos colaterais numa pequena porcentagem dos
+          casos. Portanto, sem os devidos motivos profissionais, não se
+          recomenda. Principalmente porque existem formas de CI/BPS sem sinais
+          característicos na imagem da cistoscopia.
 
 
-          The biopsy of the bladder mucosa is not the part of diagnosing IC/BPS anymore, because the biopsy image does not give any relevant information. On the other hand, signs of a malignant transformation can be discovered by biopsy – but urine cytology examination is considered to be a more effective tool, which is less invasive, as well.
+          A biópsia da mucosa vesical não faz mais parte do diagnóstico da CI/BPS, uma vez que a imagem da biópsia não fornece informações relevantes. Por outro lado, os sinais de uma transformação maligna podem ser identificados por biópsia - mas o exame de citologia da urina é considerado uma ferramenta mais eficaz, além de ser menos invasiva.
 
 
-          Urodynamics are not only incapable of diagnosing IC/BPS, but also time-consuming, expensive and invasive. They are not recommended for this purpose anymore.
+          A urodinâmica não é apenas incapaz de diagnosticar a CI/BPS, mas também leva mais tempo, cara e invasiva. Não é a mais recomendada para este propósito.
         anchor: complicated
-      - q: Wouldn’t it be easier to identify what causes IC/BPS and treat causes
-          themselves?
+      - q: Não seria mais fácil identificar o que causa a CI/BPS e tratar as próprias
+          causas?
         anchor: causes
         text: >-
-          Indeed, a major part of the IC/BPS researches focus on the cause why
-          IC/BPS develops – why the GAG-layer gets defective – so that a casual
-          treatment could be applied.
+          É verdade, a maioria das pesquisas de CI/BPS concentra-se na causa do
+          desenvolvimento da CI/BPS - por que a camada GAG fica defeituosa -
+          para que um tratamento casual pudesse ser aplicado.
 
 
-          There have been several theories introduced, but none of them have been proven so far. So, the real cause of IC/BPS is still not known, current therapies must focus on treating the symptoms: replenishing the GAG-layer or mitigating the symptoms.
-      - q: Can IC/BPS be cured permanently?
+          Há várias teorias, mas nenhuma delas foi comprovada até agora. Portanto, a verdadeira causa da CI/BPS ainda não é conhecida, as terapias atuais devem concentrar-se no tratamento dos sintomas: reabastecer a camada GAG ou mitigar os sintomas.
+      - q: A CI/BPS pode ser curada permanentemente?
         anchor: cure
         text: >-
-          Unfortunately, there is no treatment known which can cure IC/BPS for
-          good. However, if an effective treatment is applied, patients can be
-          symptom-free for long years. The sooner the condition is diagnosed,
-          the bigger the chance for this.
+          Infelizmente, não há tratamento conhecido que possa curar a CI/BPS de
+          verdade. No entanto, se um tratamento eficaz for aplicado, os
+          pacientes podem ficar sem sintomas por longos anos. Quanto mais cedo a
+          doença for diagnosticada, maior será a chance disso.
 
 
-          It must be noted that for achieving a good result the patient must work hard, too. The effective treatment includes lifestyle changes, abundant fluid intake, dietary changes and medical advice – these are to be obeyed for the best result.
-      - q: Are lifestyle changes enough?
+          Deve-se notar que, para alcançar um bom resultado, o paciente também deve empenhar-se bastante. O tratamento eficaz inclui mudanças no estilo de vida, ingestão abundante de líquidos, mudanças na dieta e orientação médica - tudo isso deve ser obedecido para obter o melhor resultado.
+      - q: É suficiente mudar de estilo de vida?
         anchor: lifestyle
         text: >-
-          If only it were so!
+          Deus queira que fosse assim!
 
 
-          Don’t put it in the wrong way, though: lifestyle changes – especially diet and abundant fluid intake – help a lot in mitigating the symptoms. They may be enough for being symptom-free in case of an early-phase IC/BPS.
+          Não entenda isso mal, porém: mudanças no estilo de vida – sobretudo quanto à dieta e ingestão abundante de líquidos - ajudam muito a atenuar os sintomas. Eles podem ser suficientes para não apresentarem sintomas no caso de uma CI/BPS de fase inicial.
 
 
-          Unfortunately, in most cases, by the time the treatment starts, lifestyle changes are not enough anymore. Even if there are certain guides used in several countries which say the treatment is to start with the least invasive method and the steps should follow each other in the order of increasing invasiveness.
+          Infelizmente, na maioria dos casos, quando o tratamento começa, as mudanças no estilo de vida já não são suficientes. Mesmo que haja certos guias usados em vários países que dizem que o tratamento deve começar com o método menos invasivo e os passos devem seguir uns aos outros na ordem de invasão crescente.
 
 
-          In theory, this guideline is correct. In practice, on the other hand, the non-invasive methods (such as lifestyle changes, diet, oral medication etc.) may make the time elapsed until the effective treatment last longer. In order to focus on the patients’ interest, starting with a combined therapy seems to be the most effective. This means, administering anti-inflammatory, analgesic and GAG-layer strengthening medication orally and instilling GAG-layer replenishers simultaneously.
-      - q: I read that vegan diet would heal IC/BPS. Is that true?
+          Em teoria, essa forma de proceder está correta. Na prática, por outro lado, os métodos não invasivos (como as mudanças no estilo de vida, a dieta, a medicação oral etc.) podem fazer com que o tempo decorrido até ao tratamento eficaz dure mais. Para poder concentrar-se no interesse dos pacientes, parece ser mais eficaz começar com uma terapia combinada. Isso significa administrar um medicamento antiinflamatório, analgésico e fortalecedor da camada GAG por via oral e instilar reforçadores da camada GAG simultaneamente.
+      - q: Eu li que a dieta vegana curaria a CI/BPS. Isso é verdade?
         anchor: vegan-diet
-        text: There are certain people who admit by cutting out food of animal origin
-          they managed to heal their IC/BPS. It is not our task to decide
-          whether vegan diet is healthier, but there is something that needs to
-          be cleared. No research has shown any correlation between the symptoms
-          and having food of animal origin. It is proven, on the other hand,
-          that any food or drink makes the urine more acidic (such as tomato or
-          fruit juices) can irritate the bladder and worsen the symptoms. Most
-          sorts of meat can be had without any problems if prepared well (e.g.
-          without using irritative spices).
-      - q: Why to take medicine? Herbal products or teas can be more effective, can’t
-          they?
+        text: Há certas pessoas que dizem que através da eliminação de alimentos de
+          origem animal da dieta que conseguiram curar a sua CI/BPS. Não é a
+          nossa tarefa decidir se a dieta vegana é mais saudável, mas há algo
+          que precisa ser esclarecido. Nenhuma pesquisa demostrou qualquer
+          correlação entre os sintomas e a ingestão de alimentos de origem
+          animal. Por outro lado, está comprovado que qualquer comida ou bebida
+          que torne a urina mais ácida (como tomate ou sumo de fruta) pode
+          irritar a bexiga e piorar os sintomas. A maioria dos tipos de carne
+          pode ser consumida sem problemas se estiver bem preparada (por
+          exemplo, sem o uso de temperos irritantes).
+      - q: Por que tomar remédio? Produtos de ervas ou chás podem ser mais eficazes, não
+          é?
         anchor: herbal
-        text: There are not enough data available on herbal products available on the
-          market to decide whether they are effective or not. However, most
-          herbal teas and extracts contain substances which can irritate the
-          damaged bladder. Because of this, even if they are or may be
-          effective, they can do more harm than good.
-      - q: Which sort of antibiotics is the best for treating IC/BPS?
+        text: Não existem dados suficientes sobre os produtos à base de plantas
+          disponíveis no mercado para decidir se são eficazes ou não. No
+          entanto, a maioria dos chás e extratos de ervas contém substâncias que
+          podem irritar a bexiga danificada. Por isso, mesmo que sejam ou possam
+          ser eficazes, podem fazer mais mal do que bem.
+      - q: Que tipo de antibiótico é o melhor para o tratamento da CI/BPS?
         anchor: antibiotics
         text: >-
-          Let’s make it clear: antibiotics are used for treating bacterial
-          infections, and IC/BPS has no pathogen. So, none of them are effective
-          for treating IC/BPS.
+          Vamos deixar claro: os antibióticos são usados para tratar infecções
+          bacterianas e a CI/BPS não contém patógenos. Portanto, nenhum deles é
+          eficaz no tratamento da CI/BPS.
 
 
-          If your urologist happens to have prescribed some antibiotics, it must have happened because you have a bacterial urinary tract infection. In this case, antibiotics are effective, but choosing the most effective one should happen only after a bacterial culture has been made (to decide what sort of bacteria are to be fought off).
+          Se o seu urologista prescreveu alguns antibióticos, isso deve ter acontecido porque tem uma infecção bacteriana do trato urinário. Nesse caso, os antibióticos são eficazes, mas a escolha do mais eficaz só deve ser feita após a criação de uma cultura bacteriana (para decidir que tipo de bactéria deve ser combatida).
 
 
-          In case an IC/BPS starts taking antibiotics – because of any condition or infection besides IC/BPS –, they should ask for advice from their urologist, since most antibiotics can irritate the damaged bladder – just in the same way as herbal products do!
-      - q: Which one is the best analgesic for IC/BPS?
+          Se uma pessoa com CI/BPS começar a tomar antibióticos - devido a qualquer doença ou infecção além da CI/BPS -, deve pedir o conselho do seu urologista, uma vez que a maioria dos antibióticos pode irritar a bexiga danificada - da mesma forma que produtos à base de ervas o faz!
+      - q: Qual é o melhor analgésico para CI/BPS?
         anchor: analgesics
         text: >-
-          The cause of the pain is the increased permeability of the protective
-          bladder of the mucus. So, pain shows up because there are irritative
-          substances present in the urine. Therefore, the most effective way to
-          mitigate the pain is to drink a lot, which lowers the concentration of
-          these irritative substances in the urine. Also, a strict IC/BPS diet
-          must be followed (to lessen the intake of everything that makes the
-          urine more acidic), complemented with urine alkalization (with
-          alkalizing pills, alkalic mineral water, or lemon juice).
+          A causa da dor é o aumento da permeabilidade da bexiga protetora do
+          muco. Então, a dor aparece porque há substâncias irritativas presentes
+          na urina. Portanto, a forma mais eficaz de amenizar a dor é tomando
+          muito, o que diminui a concentração dessas substâncias irritantes na
+          urina. Além disso, debe-se seguir uma dieta rigorosa da CI/BPS (para
+          diminuir a ingestão de tudo que torna a urina mais ácida),
+          complementada com a alcalinização da urina (com pílulas
+          alcalinizantes, água mineral alcalina ou sumo de limão).
 
 
-          Besides everything detailed so far has been applied, any general analgesic can be administered (such as Advil, Diclofenac, Algopyrin etc.).
-      - q: What sort of food supplement or vitamin should be taken?
+          Além de tudo o que tenha sido detalhado até agora ter sido aplicado, qualquer analgésico geral pode ser administrado (como Advil, Diclofenac, Algopirina etc.).
+      - q: Que tipo de suplemento alimentar ou vitamina deve ser tomado?
         anchor: vitamins
         text: >-
-          Generally said, vitamin products do not help mitigate the
-          symptoms. Regardless of the plenty of pages on the Internet
-          advertising “magical products” good for everyone! Always be cautious –
-          especially if there is nothing said about contraindications. The best
-          thing you can do is to ask your therapist before you start taking a
-          new medicine or food supplement.
+          De modo geral, os produtos vitamínicos não ajudam a atenuar os
+          sintomas.
 
 
-          Also, it is worth knowing that vitamin B and C taken in big doses can worsen the symptoms – just like antibiotics and herbal products can.
-      - q: Is oral medication better than intravesical?
+          Apesar da abundância de páginas na Internet que anunciam “produtos mágicos” bons para todos, sempre tenha cuidado - sobretudo se não houver nada dito sobre contra-indicações. A melhor coisa que pode fazer é perguntar ao seu terapeuta antes de começar a tomar um novo medicamento ou suplemento alimentar.
+
+
+          Também é importante saber que as vitaminas B e C em grandes doses podem piorar os sintomas - assim como os antibióticos e os produtos à base de ervas.
+      - q: A medicação oral é melhor do que a intravesical?
         anchor: medication
         text: >-
-          The opposite is true. Local administration – instilling the medication
-          directly into the bladder – enables much bigger concentration of the
-          active agent in the target organ (in this case: the surface of the
-          bladder) than oral administration. Moreover, if a medicine is
-          instilled into the bladder, it does not enter the blood circulation,
-          which means, no systematic side-effects occur.
+          O oposto é verdade. A administração local - instilar o medicamento
+          diretamente na bexiga - permite uma concentração muito maior do agente
+          ativo no órgão alvo (neste caso: a superfície da bexiga) do que a
+          administração oral. Além disso, se um medicamento for instilado na
+          bexiga, ele não entra na circulação sanguínea, o que significa que não
+          há efeitos colaterais sistemáticos.
 
 
-          That said, intravesical instillation is more effective than oral medication.
-      - q: But… intravesical instillation is done with a catheter!
+          Dito isso, a instilação intravesical é mais eficaz do que a medicação oral.
+      - q: Mas… a instilação intravesical é feita com um cateter!
         anchor: instillation
         text: >-
-          Indeed, for a long time, applying a catheter used to be the only way
-          of bladder instillation. Even if the procedure is painful,
-          uncomfortable, and infections often occurred after the treatment. To
-          overcome these problems have UroDapter® been developed, an urological
-          adapter which replaces catheter. You can read more about UroDapter®
-          on [this page].
+          Na realidade, por muito tempo, a aplicação de um cateter costumava ser
+          a única forma de instilação da bexiga. Mesmo que o procedimento seja
+          doloroso, desconfortável e infecções ocorram frequentemente depois do
+          tratamento. Para superar esses problemas, foi desenvolvido o
+          UroDapter®, um adaptador urológico que substitui o cateter. Pode ler
+          mais sobre o UroDapter® em [esta página].
 
 
-          Also, there is another medical device, UroStill®, which helps patients perform a self-treatment. With UroStill®, the bladder instillation through the urethra can be done without external help. More information can be found on [this page].
-      - q: Not only has the treatment help, but also it has made everything worse! I
-          must have received the wrong treatment!
+          Além disso, há outro dispositivo médico, UroStill®, que ajuda os pacientes a realizarem um autotratamento. Com UroStill®, a instilação da bexiga através da uretra pode ser feita sem ajuda externa. Mais informações podem ser encontradas em [esta página].
+      - q: Não é só que o tratamento não ajudou, mas também piorou tudo! Devo ter
+          recebido o tratamento errado!
         anchor: treatment
         text: >-
-          There are a couple of things to be cleared.
+          Há algumas coisas a serem esclarecidas.
 
 
-          Firstly, it is not possible to achieve any improvement of a condition which has developed for long years, with one or very few treatments.
+          Em primeiro lugar, não é possível obter qualquer melhoria de uma doença que se desenvolveu por muitos anos, com um ou pouquíssimos tratamentos.
 
 
-          Secondly, there is no treatment that is effective for the 100% of the patients. That said, 20% of the patients do not respond to the usual ways of treatment. In their case, further examinations may be necessary; for example, (another) cystoscopy may confirm damaged areas in the bladder mucosa that are not responding to the local therapy anymore. In this case, fulguration of the affected areas may be necessary. Administering substances affecting the nerve system (antidepressants, nerval anti-inflammatories), anti-allergic compounds or strong, even dazing analgesics may help, as complementary forms of the treatment.
+          Em segundo lugar, não existe um tratamento eficaz para 100% dos pacientes. Dito isso, 20% dos pacientes não reagem às formas usuais de tratamento. No caso deles, exames adicionais podem ser precisos; por exemplo, uma (outra) cistoscopia pode confirmar áreas danificadas na mucosa da bexiga que não estão mais a reagir à terapia local. Nesse caso, pode ser precisa a fulguração das áreas afetadas. A administração de substâncias que afetam o sistema nervoso (antidepressivos, antiinflamatórios nervais), compostos antialérgicos ou analgésicos fortes, mesmo atordoantes, podem ajudar, como formas complementares de tratamento.
 
 
-          Thirdly, solutions used for bladder instillation usually contain more components; including anti-inflammatories, anesthetics, analgesics, and GAG-layer replenishers. It’s rare, but not impossible that someone is allergic to one of these components – e.g. to lidocaine. However, this does not trigger pain, in most cases. It is much more likely that the symptoms are getting worse because the medicine is too concentrated or too acidic – these factors can indeed be irritative.
+          Em terceiro lugar, as soluções usadas para instilação na bexiga geralmente contêm mais componentes; incluindo antiinflamatórios, anestésicos, analgésicos e reforçadores da camada GAG. É raro, mas não impossível, que alguém seja alérgico a um desses componentes - por exemplo, à lidocaína. No entanto, isso não desencadeia dor na maioria dos casos. É muito mais provável que os sintomas estejam a piorar porque o medicamento é muito concentrado ou muito ácido - esses fatores podem, de facto, ser irritantes.
 
 
-          Finally, the GAG-layer consists of more compounds; the bladder instillation solutions (or cocktails) usually contain one or some of them. Generally said, a patient responds with a bigger chance if the instilled cocktail contains more GAG-layer replenishment elements.
-      - q: It feels as if the doctors were experimenting on the patients…
+          Por fim, a camada GAG consiste em mais compostos; as soluções de instilação da bexiga (ou coquetéis) geralmente contêm um ou alguns deles. Geralmente dito, um paciente responde com uma chance maior se o coquetel instilado contiver mais elementos de reposição da camada GAG.
+      - q: É como se os médicos estivessem a fazer experimentos com os pacientes...
         anchor: experimenting
         text: >-
-          It must be pointed out that every medicine or pharmaceutical
-          composition has to undergo serious experiments and clinical
-          trials before they are allowed to be used in practice. In case of
-          lesser-known diseases like IC/BPS, it is a big achievement
-          that medicine the majority of the patients can be treated successfully
-          with do exist!
+          É importante ressaltar que todos os medicamentos ou composições
+          farmacêuticas devem ser submetidos a experimentos e ensaios clínicos
+          sérios antes de poderem ser utilizados na prática. No caso de doenças
+          menos conhecidas como a CI/BPS, é uma grande façanha que haja a
+          medicina com a qual a maioria dos pacientes possa ser tratada com
+          êxito!
 
 
-          If your therapist alters the ingredients of the cocktail administered, the frequency of the treatments, it indeed looks like “experimenting”. In fact, these decisions are based on the professional’s experience – which is based on hard work of long years, and feedback of hundreds of patients.
-      - q: I feel alone and isolated with my condition…
+          Se o seu terapeuta altera os ingredientes do coquetel administrado, a frequência dos tratamentos, parece mesmo “experimentar”. Na realidade, essas decisões baseiam-se na experiência do profissional - que se baseia no trabalho árduo de muitos anos e na retroalimentação de centenas de pacientes.
+      - q: Sinto-me sozinho e isolado com a minha doença...
         text: >-
-          Not anymore.
+          Não mais.
 
 
-          In most countries there are IC/BPS Patient Associations (since 2019, there has been a Hungarian organization, too). These associations dedicate themselves to help those who are suffering from this disease, and are open to the relatives of the patients, the doctors and everyone who would like to know more about this serious condition.
+          Na maioria dos países, há associações de pacientes CI/BPS (desde 2019, também há uma organização húngara). Estas associações dedicam-se a ajudar os que sofrem desta doença e estão abertas aos familiares dos doentes, aos médicos e a todos os que desejem saber mais sobre esta grave doença.
 
 
-          These associations are co-operating with each other, asking for help and guidance from those who may have collected more knowledge and built more relationships. They even consult with professionals about the future of research and therapy of IC/BPS.
+          Essas associações cooperam umas com as outras, pedindo ajuda e orientação daqueles que pode ser que tenham juntado mais conhecimento e estabelecido mais relacionamentos. Eles até consultam profissionais sobre o futuro da pesquisa e terapia da CI/BPS.
         anchor: associations
 ---

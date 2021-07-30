@@ -33,7 +33,7 @@ components:
 
       6. It is worth reading the label and packaging of everything you buy. The shorter the ingredient list is, the most likely it is that it can be had safely. Certain preservatives (e.g. nitrite) may cause problems – they can be found, for example, in several kinds of cold cuts.
 
-      7. Regarding vitamins, vitamin C (in a dose of more than 500mg/day) and B may trigger the symptoms. When possible, go for products containing only one vitamin or essential trace element instead of buying combination nutritional supplements.
+      7. Regarding vitamins, vitamin C (in a dose of more than 500 mg/day) and B may trigger the symptoms. When possible, go for products containing only one vitamin or essential trace element instead of buying combination nutritional supplements.
 
       8. If you have any allergy or intolerance besides IC/BPS, you have to keep away from the ingredients in question, too.
 
@@ -99,10 +99,7 @@ components:
       In case of severe symptoms, unfortunately, you have to keep away from the food or drink in question. (To lessen the symptoms, drink a lot of water.)
 
 
-      Do not feel desperate if you find your favorite food on the “excluded list”! Each IC/BPS patient
-
-
-      responds differently to a certain food or drink – it is not impossible that you do not have to cut out what you love. (Actually, certain IC/BPS patients are able to have coffee even if caffein causes pain for most IC/BPS patients.) However, be patients: always follow the steps strictly, and test every single thing for three days.
+      Do not feel desperate if you find your favorite food on the “excluded list”! Each IC/BPS patient responds differently to a certain food or drink – it is not impossible that you do not have to cut out what you love. (Actually, certain IC/BPS patients are able to have coffee even if caffein causes pain for most IC/BPS patients.) However, be patients: always follow the steps strictly, and test every single thing for three days.
 
 
       It is worth noting down which product or which brand you bought from a certain food. The full ingredient list of products from different companies can be different, too – sometimes, not the food or drink you test triggers the symptoms, but one of the extra ingredients does so. In this case, you only have to avoid the product which causes problems, not the sort of food or drink itself.

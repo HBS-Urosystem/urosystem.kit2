@@ -98,10 +98,7 @@ components:
       In case of severe symptoms, unfortunately, you have to keep away from the food or drink in question. (To lessen the symptoms, drink a lot of water.)
 
 
-      Do not feel desperate if you find your favorite food on the “excluded list”! Each IC/BPS patient
-
-
-      responds differently to a certain food or drink – it is not impossible that you do not have to cut out what you love. (Actually, certain IC/BPS patients are able to have coffee even if caffein causes pain for most IC/BPS patients.) However, be patients: always follow the steps strictly, and test every single thing for three days.
+      Do not feel desperate if you find your favorite food on the “excluded list”! Each IC/BPS patient responds differently to a certain food or drink – it is not impossible that you do not have to cut out what you love. (Actually, certain IC/BPS patients are able to have coffee even if caffein causes pain for most IC/BPS patients.) However, be patients: always follow the steps strictly, and test every single thing for three days.
 
 
       It is worth noting down which product or which brand you bought from a certain food. The full ingredient list of products from different companies can be different, too – sometimes, not the food or drink you test triggers the symptoms, but one of the extra ingredients does so. In this case, you only have to avoid the product which causes problems, not the sort of food or drink itself.
