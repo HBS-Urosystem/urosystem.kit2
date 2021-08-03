@@ -105,7 +105,7 @@ components:
     items:
       - src: ""
         url: uploads/UroStill_Users_Manual_v1_2.pdf
-        title: UroStill® User's Manual
+        title: دليل مستخدم UroStill®
       - title: دليل المستخدم UroStill®
         url: uploads/UroStill_guide_ar_v2.pdf
       - title: UroStill® & UroDapter® Flyer

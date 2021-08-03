@@ -9,16 +9,16 @@ components:
       - type: video
         title: ""
         text: |-
-          ### VIDEO PRESENTATION
+          ### عرض فيديو
 
-          ### Dr. Sándor Lovász on the use of UroDapter®
+          ### الدكتور Sándor Lovász حول استخدام UroDapter®
         id: MONZqHMJv7Q
         anchor: lovasz
         source: youtube
       - type: video
         title: ""
         text: |-
-          ### IBSA VIDEO TUTORIAL
+          ### فيديو تعليمي IBSA
 
           ### Using the iAluAdapter® (UroDapter®)
         id: OgwxcHuhQuQ
@@ -124,11 +124,11 @@ components:
     title: " مع UroDapter®  يمكن إعطاء أي محلول في المثانة."
     shape: default
     images:
-      - alt: UroDapter® – Urological Syringe Adapter and its parts
+      - alt: محول حقنة المسالك البولية وأجزائها – UroDapter®
         src: /uploads/urodapter_illustration.png
-        text: UroDapter® – Urological Syringe Adapter and its parts
-      - alt: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
-        text: UroDapter® Urological Syringe Adapter – In its Sterile Packaging
+        text: UroDapter® – محول حقنة المسالك البولية وأجزائها
+      - alt: محول الحقن البولي  UroDapter® – في عبوته المعقمة
+        text: محول الحقن البولي  UroDapter® – في عبوته المعقمة
         src: /uploads/img_2001-copy.jpg
   - type: links
     title: تنزيلات المعلومات والروابط
@@ -136,7 +136,7 @@ components:
       - title: Published Scientific Article of Sándor Lovász PhD, MD about UroDapter
         url: https://onlinelibrary.wiley.com/doi/pdf/10.1111/iju.13976
         src: /uploads/open-right.svg
-      - title: UroDapter® user guide
+      - title: دليل مستخدم UroDapter®
         url: uploads/UroDapter_Users_Manual.pdf
       - title: UroDapter® Tips & Tricks
         url: uploads/Using_UroDapter_Tips_and_Tricks_v4.pdf

@@ -15,7 +15,7 @@
       u.push(lang)
       u.push(path)
     } else {
-      u.push(lang || get(sitelang))
+      u.push(lang || get(sitelang) || 'en')
     }
     u.push('cms.json')
 		const url = '/'+u.join('/')
