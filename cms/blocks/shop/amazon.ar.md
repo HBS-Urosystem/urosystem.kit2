@@ -4,7 +4,7 @@ folder: shop
 fallback: en
 components:
   - type: article
-    title: Now UroDapter® is available on Amazon.com!
+    title: الآن UroDapter® متاح على Amazon.com!
     anchor: amazon
     background:
       - type: image
@@ -14,6 +14,6 @@ components:
     text: '<div style="height: 50vw"></div>'
   - type: cta
     title: ""
-    button: UroDapter® on Amazon.com
+    button: UroDapter® على Amazon.com
     link: https://www.amazon.com/dp/B08QN9NS8Z?ref=myi_title_dp
 ---

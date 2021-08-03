@@ -8,12 +8,12 @@ components:
     components:
       - type: article
         text: |-
-          #### SHIPPING COST
+          #### تكلفة الشحن:
 
-          * European countries, Russia, Ukraine: $9.50
-          * Other countries: $10.00
+          * الاتحاد الأوروبي وروسيا وأوكرانيا: 9.50 دولار
+          * دول أخرى: 10.00 دولارات
 
-          Sent out by registered priority mail
+          أرسلت عن طريق البريد المسجل الأولوية
         subtitle: ""
         background:
           - type: image
@@ -21,38 +21,37 @@ components:
             posy: 72
             scale: 20
             src: /uploads/urodapter-removebg.png
-    title: UroDapter® new to you? Order a sample package today!
-    subtitle: Buy 5 pcs for $40 / 10 pcs for $75
+    title: UroDapter® جديد بالنسبة لك؟ اطلب حزمة عينة اليوم!
+    subtitle: شراء 5 قطع مقابل 40 دولارًا / 10 قطعة مقابل 75 دولارًا
     background: []
   - type: buy
     title: ""
-    button: Shop now
+    button: تسوق الآن
     product: "5983114002592"
   - type: article
     text: >-
-      #### THE ESTIMATED DELIVERY TIME, ACCORDING TO THE CUSTOMER'S COUNTRY AS
-      FOLLOWS:
+      #### وقت التسليم المقدر حسب بلد العميل كالتالي:
 
 
-      * European countries: 12 days
+      * دول الاتحاد الأوروبي: 12 يومًا
 
-      * Russia, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
+      * روسيا ، أرمينيا ، أذربيجان ، جورجيا ، كازاخستان ، قيرغيزستان ، مولدوفا ، طاجيكستان ، تركمانستان ، أوكرانيا ، أوزبكستان: 19 يومًا
 
-      * Other countries: 15 days
+      * دول أخرى: 15 يومًا
     subtitle: ""
   - type: article
     subtitle: ""
     anchor: ""
-    text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
-      USUAL."
+    text: "#### بسبب انتشار فيروس كورونا المستجد ، يمكن أن يكون انتشار الوباء في
+      جميع أنحاء العالم أطول من المعتاد."
   - type: article
     text: >-
-      THE PRODUCT IS NOT AVAILABLE FROM OUR COMPANY IN THE FOLLOWING COUNTRIES:\
+      المنتج غير متوفر في الدول التالية:\
 
-      *Albania, Austria, Belarus, Belgium, Bosnia, Bulgaria, Croatia, Czech Republic, Cyprus, Denmark, Estonia, Finland, France, Germany, Kosovo, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, North Macedonia, Malta, The Netherlands, Poland, Portugal, Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, The United Kingdom, Turkey, Australia, New Zealand.* 
+      *ألبانيا ، النمسا ، بيلاروسيا ، بلجيكا ، البوسنة ، بلغاريا ، كرواتيا ، جمهورية التشيك ، قبرص ، الدنمارك ، إستونيا ، فنلندا ، فرنسا ، ألمانيا ، كوسوفو ، اليونان ، المجر ، أيرلندا ، إيطاليا ، لاتفيا ، ليتوانيا ، لوكسمبورغ ، مقدونيا الشمالية ، مالطا ، هولندا ، بولندا ، البرتغال ، رومانيا ، صربيا ، سلوفاكيا ، سلوفينيا ، إسبانيا ، السويد ، المملكة المتحدة ، تركيا ، أستراليا* 
 
 
-      VISIT OUR PARTNER'S WEBPAGE FOR FURTHER INFORMATION: \
+      ونيوزيلندا. قم بزيارة صفحة الويب الخاصة بشريكنا ،   لمزيد من المعلومات المعلومة: \
 
       <a href="https://www.ibsagroup.com" rel="noopener" target="_blank">https://www.ibsagroup.com</a>
 ---
