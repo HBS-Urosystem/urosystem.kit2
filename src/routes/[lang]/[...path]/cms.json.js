@@ -9,7 +9,7 @@ export const get = async (request) => {
 //console.log('request.params',request.params)
 	if (path.endsWith('.json')) { ///?
 		console.log('JSON',path)
-		return true
+		return false
 	}
 
 	let post, conf
@@ -19,12 +19,12 @@ export const get = async (request) => {
 		conf = await _getConf(store(sitelang) || 'en')
 //console.log(store(sitelang))
 		if (!conf.thislang) return false
-		path = lang
+		path = lang + (!!path ? '/' + path : '')
 		lang = store(sitelang) || 'en'
 	}
 
 	const parts = !!path && path.split('/') || []
-  //console.log('cms_parts',parts)
+  console.log('cms_parts',parts)
 
 	post = await _getPost({path: parts[0], lang, sub: parts[1] || null})
 	if (post.id) {

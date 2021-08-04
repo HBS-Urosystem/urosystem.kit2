@@ -15,6 +15,7 @@
       u.push(lang)
       u.push(path)
     } else {
+      //u.push(get(sitelang) || 'en')
       u.push(lang || get(sitelang) || 'en')
     }
     u.push('cms.json')
