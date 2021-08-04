@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: Вы еще не знакомы с UroDapter®? Закажите пробный набор!
-    subtitle: "Цена 5 штук: $37 / 10 штук: $72"
+    subtitle: "Цена 5 штук: $40 / 10 штук: $80"
     background: []
   - type: buy
     title: ""
