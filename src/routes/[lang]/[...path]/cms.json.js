@@ -24,7 +24,7 @@ export const get = async (request) => {
 	}
 
 	const parts = !!path && path.split('/') || []
-  console.log('cms_parts',parts)
+  //console.log('cms_parts',parts)
 
 	post = await _getPost({path: parts[0], lang, sub: parts[1] || null})
 	if (post.id) {
