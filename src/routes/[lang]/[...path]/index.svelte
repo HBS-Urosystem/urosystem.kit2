@@ -45,7 +45,7 @@
 
 <main>
   {#if $state.post.hero}
-    <header class="full" style="{$state.post.hero.background ? $state.post.hero.background : ``}">
+    <header class="full" style="{$state.post.hero.background ? $state.post.hero.background : ``}" on:click={() => $snapto = '#content'}>
       <h1 hidden>{$state.post.title}</h1>
       {#each $state.post.hero.components || [] as comp}
         <Components {comp}/>
@@ -61,9 +61,9 @@
       </nav>
     {/if}-->
   {:else}
-    <header>
+    <header on:click={() => $snapto = '#content'}>
       <!--<h1 on:click={() => scroller.scrollTo({element: '#content', offset: 0})}>{$state.post.title}</h1>-->
-      <h1 on:click={() => $snapto = '#content'}>{$state.post.title}</h1>
+      <h1>{$state.post.title}</h1>
       {#if $state.post.subhero}
         {#each $state.post.subhero.components || [] as comp}
           <Components {comp}/>
