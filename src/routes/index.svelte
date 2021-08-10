@@ -30,7 +30,7 @@
   <meta name="keywords" content="instillation, urological adapter, bladder disease, pain-free, cystitis, catheter replacement, painless, complication-free, bladder, treatment">
 </svelte:head>
 <main>
-  <a href="/" aria-label="home"><img src="/uploads/urosystem_logo_02_web.svg" alt="Urosystem logo" style="filter:invert();width:20ch;display:block;margin:0 auto; aspect-ratio: 100 / 90.861"/></a>
+  <a href="/" aria-label="home"><img src="/uploads/urosystem_logo_02_web.svg" alt="" style="filter:invert();width:20ch;display:block;margin:0 auto; aspect-ratio: 100 / 90.861"/></a>
   <p>Loading…</p>
   <noscript><p><a href="/en">NO JAVASCRIPT! Click here to load the website…</a></p></noscript>
 </main>
