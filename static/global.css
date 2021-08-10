@@ -303,7 +303,7 @@ a, a:visited {
   color: inherit;
 }
 article p a, article p a:visited, article li > a, article li > a:visited {
-  word-break: break-all;
+  word-break: break-word;
   color: white;
 }
 sup a {
