@@ -22,7 +22,7 @@
 		const url = '/'+u.join('/')
 
     //console.log('1.fetch(url)', url)
-		let res = await fetch(url);
+		let res = await fetch(url)
 
 		if (res.ok) {
       const result = await res.json()
