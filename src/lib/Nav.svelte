@@ -95,7 +95,7 @@
     //console.log(path)
     //await goto(path.join('/'))
     //window.location.href = path.join('/')
-    window.location.href = `/${langchng}/${$state.post.path || ''}`
+    window.location.href = `/${langchng}/${$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}`
     //console.log(`${langchng}/${$state.post.path}`)
   }
   let slct
