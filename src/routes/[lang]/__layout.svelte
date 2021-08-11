@@ -45,6 +45,7 @@
   export let result//, lang, path
   $: $state = result
   $: $sitelang = result.thislang.id
+  //$: console.log('_layout $state:',result.post.path)
   //$: console.log('__layout $state:',$state.post.id)
   //let thislang = {dir: 'ltr'}
 	onMount(() => {
@@ -57,7 +58,7 @@
 
 <svelte:head>
   {#each $state.langs as lang}
-    <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{$state.post.path || ''}" hreflang="{lang.id}" />
+    <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{$state.post.subpage && $state.post.subpage.path || $state.post.path || ''}" hreflang="{lang.id}" />
   {/each}
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
