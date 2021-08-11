@@ -77,8 +77,8 @@
 
 	//const { page } = stores()
   //export let segment
-  let navbar, navul, modal
-
+  let navbar, navul//, modal, hamburger
+  //$: hamburger = navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)
   let langchng = $sitelang
   //const path = $pagepath.split('/')
   //console.log(`${langchng}/${$pagepath}`)
@@ -104,9 +104,9 @@
 </script>
 
 <svelte:window bind:scrollY={y} />
-  {#each $state.langs as lang}
-    <a hidden aria-hidden="true" href="/{lang.id}/{$state.post.path || ''}">/{lang.id}/{$state.post.path || ''}</a>
-  {/each}
+  <!--{#each $state.langs as lang}
+    <a hidden aria-hidden="true" href="/{lang.id}/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">/{lang.id}/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}</a>
+  {/each}-->
 
   <nav
     use:action class={headerClass}
@@ -170,6 +170,7 @@
         {/if}
       {/each}
       {#if navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}
+      <!--{#if !!hamburger}-->
         <li id="over" on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? 200 : -200 )})}><!--  -->
           <button aria-label="Scroll the nav"></button>
         </li>
