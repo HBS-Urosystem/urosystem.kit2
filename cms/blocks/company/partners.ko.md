@@ -13,9 +13,10 @@ components:
         subtitle: ""
         text: >-
           <a href="https://www.ibsagroup.com/" rel="noopener"
-          target="_blank"><img src="/uploads/1000px-logo_ibsa.svg.sm.png" srcset="/uploads/1000px-logo_ibsa.svg.png 2x, /uploads/1000px-logo_ibsa.svg.sm.png 1x"
-          alt="IBSA logo" style="max-height:6ch;display:block;margin:0 auto;"
-          /></a>
+          target="_blank"><img src="/uploads/1000px-logo_ibsa.svg.sm.png"
+          srcset="/uploads/1000px-logo_ibsa.svg.png 2x,
+          /uploads/1000px-logo_ibsa.svg.sm.png 1x" alt="IBSA logo"
+          style="max-height:6ch;display:block;margin:0 auto;" /></a>
 
 
           ### IBSA의 약물 솔루션 인 iAluRil®과 함께 포장 된 UroDapter®는 85 개국에서 iAluadapter®라는 이름으로 제공됩니다.
@@ -31,9 +32,8 @@ components:
         text: >-
           <a href="http://uro-ginecology.ru/" rel="noopener"
           target="_blank"><img
-          src="/uploads/screenshot-2020-09-07-at-10.23.38-am.png"
-          alt="Uro-Pro logo" style="max-height:6ch;display:block;margin:0 auto;"
-          /></a>
+          src="/uploads/screenshot-2020-09-07-at-10.23.38-am.png" alt="Uro-Pro
+          logo" style="max-height:6ch;display:block;margin:0 auto;" /></a>
 
 
           ### Uro-Pro 러시아 UroDapter®의 러시아 판매처

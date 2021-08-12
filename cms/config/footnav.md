@@ -84,7 +84,7 @@ footer:
           - lang: zh
             title: 关于我们
           - lang: ar
-            title: معلومات عنا
+            title: اتصال
           - lang: he
             title: איש קשר
           - lang: ko

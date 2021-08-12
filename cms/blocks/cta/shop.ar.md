@@ -11,10 +11,10 @@ background:
     name: dark-blue-75
 components:
   - type: cta
-    button: How to buy?
+    button: كيف اشترى؟
     link: /shop
     text: "### المسالك البولية لتقطير المثانة. تستبدل القسطرة بالكامل ، فإنها تتيح
       تقطير المثانة بدون ألم وخالية من المضاعفات"
     icon: ""
-    title: كيف اشترى؟
+    title: UroDapter®
 ---

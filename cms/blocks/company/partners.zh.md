@@ -13,9 +13,10 @@ components:
         subtitle: ""
         text: >-
           <a href="https://www.ibsagroup.com/" rel="noopener"
-          target="_blank"><img src="/uploads/1000px-logo_ibsa.svg.sm.png" srcset="/uploads/1000px-logo_ibsa.svg.png 2x, /uploads/1000px-logo_ibsa.svg.sm.png 1x"
-          alt="IBSA logo" style="max-height:6ch;display:block;margin:0 auto;"
-          /></a>
+          target="_blank"><img src="/uploads/1000px-logo_ibsa.svg.sm.png"
+          srcset="/uploads/1000px-logo_ibsa.svg.png 2x,
+          /uploads/1000px-logo_ibsa.svg.sm.png 1x" alt="IBSA logo"
+          style="max-height:6ch;display:block;margin:0 auto;" /></a>
 
 
           ### 与IBSA的药物溶液iAluRil®一起包装，UroDapter®在iAluadapter®的名称下已在85个国家销售。
@@ -31,9 +32,8 @@ components:
         text: >-
           <a href="http://uro-ginecology.ru/" rel="noopener"
           target="_blank"><img
-          src="/uploads/screenshot-2020-09-07-at-10.23.38-am.png"
-          alt="Uro-Pro logo" style="max-height:6ch;display:block;margin:0 auto;"
-          /></a>
+          src="/uploads/screenshot-2020-09-07-at-10.23.38-am.png" alt="Uro-Pro
+          logo" style="max-height:6ch;display:block;margin:0 auto;" /></a>
 
 
           ### Uro-Pro俄罗斯UroDapter®的俄罗斯经销商
