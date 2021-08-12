@@ -67,6 +67,7 @@ top:
         title: 适应症
       - lang: ar
         title: دواعي الإستعمال
+    link: #indications
   - link: company
     titles:
       - lang: en
