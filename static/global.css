@@ -109,7 +109,7 @@ article > p:first-child {
 
 header h1 {
   /*margin-top: 1em;*/
-  margin-top: 5em;
+  margin-top: 3.75em;
   padding-inline: var(--sides);
 }
 h1 a {
@@ -227,7 +227,7 @@ button {
   border-radius: 1.75rem;
   padding: 0 var(--gap2);
   line-height: 3rem;
-  margin-top: 3.5em;
+  margin-top: 3.75em;
   margin-bottom: 2.5rem;
   margin-inline: 1rem;
   background-color: var(--pale-blue);
@@ -279,8 +279,8 @@ article p, article ul, article ol, article dl, article table, aside p, aside ul,
   vertical-align: baseline;
   color: var(--pale-blue);
 }
-article p:first-child, article ul:first-child, article ol:first-child, article dl:first-child, article table:first-child, aside p:first-child, aside ul:first-child, aside ol:first-child, aside dl:first-child, aside table:first-child {
-  margin-top: 1.5em;
+article p:first-child, article ul:first-child, article ol:first-child, article dl:first-child, article table:first-child, main aside p:first-child, main aside ul:first-child, main aside ol:first-child, main aside dl:first-child, aside table:first-child, main > div > :not(article):first-child {
+  margin-top: 3.75em;
 }
 article p:last-child, article ul:last-child, article ol:last-child, article dl:last-child, article table:last-child, aside p:last-child, aside ul:last-child, aside ol:last-child, aside dl:last-child, aside table:last-child {
   padding-bottom: 1em;
