@@ -27,7 +27,7 @@ components:
     ratio: 50
   - type: cta
     title: ""
-    button: Get 50% off now!
+    button: How to buy?
     background: ""
     link: /shop
     text: >-

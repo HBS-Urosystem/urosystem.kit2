@@ -11,7 +11,7 @@ components:
     id: uploads/urodapter_5_20.mp4
   - type: cta
     title: ""
-    button: Get 50% off now!
+    button: How to buy?
     link: /shop
     icon: ""
 ---

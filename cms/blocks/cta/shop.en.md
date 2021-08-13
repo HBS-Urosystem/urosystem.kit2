@@ -11,7 +11,7 @@ background:
     name: light-blue-75
 components:
   - type: cta
-    button: Get 50% off now!
+    button: How to buy?
     link: /shop
     text: "### A urological syringe adapter which completely replaces the catheter:
       it enables painless and complication-free bladder instillation"
