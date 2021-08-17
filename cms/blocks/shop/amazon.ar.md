@@ -11,9 +11,9 @@ components:
         posx: 50
         posy: 50
         src: /uploads/amazon_bg.jpg
-    text: '<div style="height: 50vw"></div>'
+    text: '<div style="height: 40vw"></div>'
   - type: cta
     title: ""
     button: UroDapter® على Amazon.com
-    link: https://www.amazon.com/dp/B08QN9NS8Z?ref=myi_title_dp
+    link: https://www.amazon.com/s?k=urodapter+%22Urological+Syringe+adapter%22
 ---
