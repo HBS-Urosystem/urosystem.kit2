@@ -7,5 +7,5 @@ keywords: Urosystem ، UroDapter ، UroStill ، حزمة عينة ، محول ا
   متجر Urosystem ، متجر ويب ، Amazon
 description: يمكن شراء عبوات عينات من 5 قطع / 10 قطع من  UroDapter® هنا. للكميات
   الأكبر قم بزيارة صفحة أمازون الخاصة بنا.
-menutitle: شراء عينة
+menutitle: التسعير
 ---

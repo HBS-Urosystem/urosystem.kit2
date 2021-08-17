@@ -28,7 +28,7 @@ components:
     ratio: 50
   - type: cta
     title: ""
-    button: Contact us to purchase
+    button: Contact us
     background: ""
     link: "#contact"
     text: >-
