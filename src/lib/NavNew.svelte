@@ -77,8 +77,14 @@
 
 	//const { page } = stores()
   //export let segment
-  let navbar, navul//, modal, hamburger
+  let navbar, w, navul, hamburger//, modal
   //$: hamburger = navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)
+  $: {
+    if (w) {
+      //console.log(w, navbar.clientWidth, navbar.scrollLeft, navbar.scrollWidth)
+      hamburger = navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth
+    }
+  }
   let langchng = $sitelang
   //const path = $pagepath.split('/')
   //console.log(`${langchng}/${$pagepath}`)
@@ -111,7 +117,8 @@
   <nav
     use:action class={headerClass}
     class:moved={y>32}
-    bind:this={navbar}>
+    bind:this={navbar}
+    bind:clientWidth={w}>
     <div>
       <!-- svelte-ignore a11y-no-onchange -->
       <select on:focus={() => slct = true} on:blur={() => slct = false} bind:value={langchng} on:change={newlang}>
@@ -129,7 +136,8 @@
         <li><a href="https://ok.ru/urodapter" rel="noopener" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>
       </ul>
     </div>
-    <ul bind:this={navul} mobil={navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}>
+    <!--<ul bind:this={navul} mobil={navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}>-->
+    <ul bind:this={navul} mobil={!!hamburger}>
       <li>
         <a tabindex="0" sveltekit:prefetch href="/{$sitelang}" aria-label="home">
           <img src="/uploads/logo-03-web.svg" alt="UroDapter® – Revolutionizing bladder pain treatment">
@@ -157,7 +165,7 @@
             {#if nav.sublinks}
               <ul>
                 {#each nav.sublinks as sub}
-                  <li><SubNav {sub}/></li>
+                  {#if sub.title}<li><SubNav {sub}/></li>{/if}
                   {#if sub.modal}
                     {#each sub.modal.components || [] as comp}
                       <Components {comp}/>
@@ -169,17 +177,20 @@
           </li>
         {/if}
       {/each}
-      {#if navbar && (navbar.clientWidth < navbar.scrollWidth)}
-        {#if navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}
-        <!--{#if !!hamburger}-->
-          <li id="over" on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? 200 : -200 )})}><!--  -->
+      <!--{#if navbar && (navbar.clientWidth < navbar.scrollWidth)}-->
+      {#if hamburger}
+        <!--{#if navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}
+          <li id="over" on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? 200 : -200 )})}>
             <button aria-label="Scroll the nav"></button>
           </li>
         {:else}
-          <li id="over" on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? -200 : 200 )})}><!--  -->
+          <li id="over" on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? -200 : 200 )})}>
             <button aria-label="Scroll the nav"></button>
           </li>
-      {/if}
+        {/if}-->
+        <li id="over">
+          <button aria-label="Scroll the nav"></button>
+        </li>
       {/if}
       <!--<li><a href="/">Company</a></li>
       <li><a href="/">Downloads</a></li>
@@ -238,16 +249,19 @@
     inset-inline-end: 0;
     padding: 0;
   }
+  nav:focus-within li#over {
+    opacity: 0;
+  }
   li#over button {
     background-color: var(--light-blue);
-    background-image: url(/uploads/open-right.svg);
+    background-image: url(/menu.svg);
     border-radius: 50% 0 0 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 75%;
     margin: 0 0 -.75rem;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.75rem;
+    height: 2.75rem;
     padding: 0.75rem;
     outline: none;
   }
@@ -303,9 +317,9 @@
   }
   nav > ul[mobil='true'] > li:not(:first-child) {
     display: none;
-    align-self: center;
+    /*align-self: center;*/
   }
-  nav:hover > ul[mobil='true'] > li, nav:focus > ul[mobil='true'] > li, nav:focus-within > ul[mobil='true'] > li {
+  /*nav:hover > ul[mobil='true'] > li, */nav:focus > ul[mobil='true'] > li, nav:focus-within > ul[mobil='true'] > li {
     display: list-item;
   }
   li#over {
@@ -314,9 +328,6 @@
     right: 0;
   }
 
-  nav > ul[mobil='true'] ul {
-    margin-inline-start: -50%;
-  }
   li {
     white-space: nowrap;
   }
@@ -347,13 +358,18 @@
   }
   nav > ul > li:not(:first-of-type) {
     min-height: 1.25rem;
+    padding-bottom: 1rem;
   }
   nav > ul > li:not(:first-of-type) img {
     height: 1.25rem;
     filter: invert();
   }
+  /*nav > ul ul {
+    margin-inline-start: -50%;
+  }*/
   ul ul {
     /*display: none;*/
+    display: grid;
     visibility:hidden;
     height: 0;
     opacity: 0;
@@ -363,9 +379,9 @@
     overflow-x: visible;
     margin-inline-start: -1rem;
     text-transform: initial;
-    padding-bottom: 1rem;
+    /*padding-bottom: 1rem;*/
   }
-  ul li:hover ul, ul li:focus-within ul {
+  ul[mobil='false'] li:hover ul, ul li:focus-within ul {
     visibility:visible;
     height: auto;
     opacity: 1;
@@ -378,10 +394,11 @@
     border: 2px var(--mid-blue-75) solid;
   }*/
   li li {
+    /*justify-self: center;*/
     background-color: var(--pale-blue);
     color: black;
     width: max-content;
-    margin: .5rem 0;
+    margin: .5rem 0 0;
     border-radius: 1.5rem;
     /*border: 2px transparent solid;*/
     /*padding: 2px;*/

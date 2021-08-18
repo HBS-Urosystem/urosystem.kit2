@@ -27,7 +27,7 @@
     //sublink = sub.link
   }
   //$: sublink = sub.link.startsWith('#') ? sub.link : `${$sitelang}/${sub.link}`
-  //$: console.log('titles:', titles)
+  //$: console.log('SubNav:', sub)
 </script>
 
 {#if sub.ext}
@@ -63,8 +63,9 @@
     padding-inline-end: .5rem;
   }
   a.block {
-    padding: .5rem 1rem .25rem;
+    /*padding: .5rem 1rem .25rem;*/
     display: block;
+    padding: .25rem 1rem 0;
   }
   img {
     filter: invert();
