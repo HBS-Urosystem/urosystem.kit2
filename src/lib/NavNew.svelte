@@ -189,7 +189,7 @@
           </li>
         {/if}-->
         <li id="over">
-          <button aria-label="Scroll the nav"></button>
+          <button aria-label="menu" tabindex="0"></button>
         </li>
       {/if}
       <!--<li><a href="/">Company</a></li>
