@@ -325,6 +325,7 @@
     display: block;
     position: absolute;
     right: 0;
+    z-index: 999;
   }
 
   li {
