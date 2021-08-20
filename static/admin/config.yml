@@ -159,7 +159,7 @@ collections:
             value_field: "{{folder}}/{{id}}"
             display_fields:
               - "{{folder}}/{{id}}"
-    create: false
+    create: true
     preview_path: "{{slug}}"
     i18n: true
   - sortable_fields:

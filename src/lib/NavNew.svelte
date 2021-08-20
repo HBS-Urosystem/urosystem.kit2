@@ -249,9 +249,9 @@
     inset-inline-end: 0;
     padding: 0;
   }
-  nav:focus-within li#over {
+  /*nav:focus-within li#over {
     opacity: 0;
-  }
+  }*/
   li#over button {
     background-color: var(--light-blue);
     background-image: url(/menu.svg);
@@ -313,7 +313,6 @@
   nav > ul[mobil='true'] {
     flex-direction: column;
     width: revert;
-    
   }
   nav > ul[mobil='true'] > li:not(:first-child) {
     display: none;

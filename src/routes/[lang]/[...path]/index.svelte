@@ -122,7 +122,7 @@
   }
   header.full {
     padding-top: 9rem;
-    padding-bottom: 12rem;
+    /*padding-bottom: 12rem;*/
     min-height:100vh;
     display: flex;
     flex-direction: column;

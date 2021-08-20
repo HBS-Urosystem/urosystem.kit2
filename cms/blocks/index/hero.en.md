@@ -26,14 +26,16 @@ components:
         src: /uploads/tagline-pic-wider.png
     ratio: 50
   - type: cta
-    title: ""
-    button: How to buy?
-    background: ""
-    link: /shop
     text: >-
       # UroDapter®
 
 
       ### A urological syringe adapter which completely replaces the catheter: it enables painless and complication-free bladder instillation
-    icon: ""
+    button: UroDapter® on Amazon.com
+    link: https://www.amazon.com/s?k=urodapter+%22Urological+Syringe+adapter%22
+  - type: cta
+    title: "UroDapter® new to you? Order a sample package today!"
+    button: Sample package
+    background: ""
+    link: /shop
 ---
