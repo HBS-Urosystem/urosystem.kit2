@@ -188,7 +188,7 @@
             <button aria-label="Scroll the nav"></button>
           </li>
         {/if}-->
-        <li id="over" tabindex="0" on:click={() => navul.focus()}>
+        <li id="over" tabindex="0">
           <button aria-label="menu"></button>
         </li>
       {/if}
@@ -249,9 +249,9 @@
     inset-inline-end: 0;
     padding: 0;
   }
-  /*nav:focus-within li#over {
-    opacity: 0;
-  }*/
+  nav:focus-within li#over button {
+    display: none;
+  }
   li#over button {
     background-color: var(--light-blue);
     background-image: url(/menu.svg);
