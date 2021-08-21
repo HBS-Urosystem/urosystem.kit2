@@ -188,8 +188,8 @@
             <button aria-label="Scroll the nav"></button>
           </li>
         {/if}-->
-        <li id="over">
-          <button aria-label="menu" tabindex="0"></button>
+        <li id="over" tabindex="0" on:click={() => navul.focus()}>
+          <button aria-label="menu"></button>
         </li>
       {/if}
       <!--<li><a href="/">Company</a></li>
@@ -318,7 +318,7 @@
     display: none;
     /*align-self: center;*/
   }
-  /*nav:hover > ul[mobil='true'] > li, */nav:focus > ul[mobil='true'] > li, nav:focus-within > ul[mobil='true'] > li {
+  /*nav:hover > ul[mobil='true'] > li, */nav > ul[mobil='true']:focus > li, nav > ul[mobil='true']:focus-within > li {
     display: list-item;
   }
   li#over {
