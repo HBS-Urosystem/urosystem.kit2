@@ -1,5 +1,6 @@
 <script context="module">
 	import { state, moved, sitelang } from '$lib/stores'
+  import { beforeUpdate } from 'svelte'
   //import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
   //import { langs } from '$lib/config';
   //import { topnav } from '$lib/config'
@@ -31,7 +32,7 @@
   import validate from "./_validation";
   let duration = "450ms";
   let offset = 0;
-  let tolerance = 4;
+  let tolerance = 8;
   let headerClass = "pin";
   let lastHeaderClass = "pin";
   let y = 0;
@@ -77,14 +78,28 @@
 
 	//const { page } = stores()
   //export let segment
-  let navbar, w, navul, hamburger//, modal
+  let navbar, w, navul, hamburger = true//, modal
   //$: hamburger = navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)
+  //$: hamburger = !w || (w + navbar.scrollLeft < navbar.scrollWidth)
   $: {
-    if (w) {
-      //console.log(w, navbar.clientWidth, navbar.scrollLeft, navbar.scrollWidth)
-      hamburger = navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth
+    if (!!w && !!navbar/* && hamburger === false*/) {
+      hamburger = false
+      /*hamburger = (w + navbar.scrollLeft <= navbar.scrollWidth)
+      console.log('$:', w, w + navbar.scrollLeft, navbar.scrollWidth, hamburger)
+    } else {
+      hamburger = false /// 20 goto 10*/
     }
   }
+  beforeUpdate(() => {
+    //hamburger = false
+		console.log('the component is about to update');
+    if (!!w && !!navbar && hamburger === false) {
+      hamburger = (w + navbar.scrollLeft < navbar.scrollWidth)
+      console.log('update', w, w + navbar.scrollLeft, navbar.scrollWidth, hamburger)
+    } else {
+      hamburger = false /// 20 goto 10
+    }
+	})
   let langchng = $sitelang
   //const path = $pagepath.split('/')
   //console.log(`${langchng}/${$pagepath}`)
@@ -244,13 +259,17 @@
     background-color: var(--dark-blue);
   }
   li#over {
-    position: sticky;
-    /*right: 0;*/
+    /*position: sticky;*/
+    right: 0;
     inset-inline-end: 0;
     padding: 0;
+    display: block;
+    position: absolute;
+    /*z-index: 999;*/
   }
-  nav:focus-within li#over button {
-    display: none;
+  nav:focus-within li#over button, ul:focus-within li#over button {
+    /*display: none;*/
+    opacity: 0;
   }
   li#over button {
     background-color: var(--light-blue);
@@ -312,20 +331,17 @@
   }
   nav > ul[mobil='true'] {
     flex-direction: column;
-    width: revert;
+    /*width: revert;*/
   }
+  /*nav > ul[mobil='true'] {
+    align-self: center;
+    margin-inline: auto;
+  }*/
   nav > ul[mobil='true'] > li:not(:first-child) {
     display: none;
-    /*align-self: center;*/
   }
-  /*nav:hover > ul[mobil='true'] > li, */nav > ul[mobil='true']:focus > li, nav > ul[mobil='true']:focus-within > li {
+  nav > ul[mobil='true']:active > li/*, nav > ul[mobil='true']:focus > li*/, nav > ul[mobil='true']:focus-within > li {
     display: list-item;
-  }
-  li#over {
-    display: block;
-    position: absolute;
-    right: 0;
-    z-index: 999;
   }
 
   li {
@@ -342,9 +358,9 @@
     /*overflow-y: visible;*/
     flex-shrink: 0;
   }
-  /*nav > ul > li > a, nav > ul > li > span {
-    display: block;
-  }*/
+  nav > ul > li > span {
+    cursor: default;
+  }
   nav > ul > li:first-of-type a {
     display: block;
     height: 4rem;
@@ -381,7 +397,7 @@
     text-transform: initial;
     /*padding-bottom: 1rem;*/
   }
-  ul[mobil='false'] li:hover ul, ul li:focus-within ul {
+  ul li:hover ul, ul li:focus-within ul {
     visibility:visible;
     height: auto;
     opacity: 1;
@@ -440,8 +456,9 @@
     padding: 0.65em 1.75em 0 2em;
     padding-inline-start: 2em;
     padding-inline-end: 1.75em;
-    height: 1.5em;
+    /*height: 1.5em;*/
     background: url("/uploads/bx-world.svg") no-repeat left, url("/uploads/open-down.svg") no-repeat right;
+    background-size: 1.5em;
     filter: invert();
     text-transform: uppercase;
   }  

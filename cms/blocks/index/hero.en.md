@@ -32,7 +32,7 @@ components:
 
       ### A urological syringe adapter which completely replaces the catheter: it enables painless and complication-free bladder instillation
     button: UroDapter® on Amazon.com
-    link: https://www.amazon.com/s?k=urodapter+%22Urological+Syringe+adapter%22
+    link: https://www.amazon.com/stores/UroDapter/page/EE971FBB-A516-4E98-A2CD-2B62117F088A
   - type: cta
     title: "UroDapter® new to you? Order a sample package today!"
     button: Sample package
