@@ -5,8 +5,6 @@ fallback: ""
 components:
   - type: grid
     slide: false
-    title: The IC/BPS Series
-    subtitle: with Sándor Lovász MD., PhD
     components:
       - type: video
         source: local
