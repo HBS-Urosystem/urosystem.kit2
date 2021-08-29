@@ -91,12 +91,18 @@
       //console.log('$: -> ', hamburger, '')
     }
   }*/
-  afterUpdate(() => {
-    if (!!wul && !!wnav) {
-      if (!hamburger) {
+  beforeUpdate(() => {
+    if (!!wul && !hamburger && !nwidth) {
+      /*if (!hamburger) {
         nwidth = nwidth || wul // nwidth is fixed once set
         console.log(nwidth, wnav)
-      }
+      }*/
+      nwidth = wul /// asszem sosem kovetkezik be
+      console.log('before: , nwidth, wnav, hamburger)')
+    }
+  })
+  afterUpdate(() => {
+    if (!!nwidth && !!wnav) {
       /*hamburger = nwidth > wnav*/
       /*if (!!nwidth) {
         //if (!hamburger == (wnav < nwidth))
@@ -280,7 +286,8 @@
     inset-inline-end: 0;
     padding: 0;
     display: block;
-    position: absolute;
+    position: fixed;
+    opacity: 1;
     /*z-index: 999;*/
   }
   nav:focus-within li#over, ul:focus-within li#over {
@@ -356,13 +363,16 @@
   }*/
   nav > ul[mobil='true'] > li:not(:first-child) {
     display: none;
+    opacity: 0;
   }
   nav > ul[mobil='true']:active > li/*, nav > ul[mobil='true']:focus > li*/, nav > ul[mobil='true']:focus-within > li {
     display: list-item;
+    opacity: 1;
   }
 
   li {
     white-space: nowrap;
+    transition: opacity, .5s;
   }
   li img {
     aspect-ratio: 100 / 100;

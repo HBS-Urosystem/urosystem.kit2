@@ -195,4 +195,6 @@ top:
             title: Pályázatok
   - link: shop
     titles: []
+  - link: edu
+    titles: []
 ---

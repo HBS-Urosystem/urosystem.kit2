@@ -128,6 +128,9 @@
     flex-direction: column;
     justify-content: center;
   }
+/*  main {
+    padding-bottom: var(--gap);
+  }*/
   h1 {
     cursor: pointer;
   }

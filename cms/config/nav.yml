@@ -67,7 +67,7 @@ top:
         title: 适应症
       - lang: ar
         title: دواعي الإستعمال
-    link: #indications
+    link: null
   - link: company
     titles:
       - lang: en
@@ -293,4 +293,6 @@ top:
           - lang: ar
             title: Female Pelvic Pain Association (FEPPA)
   - link: shop
+    titles: []
+  - link: edu
     titles: []

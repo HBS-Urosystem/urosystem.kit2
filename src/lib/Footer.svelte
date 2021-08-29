@@ -66,6 +66,9 @@
   </footer>
 
 <style>
+  /*footer {
+    margin-top: var(--gap);
+  }*/
   nav {
     background-color: var(--dark-blue);
     padding: 0 var(--sides);
