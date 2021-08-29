@@ -98,7 +98,7 @@
   padding: var(--gap4) var(--sides) var(--gap);
 }*/
 :global(article), :global(aside) {
-  padding: var(--gap) var(--sides) var(--gap);
+  padding: var(--gap) var(--sides);
 }
 :global(article + aside) {
   padding-top: 0;
