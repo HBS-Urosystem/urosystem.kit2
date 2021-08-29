@@ -17,5 +17,5 @@ background:
 components:
   - type: article
     title: Educational Material
-    subtitle: with Sándor Lovász MD., PhD
+    subhead: with Sándor Lovász MD., PhD
 ---

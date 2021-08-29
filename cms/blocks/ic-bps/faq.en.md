@@ -18,7 +18,7 @@ components:
 
 
       This is why we would like to make a couple of things clear about this condition.
-    subtitle: ""
+    subhead: ""
   - type: qas
     title: ""
     items:

@@ -18,5 +18,5 @@ components:
     background:
       - type: gradient
         name: light-blue
-    subtitle: ""
+    subhead: ""
 ---

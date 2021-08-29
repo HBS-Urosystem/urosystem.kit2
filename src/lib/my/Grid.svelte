@@ -17,7 +17,7 @@
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
   {#if comp.title}<h2 id="{comp.anchor}">{comp.title}</h2>{/if}
-  {#if comp.subtitle}<h3 id="{comp.anchor}">{comp.subtitle}</h3>{/if}
+  {#if comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
   <section class="{comp.slide ? 'slides' : 'grid'}" style="--cols: {comp.components.length};">
     {#each comp.components || [] as c}
     <!--c.lang = comp.lang-->

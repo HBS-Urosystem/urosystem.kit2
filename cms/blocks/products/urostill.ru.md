@@ -120,7 +120,7 @@ components:
   - type: images
     slide: false
     title: Одноразовые стерильные предметы
-    subtitle: Расширение + UroDapter® + Трехстороннее нажатие
+    subhead: Расширение + UroDapter® + Трехстороннее нажатие
     shape: default
     images:
       - alt: UroStill®

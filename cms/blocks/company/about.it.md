@@ -6,7 +6,7 @@ components:
   - type: article
     anchor: about
     title: Chi Siamo?
-    subtitle: La nostra azienda, Urosystem Co. Ltd., con sede in Ungheria, ha
+    subhead: La nostra azienda, Urosystem Co. Ltd., con sede in Ungheria, ha
       sviluppato e commercializzato con successo diversi dispositivi urologici
       innovativi. Intendiamo rivoluzionare il trattamento intravescicale delle
       condizioni del basso tratto urinario.  Il nostro obiettivo è quello di

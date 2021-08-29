@@ -120,7 +120,7 @@ components:
   - type: images
     slide: false
     title: 일회용 멸균 제품
-    subtitle: Extension + UroDapter® + Three-way-tap
+    subhead: Extension + UroDapter® + Three-way-tap
     shape: default
     images:
       - alt: UroStill®

@@ -120,7 +120,7 @@ components:
   - type: images
     slide: false
     title: Articoli sterili monouso
-    subtitle: Extension + UroDapter® + Three-way-tap
+    subhead: Extension + UroDapter® + Three-way-tap
     shape: default
     images:
       - alt: UroStill®

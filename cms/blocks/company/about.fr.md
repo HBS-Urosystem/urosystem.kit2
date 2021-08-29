@@ -6,7 +6,7 @@ components:
   - type: article
     anchor: about
     title: Qui Sommes Nous?
-    subtitle: Notre société, Urosystem s.a.r.l. située en Hongrie, a développé et
+    subhead: Notre société, Urosystem s.a.r.l. située en Hongrie, a développé et
       commercialisé avec succès plusieurs dispositifs urologiques innovants.
       Notre objectif est de révolutionner le traitement intravésical des
       affections des voies urinaires inférieures.  Notre objectif est de rendre

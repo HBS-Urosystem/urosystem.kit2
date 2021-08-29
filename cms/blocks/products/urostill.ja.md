@@ -119,7 +119,7 @@ components:
   - type: images
     slide: false
     title: "使い捨ての無菌物品 "
-    subtitle: Extension + UroDapter® + Three-way-tap
+    subhead: Extension + UroDapter® + Three-way-tap
     shape: default
     images:
       - alt: UroStill®

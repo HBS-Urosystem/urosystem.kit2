@@ -14,7 +14,7 @@ components:
           * Egyéb országok: $10.00
 
           Regisztrált elsőbbségi küldmény
-        subtitle: ""
+        subhead: ""
         background:
           - type: image
             posx: 80
@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: Az UroDapter® újdonság az Ön számára?  Rendeljen mintacsomagot!
-    subtitle: "Az 5 db-os mintacsomag ára: $40 / 10 db: $75"
+    subhead: "Az 5 db-os mintacsomag ára: $40 / 10 db: $75"
     background: []
   - type: buy
     title: ""
@@ -39,9 +39,9 @@ components:
       * Russia, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 nap
 
       * Egyéb országok: 15 nap
-    subtitle: ""
+    subhead: ""
   - type: article
-    subtitle: ""
+    subhead: ""
     anchor: ""
     text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
       USUAL."
@@ -58,7 +58,7 @@ components:
 ---
   - type: article
     title: Az UroDapter® újdonság az Ön számára?  Rendeljen mintacsomagot!
-    subtitle: "Az 5 db-os mintacsomag ára: $40 / 10 db: $75"
+    subhead: "Az 5 db-os mintacsomag ára: $40 / 10 db: $75"
     anchor: sample
     text: |-
       SZÁLLÍTÁSI DÍJAK:
@@ -83,7 +83,7 @@ components:
 
       * Other countries: 15 days
   - type: article
-    subtitle: DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN USUAL.
+    subhead: DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN USUAL.
     anchor: ""
   - type: article
     text: >-

@@ -4,7 +4,7 @@
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
   {#if comp.title}<h1>{comp.title}</h1>{/if}
-  {#if comp.subtitle}<div><h3>{comp.subtitle}</h3></div>{/if}
+  {#if comp.subhead}<div><h3>{comp.subhead}</h3></div>{/if}
   <div>
     {#if comp.fixed}
       {#each comp.items || [] as item}

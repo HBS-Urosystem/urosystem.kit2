@@ -14,7 +14,7 @@ components:
           * Otros países: $10.00
 
           Enviado por correo prioritario registrado
-        subtitle: ""
+        subhead: ""
         background:
           - type: image
             posx: 80
@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: ¿UroDapter® es nuevo para usted? ¡Ordene un paquete de muestra hoy!
-    subtitle: Compra 5 piezas por $40 / 10 piezas por $75
+    subhead: Compra 5 piezas por $40 / 10 piezas por $75
     background: []
   - type: buy
     title: ""
@@ -39,9 +39,9 @@ components:
       * Russia, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
 
       * Other countries: 15 days
-    subtitle: ""
+    subhead: ""
   - type: article
-    subtitle: ""
+    subhead: ""
     anchor: ""
     text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
       USUAL."

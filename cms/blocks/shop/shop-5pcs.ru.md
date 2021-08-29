@@ -14,7 +14,7 @@ components:
           * Другие страны: $10.00
 
           Заказная приоритетная почта
-        subtitle: ""
+        subhead: ""
         background:
           - type: image
             posx: 80
@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: Вы еще не знакомы с UroDapter®? Закажите пробный набор!
-    subtitle: "Цена 5 штук: $40 / 10 штук: $80"
+    subhead: "Цена 5 штук: $40 / 10 штук: $80"
     background: []
   - type: buy
     title: ""
@@ -38,9 +38,9 @@ components:
       * Россия, Армения, Азербайджан, Грузия, Казахстан, Кыргызстан, Молдова, Таджикистан, Туркменистан, Украина, Узбекистан: 19 дней
 
       * Other countries: 15 days
-    subtitle: ""
+    subhead: ""
   - type: article
-    subtitle: ""
+    subhead: ""
     anchor: ""
     text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
       USUAL."

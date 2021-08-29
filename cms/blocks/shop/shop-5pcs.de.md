@@ -14,7 +14,7 @@ components:
           * Andere Länder: $10.00
 
           Versand per Einschreiben mit Prioritätspriorität
-        subtitle: ""
+        subhead: ""
         background:
           - type: image
             posx: 80
@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: Kennen Sie UroDapter® noch nicht? Bestellen Sie 5/10 Produktproben!
-    subtitle: Kaufen Sie 5 Stück für $40 / 10 Stück für $75
+    subhead: Kaufen Sie 5 Stück für $40 / 10 Stück für $75
     background: []
   - type: buy
     title: ""
@@ -39,9 +39,9 @@ components:
       * Russia, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
 
       * Other countries: 15 days
-    subtitle: ""
+    subhead: ""
   - type: article
-    subtitle: ""
+    subhead: ""
     anchor: ""
     text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
       USUAL."

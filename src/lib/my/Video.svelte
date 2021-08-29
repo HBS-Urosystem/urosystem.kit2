@@ -5,6 +5,7 @@
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
   {#if comp.title}<h2 id="{comp.anchor}">{comp.title}</h2>{/if}
+  {#if comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
     {#if $moved}
     {#if comp.source == 'youtube'}
     <div>

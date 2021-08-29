@@ -20,7 +20,7 @@ components:
         posy: 20
       - type: gradient
         name: dark-blue
-    subtitle: ""
+    subhead: ""
     anchor: indicazioni
   - type: links
     title: ""

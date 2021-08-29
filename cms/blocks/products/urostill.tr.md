@@ -125,7 +125,7 @@ components:
   - type: images
     slide: false
     title: Sterile Disposable Item set
-    subtitle: Extension + UroDapter® + Three-way-tap
+    subhead: Extension + UroDapter® + Three-way-tap
     shape: default
     images:
       - alt: UroStill®

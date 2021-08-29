@@ -1,6 +1,6 @@
 <script context="module">
 	import { state, moved, sitelang } from '$lib/stores'
-  import { beforeUpdate } from 'svelte'
+  import { beforeUpdate, afterUpdate } from 'svelte'
   //import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
   //import { langs } from '$lib/config';
   //import { topnav } from '$lib/config'
@@ -78,28 +78,43 @@
 
 	//const { page } = stores()
   //export let segment
-  let navbar, w, navul, hamburger = true//, modal
+  let /*navbar, navul,*/ nwidth, wnav, wul, hamburger = false//, modal
   //$: hamburger = navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)
   //$: hamburger = !w || (w + navbar.scrollLeft < navbar.scrollWidth)
-  $: {
-    if (!!w && !!navbar/* && hamburger === false*/) {
-      hamburger = false
-      /*hamburger = (w + navbar.scrollLeft <= navbar.scrollWidth)
-      console.log('$:', w, w + navbar.scrollLeft, navbar.scrollWidth, hamburger)
-    } else {
-      hamburger = false /// 20 goto 10*/
-    }
-  }
-  beforeUpdate(() => {
-    //hamburger = false
-		console.log('the component is about to update');
+  /*$: {
     if (!!w && !!navbar && hamburger === false) {
-      hamburger = (w + navbar.scrollLeft < navbar.scrollWidth)
-      console.log('update', w, w + navbar.scrollLeft, navbar.scrollWidth, hamburger)
+      console.log('$: (', w, navbar.scrollWidth, hamburger, ') -> ?')
+      //hamburger = false
+      hamburger = w < navbar.scrollWidth
     } else {
-      hamburger = false /// 20 goto 10
+      //hamburger = false /// 20 goto 10
+      //console.log('$: -> ', hamburger, '')
     }
-	})
+  }*/
+  afterUpdate(() => {
+    if (!!wul && !!wnav) {
+      if (!hamburger) {
+        nwidth = nwidth || wul // nwidth is fixed once set
+        console.log(nwidth, wnav)
+      }
+      /*hamburger = nwidth > wnav*/
+      /*if (!!nwidth) {
+        //if (!hamburger == (wnav < nwidth))
+        hamburger = (wnav < nwidth)
+      } else {
+        nwidth = wul
+      }*/
+      hamburger = (nwidth > wnav)
+      console.log('after: (', nwidth, wnav, hamburger, ')')
+    }
+  })
+  /*//afterUpdate(() => {
+  $: {
+    if (!!nwidth && !!wnav && !hamburger) {
+      console.log('after: (', nwidth, wnav, hamburger, ') -> ?')
+      hamburger = (nwidth > wnav)
+    }
+	}//)*/
   let langchng = $sitelang
   //const path = $pagepath.split('/')
   //console.log(`${langchng}/${$pagepath}`)
@@ -132,8 +147,7 @@
   <nav
     use:action class={headerClass}
     class:moved={y>32}
-    bind:this={navbar}
-    bind:clientWidth={w}>
+    bind:clientWidth={wnav}>
     <div>
       <!-- svelte-ignore a11y-no-onchange -->
       <select on:focus={() => slct = true} on:blur={() => slct = false} bind:value={langchng} on:change={newlang}>
@@ -152,7 +166,9 @@
       </ul>
     </div>
     <!--<ul bind:this={navul} mobil={navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}>-->
-    <ul bind:this={navul} mobil={!!hamburger}>
+    <ul 
+      bind:clientWidth={wul}
+      mobil={!!hamburger}>
       <li>
         <a tabindex="0" sveltekit:prefetch href="/{$sitelang}" aria-label="home">
           <img src="/uploads/logo-03-web.svg" alt="UroDapter® – Revolutionizing bladder pain treatment">
@@ -267,9 +283,10 @@
     position: absolute;
     /*z-index: 999;*/
   }
-  nav:focus-within li#over button, ul:focus-within li#over button {
+  nav:focus-within li#over, ul:focus-within li#over {
     /*display: none;*/
     opacity: 0;
+    outline: none;
   }
   li#over button {
     background-color: var(--light-blue);
@@ -323,8 +340,8 @@
     /*margin: 1rem max(var(--sides), 0px) 0;*/
     margin-top: 1rem;
     margin-bottom: 0;
-    margin-inline-start: var(--sides);
-    margin-inline-end: var(--sides);
+    /*margin-inline-start: var(--sides);*/
+    /*margin-inline-end: var(--sides);*/
     width: max-content;
     /*overflow-y: hidden;*/ /* just for sticky over */
     z-index: 1;

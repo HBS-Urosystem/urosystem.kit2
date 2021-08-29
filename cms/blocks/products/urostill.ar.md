@@ -126,7 +126,7 @@ components:
   - type: images
     slide: false
     title: مواد معقمة يمكن التخلص منها
-    subtitle: التمديد + UroDapter® + حنفية ثلاثية
+    subhead: التمديد + UroDapter® + حنفية ثلاثية
     shape: default
     images:
       - alt: UroStill®

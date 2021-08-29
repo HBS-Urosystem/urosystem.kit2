@@ -14,7 +14,7 @@ components:
           * 기타 국가: $10.00
 
           등기 우선 우편 발송
-        subtitle: ""
+        subhead: ""
         background:
           - type: image
             posx: 80
@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: UroDapter®가 처음이십니까? 오늘 샘플 패키지를 주문하세요!!
-    subtitle: $40에 5 / $75에 10 개 구매
+    subhead: $40에 5 / $75에 10 개 구매
     background: []
   - type: buy
     title: ""
@@ -39,9 +39,9 @@ components:
       * Russia, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
 
       * Other countries: 15 days
-    subtitle: ""
+    subhead: ""
   - type: article
-    subtitle: ""
+    subhead: ""
     anchor: ""
     text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
       USUAL."

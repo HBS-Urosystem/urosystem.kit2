@@ -121,7 +121,7 @@ components:
   - type: images
     slide: false
     title: Artículos estériles desechables
-    subtitle: Extension + UroDapter® + Three-way-tap
+    subhead: Extension + UroDapter® + Three-way-tap
     shape: default
     images:
       - alt: UroStill®

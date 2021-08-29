@@ -6,7 +6,7 @@ components:
   - type: article
     anchor: about
     title: Über uns
-    subtitle: Unser Unternehmen, die Urosystem GmbH mit Sitz in Ungarn, hat
+    subhead: Unser Unternehmen, die Urosystem GmbH mit Sitz in Ungarn, hat
       erfolgreich mehrere innovative urologische Geräte entwickelt und
       vermarktet. Unser Ziel ist es, die intravesikale Behandlung von
       Erkrankungen des unteren Harntraktes zu revolutionieren.  Unser Ziel ist

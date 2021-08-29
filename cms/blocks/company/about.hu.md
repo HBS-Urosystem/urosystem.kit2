@@ -5,7 +5,7 @@ fallback: en
 components:
   - type: article
     title: Rólunk
-    subtitle: Magyarországi székhelyű cégünk számos innovatív urológiai eszközt
+    subhead: Magyarországi székhelyű cégünk számos innovatív urológiai eszközt
       fejlesztett ki és dobott piacra. Célunk, hogy forradalmasítsuk az alsó
       húgyutakat érintő megbetegedések intravezikális kezelését.  Legyen az
       alkalmazott helyi terápia hatékonyabb, kényelmesebb, olcsóbb és kevésbé

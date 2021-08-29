@@ -120,7 +120,7 @@ components:
   - type: images
     slide: false
     title: UroStill® - Sterile Einwegartikel
-    subtitle: Extension + UroDapter® + Three-way-tap
+    subhead: Extension + UroDapter® + Three-way-tap
     shape: default
     images:
       - alt: UroStill®

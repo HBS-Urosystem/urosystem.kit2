@@ -129,7 +129,7 @@ components:
   - type: images
     slide: false
     title: מוצרים סטריליים חד-פעמיים
-    subtitle: הרחבה + UroDapter® + ברז לשלושה כיוונים
+    subhead: הרחבה + UroDapter® + ברז לשלושה כיוונים
     shape: default
     images:
       - alt: UroStill®

@@ -6,7 +6,7 @@ components:
   - type: article
     anchor: about
     title: 会社概要
-    subtitle: "当社 Urosystem Co. Ltd. はハンガリーにあり、い くつかの革新的な泌尿器科医療機器の開発と商品
+    subhead: "当社 Urosystem Co. Ltd. はハンガリーにあり、い くつかの革新的な泌尿器科医療機器の開発と商品
       化に成功しています。下部尿路疾患の膀胱内治療 に革命をもたらすことを目指しています。 適用される局所療法をより効果的に、より痛みが
       少なく、より快適に、より安価にすることが、 我々の目標です。 "
     text: ウロシステム株式会社D&B Failure Score

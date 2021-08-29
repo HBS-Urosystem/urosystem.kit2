@@ -6,7 +6,7 @@ components:
   - type: article
     anchor: about
     title: Sobre Nós
-    subtitle: A nossa empresa, Urosystem Co. Ltd., localizada na Hungria,
+    subhead: A nossa empresa, Urosystem Co. Ltd., localizada na Hungria,
       desenvolveu e comercializou com sucesso diversos dispositivos urológicos
       inovadores. O nosso objetivo é revolucionar o tratamento intravesical das
       doenças do trato urinário inferior. O nosso objetivo é tornar as terapias

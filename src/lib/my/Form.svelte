@@ -4,7 +4,7 @@ export let comp
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
   {#if comp.title}<h2>{comp.title}</h2>{/if}
-  {#if comp.subtitle}<div><h3>{comp.subtitle}</h3></div>{/if}
+  {#if comp.subhead}<div><h3>{comp.subhead}</h3></div>{/if}
   <div>
     <a href="/{comp.lang}{comp.action}" hidden aria-hidden="true">{!!comp.netlify} {comp.name}</a>
     <form name="{comp.name}" method="POST" action="/{comp.lang}{comp.action}">

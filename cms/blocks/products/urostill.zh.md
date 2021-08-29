@@ -109,7 +109,7 @@ components:
   - type: images
     slide: false
     title: "一次性无菌产品 "
-    subtitle: Extension + UroDapter® + Three-way-tap
+    subhead: Extension + UroDapter® + Three-way-tap
     shape: default
     images:
       - alt: UroStill®

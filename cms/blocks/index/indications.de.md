@@ -18,7 +18,7 @@ components:
         posy: 20
       - type: gradient
         name: dark-blue-75
-    subtitle: ""
+    subhead: ""
     anchor: indications
   - type: links
     title: ""

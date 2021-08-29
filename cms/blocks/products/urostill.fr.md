@@ -121,7 +121,7 @@ components:
   - type: images
     slide: false
     title: Ensemble des accésoires stériles jetables
-    subtitle: Extension + UroDapter® + Three-way-tap
+    subhead: Extension + UroDapter® + Three-way-tap
     shape: default
     images:
       - alt: UroStill®

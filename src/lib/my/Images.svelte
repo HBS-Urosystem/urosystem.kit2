@@ -10,7 +10,7 @@
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
   {#if comp.title}<h2 id="{comp.anchor}">{comp.title}</h2>{/if}
-  {#if comp.subtitle}<h3>{comp.subtitle}</h3>{/if}
+  {#if comp.subhead}<h3>{comp.subhead}</h3>{/if}
   <!-- shape: default/squre/cicrcle -->
   <!-- slide: true/false -->
   <section class="{/*comp.slide && */comp.images.length > 1 ? 'slides' : 'flow'}" style="--img-width: {56 / comp.images.length}ch">
