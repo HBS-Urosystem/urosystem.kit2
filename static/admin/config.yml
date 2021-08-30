@@ -2028,7 +2028,7 @@ collections:
             label: local_backend
             widget: boolean
       - label: Main nav
-        file: cms/config/nav.yml
+        file: cms/config/nav.md
         name: nav
         fields:
           - name: top
@@ -2079,7 +2079,7 @@ collections:
                     widget: boolean
                     required: false
       - label: Footer nav
-        file: cms/config/footnav.yml
+        file: cms/config/footnav.md
         name: footnav
         fields:
           - name: footer

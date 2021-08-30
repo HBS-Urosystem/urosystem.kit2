@@ -68,6 +68,8 @@ top:
         title: 适应症
       - lang: ar
         title: دواعي الإستعمال
+  - link: edu
+    titles: []
   - link: company
     titles:
       - lang: en
@@ -193,8 +195,6 @@ top:
         titles:
           - lang: hu
             title: Pályázatok
-  - link: edu
-    titles: []
   - link: shop
     titles: []
 ---
