@@ -2,7 +2,7 @@
 id: edu
 fallback: en
 published: true
-title: Education material
+title: Educational material
 menutitle: Education
 hero: edu/hero
 blocks:
