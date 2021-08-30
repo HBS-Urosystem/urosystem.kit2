@@ -193,8 +193,8 @@ top:
         titles:
           - lang: hu
             title: Pályázatok
-  - link: shop
-    titles: []
   - link: edu
+    titles: []
+  - link: shop
     titles: []
 ---
