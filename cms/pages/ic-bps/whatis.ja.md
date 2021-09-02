@@ -1,5 +1,5 @@
 ---
-id: whatis
+id: index
 slug: .
 folder: ic-bps
 fallback: en

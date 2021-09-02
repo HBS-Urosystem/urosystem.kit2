@@ -1,6 +1,6 @@
 <script context="module">
 	import { state, moved, sitelang } from '$lib/stores'
-  import { beforeUpdate, afterUpdate } from 'svelte'
+  import { onMount, afterUpdate } from 'svelte'
   //import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
   //import { langs } from '$lib/config';
   //import { topnav } from '$lib/config'
@@ -91,14 +91,14 @@
       //console.log('$: -> ', hamburger, '')
     }
   }*/
-  beforeUpdate(() => {
+  onMount(() => {
     if (!!wul && !hamburger && !nwidth) {
       /*if (!hamburger) {
         nwidth = nwidth || wul // nwidth is fixed once set
         console.log(nwidth, wnav)
       }*/
       nwidth = wul /// asszem sosem kovetkezik be
-      console.log('before: , nwidth, wnav, hamburger)')
+      //console.log('before: , nwidth, wnav, hamburger)')
     }
   })
   afterUpdate(() => {
@@ -111,7 +111,7 @@
         nwidth = wul
       }*/
       hamburger = (nwidth > wnav)
-      console.log('after: (', nwidth, wnav, hamburger, ')')
+      //console.log('after: (', nwidth, wnav, hamburger, ')')
     }
   })
   /*//afterUpdate(() => {
@@ -372,7 +372,7 @@
 
   li {
     white-space: nowrap;
-    transition: opacity, .5s;
+    transition: opacity, .25s; /*fast out*/
   }
   li img {
     aspect-ratio: 100 / 100;
@@ -416,7 +416,7 @@
     visibility:hidden;
     height: 0;
     opacity: 0;
-    transition: opacity 1.25s;
+    transition: opacity .25s; /*fast in */
     width: 0;
     max-width: 0;
     overflow-x: visible;

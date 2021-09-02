@@ -69,7 +69,7 @@
           <Components {comp}/>
         {/each}
       {/if}
-      {#if $state.post.subpages}
+      {#if $state.post.submenu && $state.post.subpages}
         <nav>
           <ul>
             {#each $state.post.subpages as sub}
@@ -103,7 +103,7 @@
       {/each}
     </div>
   {/if}
-  {#if $state.post.subpages}
+  {#if $state.post.submenu && $state.post.subpages}
     <nav>
       <h2>{$state.post.title}</h2>
       <ul>

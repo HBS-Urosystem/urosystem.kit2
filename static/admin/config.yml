@@ -78,6 +78,12 @@ collections:
         i18n: true
         required: false
         default: true
+      - name: subpmenu
+        label: Submenu
+        widget: boolean
+        i18n: duplicate
+        required: false
+        default: true
       - name: subpages
         label: Subpages
         label_singular: Subpage

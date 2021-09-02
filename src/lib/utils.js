@@ -211,7 +211,7 @@ export async function _getPost({path, lang = 'en', sub = null}) {
   if (p.subpages) {
     post.subpages = []
     for (let s of p.subpages) {
-      if (!!s.link) s.link = s.link.replace('/.', '/whatis') // TODO: remove this
+      if (!!s.link) s.link = s.link.replace('/.', '/index') // TODO: remove this
       const parts = s.link.split('/')
       let sp = await _getPost({path: s.link, lang/*, sub*/})
       sp.slug = sp.slug || sp.id

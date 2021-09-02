@@ -44,6 +44,7 @@
 <script>
   export let result//, lang, path
   $: $state = result
+  $: console.log(result)
   $: $sitelang = result.thislang.id
   //$: console.log('_layout $state:',result.post.path)
   //$: console.log('__layout $state:',$state.post.id)

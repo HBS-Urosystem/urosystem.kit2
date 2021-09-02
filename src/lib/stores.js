@@ -8,6 +8,7 @@ export const sitelang = persistent('frontend_lang', 'en')
 //export const pagepath = writable()
 //export const sitelang = writable('en')
 export const cookies = persistent('cookieconsent_status', false)
+export const pro = persistent('is_professional', false)
 
 //import { persist, localStorage, cookieStorage } from "@macfja/svelte-persistent-store"
 //export let name = persist(writable("John"), localStorage(), "name")
