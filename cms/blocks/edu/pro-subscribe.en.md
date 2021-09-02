@@ -1,13 +1,13 @@
 ---
-id: gateway
+id: pro-subscribe
 folder: edu
 fallback: ""
 components:
   - type: form
     netlify: false
     action: /edu/pro
-    title: Professionals Gateway
-    subhead: For medical content
+    title: Subscription
+    subhead: for professional educational material
     name: ProfessionalsGateway
     text: >-
       <fieldset>

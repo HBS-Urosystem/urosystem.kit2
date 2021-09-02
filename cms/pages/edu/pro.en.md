@@ -3,8 +3,9 @@ id: pro
 folder: edu
 fallback: ""
 published: true
-title: for Professionals
-menutitle: For professionals
+title: For Professionals
+menutitle: For Professionals
 blocks:
   - id: edu/urodapter-lovasz
+  - id: edu/pro-subscribe
 ---

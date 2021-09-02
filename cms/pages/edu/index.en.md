@@ -4,9 +4,8 @@ slug: .
 folder: edu
 fallback: ""
 published: true
-title: for learning
-menutitle: For learning
-hero: edu/hero
+title: For Patients
+menutitle: For Patients
 blocks:
   - id: edu/video-series
   - id: edu/gateway
