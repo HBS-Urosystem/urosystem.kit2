@@ -1,7 +1,7 @@
 ---
-id: hero
+id: pro-hero
 folder: edu
-fallback: ""
+fallback: en
 background:
   - type: image
     posx: 65
@@ -16,6 +16,6 @@ background:
     name: dark-blue
 components:
   - type: article
-    title: Instuctions
+    title: Instuctions for Professionals
     subhead: from Sándor Lovász MD., PhD
 ---

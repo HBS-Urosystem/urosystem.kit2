@@ -68,8 +68,13 @@ top:
         title: 适应症
       - lang: ar
         title: دواعي الإستعمال
-  - link: edu
-    titles: []
+  - link: ""
+    titles:
+      - lang: en
+        title: Webinars
+    subpages:
+      - link: edu
+      - link: pro
   - link: company
     titles:
       - lang: en
@@ -197,4 +202,14 @@ top:
             title: Pályázatok
   - link: shop
     titles: []
+    subpages:
+      - link: shop
+        titles:
+          - lang: en
+            title: Our webshop
+      - titles:
+          - lang: en
+            title: Amazon
+        link: https://www.amazon.com/stores/UroDapter/page/EE971FBB-A516-4E98-A2CD-2B62117F088A
+        ext: true
 ---

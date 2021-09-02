@@ -5,9 +5,9 @@ fallback: ""
 components:
   - type: form
     netlify: false
-    action: /edu/pro
+    action: /pro
     title: Subscription
-    subhead: for professional educational material
+    subhead: for professional medical material
     name: ProfessionalsGateway
     text: >-
       <fieldset>

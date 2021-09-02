@@ -5,7 +5,7 @@ fallback: ""
 components:
   - type: form
     netlify: false
-    action: /edu/pro
+    action: /pro
     title: Medical content Gateway
     subhead: For Professionals
     name: ProfessionalsGateway
@@ -18,7 +18,7 @@ components:
       <fieldset>
         <label>Profession <input type="text" name="profession" required /></label>
       </fieldset> <fieldset>
-        <label>Institude <input type="text" name="institute" required /></label>
+        <label>Institute <input type="text" name="institute" required /></label>
       </fieldset>
 
       <div>

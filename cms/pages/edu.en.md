@@ -1,12 +1,11 @@
 ---
 id: edu
-fallback: en
+fallback: ""
 published: true
 title: Educational material
-menutitle: Education
+menutitle: For Patients
 hero: edu/hero
-subpages:
-  - link: edu/index
-  - link: edu/pro
-submenu: false
+blocks:
+  - id: edu/video-series
+  - id: edu/gateway
 ---

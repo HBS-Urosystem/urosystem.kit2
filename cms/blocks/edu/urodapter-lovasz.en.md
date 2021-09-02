@@ -4,7 +4,7 @@ folder: edu
 fallback: en
 components:
   - type: article
-    title: About UroDapter®
+    title: The UroDapter® long and short
     subhead: ""
     components:
       - type: video
