@@ -6,8 +6,8 @@ components:
   - type: form
     netlify: false
     action: /edu/pro
-    title: Professionals Gateway
-    subhead: For medical content
+    title: Medical content Gateway
+    subhead: For Professionals
     name: ProfessionalsGateway
     text: >-
       <fieldset>
