@@ -71,7 +71,7 @@ top:
   - link: ""
     titles:
       - lang: en
-        title: Webinars
+        title: Instructions
     subpages:
       - link: edu
       - link: pro

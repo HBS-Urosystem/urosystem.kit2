@@ -3,6 +3,9 @@
 </script>
 <script>
 export let comp
+function _cookie(name) {
+  $gateway[name] = true
+}
 </script>
 
 {#if !$gateway[comp.name]}
@@ -11,7 +14,7 @@ export let comp
   {#if comp.subhead}<div><h3>{comp.subhead}</h3></div>{/if}
   <div>
     <a href="/{comp.lang}{comp.action}" hidden aria-hidden="true">{!!comp.netlify} {comp.name}</a>
-    <form name="{comp.name}" method="POST" action="/{comp.lang}{comp.action}" on:submit="{$gateway[comp.name] = true}">
+    <form name="{comp.name}" method="POST" action="/{comp.lang}{comp.action}" on:submit="{_cookie(comp.name) && alert()}">
       <input type="hidden" name="form-name" value="{comp.name}">
       {#if comp.text}{@html comp.text}{/if}
       <a href="/{comp.lang}{comp.action}" hidden aria-hidden="true">{comp.name}</a>

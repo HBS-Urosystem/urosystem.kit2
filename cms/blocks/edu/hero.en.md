@@ -16,6 +16,6 @@ background:
     name: dark-blue
 components:
   - type: article
-    title: Instuctions
+    title: Instructions for Patients
     subhead: from Sándor Lovász MD., PhD
 ---

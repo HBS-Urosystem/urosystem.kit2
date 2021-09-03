@@ -2,7 +2,7 @@
 id: edu
 fallback: ""
 published: true
-title: Educational material
+title: Instructions for Patients
 menutitle: For Patients
 hero: edu/hero
 blocks:
