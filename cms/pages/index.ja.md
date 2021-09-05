@@ -2,5 +2,5 @@
 id: index
 slug: jp
 fallback: en
-published: true
+public: true
 ---

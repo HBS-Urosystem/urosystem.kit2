@@ -1,7 +1,7 @@
 ---
 id: shop
 fallback: ""
-published: true
+public: true
 title: UroDapter® new to you? Order a sample package today!
 keywords: Urosystem, UroDapter, UroStill, sample package, urological adapter,
   Urosystem shop, webshop, Amazon

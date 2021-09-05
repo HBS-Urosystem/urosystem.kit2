@@ -2,7 +2,7 @@
 id: other-uses-and-indications
 folder: indications
 fallback: en
-published: true
+public: true
 title: Autres utilisations et indications
 menutitle: Autres utilisations et indications
 ---

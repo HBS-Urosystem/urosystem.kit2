@@ -2,7 +2,7 @@
 id: glossary
 folder: ic-bps
 fallback: en
-published: true
+public: true
 title: IC/BPS Glossar
 keywords: IC/BPS, Hunner, Katheter, Urinzytologie, Elmiron, Zystitis,
   interstitielle Zystitis, Blasenschmerzsyndrom

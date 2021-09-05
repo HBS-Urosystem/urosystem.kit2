@@ -2,7 +2,7 @@
 id: diet-tips
 folder: ic-bps
 fallback: en
-published: true
+public: true
 title: Wie Sie Ihre eigene IC/BPS-Diät ausarbeiten
 keywords: IC/BPS-Diät, interstitielle Zystitis, Eliminationsdiät, Blase,
   Reizung, Diätprotokoll, Triggersymptome, interstitielle Zystitis,

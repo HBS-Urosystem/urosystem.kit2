@@ -1,7 +1,7 @@
 ---
 id: faq
 folder: ic-bps
-published: true
+public: true
 components:
   - type: article
     title: ""

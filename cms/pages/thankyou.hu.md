@@ -1,5 +1,5 @@
 ---
 id: thankyou
 fallback: en
-published: true
+public: true
 ---

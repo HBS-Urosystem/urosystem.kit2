@@ -2,7 +2,7 @@
 id: treatment
 folder: ic-bps
 fallback: en
-published: true
+public: true
 title: علاج IC/BPS
 menutitle: علاج IC/BPS
 ---

@@ -2,7 +2,7 @@
 id: facts
 folder: ic-bps
 fallback: en
-published: true
+public: true
 title: Os factos conhecidos
 menutitle: Os factos conhecidos
 ---

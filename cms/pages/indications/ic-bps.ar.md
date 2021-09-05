@@ -2,7 +2,7 @@
 id: ic-bps
 folder: indications
 fallback: en
-published: true
+public: true
 title: متلازمة آلام المثانة (IC/BPS)
 menutitle: متلازمة آلام المثانة (IC/BPS)
 ---

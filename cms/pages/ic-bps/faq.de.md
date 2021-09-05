@@ -2,7 +2,7 @@
 id: faq
 folder: ic-bps
 fallback: en
-published: true
+public: true
 title: IC/BPS – Häufig gestellte Fragen und häufige Missverständnisse
 keywords: Urintest, Zystoskopie, GAG-Schicht, urologischer Adapter,
   Instillation, IC/BPS-Behandlung, Interstitielle Zystitis,

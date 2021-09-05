@@ -3,7 +3,7 @@ id: index
 slug: .
 folder: ic-bps
 fallback: en
-published: true
+public: true
 title: Mi az IC/BPS?
 menutitle: Mi az IC/BPS?
 ---

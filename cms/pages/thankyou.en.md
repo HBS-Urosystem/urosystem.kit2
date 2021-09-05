@@ -1,7 +1,7 @@
 ---
 id: thankyou
 fallback: ""
-published: true
+public: true
 title: Thank You!
 blocks:
   - id: index/thankyou

@@ -2,5 +2,5 @@
 id: ic-bps
 folder: indications
 fallback: en
-published: true
+public: true
 ---

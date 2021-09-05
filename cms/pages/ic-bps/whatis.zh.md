@@ -3,7 +3,7 @@ id: index
 slug: .
 folder: ic-bps
 fallback: en
-published: true
+public: true
 title: IC/BPS 是什么？
 menutitle: IC/BPS 是什么？
 ---

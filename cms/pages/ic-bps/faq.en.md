@@ -2,7 +2,7 @@
 id: faq
 slug: faq
 folder: ic-bps
-published: true
+public: true
 title: IC/BPS – Frequently Asked Questions and Common Misunderstandings
 keywords: urine test, cystoscopy, GAG-layer, urological adapter, instillation,
   IC/BPS treatment, Interstitial Cystitis, Bladder Pain Syndrome, IC/BPS

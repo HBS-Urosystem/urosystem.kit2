@@ -2,7 +2,7 @@
 id: treatment
 slug: treatment
 folder: ic-bps
-published: true
+public: true
 title: The Treatment of IC/BPS
 menutitle: The Treatment of IC/BPS
 keywords: pentosan polysulfate, DMSO, hyaluronic acid, chondroitin sulphate, heparin, bladder treatment, instillation, bladder cocktail, Interstitial Cystitis, Bladder Pain Syndrome, IC/BPS

@@ -1,7 +1,7 @@
 ---
 id: known-facts
 folder: ic-bps
-published: true
+public: true
 components:
   - type: article
     text: >-

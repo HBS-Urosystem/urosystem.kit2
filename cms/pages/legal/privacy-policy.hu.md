@@ -2,7 +2,7 @@
 id: privacy-policy
 folder: legal
 fallback: en
-published: true
+public: true
 title: Adatkezelési tájékoztató
 menutitle: null
 ---

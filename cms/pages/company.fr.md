@@ -1,5 +1,5 @@
 ---
 id: company
 fallback: en
-published: true
+public: true
 ---

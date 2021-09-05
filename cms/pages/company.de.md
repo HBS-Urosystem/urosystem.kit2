@@ -1,6 +1,6 @@
 ---
 id: company
 fallback: en
-published: true
+public: true
 menutitle: Unsere Firma
 ---

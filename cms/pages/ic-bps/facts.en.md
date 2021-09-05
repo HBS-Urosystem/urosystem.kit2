@@ -1,7 +1,7 @@
 ---
 id: facts
 folder: ic-bps
-published: true
+public: true
 submenu: false
 title: A brief introduction to IC/BPS – The Known Facts
 keywords: GAG-layer, inflammation, bladder mucosa, urethra, bladder wall, cystitis, Interstitial Cystitis, Bladder Pain Syndrome, IC/BPS, inflammation

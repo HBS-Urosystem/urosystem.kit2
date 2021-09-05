@@ -1,5 +1,5 @@
 ---
 id: edu
 fallback: en
-published: true
+public: true
 ---

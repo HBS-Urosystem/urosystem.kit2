@@ -2,7 +2,7 @@
 id: bladder-cancer
 folder: indications
 fallback: en
-published: true
+public: true
 title: A húgyhólyagrák, mint lehetséges indikáció
 keywords: Fájdalommentes húgyhólyagkezelés
 description: Előnyös volna a (helyi) kemoterápiás kezelést UroDapterrel végezni,

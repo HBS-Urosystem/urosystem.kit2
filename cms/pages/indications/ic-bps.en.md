@@ -2,7 +2,7 @@
 id: ic-bps
 folder: indications
 fallback: ""
-published: true
+public: true
 subpages:
   - link: ic-bps/.
   - link: ic-bps/facts

@@ -2,7 +2,7 @@
 id: rutis
 folder: indications
 fallback: en
-published: true
+public: true
 title: Infecções do trato urinário recorrentes (ITUrs)
 menutitle: Infecções do trato urinário
 ---

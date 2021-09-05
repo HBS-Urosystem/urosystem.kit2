@@ -1,7 +1,7 @@
 ---
 id: difficulty
 folder: ic-bps
-published: true
+public: true
 components:
   - type: article
     text: >-

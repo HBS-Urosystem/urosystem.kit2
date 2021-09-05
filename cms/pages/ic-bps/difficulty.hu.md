@@ -2,7 +2,7 @@
 id: difficulty
 folder: ic-bps
 fallback: en
-published: true
+public: true
 title: "Diagnózis és előfordulási gyakoriság: nagy nehézségek"
 menutitle: Diagnózis és gyakoriság
 ---

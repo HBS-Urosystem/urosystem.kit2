@@ -2,7 +2,7 @@
 id: bladder-cancer
 folder: indications
 fallback: en
-published: true
+public: true
 title: סרטן השלפוחית - אינדיקציה אפשרית
 menutitle: סרטן השלפוחית
 ---

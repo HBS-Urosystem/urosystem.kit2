@@ -2,7 +2,7 @@
 id: index
 slug: de
 fallback: en
-published: true
+public: true
 title: Revolutionierung der Behandlung von Blasenschmerzen
 description: >-
   Vergessen Sie die Schmerzen und die Komplikationen, die durch die Verwendung

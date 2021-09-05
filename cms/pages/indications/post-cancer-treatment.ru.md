@@ -2,7 +2,7 @@
 id: post-cancer-treatment
 folder: indications
 fallback: en
-published: true
+public: true
 title: "Осложнение онкотерапии: геморрагический цистит (ГЦ)"
 menutitle: Осложнение онкотерапии
 ---

@@ -2,7 +2,7 @@
 id: rutis
 folder: indications
 fallback: en
-published: true
+public: true
 title: لتهابات المسالك البولية المتكررة (rUTIs)
 menutitle: لتهابات المسالك البولية
 ---

@@ -2,7 +2,7 @@
 id: glossary
 slug: glossary
 folder: ic-bps
-published: true
+public: true
 title: IC/BPS Glossary
 keywords: IC/BPS, Hunner, catheter, urine cytology, Elmiron, cystitis,
   Interstitial Cystitis, Bladder Pain Syndrome

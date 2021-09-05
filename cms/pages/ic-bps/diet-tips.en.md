@@ -1,7 +1,7 @@
 ---
 id: diet-tips
 folder: ic-bps
-published: true
+public: true
 title: How to Work out Your Own IC/BPS Diet
 keywords: IC/BPS diet, interstitial cystitis, elimination diet, bladder,
   irritation, diet log, trigger symptoms, Interstitial Cystitis, Bladder Pain

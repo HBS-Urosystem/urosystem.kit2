@@ -2,7 +2,7 @@
 id: facts
 folder: ic-bps
 fallback: en
-published: true
+public: true
 title: I fatti noti
 menutitle: I fatti noti
 ---

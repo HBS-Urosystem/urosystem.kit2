@@ -3,7 +3,7 @@ id: index
 slug: .
 folder: ic-bps
 fallback: en
-published: true
+public: true
 title: מהי דלקת משתית השלפוחית?
 menutitle: מהי IC/BPS?
 ---

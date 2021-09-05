@@ -1,7 +1,7 @@
 ---
 id: treatment
 folder: ic-bps
-published: true
+public: true
 components:
   - type: article
     text: >-

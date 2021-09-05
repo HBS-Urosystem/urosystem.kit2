@@ -2,7 +2,7 @@
 id: diet-tips
 folder: ic-bps
 fallback: en
-published: true
+public: true
 title: كيفية وضع النظام الغذائي الخاص بك IC/BPS
 keywords: النظام الغذائي IC / BPS ، التهاب المثانة الخلالي ، حمية الاستبعاد ،
   المثانة ، التهيج ، سجل النظام الغذائي ، أعراض الزناد ، التهاب المثانة الخلالي

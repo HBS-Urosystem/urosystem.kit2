@@ -2,7 +2,7 @@
 id: terms-of-service
 folder: legal
 fallback: en
-published: true
+public: true
 title: Условия обслуживания
 menutitle: null
 ---

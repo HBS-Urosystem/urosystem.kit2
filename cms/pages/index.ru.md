@@ -2,5 +2,5 @@
 id: index
 slug: ru
 fallback: en
-published: true
+public: true
 ---

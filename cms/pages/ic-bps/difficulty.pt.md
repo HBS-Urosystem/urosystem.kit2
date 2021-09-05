@@ -2,7 +2,7 @@
 id: difficulty
 folder: ic-bps
 fallback: en
-published: true
+public: true
 title: "Diagnóstico e Prevalência: Dupla Dificuldade"
 menutitle: Diagnóstico e Prevalência
 ---

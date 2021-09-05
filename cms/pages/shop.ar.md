@@ -1,7 +1,7 @@
 ---
 id: shop
 fallback: en
-published: true
+public: true
 title: UroDapter®  جديد بالنسبة لك؟ اطلب حزمة عينة اليوم!
 keywords: Urosystem ، UroDapter ، UroStill ، حزمة عينة ، محول المسالك البولية ،
   متجر Urosystem ، متجر ويب ، Amazon

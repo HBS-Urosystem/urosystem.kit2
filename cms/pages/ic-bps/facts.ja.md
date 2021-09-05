@@ -2,7 +2,7 @@
 id: facts
 folder: ic-bps
 fallback: en
-published: true
+public: true
 title: 周知の事実
 menutitle: 周知の事実
 ---
