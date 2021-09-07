@@ -6,7 +6,7 @@ components:
   - type: form
     netlify: false
     action: "#content"
-    title: Medical content Gateway
+    title: Medical content
     name: ProfessionalsGateway
     text: >-
       <fieldset>
@@ -32,5 +32,4 @@ components:
       <section>
         <button type="submit">Submit</button>
       </section>
-todo: "isProfessional => true"
 ---

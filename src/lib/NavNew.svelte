@@ -435,8 +435,13 @@
   }*/
   li li {
     /*justify-self: center;*/
-    background-color: var(--pale-blue);
+    /*background-color: var(--pale-blue);
     color: black;
+    */
+    border: solid var(--light-blue-75);
+    color: var(--pale-blue);
+    background: none;
+
     width: max-content;
     margin: .5rem 0 0;
     border-radius: 1.5rem;
