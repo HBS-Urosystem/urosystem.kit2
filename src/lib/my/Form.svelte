@@ -7,7 +7,7 @@ function _cookie(name) {
   $gateway[name] = true
   
 }
-$: console.log($gateway)
+//$: console.log($gateway)
 </script>
 
 {#if !$gateway[comp.name]}

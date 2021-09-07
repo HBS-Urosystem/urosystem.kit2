@@ -83,7 +83,6 @@
   {/if}
 
   {#each $state.post.blocks || [] as block}
-  {block.published}
   {#if block.published == undefined || (block.published === true || !!$gateway[block.published])}
     <div id="content"></div>
     <div style="{block.background}">
@@ -99,11 +98,13 @@
     <div style="{$state.post.subpage.background}">
       <h2>{$state.post.subpage.title}</h2>
       {#each $state.post.subpage.blocks || [] as block}
-        <div style="{block.background}">
-          {#each block.components || [] as comp}
-            <Components {comp}/>
-          {/each}
-        </div>
+        {#if block.published == undefined || (block.published === true || !!$gateway[block.published])}
+          <div style="{block.background}">
+            {#each block.components || [] as comp}
+              <Components {comp}/>
+            {/each}
+          </div>
+        {/if}
       {/each}
     </div>
   {/if}
