@@ -1,7 +1,7 @@
 <script context="module">
   //export const hydrate = false
 
-  import { state } from '$lib/stores'
+  import { state, snapto, gateway } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
   //import { onMount } from 'svelte';
@@ -10,7 +10,8 @@
 
 </script>
 <script>
-  import { snapto } from '$lib/stores'
+  //import { snapto, state } from '$lib/stores'
+  //import { block } from 'marked/src/rules';
   //$: console.log('state.subpage', $state.post.subpage)
   /*$: {
     if (!!$snapto) {
@@ -82,12 +83,15 @@
   {/if}
 
   {#each $state.post.blocks || [] as block}
-  <div id="content"></div>
-  <div style="{block.background}">
+  {block.published}
+  {#if block.published == undefined || (block.published === true || !!$gateway[block.published])}
+    <div id="content"></div>
+    <div style="{block.background}">
       {#each block.components || [] as comp}
         <Components {comp}/>
       {/each}
     </div>
+  {/if}
   {/each}
 
   {#if $state.post.subpage}

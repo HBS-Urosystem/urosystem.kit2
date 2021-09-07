@@ -2,7 +2,7 @@
 id: facts
 folder: ic-bps
 fallback: en
-public: true
+published: true
 title: Известные факты
 menutitle: Известные факты
 ---

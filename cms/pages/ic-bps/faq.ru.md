@@ -2,6 +2,6 @@
 id: faq
 folder: ic-bps
 fallback: en
-public: true
+published: true
 menutitle: Часто Задаваемые Вопросы
 ---

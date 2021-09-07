@@ -3,7 +3,7 @@ id: index
 slug: .
 folder: edu
 fallback: ""
-public: true
+published: true
 title: For Patients
 menutitle: For Patients
 hero: edu/hero

@@ -2,7 +2,7 @@
 id: faq
 folder: ic-bps
 fallback: en
-public: true
+published: true
 title: IC / BPS – الأسئلة المتداولة وسوء الفهم الشائع
 keywords: اختبار البول ، تنظير المثانة ، طبقة GAG ، محول المسالك البولية ،
   التقطير ، علاج IC / BPS ، التهاب المثانة الخلالي ، متلازمة آلام المثانة ، IC /

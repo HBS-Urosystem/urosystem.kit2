@@ -2,7 +2,7 @@
 id: ic-bps
 folder: indications
 fallback: en
-public: true
+published: true
 title: Hólyagfájdalom szindróma (IC/BPS)
 menutitle: Hólyagfájdalom szindróma (IC/BPS)
 ---

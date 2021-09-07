@@ -2,8 +2,7 @@
 id: pro
 folder: edu
 fallback: en
-public:
-  - gateway: ProfessionalsGateway
+published: ProfessionalsGateway
 components:
   - type: article
     title: The UroDapter® long and short

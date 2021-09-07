@@ -2,7 +2,7 @@
 id: shipping-policy
 folder: legal
 fallback: en
-public: true
+published: true
 title: Urosystem Co. Ltd. – Versandbedingungen
 keywords: Urosystem, Versandbedingungen, UroDapter, Lieferung, Rechtliches
 description: Die Versandbedingungen von Urosystem Co. Ltd.

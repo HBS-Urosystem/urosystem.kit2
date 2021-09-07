@@ -2,7 +2,7 @@
 id: facts
 folder: ic-bps
 fallback: en
-public: true
+published: true
 title: Az ismert tények
 menutitle: Az ismert tények
 ---

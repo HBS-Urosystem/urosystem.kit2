@@ -2,7 +2,7 @@
 id: diet-tips
 folder: ic-bps
 fallback: en
-public: true
+published: true
 title: Come elaborare la propria dieta IC/BPS?
 keywords: Dieta IC/BPS, cistite interstiziale, dieta di esclusione, vescica,
   irritazione, registro dieta, sintomi scatenanti, cistite interstiziale,

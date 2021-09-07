@@ -2,7 +2,7 @@
 id: treatment
 folder: ic-bps
 fallback: en
-public: true
+published: true
 title: Лечение ИЦ/СБМП
 menutitle: Лечение
 ---

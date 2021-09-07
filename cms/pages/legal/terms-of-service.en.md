@@ -2,7 +2,7 @@
 id: terms-of-service
 folder: legal
 fallback: ""
-public: true
+published: true
 title: Urosystem Co. Ltd. – Terms of service
 keywords: Urosystem, Terms of Service, Terms and Conditions, Payment Conditions,
   Shipping Conditions, legal

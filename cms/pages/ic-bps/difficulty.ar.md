@@ -2,7 +2,7 @@
 id: difficulty
 folder: ic-bps
 fallback: en
-public: true
+published: true
 title: "التشخيص والانتشار: صعوبة مضاعفة"
 menutitle: التشخيص والانتشار
 ---

@@ -2,7 +2,7 @@
 id: rutis
 folder: indications
 fallback: en
-public: true
+published: true
 title: זיהומים חוזרים בדרכי השתן
 menutitle: זיהומים בדרכי השתן
 ---

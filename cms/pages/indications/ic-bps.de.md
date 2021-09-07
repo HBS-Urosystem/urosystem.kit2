@@ -2,7 +2,7 @@
 id: ic-bps
 folder: indications
 fallback: en
-public: true
+published: true
 title: Blasenschmerzsyndrom (IC/BPS)
 menutitle: Blasenschmerzsyndrom (IC/BPS)
 ---

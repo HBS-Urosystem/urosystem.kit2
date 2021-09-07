@@ -1,7 +1,7 @@
 ---
 id: company
 fallback: en
-public: true
+published: true
 title: Urosystem Zrt.
 menutitle: Cégünk
 subhero: company/logo

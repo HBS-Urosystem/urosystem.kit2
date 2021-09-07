@@ -2,7 +2,7 @@
 id: index
 slug: hu
 fallback: en
-public: true
+published: true
 title: Fájdalommentes húgyhólyagkezelés
 description: |-
   A húgyhólyag kezelésének forradalmasítása.

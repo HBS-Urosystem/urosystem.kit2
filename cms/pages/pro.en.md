@@ -2,7 +2,7 @@
 id: pro
 folder: edu
 fallback: ""
-public: true
+published: true
 title: Instuctions For Professionals
 menutitle: For Professionals
 hero: edu/pro-hero

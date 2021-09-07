@@ -2,7 +2,7 @@
 id: privacy-policy
 folder: legal
 fallback: en
-public: true
+published: true
 title: Политика конфиденциальности
 menutitle: null
 ---

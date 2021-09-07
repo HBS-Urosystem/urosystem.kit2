@@ -1,6 +1,6 @@
 ---
 id: shop
 fallback: en
-public: true
+published: true
 title: Az UroDapter® újdonság az Ön számára? Rendeljen mintacsomagot!
 ---

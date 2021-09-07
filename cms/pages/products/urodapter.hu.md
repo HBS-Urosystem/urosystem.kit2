@@ -2,7 +2,7 @@
 id: urodapter
 folder: products
 fallback: en
-public: true
+published: true
 keywords: pain-free, bladder, treatment, instillation
 description: |-
   A húgyhólyag kezelésének forradalmasítása.

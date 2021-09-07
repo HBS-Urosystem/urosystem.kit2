@@ -2,7 +2,7 @@
 id: terms-of-service
 folder: legal
 fallback: en
-public: true
+published: true
 title: Urosystem Co. Ltd. – Nutzungsbedingungen
 keywords: Urosystem, Nutzungsbedingungen, AGB, Zahlungsbedingungen,
   Versandbedingungen, Rechtliches

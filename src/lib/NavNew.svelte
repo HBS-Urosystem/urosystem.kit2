@@ -97,22 +97,15 @@
         nwidth = nwidth || wul // nwidth is fixed once set
         console.log(nwidth, wnav)
       }*/
-      nwidth = wul /// asszem sosem kovetkezik be
+      nwidth = wul
       //console.log('before: , nwidth, wnav, hamburger)')
+      hamburger = (nwidth > wnav)
     }
   })
   afterUpdate(() => {
-    if (!!nwidth && !!wnav) {
-      /*hamburger = nwidth > wnav*/
-      /*if (!!nwidth) {
-        //if (!hamburger == (wnav < nwidth))
-        hamburger = (wnav < nwidth)
-      } else {
-        nwidth = wul
-      }*/
+    //if (!!nwidth && !!wnav) {
       hamburger = (nwidth > wnav)
-      //console.log('after: (', nwidth, wnav, hamburger, ')')
-    }
+    //}
   })
   /*//afterUpdate(() => {
   $: {
@@ -385,8 +378,12 @@
     /*overflow-y: visible;*/
     flex-shrink: 0;
   }
+  nav > ul > li > a {
+    text-shadow: 1px 1px 2px var(--dark-blue-75);
+  }
   nav > ul > li > span {
     cursor: default;
+    text-shadow: 1px 1px 2px var(--dark-blue-75);
   }
   nav > ul > li:first-of-type a {
     display: block;

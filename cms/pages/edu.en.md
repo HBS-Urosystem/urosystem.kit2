@@ -1,7 +1,7 @@
 ---
 id: edu
 fallback: ""
-public: true
+published: true
 title: Instructions for Patients
 menutitle: For Patients
 hero: edu/hero

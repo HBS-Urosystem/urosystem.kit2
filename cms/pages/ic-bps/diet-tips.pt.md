@@ -2,7 +2,7 @@
 id: diet-tips
 folder: ic-bps
 fallback: en
-public: true
+published: true
 title: Como fazer a sua própria dieta CI/BPS
 keywords: Dieta CI/BPS, cistite intersticial, dieta de eliminação, bexiga,
   irritação, registo de dieta, sintomas desencadeantes, cistite intersticial,

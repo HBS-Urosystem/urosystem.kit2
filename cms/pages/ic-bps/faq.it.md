@@ -2,7 +2,7 @@
 id: faq
 folder: ic-bps
 fallback: en
-public: true
+published: true
 title: IC/BPS – Domande frequenti e malintesi comuni
 keywords: test delle urine, cistoscopia, strato di GAG, adattatore urologico,
   instillazione, trattamento dell’IC/BPS, cistite interstiziale, sindrome del
