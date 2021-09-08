@@ -4,7 +4,7 @@ folder: edu
 fallback: ""
 components:
   - type: form
-    netlify: false
+    netlify: true
     action: "#content"
     title: Medical content
     name: ProfessionalsGateway
