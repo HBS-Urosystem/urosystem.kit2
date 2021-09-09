@@ -16,6 +16,6 @@ background:
     name: dark-blue
 components:
   - type: article
-    title: Instuctions for Professionals
+    title: Recommendations for IC/BPS Professionals
     subhead: from Sándor Lovász MD., PhD
 ---
