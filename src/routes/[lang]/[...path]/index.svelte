@@ -1,5 +1,5 @@
 <script context="module">
-  export const hydrate = false
+  //export const hydrate = false
 
   import { state, snapto, gateway } from '$lib/stores'
   import Components from '$lib/Components.svelte'
@@ -7,7 +7,6 @@
   //import { onMount } from 'svelte';
   //import * as scroller from "svelte-scrollto"
   //import { amp, browser, dev, prerendering } from '$app/env'
-
 </script>
 <script>
   //import { snapto, state } from '$lib/stores'
