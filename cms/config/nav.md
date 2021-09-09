@@ -71,7 +71,7 @@ top:
   - link: ""
     titles:
       - lang: en
-        title: Instructions
+        title: Video
     subpages:
       - link: edu
       - link: pro

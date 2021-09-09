@@ -3,8 +3,8 @@ id: pro
 folder: edu
 fallback: ""
 published: true
-title: Instuctions For Professionals
-menutitle: For Professionals
+title: Recommendations for IC/BPS Therapists
+menutitle: Recommendations for IC/BPS Therapists
 hero: edu/pro-hero
 blocks:
   - id: edu/gateway
