@@ -1,5 +1,5 @@
 <script context="module">
-  //export const hydrate = false
+  export const hydrate = false
 
   import { state, snapto, gateway } from '$lib/stores'
   import Components from '$lib/Components.svelte'
@@ -19,6 +19,7 @@
       $snapto = ''
     }
   }*/
+  $: console.log($state.post)
 
 </script>
 
@@ -70,7 +71,7 @@
           <Components {comp}/>
         {/each}
       {/if}
-      {#if $state.post.submenu && $state.post.subpages}
+      {#if /*$state.post.submenu && */$state.post.subpages}
         <nav>
           <ul>
             {#each $state.post.subpages as sub}
@@ -108,7 +109,7 @@
       {/each}
     </div>
   {/if}
-  {#if $state.post.submenu && $state.post.subpages}
+  {#if /*$state.post.submenu && */$state.post.subpages}
     <nav>
       <h2>{$state.post.title}</h2>
       <ul>

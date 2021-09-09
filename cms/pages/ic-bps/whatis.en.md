@@ -1,5 +1,5 @@
 ---
-id: index
+id: whatis
 slug: .
 folder: ic-bps
 published: true
