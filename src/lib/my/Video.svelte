@@ -6,7 +6,7 @@
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
   {#if comp.title}<h2 id="{comp.anchor}">{comp.title}</h2>{/if}
   {#if comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
-    {#if $moved}
+    <!--{#if $moved}-->
     {#if comp.source == 'youtube'}
     <div>
       <iframe title="{comp.title || comp.anchor || 'video'}" loading="lazy" width="100%" height="315" src="https://www.youtube-nocookie.com/embed/{comp.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -18,7 +18,7 @@
       <source src="{comp.id}" type="video/mp4">
     </video>
     {/if}
-    {/if}
+    <!--{/if}-->
   {#if comp.text}{@html comp.text}{/if}
 </article>
 
