@@ -1,5 +1,6 @@
 <script context="module">
   export const hydrate = false
+  export const prerender = true
   import { onMount } from 'svelte'
   import { get } from 'svelte/store'
   import { state, sitelang, cookies/*, pagepath*/ } from '$lib/stores'

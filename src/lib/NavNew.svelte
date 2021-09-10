@@ -100,13 +100,13 @@
       nwidth = wul
       //console.log('before: , nwidth, wnav, hamburger)')
       hamburger = (nwidth > wnav)
-      console.log(`onmount: ${hamburger} = (${nwidth} > ${wnav})`)
+      //console.log(`onmount: ${hamburger} = (${nwidth} > ${wnav})`)
     }
   })
   afterUpdate(() => {
     //if (!!nwidth && !!wnav) {
       hamburger = (nwidth > wnav)
-      console.log(`update: ${hamburger} = (${nwidth} > ${wnav})`)
+      //console.log(`update: ${hamburger} = (${nwidth} > ${wnav})`)
     //}
   })
   /*//afterUpdate(() => {
