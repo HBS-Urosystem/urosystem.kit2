@@ -1,5 +1,5 @@
 <script context="module">
-	import { state, moved, sitelang } from '$lib/stores'
+	import { /*state, */moved, sitelang } from '$lib/stores'
   import { onMount, afterUpdate } from 'svelte'
   //import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
   //import { langs } from '$lib/config';
@@ -11,7 +11,6 @@
 	//import Modal from '$lib/my/Modal.svelte'
   import SubNav from '$lib/SubNav.svelte'
   import * as scrollnav from "svelte-scrollto"
-  import { createEventDispatcher } from "svelte";
   /*scrollnav.setGlobalOptions({
     container: 'nav',
     //offset: 200,
@@ -28,7 +27,7 @@
   })*/
 </script>
 <script>
-  const dir = $state.thislang.dir
+  import { createEventDispatcher } from "svelte";
   import validate from "./_validation";
   let duration = "450ms";
   let offset = 0;
@@ -65,6 +64,7 @@
     lastHeaderClass = headerClass
     //console.log(headerClass)
   }
+
   import { snapto } from '$lib/stores'
   $: {
     if (!!$snapto) {
@@ -77,7 +77,7 @@
   }
 
 	//const { page } = stores()
-  //export let segment
+  export let state
   let /*navbar, navul,*/ nwidth, wnav, wul, hamburger = false//, modal
   //$: hamburger = navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)
   //$: hamburger = !w || (w + navbar.scrollLeft < navbar.scrollWidth)
@@ -100,11 +100,13 @@
       nwidth = wul
       //console.log('before: , nwidth, wnav, hamburger)')
       hamburger = (nwidth > wnav)
+      console.log(`onmount: ${hamburger} = (${nwidth} > ${wnav})`)
     }
   })
   afterUpdate(() => {
     //if (!!nwidth && !!wnav) {
       hamburger = (nwidth > wnav)
+      console.log(`update: ${hamburger} = (${nwidth} > ${wnav})`)
     //}
   })
   /*//afterUpdate(() => {
@@ -130,27 +132,29 @@
     //console.log(path)
     //await goto(path.join('/'))
     //window.location.href = path.join('/')
-    window.location.href = `/${langchng}/${$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}`
-    //console.log(`${langchng}/${$state.post.path}`)
+    window.location.href = `/${langchng}/${state.post.subpage && state.post.subpage.slug !== '.' ? state.post.subpage.path : (state.post.path || '')}`
+    //console.log(`${langchng}/${state.post.path}`)
   }
   let slct
 
-  //$: console.log('state.subpage', $state.post.subpage)
+  //$: console.log('state.subpage', state.post.subpage)
+  //const dir = state.thislang.dir
 </script>
 
 <svelte:window bind:scrollY={y} />
-  <!--{#each $state.langs as lang}
-    <a hidden aria-hidden="true" href="/{lang.id}/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">/{lang.id}/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}</a>
+  <!--{#each state.langs as lang}
+    <a hidden aria-hidden="true" href="/{lang.id}/{state.post.subpage && state.post.subpage.slug !== '.' ? state.post.subpage.path : (state.post.path || '')}">/{lang.id}/{state.post.subpage && state.post.subpage.slug !== '.' ? state.post.subpage.path : (state.post.path || '')}</a>
   {/each}-->
 
   <nav
     use:action class={headerClass}
     class:moved={y>32}
+    moved={$moved}
     bind:clientWidth={wnav}>
     <div>
       <!-- svelte-ignore a11y-no-onchange -->
       <select on:focus={() => slct = true} on:blur={() => slct = false} bind:value={langchng} on:change={newlang}>
-        {#each $state.langs as lang}
+        {#each state.langs as lang}
         <option value={lang.id}>{lang.id} {#if slct}· {lang.title}{/if}</option>
         {/each}
       </select>
@@ -174,7 +178,7 @@
         </a>
       </li>
       <!--{@debug topnav}-->
-      {#each $state.topnav as nav}<!--{@debug nav}-->
+      {#each state.topnav as nav}<!--{@debug nav}-->
         {#if nav.title}
           <li>
             {#if nav.link}

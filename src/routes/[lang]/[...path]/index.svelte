@@ -18,7 +18,7 @@
       $snapto = ''
     }
   }*/
-  $: console.log($state.post)
+  //$: console.log($state.post)
 
 </script>
 

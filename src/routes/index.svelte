@@ -16,7 +16,7 @@
   //if (!page) goto($sitelang || 'en')
   onMount(() => {
     //console.log('goto/' + page)
-    goto('/' + $sitelang, { replaceState: true });
+    goto('/' + $sitelang, { replaceState: false });
 	})
   //async ()=> {
   //}
@@ -31,8 +31,8 @@
 </svelte:head>
 <main>
   <a href="/" aria-label="home"><img src="/uploads/urosystem_logo_02_web.svg" alt="" style="filter:invert();width:20ch;display:block;margin:0 auto; aspect-ratio: 100 / 90.861"/></a>
-  <p>Loading…</p>
-  <noscript><p><a href="/en">NO JAVASCRIPT! Click here to load the website…</a></p></noscript>
+  <p>Welcome!</p>
+  <noscript><p><a href="/en">NO JAVASCRIPT… Click here to load the website</a></p></noscript>
 </main>
 
 <style>
