@@ -10,15 +10,15 @@ components:
     name: ProfessionalsGateway
     text: >-
       <fieldset>
-        <label>Name <input type="text" name="name" req-uired /></label>   
-        <label>Email <input type="email" name="email" autocomplete="email" req-uired /></label>
+        <label>Name <input type="text" name="name" required /></label>   
+        <label>Email <input type="email" name="email" autocomplete="email" required /></label>
       </fieldset>
 
       <fieldset>
-        <label>Profession <input type="text" name="profession" req-uired /></label>
+        <label>Profession <input type="text" name="profession" required /></label>
       </fieldset>
       <fieldset>
-        <label>Institute <input type="text" name="institute" req-uired /></label>
+        <label>Institute <input type="text" name="institute" required /></label>
       </fieldset>
 
       <div>
@@ -26,7 +26,7 @@ components:
       </div>
 
       <div>
-        <label><input type="checkbox" name="privacy" req-uired /> I've read and accepted the <a href="/privacy-policy" target="_blank">privacy policy</a>.</label>
+        <label><input type="checkbox" name="privacy" required /> I've read and accepted the <a href="/privacy-policy" target="_blank">privacy policy</a>.</label>
       </div>
 
       <section>

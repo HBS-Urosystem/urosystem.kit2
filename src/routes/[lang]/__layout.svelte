@@ -3,7 +3,7 @@
   export const prerender = true
   import { onMount } from 'svelte'
   import { get } from 'svelte/store'
-  import { state, sitelang, cookies/*, pagepath*/ } from '$lib/stores'
+  import { state, sitelang, cookies/*, moved*/ } from '$lib/stores'
   import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
   import Nav from '$lib/NavNew.svelte'
   import Footer from '$lib/Footer.svelte'

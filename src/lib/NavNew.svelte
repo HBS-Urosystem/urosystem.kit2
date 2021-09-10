@@ -1,5 +1,5 @@
 <script context="module">
-	import { /*state, */moved, sitelang } from '$lib/stores'
+	import { /*state, moved, */sitelang } from '$lib/stores'
   import { onMount, afterUpdate } from 'svelte'
   //import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
   //import { langs } from '$lib/config';
@@ -58,7 +58,7 @@
     validate({ duration, offset, tolerance });
     headerClass = updateClass(y);
     if (headerClass !== lastHeaderClass) {
-      $moved = true
+      //$moved = true
       dispatch(headerClass);
     }
     lastHeaderClass = headerClass
@@ -149,7 +149,6 @@
   <nav
     use:action class={headerClass}
     class:moved={y>32}
-    moved={$moved}
     bind:clientWidth={wnav}>
     <div>
       <!-- svelte-ignore a11y-no-onchange -->
