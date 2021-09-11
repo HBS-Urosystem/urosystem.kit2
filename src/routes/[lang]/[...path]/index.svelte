@@ -1,5 +1,6 @@
 <script context="module">
   //export const hydrate = false
+  //export const prerender = true
 
   import { state, snapto, gateway } from '$lib/stores'
   import Components from '$lib/Components.svelte'
