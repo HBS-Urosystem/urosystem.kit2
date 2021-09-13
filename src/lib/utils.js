@@ -76,6 +76,7 @@ export async function _getConf(lang) {
   async function _subnav(obj) {
     let p
     //console.log('obj.link',obj.link)
+    delete obj.title
     if (obj.titles && obj.titles.length) {
       //console.log('obj.titles',obj.titles)
       for (let item of obj.titles) {
