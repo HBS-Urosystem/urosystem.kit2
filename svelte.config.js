@@ -1,5 +1,5 @@
-import adapter from '@sveltejs/adapter-static'
-//import adapter from '@sveltejs/adapter-netlify'
+//import adapter from '@sveltejs/adapter-static'
+import adapter from '@sveltejs/adapter-netlify'
 //import preprocess from 'svelte-preprocess'
 import { mdsvex } from "mdsvex"
 import { mdsvexConfig } from "./mdsvex.config.js"
@@ -18,7 +18,8 @@ const config = {
 			//pages: 'build',
 			//assets: 'build',
 			//fallback: null
-		})
+		}),
+		hydrate: false,
 	}
 };
 
