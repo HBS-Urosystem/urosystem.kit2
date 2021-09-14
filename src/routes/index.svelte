@@ -31,7 +31,7 @@
 </svelte:head>
 <main>
   <a href="/" aria-label="home"><img src="/uploads/urosystem_logo_02_web.svg" alt="" style="filter:invert();width:20ch;display:block;margin:0 auto; aspect-ratio: 100 / 90.861"/></a>
-  <p>Welcome!</p>
+  <p>Welcome! The website is loading…</p>
   <noscript><p><a href="/en">NO JAVASCRIPT… Click here to load the website</a></p></noscript>
 </main>
 
