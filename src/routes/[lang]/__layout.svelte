@@ -9,6 +9,7 @@
   import Footer from '$lib/Footer.svelte'
   import Cookies from '$lib/Cookies.svelte'
 
+
   export const load = async ({ page, fetch }) => {
     let { lang, path } = {...page.params}
     let u = []
@@ -59,9 +60,10 @@
 </script>
 
 <svelte:head>
-  {#each $state.langs as lang}
+
+  <!--{#each $state.langs as lang}
     <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
-  {/each}
+  {/each}-->
 
   {#if !dev }
     <!-- Global site tag (gtag.js) - Google Analytics -->

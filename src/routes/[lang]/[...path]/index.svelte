@@ -24,6 +24,11 @@
 </script>
 
 <svelte:head>
+<!--{#if $state && !!$state.id}-->
+  {#each $state.langs || [] as lang}
+    <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
+  {/each}
+
   {#if $state.post.subpage}
     <title>{$state.post.subpage.title}</title>
     <meta name="description" content="{$state.post.subpage.description}">
@@ -43,9 +48,11 @@
       {/each}
     {/if}
   {/if}
+<!--{/if}-->
 </svelte:head>
 
 <main>
+<!--{#if $state && !!$state.id}-->
   {#if $state.post.hero}
     <header class="full" style="{$state.post.hero.background ? $state.post.hero.background : ``}" on:click={() => $snapto = '#content'}>
       <h1 hidden>{$state.post.title}</h1>
@@ -119,6 +126,7 @@
       </ul>
     </nav>
   {/if}
+<!--{/if}-->
 </main>
 
 <style>
