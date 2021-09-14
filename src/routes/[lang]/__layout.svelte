@@ -115,7 +115,7 @@
 	{/if} <!-- $cookies -->
 </svelte:head>
 
-<Nav state={result}/>
+<Nav/><!--  state={result} -->
 <slot></slot>
 <Footer/>
 <Cookies/>

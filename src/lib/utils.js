@@ -259,7 +259,7 @@ export async function _findPost({path = 'index', lang = 'en'}) {
 
 export async function _getBlock(id = path, l) {
   let block = await _findBlock(id, l)
-  //console.log('_get', l, id)
+  //console.log('_get', id, l)
   if (block) {
     for (let c of block.components) {
       c.lang = l

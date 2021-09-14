@@ -25,9 +25,9 @@
 
 <svelte:head>
 <!--{#if $state && !!$state.id}-->
-  {#each $state.langs || [] as lang}
+  <!--{#each $state.langs || [] as lang}
     <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
-  {/each}
+  {/each}-->
 
   {#if $state.post.subpage}
     <title>{$state.post.subpage.title}</title>
