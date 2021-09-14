@@ -175,5 +175,5 @@ components:
       ## 联系方式
 
 
-      服务条款有关的问题应发送至[mail@urosystem.com](mail@urosystem.com)。
+      服务条款有关的问题应发送至[mail@urosystem.com](mailto:mail@urosystem.com)。
 ---

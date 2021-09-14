@@ -170,5 +170,5 @@ components:
       ## Kontaktinformation
 
 
-      Fragen zu den Nutzungsbedingungen sollten an uns an [mail@urosystem.com](mail@urosystem.com) gesendet werden.
+      Fragen zu den Nutzungsbedingungen sollten an uns an [mail@urosystem.com](mailto:mail@urosystem.com) gesendet werden.
 ---

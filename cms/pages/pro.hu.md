@@ -1,6 +1,4 @@
 ---
-id: urodapter-lovasz
-folder: ""
+id: pro
 fallback: en
-published: false
 ---

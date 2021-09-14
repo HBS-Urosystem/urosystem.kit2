@@ -72,6 +72,32 @@ top:
     titles:
       - lang: en
         title: Video
+      - lang: hu
+        title: Video
+      - lang: ru
+        title: Video
+      - lang: de
+        title: Video
+      - lang: es
+        title: Video
+      - lang: fr
+        title: Video
+      - lang: he
+        title: Video
+      - lang: it
+        title: Video
+      - lang: ja
+        title: Video
+      - lang: pt
+        title: Video
+      - lang: tr
+        title: Video
+      - lang: zh
+        title: Video
+      - lang: ko
+        title: Video
+      - lang: ar
+        title: Video
     subpages:
       - link: edu
       - link: pro
