@@ -10,6 +10,11 @@ const config = {
 		mdsvex(mdsvexConfig)/*,
 		preprocess()*/
 	],
+	prerender: {
+		crawl: true,
+		enabled: true,
+		entries: ['/ar','/de','/en','/es','/fr','/he','/hu','/it','/ja','/ko','/pt','/ru','/tr','/zh']
+	},
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
