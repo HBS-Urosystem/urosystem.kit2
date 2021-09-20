@@ -19,7 +19,7 @@ const config = {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 		hydrate: true,
-		adapter: adapter()/*{
+		adapter: adapter()/*{ /// static options
 			// default options are shown
 			//pages: 'build',
 			//assets: 'build',

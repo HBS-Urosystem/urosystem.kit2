@@ -185,7 +185,7 @@
       <!--{@debug topnav}-->
       {#each $state.topnav as nav}<!--{@debug nav}-->
         {#if nav.title}
-          <li>
+          <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
             {#if nav.link}
               <a sveltekit:prefetch tabindex="0" href="/{$sitelang}/{nav.link}">{nav.title} 
                 {#if nav.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
@@ -375,6 +375,10 @@
   li {
     white-space: nowrap;
     transition: opacity, .25s; /*fast out*/
+  }
+  li[aria-current] {
+    border: 2px dotted white;
+    border-radius: 50%;
   }
   li img {
     aspect-ratio: 100 / 100;

@@ -29,7 +29,7 @@ components:
         title: Now UroDapter® is available on Amazon.com!
         button: UroDapter® on Amazon.com
         anchor: amazon
-        link: https://www.amazon.com/dp/B08QN9NS8Z?ref=myi_title_dp
+        link: https://www.amazon.com/stores/UroDapter/page/EE971FBB-A516-4E98-A2CD-2B62117F088A
     background:
       - type: image
         posx: 50

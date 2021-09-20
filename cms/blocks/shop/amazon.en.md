@@ -4,7 +4,7 @@ folder: shop
 fallback: ""
 components:
   - type: article
-    title: Now UroDapter® is available in 5, 10 and 100 piece packs on Amazon.com!
+    title: Now UroDapter® is available in 5 and 10 piece packs on Amazon.com!
     anchor: amazon
     background:
       - type: image

@@ -1,5 +1,5 @@
 [context.production]
-  environment = { NODE_VERSION = "16.2.0" }
+  environment = { NODE_VERSION = "--lts" }
 [build]
   command = "npm run build"
   publish = "build/"
