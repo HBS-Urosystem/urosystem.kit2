@@ -376,10 +376,10 @@
     white-space: nowrap;
     transition: opacity, .25s; /*fast out*/
   }
-  li[aria-current] {
+  /*li[aria-current] {
     border: 2px dotted white;
     border-radius: 50%;
-  }
+  }*/
   li img {
     aspect-ratio: 100 / 100;
   }
