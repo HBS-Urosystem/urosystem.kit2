@@ -13,7 +13,7 @@
 
 <aside data-sticky={!$cookies}>
 	{#if $sitelang == 'en' || $sitelang == 'fr' || $sitelang == 'es' || $sitelang == 'it' || $sitelang == 'ja' || $sitelang == 'he' || $sitelang == 'ar' || $sitelang == 'ko' || $sitelang == 'pt' || $sitelang == 'zh' || $sitelang == 'tr'}
-		<p>The webpage of UroSystem uses cookies in order to operate the site, and to make its use a more convenient and custom experience. – <!--<a href="/cookie-en">Cookie Policy</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Privacy Policy</a></p>
+		<p>The webpage of UroSystem uses cookies in order to operate the site, and to make its useage a more convenient and custom experience. – <!--<a href="/cookie-en">Cookie Policy</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Privacy Policy</a></p>
 		{#if !$cookies}<button on:click={consent}>Accept</button>{:else}<button on:click={unconsent}>Revoke</button>{/if}
 	{/if}
 	{#if $sitelang == 'hu'}
@@ -28,7 +28,7 @@
 		<p>Веб-страница UroSystem использует файлы cookie, чтобы управлять сайтом и сделать его использование более удобным и индивидуальным.. – <!--<a href="/cookie-fr">Cookie Policy</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Политика конфиденциальности</a></p>
 	{#if !$cookies}<button on:click={consent}>Принять</button>{:else}<button on:click={unconsent}>Отозвать</button>{/if}
 	{/if}
-    </aside>
+</aside>
 
 <style>
 	aside[data-sticky=true] {
