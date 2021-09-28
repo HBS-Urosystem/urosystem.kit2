@@ -13,7 +13,7 @@
 
 <aside data-sticky={!$cookies}>
 	{#if $sitelang == 'en' || $sitelang == 'fr' || $sitelang == 'es' || $sitelang == 'it' || $sitelang == 'ja' || $sitelang == 'he' || $sitelang == 'ar' || $sitelang == 'ko' || $sitelang == 'pt' || $sitelang == 'zh' || $sitelang == 'tr'}
-		<p>The webpage of UroSystem uses cookies in order to operate the site, and to make its useage a more convenient and custom experience. – <!--<a href="/cookie-en">Cookie Policy</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Privacy Policy</a></p>
+		<p>The webpage of UroSystem uses cookies in order to operate the site, and to make it a more convenient and custom experience. – <!--<a href="/cookie-en">Cookie Policy</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Privacy Policy</a></p>
 		{#if !$cookies}<button on:click={consent}>Accept</button>{:else}<button on:click={unconsent}>Revoke</button>{/if}
 	{/if}
 	{#if $sitelang == 'hu'}

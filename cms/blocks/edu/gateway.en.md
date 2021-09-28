@@ -7,6 +7,7 @@ components:
     netlify: true
     action: "#content"
     title: Medical content
+    subhead: For professionals only
     name: ProfessionalsGateway
     text: >-
       <fieldset>

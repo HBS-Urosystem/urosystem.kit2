@@ -16,6 +16,6 @@ background:
     name: dark-blue
 components:
   - type: article
-    title: Recommendations for IC/BPS Patients
+    title: Resources for IC/BPS Patients
     subhead: from Sándor Lovász MD., PhD
 ---
