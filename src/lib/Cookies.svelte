@@ -40,12 +40,15 @@
 <style>
 	aside[data-sticky=true] {
 		position: sticky;
+		border-top: solid var(--pale-blue-75);
 	}
 	aside {
     background-color: var(--dark-blue);
 		bottom: 0;
 		display: flex;
 		align-items: center;
+		justify-content: center;
+		text-align: center;
 		/*z-index: 1;*/
 		padding-block: 0;
 		padding-inline-start: 1rem;
@@ -59,6 +62,7 @@
   }
 	p a {
 		font-variant:initial;
+		white-space: nowrap;
   }
 	button {
 		/*flex-shrink: 0;
