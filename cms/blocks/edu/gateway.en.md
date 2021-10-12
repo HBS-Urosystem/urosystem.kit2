@@ -6,8 +6,8 @@ components:
   - type: form
     netlify: true
     action: "#content"
-    title: Medical content
-    subhead: For professionals only
+    title: The UroDapter® long and short
+    subhead: To access our exclusive medical content about UroDapter®, please fill in the form.
     name: ProfessionalsGateway
     text: >-
       <fieldset>

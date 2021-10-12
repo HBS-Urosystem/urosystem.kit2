@@ -1,32 +1,39 @@
 <script context="module">
+  //import { onMount } from 'svelte'
 	import { cookies, sitelang } from '$lib/stores'
 </script>
 
 <script>
+	export let cookie
+  /*onMount(() => {*/
+    //$: $cookies = $cookies
+	/*})*/
 	function consent() {
+		//alert('consent')
 		$cookies = true
 	}
 	function unconsent() {
+		//alert('unconsent')
 		$cookies = false
 	}
 </script>
 
-<aside data-sticky={!$cookies}>
+<aside data-sticky={!cookie}>
 	{#if $sitelang == 'en' || $sitelang == 'fr' || $sitelang == 'es' || $sitelang == 'it' || $sitelang == 'ja' || $sitelang == 'he' || $sitelang == 'ar' || $sitelang == 'ko' || $sitelang == 'pt' || $sitelang == 'zh' || $sitelang == 'tr'}
-		<p>The webpage of UroSystem uses cookies in order to operate the site, and to make it a more convenient and custom experience. – <!--<a href="/cookie-en">Cookie Policy</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Privacy Policy</a></p>
-		{#if !$cookies}<button on:click={consent}>Accept</button>{:else}<button on:click={unconsent}>Revoke</button>{/if}
+		<p>The UroSystem website uses cookies in compliance with GDPR and CCPA. – <!--<a href="/cookie-en">Cookie Policy</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Privacy Policy</a></p>
+		{#if !cookie}<button on:click={consent}>Accept</button>{:else}<button on:click={unconsent}>Revoke</button>{/if}
 	{/if}
 	{#if $sitelang == 'hu'}
-		<p>A UroSystem weboldala sütiket használ működtetése, használatának megkönnyítése és testreszabása érdekében. – <!--<a href="/cookie">Cookie-tájékoztató</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Adatkezelési tájékoztató</a></p>
-		{#if !$cookies}<button on:click={consent}>Elfogadom</button>{:else}<button on:click={unconsent}>Visszavonom</button>{/if}
+		<p>Az UroSystem weboldal cookie-kat használ, amelyek megfelelnek a GDPR-nek és a CCPA-nak. <!--<a href="/cookie">Cookie-tájékoztató</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Adatkezelési Tájékoztató</a></p>
+		{#if !cookie}<button on:click={consent}>Elfogadom</button>{:else}<button on:click={unconsent}>Visszavonom</button>{/if}
 	{/if}
 	{#if $sitelang == 'de'}
-		<p>Die Webseite von UroSystem verwendet Cookies, um die Website zu betreiben und ihre Nutzung komfortabler und individueller zu gestalten. – <!--<a href="/cookie-en">Cookie Policy</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Privacy Policy</a></p>
-		{#if !$cookies}<button on:click={consent}>Akzeptieren</button>{:else}<button on:click={unconsent}>Widerrufen</button>{/if}
+		<p>Die UroSystem-Website verwendet Cookies mit DSGVO- und CCPA-Konformität. – <!--<a href="/cookie-en">Cookie Policy</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Privacy Policy</a></p>
+		{#if !cookie}<button on:click={consent}>Akzeptieren</button>{:else}<button on:click={unconsent}>Widerrufen</button>{/if}
 	{/if}
 	{#if $sitelang == 'ru'}
-		<p>Веб-страница UroSystem использует файлы cookie, чтобы управлять сайтом и сделать его использование более удобным и индивидуальным.. – <!--<a href="/cookie-fr">Cookie Policy</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Политика конфиденциальности</a></p>
-	{#if !$cookies}<button on:click={consent}>Принять</button>{:else}<button on:click={unconsent}>Отозвать</button>{/if}
+		<p>Веб-сайт UroSystem использует файлы cookie в соответствии с GDPR и CCPA. – <!--<a href="/cookie-fr">Cookie Policy</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Политика конфиденциальности</a></p>
+	{#if !cookie}<button on:click={consent}>Принять</button>{:else}<button on:click={unconsent}>Отозвать</button>{/if}
 	{/if}
 </aside>
 
@@ -48,6 +55,10 @@
     max-height: 5em;
     overflow-y: auto;
 		margin: 0;
+		font-variant: small-caps;
+  }
+	p a {
+		font-variant:initial;
   }
 	button {
 		/*flex-shrink: 0;

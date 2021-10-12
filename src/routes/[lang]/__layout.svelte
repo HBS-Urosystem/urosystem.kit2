@@ -44,6 +44,7 @@
   }
 </script>
 <script>
+
   export let result//, lang, path
   $: $state = result
   //$: console.log(result)
@@ -118,4 +119,4 @@
 <Nav/><!--  state={result} -->
 <slot></slot>
 <Footer/>
-<Cookies/>
+<Cookies cookie={$cookies}/>
