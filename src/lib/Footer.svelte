@@ -20,7 +20,7 @@
     {#if $sitelang == 'hu'}
     <a href="/hu/company#ginop" aria-label="ginop"><img src="/uploads/ginop.png" alt="GINOP pályázat" style="width:20ch;display:block;"/></a>
     {/if}
-    <a href="/" aria-label="home"><img src="/uploads/urosystem_logo_02_web.svg" alt="Urosystem logo" style="filter:invert();width:20ch;display:block; aspect-ratio: 100 / 90.861"/></a>
+    <a href="/" aria-label="home"><img src="/uploads/urosystem_logo_02_web.svg" alt="" style="filter:invert();width:20ch;display:block; aspect-ratio: 100 / 90.861"/></a>
     {#if $sitelang == 'hu'}
     <a href="/hu/company#nkfi" aria-label="nkfi"><img src="/uploads/nkfi.png" alt="NKFI pályázat" style="width:20ch;display:block;"/></a>
     {/if}
