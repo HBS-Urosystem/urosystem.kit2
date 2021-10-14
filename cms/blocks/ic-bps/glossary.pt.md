@@ -5,328 +5,326 @@ fallback: en
 components:
   - type: article
     text: >-
-      **Acute** – In the medical terminology, acute refers to diseases,
-      illnesses or symptoms that develop fast and don’t last long. (Acute
-      doesn’t essentially mean severe.)
+      **Agudo** – Na terminologia médica, agudo refere-se a doenças,
+      enfermidades ou sintomas que se desenvolvem rapidamente e não duram muito.
+      (Agudo não significa essencialmente grave.)
 
 
-      **Amitriptyline** – A sort of antidepressant; occasionally used in the therapy of IC/BPS, too. It mitigates the symptoms, but may have side effects if taken at large doses.
+      **Amitriptilina** – Uma espécie de antidepressivo; ocasionalmente também usado na terapia da CI/BPS. Atenua os sintomas, mas pode ter efeitos colaterais se tomado em grandes doses.
 
 
-      **Anamnesis** – Describing the history and the current status of a patient, including diseases/conditions in the pasts, injuries, operations, but diet and living conditions, too. An accurate anamnesis helps make the proper diagnosis.
+      **Anamnese** – Descrever a história e o estado atual de um paciente, incluindo doenças/condições no passado, lesões, operações, mas também a dieta e condições de vida. Uma anamnese precisa ajuda a estabelecer o diagnóstico adequado.
 
 
-      **Antidepressants** – A group of medicine. In spite of the name, they are used not only for treating depression, but also for several other conditions, e.g. chronic pain syndromes. Certain kinds of them – tricyclic antidepressants – are widely used in the oral therapy of IC/BPS.
+      **Antidepressivos** – Um grupo de medicamentos. Apesar do nome, não se usam apenas para o tratamento da depressão, mas também para várias outras condições, por ex. síndromes de dor crónica. Certos tipos deles - antidepressivos tricíclicos - são amplamente usados na terapia oral da CI/BPS.
 
 
-      **Antihistamines** – The name refers to histamine antagonists. (Histamine is a compound produced by certain cells. It is involved in the immune response of the body and has inflammatory effect.) They generally have anti-inflammatory effect, certain types of them – e.g. hydroxyzine and cimetidine – are used in the oral therapy of IC/BPS. See also: Histamine
+      **Anti-histamínicos** – O nome refere-se aos antagonistas da histamina. (A histamina é um composto produzido por certas células. Está envolvida na resposta imune do corpo e tem efeito inflamatório.) Geralmente têm efeito antiinflamatório, certos tipos deles - por exemplo, a hidroxizina e cimetidina - são usados na terapia oral da CI/BPS. Veja também: Histamina
 
 
-      **Atrophy** – Partial or complete wasting away of a tissue, organ or body part.
+      **Atrofia** – Desgaste parcial ou total de um tecido, órgão ou parte do corpo.
 
 
-      **Autoimmune disease** – A general term for diseases in which the immune system – mistakenly – attacks the own cells, tissues and substances of the body. Some theorize IC/BPS is an autoimmune disease or develops on the basis of autoimmune processes. This theory has not been confirmed yet.
+      **Doença auto-imune** – Um termo geral para doenças em que o sistema imunológico - erroneamente - ataca as próprias células, tecidos e substâncias do corpo. Alguns teorizam que a CI/BPS é uma doença autoimune ou se desenvolve com base em processos autoimunes. Esta teoria ainda não foi confirmada.
 
 
-      **Bacterial cystitis** – The inflammation of the bladder which is caused by bacteria.
+      **Cistite bacteriana** – A inflamação da bexiga causada por bactérias.
 
 
-      **Baking Soda** – See Bicarbonates
+      **Bicarbonato de sódio** – Veja bicarbonatos
 
 
-      **Bicarbonates** – A group of inorganic salts; in IC/BPS terminology it often refers to sodium bicarbonate (a.k.a. baking soda). It is used for urine alkalization (to mitigate the symptoms), as the part of the treatment.
+      **Bicarbonatos** – Um grupo de sais inorgânicos; na terminologia CI/BPS, muitas vezes refere-se ao bicarbonato de sódio. É utilizado para a alcalinização da urina (para atenuar os sintomas), como parte do tratamento.
 
 
-      **Biopsy** – Collecting specimen from a tissue or an organ. In case of IC/BPS, biopsy is not performed unless the cystoscopy reveals areas that might refer to tumorous alterations.
+      **Biópsia** – Coleta de espécime de um tecido ou órgão. No caso da CI/BPS, a biópsia não é realizada a menos que a cistoscopia revele áreas que possam indicar alterações tumorais.
 
 
-      **Bladder Pain Syndrome** – See IC/BPS.
+      **Síndrome da dor na bexiga** – Veja CI/BPS.
 
 
-      **BPS** – see IC/BPS
+      **BPS** – Veja CI/BPS
 
 
-      **BPIC/SS Questionnaire** – One of the questionnaires used for diagnosing IC/BPS; it surveys the voiding habits, the grade and the frequency of pelvic pain, focusing on the experience of the previous 7 days. It doesn’t seem to be a reliable method of diagnosing this disease.
+      **Questionário BPIC/SS**  – Um dos questionários utilizados para o diagnóstico da CI/BPS; examina os hábitos miccionais, o grau e a frequência da dor pélvica, com foco na experiência dos 7 dias anteriores. Não parece ser um método confiável de diagnóstico desta doença.
 
 
-      **Capsaicin** – An alkaloid which is present e.g. in the paprika and chili (and responsible for the “hot” sensation). In the medical practice they occasionally use it as a local analgesic. It has been tried in the treatment of IC/BPS, but has failed to improve the condition.
+      **Capsaicina** – Um alcalóide que está presente por ex. no colorau e no chili (e responsável pela sensação de “calor”). Na prática médica, ocasionalmente usam-na como analgésico local. Foi experimentado no tratamento da CI/BPS, mas não conseguiu melhorar a doença.
 
 
-      **Catheter** – A thin rubber pipe which is used for delivering solutions into certain organs (or draining solutions from them).
+      **Cateter** – Um tubo de borracha fino usado para fornecer soluções para certos órgãos (ou drenar soluções dos mesmos).
 
 
-      **Chemotherapy Cystitis** (Chemo-Cystitis) – A form of cystitis may occur as a complication of the chemotherapy of a cancer. See more: Hemorrhagic Cystitis.
+      **Cistite por Quimioterapia** (Quimocistite) – Uma forma de cistite pode ocorrer como complicação da quimioterapia de um cancro. Veja mais: Cistite Hemorrágica.
 
 
-      **Chondroitin** (Chondroitin Sulphate; CS) – A polysaccharide compound which is generally used for treating cartilage problems. In the therapy of IC/BPS, chondroitin sulphate is considered to be one of the GAG-layer replenishers.
+      **Condroitina** (Sulfato de condroitina; CS) – Um composto polissacarídeo que geralmente é usado para tratar problemas de cartilagem. Na terapia da CI/BPS, o sulfato de condroitina é considerado um dos reforçadores da camada GAG.
 
 
-      **Cimetidine** – See Antihistamines
+      **Cimetidina** – Veja anti-histamínicos
 
 
-      **Citrates, Citric Acid** – The term is generally used for the salts of citric acid; despite the name these compounds have alkalizing effect.
+      **Citratos, ácido cítrico** – O termo é geralmente usado para os sais de ácido cítrico; apesar do nome, esses compostos têm efeito alcalinizante.
 
 
-      **Chronic** – In the medical terminology it refers to long-lasting diseases, or conditions that persist for a long time.
+      **Crónico** – Na terminologia médica, refere-se a doenças de longa duração ou condições que persistem por muito tempo.
 
 
-      **Classic IC/BPS** – An old term for IC/BPS with Hunner lesion.
+      **CI/BPS clássico** – Um termo antigo para CI/BPS com lesão de Hunner.
 
 
-      **Coagulation** – See Fulguration.
+      **Coagulação** – Veja Fulguração.
 
 
-      **Cocktail** – In the therapy of IC/BPS the term refers to solutions instilled into the bladder that contain more components.
+      **Coquetel** – Na terapia da CI/BPS, o termo refere-se a soluções instiladas na bexiga que contêm mais componentes.
 
 
-      **Corticosteroids** – A group of hormones produced by the body; the term refers to similar synthetic compounds, too. In the medical practice, a group of anti-inflammatory agents is called so, as well. In the oral medication of IC/BPS corticosteroids can be used, too.
+      **Corticosteróides** – Um grupo de hormonas produzidas pelo corpo; o termo também se refere a compostos sintéticos semelhantes. Na prática médica, um grupo de agentes antiinflamatórios também é denominado assim. Na medicação oral da CI/BPS, também se podem usar corticosteroides.
 
 
-      **Cystectomy** – Removing the bladder via a surgical operation. Current guidelines of treating IC/BPS say that cystectomy is recommended only if the patient hasn’t responded to any other therapy.
+      **Cistectomia** – Remoção da bexiga por meio de uma operação cirúrgica. As diretrizes atuais de tratamento da CI/BPS dizem que a cistectomia é recomendada apenas se o paciente não respondeu a qualquer outra terapia.
 
 
-      **Cystitis** – A general term for bladder inflammation. (Its official plural form is Cystitides.)
+      **Cistite** – Um termo geral para a inflamação da bexiga. (a sua forma oficial no plural é Cistites.)
 
 
-      **Cystoscopy** – Examining the inside of the bladder with a small camera (called cystoscope) which is lead into the bladder through the urethra. It was widely used in the past for diagnosing IC/BPS. Currently, it is performed only if it’s strongly suspected that there are alterations on the bladder wall or mucosa.
+      **Cistoscopia** – O exame do interior da bexiga com uma pequena câmara (chamada cistoscópio) que é introduzida na bexiga através da uretra. Foi amplamente utilizado no passado para o diagnóstico da CI/BPS. Atualmente, é realizado apenas se houver uma forte suspeita de que há alterações na parede ou mucosa da bexiga.
 
 
-      **Cytology** – See Urine Cytology
+      **Citologia** – Veja citologia da urina
 
 
-      **Differential diagnosis** – Distinguishing conditions of similar symptoms and all the diagnostic methods of this purpose. This is the first step of diagnosing IC/BPS: the therapist has to rule out other conditions which may cause the symptoms, e.g. bacterial cystitis.
+      **Diagnóstico diferencial** – A distinção de condições de sintomas semelhantes e todos os métodos diagnósticos com este objetivo. Este é o primeiro passo do diagnóstico da CI/BPS: o terapeuta deve descartar outras condições que podem causar os sintomas, por exemplo, a cistite bacteriana.
 
 
-      **Diverticulum** – A pathological condition, a small bulging sac or sacs of a cavernous organ are pushing outward. The sacs may consist of one or more layers of the organ wall.
+      **Divertículo** – Uma condição patológica, uma pequena bolsa protuberante ou bolsas de um órgão cavernoso empurrando para fora. Os sacos podem consistir numa ou mais camadas da parede do órgão.
 
 
-      **DMSO** – Dimethyl-sulfoxide; one of the compounds used in the local treatment of IC/BPS. It is the only agent approved by FDA (The USA) for this purpose. It mitigates the symptoms, but, in itself, doesn’t regenerate the GAG-layer.
+      **DMSO** – Dimetilsulfóxido; um dos compostos usados no tratamento local da CI/BPS. É o único agente aprovado pela FDA (EUA) para esse fim. Atenua os sintomas, mas, por si só, não regenera a camada GAG.
 
 
-      **Dorfman (PUF) questionnaire** – One of the questionnaires widely used for diagnosing IC/BPS. It surveys the voiding habits, the presence and frequency of bladder pain, and the pain occurring during a sexual intercourse.
+      **Questionário de Dorfman (PUF)** – Um dos questionários mais utilizados para o diagnóstico da CI/BPS. Examina os hábitos de micção, a presença e frequência da dor na bexiga e a dor que ocorre durante a relação sexual.
 
 
-      **Dyspareunia** – Painful sexual intercourse. IC/BPS patients may have dyspareunia, too.
+      **Dispareunia** – Relação sexual dolorosa. Pacientes com CI/BPS também podem ter dispareunia.
 
 
-      **Dysuria** – Painful urination. IC/BPS patients may have dysuria, too.
+      **Disúria** – Dor ao urinar. Pacientes com CI/BPS também podem ter disúria.
 
 
-      **Elimination diet** – A form of diet. In the first step only the food and drinks are allowed to take that surely cause no problems. In the next step, each food or drink is to be added one by one – if no symptoms occur, it can be consumed in the future.
+      **Dieta de eliminação** – Uma forma de dieta. Como primeiro passo, apenas são permitidas comidas e bebidas que certamente não causam problemas. No próximo passo, cada comida ou bebida deve ser adicionada um por um - se nenhum sintoma ocorrer, pode ser consumido no futuro.
 
 
-      **Elmiron** – See PPS
+      **Elmiron** – Veja PPS
 
 
-      **Endometriosis** – A condition in which the endometrial tissue appears outside the uterus. It may cause pelvic pain or infertility. Endometriosis can be a comorbidity of IC/BPS.
+      **Endometriose** – Uma condição em que o tecido endometrial aparece fora do útero. Pode causar dor pélvica ou infertilidade. A endometriose pode ser uma comorbidade de CI/BPS.
 
 
-      **End-Stage Bladder** – An irreversible process during which the bladder wall becomes rigid, callused, and the volume of the bladder becomes abnormally small.
+      **Bexiga de estágio final** – Um processo irreversível durante o qual a parede da bexiga se torna rígida, calejada e o volume da bexiga torna-se anormalmente pequeno.
 
 
-      **Epidemiology** – The discipline of researching the appearance, abundance, spread and dispersion of diseases.
+      **Epidemiologia** – A disciplina de pesquisar o aparecimento, abundância, propagação e dispersão de doenças.
 
 
-      **Etiology** – The discipline of researching the causes and the development of diseases.
+      **Etiologia** – A disciplina de pesquisar as causas e o desenvolvimento de doenças.
 
 
-      **Fibromyalgia** – A condition characterized by wide-spread muscular or musculoskeletal pain. Its etiology is unknown. Fibromyalgia may be a comorbidity of IC/BPS.
+      **Fibromialgia** – Condição caracterizada por dor muscular ou musculoesquelética generalizada. A sua etiologia é desconhecida. A fibromialgia pode ser uma comorbidade da CI/BPS.
 
 
-      **Fulguration (Coagulation)** – Destroying certain tissues or areas with laser or electricity. (Although the word itself refers to the use of diathermy.) In the treatment of (Hunner lesion) IC/BPS the term refers to the process when the damaged parts of the bladder mucosa are being destroyed. Fulguration destroys the majority of the pain nerve endings, too, so it may greatly decrease the level of pain. After this process can the GAG-layer replenishment start. (Coagulation originally means the irreversible destruction of proteins, but in the terminology of IC/BPS the two expressions may be used in an interchangeable way.)
+      **Fulguração (Coagulação)** – Destruir certos tecidos ou áreas com laser ou eletricidade. (Embora a própria palavra se refira ao uso de diatermia.) No tratamento da (lesão de Hunner) CI/BPS, o termo refere-se ao processo quando as partes danificadas da mucosa da bexiga estão a ser destruídas. A fulguração também destrói a maioria das terminações nervosas da dor, portanto, pode diminuir muito o nível de dor. Depois deste processo, o reabastecimento da camada GAG pode começar. (Coagulação significa originalmente a destruição irreversível de proteínas, mas na terminologia da CI/BPS as duas expressões podem ser usadas de forma intercambiável.)
 
 
-      **Gabapentin** – A sort of medicine used for different conditions. In the oral therapy of IC/BPS, it is applied for lessening the neuropathic pain.
+      **Gabapentina** – Uma espécie de medicamento usado para diferentes condições. Na terapia oral da CI/BPS, é aplicado para diminuir a dor neuropática.
 
 
-      **GAG-layer** – A mucus (mucosal) layer which covers the inner surface of the bladder, it consists of glycosaminoglycans. The GAG-layer protects the deeper regions of the bladder wall (including the pain receptors) from the irritative substances that are present normally in the urine. In the condition of IC/BPS this GAG-layer gets damaged, which leads to pain and frequent voiding stimulation.
+      **Camada GAG**  – Uma camada de muco (mucosa) que cobre a superfície interna da bexiga, consiste em glicosaminoglicanos. A camada GAG protege as regiões mais profundas da parede da bexiga (incluindo os receptores de dor) das substâncias irritativas que estão presentes normalmente na urina. Na doença da CI/BPS, esta camada GAG fica danificada, o que causa dor e estimulação miccional frequente.
 
 
-      **GAG-layer integrity test** a.k.a. **Two-day voiding diary** – A new method of diagnosing IC/BPS. The basic principle is the following: since the damaged bladder gets irritated because of the salts present in the concentrated urine, the more concentrated the urine is, the smaller the urine portions (the total amount of urine of a voiding) are. For the test, the patient makes a two-day voiding diary. On the first day he/she needs to take the less fluid they can, whereas on the second day the most. In case of a healthy bladder, the mean of the urine portions is the same, regardless of the fluid intake. The bigger the difference of the portions is, the more advanced IC/BPS is.
+      **Teste de integridade da camada GAG** também conhecido como **Diário de micção de dois dias** – Um novo método de diagnóstico de CI/BPS. O princípio básico é o seguinte: uma vez que a bexiga danificada fica irritada por causa dos sais presentes na urina concentrada, quanto mais concentrada a urina, menores são as porções de urina (a quantidade total de urina de uma micção). Para o teste, o paciente faz um diário miccional de dois dias. No primeiro dia ele/ela precisa ingerir a menor quantidade de líquidos possível, enquanto no segundo dia mais. No caso de uma bexiga saudável, a média das porções de urina é a mesma, independentemente da ingestão de líquidos. Quanto maior a diferença das porções, mais avançado é a CI/BPS.
 
 
-      **GAG-layer replenisher** – A general term for the compounds that supposed to help the replenishment of the GAG-layer. E.g. heparin, hyaluronic acid and chondroitin sulphate belong to this group.
+      **Reforçador de camada GAG** – Um termo geral para os compostos que supostamente ajudam na reposição da camada GAG. Por exemplo. heparina, ácido hialurónico e sulfato de condroitina pertencem a este grupo.
 
 
-      **Glycosaminoglycan** – A general term for certain polysaccharides containing nitrogen. These compounds are among the main components of the mucus layer covering the inner surface of the bladder. Chondroitin and hyaluronic acid are glycosaminoglycans, too. See also: GAG-layer.
+      **Glicosaminoglicano** – Um termo geral para certos polissacarídeos contendo nitrogénio. Esses compostos estão entre os principais componentes da camada de muco que cobre a superfície interna da bexiga. A condroitina e o ácido hialurónico também são glicosaminoglicanos. Veja também: camada GAG.
 
 
-      **Hematuria** – Blood is present in the urine. In case of IC/BPS hematuria rarely occurs; even if so, the amount of blood is so small that it can be detected by certain laboratorial examinations. Hematuria is a typical symptom of hemorrhagic cystitides.
+      **Hematuria** – O sangue está presente na urina. No caso da CI/BPS, raramente há hematúria; mesmo assim, a quantidade de sangue é tão pequena que pode ser detectada por certos exames laboratoriais. A hematúria é um sintoma típico de cistites hemorrágicas.
 
 
-      **Hemorrhagic Cystitis (HC)** – An umbrella term for conditions in which the bladder is inflamed and its mucosa is bleeding. Different authors use HC for different group of conditions. On this page, Hemorrhagic Cystitis is used for complications of oncotherapeutical treatment: chemotherapy cystitis and radiation cystitis.
+      **Cistite Hemorrágica (HC)** – Um termo genérico para doencas em que a bexiga está inflamada e a sua mucosa está a sangrar. Diferentes autores usam HC para diferentes grupos de doenças. Nesta página, a Cistite Hemorrágica é usada para complicações do tratamento oncoterapêutico: cistite por quimioterapia e cistite por radiação.
 
 
-      **Heparin** – A polysaccharide compound which contains nitrogen and sulfur. It’s widely used in the medical practice as anticoagulant. In the treatment of IC/BPS it’s one of the GAG-layer replenishers.
+      **Heparina** – Um composto polissacarídeo que contém nitrogénio e enxofre. É amplamente utilizada na prática médica como anticoagulante. No tratamento da CI/BPS, é um dos reforçadores da camada GAG.
 
 
-      **Histamine** – A transmitter molecule naturally present in the human body. It has a key role in inflammatory processes. It dilates the smaller blood vessels whose wall become more permeable for certain chemical compounds. This results in the typical reddish color of the affected area. Histamine also stimulates the nerve endings whose effect is the itchiness. The therapy of IC/BPS is often complemented with antihistamine substances – certain sorts of medicine that antagonize histamine.
+      **Histamina** – Uma molécula transmissora naturalmente presente no corpo humano. Desempenha um papel fundamental nos processos inflamatórios. Dilata os vasos sanguíneos menores, cujas paredes se tornam mais permeáveis a certos compostos químicos. Isso resulta na cor avermelhada típica da área afetada. A histamina também estimula as terminações nervosas, cujo efeito é a coceira. A terapia da CI/BPS é frequentemente complementada com substâncias anti-histamínicas - certos tipos de medicamentos que antagonizam a histamina.
 
 
-      **Hunner Lesion (Hunner Ulcer)** – In case of the 10–30% of the IC/BPS patients, characteristic lesions can be observed on the bladder wall. In the past they used the term as a synonym of IC/BPS, because this form of the disease was discovered earlier (by Guy Hunner, in 1915). In fact, in case of most of the IC/BPS patients there are no Hunner lesions. The term “Hunner Ulcer”, which used to be the old name of the phenomenon, is misleading, because there are no ulcers present at all. (Ulcerative IC used to be a term that referred to this form of IC/BPS.)
+      **Lesão de Hunner (Úlcera de Hunner)** – No caso de 10-30% dos pacientes com CI/BPS, podem ser observadas lesões características na parede da bexiga. No passado, eles usavam o termo como sinónimo da CI/BPS, uma vez que essa forma da doença foi descoberta antes (por Guy Hunner, em 1915). Na verdade, no caso da maioria dos pacientes com CI/BPS, não há lesões de Hunner. O termo “Úlcera de Hunner”, que era o antigo nome do fenómeno, é enganoso, uma vez que não há presença de úlceras. (CI ulcerativa costumava ser um termo que se referia a esta forma de CI/BPS.)
 
 
-      **Hyaluronic Acid** – A polysaccharide molecule. It is regularly used for treating joint problems and skin regeneration. Several cosmetics contain hyaluronic acid, too. In the treatment of IC/BPS it is one of the GAG-layer replenishers.
+      **Ácido hialurónico** – Uma molécula de polissacarídeo. É regularmente utilizado no tratamento de problemas articulares e regeneração da pele. Vários cosméticos também contêm ácido hialurónico. No tratamento da CI/BPS, é um dos reforçadores da camada GAG.
 
 
-      **Hydrodistension** – High pressure cystoscopy. During this process the bladder is being filled up with water; while the cystoscopy is performed the water pressure is being lessened gradually so that the alterations of the bladder mucosa can be examined. It is an effective method for identifying certain typical forms of bleeding which are often present in IC/BPS patients. It is performed in anesthesia. Hydrodistension used to be a common therapeutical tool; currently it is mostly used for diagnostic purposes.
+      **Hidrodistensão** – Cistoscopia de alta pressão. Durante esse processo, a bexiga está a ser preenchida com água; enquanto a cistoscopia é realizada, a pressão da água vai sendo diminuída gradativamente para que as alterações da mucosa vesical possam ser examinadas. É um método eficaz para identificar certas formas típicas de sangramento que costumam estar presentes em pacientes com C  BPS. Realiza-se em anestesia. A hidrodistensão costumava ser uma ferramenta terapêutica comum; atualmente é usada principalmente para fins de diagnóstico.
 
 
-      **Hydroxyzine** – See Antihistamines
+      **Hidroxizina** – Veja anti-histamínicos
 
 
-      **Hypersensitive Bladder (HSB)** – See IC/BPS
+      **Bexiga hipersensível (HSB)** – Veja CI/BPS
 
 
-      **IC/BPS, Interstitial Cystitis, Bladder Pain Syndrome** – A condition of urinary symptoms and severe pain. Its etiology is not known, diagnosing it is complicated. According to our current knowledge, there is no permanent cure for IC/BPS, but with an effective treatment, patients can be symptom-free for long years. The naming of the disease in the scientific literature is confusing. In Europe, it’s usually called Interstitial Cystitis (IC). In America, it’s mostly known as Bladder Pain Syndrome. In the Far East, the condition is often called Hypersensitive Bladder (HBS), sometimes they refer to certain types of it with the term. In fact, neither the name nor the definition of the disease is standardized, which often leads to confusion. Most articles use the Interstitial Cystitis/Bladder Pain Syndrome (or shortly IC/BPS) expression (even if both names may be used as an “umbrella term”, or one may be considered a sub-type of the other one.)
+      **CI/BPS, cistite intersticial, síndrome da dor na bexiga** – Uma condição de sintomas urinários e dor intensa. A sua etiologia é desconhecida, o diagnóstico é complicado. De acordo com o nosso conhecimento atual, não existe cura definitiva para CI/BPS, mas com um tratamento eficaz, os pacientes podem ficar sem sintomas por longos anos. A denominação da doença na literatura científica é confusa. Na Europa, é geralmente chamada de Cistite Intersticial (CI). Na América, é mais conhecido como Síndrome da Dor na Bexiga. No Extremo Oriente, a condição é frequentemente chamada de Bexiga Hipersensível (HBS), às vezes eles referem-se a certos tipos com o termo. Na verdade, nem o nome nem a definição da doença são padronizados, o que muitas vezes leva à confusão. A maioria dos artigos usa a expressão Cistite Intersticial/Síndrome de Dor na Bexiga (ou de forma abreviada CI/BPS) (mesmo que ambos os nomes possam ser usados como um "termo genérico", ou um possa ser considerado um subtipo do outro.)
 
 
-      **Incontinence** – The lack of control over urination. Most IC/BPS patients don’t suffer from incontinence.
+      **Incontinência** – A falta de controlo sobre a micção. A maioria dos pacientes CI/BPS não sofre de incontinência.
 
 
-      **Instillation** – Delivering a substance directly into the bladder. It can be performed with or without a catheter, too.
+      **Instilação** – Distribuir uma substância diretamente na bexiga. Também pode ser realizado com ou sem cateter.
 
 
-      **Interstitial Cystitis** – See IC/BPS.
+      **Cistite intersticial** – Veja CI/BPS.
 
 
-      **Invasive** – In the medical practice the term refers to technics or devices that intrude the body or a cavity of it. In a wider context, it refers to the grade of this “introduction”. Using a catheter, for example, is more invasive than oral medication, but less invasive than performing a surgery.
+      **Invasivo** – Na prática médica, o termo refere-se a técnicas ou dispositivos que invadem o corpo ou uma cavidade do mesmo. Num contexto mais amplo, refere-se à nota dessa “introdução”. Usar um cateter, por exemplo, é mais invasivo do que medicação oral, mas menos invasivo do que realizar uma cirurgia.
 
 
-      **Irritable Bowel Syndrome (IBS)** – A disease of the stomach and/or the bowels, its usual symptoms are abdominal pain and defecation disorders. No alteration of the affected organs can be observed. In case of IC/BPS patients the risk of developing IBS is higher.
+      **Síndrome do intestino irritável (SII)** – Uma doença do estômago e/ou intestinos, os seus sintomas usuais são dor abdominal e distúrbios de defecação. Não se pode observar nenhuma alteração dos órgãos afetados. No caso de pacientes com CI/BPS, o risco de desenvolver SII é maior.
 
 
-      **Lidocaine (Lignocaine)** – A local analgesic widely used in the therapy of IC/BPS, too.
+      **Lidocaína (Lignocaína)** – Um analgésico local amplamente utilizado também na terapia da CI/BPS.
 
 
-      **Local Therapy** – Treating directly the affected organ or area. In the field of IC/BPS, it primarily refers to bladder instillation.
+      **Terapia local** – Tratar diretamente o órgão ou área afetada. No campo da CI/BPS, refere-se principalmente à instilação na bexiga.
 
 
-      **Lovász Questionnaire** – One of the questionnaires used for diagnosing IC/BPS. It surveys the level and frequency of bladder pain.
+      **Questionário Lovász** – Um dos questionários utilizados para o diagnóstico da CI/BPS. Examina o nível e a frequência da dor na bexiga.
 
 
-      **Lupus** – In its scientific name Systemic Lupus Erythematosus (SLE); a chronic autoimmune disease; inflammations develop in the effected organs. It may be a comorbidity of IC/BPS.
+      **Lupus** – O seu nome científico é Lúpus Eritematoso Sistêmico (LES); uma doença autoimune crónica; inflamações desenvolvem-se nos órgãos afetados. Pode ser uma comorbidade da CI/BPS.
 
 
-      **Malignant** – In the term of medicine it refers to tumorous transformations that may lead to a life-threatening condition without a proper treatment.
+      **Maligno** – No termo da medicina, refere-se a transformações tumorais que podem levar a uma condição com risco de vida sem um tratamento adequado.
 
 
-      **Malignoma** – A general term for malignant transformations of epithelial origin.
+      **Malignoma** – Um termo geral para transformações malignas de origem epitelial.
 
 
-      **Marker** – In the field of diagnostics it refers to substances, molecules, cells etc. whose presence is/are a typical sign of a certain disease or condition. IC/BPS has no known marker.
+      **Marcador** – No campo do diagnóstico, refere-se a substâncias, moléculas, células, etc. cuja presença é/são um sinal típico de uma determinada doença ou patologia. A CI/BPS não tem um marcador conhecido.
 
 
-      **Mast Cell** – A common type of cells in the immune system. Its size is relatively big. Mast cells have a key role in inflammatory and allergic processes, they produce several kind of transmitter molecules, including histamine (see there). Large amount of mast cells can be present in the connective tissues, e.g. around the blood vessels. In the condition of IC/BPS an increased amount of mast cells can be observed.
+      **Mastócito** – Um tipo comum de células no sistema imunológico. O seu tamanho é relativamente grande. Os mastócitos desempenham um papel fundamental nos processos inflamatórios e alérgicos, uma vez que produzem vários tipos de moléculas transmissoras, inclusive a histamina (veja lá). Uma grande quantidade de mastócitos pode estar presente nos tecidos conjuntivos, por ex. ao redor dos vasos sanguíneos. No caso da doença CI/BPS, pode observar-se um aumento da quantidade de mastócitos.
 
 
-      **Nocturia** – The condition in which the patient has to wake up during the night to void. If nocturia occurs frequently, and two or more times a night, that may be a sign of IC/BPS. In sever cases the patient has to void in every 20–30 minutes.
+      **Noctúria** – Uma condição em que o paciente precisa acordar durante a noite para urinar. Se a noctúria ocorrer com frequência, e duas ou mais vezes por noite, pode ser um sinal de CI/BPS. Em casos graves, o paciente deve urinar a cada 20-30 minutos.
 
 
-      **Non-Steroids** (Non-Steroidal Anti-Inflammatory Drugs, NSAID) – Anti-inflammatory agents with a similar effect but a different mechanism of action to Corticosteroids (see there). NSAIDs are widely used in the oral therapy of IC/BPS.
+      **Não esteróides** (Medicamentos antiinflamatórios não esteroidais, AINE) – Agentes antiinflamatórios com efeito semelhante, mas mecanismo de ação diferente dos corticosteróides (veja lá). Os AINEs são amplamente utilizados na terapia oral da CI/BPS.
 
 
-      **O’Leary–Sant Questionnaire** – A questionnaire used for diagnosing IC/BPS. It surveys the voiding habits, the level and the frequency of bladder pain. It consists of two parts: IC Symptom Index (ICSI) and IC Problem Index (ICPI). Sometimes they evaluate these parts separately.
+      **Questionário O’Leary–Sant** – Um questionário usado para diagnosticar CI/BPS. Examina os hábitos de micção, o nível e a frequência da dor na bexiga. Consiste em duas partes: Índice de Sintoma CI (ICSI) e Índice de Problema CI (ICPI). Às vezes, eles avaliam essas peças separadamente.
 
 
-      **Onabotulinumtoxin A** a.k.a. **Botox** – In the treatment it is injected into the muscles nearby or the mucosa to mitigate the symptoms. It is an experimental method, whose efficiency hasn’t been confirmed.
+      **Onabotulinumtoxin A** também conhecido como **Botox** – Durante o tratamento, é injetado nos músculos próximos ou na mucosa para atenuar os sintomas. É um método experimental, cuja eficiência não foi comprovada.
 
 
-      **Oral Therapy** – Administrating medicine orally for treating a disease or condition.
+      **Terapia oral** – Administração de medicamentos por via oral para o tratamento de uma doença ou condição.
 
 
-      **Overactive Bladder Syndrome (OAB)** – A condition of urinary urgency, in most cases with increased urinary frequency and nocturia; incontinence may occur, too. OAB is not clearly defined in the scientific literature. Some of the symptoms are the same as those of IC/BPS. However, incontinence is a relatively common symptom of OAB but pain rarely occurs, whereas in case of IC/BPS the situation is the opposite.
+      **Síndrome da bexiga hiperativa (OAB)** – Uma condição de urgência urinária, na maioria dos casos com aumento da frequência urinária e noctúria; também pode ocorrer incontinência. A OAB não está claramente definida na literatura científica. Alguns dos sintomas são iguais aos da CI/BPS. No entanto, a incontinência é um sintoma relativamente comum da OAB, mas raramente há dor, enquanto no caso da CI/BPS a situação é contrária.
 
 
-      **Parsons-Test** – One of the methods of diagnosing IC/BPS. They fill up the bladder with potassium salts; the increasing pain refers to the damaged or deficient status of the bladder mucosa. Currently, it is not a recommended method of diagnosis, because it is painful and not very reliable.
+      **Teste Parsons** – Um dos métodos de diagnóstico da CI/BPS. Enchem a bexiga com sais de potássio; o aumento da dor refere-se ao estado danificado ou deficiente da mucosa da bexiga. Atualmente, não é um método de diagnóstico recomendado, porque é doloroso e pouco confiável.
 
 
-      **Pentosan Polysulfate Sodium** (PPS, Elmiron, SP 54, Comfora, Jelmiron) – One of the agents used in the therapy of IC/BPS. Several products available in different countries (see the brackets) contain this compound; Elmiron is the only medicine in the USA with an FDA-approval for the oral treatment of IC/BPS. Patients usually start to respond to PPS after about 6 months of therapy, and side-effects may occur, too. There have been attempts to use PPS for bladder instillation, as well.
+      **Pentosan polissulfato de sódio** (PPS, Elmiron, SP 54, Comfora, Jelmiron) – Um dos agentes usados na terapia da CI/BPS. Vários produtos disponíveis em diferentes países (veja os colchetes) contêm este composto; Elmiron é o único medicamento nos EUA com aprovação do FDA para o tratamento oral da CI/BPS. Os pacientes geralmente começam a responder ao PPS depois de cerca de 6 meses de terapia e também pode haver efeitos colaterais. Houve tentativas de usar PPS também para a instilação da bexiga.
 
 
-      **Placebo** – A substance (e.g. pill, liquid etc.) which cannot be distinguished from a certain medicine (e.g. it looks like the same), but contains no active agents. In clinical trials one group of the patients usually get the “real” medicine (whose effect is examined), whereas the other group receives placebo. The patients don’t know whether they got the medicine or the placebo. It can be evaluated how the condition of those who got the medicine has changed, compared to those who got the placebo, so that it can be learnt how effective the medicine actually is.
+      **Placebo** – Uma substância (por exemplo, pílula, líquido, etc.) que não pode ser distinguida de um determinado medicamento (por exemplo, tem o mesmo aspecto), mas não contém agentes ativos. Em ensaios clínicos, um grupo de pacientes geralmente recebe o medicamento “verdadeiro” (cujo efeito é examinado), enquanto o outro grupo recebe placebo. Os pacientes não sabem se receberam o medicamento ou o placebo. Pode-se avaliar como a condição de quem recebeu o medicamento mudou, em comparação com aqueles que receberam o placebo, para que se possa aprender o quão eficaz o medicamento realmente é.
 
 
-      **Potassium** – A chemical element, in the medical terminology they often refer to its salts with the word. The potassium present in the urine is highly irritative – and causes pain – in case of a damaged GAG-layer.
+      **Potássio** – Um elemento químico, na terminologia médica costumam fazer referência aos seus sais com esta palavra. O potássio presente na urina é altamente irritativo - e causa dor - no caso de uma camada GAG danificada.
 
 
-      **Potassium Test** – See Parsons-test.
+      **Teste de potássio** – Veja teste Parsons.
 
 
-      **Prolapsus Uteri** – See Uterine Prolapse
+      **Prolapsus Uteri** – Veja prolapso uterino.
 
 
-      **Prostatitis** – The inflammation of the prostate gland.
+      **Prostatite** – A inflamação da glândula de próstata.
 
+       **Exame qualitativo** – Um exame cujo objetivo é detectar a presença de algo (por exemplo, um patógeno ou uma molécula), mas não detecta a quantidade do mesmo.
 
-      **Qualitative Examination** – An examination whose goal is to detect the presence of something (e.g. a pathogen or a molecule), but it doesn’t detect its quantity.
+      **Exame quantitativo** – Um exame cujo objetivo é detectar a presença e a quantidade de algo (por exemplo, um patógeno ou uma molécula).
 
 
-      **Quantitative Examination** – An examination whose goal is to detect both the presence and the quantity of something (e.g. a pathogen or a molecule).
+      **Cistite por radiação (RC)** – A inflamação da bexiga causada pela radioterapia da bexiga. É uma condição pós-cancro.
 
 
-      **Radiation Cystitis (RC)** – The inflammation of the bladder caused by the radiation therapy of the bladder. It is a post-cancer condition.
+      **rUTI, Informações recorrentes do trato urinário** – Veja infecção do trato urinário
 
 
-      **rUTI, Recurring Urinary Tract Information** – See Urinary Tract Infection  
+      **Neuromodulação sacral (SNM)**, também conhecida como **Estimulação do Nervo Sacral** – Um tratamento em que o nervo sacral (situado entre a medula espinhal e a bexiga) é estimulado para amenizar a dor e a urgência miccional. Os resultados dos ensaios clínicos relativos à neuromodulação sacral são controversos.
 
 
-      **Sacral Neuromodulation (SNM)**, a.k.a. **Sacral Nerve Stimulation** – A treatment in which the sacral nerve (situated between the spinal cord and the bladder) is being stimulated to mitigate the pain and the voiding urgency. The results of the clinical trials regarding sacral neuromodulation are controversial.
+      **Síndrome Sjögren** – Uma doença autoimune em que as glândulas lacrimais e salivares são afetadas. Pode ser uma comorbidade da CI/BPS.
 
 
-      **Sjögren Syndrome** – An autoimmune disease in which the lachrymal and the salivary glands are affected. It may be a comorbidity of IC/BPS.
+      **Bicarbonato de Sódio** – Veja Bicarbonatos
 
 
-      **Sodium Bicarbonate** – See Bicarbonates
+      **SP 54** – Veja Pentosan polissulfato de sódio
 
 
-      **SP 54** – See Pentosan Polysulfate Sodium
+      **Inflamação Estéril** – Qualquer inflamação que se desenvolve não por causa de um patógeno (por exemplo, uma bactéria).
 
 
-      **Sterile Inflammation** – Any inflammation which develops not because of a pathogen (e.g. a bacterium).
+      **Substância P** – Um dos neurotransmissores (moléculas de função de um mensageiro no sistema nervoso). A substância P desempenha um papel fundamental nos processos inflamatórios e no aumento da dor no caso de pacientes com CI/BPS.
 
 
-      **Substance P** – One of the neurotransmitters (molecules of a messenger function in the nerveous system). Substance P plays a key role in inflammatory processes, and in increasing the pain in case of IC/BPS patients.
+      **Estimulação Elétrica Nervosa Transcutânea (TENS)** – Um processo para o alívio da dor; os nervos da dor estão a ser estimulados com eletricidade para mitigar a dor. No entanto, não afeta a própria condição que causa a dor.
 
 
-      **Transcutaneous Electrical Nerve Stimulation (TENS)** – A process for pain relief; the pain nerves are being stimulated with electricity to mitigate the pain. It doesn’t affect the condition itself which causes the pain, though.
+      **Diário de micção de dois dias** – Veja Teste de integridade da camada GAG.
 
 
-      **Two-Day Voiding Diary** – See GAG-Layer Integrity Test.
+      **Uretrite** – Um termo geral para qualquer forma de inflamação da uretra. No caso da CI/BPS, a uretra também costuma ser afetada.
 
 
-      **Urethritis** – A general term for any form of the inflammation of the urethra. In case of IC/BPS, the urethra is often affected, too.
+      **Infecção do trato urinário (ITU)** – Uma infecção causada por qualquer patógeno (bactérias, na maioria dos casos) e em que a uretra, a bexiga e - na pior das hipóteses - os rins são afetados. Os sintomas podem ser semelhantes aos da CI/BPS, mas também podem ser assintomáticos. Ocasionalmente, a camada GAG pode ser danificada também, mas normalmente está a ser regenerada depois do combate à infecção. A prática médica concentra-se principalmente na profilaxia; o próprio tratamento, na maioria dos casos, consiste na administração de agentes eficazes contra o patógeno (por exemplo, antibióticos). A infecção recorrente do trato urinário (ITUr) é uma condição de duas ou mais infecções comprovadas em 6 meses, ou 3 ou mais infecções em 12 meses. As ITUs estão entre as doenças mais comuns.
 
 
-      **Urinary Tract Infection (UTI)** – An infection caused by any pathogen (bacteria, in most cases) and in which the urethra, the bladder, and – in worst case – the kidneys are affected. The symptoms may be similar to those of IC/BPS, but it can be symptomless, as well. Occasionally, the GAG-layer might become damaged, too, but it is being regenerated after fighting of the infection, normally. The medical practice focuses primarily on prophylaxis; the treatment itself, in most cases, consists of administering agents effective against the pathogen (e.g. antibiotics). Recurrent Urinary Tract Infection (rUTI), is a condition of two or more proven infections in 6 months, or 3 or more infections in 12 months. UTIs are amongst the most common diseases.
+      **Citologia da urina** – O exame das células presentes na urina. O seu objetivo principal é detectar se a causa dos sintomas é uma espécie de transformação maligna.
 
 
-      **Urine Cytology** – The examination of the cells present in the urine. Its primary goal is to detect whether the cause of the symptoms is a sort of malignant transformation.
+      **Porção de Urina** – A quantidade (volume) de urina produzida durante uma única ocasião de micção. De modo geral, as porções de urina são menores no caso de pacientes com CI/BPS do que em pessoas saudáveis.
 
 
-      **Urine Portion** – The amount (volume) of urine produced during a single voiding occasion. Generally said, urine portions are smaller in case of IC/BPS patients than those of healthy people.
+      **Retenção de urina** – Depois da micção, ainda resta alguma urina na bexiga. Pode ocorrer no caso de pacientes com CI/BPS.
 
 
-      **Urine Retention** – After voiding there is still some urine remaining in the bladder. It may occur in case of IC/BPS patients.
+      **Urodinâmica** também conhecida como **Teste Urodinâmico** – Um processo complicado de monitorizar a pressão na bexiga para avaliar a capacidade da bexiga, o fluxo de urina, a resistência da uretra e outros parâmetros. Não se aplica aos diagnósticos de CI/BPS, uma vez que não fornece informações suficientes. Por outro lado, usa-se para descobrir a causa da incontinência.
 
 
-      **Urodynamics** a.k.a. **Urodynamic Testing** – A complicated process to monitor the pressure in the bladder to evaluate the bladder capacity, the urine flow, the resistance of the urethra and other parameters. It is not applied in the diagnoses of IC/BPS, because it doesn’t provide enough information. On the other hand, it is used for discovering the cause of incontinence.
+      **Urotélio** – Uma forma especial de epitélio que se pode encontrar na superfície interna da bexiga.
 
 
-      **Urothelium** – A special form of epithelium which can be found at the inner surface of the bladder.
+      **Prolapso Uterino (Prolapsus Uteri)** – O útero desce em direção ou mesmo através da abertura da vagina.
 
 
-      **Uterine Prolapse (Prolapsus Uteri)** – The uterus descends towards or even through the opening of the vagina.
+      **Vaginite** – A inflamação da vagina.
 
 
-      **Vaginitis** – The inflammation of the vagina.
+      **Escala VAS** – Escala Visual Analógica de Dor; um método amplamente conhecido para estimar a quantidade de dor. O próprio paciente determina a dor que sente e atribui um número de 1 a 10 à sensação. A desvantagem desse método é que pessoas diferentes geralmente têm opiniões diferentes sobre a intensidade da dor.
 
 
-      **VAS Scale** – Visual Analogue pain Scale; a widely known method for estimating the amount of pain. The patient himself/herself determines the pain they experience and assign a number between 1–10 to the sensation. The drawback of this method is that different people usually have different opinion on the severeness of pain.
+      **Refluxo vesico-ureteral** – Uma condição patológica em que a urina flui de volta da bexiga para os ureteres e para os rins, danificando gravemente os últimos órgãos.
 
 
-      **Vesicoureteral Reflux** – A pathological condition in which the urine flows back from the bladder to the ureters, and to the kidneys, severely damaging the latter organs.
-
-
-      **Vulvodynia** – Vaginal pain. IC/BPS patients can experience it more often than those who don’t suffer from this condition.
+      **Vulvodínia** – Dor vaginal. Pacientes com CI/BPS podem experimentá-la com mais frequência do que aqueles que não sofrem desta doença.
 ---

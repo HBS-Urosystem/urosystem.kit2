@@ -26,7 +26,7 @@ components:
       * Email address
 
 
-       3. What sort of other Data is being controlled?
+      3. What sort of other Data is being controlled?
 
 
       Data detailed under point 2.; data concerning purchasing, delivering and refunding products, which may be transferred to third parties elaborated under point 8.
