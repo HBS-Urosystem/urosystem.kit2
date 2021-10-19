@@ -10,10 +10,9 @@ components:
       húgyutakat érintő megbetegedések intravezikális kezelését.  Legyen az
       alkalmazott helyi terápia hatékonyabb, kényelmesebb, olcsóbb és kevésbé
       fájdalmas!
-    text: A Urosystem Zrt. D&B Failure Score AAA tanúsítvánnyal rendelkezik, amely
-      azt jelzi, hogy a céggel való üzleti kapcsolat kialakításának pénzügyi
-      kockázata alacsony. E tanúsítvánnyal ([itt
-      letölthető](https://b5efb735-1821-4c29-9f94-ce6ef8d3260d.filesusr.com/ugd/899d64_0684d8e56d9e4a01a0f8be7e8308b60d.pdf))
-      a magyar cégeknek csak a 0,63%-a rendelkezik.
+    text: >-
+      A Urosystem Zrt. D&B Failure Score AAA tanúsítvánnyal rendelkezik, amely azt jelzi, hogy a céggel való üzleti kapcsolat kialakításának pénzügyi kockázata alacsony. E tanúsítvánnyal a magyar cégeknek csak a 0,63%-a rendelkezik.
+
+      <center><a href="https://www.dnb.com/hu-hu/szolgaltatasok/bisnode-tanusitvany" rel="_noopener" target="_blank"><img loading="lazy" src="https://certificate.hungary.dnb.com/getimage?cid=5291630&lang=hu&typ=l&bg=FFFFFF&fg=000000" alt="Dun & Bradstreet tanusitvany" style="border:1px solid #CCCCCC" oncontextmenu="return false" title=" A Dun &amp; Bradstreet tanúsítvánnyal rendelkező cégekkel az üzletkötés kockázata alacsony. A minősítés a 100 éves nemzetközi tapasztalattal rendelkező, több száz változót figyelembe vevő Dun &amp; Bradstreet minősítési rendszeren alapul. A tanúsítvány az aktuális állapotot jelzi, és naponta frissül.   " /> </a></center>
     anchor: about
 ---

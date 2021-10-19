@@ -12,9 +12,10 @@ components:
       enfermedades del tracto urinario inferior.   Nuestro objetivo es hacer que
       las terapias tópicas aplicadas sean más efectivas, menos dolorosas, más
       cómodas y más baratas.
-    text: Urosystem Zrt. está D&B Failure Score AAA certificado, lo que indica que
+    text: >-
+      Urosystem Zrt. está D&B Failure Score AAA certificado, lo que indica que
       el riesgo financiero de establecer una relación comercial con la empresa
-      es bajo. Solo el 0,63% de las empresas húngaras tienen este certificado
-      ([descargable
-      aquí](https://b5efb735-1821-4c29-9f94-ce6ef8d3260d.filesusr.com/ugd/899d64_0684d8e56d9e4a01a0f8be7e8308b60d.pdf)).
+      es bajo. Solo el 0,63% de las empresas húngaras tienen este certificado.
+
+      <center><a href="https://www.dnb.com/hu-hu/szolgaltatasok/bisnode-tanusitvany" rel="_noopener" target="_blank"><img loading="lazy" src="https://certificate.hungary.dnb.com/getimage?cid=5291630&lang=en&typ=l&bg=FFFFFF&fg=000000" alt="Dun & Bradstreet tanusitvany" style="border:1px solid #CCCCCC" oncontextmenu="return false" title="  The risk of business transactions with companies that possess a Dun &amp; Bradstreet Certificate is low. The rating is based on the Dun &amp; Bradstreet rating system which combines one hundred years of international experience and considers hundreds of variables. The Dun &amp; Bradstreet Certificate indicates the current status of the company which is updated daily.  " /> </a></center>
 ---
