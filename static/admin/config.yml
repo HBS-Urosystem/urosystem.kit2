@@ -1391,6 +1391,11 @@ collections:
                 widget: boolean
                 default: false
                 required: false
+              - label: Cookie
+                name: cokie
+                widget: boolean
+                default: false
+                required: false
               - label: Name
                 name: name
                 widget: string

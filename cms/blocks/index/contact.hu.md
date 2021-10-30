@@ -29,5 +29,6 @@ components:
     title: Kapcsolat
     anchor: contact
     action: /thankyou
+    netlify: true
     name: contact
 ---
