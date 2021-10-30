@@ -144,7 +144,7 @@ components:
       - title: UroDapter® – Benutzerhandbuch
         url: uploads/Urodapter_user_guide_20201112_8.180_DE.pdf
       - title: UroDapter® Tips & Tricks
-        url: uploads/Using_UroDapter_Tips_and_Tricks_v4.pdf
+        url: uploads/Using_UroDapter_Tips_and_Tricks.pdf
       - title: UroStill® & UroDapter® Flyer
         url: uploads/UroDapter_UroStill_Flyer_EN_vr3.pdf
       - title: IBSA iAluadapter®/UroDapter® user manual

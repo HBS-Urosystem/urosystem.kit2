@@ -121,7 +121,7 @@ components:
       - title: UroDapter® 사용자 설명서
         url: uploads/UroDapter_Users_Manual.pdf
       - title: UroDapter® 팁 & 트릭
-        url: uploads/Using_UroDapter_Tips_and_Tricks_v4.pdf
+        url: uploads/Using_UroDapter_Tips_and_Tricks.pdf
       - title: UroStill® & UroDapter® 전단
         url: uploads/UroDapter_UroStill_Flyer_EN_vr3.pdf
       - title: IBSA iAluadapter®/UroDapter® 사용자 설명서

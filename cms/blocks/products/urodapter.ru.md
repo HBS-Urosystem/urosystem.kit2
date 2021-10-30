@@ -144,7 +144,7 @@ components:
       - title: Руководство пользователя
         url: uploads/Urodapter_user_guide_20201112_RU_edited_by_Mirkin.pdf
       - title: UroDapter® Tips & Tricks
-        url: uploads/Using_UroDapter_Tips_and_Tricks_v4.pdf
+        url: uploads/Using_UroDapter_Tips_and_Tricks.pdf
       - title: UroDapter® Flyer
         url: uploads/brochure-urodapter-ru.jpg
       - title: IBSA iAluadapter®/UroDapter® user manual

@@ -14,6 +14,7 @@ menutitle: UroSystem
 hero: index/hero
 blocks:
   - id: index/how-urod-works
+  - id: index/refs
   - id: index/videos
   - id: index/indications
   - id: index/contact
