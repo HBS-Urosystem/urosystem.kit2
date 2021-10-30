@@ -5,7 +5,7 @@ fallback: ""
 components:
   - type: form
     netlify: true
-    action: "#content"
+    action: "/pro#content"
     title: The UroDapter® long and short
     subhead: To access our exclusive medical content about UroDapter®, please fill in the form.
     name: ProfessionalsGateway

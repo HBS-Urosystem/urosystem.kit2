@@ -5,7 +5,9 @@
 export let comp
 function _cookie(name) {
   $gateway[name] = true
-  
+  const myform = document.getElementsByName(name)
+  //console.log(myform[0])
+  myform[0].submit()
 }
 //$: console.log($gateway)
 </script>
