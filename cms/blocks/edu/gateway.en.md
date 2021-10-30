@@ -9,7 +9,7 @@ components:
     action: "/pro#content"
     title: The UroDapter® long and short
     subhead: To access our exclusive medical content about UroDapter®, please fill in the form.
-    name: ProfessionalsGateway
+    name: Gateway
     text: >-
       <fieldset>
         <label>Name <input type="text" name="name" required /></label>   
