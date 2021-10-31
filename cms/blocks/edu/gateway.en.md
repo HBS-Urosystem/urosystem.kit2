@@ -6,10 +6,11 @@ components:
   - type: form
     netlify: true
     cookie: true
-    action: "/pro#content"
+    action: ""
+    maction: "/pro#content"
     title: The UroDapter® long and short
     subhead: To access our exclusive medical content about UroDapter®, please fill in the form.
-    name: Gateway
+    name: ProfessionalsGateway
     text: >-
       <fieldset>
         <label>Name <input type="text" name="name" required /></label>   

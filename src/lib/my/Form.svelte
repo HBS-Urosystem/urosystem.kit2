@@ -15,14 +15,16 @@ function _submit(e) {
 
 <!--{#if !$gateway[comp.name]}-->
 <article hidden={!!$gateway[comp.name]} id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
-  {#if comp.title}<h2>{comp.title}</h2>{/if}
-  {#if comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
+  {#if !!comp.title}<h2>{comp.title}</h2>{/if}
+  {#if !!comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
   <div>
     <!--<a href="/{comp.lang}{comp.action}" hidden aria-hidden="true">{!!comp.netlify} {comp.name}</a>-->
-    <form name="{comp.name}" method="POST" action="/{comp.lang}{comp.action}" on:submit|capture="{_submit}">
+    <form name="{comp.name}" method="POST" action={comp.action ? '/' + comp.lang + comp.action : null}>
       <input type="hidden" name="form-name" value="{comp.name}">
-      {#if comp.text}{@html comp.text}{/if}
+      {#if !!comp.text}{@html comp.text}{/if}
+      {#if !!comp.action}
       <a href="/{comp.lang}{comp.action}" hidden aria-hidden="true">{comp.name}</a>
+      {/if}
     </form>
   </div>
 </article>
