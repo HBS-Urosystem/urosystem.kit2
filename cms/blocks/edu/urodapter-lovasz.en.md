@@ -7,7 +7,7 @@ components:
   - type: article
     title: The UroDapter® long and short
     subhead: ""
-    anchor: content
+    anchor: video
     components:
       - type: video
         source: local
