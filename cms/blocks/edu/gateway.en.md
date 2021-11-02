@@ -6,7 +6,7 @@ components:
   - type: form
     netlify: true
     cookie: true
-    action: ""
+    action: "/thankyou"
     noaction: "/pro#content"
     title: The UroDapter® long and short
     subhead: To access our exclusive medical content about UroDapter®, please fill in the form.
