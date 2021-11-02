@@ -5,7 +5,7 @@
 
   import { onMount } from 'svelte'
   import { goto/*, invalidate, prefetch, prefetchRoutes*/ } from '$app/navigation'
-  import { sitelang, cookies, state } from '$lib/stores'
+  import { sitelang, cookies } from '$lib/stores'
   import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
   /*export const load = async ({ page }) => {
     console.log('page',{...page})
@@ -88,13 +88,6 @@
   <p>Welcome! The website is loading…</p>
   <noscript><p><a href="/en">NO JAVASCRIPT… Click here to load the website</a></p></noscript>
 </main>
-
-{#each $state.langs || [] as lang}
-<a hidden rel="alternate" href="https://www.urosystem.com/{lang.id}" hreflang="{lang.id}">
-  {lang.id}
-</a>
-{/each}
-
 
 <style>
   main {
