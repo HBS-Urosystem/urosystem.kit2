@@ -1,5 +1,5 @@
 <script context="module">
-  import { gateway, state } from '$lib/stores'
+  import { gateway } from '$lib/stores'
 </script>
 <script>
 export let comp
@@ -10,7 +10,7 @@ function _submit(e) {
   //console.log(myform[0])
   //myform[0].submit()
 }
-$: console.log($state.post.path, $state.post.subpage?.path)
+//$: console.log($state.post.path, $state.post.subpage?.path)
 </script>
 
 <!--{#if !$gateway[comp.name]}-->
