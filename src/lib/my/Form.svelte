@@ -18,7 +18,7 @@ $: console.log($state.post.path, $state.post.subpage?.path)
   {#if !!comp.title}<h2>{comp.title}</h2>{/if}
   {#if !!comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
   <div>
-    <form name="{comp.name}" method="POST" action={!!comp.action ? '/' + comp.lang + comp.action : '/' + comp.lang + '/' + (!!$state.post.subpage && $state.post.subpage.slug !== '.') ? $state.post.subpage?.path || '' : ($state.post.path || '')+ '#content'} on:submit="{_submit}">
+    <form name="{comp.name}" method="POST" action={!!comp.action ? '/' + comp.lang + comp.action : '#content'} on:submit="{_submit}">
       <input type="hidden" name="form-name" value="{comp.name}">
       {#if !!comp.text}{@html comp.text}{/if}
       {#if !!comp.action}
