@@ -26,11 +26,6 @@
 
 <svelte:head>
 <!--{#if $state && !!$state.id}-->
-  {#each $state.langs || [] as lang}
-    <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
-  {/each}
-  <link rel="canonical" href="https://urosystem.com/en/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
-
   {#if $state.post.subpage}
     <title>{$state.post.subpage.title}</title>
     <meta name="description" content="{$state.post.subpage.description}">
@@ -92,9 +87,9 @@
     </header>
   {/if}
 
+  <div id="content"></div>
   {#each $state.post.blocks || [] as block}
   {#if block.published == undefined || (block.published === true || !!$gateway[block.published])}
-    <div id="content"></div>
     <div style="{block.background}">
       {#each block.components || [] as comp}
         <Components {comp}/>
@@ -104,7 +99,6 @@
   {/each}
 
   {#if $state.post.subpage}
-    <div id="content"></div>
     <div style="{$state.post.subpage.background}">
       <h2>{$state.post.subpage.title}</h2>
       {#each $state.post.subpage.blocks || [] as block}

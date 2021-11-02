@@ -61,6 +61,11 @@
 </script>
 
 <svelte:head>
+  {#each $state.langs || [] as lang}
+    <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
+  {/each}
+  <link rel="canonical" href="https://urosystem.com/en/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
+
 
   {#if !dev }
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -118,7 +123,7 @@
 <Cookies cookie={$cookies}/>
 
 {#each $state.langs || [] as lang}
-<a hidden rel="alternate" href="/{lang.id}/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">
+<a hidden aria-hidden="true" rel="alternate" href="/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">
   {lang.id}
 </a>
 {/each}
