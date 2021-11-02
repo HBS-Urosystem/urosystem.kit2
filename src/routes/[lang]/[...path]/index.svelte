@@ -1,6 +1,7 @@
 <script context="module">
-  //export const hydrate = false
+  //export const hydrate = true
   //export const prerender = true
+  //export const prerender = false
 
   import { state, snapto, gateway } from '$lib/stores'
   import Components from '$lib/Components.svelte'
@@ -25,9 +26,10 @@
 
 <svelte:head>
 <!--{#if $state && !!$state.id}-->
-  <!--{#each $state.langs || [] as lang}
+  {#each $state.langs || [] as lang}
     <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
-  {/each}-->
+  {/each}
+  <link rel="canonical" href="https://urosystem.com/en/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
 
   {#if $state.post.subpage}
     <title>{$state.post.subpage.title}</title>
