@@ -75,7 +75,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
+      <img loading="lazy" src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
 
       <figcaption>الارتباط بين متوسط كمية البول أثناء النهار والكمية الإجمالية لبول النهار ، في حالة الأشخاص الأصحاء ومرضى   IC/BPS(انظر الشكل).</figcaption>
 

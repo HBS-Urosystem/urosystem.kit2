@@ -74,7 +74,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
+      <img loading="lazy" src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
 
       <figcaption>A correlação entre a média da porção de urina diurna e a quantidade total de urina diurna, no caso de pessoas saudáveis e pacientes com CI/BPS (ver figura).</figcaption>
 

@@ -85,7 +85,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
+      <img loading="lazy" src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
 
       <figcaption>היחס בין כמות השתן הממוצעת היומית והכמות הכוללת של השתן היומי, במקרה של אנשים בריאים וחולים בדלקת משתית השלפוחית (ראה איור).</figcaption>
 

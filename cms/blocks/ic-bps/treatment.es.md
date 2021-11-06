@@ -124,7 +124,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
+      <img loading="lazy" src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
 
       <figcaption>El diagrama de flujo de diagnóstico y terapia de CI/SDV. Por 100% de la prueba de integridad de la capa de GAG debe entenderse el promedio de las porciones de orina medidas el primer día (consumo bajo de líquidos) (descrito en el capítulo Diagnóstico de CI/SDV).</figcaption>
 

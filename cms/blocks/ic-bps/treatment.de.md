@@ -127,7 +127,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
+      <img loading="lazy" src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
 
       <figcaption>Das Flussdiagramm der Diagnose und Therapie der IC/BPS. Mit 100% des GAG-Schicht-Integritätstests sollte der Mittelwert der am ersten Tag (bei geringer Flüssigkeitsaufnahme) gemessenen Urinanteile gemeint sein (beschrieben im Kapitel Diagnostik der IC/BPS)</figcaption>
 

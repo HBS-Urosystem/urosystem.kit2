@@ -73,7 +73,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
+      <img loading="lazy" src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
 
       <figcaption>건강한 사람과 IC/BPS 환자의 경우 주간 소변 부분의 평균과 주간 소변 총량 간의 상관 관계 (그림 참조).</figcaption>
 

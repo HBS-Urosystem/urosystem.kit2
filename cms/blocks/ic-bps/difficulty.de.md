@@ -75,7 +75,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
+      <img loading="lazy" src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
 
       <figcaption>Die Korrelation zwischen dem Mittelwert des Tagesurinanteils und der Gesamtmenge des Tagesurins bei Gesunden und IC/BPS-Patienten (siehe Abbildung).</figcaption>
 

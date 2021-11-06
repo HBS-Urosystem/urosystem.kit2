@@ -127,7 +127,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
+      <img loading="lazy" src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
 
       <figcaption>תרשים הזרימה הוא של האבחון והטיפול במחלת דלקת משתית השלפוחית. ב100% מבדיקות התקינות של שכבת הגלוקוזאמינוגליקן, הממוצע של כמויות השתן הנמדד ביום הראשון (צריכת נוזלים נמוכה)  אמור להיות מצויין. (מתואר בפרק על אבחון דלקת משתית השלפוחית)</figcaption>
 

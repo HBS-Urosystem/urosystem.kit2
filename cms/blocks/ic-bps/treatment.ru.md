@@ -135,7 +135,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
+      <img loading="lazy" src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
 
       <figcaption>Схема диагностики и терапии ИЦ/СБМП. Под 100% теста целостности слизистой оболочки следует понимать среднее значение порций мочи, измеренных в первый день (с низким потреблением жидкости) (описано в главе «Диагностика ИЦ/СБМП»).</figcaption>
 

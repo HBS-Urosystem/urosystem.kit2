@@ -125,7 +125,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
+      <img loading="lazy" src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
 
       <figcaption>IC/BPS 의 진단 및 치료 순서도. GAG 층 완전성 테스트의 100 %에서 첫 번째 (낮은 수분 섭취) 일에 측정 된 소변 부분의 평균을 의미해야 합니다 (IC/BPS 진단 장에 설명 됨).</figcaption>
 

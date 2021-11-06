@@ -127,7 +127,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
+      <img loading="lazy" src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
 
       <figcaption>L'organigramme du diagnostic et du traitement du CI / SVD. Par 100% du test d'intégrité de la couche GAG, la moyenne des portions d'urine mesurées le premier jour (faible apport hydrique) doit être désignée (décrite dans le chapitre Diagnostic du CI/SVD)</figcaption>
 

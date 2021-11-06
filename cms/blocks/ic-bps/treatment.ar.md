@@ -126,7 +126,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
+      <img loading="lazy" src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
 
       <figcaption>كما هو موضح ، يعتمد خط العلاج المطبق على نتائج اختبار سلامة طبقة GAG. تعتبر تغييرات نمط الحياة والنظام الغذائي والأدوية عن طريق الفم فعالة وكافية فقط في الحالات الخفيفة من IC/BPS. متابعة المريض ضرورية في هذه الحالات أيضًا ، لأنه على الرغم من العلاجات المطبقة ، لا يمكن استبعاد تدهور الحالة. (لم يتم تطبيق نظام متابعة المريض على هذا الموقع حتى الآن).</figcaption>
 

@@ -125,7 +125,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
+      <img loading="lazy" src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
 
       <figcaption>IC/BPS の診断と治療のフローチャート。GAG 層完 全性検査の 100%では、最初の(水分摂取量が少ない)日 に測定された排尿の平均値を指します (IC/BPS の診断の章に記載)。</figcaption>
 

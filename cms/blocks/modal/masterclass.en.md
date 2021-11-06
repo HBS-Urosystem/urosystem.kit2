@@ -12,7 +12,7 @@ components:
     link: https://www.masterclassinurology.com/
     anchor: masterclass
     text: >-
-      <img src="/uploads/ibsa_slider.png" alt="" aria-hidden="true" width="200"
+      <img loading="lazy" src="/uploads/ibsa_slider.png" alt="" aria-hidden="true" width="200"
       />
 
 

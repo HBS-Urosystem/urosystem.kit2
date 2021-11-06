@@ -127,7 +127,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
+      <img loading="lazy" src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
 
       <figcaption>O fluxograma de diagnóstico e terapia da CI/BPS. Por 100% do teste de integridade da camada GAG, a média das porções de urina medidas no primeiro dia (de baixa ingestão de líquidos) deve ser considerado (descrito no capítulo Diagnóstico da CI/BPS)</figcaption>
 

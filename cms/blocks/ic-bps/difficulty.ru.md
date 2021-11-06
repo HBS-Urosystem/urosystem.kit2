@@ -73,7 +73,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
+      <img loading="lazy" src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
 
       <figcaption>Корреляция между средним значением дневной порции мочи и общим количеством дневной мочи для здоровых людей и пациентов с ИЦ/СБМП (см. Рисунок).</figcaption>
 

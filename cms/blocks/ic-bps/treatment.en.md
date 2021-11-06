@@ -127,7 +127,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
+      <img loading="lazy" src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
 
       <figcaption>The flowchart of diagnosis and therapy of IC/BPS. By 100% of the GAG-layer integrity test, the mean of the urine portions measured on the first (low fluid intake) day should be meant (described in the Diagnosing IC/BPS chapter)</figcaption>
 

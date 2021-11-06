@@ -75,7 +75,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/atlagos_vizeletporciok_valtozasa.sm.jpg" srcset="/uploads/atlagos_vizeletporciok_valtozasa.jpg 2x, /uploads/atlagos_vizeletporciok_valtozasa.sm.jpg 1x" alt="Vizelési napló"/>
+      <img loading="lazy" src="/uploads/atlagos_vizeletporciok_valtozasa.sm.jpg" srcset="/uploads/atlagos_vizeletporciok_valtozasa.jpg 2x, /uploads/atlagos_vizeletporciok_valtozasa.sm.jpg 1x" alt="Vizelési napló" />
 
       <figcaption>A nappali vizeletporciók átlaga és a folyadékfogyasztás mennyisége (a vizelet koncentrációja) közti összefüggés egészséges embereknél és IC/BPS pácienseknél.</figcaption>
 

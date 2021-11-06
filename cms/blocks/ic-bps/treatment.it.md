@@ -127,7 +127,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
+      <img loading="lazy" src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
 
       <figcaption>Diagramma di flusso della diagnosi e della terapia dell’IC/BPS. Per il 100% del test dell’integrità dello strato di GAG, la media delle porzioni di urina misurate nel primo giorno (bassa assunzione di liquidi) deve essere intesa come descritto nel capitolo Diagnosi dell’IC/BPS.</figcaption>
 

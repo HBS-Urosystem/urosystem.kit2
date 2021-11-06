@@ -75,7 +75,7 @@ components:
 
       <figure>
 
-      <img src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
+      <img loading="lazy" src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
 
       <figcaption>La corrélation entre la moyenne de la portion urinaire diurne et la quantité totale d'urine diurne, dans le cas de personnes en bonne santé et de patients CI/SVD (voir figure).</figcaption>
 
