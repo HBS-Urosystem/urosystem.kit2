@@ -228,6 +228,8 @@
       />
     {/each}
   {/if}
+  <!-- PayPal Logo --><table border="0" cellpadding="10" cellspacing="0" align="center"><tr><td align="center"></td></tr><tr><td align="center"><a href="https://www.paypal.com/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/logo-center/9_bdg_secured_by_pp_2line.png" border="0" alt="Secured by PayPal" width="148" height="48"></a></td></tr></table><!-- PayPal Logo -->
+
 </aside>
 
 <style>
@@ -237,5 +239,9 @@
   div {
     text-align: center;
     margin-bottom: 1em;
+  }
+  table {
+    margin-top: 2rem;
+    margin-inline: auto;
   }
 </style>
