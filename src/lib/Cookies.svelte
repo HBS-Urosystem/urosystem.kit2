@@ -51,7 +51,7 @@
 		text-align: center;
 		/*z-index: 1;*/
 		padding-block: 0;
-		padding-inline-start: 1rem;
+		/*padding-inline-start: 1rem;*/
 	}
   p {
     font-size: smaller;
