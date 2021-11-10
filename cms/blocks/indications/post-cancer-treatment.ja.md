@@ -19,7 +19,7 @@ components:
       それにもかかわらず、出血性膀胱炎が出現す る二つ の最も一般的な状況は、広く使用されている 腫瘍治療法に関連しています。出血性膀胱炎 は、化学療法または放射線療法の後に発症す ることがあります。したがって、これらの状 態は、それぞれ化学療法膀胱炎および放射線 膀胱炎と呼ばれます。 なお、出血性膀胱炎の定義は曖昧であり、著 者や国によって違いがあり、原因に関係なく いくつかの疾患を HC と表記していることが 指摘されています。ここでは、この概念によ り後者の二つの、がん治療後 の状態を意味することとします。
 
 
-      特定の化学療法薬、 特にシクロホスファミドやイホスファミドな どのオキサザホスホリン系化合物が頻繁に HC を引き起こします。 。これらの薬剤は、固形腫瘍およびリンパ腫 の治療を含むいくつかの化学療法プロトコー ルで広く使用されています。[4](http://chemocare.com/chemotherapy/drug- info/cyclophosphamide.aspx)、[5](http://chemocare.com/chemotherapy/drug- info/ifosfamide.aspx)
+      特定の化学療法薬、 特にシクロホスファミドやイホスファミドな どのオキサザホスホリン系化合物が頻繁に HC を引き起こします。 。これらの薬剤は、固形腫瘍およびリンパ腫 の治療を含むいくつかの化学療法プロトコー ルで広く使用されています。[4](https://chemocare.com/chemotherapy/drug- info/cyclophosphamide.aspx)、[5](https://chemocare.com/chemotherapy/drug- info/ifosfamide.aspx)
 
 
       米国で最も多い 10 のがん[6](https://www.healthline.com/health/most- common-cancers)において 、(内は頻度)乳がん(1 位)、肺がん (2 位)、膀胱がん(6 位)、非ホジキンリ ンパ腫(7 位)、白血病(10 位)にシクロホ スファミド及び/又はイホスファミドの投与 が可能であることは指摘する価値があります 。白血病については、副作用として膀胱炎を 発症する可能性が 30%あります。[7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643 320/) さらに、HC を発症する可能性があるのはこれ らの化学療法薬だけではありません。
@@ -56,10 +56,10 @@ components:
         url: https://www.ncbi.nlm.nih.gov/pubmed/628051/
       - title: "[3] https://www.ncbi.nlm.nih.gov/pubmed/18519018/"
         url: https://www.ncbi.nlm.nih.gov/pubmed/18519018/
-      - title: "[4] http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
-      - title: "[5] http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
+      - title: "[4] https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
+      - title: "[5] https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
       - title: "[6] https://www.healthline.com/health/most-common-cancers"
         url: https://www.healthline.com/health/most-common-cancers
       - title: "[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/"

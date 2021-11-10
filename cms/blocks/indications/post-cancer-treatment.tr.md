@@ -24,7 +24,7 @@ components:
       Nevertheless, the two most common situations in which hemorrhagic cystitis emerges are associated with widely used methods of oncotherapy. It can develop after chemotherapy or radiotherapy. Thus, these conditions are often named chemotherapy cystitis and radiation cystitis, respectively. It should be pointed out that the definition of hemorrhagic cystitis is vague, and there are differences between authors and countries; several diseases are labeled as HCs regardless of their cause. Here, by this concept, the latter two, post-cancer conditions should be meant.
 
 
-      Certain chemotherapeutic drugs particularly frequently cause HC, especially oxazaphosphorine compounds such as cyclophosphamide and ifosfamide. These drugs are widely used in several chemotherapeutic protocols, including treating solid tumors and lymphomas.[4](http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx),[5](http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
+      Certain chemotherapeutic drugs particularly frequently cause HC, especially oxazaphosphorine compounds such as cyclophosphamide and ifosfamide. These drugs are widely used in several chemotherapeutic protocols, including treating solid tumors and lymphomas.[4](https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx),[5](https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
 
 
       It is worth pointing out that considering the 10 most common cancers[6](https://www.healthline.com/health/most-common-cancers) in the USA, cyclophosphamide and/or ifosfamide can be administered for the following conditions (frequency is in parentheses) breast cancer (1st), lung cancer (2nd), bladder cancer (6th), Non-Hodgkin’s lymphoma (7th), leukemia (10th). Regarding leukemia, there is a 30% chance for developing cystitis as a side effect.[7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/) Moreover, these are not the only chemotherapeutic drugs that can cause HC.
@@ -61,10 +61,10 @@ components:
         url: https://www.ncbi.nlm.nih.gov/pubmed/628051/
       - title: "[3] https://www.ncbi.nlm.nih.gov/pubmed/18519018/"
         url: https://www.ncbi.nlm.nih.gov/pubmed/18519018/
-      - title: "[4] http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
-      - title: "[5] http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
+      - title: "[4] https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
+      - title: "[5] https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
       - title: "[6] https://www.healthline.com/health/most-common-cancers"
         url: https://www.healthline.com/health/most-common-cancers
       - title: "[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/"

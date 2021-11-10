@@ -151,7 +151,7 @@ components:
       \[3] https://www.ic-network.com/bev/
 
 
-      \[4] http://ic-diet.com/IC-diet-food-list.html
+      \[4] https://ic-diet.com/IC-diet-food-list.html
 
 
       \[5] https://pubmed.ncbi.nlm.nih.gov/17499305/

@@ -25,7 +25,7 @@ components:
       Comunque, le due situazioni più comuni in cui emerge la cistite emorragica sono associate a metodi di oncoterapia ampiamente utilizzati. Queste condizioni possono svilupparsi dopo la chemioterapia o la radioterapia. Perciò, sono spesso chiamate rispettivamente cistite chemioterapica e cistite da radiazioni. Occorre ricordare che la definizione di cistite emorragica è generica e ci sono differenze tra autori e paesi; diverse malattie sono etichettate come HC indipendentemente dalla loro causa. In questo documento, per questo concetto, si dovrebbero intendere le ultime due condizioni post cancro.
 
 
-      Certi farmaci chemioterapici, in particolare i composti di ossazafosforina, come la ciclofosfamide e l'ifosfamide causano HC con maggiore frequenza. Questi farmaci sono ampiamente utilizzati in diversi protocolli chemioterapici, compreso il trattamento dei tumori solidi e linfomi.[4](http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx),[5](http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
+      Certi farmaci chemioterapici, in particolare i composti di ossazafosforina, come la ciclofosfamide e l'ifosfamide causano HC con maggiore frequenza. Questi farmaci sono ampiamente utilizzati in diversi protocolli chemioterapici, compreso il trattamento dei tumori solidi e linfomi.[4](https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx),[5](https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
 
 
       É opportuno sottolineare che considerando i 10 tumori più comuni[6](https://www.healthline.com/health/most-common-cancers) negli Stati Uniti, la ciclofosfamide e/o l'ifosfamide possono essere somministrate per le seguenti condizioni (la frequenza è indicata tra parentesi) cancro al seno (1°), cancro ai polmoni (2°), cancro della vescica (6°), linfoma non Hodgkin (7°), leucemia (10°). Per quanto riguarda la leucemia, c'è una probabilità del 30% di sviluppare la cistite come effetto collaterale.[7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/) Inoltre, questi non sono gli unici farmaci chemioterapici che possono provocare la cistite emorragica.
@@ -62,10 +62,10 @@ components:
         url: https://www.ncbi.nlm.nih.gov/pubmed/628051/
       - title: "[3] https://www.ncbi.nlm.nih.gov/pubmed/18519018/"
         url: https://www.ncbi.nlm.nih.gov/pubmed/18519018/
-      - title: "[4] http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
-      - title: "[5] http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
+      - title: "[4] https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
+      - title: "[5] https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
       - title: "[6] https://www.healthline.com/health/most-common-cancers"
         url: https://www.healthline.com/health/most-common-cancers
       - title: "[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/"

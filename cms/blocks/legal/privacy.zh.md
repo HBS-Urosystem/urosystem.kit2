@@ -72,7 +72,7 @@ components:
       在购买的情况下，描述财务信息的数据将传输到 PayPal 并由其处理。PayPal 以成功报告的形式将相应数据告知数据控制者。
 
 
-      PayPal总部：2211 North First Street, Jan Jose, California 95131 美国– [www.paypal.com](http://www.paypal.com/)
+      PayPal总部：2211 North First Street, Jan Jose, California 95131 美国– [www.paypal.com](https://www.paypal.com/)
 
 
       使用 Shopify 作为网店系统，数据被转移到 Shopify 并由 Shopify 处理。
@@ -290,7 +290,7 @@ components:
       任何与控制个人数据有关的投诉都可以提交给匈牙利国家数据保护和信息自由管理局（NAIH；国家数据保护和信息自由管理局），其地址如下：22/C Szilágyi Erzsébet Fasor, 1125 匈牙利·布达佩斯，欧洲; 邮件地址：Post Office Box 5, 1530,匈牙利·布达佩斯，欧洲
 
 
-      访问者或用户有权以民事法庭诉讼的形式行使权利。评估法律诉讼属于法院的诉讼范围。原告必须提交给与访客居住地相对应的法院。匈牙利法院的更多有关信息，请访问以下网页：<http://birosag.hu/torvenyszekek>。
+      访问者或用户有权以民事法庭诉讼的形式行使权利。评估法律诉讼属于法院的诉讼范围。原告必须提交给与访客居住地相对应的法院。匈牙利法院的更多有关信息，请访问以下网页：<https://birosag.hu/torvenyszekek>。
 
 
       ## 术语和定义

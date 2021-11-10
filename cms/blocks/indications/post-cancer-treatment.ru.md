@@ -26,7 +26,7 @@ components:
       Тем не менее две наиболее частые ситуации возникновения геморрагического цистита связаны с широко применяемыми методами терапии онкологических заболеваний. Цистит может развиться после химиотерапии или лучевой терапии. Таким образом, эти состояния часто называют химиотерапевтическим циститом и лучевым циститом соответственно. Следует отметить, что определение геморрагического цистита расплывчато, и существуют различия между авторами и странами; некоторые заболевания помечаются как ГЦ независимо от их причины. Здесь под этим понятием следует понимать два последних состояния - постраковые состояния.
 
 
-      Некоторые химиотерапевтические препараты особенно часто вызывают ГЦ, особенно соединения оксазафосфорина, такие как циклофосфамид и ифосфамид. Эти препараты широко используются в нескольких химиотерапевтических протоколах, включая лечение солидных опухолей и лимфом.[4](http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx).[5](http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
+      Некоторые химиотерапевтические препараты особенно часто вызывают ГЦ, особенно соединения оксазафосфорина, такие как циклофосфамид и ифосфамид. Эти препараты широко используются в нескольких химиотерапевтических протоколах, включая лечение солидных опухолей и лимфом.[4](https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx).[5](https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
 
 
       Стоит отметить, что, учитывая 10 наиболее распространенных видов рака [6](https://www.healthline.com/health/most-common-cancers) в США, циклофосфамид и/или ифосфамид можно назначать при следующих состояниях (частота указана в скобках): рак груди (1-й), рак легких (2-й), рак мочевого пузыря(6 место), неходжкинская лимфома (7 место), лейкемия (10 место). Что касается лейкемии, вероятность развития цистита в качестве побочного эффекта составляет 30% [7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/). Более того, это не единственные химиотерапевтические препараты, которые могут вызывать ГЦ.
@@ -63,10 +63,10 @@ components:
         url: https://www.ncbi.nlm.nih.gov/pubmed/628051/
       - title: "[3] https://www.ncbi.nlm.nih.gov/pubmed/18519018/"
         url: https://www.ncbi.nlm.nih.gov/pubmed/18519018/
-      - title: "[4] http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
-      - title: "[5] http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
+      - title: "[4] https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
+      - title: "[5] https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
       - title: "[6] https://www.healthline.com/health/most-common-cancers"
         url: https://www.healthline.com/health/most-common-cancers
       - title: "[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/"

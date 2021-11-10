@@ -86,7 +86,7 @@ components:
       In case of purchasing, data describing financial information are transferred to and handled by PayPal. The Data Controller is being informed by PayPal on the corresponding data in the form of a success report.
 
 
-      PayPal Corporate Headquarters: 2211 North First Street, Jan Jose, California 95131 the USA – [www.paypal.com](http://www.paypal.com/)
+      PayPal Corporate Headquarters: 2211 North First Street, Jan Jose, California 95131 the USA – [www.paypal.com](https://www.paypal.com/)
 
 
       Using Shopify as a webshop system, data are being transferred to and handled by Shopify.
@@ -319,7 +319,7 @@ components:
       Any complaints related to controlling Personal Data can be addressed to Hungarian National Authority for Data Protection and Freedom of Information (NAIH; Nemzeti Adatvédelmi és Információszabadsági Hatóság), whose address is the following: 22/C Szilágyi Erzsébet Fasor, 1125 Budapest, Hungary, Europe; postal address: Post Office Box 5, 1530, Budapest, Hungary, Europe.
 
 
-      The Visitor or User has the rights to exercise their rights in the form of a lawsuit at a civil court. Assessing the legal action is at the sphere of action of the court of justice. The plaint has to be submitted to the court corresponding to the Visitor’s living place. Further information about the Hungarian courts can be found at the following webpage: <http://birosag.hu/torvenyszekek>.
+      The Visitor or User has the rights to exercise their rights in the form of a lawsuit at a civil court. Assessing the legal action is at the sphere of action of the court of justice. The plaint has to be submitted to the court corresponding to the Visitor’s living place. Further information about the Hungarian courts can be found at the following webpage: <https://birosag.hu/torvenyszekek>.
 
 
       ## Terms and Definitions
@@ -373,5 +373,5 @@ components:
       Visitor – A person who is visiting the Webshop without filling in forms or purchasing goods. Visitors need give no personal data for this action. 
 
 
-      Webshop – www.urosystem.com
+      Webshop – <https://www.urosystem.com>
 ---

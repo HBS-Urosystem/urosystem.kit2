@@ -26,7 +26,7 @@ components:
       Dennoch sind die beiden häufigsten Situationen, in denen eine hämorrhagische Cystitis auftritt, mit weit verbreiteten Methoden der Onkotherapie verbunden. Sie kann sich nach einer Chemotherapie oder Strahlentherapie entwickeln. Daher werden diese Erkrankungen oft als Chemo-Cystitis bzw. Strahlencystitis bezeichnet. Es muss darauf hingewiesen werden, dass die Definition der hämorrhagischen Cystitis vage ist und dass es Unterschiede zwischen den Autoren und Ländern gibt; mehrere Erkrankungen werden unabhängig von ihrer Ursache als HCs bezeichnet. Hier sollten mit diesem Begriff die Zustände nach einer Onkotherapie gemeint sein.
 
 
-      Bestimmte Chemotherapeutika verursachen besonders häufig HC, insbesondere Oxazaphosphorinverbindungen wie Cyclophosphamid und Ifosfamid. Diese Medikamente werden in verschiedenen chemotherapeutischen Protokollen weit verbreitet eingesetzt, unter anderem bei der Behandlung solider Tumore und Lymphome.[4](http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx),[5](http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
+      Bestimmte Chemotherapeutika verursachen besonders häufig HC, insbesondere Oxazaphosphorinverbindungen wie Cyclophosphamid und Ifosfamid. Diese Medikamente werden in verschiedenen chemotherapeutischen Protokollen weit verbreitet eingesetzt, unter anderem bei der Behandlung solider Tumore und Lymphome.[4](https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx),[5](https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
 
 
       Es ist darauf hinzuweisen, dass unter Berücksichtigung der 10 häufigsten Krebsarten[6](https://www.healthline.com/health/most-common-cancers) in den USA Cyclophosphamid und/oder Ifosfamid bei folgenden Erkrankungen verabreicht werden kann (Häufigkeit in Klammern): Brustkrebs (1.), Lungenkrebs (2.), Blasenkrebs (6.), Non-Hodgkin-Lymphom (7.), Leukämie (10.). Bei Leukämie besteht eine Chance von 30%, als Nebenwirkung eine Blasenentzündung zu entwickeln.[7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/) Darüber hinaus sind dies nicht die einzigen Chemotherapeutika, die HC verursachen können.\
@@ -67,10 +67,10 @@ components:
         url: https://www.ncbi.nlm.nih.gov/pubmed/628051/
       - title: "[3] https://www.ncbi.nlm.nih.gov/pubmed/18519018/"
         url: https://www.ncbi.nlm.nih.gov/pubmed/18519018/
-      - title: "[4] http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
-      - title: "[5] http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
+      - title: "[4] https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
+      - title: "[5] https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
       - title: "[6] https://www.healthline.com/health/most-common-cancers"
         url: https://www.healthline.com/health/most-common-cancers
       - title: "[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/"

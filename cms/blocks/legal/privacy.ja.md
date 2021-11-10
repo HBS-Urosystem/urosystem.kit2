@@ -71,7 +71,7 @@ components:
       購入の際には、財務情報を含むデータがPayPalに転送され、処理されます。データ管理者は、PayPalから成功報告の形で対応するデータについて通知を受けます。
 
 
-      PayPal本社：2211 North First Street, Jan Jose, California 95131 the USA - \[www.paypal.com](<http://www.paypal.com/>)
+      PayPal本社：2211 North First Street, Jan Jose, California 95131 the USA - \[www.paypal.com](<https://www.paypal.com/>)
 
 
       ウェブショップシステムとしてShopifyをご利用の場合、データはShopifyに転送され、扱われます。
@@ -309,7 +309,7 @@ components:
       訪問者またはユーザーは、民事裁判所での訴訟という形で、その権利を行使することができます。法的措置の評価は、司法裁判所の行動範囲で行われます。原告は、ビジターの居住地に対応する裁判所に提出しなければなりません。
 
 
-      ハンガリーの裁判所に関する詳しい情報は以下のページをご覧ください。<http://birosag.hu/torvenyszekek>。
+      ハンガリーの裁判所に関する詳しい情報は以下のページをご覧ください。<https://birosag.hu/torvenyszekek>。
 
 
       ## 用語と定義について
@@ -363,5 +363,5 @@ components:
       訪問者: フォームへの入力や商品の購入をせずにウェブショップを訪れている人。訪問者は、この行為のために個人情報を提供する必要はありません。
 
 
-      ウェブショップ: 当社のウェブショップのことを指します。「[www.urosystem.com](http://www.urosystem.com)」
+      ウェブショップ: 当社のウェブショップのことを指します。「[www.urosystem.com](https://www.urosystem.com)」
 ---

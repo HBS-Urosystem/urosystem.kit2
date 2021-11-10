@@ -26,7 +26,7 @@ components:
       Mindazonáltal, a két leggyakoribb helyzet, amikor a hemorrhágiás cystitis jelentkezik, az onkoterápia szövődményének tekinthető: kemoterápiát vagy sugárterápiát követően alakulhat ki. E két állapotot nevezik kemoterápiás cystitisnek (chemo-cystitisnek), illetve sugárterápiás cystitisnek (sugárcystitisnek) is. Megjegyzendő, hogy országonként és szerzőnként is változó, hogy hol mit értenek a hemorrhágiás cystitis alatt. E helyen a fogalmat a kétféle onkoterápia szövődményeként jelentkező állapot összefoglaló neveként használjuk.
 
 
-      Van néhány olyan kemoterápiás szer, amely gyakran okoz hemorrhágiás cystitis-t. E szempontból különösen az oxazafoszforin vegyületcsoport képviselői, így a ciklofoszfamid és az ifoszfamid veszélyesek. Mindkettő elterjedt a kemoterápiás protokollokban, mint a szolid tumorok és a limfómák kezelésére használt drogok.[4](http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx).[5](http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
+      Van néhány olyan kemoterápiás szer, amely gyakran okoz hemorrhágiás cystitis-t. E szempontból különösen az oxazafoszforin vegyületcsoport képviselői, így a ciklofoszfamid és az ifoszfamid veszélyesek. Mindkettő elterjedt a kemoterápiás protokollokban, mint a szolid tumorok és a limfómák kezelésére használt drogok.[4](https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx).[5](https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
 
 
       Ha a 10 az Egyesült Államokban (és feltehetőleg a világ más részein is) leggyakrabban előforduló daganatos megbetegedést nézzük,[6](https://www.healthline.com/health/most-common-cancers) azt láthatjuk, hogy a ciklofoszfamidot, illetve az ifoszfamidot rendszeresen használják a következő rosszindulatú betegségek terápiájában (a gyakorisági sorrend zárójelben feltüntetve): emlőrák (1.), tüdőrák (2.), húgyhólyagrák (6.), Non-Hodgkin limfóma (7.), leukémia (10.) Ez utóbbinál a hemorrhágiás cystitis kialakulásának esélye 30%.[7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/) Továbbá az is megemlítendő, hogy HC-t nem csak ez a két kemoterápiás szer okozhat.
@@ -63,10 +63,10 @@ components:
         url: https://www.ncbi.nlm.nih.gov/pubmed/628051/
       - title: "[3] https://www.ncbi.nlm.nih.gov/pubmed/18519018/"
         url: https://www.ncbi.nlm.nih.gov/pubmed/18519018/
-      - title: "[4] http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
-      - title: "[5] http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
+      - title: "[4] https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
+      - title: "[5] https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
       - title: "[6] https://www.healthline.com/health/most-common-cancers"
         url: https://www.healthline.com/health/most-common-cancers
       - title: "[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/"

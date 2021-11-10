@@ -86,7 +86,7 @@ components:
       Beim Kauf werden Daten, die Finanzinformationen beschreiben, an PayPal übertragen und von diesem verarbeitet. Die entsprechenden Daten werden dem Verantwortlichen von PayPal in Form eines Erfolgsberichts mitgeteilt.
 
 
-      PayPal-Unternehmenszentrale: 2211 North First Street, San Jose, Kalifornien 95131, USA – [www.paypal.com](http://www.paypal.com/)
+      PayPal-Unternehmenszentrale: 2211 North First Street, San Jose, Kalifornien 95131, USA – [www.paypal.com](https://www.paypal.com/)
 
 
       Bei der Verwendung von Shopify als Webshop-System werden Daten an Shopify übertragen und von diesem verarbeitet.
@@ -319,7 +319,7 @@ components:
       Beschwerden im Zusammenhang mit der Kontrolle personenbezogener Daten können an die Ungarische Nationale Behörde für Datenschutz und Informationsfreiheit (NAIH; Nemzeti Adatvédelmi és Információszabadsági Hatóság) gerichtet werden, deren Anschrift lautet: 22/C Szilágyi Erzsébet Fasor, H-1125 Budapest, Ungarn, Europa ; Postanschrift: Postfach 5, 1530, Budapest, Ungarn, Europa.
 
 
-      Der Besucher oder Benutzer hat das Recht, seine Rechte in Form einer Klage vor einem Zivilgericht auszuüben. Die Beurteilung des Rechtsstreits liegt im Wirkungsbereich des Gerichtshofs. Die Klage muss bei dem Gericht eingereicht werden, das dem Wohnsitz des Besuchers entspricht. Weitere Informationen zu den ungarischen Gerichten finden Sie auf der folgenden Webseite: <http://birosag.hu/torvenyszekek>.
+      Der Besucher oder Benutzer hat das Recht, seine Rechte in Form einer Klage vor einem Zivilgericht auszuüben. Die Beurteilung des Rechtsstreits liegt im Wirkungsbereich des Gerichtshofs. Die Klage muss bei dem Gericht eingereicht werden, das dem Wohnsitz des Besuchers entspricht. Weitere Informationen zu den ungarischen Gerichten finden Sie auf der folgenden Webseite: <https://birosag.hu/torvenyszekek>.
 
 
       ## Begriffe und Definitionen
@@ -373,5 +373,5 @@ components:
       Besucher – Eine Person, die den Webshop besucht, ohne Formulare auszufüllen oder Waren zu kaufen. Besucher müssen für diese Aktion keine personenbezogenen Daten angeben. 
 
 
-      Webshop – www.urosystem.com
+      Webshop – <https://www.urosystem.com>
 ---

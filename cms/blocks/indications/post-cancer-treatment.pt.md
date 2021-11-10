@@ -25,7 +25,7 @@ components:
       No entanto, as duas situações mais comuns em que surge a cistite hemorrágica estão associadas aos métodos de oncoterapia amplamente utilizados. Pode desenvolver-se depois de quimioterapia ou radioterapia. Portanto, essas condições são frequentemente chamadas de cistite por quimioterapia e cistite por radiação. É importante destacar que a definição de cistite hemorrágica é vaga e existem diferenças entre autores e países; várias doenças são rotuladas como HCs, independentemente da sua causa. Aqui, por este conceito devem entender-se estas duas últimas, condições pós-cancro.
 
 
-      Certos fármacos quimioterapêuticos causam particularmente HC, especialmente compostos de oxazafosforina, como ciclofosfamida e ifosfamida. Esses medicamentos são amplamente utilizados em vários protocolos quimioterápicos, incluindo o tratamento de tumores sólidos e linfomas.[4](http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx),[5](http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
+      Certos fármacos quimioterapêuticos causam particularmente HC, especialmente compostos de oxazafosforina, como ciclofosfamida e ifosfamida. Esses medicamentos são amplamente utilizados em vários protocolos quimioterápicos, incluindo o tratamento de tumores sólidos e linfomas.[4](https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx),[5](https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
 
 
       É importante ressaltar que, considerando os 10 cancros mais comuns[6](https://www.healthline.com/health/most-common-cancers) nos EUA, a ciclofosfamida e/ou ifosfamida podem ser administradas para as seguintes condições (a frequência está entre parênteses): cancro de mama (1ª), cancro de pulmão (2ª), cancro de bexiga (6ª), linfoma não-Hodgkin (7ª), leucemia ( 10). Em relação à leucemia, há 30% de chance de desenvolver cistite como efeito colateral.[7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/) Além disso, estes não são os únicos quimioterápicos que podem causar HC.
@@ -62,10 +62,10 @@ components:
         url: https://www.ncbi.nlm.nih.gov/pubmed/628051/
       - title: "[3] https://www.ncbi.nlm.nih.gov/pubmed/18519018/"
         url: https://www.ncbi.nlm.nih.gov/pubmed/18519018/
-      - title: "[4] http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
-      - title: "[5] http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
+      - title: "[4] https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
+      - title: "[5] https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
       - title: "[6] https://www.healthline.com/health/most-common-cancers"
         url: https://www.healthline.com/health/most-common-cancers
       - title: "[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/"

@@ -25,7 +25,7 @@ components:
       No obstante las dos situaciones más comunes en las que surge la cistitis hemorrágica están asociadas con métodos de oncoterapia ampliamente utilizados. Puede desarrollarse después de la quimioterapia o la radioterapia. Por lo tanto, estas afecciones a menudo se denominan respectivamente cistitis por quimioterapia y cistitis por radiación. Cabe señalar que la definición de cistitis hemorrágica es vaga y existen diferencias entre autores y países; varias enfermedades están etiquetadas como CH independientemente de su causa. Aquí, por este concepto, deben entenderse las dos últimas condiciones post cáncer.
 
 
-      Ciertos fármacos quimioterapéuticos con especial frecuencia causan CH, particularmente compuestos de oxazafosforina tales como ciclofosfamida e ifosfamida. Estos medicamentos se utilizan ampliamente en varios procedimientos quimioterapéuticos, incluido el tratamiento de tumores sólidos y linfomas.[4](http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx),[5](http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
+      Ciertos fármacos quimioterapéuticos con especial frecuencia causan CH, particularmente compuestos de oxazafosforina tales como ciclofosfamida e ifosfamida. Estos medicamentos se utilizan ampliamente en varios procedimientos quimioterapéuticos, incluido el tratamiento de tumores sólidos y linfomas.[4](https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx),[5](https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
 
 
       Vale la pena señalar que considerando los 10 cánceres más comunes[6](https://www.healthline.com/health/most-common-cancers) en los EE. UU., Se puede administrar ciclofosfamida y/o ifosfamida para las siguientes afecciones (la frecuencia está entre paréntesis) cáncer de mama (1 °), cáncer de pulmón (2 °), cáncer de vejiga (6º), linfoma no Hodgkin (7º), leucemia (10º). Con respecto a la leucemia, existe un 30% de posibilidades de desarrollar cistitis como efecto secundario.[7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/) Además, estos no son los únicos fármacos quimioterápicos que pueden causar CH.
@@ -62,10 +62,10 @@ components:
         url: https://www.ncbi.nlm.nih.gov/pubmed/628051/
       - title: "[3] https://www.ncbi.nlm.nih.gov/pubmed/18519018/"
         url: https://www.ncbi.nlm.nih.gov/pubmed/18519018/
-      - title: "[4] http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
-      - title: "[5] http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
+      - title: "[4] https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
+      - title: "[5] https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
       - title: "[6] https://www.healthline.com/health/most-common-cancers"
         url: https://www.healthline.com/health/most-common-cancers
       - title: "[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/"

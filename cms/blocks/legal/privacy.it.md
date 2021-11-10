@@ -86,7 +86,7 @@ components:
       Nel caso di un acquisto, i dati che descrivono le informazioni finanziarie vengono trasferiti e gestiti da PayPal. Il titolare del trattamento viene informato da PayPal sui dati corrispondenti sotto forma di un rapporto di successo.
 
 
-      Sede centrale di PayPal: 2211 North First Street, San José, California 95131 USA – [www.paypal.com](http://www.paypal.com/)
+      Sede centrale di PayPal: 2211 North First Street, San José, California 95131 USA – [www.paypal.com](https://www.paypal.com/)
 
 
       Utilizzando Shopify come sistema di negozio online, i dati vengono trasferiti e gestiti da Shopify.
@@ -321,7 +321,7 @@ components:
       Eventuali reclami relativi al controllo dei dati personali possono essere indirizzati all’Autorità Nazionale Ungherese per la Protezione dei Dati e la Libertà di Informazione (NAIH; Nemzeti Adatvédelmi és Információszabadsági Hatóság), indirizzo: 22/C Szilágyi Erzsébet Fasor, 1125 Budapest, Ungheria, Europa; indirizzo postale: Casella postale 5, 1530, Budapest, Ungheria, Europa.
 
 
-      Il visitatore o l’utente ha il diritto di esercitare i propri diritti sotto forma di causa in sede civile. La valutazione dell’azione legale è di competenza della corte di giustizia. La querela deve essere presentata al tribunale corrispondente al luogo di residenza del visitatore. Ulteriori informazioni sui tribunali ungheresi sono disponibili alla seguente pagina web: <http://birosag.hu/torvenyszekek>.
+      Il visitatore o l’utente ha il diritto di esercitare i propri diritti sotto forma di causa in sede civile. La valutazione dell’azione legale è di competenza della corte di giustizia. La querela deve essere presentata al tribunale corrispondente al luogo di residenza del visitatore. Ulteriori informazioni sui tribunali ungheresi sono disponibili alla seguente pagina web: <https://birosag.hu/torvenyszekek>.
 
 
       ## Termini e definizioni

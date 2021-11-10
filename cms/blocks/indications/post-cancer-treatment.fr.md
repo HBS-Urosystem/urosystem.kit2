@@ -26,7 +26,7 @@ components:
       Néanmoins, les deux situations les plus courantes dans lesquelles émerge une cystite hémorragique sont associées à des méthodes d'oncothérapie largement utilisées. Il peut se développer après une chimiothérapie ou une radiothérapie. Ainsi, ces conditions sont souvent appelées respectivement cystite de chimiothérapie et cystite de rayonnement. Il convient de souligner que la définition de la cystite hémorragique est vague et qu'il existe des différences entre les auteurs et les pays; plusieurs maladies sont étiquetées comme CH, quelle que soit leur cause. Ici, par ce concept, les deux derniers états post-cancéreux devraient être entendus.
 
 
-      Certains médicaments chimiothérapeutiques provoquent particulièrement fréquemment des CH, en particulier des composés oxazaphosphorine tels que le cyclophosphamide et l'ifosfamide. Ces médicaments sont largement utilisés dans plusieurs protocoles chimiothérapeutiques, y compris le traitement des tumeurs solides et des lymphomes.[4](http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx),[5](http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
+      Certains médicaments chimiothérapeutiques provoquent particulièrement fréquemment des CH, en particulier des composés oxazaphosphorine tels que le cyclophosphamide et l'ifosfamide. Ces médicaments sont largement utilisés dans plusieurs protocoles chimiothérapeutiques, y compris le traitement des tumeurs solides et des lymphomes.[4](https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx),[5](https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx)
 
 
       Il est à noter que compte tenu des 10 cancers les plus courants[6](https://www.healthline.com/health/most-common-cancers) aux États-Unis, le cyclophosphamide et/ou l'ifosfamide peuvent être administrés pour les affections suivantes (á noter que la fréquence compte aussi) cancer du sein (1er), cancer du poumon (2ème), cancer de la vessie (6e), lymphome non hodgkinien (7e), leucémie (10e). En ce qui concerne la leucémie, il y a 30% de chances de développer une cystite comme effet secondaire.[7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/) De plus, ce ne sont pas les seuls médicaments chimiothérapeutiques qui peuvent causer la CH.
@@ -63,10 +63,10 @@ components:
         url: https://www.ncbi.nlm.nih.gov/pubmed/628051/
       - title: "[3] https://www.ncbi.nlm.nih.gov/pubmed/18519018/"
         url: https://www.ncbi.nlm.nih.gov/pubmed/18519018/
-      - title: "[4] http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
-      - title: "[5] http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
-        url: http://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
+      - title: "[4] https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/cyclophosphamide.aspx
+      - title: "[5] https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx"
+        url: https://chemocare.com/chemotherapy/drug-info/ifosfamide.aspx
       - title: "[6] https://www.healthline.com/health/most-common-cancers"
         url: https://www.healthline.com/health/most-common-cancers
       - title: "[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643320/"
