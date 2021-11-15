@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: UroDapter® new to you? Order a sample package today!
-    subhead: Buy 5 pcs for $40 / 10 pcs for $75
+    subhead: Buy 5 pcs for $40 / 10 pcs for $80
     background: []
   - type: buy
     title: ""

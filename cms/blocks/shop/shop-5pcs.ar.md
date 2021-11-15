@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: UroDapter® جديد بالنسبة لك؟ اطلب حزمة عينة اليوم!
-    subhead: شراء 5 قطع مقابل 40 دولارًا / 10 قطعة مقابل 75 دولارًا
+    subhead: شراء 5 قطع مقابل 40 دولارًا / 10 قطعة مقابل 80 دولارًا
     background: []
   - type: buy
     title: ""

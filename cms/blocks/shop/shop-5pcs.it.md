@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: UroDapter® nuovo per te? Ordina oggi un pacchetto campione!
-    subhead: Acquista 5 pezzi per $40 / 10 pezzi per $75
+    subhead: Acquista 5 pezzi per $40 / 10 pezzi per $80
     background: []
   - type: buy
     title: ""

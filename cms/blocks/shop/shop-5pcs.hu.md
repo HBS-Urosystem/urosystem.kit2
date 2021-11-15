@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: Az UroDapter® újdonság az Ön számára?  Rendeljen mintacsomagot!
-    subhead: "Az 5 db-os mintacsomag ára: $40 / 10 db: $75"
+    subhead: "Az 5 db-os mintacsomag ára: $40 / 10 db: $80"
     background: []
   - type: buy
     title: ""
@@ -30,8 +30,7 @@ components:
     product: "5983114002592"
   - type: article
     text: >-
-      #### THE ESTIMATED DELIVERY TIME, ACCORDING TO THE CUSTOMER'S COUNTRY AS
-      FOLLOWS:
+      #### A VÁRHATÓ SZÁLLÍTÁSI IDŐ:
 
 
       * Európai országok: 12 nap
@@ -58,7 +57,7 @@ components:
 ---
   - type: article
     title: Az UroDapter® újdonság az Ön számára?  Rendeljen mintacsomagot!
-    subhead: "Az 5 db-os mintacsomag ára: $40 / 10 db: $75"
+    subhead: "Az 5 db-os mintacsomag ára: $40 / 10 db: $80"
     anchor: sample
     text: |-
       SZÁLLÍTÁSI DÍJAK:

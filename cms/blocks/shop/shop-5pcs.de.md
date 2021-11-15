@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: Kennen Sie UroDapter® noch nicht? Bestellen Sie 5/10 Produktproben!
-    subhead: Kaufen Sie 5 Stück für $40 / 10 Stück für $75
+    subhead: Kaufen Sie 5 Stück für $40 / 10 Stück für $80
     background: []
   - type: buy
     title: ""

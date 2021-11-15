@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: ¿UroDapter® es nuevo para usted? ¡Ordene un paquete de muestra hoy!
-    subhead: Compra 5 piezas por $40 / 10 piezas por $75
+    subhead: Compra 5 piezas por $40 / 10 piezas por $80
     background: []
   - type: buy
     title: ""
