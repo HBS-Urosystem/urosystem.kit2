@@ -67,6 +67,6 @@
 	button {
 		/*flex-shrink: 0;
     width: min-content;*/
-    margin: 1.5rem
+    margin: .5rem
   }
 </style>
