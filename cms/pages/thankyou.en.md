@@ -7,5 +7,5 @@ blocks:
   - id: index/thankyou
 meta:
   - name: robots
-    content: noindex
+    content: follow, noindex
 ---
