@@ -6,8 +6,8 @@ components:
   - type: form
     netlify: true
     cookie: true
-    title: The UroDapter® long and short
-    subhead: To access our exclusive medical content about UroDapter®, please fill in the form.
+    title: Exclusive medical content
+    subhead: To access the discussion of the inventor about UroDapter®, please fill in the form. 
     name: ProfessionalsGateway
     text: >-
       <fieldset>
