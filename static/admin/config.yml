@@ -2038,9 +2038,111 @@ collections:
           - name: local_backend
             label: local_backend
             widget: boolean
-      - label: Main nav
+      - label: Main nav (old)
         file: cms/config/nav.md
         name: nav
+        fields:
+          - name: top
+            label: Top menu items
+            label_singular: Item
+            widget: list
+            summary: "{{link}}"
+            fields:
+              - label: Menu title
+                name: titles
+                widget: list
+                fields:
+                  - name: lang
+                    label: Lang
+                    widget: string
+                  - name: title
+                    label: Menu title
+                    widget: string
+              - label: Link to
+                name: link
+                widget: string
+                required: false
+              - label: External?
+                name: ext
+                widget: boolean
+                required: false
+              - label: Submenu
+                name: subpages
+                required: false
+                widget: list
+                fields:
+                  - label: Submenu Title
+                    name: titles
+                    widget: list
+                    fields:
+                      - name: lang
+                        label: Lang
+                        widget: string
+                      - name: title
+                        label: Menu title
+                        widget: string
+                  - label: Link
+                    name: link
+                    widget: string
+                    required: false
+                  - label: External?
+                    name: ext
+                    widget: boolean
+                    required: false
+      - label: UroSystem navbar
+        file: cms/config/nav-us.md
+        name: nav-us
+        fields:
+          - name: top
+            label: Top menu items
+            label_singular: Item
+            widget: list
+            summary: "{{link}}"
+            fields:
+              - label: Menu title
+                name: titles
+                widget: list
+                fields:
+                  - name: lang
+                    label: Lang
+                    widget: string
+                  - name: title
+                    label: Menu title
+                    widget: string
+              - label: Link to
+                name: link
+                widget: string
+                required: false
+              - label: External?
+                name: ext
+                widget: boolean
+                required: false
+              - label: Submenu
+                name: subpages
+                required: false
+                widget: list
+                fields:
+                  - label: Submenu Title
+                    name: titles
+                    widget: list
+                    fields:
+                      - name: lang
+                        label: Lang
+                        widget: string
+                      - name: title
+                        label: Menu title
+                        widget: string
+                  - label: Link
+                    name: link
+                    widget: string
+                    required: false
+                  - label: External?
+                    name: ext
+                    widget: boolean
+                    required: false
+      - label: UroDapter navbar
+        file: cms/config/nav-ud.md
+        name: nav-ud
         fields:
           - name: top
             label: Top menu items

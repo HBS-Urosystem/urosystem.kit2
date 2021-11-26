@@ -54,24 +54,12 @@ export async function _getConf(lang) {
     if (l.id == lang) config.thislang = l
   }
 
-  //config.topnav = await _navs(config.top)
-  //config.topnav = await config.top.map(props => {return {...props}}).map(subs => _subnav(subs))
-  //config.footnav = await config.footer.map(props => {return {...props}}).map(subs => _subnav(subs))
   config.topnav = await Promise.all(config.top.map(async (subs) => _subnav(subs)))
   config.footnav = await Promise.all(config.footer.map(async (subs) => _subnav(subs)))
-  //_navs(config.footer).then(function(ret) {console.log(ret); config.footnav = ret})
   //console.log('config.topnav',config.topnav)
   //console.log('topfoot',config)
   
   return config
-
-  /*async function _navs (c) {
-    //console.log('config.top',c)
-    const ret = c.map(props => {return {...props}}).map(_subnav)
-    //
-    //.map(async obj => {return _subnav(obj)})
-    return ret
-  }*/
 
   async function _subnav(obj) {
     let p
@@ -128,59 +116,9 @@ export async function _getConf(lang) {
       //console.log('obj.subs',subs)
       obj.sublinks = subs
     }
-
-    /*if (sublinks = _findPosts(obj.link)) {
-      obj.sublinks = sublinks
-    }*/
-
-    //console.log('return obj',obj)
-
     return obj || {}
   }
-  /*async function _findPosts(path) {
-    let posts = []
-    for (const s in theposts[lang]) {
-      //if (s.endsWith(path)) {
-        //console.log(s)
-      if (s.match(`.*${path}`)) {
-        //console.log('_findPost', path)
-        let p = await theposts[lang][s]().then(({metadata}) => metadata)
-        //console.log(p)
-        if (p.fallback && p.fallback !== lang) {
-          //p = mixing(p, _findPost({path, lang: p.fallback}), {recursive: true}) // A) recursive fallbacks
-          p = mixing(p, await theposts[p.fallback][s]().then(({metadata}) => metadata), {recursive: true}) // B) faster – single fallback
-        }
-        //console.log('_findPost', lang, p.id)
-        posts.push(p)
-      }
-      return posts
-    }
-    return false
-    
-
-    let ps = theposts.filter(post => (post.lang == lang) && post.slug.indexOf(f) >= 0) || []
-    console.log('_findPosts',f, ps)
-    if (ps.length) {
-      let postmix = []
-      for (let p of ps) {
-        if (p.fallback && p.fallback !== lang) {
-          postmix.push(mixing(p, _findPost({path: p.id, lang: p.fallback}),{recursive: true, mixArray: true}))
-        } else {
-          postmix.push(p)
-        }
-      }
-      return postmix
-    }
-    //return []
-    //return posts.filter(post => post.lang == lang && post.folder == f)
-  }*/
 }
-
-/*export async function _getLangs() {
-  const langs = await conf.langs().then(({metadata}) => metadata)
-  return {...langs}
-}*/
-
 
 export async function _getPost({path, lang = 'en', sub = null}) {
   const p = await _findPost({path, lang})
