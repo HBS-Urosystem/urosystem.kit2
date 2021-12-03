@@ -29,7 +29,7 @@
 
 <svelte:head>
   <link rel="canonical" href="https://urosystem.com/en"/>
-  <meta name='robots' content='follow, noindex,follow' />
+  <meta name='robots' content='follow, noindex' />
   <title>Bladder instillation with UroDapter® urological syringe adapter</title>
   <meta name="description" content="The UroDapter® urological adapter replaces catheter. It enables painless and complication-free bladder treatment for several lower urinary tract diseases.">
   <meta name="keywords" content="instillation, urological adapter, bladder disease, pain-free, cystitis, catheter replacement, painless, complication-free, bladder, treatment">
