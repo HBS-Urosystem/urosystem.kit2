@@ -72,8 +72,6 @@ components:
 
           * Local recurrence prevention of Bladder Cancer, female patients
 
-          * Severe Overactive Bladder Syndrome (OAB)
-
           * Instilling analgesics, local anaesthetics, and antiphlogistics for any indication
 
           * UroDapter® might be applied for diagnostic purposes, too – e.g. retrograde urethrography, fistulography

@@ -179,7 +179,7 @@
       mobil={!!hamburger}>
       <li>
         <a tabindex="0" sveltekit:prefetch href="/{$sitelang}" aria-label="home">
-          <img loading="lazy" src="/uploads/logo-03-web.svg" alt="UroDapter® – Revolutionizing bladder pain treatment">
+          <img loading="lazy" src="/uploads/logo-03-web.svg" alt="UroSystem – Revolutionizing bladder pain treatment">
         </a>
       </li>
       <!--{@debug topnav}-->
@@ -256,7 +256,7 @@
   .pin {
     transform: translateY(0%);
   }
-  .unpin {
+  :not(:hover).unpin {
     transform: translateY(-100%);
   }
   nav {
