@@ -34,21 +34,21 @@
   {#if sub.logo}
     <a href="{sublink}" rel="noopener" target="_blank"><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
-    <a class={dir} href="{sublink}" rel="noopener" target="_blank">{sub.title}
+    <a class="{dir}" href="{sublink}" rel="noopener" target="_blank">{sub.title}
       {#if sub.sublinks} <img loading="lazy" src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
     </a>
   <!--{:else if subpage}
-    <a class={dir} href="{sublink}" rel="noopener" target="_blank">{subpage.menutitle || subpage.title}</a>-->
+    <a class="{dir}" href="{sublink}" rel="noopener" target="_blank">{subpage.menutitle || subpage.title}</a>-->
   {/if}
 {:else}
   {#if sub.logo}
     <a sveltekit:prefetch href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
-    <a sveltekit:prefetch class={dir} href="{sublink}">{sub.title}
+    <a sveltekit:prefetch class="{dir}" href="{sublink}">{sub.title}
       {#if sub.sublinks} <img loading="lazy" src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
     </a>
   <!--{:else if subpage && (subpage.menutitle || subpage.title)}
-    <a class={dir} href="{sublink}">{subpage.menutitle || subpage.title}</a>-->
+    <a class="{dir}" href="{sublink}">{subpage.menutitle || subpage.title}</a>-->
   {/if}
 {/if}
 
