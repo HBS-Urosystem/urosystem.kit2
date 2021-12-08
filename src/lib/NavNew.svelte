@@ -190,10 +190,11 @@
         {#if nav.title}
           <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
             {#if nav.link}
-            <a sveltekit:prefetch tabindex="0" href="/{$sitelang}/{nav.link}">{nav.title} 
-              {#if nav.sublinks} <img loading="lazy" src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
-            </a>
-           {:else}
+              <!--<a sveltekit:prefetch tabindex="0" href="/{$sitelang}/{nav.link}">{nav.title} 
+                {#if nav.sublinks} <img loading="lazy" src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
+              </a>-->
+              <SubNav sub={nav}/>
+            {:else}
               <span tabindex="0">{nav.title}
                 {#if nav.sublinks} <img loading="lazy" src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
               </span>
@@ -207,7 +208,7 @@
             {#if nav.sublinks}
               <ul>
                 {#each nav.sublinks as sub}
-                  {#if sub.title}<li><SubNav {sub}/></li>{/if}
+                  {#if sub.title}<li><SubNav {sub} dir='block' /></li>{/if}
                   {#if sub.modal}
                     {#each sub.modal.components || [] as comp}
                       <Components {comp}/>

@@ -2,6 +2,8 @@ import _ from 'lodash'
 import mixing from 'mixing'
 import marked from 'marked'
 
+const SITE = import.meta.env.VITE_SITE
+
 const allblocks = import.meta.glob('/cms/blocks/**/*.md')
 const allposts = import.meta.glob('/cms/pages/**/*.md')
 const allconfs = import.meta.glob('/cms/config/*.md')
@@ -54,7 +56,10 @@ export async function _getConf(lang) {
     if (l.id == lang) config.thislang = l
   }
 
-  config.topnav = await Promise.all(config.top.map(async (subs) => _subnav(subs)))
+  const top = `top${SITE}`
+  //console.log(top)
+
+  config.topnav = await Promise.all(config[top]?.map(async (subs) => _subnav(subs)))
   config.footnav = await Promise.all(config.footer.map(async (subs) => _subnav(subs)))
   //console.log('config.topnav',config.topnav)
   //console.log('topfoot',config)
@@ -174,6 +179,17 @@ export async function _getPost({path, lang = 'en', sub = null}) {
 }
 
 export async function _findPost({path = 'index', lang = 'en'}) {
+  const path_site = `${path}${SITE}`
+  //console.log(path_site)
+  for (const s in theposts[lang]) {
+    if (s.endsWith(path_site)) {
+      let p = await theposts[lang][s]().then(({metadata}) => metadata)
+      if (p.fallback && p.fallback !== lang) {
+        p = mixing(p, await _findPost({path, lang: p.fallback}), {recursive: true}) // A) recursive fallbacks / cascading blocks
+      }
+      return p
+    }
+  }
   for (const s in theposts[lang]) {
     if (s.endsWith(path)) {
       //console.log('endsWith', path,s)
