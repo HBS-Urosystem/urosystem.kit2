@@ -99,9 +99,9 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
   text-shadow: 0 0 0.75em var(--dark-blue-75);
 }
-figure p {
+/*figure p {
   margin-top: 0;
-}
+}*/
 article > p:first-child {
   padding-top: 1em;
   margin-top: 0;
@@ -282,7 +282,7 @@ article p, article ul, article ol, article dl, article table, aside p, aside ul,
   vertical-align: baseline;
   color: var(--pale-blue);
 }
-article p:first-child, article ul:first-child, article ol:first-child, article dl:first-child, article table:first-child, main aside p:first-child, main aside ul:first-child, main aside ol:first-child, main aside dl:first-child, aside table:first-child, main > div > :not(article):first-child {
+article :not(figcaption) > p:first-child, article ul:first-child, article ol:first-child, article dl:first-child, article table:first-child, main aside p:first-child, main aside ul:first-child, main aside ol:first-child, main aside dl:first-child, aside table:first-child, main > div > :not(article):first-child {
   margin-top: 3.75em;
 }
 article p:last-child, article ul:last-child, article ol:last-child, article dl:last-child, article table:last-child, aside p:last-child, aside ul:last-child, aside ol:last-child, aside dl:last-child, aside table:last-child {
@@ -434,6 +434,7 @@ details[open] > summary::after {
 
 [dir='rtl'] select {
   background: url("/uploads/bx-world.svg") no-repeat right, url("/uploads/open-down.svg") no-repeat left!important;
+  background-size: 1.5em!important;
 }
 
 [dir='rtl'] li#over {
