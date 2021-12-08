@@ -25,7 +25,7 @@
       }
     }
   })*/
-  const SITE = import.meta.env.VITE_SITE
+  const SITE = import.meta.env.VITE_SITE || ''
   const sitelogo = `sitelogo${SITE}.svg`
   const logoclass = `sitelogo${SITE}`
 </script>
