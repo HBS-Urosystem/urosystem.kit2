@@ -1,7 +1,10 @@
 ---
-top:
+top_us:
   - ext: true
     link: https://urosystem.com/urodapter
+    titles:
+      - lang: en
+        title: UroDapter®
   - subpages:
       - link: ic-bps
       - link: rutis

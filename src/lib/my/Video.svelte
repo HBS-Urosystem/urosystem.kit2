@@ -50,6 +50,7 @@
   video {
     object-fit: contain;
     max-height: 100vh;
+    display: block;
   }
 
 </style>
