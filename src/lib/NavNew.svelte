@@ -25,9 +25,9 @@
       }
     }
   })*/
-  const SITE = '_UD' //import.meta.env.VITE_SITE
-  const sitelogo = `sitelogo${SITE}.svg`
-  const logoclass = `sitelogo${SITE}`
+  const _site = '_UD' //import.meta.env.VITE__site
+  const sitelogo = `sitelogo${_site}.svg`
+  const logoclass = `sitelogo${_site}`
 </script>
 <script>
   import { createEventDispatcher } from "svelte";
