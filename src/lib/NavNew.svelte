@@ -25,6 +25,9 @@
       }
     }
   })*/
+  const SITE = import.meta.env.VITE_SITE
+  const sitelogo = `sitelogo${SITE}.svg`
+  const logoclass = `sitelogo${SITE}`
 </script>
 <script>
   import { createEventDispatcher } from "svelte";
@@ -179,7 +182,7 @@
       mobil={!!hamburger}>
       <li>
         <a tabindex="0" sveltekit:prefetch href="/{$sitelang}" aria-label="home">
-          <img loading="lazy" src="/uploads/logo-03-web.svg" alt="UroSystem – Revolutionizing bladder pain treatment">
+          <img loading="lazy" class={logoclass} src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
         </a>
       </li>
       <!--{@debug topnav}-->
@@ -187,10 +190,10 @@
         {#if nav.title}
           <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
             {#if nav.link}
-              <a sveltekit:prefetch tabindex="0" href="/{$sitelang}/{nav.link}">{nav.title} 
-                {#if nav.sublinks} <img loading="lazy" src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
-              </a>
-            {:else}
+            <a sveltekit:prefetch tabindex="0" href="/{$sitelang}/{nav.link}">{nav.title} 
+              {#if nav.sublinks} <img loading="lazy" src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
+            </a>
+           {:else}
               <span tabindex="0">{nav.title}
                 {#if nav.sublinks} <img loading="lazy" src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
               </span>
@@ -405,9 +408,16 @@
   }
   nav > ul > li:first-of-type img {
     padding-inline-end: 1rem;
+  }
+  img.sitelogo, img.sitelogo_ud {
     margin-bottom: -1.6rem;
     height: 4rem;
-    aspect-ratio: 100 / 39.56;
+    aspect-ratio: 135 / 39.56;
+  }
+  img.sitelogo_us {
+    margin-bottom: -0.9rem;
+    height: 3.226rem;
+    aspect-ratio: 407 / 100;
   }
   nav > ul > li:not(:first-of-type) {
     min-height: 1.25rem;
