@@ -4,329 +4,328 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
-    text: >-
-      **Acute** – In the medical terminology, acute refers to diseases,
-      illnesses or symptoms that develop fast and don’t last long. (Acute
-      doesn’t essentially mean severe.)
+    text: >+
+      **אקוטי** - במינוח הרפואי, אקוטי מתייחס למחלות, תחלואים או תסמינים
+      המתפתחים במהרה ולא נמשכים זמן רב. (אקוטי בעצם לא אומר חמור).
 
 
-      **Amitriptyline** – A sort of antidepressant; occasionally used in the therapy of IC/BPS, too. It mitigates the symptoms, but may have side effects if taken at large doses.
+      **אמיטריפטילין** - נוגד דיכאון. לעיתים, משתמשים בו גם לטיפול בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. הוא מפחית את התסמינים, אך עלול לגרום לתופעות לוואי, אם נלקח במינונים גבוהים.
 
 
-      **Anamnesis** – Describing the history and the current status of a patient, including diseases/conditions in the pasts, injuries, operations, but diet and living conditions, too. An accurate anamnesis helps make the proper diagnosis.
+      **אנמנזה (תולדות החולה)** - תיאור ההיסטוריה והמצב העדכני של המטופל, כולל מחלות/ מצבים שהיו בעבר, פציעות, ניתוחים וכן הרגלי התזונה ואורח החיים של המטופל. אנמנזה מדוייקת מסייעת להגיע לאבחנה הנכונה.
 
 
-      **Antidepressants** – A group of medicine. In spite of the name, they are used not only for treating depression, but also for several other conditions, e.g. chronic pain syndromes. Certain kinds of them – tricyclic antidepressants – are widely used in the oral therapy of IC/BPS.
+      **נוגדי דיכאון** - קבוצה של תרופות. למרות שמם, משתמשים בהם לא רק לשם טיפול בדיכאון, אלא גם במספר מצבים אחרים, למשל בתסמונות כאב כרוני. בסוגים מסוימים שלהם- בנוגדי דיכאון טריציקליים- משתמשים בטיפול דרך הפה במקרים של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **Antihistamines** – The name refers to histamine antagonists. (Histamine is a compound produced by certain cells. It is involved in the immune response of the body and has inflammatory effect.) They generally have anti-inflammatory effect, certain types of them – e.g. hydroxyzine and cimetidine – are used in the oral therapy of IC/BPS. See also: Histamine
+      **אנטיהיסטמינים** - השם מתייחס להיסטמינים אנטגוניסטים. (היסטמין הוא תרכובת המיוצרת ע"י תאים מסוימים. הוא מעורב בתגובה החיסונית של הגוף ויש לו השפעה דלקתית). באופן כללי, יש להם השפעה אנטי-דלקתית. משתמשים בסוגים מסוימים שלהם- בהידרוקסיזין ובסימטידין- בטיפול דרך הפה במקרים של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. ראה גם: היסטמין.
 
 
-      **Atrophy** – Partial or complete wasting away of a tissue, organ or body part.
+      **אטרופיה** - דלדול חלקי או שלם של רקמה, איבר או חלק גוף.
 
 
-      **Autoimmune disease** – A general term for diseases in which the immune system – mistakenly – attacks the own cells, tissues and substances of the body. Some theorize IC/BPS is an autoimmune disease or develops on the basis of autoimmune processes. This theory has not been confirmed yet.
+      **מחלה אוטואימונית** - מונח כללי למחלות, שבהן מערכת החיסון- בטעות- תוקפת את התאים, הרקמות ואת החומרים של הגוף עצמו. יש המעלים תיאוריה, לפיה דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה היא מחלה אוטואימונית או מתפתחת על בסיסם של תהליכים אוטואימוניים. תיאוריה זו לא אושרה עד כה.
 
 
-      **Bacterial cystitis** – The inflammation of the bladder which is caused by bacteria.
+      **ציסטיטיס חיידקי** - דלקת של שלפוחית השתן הנגרמת ע"י חיידק.
 
 
-      **Baking Soda** – See Bicarbonates
+      **אבקת סודה לשתייה** - ראה: ביקרבונטים.
 
 
-      **Bicarbonates** – A group of inorganic salts; in IC/BPS terminology it often refers to sodium bicarbonate (a.k.a. baking soda). It is used for urine alkalization (to mitigate the symptoms), as the part of the treatment.
+      **ביקרבונטים** - קבוצה של מלחים אנאורגניים; במונח של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, זה מתייחס לרוב לסודיום ביקרבונאט (הידוע גם כאבקת סודה לשתייה). משתמשים בו לאלקליזציה של השתן (כדי להפחית את התסמינים), כחלק מהטיפול.
 
 
-      **Biopsy** – Collecting specimen from a tissue or an organ. In case of IC/BPS, biopsy is not performed unless the cystoscopy reveals areas that might refer to tumorous alterations.
+      **ביופסיה** - לקיחת דגימה מרקמה או מאיבר. במקרה של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה לא מתבצעת ביופסיה, אלא אם כן הציטוסקופיה חושפת איזורים שעלולים להיות בהם שינוים גידוליים.
 
 
-      **Bladder Pain Syndrome** – See IC/BPS.
+      **תסמונת שלפוחית השתן הכאובה** - ראה: דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **BPS** – see IC/BPS
+      **תסמונת שלפוחית השתן הכאובה** - ראה: דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **BPIC/SS Questionnaire** – One of the questionnaires used for diagnosing IC/BPS; it surveys the voiding habits, the grade and the frequency of pelvic pain, focusing on the experience of the previous 7 days. It doesn’t seem to be a reliable method of diagnosing this disease.
+      **שאלון ציון סימפטומים של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה** - אחד מהשאלונים בהם משתמשים לאבחון דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. שאלון זה סוקר את הרגלי הריקון, את הדרגה ואת התדירות של כאבי האגן, תוך התמקדות בטווח הזמן של שבעת הימים הקודמים. שיטה זו לא נראית כאמינה לאבחון מחלה זו.
 
 
-      **Capsaicin** – An alkaloid which is present e.g. in the paprika and chili (and responsible for the “hot” sensation). In the medical practice they occasionally use it as a local analgesic. It has been tried in the treatment of IC/BPS, but has failed to improve the condition.
+      **קפסאיצין** - אלקלואיד שנמצא למשל בפפריקה ובצ'ילי (ואחראי לתחושה ה"חריפה"). בפרקטיקה הרפואית, משתמשים בו לעיתים כמשכך כאבים מקומי. נוסה גם בטיפול בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, אך לא הביא לשיפור המצב.
 
 
-      **Catheter** – A thin rubber pipe which is used for delivering solutions into certain organs (or draining solutions from them).
+      **קתטר** - צינור גומי דק, אשר משתמשים בו להכנסת תמיסות לאיברים מסוימים (או לניקוז תמיסות מהם).
 
 
-      **Chemotherapy Cystitis** (Chemo-Cystitis) – A form of cystitis may occur as a complication of the chemotherapy of a cancer. See more: Hemorrhagic Cystitis.
+      **ציסטיטיס מכימותרפיה**(כימוציסטיטיס) - סוג של דלקת שיכול להופיע כסיבוך של כימותרפיה (כטיפול בסרטן). ראה: ציסטיטיס דמי.
 
 
-      **Chondroitin** (Chondroitin Sulphate; CS) – A polysaccharide compound which is generally used for treating cartilage problems. In the therapy of IC/BPS, chondroitin sulphate is considered to be one of the GAG-layer replenishers.
+      **כונדרואיטין** - (כונדרואיטין סולפאט) - תרכובת פוליסכרידית, אשר משתמשים בה בדרך כלל לטיפול בבעיות סחוס. בטיפול בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, כונדרואיטין סולפאט נחשב לאחד ממחדשי שכבת הגליקוזאמינוגליקן.
 
 
-      **Cimetidine** – See Antihistamines
+      **סימטידין** - ראה: אנטיהיסטמינים.
 
 
-      **Citrates, Citric Acid** – The term is generally used for the salts of citric acid; despite the name these compounds have alkalizing effect.
+      **ציטריות, חומצה ציטרית** - לרוב משתמשים במונח זה בקשר למלחים של חומצה ציטרית. למרות השם, לתרכובות אלה יש השפעה של אלקליזציה.
 
 
-      **Chronic** – In the medical terminology it refers to long-lasting diseases, or conditions that persist for a long time.
+      **כרוני** - במינוח הרפואי, מתייחס למחלות ארוכות טווח או למצבים שנמשכים לאורך זמן רב.
 
 
-      **Classic IC/BPS** – An old term for IC/BPS with Hunner lesion.
+      **דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה קלאסית** - מונח ישן לדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה עם נגע האנר.
 
 
-      **Coagulation** – See Fulguration.
+      **קרישה** - ראה: פולגורציה.
 
 
-      **Cocktail** – In the therapy of IC/BPS the term refers to solutions instilled into the bladder that contain more components.
+      **קוקטייל** - בטיפול בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, המונח מתייחס לתמיסות המוחדרות לשלפוחית השתן, אשר כוללות מספר מרכיבים.
 
 
-      **Corticosteroids** – A group of hormones produced by the body; the term refers to similar synthetic compounds, too. In the medical practice, a group of anti-inflammatory agents is called so, as well. In the oral medication of IC/BPS corticosteroids can be used, too.
+      **קורטיקוסטרואידים** - קבוצה של הורמונים המיוצרים ע"י הגוף; המונח מתייחס גם לתרכובות סינתטיות דומות. בפרקטיקה הרפואית, גם לקבוצה של חומרים אנטי-דלקתיים קוראים כך. ניתן להשתמש בקורטיקוסטרואידים גם כתרופה למתן דרך הפה במקרים של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **Cystectomy** – Removing the bladder via a surgical operation. Current guidelines of treating IC/BPS say that cystectomy is recommended only if the patient hasn’t responded to any other therapy.
+      **ציסטקטומיה** - כריתת שלפוחית השתן דרך ניתוח. קוים מנחים עדכניים בקשר לטיפול בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה אומרים, כי ציסטקטומיה מומלצת רק אם המטופל אינו מגיב לאף טיפול אחר.
 
 
-      **Cystitis** – A general term for bladder inflammation. (Its official plural form is Cystitides.)
+      **ציסטיטיס** - מונח כללי לדלקת בשלפוחית השתן. (הצורה הרשמית ברבים היא ציסטיטידס).
 
 
-      **Cystoscopy** – Examining the inside of the bladder with a small camera (called cystoscope) which is lead into the bladder through the urethra. It was widely used in the past for diagnosing IC/BPS. Currently, it is performed only if it’s strongly suspected that there are alterations on the bladder wall or mucosa.
+      **ציסטוסקופיה** - בדיקה של פנים שלפוחית השתן בעזרת מצלמה קטנה (הנקראת ציסטוסקופ), אשר מוחדר לשלפוחית דרך השופכה. עשו בו שימוש נרחב בעבר לאבחון דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. כיום, מבצעים ציסטוסקופיה רק אם יש חשד מוצק לכך שיש שינויים ברירית או בדפנות השלפוחית.
 
 
-      **Cytology** – See Urine Cytology
+      **ציטולוגיה** - ראה: ציטולוגיה של השתן.
 
 
-      **Differential diagnosis** – Distinguishing conditions of similar symptoms and all the diagnostic methods of this purpose. This is the first step of diagnosing IC/BPS: the therapist has to rule out other conditions which may cause the symptoms, e.g. bacterial cystitis.
+      **אבחנה מבדלת** - הבחנה במצבים עם תסמינים דומים וכל שיטות האבחון של מטרה זו. זה השלב הראשון באבחון דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה: המטפל צריך לשלול מצבים אחרים העלולים לגרום לתסמינים, למשל ציסטיטיס חיידקי.
 
 
-      **Diverticulum** – A pathological condition, a small bulging sac or sacs of a cavernous organ are pushing outward. The sacs may consist of one or more layers of the organ wall.
+      **דיוורטיקולום (מחלת סעיף)** - מצב פתולוגי, שקיק בולט קטן או שקיקים של איבר חלול הדוחפים החוצה. השקיקים עלולים לכלול שכבה אחת או יותר מדפנות האיבר.
 
 
-      **DMSO** – Dimethyl-sulfoxide; one of the compounds used in the local treatment of IC/BPS. It is the only agent approved by FDA (The USA) for this purpose. It mitigates the symptoms, but, in itself, doesn’t regenerate the GAG-layer.
+      **דימתיל סולפוקסיד** - דימתיל סולפוקסיד; אחת התרכובות שמשתמשים בהן לטיפול מקומי בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. זה החומר היחיד שמאושר ע"י הFDA (מנהל המזון והתרופות האמריקאי) למטרה זו. הוא מפחית את התסמינים, אך לא מחדש בעצמו את שכבת הגליקוזאמינוגליקן.
 
 
-      **Dorfman (PUF) questionnaire** – One of the questionnaires widely used for diagnosing IC/BPS. It surveys the voiding habits, the presence and frequency of bladder pain, and the pain occurring during a sexual intercourse.
+      **שאלון דורפמן (PUF)** - אחד השאלונים, אשר נעשה בו שימוש נרחב לאבחון דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. השאלון סוקר את הרגלי הריקון, ההימצאות והתדירות של כאב בשלפוחית השתן, והכאב המופיע במהלך קיום יחסי מין.
 
 
-      **Dyspareunia** – Painful sexual intercourse. IC/BPS patients may have dyspareunia, too.
+      **דיספראוניה** - כאב בקיום יחסי מין. עלולה להיות דיספראוניה גם לחולים בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **Dysuria** – Painful urination. IC/BPS patients may have dysuria, too.
+      **דיסאוריה** - כאב בעת מתן שתן. עלולה להיות דיסאוריה גם לחולים בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **Elimination diet** – A form of diet. In the first step only the food and drinks are allowed to take that surely cause no problems. In the next step, each food or drink is to be added one by one – if no symptoms occur, it can be consumed in the future.
+      **דיאטת אלימינציה** - סוג של דיאטה. בשלב הראשון, מותר לצרוך רק מזון ומשקאות, אשר לבטח אינם גורמים לבעיות. בשלב הבא, ניתן להוסיף בהדרגה, כל פעם רק מאכל אחד או סוג משקה אחד- אם לא מופיעים תסמינים, ניתן לצרוך אותם גם בעתיד.
 
 
-      **Elmiron** – See PPS
+      **אלמירון** - ראה: פנטוזן פוליסולפט סודיום.
 
 
-      **Endometriosis** – A condition in which the endometrial tissue appears outside the uterus. It may cause pelvic pain or infertility. Endometriosis can be a comorbidity of IC/BPS.
+      **אנדומטריוזיס** - מצב שבו רקמה אנדומטריאלית צומחת מחוץ לרחם. מצב זה עלול לגרום לכאבי אגן או לעקרות. אנדומטריוזיס יכול להיות מחלה נלווית לדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **End-Stage Bladder** – An irreversible process during which the bladder wall becomes rigid, callused, and the volume of the bladder becomes abnormally small.
+      **שלפוחית שתן במצב סופני** - תהליך בלתי הפיך, שבמהלכו דפנות השלפוחית הופכות להיות נוקשות, יבלתיות, ונפח שלפוחית השתן הופך לקטן באופן חריג.
 
 
-      **Epidemiology** – The discipline of researching the appearance, abundance, spread and dispersion of diseases.
+      **אפידמיולוגיה** - הדיסציפלינה לחקר הופעה, ריבוי, התפשטות ופיזור מחלות.
 
 
-      **Etiology** – The discipline of researching the causes and the development of diseases.
+      **אתיולוגיה** - הדיסציפלינה לחקר גורמים למחלות והתפתחות מחלות.
 
 
-      **Fibromyalgia** – A condition characterized by wide-spread muscular or musculoskeletal pain. Its etiology is unknown. Fibromyalgia may be a comorbidity of IC/BPS.
+      **פיברומיאלגיה (דאבת השרירים)** - מצב המאופיין בכאב שרירים או כאב שרירי-גרמי מפושט ונרחב. האתיולוגיה לא ידועה. פיברומיאלגיה יכולה להיות מחלה נלווית לדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **Fulguration (Coagulation)** – Destroying certain tissues or areas with laser or electricity. (Although the word itself refers to the use of diathermy.) In the treatment of (Hunner lesion) IC/BPS the term refers to the process when the damaged parts of the bladder mucosa are being destroyed. Fulguration destroys the majority of the pain nerve endings, too, so it may greatly decrease the level of pain. After this process can the GAG-layer replenishment start. (Coagulation originally means the irreversible destruction of proteins, but in the terminology of IC/BPS the two expressions may be used in an interchangeable way.)
+      **פולגורציה (קרישה)** - השמדת רקמות או אזורים מסוימים בעזרת לייזר או חשמל. (למרות שהמילה עצמה מתייחסת לשימוש בדיאטרמיה.) בטיפול של (כיב האנר) דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, המונח מתייחס לתהליך שבו חלקים פגומים של רירית שלפוחית השתן מושמדים. פולגורציה משמידה גם את רוב קצות העצבים מוליכי הכאב, וכך מפחיתה משמעותית את רמת הכאב. לאחר תהליך זה יכול להתחיל חידוש שכבת הגליקוזאמינוגליקן. (במקור משמעותה של המילה קרישה, היא השמדה בלתי הפיכה של חלבונים, אך במינוח של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, ניתן להשתמש בשני הביטויים בדרך הניתנת להחלפה).
 
 
-      **Gabapentin** – A sort of medicine used for different conditions. In the oral therapy of IC/BPS, it is applied for lessening the neuropathic pain.
+      **גבפנטין** - מעין תרופה, אשר משתמשים בה למצבים שונים. בטיפול דרך הפה בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, היא מיושמת להפחתת הכאב הנוירופטי.
 
 
-      **GAG-layer** – A mucus (mucosal) layer which covers the inner surface of the bladder, it consists of glycosaminoglycans. The GAG-layer protects the deeper regions of the bladder wall (including the pain receptors) from the irritative substances that are present normally in the urine. In the condition of IC/BPS this GAG-layer gets damaged, which leads to pain and frequent voiding stimulation.
+      **שכבת הגליקוזאמינוגליקן** - שכבת ריר (רירית) שמצפה את השטח הפנימי של שלפוחית השתן, הכוללת גליקוזאמינוגליקנים. שכבת הגליקוזאמינוגליקן מגנה על האיזורים העמוקים יותר של דפנות שלפוחית השתן (כולל קולטני הכאב) מחומרים מגרים שנמצאים באופן נורמלי בשתן. במצב של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה שכבת הגליקוזאמינוגליקן נפגמת, מה שמוביל לכאב ולגירוי תכוף למתן שתן.
 
 
-      **GAG-layer integrity test** a.k.a. **Two-day voiding diary** – A new method of diagnosing IC/BPS. The basic principle is the following: since the damaged bladder gets irritated because of the salts present in the concentrated urine, the more concentrated the urine is, the smaller the urine portions (the total amount of urine of a voiding) are. For the test, the patient makes a two-day voiding diary. On the first day he/she needs to take the less fluid they can, whereas on the second day the most. In case of a healthy bladder, the mean of the urine portions is the same, regardless of the fluid intake. The bigger the difference of the portions is, the more advanced IC/BPS is.
+      **בדיקת תקינות של שכבת הגליקוזאמינוגליקן** הידועה גם כ**יומן ריקון בן יומיים** - שיטה חדשה לאבחון דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. העיקרון הבסיסי הוא העיקרון הבא: מאחר ששלפוחית השתן הפגומה הופכת למגורה, בגלל המלחים הנמצאים בשתן המרוכז, ככל שהשתן מרוכז יותר, כמויות השתן קטנות יותר (הסך הכולל של שתן מרוקן). בשביל הבדיקה, המטופל מכין יומן ריקון בן יומיים. ביום הראשון, הוא/היא צריכ/ה לצרוך כמה שפחות נוזל שהוא/ היא יכול/ה וביום השני לצרוך כמה שיותר. במקרה של שלפוחית שתן בריאה, ממוצע כמויות השתן הוא זהה, ללא קשר לצריכת הנוזלים. ככל שההבדל בין הכמויות גדול יותר, כך דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה היא במצב מתקדם יותר.
 
 
-      **GAG-layer replenisher** – A general term for the compounds that supposed to help the replenishment of the GAG-layer. E.g. heparin, hyaluronic acid and chondroitin sulphate belong to this group.
+      **מחדש שכבת הגליקוזאמינוגליקן** - מונח כללי לתרכובות האמורות לסייע לחידוש שכבת הגליקוזאמינוגליקן. תרכובות השייכות לקבוצה זו, הן למשל הפארין, חומצה היאלורונית וכונדרואיטין סולפאט.
 
 
-      **Glycosaminoglycan** – A general term for certain polysaccharides containing nitrogen. These compounds are among the main components of the mucus layer covering the inner surface of the bladder. Chondroitin and hyaluronic acid are glycosaminoglycans, too. See also: GAG-layer.
+      **גליקוזאמינוגליקן** - מונח כללי לפוליסכרידים מסוימים המכילים ניטרוגן. תרכובות אלה הן בין המרכיבים העיקריים של שכבת הריר המצפה את השטח הפנימי של שלפוחית השתן. חומצה היאלורונית וכונדרואיטין הם גם גליקוזאמינוגליקנים. ראה גם: שכבת הגליקוזאמינוגליקן.
 
 
-      **Hematuria** – Blood is present in the urine. In case of IC/BPS hematuria rarely occurs; even if so, the amount of blood is so small that it can be detected by certain laboratorial examinations. Hematuria is a typical symptom of hemorrhagic cystitides.
+      **המטוריה** - דם הנמצא בשתן. במקרה של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, יש לעיתים נדירות המטוריה; ואפילו אם כן, היא כה קטנה שניתן להבחין בה רק בבדיקות מעבדה מסוימות. המטוריה היא תסמין אופייני לציסטיטידס דמיים.
 
 
-      **Hemorrhagic Cystitis (HC)** – An umbrella term for conditions in which the bladder is inflamed and its mucosa is bleeding. Different authors use HC for different group of conditions. On this page, Hemorrhagic Cystitis is used for complications of oncotherapeutical treatment: chemotherapy cystitis and radiation cystitis.
+      **ציסטיטיס דמי** - מונח מטריה למצבים שבהם שלפוחית השתן מודלקת והרירית שלה מדממת. מחברים שונים משתמשים במונח ציסטיטיס דמי לקבוצה של מצבים שונים. בעמוד זה משתמשים במונח ציסטיטיס דמי לסיבוכים מטיפול אונקולגי: ציסטיטיס מכימותרפיה וציסטיטיס מהקרנות.
 
 
-      **Heparin** – A polysaccharide compound which contains nitrogen and sulfur. It’s widely used in the medical practice as anticoagulant. In the treatment of IC/BPS it’s one of the GAG-layer replenishers.
+      **הפארין** - תרכובת פוליסכרידית המכילה ניטרוגן וגופרית. יש לה שימוש נרחב בפרקטיקה הרפואית כחומר נוגד קרישה. בטיפול בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה היא אחת ממחדשי שכבת הגליקוזאמינוגליקן.
 
 
-      **Histamine** – A transmitter molecule naturally present in the human body. It has a key role in inflammatory processes. It dilates the smaller blood vessels whose wall become more permeable for certain chemical compounds. This results in the typical reddish color of the affected area. Histamine also stimulates the nerve endings whose effect is the itchiness. The therapy of IC/BPS is often complemented with antihistamine substances – certain sorts of medicine that antagonize histamine.
+      **היסטמין** - מוליך עצבי שקיים באופן טבעי בגוף האדם. יש לו תפקיד מפתח בתהליכים דלקתיים. הוא מרחיב את כלי הדם הקטנים יותר, אשר דפנותיהם הופכות לחדירות יותר לתרכובות כימיות מסוימות. התוצאה של זה היא הופעת צבע אדמדם האופייני לאיזור הפגוע. היסטמין גם מגרה את קצות העצבים שהשפעתם היא הגרד. לעיתים קרובות משלימים את הטיפול בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה עם חומרים אנטיהיסטמינים- סוגים מסוימים של תרופות הנוגדות היסטמין.
 
 
-      **Hunner Lesion (Hunner Ulcer)** – In case of the 10–30% of the IC/BPS patients, characteristic lesions can be observed on the bladder wall. In the past they used the term as a synonym of IC/BPS, because this form of the disease was discovered earlier (by Guy Hunner, in 1915). In fact, in case of most of the IC/BPS patients there are no Hunner lesions. The term “Hunner Ulcer”, which used to be the old name of the phenomenon, is misleading, because there are no ulcers present at all. (Ulcerative IC used to be a term that referred to this form of IC/BPS.)
+      **נגע האנר (כיב האנר)** - במקרים של 10-30% מהחולים בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, ניתן להבחין בנגעים אופייניים על דפנות שלפוחית השתן. בעבר השתמשו במונח זה כמילה נרדפת לדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, מכיוון שסוג מחלה זה התגלה קודם לכן (ע"י גיא האנר, ב1915).למעשה, לרוב החולים בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה אין נגעי האנר. המונח "כיב האנר", שהיה בעבר השם הישן של התופעה, מטעה, כי אין כיבים כלל. (דלקת משתית השלפוחית הכיבית היה המונח שהתייחס לצורה זו של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.)
 
 
-      **Hyaluronic Acid** – A polysaccharide molecule. It is regularly used for treating joint problems and skin regeneration. Several cosmetics contain hyaluronic acid, too. In the treatment of IC/BPS it is one of the GAG-layer replenishers.
+      **חומצה היאלורונית** - מולקולה פוליסכרידית. משתמשים בה באופן קבוע לטיפול בבעיות מפרקים והתחדשות העור. מספר מוצרי קוסמטיקה גם מכילים חומצה היאלורונית. בטיפול בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה היא אחת ממחדשי שכבת הגליקוזאמינוגליקן.
 
 
-      **Hydrodistension** – High pressure cystoscopy. During this process the bladder is being filled up with water; while the cystoscopy is performed the water pressure is being lessened gradually so that the alterations of the bladder mucosa can be examined. It is an effective method for identifying certain typical forms of bleeding which are often present in IC/BPS patients. It is performed in anesthesia. Hydrodistension used to be a common therapeutical tool; currently it is mostly used for diagnostic purposes.
+      **הידרודיסטינציה** - ציטוסקופיה בלחץ גבוה. במהלך תהליך זה, שלפוחית השתן ממולאת במים; בזמן ביצוע הציטוסקופיה לחץ המים מופחת בהדרגה, בכדי שיהיה ניתן לבחון את השינויים ברירית שלפוחית השתן. זאת שיטה יעילה לזיהוי סוגים אופייניים מסוימים של דימומים, אשר מופיעים לעיתים קרובות אצל חולים בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. היא מתבצעת בהרדמה. הידרודיסטינציה שימשה בעבר ככלי טיפולי שכיח; נכון לעכשיו היא משמשת בעיקר למטרות אבחון.
 
 
-      **Hydroxyzine** – See Antihistamines
+      **הידרוקסיזין** - ראה: אנטיהיסטמינים.
 
 
-      **Hypersensitive Bladder (HSB)** – See IC/BPS
+      **תסמונת השלפוחית הרגישה** - ראה: דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **IC/BPS, Interstitial Cystitis, Bladder Pain Syndrome** – A condition of urinary symptoms and severe pain. Its etiology is not known, diagnosing it is complicated. According to our current knowledge, there is no permanent cure for IC/BPS, but with an effective treatment, patients can be symptom-free for long years. The naming of the disease in the scientific literature is confusing. In Europe, it’s usually called Interstitial Cystitis (IC). In America, it’s mostly known as Bladder Pain Syndrome. In the Far East, the condition is often called Hypersensitive Bladder (HBS), sometimes they refer to certain types of it with the term. In fact, neither the name nor the definition of the disease is standardized, which often leads to confusion. Most articles use the Interstitial Cystitis/Bladder Pain Syndrome (or shortly IC/BPS) expression (even if both names may be used as an “umbrella term”, or one may be considered a sub-type of the other one.)
+      **דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה** - מצב של תסמיני שתן וכאב חמור. האתיולוגיה לא ידועה, האבחון מסובך. בהתאם לידע הנוכחי שברשותנו, אין תרופה קבועה לדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, אך עם טיפול יעיל, המטופלים יכולים להיות נטולי תסמינים לאורך שנים ארוכות. השם של המחלה בספרות המדעית הוא מבלבל. באירופה, לרוב המחלה נקראת דלקת משתית השלפוחית. באמריקה, היא ידועה בתור תסמונת שלפוחית השתן הכאובה. במזרח הרחוק, מצב זה נקרא לרוב תסמונת השלפוחית הרגישה, לפעמים הם מתייחסים לסוגים מסויימים שלה עם מונח זה. למעשה, גם השם וגם ההגדרה של המחלה הם לא סטנדרטיים, מה שמוביל לעיתים קרובות לבלבול. מרבית המאמרים משתמשים בביטוי דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה (גם אם שני השמות עשויים לשמש כ"מונח מטריה", או שאחד מהם יכול להיחשב כסוג משנה של השני).
 
 
-      **Incontinence** – The lack of control over urination. Most IC/BPS patients don’t suffer from incontinence.
+      **בריחת שתן** - חוסר שליטה במתן שתן. מרבית החולים בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה אינם סובלים מבריחת שתן.
 
 
-      **Instillation** – Delivering a substance directly into the bladder. It can be performed with or without a catheter, too.
+      **החדרה** - הובלת חומר ישירות לשלפוחית השתן. ניתן לבצע זאת עם או בלי קתטר.
 
 
-      **Interstitial Cystitis** – See IC/BPS.
+      **דלקת משתית השלפוחית** - ראה: דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **Invasive** – In the medical practice the term refers to technics or devices that intrude the body or a cavity of it. In a wider context, it refers to the grade of this “introduction”. Using a catheter, for example, is more invasive than oral medication, but less invasive than performing a surgery.
+      **פולשני** - בפרקטיקה הרפואית, המונח מתייחס לטכניקות או למכשירים, החודרים לגוף או לחלל שלו. בהקשר רחב יותר, הכוונה היא לציון "מבוא" זה. שימוש בקתטר, למשל הוא יותר פולשני ממתן תרופות דרך הפה, אך פחות פולשני מביצוע ניתוח.
 
 
-      **Irritable Bowel Syndrome (IBS)** – A disease of the stomach and/or the bowels, its usual symptoms are abdominal pain and defecation disorders. No alteration of the affected organs can be observed. In case of IC/BPS patients the risk of developing IBS is higher.
+      **תסמונת המעי הרגיז** - מחלה של הקיבה ו/או של המעיים. לרוב, התסמינים הם כאבים בבטן התחתונה והפרעות בעשיית צרכים. לא ניתן להבחין בשינוי באיברים הפגועים. במקרים של חולים הסובלים מדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, הסיכונים לפתח תסמונת מעי רגיז גבוהים יותר.
 
 
-      **Lidocaine (Lignocaine)** – A local analgesic widely used in the therapy of IC/BPS, too.
+      **לידוקאין (ליגנוקאין)** - משכך כאבים מקומי, אשר עושים בו שימוש נרחב בטיפול בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **Local Therapy** – Treating directly the affected organ or area. In the field of IC/BPS, it primarily refers to bladder instillation.
+      **טיפול מקומי** - טיפול ישיר באיזור או באיבר הפגוע. בתחום דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, זה מתייחס בעיקר להזלפת שלפוחית השתן.
 
 
-      **Lovász Questionnaire** – One of the questionnaires used for diagnosing IC/BPS. It surveys the level and frequency of bladder pain.
+      **שאלון Lovász (לובאס)** - אחד השאלונים שמשתמשים בהם לאכחון דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. הוא סוקר את הדרגה והתדירות של כאבים בשלפוחית השתן.
 
 
-      **Lupus** – In its scientific name Systemic Lupus Erythematosus (SLE); a chronic autoimmune disease; inflammations develop in the effected organs. It may be a comorbidity of IC/BPS.
+      **זאבת (לופוס)** - בשמה המדעי, זאבת אדמנתית מערכתית; מחלה כרונית אוטואימונית; דלקות מתפתחות באיברים הפגועים. עלולה להיות מחלה נלווית אצל חולים בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **Malignant** – In the term of medicine it refers to tumorous transformations that may lead to a life-threatening condition without a proper treatment.
+      **ממאיר** - במונח הרפואי, הכוונה היא לטרנספורמציות גידוליות (תהליכי שינוי גידוליים), שיכולות להוביל למצב מסכן חיים, ללא טיפול מתאים.
 
 
-      **Malignoma** – A general term for malignant transformations of epithelial origin.
+      **גידול ממאיר** - מונח כללי לתהליכי שינוי גידוליים ממקור אפיתלי.
 
 
-      **Marker** – In the field of diagnostics it refers to substances, molecules, cells etc. whose presence is/are a typical sign of a certain disease or condition. IC/BPS has no known marker.
+      **סמן** - בתחום האבחון, הכוונה היא לחומרים, מולקולות, תאים וכו', אשר נוכחותם היא סימן אופייני למצב או למחלה מסוימת. לדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה אין סמן ידוע.
 
 
-      **Mast Cell** – A common type of cells in the immune system. Its size is relatively big. Mast cells have a key role in inflammatory and allergic processes, they produce several kind of transmitter molecules, including histamine (see there). Large amount of mast cells can be present in the connective tissues, e.g. around the blood vessels. In the condition of IC/BPS an increased amount of mast cells can be observed.
+      **תא פטום** - סוג שכיח של תאים במערכת החיסון. גודלו יחסית גדול. לתאי פטום יש תפקיד מפתח בתהליכים דלקתיים ואלרגיים, הם מייצרים סוג מסויים של מוליכים עצביים, כולל היסטמין (ראה שם). כמות גדולה של תאי פיטום יכולה להימצא ברקמות החיבור, למשל מסביב לכלי הדם. במצב של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה ניתן להבחין בכמות מוגברת של תאי פטום.
 
 
-      **Nocturia** – The condition in which the patient has to wake up during the night to void. If nocturia occurs frequently, and two or more times a night, that may be a sign of IC/BPS. In sever cases the patient has to void in every 20–30 minutes.
+      **הטלת שתן לילית** - מצב שבו למטופל יש צורך לקום במהלך הלילה ולהטיל שתן. אם הטלת שתן לילית קורית לעיתים תכופות, יותר מפעמיים או שלוש פעמים בלילה, זה עלול להיות סימן לדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. במקרים חמורים, המטופל צריך להטיל שתן בכל 20-30 דקות.
 
 
-      **Non-Steroids** (Non-Steroidal Anti-Inflammatory Drugs, NSAID) – Anti-inflammatory agents with a similar effect but a different mechanism of action to Corticosteroids (see there). NSAIDs are widely used in the oral therapy of IC/BPS.
+      **לא סטרואידים**(נוגדי דלקת שאינם סטרואידים) - חומרים נוגדי דלקת בעלי השפעה דומה, אך עם מנגנון פעולה שונה בהשוואה לקורטיקוסטרואידים (ראה שם). נעשה שימוש נרחב בנוגדי דלקת שאינם סטרואידים בטיפול דרך הפה בחולי דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **O’Leary–Sant Questionnaire** – A questionnaire used for diagnosing IC/BPS. It surveys the voiding habits, the level and the frequency of bladder pain. It consists of two parts: IC Symptom Index (ICSI) and IC Problem Index (ICPI). Sometimes they evaluate these parts separately.
+      **שאלון O’Leary-Sant** - שאלון המשמש לאבחון דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. הוא סוקר את הרגלי הריקון, הדרגה והתדירות של הכאב בשלפוחית השתן. הוא כולל שני חלקים: אינדקס תסמינים של דלקת משתית השלפוחית ואינדקס בעיות דלקת משתית השלפוחית. לפעמים מעריכים את שני החלקים בנפרד.
 
 
-      **Onabotulinumtoxin A** a.k.a. **Botox** – In the treatment it is injected into the muscles nearby or the mucosa to mitigate the symptoms. It is an experimental method, whose efficiency hasn’t been confirmed.
+      **רעלן הבוטולינום (Botulinium A toxin)** הידוע כ**בוטוקס** - בטיפול הוא מוזרק לשרירים הסמוכים או לרירית כדי להפחית את התסמינים. זאת שיטה ניסיונית, שיעילותה עוד לא אושרה.
 
 
-      **Oral Therapy** – Administrating medicine orally for treating a disease or condition.
+      **טיפול דרך הפה** - מתן תרופה דרך הפה לטיפול במחלה או במצב.
 
 
-      **Overactive Bladder Syndrome (OAB)** – A condition of urinary urgency, in most cases with increased urinary frequency and nocturia; incontinence may occur, too. OAB is not clearly defined in the scientific literature. Some of the symptoms are the same as those of IC/BPS. However, incontinence is a relatively common symptom of OAB but pain rarely occurs, whereas in case of IC/BPS the situation is the opposite.
+      **תסמונת השלפוחית הרגיזה** - מצב של דחיפות במתן שתן, ברוב המקרים עם תדירות גבוהה למתן שתן והטלת שתן לילית; יכולה להופיע גם בריחת שתן. תסמונת השלפוחית הרגיזה לא מוגדרת במדויק בספרות המדעית. חלק מהתסמינים, הם אותם תסמינים שיש לחולים בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. עם זאת, בריחת שתן היא תסמין שכיח יחסית אצל חולים בתסמונת השלפוחית הרגיזה, אך לעיתים נדירות מופיע כאב. ואילו, אצל חולים בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, המצב הוא בדיוק ההיפך.
 
 
-      **Parsons-Test** – One of the methods of diagnosing IC/BPS. They fill up the bladder with potassium salts; the increasing pain refers to the damaged or deficient status of the bladder mucosa. Currently, it is not a recommended method of diagnosis, because it is painful and not very reliable.
+      **בדיקת Parsons (פרסונס)** - אחת השיטות לאבחון דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. ממלאים את השלפוחית במלח אשלגן; הכאב הגובר מתייחס למצב פגום או לקוי של רירית שלפוחית השתן. נכון לעכשיו, זאת לא שיטת אבחון מומלצת, מכיוון שהיא כואבת ולא אמינה במיוחד.
 
 
-      **Pentosan Polysulfate Sodium** (PPS, Elmiron, SP 54, Comfora, Jelmiron) – One of the agents used in the therapy of IC/BPS. Several products available in different countries (see the brackets) contain this compound; Elmiron is the only medicine in the USA with an FDA-approval for the oral treatment of IC/BPS. Patients usually start to respond to PPS after about 6 months of therapy, and side-effects may occur, too. There have been attempts to use PPS for bladder instillation, as well.
+      **פנטוזן פוליסולפט סודיום** (פנטוזן פוליסולפט סודיום, אלמירון, SP 54, קומפורה, ג'למירון) - אחד מהחומרים שמשתמשים בהם בטיפול בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. מספר מוצרים זמינים במדינות שונות (ראה בסוגריים) מכילים את התרכובת הזאת; אלמירון היא התרופה היחידה בארה"ב, אשר מאושרת ע"י ה-FDA לטיפול דרך הפה בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה. מטופלים בדרך כלל מגיבים לפנטוזן פוליסולפט סודיום לאחר שישה חודשים של טיפול, ואז גם תופעות הלוואי עלולות להופיע. היו נסיונות להשתמש בפנטוזן פוליסולפט סודיום גם בהזלפה לשלפוחית השתן.
 
 
-      **Placebo** – A substance (e.g. pill, liquid etc.) which cannot be distinguished from a certain medicine (e.g. it looks like the same), but contains no active agents. In clinical trials one group of the patients usually get the “real” medicine (whose effect is examined), whereas the other group receives placebo. The patients don’t know whether they got the medicine or the placebo. It can be evaluated how the condition of those who got the medicine has changed, compared to those who got the placebo, so that it can be learnt how effective the medicine actually is.
+      **פלצבו** - חומר (למשל, גלולה, נוזל וכו') שלא ניתן להבדיל מתרופה מסוימת (למשל, זה נראה זהה), אך אינו מכיל חומרים פעילים. בניסויים קליניים, קבוצה אחת מהחולים מקבלת את התרופה "האמיתית" (שהשפעתה נבחנת), ואילו הקבוצה השנייה מקבלת פלצבו. החולים אינם יודעים, אם קיבלו את התרופה או את הפלצבו. ניתן להעריך כיצד השתנה מצבם של אלה שקיבלו את התרופה, בהשוואה לאלה שקיבלו את הפלצבו, כך שיהיה ניתן ללמוד עד כמה התרופה אכן יעילה.
 
 
-      **Potassium** – A chemical element, in the medical terminology they often refer to its salts with the word. The potassium present in the urine is highly irritative – and causes pain – in case of a damaged GAG-layer.
+      **אשלגן** - יסוד כימי, במינוח הרפואי, לעיתים קרובות הם מתייחסים למלחים שלו עם המילה עצמה. האשלגן הנמצא בשתן מגרה מאוד- וגורם לכאב- במקרה של שכבת גליקוזאמינוגליקן פגומה.
 
 
-      **Potassium Test** – See Parsons-test.
+      **תבחין הזלפת אשלגן** - ראה: בדיקת Parsons.
 
 
-      **Prolapsus Uteri** – See Uterine Prolapse
+      **שמט הרחם** - ראה: צניחת רחם.
 
 
-      **Prostatitis** – The inflammation of the prostate gland.
+      **דלקת הערמונית (פרוסטטיטיס)** - דלקת של בלוטת הערמונית.
 
 
-      **Qualitative Examination** – An examination whose goal is to detect the presence of something (e.g. a pathogen or a molecule), but it doesn’t detect its quantity.
+      **בדיקה איכותית** - בדיקה שמטרתה לזהות את הנוכחות של דבר מסוים (למשל, פתוגן או מולקולה), אך היא לא מזהה את הכמות שלו.
 
 
-      **Quantitative Examination** – An examination whose goal is to detect both the presence and the quantity of something (e.g. a pathogen or a molecule).
+      **בדיקה כמותית** - בדיקה שמטרתה לזהות את הנוכחות וגם את הכמות של דבר מסוים (למשל, פתוגן או מולקולה).
 
 
-      **Radiation Cystitis (RC)** – The inflammation of the bladder caused by the radiation therapy of the bladder. It is a post-cancer condition.
+      **ציסטיטיס מהקרנות** - הדלקת של שלפוחית השתן נגרמת עקב טיפול בהקרנות של השלפוחית. זה מצב פוסט-סרטני.
 
 
-      **rUTI, Recurring Urinary Tract Information** – See Urinary Tract Infection  
+      **מידע על זיהום חוזר בדרכי השתן** - ראה: זיהום חוזר בדרכי השתן.
 
 
-      **Sacral Neuromodulation (SNM)**, a.k.a. **Sacral Nerve Stimulation** – A treatment in which the sacral nerve (situated between the spinal cord and the bladder) is being stimulated to mitigate the pain and the voiding urgency. The results of the clinical trials regarding sacral neuromodulation are controversial.
+      **נוירומודולציה של עצם העצה** הידועה כ**גירוי עצבי עצם העצה** - טיפול שבו עצב עצם העצה (הנמצא בין חוט השדרה לבין שלפוחית השתן) מגורה על-מנת להפחית את הכאב ואת הדחיפות במתן שתן. התוצאות של הניסויים הקליניים בקשר לנוירומודולציה של עצם העצה שנויות במחלוקת.
 
 
-      **Sjögren Syndrome** – An autoimmune disease in which the lachrymal and the salivary glands are affected. It may be a comorbidity of IC/BPS.
+      **תסמונת שגרן (Sjörgen)** - מחלה אוטואימונית שפוגעת בבלוטות הרוק והדמעות. יכולה להיות מחלה נלווית לדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **Sodium Bicarbonate** – See Bicarbonates
+      **סודיום ביקרבונאט** - ראה: ביקרבונטים.
 
 
-      **SP 54** – See Pentosan Polysulfate Sodium
+      **SP 54** - ראה: פנטוזן פוליסולפט סודיום.
 
 
-      **Sterile Inflammation** – Any inflammation which develops not because of a pathogen (e.g. a bacterium).
+      **דלקת סטרילית** - כל דלקת שאינה מתפתחת מפתוגן (למשל, מחיידק).
 
 
-      **Substance P** – One of the neurotransmitters (molecules of a messenger function in the nerveous system). Substance P plays a key role in inflammatory processes, and in increasing the pain in case of IC/BPS patients.
+      **חומר P** - אחד מהמוליכים העצביים (מולקולות המעבירות מסרים למערכת העצבים). חומר P משחק תפקיד מפתח בתהליכים דלקתיים ובהגברת הכאב במקרים של חולים בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **Transcutaneous Electrical Nerve Stimulation (TENS)** – A process for pain relief; the pain nerves are being stimulated with electricity to mitigate the pain. It doesn’t affect the condition itself which causes the pain, though.
+      **גירוי עצבי חשמלי במעבר עורי** - תהליך להקלת הכאב; עצבי הכאב מגורים חשמלית כדי להפחית את הכאב. אף על פי כן, הוא לא משפיע על המצב עצמו הגורם לכאב.
 
 
-      **Two-Day Voiding Diary** – See GAG-Layer Integrity Test.
+      **יומן ריקון בן יומיים** - ראה: בדיקת תקינות של שכבת הגליקוזאמינוגליקן.
 
 
-      **Urethritis** – A general term for any form of the inflammation of the urethra. In case of IC/BPS, the urethra is often affected, too.
+      **דלקת השופכה (אורתריטיס)** - מונח כללי לכל סוג של דלקת בשופכה. במקרה של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, גם השופכה נפגעת.
 
 
-      **Urinary Tract Infection (UTI)** – An infection caused by any pathogen (bacteria, in most cases) and in which the urethra, the bladder, and – in worst case – the kidneys are affected. The symptoms may be similar to those of IC/BPS, but it can be symptomless, as well. Occasionally, the GAG-layer might become damaged, too, but it is being regenerated after fighting of the infection, normally. The medical practice focuses primarily on prophylaxis; the treatment itself, in most cases, consists of administering agents effective against the pathogen (e.g. antibiotics). Recurrent Urinary Tract Infection (rUTI), is a condition of two or more proven infections in 6 months, or 3 or more infections in 12 months. UTIs are amongst the most common diseases.
+      **זיהום בדרכי השתן** - זיהום שנגרם ע"י פתוגן כלשהו (חיידק, ברוב המקרים) ושבו השופכה, שלפוחית השתן- ובמקרה הגרוע ביותר-הכליות נפגעות. התסמינים עלולים להיות דומים לאלה של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, אך זה יכול להיות גם נטול תסמינים. לעיתים, גם שכבת הגליקוזאמינוגליקן עלולה להיפגם, אך בדרך כלל מתחדשת לאחר שנלחמה בזיהום. הפרקטיקה הרפואית מתמקדת בעיקר בטיפול מונע; הטיפול עצמו, ברוב המקרים, כולל מתן חומרים יעילים כנגד הפתוגן (למשל, אנטיביוטיקה). זיהום חוזר בדרכי השתן, הוא מצב שבו יש שניים או יותר זיהומים מוכחים בטווח של 6 חודשים, או שלושה זיהומים או יותר בטווח של 12 חודשים. זיהומים בדרכי השתן הן בין המחלות השכיחות ביותר.
 
 
-      **Urine Cytology** – The examination of the cells present in the urine. Its primary goal is to detect whether the cause of the symptoms is a sort of malignant transformation.
+      **ציטולוגיה של השתן** - בחינה של התאים הנמצאים בשתן. מטרתה העיקרית היא לזהות אם הגורם לתסמינים הוא סוג של טרנספורמציה ממאירה.
 
 
-      **Urine Portion** – The amount (volume) of urine produced during a single voiding occasion. Generally said, urine portions are smaller in case of IC/BPS patients than those of healthy people.
+      **מנת שתן** - הכמות (הנפח) של השתן המיוצר במהלך הטלת שתן אחת. באופן כללי, מנות שתן של חולים בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה קטנות יותר מאלה של אנשים בריאים.
 
 
-      **Urine Retention** – After voiding there is still some urine remaining in the bladder. It may occur in case of IC/BPS patients.
+      **החזקת שתן** - לאחר ריקון השתן, עדיין נשאר שתן בשלפוחית השתן. זה עלול להופיע אצל חולים בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה.
 
 
-      **Urodynamics** a.k.a. **Urodynamic Testing** – A complicated process to monitor the pressure in the bladder to evaluate the bladder capacity, the urine flow, the resistance of the urethra and other parameters. It is not applied in the diagnoses of IC/BPS, because it doesn’t provide enough information. On the other hand, it is used for discovering the cause of incontinence.
+      **אורודינמיקה** הידועה כ**בדיקה אורודינמית** - תהליך מורכב לניטור הלחץ בשלפוחית השתן על-מנת להעריך את קבולת השלפוחית, זרימת השתן, התנגדות השופכה ופרמטרים אחרים. בדיקה זו לא מיושמת באבחון של דלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, מפני שהיא לא מספקת מספיק מידע. מצד שני, משתמשים בה לגילוי הגורם לבריחת שתן.
 
 
-      **Urothelium** – A special form of epithelium which can be found at the inner surface of the bladder.
+      **אורותל** - צורה מיוחדת של אפיתל, אשר ניתן למצוא על פני השטח הפנימי של שלפוחית השתן.
 
 
-      **Uterine Prolapse (Prolapsus Uteri)** – The uterus descends towards or even through the opening of the vagina.
+      **צניחת רחם (שמט הרחם)** - הרחם יורד לכיוון הנרתיק או אפילו עובר דרך פתח הנרתיק.
 
 
-      **Vaginitis** – The inflammation of the vagina.
+      **דלקת הנרתיק (וגיניטיס)** - דלקת של הנרתיק.
 
 
-      **VAS Scale** – Visual Analogue pain Scale; a widely known method for estimating the amount of pain. The patient himself/herself determines the pain they experience and assign a number between 1–10 to the sensation. The drawback of this method is that different people usually have different opinion on the severeness of pain.
+      **סולם VAS** - סולם אומדן כאב מספרי; שיטה ידועה ביותר לאומדן כמות הכאב. המטופל/ת עצמו/עצמה קובע/ת שהוא/היא מרגיש/ה ובוחר/ת מספר מ1 עד 10 בהתאם לתחושה. החיסרון של שיטה זו, הוא שלאנשים שונים בדרך כלל יש דעה שונה בנוגע לחומרת הכאב.
 
 
-      **Vesicoureteral Reflux** – A pathological condition in which the urine flows back from the bladder to the ureters, and to the kidneys, severely damaging the latter organs.
+      **זרימה חוזרת מן השלפוחית לשופכן** - מצב פתולוגי שבו השתן זורם חזרה מהשלפוחית לשופכנים ולכליות, ופוגע באופן חמור באיברים האחרונים.
 
 
-      **Vulvodynia** – Vaginal pain. IC/BPS patients can experience it more often than those who don’t suffer from this condition.
+      **וולוודיניה** - כאב בפות. עלול להיות יותר אצל חולות בדלקת משתית השלפוחית/תסמונת שלפוחית השתן הכאובה, מאשר אצל אלה אשר אינן סובלות ממצב זה.
 ---
