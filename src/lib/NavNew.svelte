@@ -1,5 +1,5 @@
 <script context="module">
-	import { state, /*moved, */sitelang } from '$lib/stores'
+	import { state, sitelang, variables } from '$lib/stores'
   import { onMount, afterUpdate } from 'svelte'
   //import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
   //import { langs } from '$lib/config';
@@ -25,7 +25,7 @@
       }
     }
   })*/
-  const _site = '_UD' //import.meta.env.VITE__site
+  const _site = variables.site //import.meta.env.VITE_SITE
   const sitelogo = `sitelogo${_site}.svg`
   const logoclass = `sitelogo${_site}`
 </script>

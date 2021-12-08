@@ -17,3 +17,7 @@ export const gateway = persistent('gateway', {})
 //export let lang = persist(writable('en'), cookieStorage(), 'frontend_lang')
 //export let cookies = persist(writable(false), cookieStorage(), 'cookieconsent_status')
 //export const moved = writable(false)
+
+export const variables = {
+  site: import.meta.env.VITE_SITE
+}

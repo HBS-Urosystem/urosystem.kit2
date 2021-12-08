@@ -1,8 +1,10 @@
 import _ from 'lodash'
 import mixing from 'mixing'
 import marked from 'marked'
+import { variables } from '$lib/stores'
 
-const SITE = import.meta.env.VITE_SITE
+//const _site = import.meta.env.VITE__site
+const _site = variables.site
 
 const allblocks = import.meta.glob('/cms/blocks/**/*.md')
 const allposts = import.meta.glob('/cms/pages/**/*.md')
@@ -56,7 +58,7 @@ export async function _getConf(lang) {
     if (l.id == lang) config.thislang = l
   }
 
-  const top = `top${SITE}`
+  const top = `top${_site}`
   //console.log(top)
 
   config.topnav = await Promise.all(config[top]?.map(async (subs) => _subnav(subs)))
@@ -179,7 +181,7 @@ export async function _getPost({path, lang = 'en', sub = null}) {
 }
 
 export async function _findPost({path = 'index', lang = 'en'}) {
-  const path_site = `${path}${SITE}`
+  const path_site = `${path}${_site}`
   //console.log(path_site)
   for (const s in theposts[lang]) {
     if (s.endsWith(path_site)) {
