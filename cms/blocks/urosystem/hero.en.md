@@ -2,8 +2,39 @@
 id: hero
 folder: urosystem
 fallback: ""
+background:
+  - type: image
+    src: /uploads/urostill_optim.jpeg
+    posy: 25
+    posx: 66
+  - type: image
+    src: /uploads/radials.png
+    scale: 150
+    posx: 50
+    posy: -15
+  - type: gradient
+    name: dark-blue
 components:
-  - type: article
-    title: We’re Urosystem; dedicated to lower urinary tract conditions, especially
+  - type: images
+    slide: false
+    title: ""
+    shape: default
+    images:
+      - alt: Revolutionizing bladder pain treatment
+        posx: 50
+        posy: 50
+        text: ""
+        src: /uploads/tagline-pic-wider.png
+    ratio: 50
+  - type: cta
+    title: ""
+    button: Contact us
+    background: ""
+    link: "#contact"
+    text: >-
+      # UroSystem
+
+
+      ### Dedicated to lower urinary tract conditions, especially
       IC/BPS
 ---
