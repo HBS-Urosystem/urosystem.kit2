@@ -1,5 +1,7 @@
 ---
 id: details
 folder: urodapter
-subpmenu: false
+fallback: en
+published: true
+submenu: false
 ---

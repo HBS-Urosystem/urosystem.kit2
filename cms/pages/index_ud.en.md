@@ -3,7 +3,7 @@ id: index_ud
 slug: en
 fallback: en
 published: true
-subpmenu: false
+submenu: false
 title: Bladder instillation with UroDapter® urological syringe adapter
 keywords: instillation, urological adapter, bladder disease, pain-free,
   cystitis, catheter replacement, painless, complication-free, bladder,

@@ -3,7 +3,6 @@ import mixing from 'mixing'
 import marked from 'marked'
 import { variables } from '$lib/stores'
 
-//const _site = import.meta.env.VITE__site
 const _site = variables.site
 
 const allblocks = import.meta.glob('/cms/blocks/**/*.md')
@@ -185,6 +184,7 @@ export async function _findPost({path = 'index', lang = 'en'}) {
   //console.log(path_site)
   for (const s in theposts[lang]) {
     if (s.endsWith(path_site)) {
+      //console.log({path_site})
       let p = await theposts[lang][s]().then(({metadata}) => metadata)
       if (p.fallback && p.fallback !== lang) {
         p = mixing(p, await _findPost({path, lang: p.fallback}), {recursive: true}) // A) recursive fallbacks / cascading blocks
@@ -194,10 +194,10 @@ export async function _findPost({path = 'index', lang = 'en'}) {
   }
   for (const s in theposts[lang]) {
     if (s.endsWith(path)) {
-      //console.log('endsWith', path,s)
     //if (s.match(`.*${path}`)) {
       //console.log('_findPost', path)
       let p = await theposts[lang][s]().then(({metadata}) => metadata)
+      //if (path == 'details') console.log(p)
       //console.log(p.menutitle)
       if (p.fallback && p.fallback !== lang) {
         p = mixing(p, await _findPost({path, lang: p.fallback}), {recursive: true}) // A) recursive fallbacks / cascading blocks
@@ -216,7 +216,7 @@ export async function _findPost({path = 'index', lang = 'en'}) {
 export async function _getBlock(id = path, l) {
   let block = await _findBlock(id, l)
   //console.log('_get', id, l)
-  if (block) {
+  if (block && block.components?.length) {
     for (let c of block.components) {
       c.lang = l
     }
@@ -239,7 +239,7 @@ for (const b in all) {
     if (block.fallback && block.fallback !== l) {
       return mixing(_.cloneDeepWith(block, mdtext), await _findBlock(id, block.fallback), {recursive: true}) // A) recursive fallbacks / cascading blocks
     }
-  return _.cloneDeepWith(block, mdtext)
+    return _.cloneDeepWith(block, mdtext)
   }
 }
 return null

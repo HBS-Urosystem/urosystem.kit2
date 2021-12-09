@@ -1,4 +1,4 @@
 ---
 id: index_ud
-subpmenu: false
+submenu: false
 ---

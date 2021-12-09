@@ -16,11 +16,12 @@
   let sublink
   //console.log('subnav',sub)
   //const subpage = _getPost($sitelang, sub.link) || {}
-  $: if (sub.link && sub.link.startsWith('#')) {
+  $: if (sub.link?.startsWith('#')) {
     sublink = '/' + $sitelang + ($state.post.path ? '/' + $state.post.path : '') + sub.link
     //console.log(sublink)
-  } else if (sub.link && sub.link.startsWith('http')) {
-    sublink = sub.link
+  } else if (sub.link?.startsWith('http')) {
+    sublink = sub.link// + '#vhollo'
+    sub.ext = true
   } else {
     sublink = '/' + $sitelang + '/' + sub.link
     //console.log(sub.link)

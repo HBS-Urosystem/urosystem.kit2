@@ -3,7 +3,7 @@ id: downloads
 folder: urodapter
 fallback: ""
 published: true
-subpmenu: false
+submenu: false
 title: Information downloads & links
 menutitle: Downloads
 blocks:

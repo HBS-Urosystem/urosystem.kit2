@@ -25,7 +25,7 @@
       }
     }
   })*/
-  const _site = variables.site //import.meta.env.VITE_SITE
+  const _site = variables.site
   const sitelogo = `sitelogo${_site}.svg`
   const logoclass = `sitelogo${_site}`
 </script>
@@ -363,10 +363,12 @@
     flex-direction: column;
     /*width: revert;*/
   }
-  /*nav > ul[mobil='true'] {
-    align-self: center;
-    margin-inline: auto;
-  }*/
+  nav > ul:not([mobil='true']) {
+    /*align-self: center;
+    margin-inline: auto;*/
+    margin-inline-start: var(--sides);
+    margin-inline-end: var(--sides);
+  }
   nav > ul[mobil='true'] > li:not(:first-child) {
     display: none;
     opacity: 0;

@@ -32,7 +32,7 @@
         <h4><span tabindex="0">{nav.title}</span></h4>
         {#if sublinks = nav.sublinks}
           {#each sublinks as sub}
-            <SubNav {sub}/>
+            <SubNav {sub} dir='block'/>
           {/each}
           <!--{:else if post = findPost($sitelang, nav.link)}
           <h4>{nav[$sitelang] || nav['en']}</h4>

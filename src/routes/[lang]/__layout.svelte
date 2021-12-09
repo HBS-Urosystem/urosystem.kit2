@@ -5,7 +5,7 @@
   import { get } from 'svelte/store'
   import { state, sitelang, cookies/*, moved*/ } from '$lib/stores'
   import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
-  import Nav from '$lib/NavNew.svelte'
+  import Nav from '$lib/Nav.svelte'
   import Footer from '$lib/Footer.svelte'
   import Cookies from '$lib/Cookies.svelte'
 

@@ -78,7 +78,7 @@ collections:
         i18n: true
         required: false
         default: true
-      - name: subpmenu
+      - name: submenu
         label: Submenu
         widget: boolean
         i18n: duplicate
