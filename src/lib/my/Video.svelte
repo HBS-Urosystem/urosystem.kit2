@@ -1,6 +1,6 @@
 <script>
   export let comp//, lang
-	import { moved } from '$lib/stores'
+	//import { moved } from '$lib/stores'
 </script>
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
@@ -14,8 +14,8 @@
     {/if}
     {#if comp.source == 'local'}
     <!-- svelte-ignore a11y-media-has-caption -->
-    <video title="{comp.title || comp.anchor || 'video'}" loading="lazy"  poster="{comp.id}.png" width="100%" controls>
-      <source src="{comp.id}" type="video/mp4">
+    <video title="{comp.title || comp.anchor || 'video'}" loading="lazy"  poster="/{comp.id}.png" width="100%" controls>
+      <source src="/{comp.id}" type="video/mp4">
     </video>
     {/if}
     <!--{/if}-->
