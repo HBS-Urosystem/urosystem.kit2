@@ -11,5 +11,4 @@ hero: shop/hero
 blocks:
   - id: shop/shop-5pcs
   - id: shop/amazon
-  - id: shop/advantages
 ---

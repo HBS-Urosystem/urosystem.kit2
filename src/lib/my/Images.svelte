@@ -72,7 +72,7 @@
     /*max-width: 100%;*/
     max-width: var(--img-width, 56ch);
     /*width: min-content;*/
-    width: 100%;
+    text-align: center;
   }
   .rounded {
     border-radius: 50%;

@@ -29,7 +29,7 @@
     <ul>
       {#each footnav as nav}
       <li>
-        <h4><span tabindex="0">{nav.title}</span></h4>
+        <h5><span tabindex="0">{nav.title}</span></h5>
         {#if sublinks = nav.sublinks}
           {#each sublinks as sub}
             <SubNav {sub} dir='block'/>
@@ -89,7 +89,7 @@
   li * {
     white-space: nowrap;
   }
-  h4 {
+  h5 {
     text-transform: uppercase;
     padding: .25rem 1rem 0;
     margin-top: 0;
@@ -97,11 +97,11 @@
   a {
     text-decoration: none;
   }
-  h4 + :global(a:first-of-type)/*, h4 + img*/ {
+  h5 + :global(a:first-of-type)/*, h4 + img*/ {
     padding-inline-start: 1rem;
   }
   div {
-    background-color: var(--light-blue);
+    background-color: var(--mid-blue);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -109,6 +109,7 @@
     background-image:var(--grad-light-blue);
     background-position:50% 50%;
     background-size:cover;*/
+    padding-top: var(--gap);
   }
 
   /*div {

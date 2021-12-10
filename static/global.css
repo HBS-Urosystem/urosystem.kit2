@@ -1,9 +1,6 @@
 /*! minireset.css v0.0.7 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
 :root {
-  --base-font-size: 16px;
-  --fluid-typography-ratio: 0.1;
-  --rem: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 1vw);
   --dark-blue: #072c3f;
   --mid-blue: #0b3b54;
   --light-blue: #52b2d6;
@@ -19,9 +16,9 @@
   --grad-light-blue-75: linear-gradient(302deg, var(--light-blue-75), var(--mid-blue-75));
 
   --half: calc(var(--rem) / 2);
-  --halfgap: calc(var(--rem) * 1.5);
-  --gap: calc(3 * var(--rem));
-  --gap2: calc(4 * var(--rem));
+  --halfgap: calc(var(--rem) * .75);
+  --gap: calc(1.5 * var(--rem));
+  --gap2: calc(3 * var(--rem));
   --gap4: calc(8 * var(--rem));
 
   --sides: max(12.5vw - 5rem, .5rem);
@@ -30,10 +27,18 @@
   --marker-down: url(/uploads/open-down.svg);
 
   font-family: 'Josefin Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* 1 */
-  font-size: var(--rem);
   line-height: 1.5;
+  font-size: 1rem;
 
+  /*--base-font-size: 12px;
+  --fluid-typography-ratio: 0.334;
+  --rem: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 1vw);*/
+  --user-font-scale: 1rem - 16px;
+  --rem: clamp(0.875rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.125rem);
+
+  font-size: var(--rem);
 }
+
 *,*::before,*::after{box-sizing:inherit;}
 *:focus{outline-offset: 2px;}
 *:focus:not(:focus-visible){outline:none;}
@@ -232,7 +237,7 @@ button {
   flex-wrap: nowrap;*/
   border-radius: 1.75rem;
   padding: 0 var(--gap2);
-  line-height: 3rem;
+  line-height: 2.5rem;
   margin-bottom: 3.75em;
   margin-top: 2.5rem;
   margin-inline: 1rem;
@@ -335,15 +340,19 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 1.65rem;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 1.4rem;
+  font-size: 1.35rem;
+}
+
+h5 {
+  font-size: 1.2rem;
 }
 
 hr {

@@ -330,7 +330,7 @@
     justify-content: space-between;
     padding: 1rem 1rem 0 1rem;
     margin: 0;
-    height: 3rem;
+    height: 2.5rem;
     position: sticky;
     /*left: 0;*/
     inset-inline-start: 0;
@@ -390,7 +390,7 @@
     aspect-ratio: 100 / 100;
   }
   nav > ul > li {
-    padding-inline-end: 2rem;
+    padding-inline-end: 1.75rem;
     align-self: baseline;
     text-transform: uppercase;
     /*position: relative;*/
@@ -406,16 +406,16 @@
   }
   nav > ul > li:first-of-type a {
     display: block;
-    height: 4rem;
+    height: 3.5rem;
     margin-bottom: 1rem;
   }
   nav > ul > li:first-of-type img {
     padding-inline-end: 1rem;
   }
   img.sitelogo, img.sitelogo_ud {
-    margin-bottom: -1.6rem;
-    height: 4rem;
-    aspect-ratio: 135 / 39.56;
+    margin-bottom: -1.4rem;
+    height: 3.5rem;
+    aspect-ratio: 300 / 119;
   }
   img.sitelogo_us {
     margin-bottom: -0.9rem;
