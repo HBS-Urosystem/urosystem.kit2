@@ -1,7 +1,7 @@
 ---
 top_us:
   - ext: true
-    link: https://urosystem.com/urodapter
+    link: https://urodapter-dev.netlify.app
     titles:
       - lang: en
         title: UroDapter®
