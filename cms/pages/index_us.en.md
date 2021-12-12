@@ -16,5 +16,4 @@ hero: urosystem/hero
 blocks:
   - id: index/refs
   - id: urosystem/more
-  - id: index/contact
 ---
