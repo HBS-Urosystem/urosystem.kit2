@@ -11,6 +11,11 @@ background:
   - type: gradient
     name: dark-blue-75
 components:
+  - type: buy
+    title: UroDapter® new to you? Order a sample package today!
+    subhead: Buy 5 pcs for $40 / 10 pcs for $80
+    button: Shop now
+    product: "5983114002592"
   - type: grid
     slide: false
     components:
@@ -29,13 +34,7 @@ components:
             posy: 72
             scale: 20
             src: /uploads/urodapter-removebg.png
-    title: UroDapter® new to you? Order a sample package today!
-    subhead: Buy 5 pcs for $40 / 10 pcs for $80
     background: []
-  - type: buy
-    title: ""
-    button: Shop now
-    product: "5983114002592"
   - type: article
     text: >-
       #### THE ESTIMATED DELIVERY TIME, ACCORDING TO THE CUSTOMER'S COUNTRY AS

@@ -2,17 +2,19 @@
   import Article from '$lib/my/Article.svelte'
   import Images from '$lib/my/Images.svelte'
   import Cta from '$lib/my/Cta.svelte'
+  import BuyButton from '$lib/my/BuyButton.svelte'
   import Video from '$lib/my/Video.svelte'
   const options = {
 		article: Article,
 		images: Images,
 		cta: Cta,
+		buy: BuyButton,
 		video: Video,
 	};
 </script>
 <script>
   export let comp//, lang
-
+  const lang = comp.lang
 </script>
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
@@ -20,8 +22,9 @@
   {#if comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
   <section class="{comp.slide ? 'slides' : 'grid'}" style="--cols: {comp.components.length};">
     {#each comp.components || [] as c}
-    <!--c.lang = comp.lang-->
+    {#if c.lang = comp.lang}
     <svelte:component this={options[c.type]} comp={c}/>
+    {/if}
     {/each}
   </section>
 </article>

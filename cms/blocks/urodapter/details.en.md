@@ -5,26 +5,6 @@ fallback: ""
 components:
   - type: grid
     slide: false
-    title: UroDapter® presentation videos
-    components:
-      - type: video
-        source: youtube
-        id: MONZqHMJv7Q
-        text: |-
-          ### VIDEO PRESENTATION
-
-          ### Dr. Sándor Lovász on the use of UroDapter®
-        anchor: lovasz
-      - type: video
-        source: youtube
-        anchor: using
-        id: OgwxcHuhQuQ
-        text: |-
-          ### IBSA VIDEO TUTORIAL
-
-          ### Using the iAluAdapter® (UroDapter®)
-  - type: grid
-    slide: false
     components:
       - type: article
         subhead: "UroDapter® on the European market: iAluadapter®"
@@ -55,4 +35,24 @@ components:
 
 
               ​PCT international patent application number: PCT/HU2016/000063
+  - type: grid
+    slide: false
+    title: UroDapter® presentation videos
+    components:
+      - type: video
+        source: youtube
+        id: MONZqHMJv7Q
+        text: |-
+          ### VIDEO PRESENTATION
+
+          ### Dr. Sándor Lovász on the use of UroDapter®
+        anchor: lovasz
+      - type: video
+        source: youtube
+        anchor: using
+        id: OgwxcHuhQuQ
+        text: |-
+          ### IBSA VIDEO TUTORIAL
+
+          ### Using the iAluAdapter® (UroDapter®)
 ---

@@ -16,4 +16,5 @@ hero: products/hero_urodapter
 blocks:
   - id: urodapter/intro
   - id: shop/advantages
+  - id: cta/shop_ud
 ---

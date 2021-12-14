@@ -6,7 +6,7 @@
 <script>
   export let comp;
   const langs = $state.langs;
-  //$: console.log('$state_BB',comp.lang)
+  $: console.log('$state_BB',comp)
   let mounted = false;
   onMount(() => {
     mounted = [];
@@ -216,6 +216,7 @@
 
 <aside id={comp.anchor} style={comp.background ? comp.background : ``}>
   {#if comp.title}<h2 id={comp.anchor}>{comp.title}</h2>{/if}
+  {#if comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
   {#if comp.text}<div>{@html comp.text}</div>{/if}
   {#if comp.button && langs}
     {#each langs as lang}
@@ -243,5 +244,8 @@
   table {
     margin-top: 2rem;
     margin-inline: auto;
+  }
+  h3 {
+    text-align: center;
   }
 </style>

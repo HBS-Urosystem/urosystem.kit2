@@ -14,5 +14,6 @@ menutitle: UroDapter®
 hero: urodapter/details_hero
 blocks:
   - id: urodapter/details
-  - id: cta/shop
+  - id: cta/shop_ud
+  - id: index/testimonials
 ---
