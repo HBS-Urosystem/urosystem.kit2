@@ -31,7 +31,7 @@
 <style>
   article {
     text-align: center;
-    padding: 0;
+    /*padding: 0;*/
     /*min-height: 100vh;*/
   }
   div {
@@ -55,7 +55,7 @@
   }
   video {
     object-fit: contain;
-    max-height: 100vh;
+    max-height: calc(100vh - 5rem);
     display: block;
   }
 

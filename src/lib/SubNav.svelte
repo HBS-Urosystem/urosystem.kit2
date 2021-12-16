@@ -75,7 +75,7 @@
   img {
     filter: invert();
     /*width: 1.5rem;*/
-    height: 1.5rem;
+    height: 1.25rem;
   }
 
 </style>

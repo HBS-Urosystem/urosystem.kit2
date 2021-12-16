@@ -4,7 +4,8 @@
   --dark-blue: #072c3f;
   --mid-blue: #0b3b54;
   --light-blue: #52b2d6;
-  --pale-blue: #c7e1f0;
+  /*--pale-blue: #c7e1f0;*/
+  --pale-blue: hsl(202deg 58% 92%);
   --dark-blue-75: #072c3fc0;
   --mid-blue-75: #0b3b54c0;
   --light-blue-75: #52b2d6c0;
@@ -129,7 +130,7 @@ h1 a {
 aside {
   padding: 0 var(--sides) 1rem;
 }
-article {
+main > div > article {
   padding: var(--gap) var(--sides);
 }
 article > div, article > details, aside > div, figcaption {
@@ -271,7 +272,7 @@ article h4, article h5, article h6 {
   -webkit-hyphens:auto;-ms-hyphens:auto;hyphens: auto;
 }
 @supports ((-webkit-hyphens: auto) or (-ms-hyphens: auto) or (hyphens: auto)) {
-  article p:not(figcaption *), article h4, article h5, article h6 {
+  article p:not(figcaption *)/*, article h4, article h5, article h6*/ {
     text-align: justify;
   }
 }
@@ -372,7 +373,8 @@ hr {
 article ul {
   /*list-style: none;*/
   list-style: initial;
-  margin-inline-start: 0;
+  /*margin-inline-start: 0;*/
+  padding-inline-start: 1rem;
 }
 
 article li > a:first-child {
