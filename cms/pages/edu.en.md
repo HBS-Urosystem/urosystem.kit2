@@ -2,9 +2,8 @@
 id: edu
 fallback: ""
 published: true
-title: Resources for IC/BPS Patients
-menutitle: Resources for IC/BPS Patients
-hero: edu/hero
+title: Videos for IC/BPS Patients
+menutitle: for IC/BPS Patients
 blocks:
   - id: edu/video-series
 ---

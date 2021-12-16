@@ -4,7 +4,7 @@ folder: index
 fallback: en
 components:
   - type: images
-    title: How UroDapter® works
+    title: How does the UroDapter® work
     images:
       - alt: Illustration
         shape: rounded

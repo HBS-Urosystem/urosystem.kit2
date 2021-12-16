@@ -7,7 +7,7 @@ components:
     netlify: true
     cookie: true
     title: Exclusive medical content
-    subhead: To access the discussion of the inventor about UroDapter®, please fill in the form. 
+    subhead: "The further resources – including videos, manuals and guides – contain explicit medical content. Therefore, we would like you to sign up by filling out the form as follows:" 
     name: ProfessionalsGateway
     text: >-
       <fieldset>

@@ -21,6 +21,6 @@ components:
         id: uploads/DrLovasz-ep3.mp4
         title: "Episode 3"
         subhead: "Implications of Age and Gender"
-    title: IC/BPS Webinar
+    title: Instructive videos from Sándor Lovász MD. PhD.
     subhead: ""
 ---

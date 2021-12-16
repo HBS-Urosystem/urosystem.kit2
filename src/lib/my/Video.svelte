@@ -18,6 +18,12 @@
       <source src="/{comp.id}" type="video/mp4">
     </video>
     {/if}
+    {#if comp.source == 'web'}
+    <!-- svelte-ignore a11y-media-has-caption -->
+    <video title="{comp.title || comp.anchor || 'video'}" loading="lazy"  poster="{comp.id}.png" width="100%" controls>
+      <source src="{comp.id}" type="video/mp4">
+    </video>
+    {/if}
     <!--{/if}-->
   {#if comp.text}{@html comp.text}{/if}
 </article>

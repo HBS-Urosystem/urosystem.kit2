@@ -19,15 +19,28 @@
 <aside id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
   {#if comp.title}<h2 id="{comp.anchor}">{comp.title}</h2>{/if}
   {#if comp.text}<div>{@html comp.text}</div>{/if}
-  {#if comp.button}<div><a tabindex="0" href="{link}" rel="{rel}" target="{target}"><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a></div>{/if}
+  {#if comp.button}
+  <div>
+    <a tabindex="0" href="{link}" rel="{rel}" target="{target}"><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>
+    {#if comp.below}<p>{comp.below}</p>{/if}
+  </div>
+  {/if}
 </aside>
 
 <style>
+  button {
+    margin-block: 0;
+  }
   div {
     text-align: center;
+    margin-bottom: 3.75em;
+    margin-top: 2.5rem;
   }
   a {
     text-decoration: none;
+  }
+  p {
+    text-align: center;
   }
   
 </style>

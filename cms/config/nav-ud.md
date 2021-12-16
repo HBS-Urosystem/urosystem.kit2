@@ -68,37 +68,36 @@ top_ud:
   - link: ""
     titles:
       - lang: en
-        title: Video
+        title: Resources
       - lang: hu
-        title: Video
+        title: Resources
       - lang: ru
-        title: Video
+        title: Resources
       - lang: de
-        title: Video
+        title: Resources
       - lang: es
-        title: Video
+        title: Resources
       - lang: fr
-        title: Video
+        title: Resources
       - lang: he
-        title: Video
+        title: Resources
       - lang: it
-        title: Video
+        title: Resources
       - lang: ja
-        title: Video
+        title: Resources
       - lang: pt
-        title: Video
+        title: Resources
       - lang: tr
-        title: Video
+        title: Resources
       - lang: zh
-        title: Video
+        title: Resources
       - lang: ko
-        title: Video
+        title: Resources
       - lang: ar
-        title: Video
+        title: Resources
     subpages:
-      - link: edu
-      - link: pro
-  - link: downloads
+      - link: resources
+      - link: resources-pro
   - link: https://www.urosystem.com
     titles:
       - lang: en

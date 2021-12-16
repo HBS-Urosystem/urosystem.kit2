@@ -12,8 +12,9 @@ background:
     name: dark-blue-75
 components:
   - type: buy
-    title: UroDapter® new to you? Order a sample package today!
-    subhead: Buy 5 pcs for $40 / 10 pcs for $80
+    title: Buy from our webshop
+    subhead: 5 pcs for $40 / 10 pcs for $80
+    text: Choose the desired quantity and buy!
     button: Shop now
     product: "5983114002592"
   - type: grid
@@ -50,7 +51,7 @@ components:
   - type: article
     subhead: ""
     anchor: ""
-    text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
+    text: "#### DUE TO THE COVID PANDEMIC DELIVERY CAN BE LONGER THAN
       USUAL."
   - type: article
     text: >-
