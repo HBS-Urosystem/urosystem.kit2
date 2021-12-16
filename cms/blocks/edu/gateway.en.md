@@ -6,8 +6,7 @@ components:
   - type: form
     netlify: true
     cookie: true
-    title: Exclusive medical content
-    subhead: "The further resources – including videos, manuals and guides – contain explicit medical content. Therefore, we would like you to sign up by filling out the form as follows:" 
+    subhead: "The further resources – including videos, manuals and guides – contain explicit medical content. Therefore, we would like you to fill out the form as follows:" 
     name: ProfessionalsGateway
     text: >-
       <fieldset>
