@@ -5,12 +5,7 @@ top_us:
     titles:
       - lang: en
         title: UroDapter®
-  - subpages:
-      - link: ic-bps
-      - link: rutis
-      - link: post-cancer-treatment
-      - link: bladder-cancer
-      - link: other-uses-and-indications
+  - link: https://urodapter-dev.netlify.app/en/ic-bps
     titles:
       - lang: en
         title: Indications

@@ -128,5 +128,34 @@ top_ud:
         title: UroSystem
       - lang: fr
         title: UroSystem
-  - link: shop
+  - link: https://urosystem-dev.netlify.app/en/shop/
+    titles:
+      - lang: en
+        title: Shop
+      - lang: hu
+        title: Shop
+      - lang: ru
+        title: Shop
+      - lang: de
+        title: Shop
+      - lang: it
+        title: Shop
+      - lang: es
+        title: Shop
+      - lang: pt
+        title: Shop
+      - lang: ja
+        title: Shop
+      - lang: zh
+        title: Shop
+      - lang: ar
+        title: Shop
+      - lang: he
+        title: Shop
+      - lang: ko
+        title: Shop
+      - lang: tr
+        title: Shop
+      - lang: fr
+        title: Shop
 ---
