@@ -446,6 +446,14 @@ details[open] > summary::after {
   color: var(--pale-blue);
 }
 
+dt {
+  font-weight: bold;
+  margin-block-start: 1rem;
+}
+:not(center) > dl dd {
+  margin-inline-start: 1rem;
+}
+
 [dir='rtl'] select {
   background: url("/uploads/bx-world.svg") no-repeat right, url("/uploads/open-down.svg") no-repeat left!important;
   background-size: 1.5em!important;

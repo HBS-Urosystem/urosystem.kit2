@@ -98,7 +98,7 @@ top_ud:
     subpages:
       - link: resources
       - link: resources-pro
-  - link: https://www.urosystem.com
+  - link: https://urosystem-dev.netlify.app/en/company/
     titles:
       - lang: en
         title: Company
@@ -129,14 +129,4 @@ top_ud:
       - lang: fr
         title: UroSystem
   - link: shop
-    titles: []
-    subpages:
-      - link: shop
-        titles:
-          - lang: en
-            title: Our webshop
-      - titles:
-          - lang: en
-            title: Amazon
-        link: https://www.amazon.com/stores/UroDapter/page/EE971FBB-A516-4E98-A2CD-2B62117F088A
 ---

@@ -134,36 +134,6 @@ top_us:
             title: 회사소개
           - lang: tr
             title: Hakkımızda
-      - link: company#contact
-        titles:
-          - lang: en
-            title: Contact
-          - lang: hu
-            title: Kapcsolat
-          - lang: ru
-            title: Контакт
-          - lang: de
-            title: Kontakt
-          - lang: fr
-            title: Contacter
-          - lang: it
-            title: Contatto
-          - lang: es
-            title: Contacto
-          - lang: pt
-            title: Contato
-          - lang: ja
-            title: 連絡先
-          - lang: zh
-            title: 关于我们
-          - lang: ar
-            title: معلومات عنا
-          - lang: he
-            title: איש קשר
-          - lang: ko
-            title: 연락처
-          - lang: tr
-            title: İletişim
       - link: company#partners
         titles:
           - lang: en
@@ -194,21 +164,39 @@ top_us:
             title: 협력사
           - lang: tr
             title: Ortaklarımız
+      - link: company#contact
+        titles:
+          - lang: en
+            title: Contact us
+          - lang: hu
+            title: Kapcsolat
+          - lang: ru
+            title: Контакт
+          - lang: de
+            title: Kontakt
+          - lang: fr
+            title: Contacter
+          - lang: it
+            title: Contatto
+          - lang: es
+            title: Contacto
+          - lang: pt
+            title: Contato
+          - lang: ja
+            title: 連絡先
+          - lang: zh
+            title: 关于我们
+          - lang: ar
+            title: معلومات عنا
+          - lang: he
+            title: איש קשר
+          - lang: ko
+            title: 연락처
+          - lang: tr
+            title: İletişim
       - link: company#palyazatok
         titles:
           - lang: hu
             title: Pályázatok
   - link: shop
-    titles: []
-    subpages:
-      - link: shop
-        titles:
-          - lang: en
-            title: Our webshop
-      - titles:
-          - lang: en
-            title: Amazon
-        link: https://www.amazon.com/stores/UroDapter/page/EE971FBB-A516-4E98-A2CD-2B62117F088A
-        ext: true
-    ext: false
 ---

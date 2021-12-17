@@ -4,7 +4,7 @@ folder: urodapter
 fallback: en
 published: true
 submenu: false
-title: Resources for IC/BPS Therapists
+title: Free Resources for IC/BPS Therapists
 menutitle: for IC/BPS Therapists
 blocks:
   - id: urodapter/downloads

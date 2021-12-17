@@ -1,5 +1,5 @@
 ---
-id: company
+id: company_us
 fallback: ""
 published: true
 title: Urological devices to treat lower urinary tract symptoms
@@ -11,7 +11,6 @@ description: Urosystem has already developed several innovative urological
 menutitle: Company
 blocks:
   - id: company/about
-  - id: company/contacts
   - id: company/partners
   - id: index/contact
 subhero: company/logo
