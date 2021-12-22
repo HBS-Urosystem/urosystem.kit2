@@ -4,16 +4,13 @@ slug: en
 fallback: ""
 published: true
 submenu: false
-title: Bladder instillation with UroDapter® urological syringe adapter
+title: Restoring the quality of life for millions around the world – literally
 keywords: instillation, urological adapter, bladder disease, pain-free,
   cystitis, catheter replacement, painless, complication-free, bladder,
   treatment
-description: The UroDapter® urological adapter replaces catheter. It enables
-  painless and complication-free bladder treatment for several lower urinary
-  tract diseases.
+description: UroSystem is dedicated to lower urinary tract conditions, especially interstitial cystitis/bladder pain syndrome (IC/BPS). The company has been developing a portfolio of solutions including diagnosis methods, medications and devices primarily focusing on the IC/BPS patients worldwide.
 menutitle: UroSystem
 hero: urosystem/hero
 blocks:
-  - id: index/refs
   - id: urosystem/more
 ---

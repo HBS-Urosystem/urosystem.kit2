@@ -2,12 +2,20 @@
 id: more
 folder: urosystem
 fallback: ""
+background:
+  - type: gradient
+    name: dark-blue
 components:
   - type: article
-    title: We’re working on other products, too.
-    background:
-      - type: gradient
-        name: dark-blue
-  - type: article
-    title: We’re to give as much authentic information on these conditions as we can.
+    title: UroDapter®
+    text: The UroDapter, our first commercially available product, is a urological syringe adapter which replaces the catheter and enables painless and complication-free bladder instillations. It has been sold over 1,000,000 pieces around the world.
+  - type: grid
+    slide: false
+    components:
+      - type: cta
+        button: About us
+        link: /company
+      - type: cta
+        button: UroDapter®
+        link: https://urodapter-dev.netlify.app/
 ---

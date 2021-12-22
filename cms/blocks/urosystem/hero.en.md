@@ -4,10 +4,6 @@ folder: urosystem
 fallback: ""
 background:
   - type: image
-    src: /uploads/urostill_optim.jpeg
-    posy: 25
-    posx: 66
-  - type: image
     src: /uploads/radials.png
     scale: 150
     posx: 50
@@ -24,6 +20,5 @@ components:
       # UroSystem
 
 
-      ### Dedicated to lower urinary tract conditions, especially
-      IC/BPS
+      ### UroSystem is dedicated to lower urinary tract conditions, especially interstitial cystitis/bladder pain syndrome (IC/BPS). The company has been developing a portfolio of solutions including diagnosis methods, medications and devices primarily focusing on the IC/BPS patients worldwide.
 ---
