@@ -110,7 +110,7 @@
 		transform: translate(-50%,-50%);
 		/*text-shadow: 1px 1px 2px var(--dark);*/
 		/*padding: var(--sides);*/
-    padding: var(--halfgap) 0;
+    padding: var(--rem) 0;
     text-align: center;
     z-index: 1;
   }
@@ -133,7 +133,7 @@
   }
   nav {
     position: absolute;
-    top: var(--halfgap);
+    top: var(--rem);
     inset-inline-end: 0;
     background-color: var(--light-blue);
     background-image: url(/uploads/bx-x.svg);

@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
+    "preview": "svelte-kit build && svelte-kit preview"
   },
   "devDependencies": {
     "@sveltejs/adapter-netlify": "^1.0.0-next.15",
