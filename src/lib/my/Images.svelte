@@ -51,7 +51,7 @@
     flex: 1 1 var(--img-width, 56ch);
     /*max-width: var(--img-width, 56ch);*/
     /*margin: 0 auto var(--gap);*/
-    margin: 0 2.5vw;
+    margin: 5rem 2.5vw 0;
   }
   @media (min-width: 112ch) {
     section.slides {

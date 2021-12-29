@@ -50,7 +50,7 @@ body {
   /*letter-spacing: .03em;*/
   letter-spacing: .04em;
   color: #fff;
-  background-color: var(--mid-blue);
+  background-color: var(--dark-blue);
 
   scrollbar-color: rebeccapurple green;
   scrollbar-width: thin;

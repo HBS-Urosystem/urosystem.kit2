@@ -101,7 +101,7 @@
     padding-inline-start: 1rem;
   }
   div {
-    background-color: var(--mid-blue);
+    /*background-color: var(--light-blue);*/
     display: flex;
     justify-content: space-evenly;
     align-items: center;

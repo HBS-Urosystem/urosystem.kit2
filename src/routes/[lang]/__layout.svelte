@@ -3,12 +3,13 @@
   //export const prerender = true
   import { onMount } from 'svelte'
   import { get } from 'svelte/store'
-  import { state, sitelang, cookies/*, moved*/ } from '$lib/stores'
+  import { state, sitelang, cookies, variables } from '$lib/stores'
   import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
   import Nav from '$lib/NavNew.svelte'
   import Footer from '$lib/Footer.svelte'
   import Cookies from '$lib/Cookies.svelte'
 
+  const _site = variables.site
 
   export const load = async ({ page, fetch }) => {
     let { lang, path } = {...page.params}
@@ -122,6 +123,24 @@
       })(window,document,'script','dataLayer','GTM-T4KTKF5');</script>
       <!-- End Google Tag Manager -->
 	{/if} <!-- $cookies -->
+  {#if _site == '_ud'}
+  <style>
+    :root {
+      --mid-blue: #005c5b;
+      --light-blue: #02979d;
+      --pale-blue: #e2f3f3;
+      /*--dark-blue-75: #005c5bc0;*/
+      --mid-blue-75: #005c5bc0;
+      --light-blue-75: #02979dc0;
+      --pale-blue-75: #e2f3f3c0;
+    }
+    main {
+      background-image: var(--grad-light-blue);
+      background-position: 50% 50%;
+      background-size: cover;
+    }
+  </style>
+  {/if}
 </svelte:head>
 
 <Nav/><!--  state={result} -->

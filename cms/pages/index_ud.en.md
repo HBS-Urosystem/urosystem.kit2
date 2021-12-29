@@ -15,5 +15,4 @@ menutitle: UroSystem
 hero: products/hero_urodapter
 blocks:
   - id: urodapter/intro
-  - id: cta/shop_ud
 ---

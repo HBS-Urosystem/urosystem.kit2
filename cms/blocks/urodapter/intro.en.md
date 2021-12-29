@@ -2,9 +2,6 @@
 id: intro
 folder: urodapter
 fallback: ""
-background:
-  - type: gradient
-    name: light-blue
 components:
   - type: images
     slide: false
@@ -106,4 +103,7 @@ components:
           * UroDapter® might be applied for diagnostic purposes, too – e.g. retrograde urethrography, fistulography
         subhead: A device for many indications
     anchor: intro
+  - type: cta
+    button: How to buy?
+    link: /shop
 ---

@@ -418,9 +418,11 @@
     aspect-ratio: 300 / 119;
   }
   img.sitelogo_us {
-    margin-bottom: -0.9rem;
+    /*margin-bottom: -0.9rem;
+    aspect-ratio: 407 / 100;*/
+    margin-bottom: -1.05rem;
     height: 3.226rem;
-    aspect-ratio: 407 / 100;
+    aspect-ratio: 300 / 95;
   }
   nav > ul > li:not(:first-of-type) {
     min-height: 1.25rem;
