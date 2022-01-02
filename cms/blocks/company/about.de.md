@@ -13,7 +13,8 @@ components:
       es, die angewandten lokalen Therapien wirksamer, weniger schmerzhaft,
       bequemer und kostengünstiger zu machen.
     text: >-
-      Urosystem Ltd. D&B Failure Score AAA ist zertifiziert, was darauf hinweist, dass das finanzielle Risiko für den Aufbau einer
+      Urosystem Ltd. D&B Failure Score AAA ist zertifiziert, was darauf
+      hinweist, dass das finanzielle Risiko für den Aufbau einer
       Geschäftsbeziehung mit dem Unternehmen gering ist. Nur 0,63% der
       ungarischen Unternehmen haben dieses Zertifikat.
 

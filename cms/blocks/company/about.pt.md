@@ -6,11 +6,11 @@ components:
   - type: article
     anchor: about
     title: Sobre Nós
-    subhead: A nossa empresa, Urosystem Co. Ltd., localizada na Hungria,
-      desenvolveu e comercializou com sucesso diversos dispositivos urológicos
-      inovadores. O nosso objetivo é revolucionar o tratamento intravesical das
-      doenças do trato urinário inferior. O nosso objetivo é tornar as terapias
-      locais aplicadas mais eficazes, menos dolorosas, mais confortáveis e mais
+    subhead: A nossa empresa, Urosystem Co. Ltd., localizada na Hungria, desenvolveu
+      e comercializou com sucesso diversos dispositivos urológicos inovadores. O
+      nosso objetivo é revolucionar o tratamento intravesical das doenças do
+      trato urinário inferior. O nosso objetivo é tornar as terapias locais
+      aplicadas mais eficazes, menos dolorosas, mais confortáveis e mais
       baratas.
     text: >-
       Urosystem Co. Ltd. É D&B Failure Score AAA certificado, o que indica que o

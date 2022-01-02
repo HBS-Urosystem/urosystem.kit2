@@ -10,8 +10,8 @@ description: Urosystem has already developed several innovative urological
   urinary tract diseases.
 menutitle: Company
 blocks:
-  - id: company/about
-  - id: company/partners
+  - id: company/about_us
+  - id: company/partners_us
   - id: index/contact
 subhero: company/logo
 ---

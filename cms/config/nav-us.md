@@ -5,7 +5,66 @@ top_us:
     titles:
       - lang: en
         title: UroDapter®
-  - link: https://urodapter-dev.netlify.app/en/ic-bps
+      - lang: ru
+        title: UroDapter®
+      - lang: hu
+        title: UroDapter®
+      - lang: de
+        title: UroDapter®
+      - lang: ko
+        title: UroDapter®
+      - lang: fr
+        title: UroDapter®
+      - lang: he
+        title: UroDapter®
+      - lang: it
+        title: UroDapter®
+      - lang: ar
+        title: UroDapter®
+      - lang: ja
+        title: UroDapter®
+      - lang: pt
+        title: UroDapter®
+      - lang: es
+        title: UroDapter®
+      - lang: tr
+        title: UroDapter®
+      - lang: zh
+        title: UroDapter®
+  - link: development
+  - subpages:
+      - link: diagnostic-help/gag-layer
+      - link: diagnostic-help/gag-layer-pro
+    titles:
+      - lang: en
+        title: Diagnostic help
+      - lang: ru
+        title: Diagnostic help
+      - lang: hu
+        title: Diagnostic help
+      - lang: de
+        title: Diagnostic help
+      - lang: ko
+        title: Diagnostic help
+      - lang: fr
+        title: Diagnostic help
+      - lang: he
+        title: Diagnostic help
+      - lang: it
+        title: Diagnostic help
+      - lang: ar
+        title: Diagnostic help
+      - lang: ja
+        title: Diagnostic help
+      - lang: pt
+        title: Diagnostic help
+      - lang: es
+        title: Diagnostic help
+      - lang: tr
+        title: Diagnostic help
+      - lang: zh
+        title: Diagnostic help
+  - link: https://urodapter-dev.netlify.app/en#indications
     titles:
       - lang: en
         title: Indications

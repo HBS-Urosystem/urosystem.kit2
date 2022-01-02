@@ -82,6 +82,7 @@ components:
         subhead: A small device with plenty of benefits
       - type: article
         title: ""
+        anchor: indications
         text: >-
           Any solution can be instilled with the UroDapter® into the bladder,
           assuming it has no adverse effect on the nearby tissues or organs. The

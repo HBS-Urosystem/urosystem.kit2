@@ -34,21 +34,21 @@ function getLink(url) {
   {#if comp.subhead}<div><h3>{comp.subhead}</h3></div>{/if}
   <div>
     <ul style="{comp.marker ? `--marker:url(${comp.marker})` : ''}">
-    {#each comp.items || [] as item}
+    {#each comp.items || [] as item, ix}
     {#if link = getLink(item.url)}
-      <li style="{item.src ? `--marker:url(${item.src})` : ''}">
+      <li id="ref-{ix+1}" style="{item.src ? `--marker:url(${item.src})` : ''}">
         <!--<a href={item.url.startsWith('http') ? `${item.url}` : `/${lang}${item.url}`} rel="noopener" target="{item.url.startsWith('http') ? `_blank` : ``}">-->
         {#if link.rel}
         <a href={link.url} rel="{link.rel}" target="{link.target}">
-          {item.title}
+          {!item.title.startsWith('[') ? `[${ix+1}] ` : ``}{item.title}
         </a>
         {:else if link.target}
         <a href={link.url} target="{link.target}">
-          {item.title}
+          {!item.title.startsWith('[') ? `[${ix+1}] ` : ``}{item.title}
         </a>
         {:else}
         <a href={comp.lang}{link.url}>
-          {item.title}
+          {!item.title.startsWith('[') ? `[${ix+1}] ` : ``}{item.title}
         </a>
         {/if}
       </li>

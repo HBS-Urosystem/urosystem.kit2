@@ -9,13 +9,7 @@ components:
   - type: article
     title: UroDapter®
     text: The UroDapter, our first commercially available product, is a urological syringe adapter which replaces the catheter and enables painless and complication-free bladder instillations. It has been sold over 1,000,000 pieces around the world.
-  - type: grid
-    slide: false
-    components:
-      - type: cta
-        button: About us
-        link: /company
-      - type: cta
-        button: UroDapter®
-        link: https://urodapter-dev.netlify.app/
+  - type: cta
+    button: More about the UroDapter®
+    link: https://urodapter-dev.netlify.app/
 ---

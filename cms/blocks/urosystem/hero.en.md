@@ -13,12 +13,19 @@ background:
 components:
   - type: cta
     title: ""
-    button: Contact us
     background: ""
-    link: "#contact"
     text: >-
       # UroSystem
 
 
       ### UroSystem is dedicated to lower urinary tract conditions, especially interstitial cystitis/bladder pain syndrome (IC/BPS). The company has been developing a portfolio of solutions including diagnosis methods, medications and devices primarily focusing on the IC/BPS patients worldwide.
+  - type: grid
+    slide: false
+    components:
+      - type: cta
+        button: More about us
+        link: /company
+      - type: cta
+        button: Research & Development
+        link: /
 ---

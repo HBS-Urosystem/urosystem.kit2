@@ -107,9 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
   text-shadow: 0 0 0.75em var(--dark-blue-75);
 }
-/*figure p {
-  margin-top: 0;
-}*/
+
 article > p:first-child {
   padding-top: 1em;
   margin-top: 0;
@@ -138,8 +136,12 @@ article > div, article > details, aside > div, figcaption {
   margin: 0 auto;
   padding: 0;
 }
+div > figure {
+  margin-bottom: 2rem;
+}
+
 header ~ nav, header {
-  padding: var(--rem) 0;
+  padding: var(--rem) var(--sides);
   /*text-align: center;*/
   /*background-color: var(--light-blue);*/
   background-image: var(--grad-light-blue);

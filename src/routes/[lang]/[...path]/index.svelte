@@ -50,12 +50,21 @@
 
 <main>
 <!--{#if $state && !!$state.id}-->
-  {#if $state.post.hero}
+  {#if !!$state.post.hero}
     <header class="full" style="{$state.post.hero.background ? $state.post.hero.background : ``}" on:click={() => $snapto = '#content'}>
       <h1 hidden>{$state.post.title}</h1>
       {#each $state.post.hero.components || [] as comp}
         <Components {comp}/>
       {/each}
+      {#if /*$state.post.submenu && */$state.post.subpages}
+        <nav>
+          <ul>
+            {#each $state.post.subpages as sub}
+            <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
+            {/each}
+          </ul>
+        </nav>
+      {/if}
     </header>
     <!--{#if $state.post.subpages}
       <nav>
@@ -143,5 +152,8 @@
   }*/
   h1 {
     cursor: pointer;
+  }
+  nav {
+    margin-block: 6rem;
   }
 </style>

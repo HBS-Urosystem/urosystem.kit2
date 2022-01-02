@@ -1,0 +1,3 @@
+---
+id: partners_us
+---
