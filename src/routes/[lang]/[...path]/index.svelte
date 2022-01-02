@@ -60,7 +60,7 @@
         <nav>
           <ul>
             {#each $state.post.subpages as sub}
-            <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
+            <li class:active={$state.post.subpage?.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
             {/each}
           </ul>
         </nav>
@@ -88,7 +88,7 @@
         <nav>
           <ul>
             {#each $state.post.subpages as sub}
-            <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
+            <li class:active={$state.post.subpage?.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
             {/each}
           </ul>
         </nav>
@@ -126,7 +126,7 @@
       <h2>{$state.post.title}</h2>
       <ul>
         {#each $state.post.subpages as sub}
-        <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
+        <li class:active={$state.post.subpage?.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
         {/each}
       </ul>
     </nav>

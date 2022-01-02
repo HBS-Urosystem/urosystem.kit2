@@ -3,7 +3,6 @@ id: details
 folder: urodapter
 fallback: ""
 published: true
-submenu: false
 title: UroDapter® – For painless local treatment of the bladder
 keywords: UroDapter, replacing catheter, painless, instillation, urethra,
   bladder, local treatment, pain-free
