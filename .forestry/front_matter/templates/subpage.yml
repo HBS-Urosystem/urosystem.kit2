@@ -1,0 +1,20 @@
+---
+label: Subpage
+hide_body: true
+fields:
+- type: text
+  name: id
+  label: id
+- type: text
+  name: folder
+  label: folder
+- type: field_group_list
+  name: components
+  label: components
+  fields:
+  - type: text
+    name: type
+    label: type
+  - type: textarea
+    name: text
+    label: text
