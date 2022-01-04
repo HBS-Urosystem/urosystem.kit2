@@ -366,8 +366,9 @@
   nav > ul:not([mobil='true']) {
     /*align-self: center;
     margin-inline: auto;*/
-    margin-inline-start: var(--sides);
-    margin-inline-end: var(--sides);
+    /*margin-inline-start: var(--sides);
+    margin-inline-end: var(--sides);*/
+    margin-inline: auto;
   }
   nav > ul[mobil='true'] > li:not(:first-child) {
     display: none;

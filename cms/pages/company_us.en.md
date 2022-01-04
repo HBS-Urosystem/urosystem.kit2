@@ -2,7 +2,7 @@
 id: company_us
 fallback: ""
 published: true
-title: Urological devices to treat lower urinary tract symptoms
+title: UroSystem Co. Ltd.
 keywords: Urosystem, UroDapter, UroStill, iAluadapter, Sándor Lovász, urological
   devices, intravesical treatment, lower urinary tract diseases, IBSA, Uro-Pro
 description: Urosystem has already developed several innovative urological

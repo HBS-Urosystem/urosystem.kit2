@@ -27,5 +27,5 @@ components:
         link: /company
       - type: cta
         button: Research & Development
-        link: /
+        link: /development
 ---

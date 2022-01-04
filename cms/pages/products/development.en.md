@@ -5,7 +5,7 @@ fallback: en
 published: true
 submenu: true
 title: Research and Development
-menutitle: Development
+menutitle: R&D
 blocks:
   - id: products/development
 ---

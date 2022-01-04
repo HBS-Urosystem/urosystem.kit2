@@ -35,6 +35,7 @@ top_us:
   - subpages:
       - link: diagnostic-help/gag-layer
       - link: diagnostic-help/gag-layer-pro
+    link: diagnostic-help
     titles:
       - lang: en
         title: Diagnostic help
@@ -64,7 +65,27 @@ top_us:
         title: Diagnostic help
       - lang: zh
         title: Diagnostic help
-  - link: https://urodapter-dev.netlify.app/en#indications
+  - subpages:
+      - link: https://urodapter-dev.netlify.app/en/ic-bps
+        titles:
+          - lang: en
+            title: Bladder Pain Syndrome (IC/BPS)
+      - link: https://urodapter-dev.netlify.app/en/rutis
+        titles:
+          - lang: en
+            title: Urinary Tract Infections
+      - link: https://urodapter-dev.netlify.app/en/post-cancer-treatment
+        titles:
+          - lang: en
+            title: Post-cancer treatment
+      - link: https://urodapter-dev.netlify.app/en/bladder-cancer
+        titles:
+          - lang: en
+            title: Bladder Cancer (Female Patients)
+      - link: https://urodapter-dev.netlify.app/en/other-uses-and-indications
+        titles:
+          - lang: en
+            title: Other Uses and Indications
     titles:
       - lang: en
         title: Indications

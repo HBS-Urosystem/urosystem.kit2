@@ -11,16 +11,6 @@
   //import { amp, browser, dev, prerendering } from '$app/env'
 </script>
 <script>
-  //import { snapto, state } from '$lib/stores'
-  //import { block } from 'marked/src/rules';
-  //$: console.log('state.subpage', $state.post.subpage)
-  /*$: {
-    if (!!$snapto) {
-      scroller.scrollTo({element: $snapto, offset: 0})
-      $snapto = ''
-    }
-  }*/
-  //$: console.log($state.post)
 
 </script>
 
@@ -78,11 +68,12 @@
   {:else}
     <header on:click={() => $snapto = '#content'}>
       <!--<h1 on:click={() => scroller.scrollTo({element: '#content', offset: 0})}>{$state.post.title}</h1>-->
-      <h1>{$state.post.title}</h1>
       {#if $state.post.subhero}
         {#each $state.post.subhero.components || [] as comp}
           <Components {comp}/>
         {/each}
+      {:else}
+      <h1>{$state.post.title}</h1>
       {/if}
       {#if /*$state.post.submenu && */$state.post.subpages}
         <nav>
@@ -97,6 +88,7 @@
   {/if}
 
   <div id="content"></div>
+
   {#each $state.post.blocks || [] as block}
   {#if block.published == undefined || (block.published === true || !!$gateway[block.published])}
     <div style="{block.background}">
@@ -121,7 +113,7 @@
       {/each}
     </div>
   {/if}
-  {#if /*$state.post.submenu && */$state.post.subpages}
+  {#if /*$state.post.submenu && */$state.post.subpages && $state.post.blocks}
     <nav>
       <h2>{$state.post.title}</h2>
       <ul>

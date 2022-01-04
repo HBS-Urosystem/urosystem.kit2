@@ -9,7 +9,6 @@ components:
     anchor: partners
     components:
       - type: article
-        title: IBSA
         subhead: ""
         text: >-
           <a href="https://www.ibsagroup.com/ibsa-group/technologies.html"
@@ -20,10 +19,9 @@ components:
           style="max-height:6ch;display:block;margin:0 auto;" /></a>
 
 
-          ### Packed together with iAluRil®, the intravesical drug solution from IBSA (Switzerland), the UroDapter® is available under the name iAluadapter®, in more than 30 countries.
+          Packed together with iAluRil®, the intravesical drug solution from IBSA (Switzerland), the UroDapter® is available under the name iAluadapter®, in more than 30 countries.
         anchor: ibsa
       - type: article
-        title: Uro-Pro Russia
         subhead: ""
         anchor: uro-pro
         text: >-
@@ -33,8 +31,10 @@ components:
           alt="Uro-Pro logo" style="max-height:6ch;display:block;margin:0 auto;"
           /></a>
 
-          <center> <h3>Our sales partner for UroDapter®</h3> </center>
-    subhead: We are looking for partners for our first commercially available
+          <center> <p>Uro-Pro Russia: Our sales partner for UroDapter®</p> </center>
+  - type: article
+    text: >-
+      We are looking for partners for our first commercially available
       product, the UroDapter. This syringe adapter replaces the catheter in the
       field of bladder instillation; it enables painless and complication-free
       treatment.
