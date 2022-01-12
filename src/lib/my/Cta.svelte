@@ -1,4 +1,5 @@
 <script>
+  import { snapto } from '$lib/stores'
   export let comp//, lang
   let rel = '', target = '', link
   $: {
@@ -21,7 +22,7 @@
   {#if comp.text}<div>{@html comp.text}</div>{/if}
   {#if comp.button}
   <div>
-    <a tabindex="0" href="{link}" rel="{rel}" target="{target}"><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>
+    <a tabindex="0" on:click|stopPropagation={() => $snapto = false} href="{link}" rel="{rel}" target="{target}"><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>
     {#if comp.below}<p>{comp.below}</p>{/if}
   </div>
   {/if}

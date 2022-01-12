@@ -3,9 +3,10 @@
   //export const prerender = true
   //export const prerender = false
 
-  import { state, snapto, gateway } from '$lib/stores'
+  import { state, snapto, gateway, variables } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
+  const _siteurl = variables.siteurl[variables.site] || 'https://www.urosystem.com'
   //import { onMount } from 'svelte';
   //import * as scroller from "svelte-scrollto"
   //import { amp, browser, dev, prerendering } from '$app/env'
@@ -34,6 +35,11 @@
         <meta name={meta.name} content={meta.content}>
       {/each}
     {/if}
+  {/if}
+  {#if $state.post.canonical}
+  <link rel="canonical" href="{$state.post.canonical}"/>
+  {:else}
+  <link rel="canonical" href="{_siteurl}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
   {/if}
 <!--{/if}-->
 </svelte:head>
@@ -125,6 +131,8 @@
   {/if}
 <!--{/if}-->
 </main>
+
+<a hidden rel="canonical" href="{_siteurl}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">&nbsp;</a>
 
 <style>
   header {

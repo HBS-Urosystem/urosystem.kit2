@@ -19,5 +19,6 @@ export const gateway = persistent('gateway', {})
 //export const moved = writable(false)
 
 export const variables = {
-  site: import.meta.env.VITE_SITE || ''
+  site: import.meta.env.VITE_SITE || '',
+  siteurl: { "_us": 'https://www.urosystem.com', "_ud": 'https://www.urodapter.com' }
 }

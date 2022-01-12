@@ -173,7 +173,7 @@
         <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
         <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
         <li><a href="https://vk.com/urodapter" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-vk.svg" alt="vk"></a></li>
-        <li><a href="https://ok.ru/urodapter" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>
+        <!--<li><a href="https://ok.ru/urodapter" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>-->
       </ul>
     </div>
     <!--<ul bind:this={navul} mobil={navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}>-->

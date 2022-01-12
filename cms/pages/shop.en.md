@@ -11,4 +11,5 @@ hero: shop/hero
 blocks:
   - id: shop/shop-5pcs
   - id: shop/amazon
+canonical: https://www.urosystem.com/shop
 ---

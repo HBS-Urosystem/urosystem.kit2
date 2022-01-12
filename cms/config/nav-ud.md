@@ -98,7 +98,7 @@ top_ud:
     subpages:
       - link: resources
       - link: resources-pro
-  - link: https://urosystem-dev.netlify.app/en/company/
+  - link: company
     titles:
       - lang: en
         title: Company
@@ -128,34 +128,96 @@ top_ud:
         title: UroSystem
       - lang: fr
         title: UroSystem
-  - link: https://urosystem-dev.netlify.app/en/shop/
-    titles:
-      - lang: en
-        title: Shop
-      - lang: hu
-        title: Shop
-      - lang: ru
-        title: Shop
-      - lang: de
-        title: Shop
-      - lang: it
-        title: Shop
-      - lang: es
-        title: Shop
-      - lang: pt
-        title: Shop
-      - lang: ja
-        title: Shop
-      - lang: zh
-        title: Shop
-      - lang: ar
-        title: Shop
-      - lang: he
-        title: Shop
-      - lang: ko
-        title: Shop
-      - lang: tr
-        title: Shop
-      - lang: fr
-        title: Shop
+    subpages:
+      - link: company#about
+        titles:
+          - lang: en
+            title: About
+          - lang: hu
+            title: Rólunk
+          - lang: ru
+            title: О нас
+          - lang: de
+            title: Über uns
+          - lang: fr
+            title: Qui Sommes Nous?
+          - lang: it
+            title: Chi Siamo?
+          - lang: es
+            title: Sobre nosotros
+          - lang: pt
+            title: Sobre Nós
+          - lang: zh
+            title: 关于我们
+          - lang: ja
+            title: 会社概要
+          - lang: ar
+            title: معلومات عنا
+          - lang: he
+            title: עלינו
+          - lang: ko
+            title: 회사소개
+          - lang: tr
+            title: Hakkımızda
+      - link: company#partners
+        titles:
+          - lang: en
+            title: Partners
+          - lang: hu
+            title: Partnerek
+          - lang: ru
+            title: Партнеры
+          - lang: de
+            title: Unsere Partner
+          - lang: fr
+            title: Nos Partenaires
+          - lang: it
+            title: I Nostri Partner
+          - lang: es
+            title: Nuestros Compañeros
+          - lang: pt
+            title: Nossos Parceiros
+          - lang: zh
+            title: 我們的伙伴
+          - lang: ja
+            title: 当社のパートナー
+          - lang: ar
+            title: شركاؤنا
+          - lang: he
+            title: השותפים שלנו
+          - lang: ko
+            title: 협력사
+          - lang: tr
+            title: Ortaklarımız
+      - link: company#contact
+        titles:
+          - lang: en
+            title: Contact us
+          - lang: hu
+            title: Kapcsolat
+          - lang: ru
+            title: Контакт
+          - lang: de
+            title: Kontakt
+          - lang: fr
+            title: Contacter
+          - lang: it
+            title: Contatto
+          - lang: es
+            title: Contacto
+          - lang: pt
+            title: Contato
+          - lang: ja
+            title: 連絡先
+          - lang: zh
+            title: 关于我们
+          - lang: ar
+            title: معلومات عنا
+          - lang: he
+            title: איש קשר
+          - lang: ko
+            title: 연락처
+          - lang: tr
+            title: İletişim
+  - link: shop
 ---

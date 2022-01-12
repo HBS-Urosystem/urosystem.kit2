@@ -1,3 +1,5 @@
 ---
-id: company_us
+id: company
+fallback: en
+published: true
 ---
