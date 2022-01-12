@@ -3,7 +3,7 @@
   //export const prerender = true
   //export const prerender = false
 
-  import { state, snapto, gateway, variables } from '$lib/stores'
+  import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
   const _siteurl = variables.siteurl[variables.site] || 'https://www.urosystem.com'
@@ -131,8 +131,9 @@
   {/if}
 <!--{/if}-->
 </main>
-
-<a hidden rel="canonical" href="{_siteurl}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">&nbsp;</a>
+{#if $sitelang}
+<a hidden rel="redirect" href="/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">&nbsp;</a>
+{/if}
 
 <style>
   header {
