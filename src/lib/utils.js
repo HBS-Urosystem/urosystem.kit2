@@ -35,7 +35,7 @@ for (const p in allconfs) {
 }
 //console.log(allconfs,theconf)
 
-export async function _getConf(lang) {
+export async function _getConf(lang = 'en') {
   let config = []
   /*const langs = await theconf['langs']().then(({metadata}) => metadata)
   //for (c in langs.langs)
@@ -58,12 +58,13 @@ export async function _getConf(lang) {
   }
 
   const top = `top${_site}`
+  const footer = `footer${_site}`
   //console.log(top)
 
   config.topnav = await Promise.all(config[top]?.map(async (subs) => _subnav(subs)))
-  config.footnav = await Promise.all(config.footer.map(async (subs) => _subnav(subs)))
+  config.footnav = await Promise.all(config[footer]?.map(async (subs) => _subnav(subs)))
   //console.log('config.topnav',config.topnav)
-  //console.log('topfoot',config)
+  //console.log('UTILS',config)
   
   return config
 
@@ -128,6 +129,7 @@ export async function _getConf(lang) {
 
 export async function _getPost({path, lang = 'en', sub = null}) {
   const p = await _findPost({path, lang})
+  //console.log('UTILS',lang,path,sub)
   //console.log('_getPost',p.menutitle)
   let post = {...p}
   post.path = path

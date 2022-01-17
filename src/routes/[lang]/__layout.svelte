@@ -11,7 +11,7 @@
 
   const _site = variables.site
 
-  export const load = async ({ page, fetch }) => {
+  export const load = async ({ params, fetch, page }) => {
     let { lang, path } = {...page.params}
     let u = []
 		if (!!path) {
@@ -122,6 +122,7 @@
       })(window,document,'script','dataLayer','GTM-T4KTKF5');</script>
       <!-- End Google Tag Manager -->
 	{/if} <!-- $cookies -->
+  
   {#if _site == '_ud'}
   <style>
     :root {

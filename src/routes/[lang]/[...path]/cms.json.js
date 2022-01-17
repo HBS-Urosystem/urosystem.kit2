@@ -6,7 +6,7 @@ import { sitelang } from '$lib/stores'
 
 export const get = async (request) => {
 	let { lang, path } = {...request.params}
-//console.log('request.params',request.params)
+//console.log('CMS',request.params)
 	if (path.endsWith('.json')) { ///?
 		console.log('JSON',path)
 		return false

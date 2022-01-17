@@ -24,7 +24,7 @@
 		{#if !cookie}<button on:click={consent}>Accept</button>{:else}<button on:click={unconsent}>Revoke</button>{/if}
 	{/if}
 	{#if $sitelang == 'hu'}
-		<p>Az UroSystem weboldal cookie-kat használ, amelyek megfelelnek a GDPR-nek és a CCPA-nak. <!--<a href="/cookie">Cookie-tájékoztató</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Adatkezelési Tájékoztató</a></p>
+		<p>Az UroSystem weboldal cookie-kat használ, amelyek megfelelnek a GDPR-nek és a CCPA-nak. <!--<a href="/cookie">Cookie-tájékoztató</a> – --><a href="/{$sitelang}/privacy-policy" target="_blank">Adatkezelési tájékoztató</a></p>
 		{#if !cookie}<button on:click={consent}>Elfogadom</button>{:else}<button on:click={unconsent}>Visszavonom</button>{/if}
 	{/if}
 	{#if $sitelang == 'de'}

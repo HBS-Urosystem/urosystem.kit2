@@ -131,7 +131,7 @@
   {/if}
 <!--{/if}-->
 </main>
-{#if $sitelang}
+{#if $sitelang == 'en'}
 <a hidden rel="redirect" href="/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">&nbsp;</a>
 {/if}
 

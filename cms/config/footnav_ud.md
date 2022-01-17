@@ -1,5 +1,5 @@
 ---
-footer:
+footer_ud:
   - link: company
     titles:
       - lang: en
