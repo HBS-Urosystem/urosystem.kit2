@@ -62,6 +62,7 @@ function getLink(url) {
   ul {
     list-style: none;
     margin-inline-start: 0;
+    padding-inline-start: 0;
   }
   li a::after {
     width: 1.5rem;

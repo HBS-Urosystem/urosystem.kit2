@@ -1,5 +1,5 @@
 ---
-id: more
+id: intro
 folder: urosystem
 fallback: ""
 background:

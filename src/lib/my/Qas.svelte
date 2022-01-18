@@ -3,12 +3,12 @@
 </script>
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
-  {#if comp.title}<h1>{comp.title}</h1>{/if}
+  {#if comp.title}<h2>{comp.title}</h2>{/if}
   {#if comp.subhead}<div><h3>{comp.subhead}</h3></div>{/if}
   <div>
     {#if comp.fixed}
       {#each comp.items || [] as item}
-        <h2 id="{item.anchor}">{item.q}</h2>
+        <h3 id="{item.anchor}">{item.q}</h3>
         {@html item.text}
       {/each}
     {:else}

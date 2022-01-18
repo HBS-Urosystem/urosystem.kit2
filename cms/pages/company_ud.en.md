@@ -1,10 +1,9 @@
 ---
-id: company
+id: company_ud
 fallback: ""
 published: true
 title: Urosystem – For the Innovative Treatment of Lower Urinary Tract Conditions
 keywords: Urosystem, urological devices, iAluadapter, Sándor Lovász, UroDapter, urinary tract infection
-  devices, intravesical treatment, lower urinary tract diseases, IBSA, Uro-Pro
 description: Urosystem’s goal is to revolutionize the treatment of lower urinary tract diseases, focusing on interstitial cystitis/bladder pain syndrome.
 menutitle: Company
 blocks:
@@ -12,4 +11,5 @@ blocks:
   - id: company/partners_us
   - id: index/contact
 subhero: company/logo
+canonical: https://www.urosystem.com/company
 ---

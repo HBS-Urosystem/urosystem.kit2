@@ -16,7 +16,7 @@ function _submit(e) {
 <!--{#if !$gateway[comp.name]}-->
 <article hidden={!!$gateway[comp.name]} id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
   {#if !!comp.title}<h2>{comp.title}</h2>{/if}
-  {#if !!comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
+  {#if !!comp.subhead}<h3>{comp.subhead}</h3>{/if}
   <div>
     <form name="{comp.name}" method="POST" action={(!!comp.action ? '/' + comp.lang + comp.action : '') + '#content'} on:submit="{_submit}">
       <input type="hidden" name="form-name" value="{comp.name}">

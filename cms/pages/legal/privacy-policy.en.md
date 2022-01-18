@@ -3,9 +3,9 @@ id: privacy-policy
 folder: legal
 fallback: ""
 published: true
-title: Urosystem Co. Ltd. – Privacy Policy
+title: Urosystem – Privacy Policy
 keywords: Urosystem, privacy policy, data controlling, data protection, cookies, GDPR
-description: The Privacy Policy and the Cookie Policy of Urosystem Co. Ltd.
+description: The Privacy Policy and the Cookie Policy of Urosystem
 menutitle: Privacy policy
 blocks:
   - id: privacy

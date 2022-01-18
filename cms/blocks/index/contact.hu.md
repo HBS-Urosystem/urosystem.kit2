@@ -5,6 +5,8 @@ fallback: en
 components:
   - type: form
     text: >-
+      Should you have questions, remarks or need further information on any conditions or products, please, use the form below.
+      
       <fieldset>
         <label>Név <input type="text" name="name" required /></label>   
         <label>Email <input type="email" name="email" autocomplete="email" required /></label>

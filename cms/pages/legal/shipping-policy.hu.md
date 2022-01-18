@@ -3,6 +3,6 @@ id: shipping-policy
 folder: legal
 fallback: en
 published: true
-title: Szállítási információk
+title: Szállítási feltételek
 menutitle: null
 ---

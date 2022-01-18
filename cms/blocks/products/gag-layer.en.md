@@ -5,6 +5,10 @@ fallback: ""
 components:
   - type: article
     text: >-
+      This text explains to you how to perform the GAG-Layer Integrity Test
+      (also known as 2-Day Voiding Diary). It is to be used for several
+      different purposes:
+
       * Performing the test can confirm or deny whether you have may have
       Interstitial Cystitis/Bladder Pain Syndrome (IC/BPS).
 
@@ -13,13 +17,9 @@ components:
       * If you are an IC/BPS patient, performing the test regularly helps your therapist learn how effective your treatment is and determine the frequency of certain forms of treatment (e.g., bladder instillation).
 
       * In the case of certain lower urinary tract conditions (such as bacterial infection, bladder complications of oncotherapy), the test reveals whether the GAG-layer of the bladder is deficient (damaged), which may greatly help the convalescence.
-    subhead: This text explains to you how to perform the GAG-Layer Integrity Test
-      (also known as 2-Day Voiding Diary). It is to be used for several
-      different purposes.
   - type: qas
     fixed: true
     title: ""
-    anchor: patients
     items:
       - q: The Theory Behind
         anchor: theory
@@ -67,10 +67,10 @@ components:
 
           (Many other voiding diaries are taking nighttime voiding into account, too. Our experience shows that it is not necessary. Nighttime voiding is affected by several factors not directly related to any condition of the bladder. Therefore, taking these portions into consideration would adversely influence the accuracy of the test.)
         anchor: method
-      - q: Practical Instructions
+      - q: Practical Instructions for the Voiding Diary
         text: >-
-          *To perform the test correctly, the instructions below are to be
-          followed precisely.*
+          To perform the test correctly, the instructions below are to be
+          followed precisely:
 
 
 

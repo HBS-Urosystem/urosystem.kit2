@@ -5,9 +5,11 @@ fallback: ""
 components:
   - type: article
     text: >-
+      The method can be used in diagnosing the insufficiency of the inner mucus
+      layer of bladder:
+
+
       It has been expressed throughout the world that the deficient condition of the protective GAG-layer of the bladder, which prevents the penetration of the urinary constituents into the bladder wall, is observed in several pathologic lower urinary tract conditions, such as interstitial cystitis/bladder pain syndrome (IC/BPS), chemo-cystitis and radiation cystitis (e.g. [1](#ref-1)). However, there is no widespread method for estimating the condition of the GAG-layer itself, which significantly hinders the possibility of diagnosing these conditions. Due to this, special issues are raised regarding IC/BPS, whose exact medical definition is still under constant discussion and whose diagnosis still lacks accurate methods.
-    subhead: The method can be used in diagnosing the insufficiency of the inner mucus
-      layer of bladder
   - type: qas
     fixed: true
     title: ""
@@ -71,7 +73,7 @@ components:
 
 
           <figure>
-            <img loading="lazy" src="/uploads/gag-layer/image2.jpeg" alt=""/>
+            <img loading="lazy" src="/uploads/gag-layer/image2.jpeg" alt="The more concentrated the urine is, the smaller the daytime mean voided volume is if the GAG-layer is not healthy"/>
             <figcaption>Figure 2. The correlation between the results of the GAG-layer integrity test and the status of the GAG-layer</figcaption>
           </figure>
 

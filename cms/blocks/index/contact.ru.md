@@ -7,6 +7,8 @@ components:
     title: Связаться с нами
     anchor: contact
     text: >-
+      Should you have questions, remarks or need further information on any conditions or products, please, use the form below.
+      
       <fieldset>
         <label>Имя <input type="text" name="name" required /></label>   
         <label>Email <input type="email" name="email" autocomplete="email" required /></label>

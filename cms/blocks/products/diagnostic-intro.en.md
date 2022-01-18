@@ -4,7 +4,8 @@ folder: products
 fallback: ""
 components:
   - type: article
-    title: Diagnostic Help
+    title: Diagnosing IC/BPS
+    subhead: And Certain other Lower Urinary Tract Conditions
     text: >-
       The GAG-Layer Integrity Test was developed for learning the status of the
       inner mucus layer of the bladder. Deficiencies of this layer can be

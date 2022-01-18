@@ -12,8 +12,9 @@ components:
   - type: form
     title: Contact us
     anchor: contact
-    subhead: Should you have questions, remarks or need further information on any conditions or products, please, use the form below.
     text: >-
+      Should you have questions, remarks or need further information on any conditions or products, please, use the form below.
+      
       <fieldset>
         <label>Name <input type="text" name="name" required /></label>   
         <label>Email <input type="email" name="email" autocomplete="email" required /></label>
