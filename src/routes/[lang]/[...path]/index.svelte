@@ -151,7 +151,7 @@
 /*  main {
     padding-bottom: var(--gap);
   }*/
-  h1 {
+  h1/*, .h1*/ {
     cursor: pointer;
   }
   nav {

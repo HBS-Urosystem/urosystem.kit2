@@ -6,9 +6,11 @@ components:
   - type: form
     netlify: true
     cookie: true
-    subhead: "The further resources – including videos, manuals and guides – contain explicit medical content. Therefore, we would like you to fill out the form as follows:" 
+    subhead: "" 
     name: ProfessionalsGateway
     text: >-
+      The further resources – including videos, manuals and guides – contain explicit medical content. Therefore, we would like you to fill out the form as follows:
+      
       <fieldset>
         <label>Name <input type="text" name="name" required /></label>   
         <label>Email <input type="email" name="email" autocomplete="email" required /></label>

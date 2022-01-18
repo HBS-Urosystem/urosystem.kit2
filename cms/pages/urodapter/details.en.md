@@ -3,12 +3,9 @@ id: details
 folder: urodapter
 fallback: ""
 published: true
-title: UroDapter® – For painless local treatment of the bladder
-keywords: UroDapter, replacing catheter, painless, instillation, urethra,
-  bladder, local treatment, pain-free
-description: The UroDapter® completely replaces the catheter and enables
-  painless bladder instillation. With UroDapter®, any solution can be instilled
-  into the bladder.
+title: UroDapter® Syringe Adapter – Details
+keywords: instillation, urological adapter, bladder treatment, urethra treatment, UroDapter®, iAluadapter®
+description: Learn more about the UroDapter®. Replacing the catheter, it enables the painless and complication-free treatment of the bladder and the urethra
 menutitle: UroDapter®
 hero: urodapter/details_hero
 blocks:

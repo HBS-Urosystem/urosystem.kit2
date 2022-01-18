@@ -4,8 +4,9 @@
 </script>
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
-  {#if comp.title}<h2 id="{comp.anchor}">{comp.title}</h2>{/if}
-  {#if comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
+  {#if comp.title}<h2>{comp.title}</h2>{/if}
+  {#if comp.subhead}<h3>{comp.subhead}</h3>{/if}
+  {#if comp.cat}<h4>{comp.cat}</h4>{/if}
     <!--{#if $moved}-->
     {#if comp.source == 'youtube'}
     <div>
@@ -31,12 +32,21 @@
 <style>
   article {
     text-align: center;
-    /*padding: 0;*/
-    /*min-height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    flex-basis: 36ch;
   }
+  h2, h3 {
+    padding-top: 0;
+  }
+  h4 {
+    order: -1;
+    padding-top: 1.5em;
+  }
+
   div {
     position: relative;
-    /*width: 75%;*/
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
     padding: 0;

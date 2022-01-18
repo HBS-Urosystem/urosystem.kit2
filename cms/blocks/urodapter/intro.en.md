@@ -8,7 +8,7 @@ components:
     title: The biggest advantages of the UroDapter®
     anchor: advantages
     images:
-      - alt: Illustration
+      - alt: The UroDapter®
         shape: rounded
         text: |-
           #### Pain-free insertion
@@ -17,14 +17,14 @@ components:
         src: /uploads/advantage-1.jpg
         posx: ""
         scale: ""
-      - alt: Illustration
+      - alt: Complication-free bladder treatment
         text: "#### No post treatment complications or infections
 
           #### No risk of urethral trauma or injury"
         src: /uploads/advantage-2.jpg
         posx: 40
         scale: 1.25
-      - alt: Illustration
+      - alt: The UroDapter® replaces catheter
         text: |-
           #### Quick and easy bladder instillation with high efficiency
 
@@ -42,6 +42,7 @@ components:
   - type: video
     source: local
     id: uploads/urodapter_5_20.mp4
+    title: A quick demonstration on the UroDapter syringe adapter
     anchor: animation
   - type: grid
     slide: false

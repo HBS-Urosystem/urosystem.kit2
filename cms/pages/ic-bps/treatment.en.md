@@ -3,10 +3,10 @@ id: treatment
 slug: treatment
 folder: ic-bps
 published: true
-title: The Treatment of IC/BPS
+title: The treatment of Interstitial Cystitis/Bladder Pain Syndrome (IC/BPS)
 menutitle: The Treatment of IC/BPS
-keywords: pentosan polysulfate, DMSO, hyaluronic acid, chondroitin sulphate, heparin, bladder treatment, instillation, bladder cocktail, Interstitial Cystitis, Bladder Pain Syndrome, IC/BPS
-description: The multimodal treatment of IC/BPS consists of lifestyle and diet changes, oral medication and intravesical instillation (local treatment of the bladder).
+keywords: instillation, bladder cocktail, oral treatment, local treatment, IC/BPS therapy, multimodal treatment, Interstitial Cystitis, Bladder Pain Syndrome, IC/BPS, pentosan polysulfate, DMSO, hyaluronic acid, chondroitin sulphate, heparin, bladder treatment
+description: The multimodal treatment of IC/BPS consists of lifestyle changes, diet, oral medication and intravesical instillation (local treatment of the bladder).
 blocks:
   - id: ic-bps/treatment
 ---

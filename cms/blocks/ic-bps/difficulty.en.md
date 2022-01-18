@@ -75,7 +75,7 @@ components:
 
       <figure>
 
-      <img loading="lazy" src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="voiding diary"/>
+      <img loading="lazy" src="/uploads/voiding_diary.sm.png" srcset="/uploads/voiding_diary.png 2x, /uploads/voiding_diary.sm.png 1x" alt="The correlation between the mean of the daytime urine portion and the total amount of daytime urine, in case of healthy people and IC/BPS patients."/>
 
       <figcaption>The correlation between the mean of the daytime urine portion and the total amount of daytime urine, in case of healthy people and IC/BPS patients.</figcaption>
 

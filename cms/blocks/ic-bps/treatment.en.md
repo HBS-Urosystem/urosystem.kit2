@@ -127,7 +127,7 @@ components:
 
       <figure>
 
-      <img loading="lazy" src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="ICBPS treatment flowchart"/>
+      <img loading="lazy" src="/uploads/icbps_treatment_flowchart.sm.png" srcset="/uploads/icbps_treatment_flowchart.png 2x, /uploads/icbps_treatment_flowchart.sm.png 1x" alt="IC/BPS treatment flowchart"/>
 
       <figcaption>The flowchart of diagnosis and therapy of IC/BPS. By 100% of the GAG-layer integrity test, the mean of the urine portions measured on the first (low fluid intake) day should be meant (described in the Diagnosing IC/BPS chapter)</figcaption>
 
@@ -141,97 +141,66 @@ components:
 
 
       More invasive therapies – including nerve stimulation, fulguration of the damaged regions of the GAG-layer or cystectomy – are performed only if all the other treatments have been ineffective. Alternative methods – including acupuncture, high-pressure oxygen therapy – are mostly recommended as supplementary treatments, taking into consideration their wrong cost-benefit ratio.
+  - type: refs
+    title: References
+    items:
+      - url: https://www.auanet.org/guidelines/guidelines/interstitial-cystitis-(ic/bps)-guideline
 
+      - url: https://docplayer.net/20821777-Eating-with-ic-www-ichelp-org-interstitial-cystitis-association.html
 
-      ## References
+      - url: https://www.ic-network.com/bev/
 
+      - url: https://ic-diet.com/IC-diet-food-list.html
 
-      \[1] https://www.auanet.org/guidelines/interstitial-cystitis/bladder-pain-syndrome-(2011-amended-2014)
+      - url: https://pubmed.ncbi.nlm.nih.gov/17499305/
 
+      - url: https://pubmed.ncbi.nlm.nih.gov/22453670/
 
-      \[2] https://docplayer.net/20821777-Eating-with-ic-www-ichelp-org-interstitial-cystitis-association.html
+      - url: https://www.ic-network.com/interstitial-cystitis-treatments/oral-medication/
 
+      - url: https://www.webmd.com/drugs/2/drug-14053/pentosan-polysulfate-sodium-oral/details
 
-      \[3] https://www.ic-network.com/bev/
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/29801663
 
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/15758738/
 
-      \[4] https://ic-diet.com/IC-diet-food-list.html
+      - url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5756823/
 
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/24376550/
 
-      \[5] https://pubmed.ncbi.nlm.nih.gov/17499305/
+      - url: https://www.ics.org/2015/abstract/23
 
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/24276074
 
-      \[6] https://pubmed.ncbi.nlm.nih.gov/22453670/
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/25690160/
 
+      - url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4708561/
 
-      \[7] https://www.ic-network.com/interstitial-cystitis-treatments/oral-medication/
+      - url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5522791/
 
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/28150028
 
-      \[8] https://www.webmd.com/drugs/2/drug-14053/pentosan-polysulfate-sodium-oral/details
+      - url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5293394/
 
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/19021619/
 
-      \[9] https://www.ncbi.nlm.nih.gov/pubmed/29801663
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/22576327/
 
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/22082303/
 
-      \[10] https://www.ncbi.nlm.nih.gov/pubmed/15758738/
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/22576327/
 
+      - url: https://www.researchgate.net/publication/47396396_Long-term_results_of_intravesical_hyaluronan_therapy_in_bladder_pain_syndromeinterstitial_cystitis
 
-      \[11] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5756823/
+      - url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4708541/
 
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/20494413/
 
-      \[12] https://www.ncbi.nlm.nih.gov/pubmed/24376550/
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/18778342/
 
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/22516357/
 
-      \[13] https://www.ics.org/2015/abstract/23
+      - url: https://www.ncbi.nlm.nih.gov/m/pubmed/27654012/
 
-
-      \[14] https://www.ncbi.nlm.nih.gov/pubmed/24276074
-
-
-      \[15] https://www.ncbi.nlm.nih.gov/pubmed/25690160/
-
-
-      \[16] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4708561/
-
-
-      \[17] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5522791/
-
-
-      \[18] https://www.ncbi.nlm.nih.gov/pubmed/28150028
-
-
-      \[19] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5293394/
-
-
-      \[20] https://www.ncbi.nlm.nih.gov/pubmed/19021619/
-
-
-      \[21] https://www.ncbi.nlm.nih.gov/pubmed/22576327/
-
-
-      \[22] https://www.ncbi.nlm.nih.gov/pubmed/22082303/
-
-
-      \[23] https://www.ncbi.nlm.nih.gov/pubmed/22576327/
-
-
-      \[24] https://www.researchgate.net/publication/47396396_Long-term_results_of_intravesical_hyaluronan_therapy_in_bladder_pain_syndromeinterstitial_cystitis
-
-
-      \[25] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4708541/
-
-
-      \[26] https://www.ncbi.nlm.nih.gov/pubmed/20494413/
-
-
-      \[27] https://www.ncbi.nlm.nih.gov/pubmed/18778342/
-
-
-      \[28] https://www.ncbi.nlm.nih.gov/pubmed/22516357/
-
-
-      \[29] https://www.ncbi.nlm.nih.gov/m/pubmed/27654012/
-
-
-      \[30] https://www.ic-network.com/interstitial-cystitis-treatments/bladder-instillations/
+      - url: https://www.ic-network.com/interstitial-cystitis-treatments/bladder-instillations/
 ---

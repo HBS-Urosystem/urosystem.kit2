@@ -42,17 +42,13 @@ components:
       - type: video
         source: youtube
         id: MONZqHMJv7Q
-        text: |-
-          ### VIDEO PRESENTATION
-
-          ### Dr. Sándor Lovász on the use of UroDapter®
         anchor: lovasz
+        cat: VIDEO PRESENTATION
+        subhead: Dr. Sándor Lovász on the use of UroDapter®
       - type: video
         source: youtube
-        anchor: using
         id: OgwxcHuhQuQ
-        text: |-
-          ### IBSA VIDEO TUTORIAL
-
-          ### Using the iAluAdapter® (UroDapter®)
+        anchor: using
+        cat: IBSA VIDEO TUTORIAL
+        subhead: Using the iAluAdapter® (UroDapter®)
 ---

@@ -1,6 +1,7 @@
 /*! minireset.css v0.0.7 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
 :root {
+  --white: #fff;
   --dark-blue: #072c3f;
   --mid-blue: #0b3b54;
   --light-blue: #52b2d6;
@@ -49,7 +50,7 @@ body {
   margin: 0;
   /*letter-spacing: .03em;*/
   letter-spacing: .04em;
-  color: #fff;
+  color: var(--white);
   background-color: var(--dark-blue);
 
   scrollbar-color: rebeccapurple green;
@@ -85,40 +86,53 @@ header, article, aside, main > div {
 header + div > article:first-child {
   padding-top: 2rem;
 }
-/*nav + main > header {
-  padding-top: 9rem;
-  padding-bottom: 12rem;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}*/
 
-header figure {
-  margin: 1em!important;
+.h1, .h2, .h3 {
+  color: var(--white);
 }
-header aside h1, header aside h2, header aside h3 {
-  padding: 0!important;
-  margin: 0 0 1rem;
+h1, .h1, h2, .h2 {
+  text-align: center;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, .h1 {
+  font-size: 2.5rem;
+  hyphens: auto;
+}
+h2, .h2 {
+  font-size: 2rem;
+}
+h3, .h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.35rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {
   margin: 1.5em 0 1em;
   line-height: 1.2;
   letter-spacing: 0;
   text-shadow: 0 0 0.75em var(--dark-blue-75);
 }
+header h1, header .h1 {
+  font-size: 3.2rem;
+  padding-inline: var(--sides);
+}
+header aside h1, header aside .h1, header aside h2, header aside h3 {
+  padding: 0!important;
+  margin-top: 0;/* 0 1em*/
+}
 
+header figure {
+  margin: 1em!important;
+}
 article > p:first-child {
   padding-top: 1em;
   margin-top: 0;
 }
 
-header h1 {
-  font-size: 3.2rem;
-  /*margin-top: 3.75em;*/
-  padding-inline: var(--sides);
-}
-h1 a {
+h1 a, .h1 a {
   text-decoration: none;
 }
 /*main header {
@@ -186,13 +200,13 @@ section > label, div > label {
   flex: 1 0 20ch;
   padding-top: 1em;
   margin: 0 var(--rem) 1em;
-  /*border-bottom: 2px solid white;*/
+  /*border-bottom: 2px solid var(--white);*/
 }
 fieldset > label {
   flex: 1 0 20ch;
   padding-top: 1em;
   margin: 0 var(--rem) 1em 0;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid var(--white);
   display: flex;
   flex-direction: column;
 }
@@ -240,8 +254,8 @@ button {
   border-radius: 1.75rem;
   padding: 0 var(--gap2);
   line-height: 2.5rem;
-  margin-bottom: 3.75em;
-  margin-top: 2.5rem;
+  /*margin-bottom: 3.75em;
+  margin-top: 2.5rem;*/
   margin-inline: 1rem;
   background-color: var(--pale-blue);
   color: black;
@@ -278,12 +292,12 @@ article h4, article h5, article h6 {
   }
 }
 
-article > h1:first-child, article > h2:first-child, article > h3:first-child, article > h4:first-child, article > h5:first-child, article > h6:first-child, aside > h1:first-child, aside > h2:first-child, aside > h3:first-child, aside > h4:first-child, aside > h5:first-child, aside > h6:first-child {
+article > h1:first-child, article > .h1:first-child, article > h2:first-child, article > h3:first-child, article > h4:first-child, article > h5:first-child, article > h6:first-child, aside > h1:first-child, aside > .h1:first-child, aside > h2:first-child, aside > h3:first-child, aside > h4:first-child, aside > h5:first-child, aside > h6:first-child {
   padding-top: 1.5em;
   margin-top: 0;
 }
 
-article > h1:last-child, article > h2:last-child, article > h3:last-child, article > h4:last-child, article > h5:last-child, article > h6:last-child {
+article > h1:last-child, article > .h1:last-child, article > h2:last-child, article > h3:last-child, article > h4:last-child, article > h5:last-child, article > h6:last-child {
   padding-bottom: 1em;
   margin-bottom: 0;
 }
@@ -318,43 +332,10 @@ a, a:visited {
 }
 article p a, article p a:visited, article li > a, article li > a:visited {
   word-break: break-word;
-  color: white;
+  color: var(--white);
 }
 sup a {
   text-decoration: none;
-}
-
-/*img {
-  max-width: 100%;
-}*/
-
-/*h2 {*/
-  /*padding-top: 2em;*/
-/*}*/
-
-h1, h2 {
-  text-align: center;
-}
-
-h1 {
-  font-size: 2.5rem;
-  hyphens: auto;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-
-h4 {
-  font-size: 1.35rem;
-}
-
-h5 {
-  font-size: 1.2rem;
 }
 
 hr {
@@ -406,11 +387,11 @@ article li > a:first-child::after {
 }
 article li > a:hover {
   /*text-decoration: underline;*/
-  border-color: white;
+  border-color: var(--white);
 }
 
 /*header, main {
-  color: white;
+  color: var(--white);
 }*/
 
 summary {

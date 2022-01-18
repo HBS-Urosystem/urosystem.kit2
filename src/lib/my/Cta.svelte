@@ -29,19 +29,23 @@
 </aside>
 
 <style>
-  button {
+  /*button {
     margin-block: 0;
-  }
+  }*/
   div {
     text-align: center;
-    margin-bottom: 3.75em;
-    margin-top: 2.5rem;
+    /*margin-bottom: 3.75em;
+    margin-top: 2.5rem;*/
   }
   a {
     text-decoration: none;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    display: block;
   }
   p {
     text-align: center;
+    margin-top: -1.5rem;
   }
   
 </style>
