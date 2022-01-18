@@ -307,7 +307,7 @@ article p, article ul, article ol, article dl, article table, aside p, aside ul,
   color: var(--pale-blue);
 }
 article :not(figcaption) > p:first-child, article ul:first-child, article ol:first-child, article dl:first-child, article table:first-child, main aside p:first-child, main aside ul:first-child, main aside ol:first-child, main aside dl:first-child, aside table:first-child, main > div > :not(article):not(aside):first-child {
-  margin-top: 3.75em;
+  margin-top: 2em;
 }
 article p:last-child, article ul:last-child, article ol:last-child, article dl:last-child, article table:last-child, aside p:last-child, aside ul:last-child, aside ol:last-child, aside dl:last-child, aside table:last-child {
   padding-bottom: 1em;
