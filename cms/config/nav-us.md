@@ -1,7 +1,7 @@
 ---
 top_us:
   - ext: true
-    link: https://urodapter-dev.netlify.app
+    link: https://urodapter.netlify.app
     titles:
       - lang: en
         title: UroDapter®
@@ -66,23 +66,23 @@ top_us:
       - lang: zh
         title: Diagnostic help
   - subpages:
-      - link: https://urodapter-dev.netlify.app/en/ic-bps
+      - link: https://urodapter.netlify.app/en/ic-bps
         titles:
           - lang: en
             title: Bladder Pain Syndrome (IC/BPS)
-      - link: https://urodapter-dev.netlify.app/en/rutis
+      - link: https://urodapter.netlify.app/en/rutis
         titles:
           - lang: en
             title: Urinary Tract Infections
-      - link: https://urodapter-dev.netlify.app/en/post-cancer-treatment
+      - link: https://urodapter.netlify.app/en/post-cancer-treatment
         titles:
           - lang: en
             title: Post-cancer treatment
-      - link: https://urodapter-dev.netlify.app/en/bladder-cancer
+      - link: https://urodapter.netlify.app/en/bladder-cancer
         titles:
           - lang: en
             title: Bladder Cancer (Female Patients)
-      - link: https://urodapter-dev.netlify.app/en/other-uses-and-indications
+      - link: https://urodapter.netlify.app/en/other-uses-and-indications
         titles:
           - lang: en
             title: Other Uses and Indications
