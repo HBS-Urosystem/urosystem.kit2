@@ -22,7 +22,7 @@ components:
       Urosystem Co. Ltd. is located in Hungary. Its goal is to develop and commercialize the inventions of Sándor Lovász MD. PhD. urologist, Péter Birinyi MD. pharmacist, and their co-workers. S. Lovász is a globally renowned expert of IC/BPS, who is treating more than 300 patients. P. Birinyi is the leading pharmacist of Mikszáth Pharmacy, which was elected as the Pharmacy of the Year in Hungary, in 2015.
 
 
-      Urosystem Co. Ltd. Has obtained a D&B Failure Score AAA certification. This indicates that the financial risk of establishing a business relationship with the company is low. Only 0.63% of Hungarian companies have this certificate.
+      Urosystem Co. Ltd. has obtained a D&B Failure Score AAA certification. This indicates that the financial risk of establishing a business relationship with the company is low. Only 0.63% of Hungarian companies have this certificate.
 
 
       <center><a href="/uploads/20211018 Urosystem Zrt._a.pdf" rel="_noopener" target="_blank"><img loading="lazy" src="https://certificate.hungary.dnb.com/getimage?cid=5291630&lang=en&typ=l&bg=FFFFFF&fg=000000" alt="Dun & Bradstreet tanusitvany" style="border:1px solid #CCCCCC" oncontextmenu="return false" title="The risk of business transactions with companies that possess a Dun &amp; Bradstreet Certificate is low. The rating is based on the Dun &amp; Bradstreet rating system which combines one hundred years of international experience and considers hundreds of variables. The Dun &amp; Bradstreet Certificate indicates the current status of the company which is updated daily." /></a></center>
