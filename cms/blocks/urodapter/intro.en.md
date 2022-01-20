@@ -42,7 +42,7 @@ components:
   - type: video
     source: local
     id: uploads/urodapter_5_20.mp4
-    title: A quick demonstration on the UroDapter syringe adapter
+    title: A quick demonstration on the UroDapter® syringe adapter
     anchor: animation
   - type: grid
     slide: false

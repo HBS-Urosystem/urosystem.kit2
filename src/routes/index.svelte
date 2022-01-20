@@ -20,7 +20,7 @@
   //export let page
   //if (!page) goto($sitelang || 'en')
   onMount(() => {
-    //console.log('goto/' + page)
+    $sitelang = 'en'
     goto('/' + $sitelang, { replaceState: false });
 	})
   //async ()=> {

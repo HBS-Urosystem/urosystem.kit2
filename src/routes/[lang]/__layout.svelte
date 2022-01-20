@@ -15,11 +15,12 @@
     let { lang, path } = {...page.params}
     let u = []
 		if (!!path) {
-      u.push(lang)
+      //u.push(lang)
+      u.push('en')
       u.push(path)
     } else {
-      //u.push(get(sitelang) || 'en')
-      u.push(lang || get(sitelang) || 'en')
+      //u.push(lang || get(sitelang) || 'en')
+      u.push('en')
     }
     u.push('cms.json')
 		const url = '/'+u.join('/')

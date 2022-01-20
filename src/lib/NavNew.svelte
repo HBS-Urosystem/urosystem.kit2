@@ -327,19 +327,24 @@
   nav > div {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
     padding: 1rem 1rem 0 1rem;
     margin: 0;
     height: 2.5rem;
     position: sticky;
     /*left: 0;*/
     inset-inline-start: 0;
+    /*justify-content: space-between;*/
+    justify-content: center;
   }
   nav > div > ul {
     list-style: none;
   }
   nav > div li {
     display: inline;
+  }
+  nav > div a {
+    display: inline-block;
+    padding-inline: 0.25rem;
   }
   nav > div li img{
     filter: invert();
@@ -398,12 +403,12 @@
     /*overflow-y: visible;*/
     flex-shrink: 0;
   }
-  nav > ul > li > a {
+  /*nav > ul > li > a {
     text-shadow: 1px 1px 2px var(--dark-blue-75);
-  }
+  }*/
   nav > ul > li > span {
     cursor: default;
-    text-shadow: 1px 1px 2px var(--dark-blue-75);
+    /*text-shadow: 1px 1px 2px var(--dark-blue-75);*/
   }
   nav > ul > li:first-of-type a {
     display: block;
@@ -510,7 +515,8 @@
     font-size: 1rem;
   }
   select {
-    display: flex;
+    /*display: flex;*/
+    display: none;
     padding: 0.65em 1.75em 0 2em;
     padding-inline-start: 2em;
     padding-inline-end: 1.75em;
