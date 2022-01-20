@@ -1,10 +1,5 @@
 ---
 langs:
-  - id: en
-    title: English
-    dir: ltr
-    font: default
-    active: true
   - dir: ltr
     font: default
     id: de
@@ -69,5 +64,10 @@ langs:
     font: default
     id: hu
     title: Magyar
+    active: true
+  - id: en
+    title: English
+    dir: ltr
+    font: default
     active: true
 ---

@@ -12,7 +12,7 @@
   //import { amp, browser, dev, prerendering } from '$app/env'
 </script>
 <script>
-
+//console.log($state.thislang.id, $sitelang)
 </script>
 
 <svelte:head>
@@ -119,7 +119,7 @@
       {/each}
     </div>
   {/if}
-  {#if /*$state.post.submenu && */$state.post.subpages && $state.post.blocks}
+  {#if /*$state.post.submenu && */$state.post.subpages && $state.post.subpage}
     <nav>
       <h2>{$state.post.title}</h2>
       <ul>
@@ -131,8 +131,8 @@
   {/if}
 <!--{/if}-->
 </main>
-{#if $sitelang == 'en'}
-<a hidden rel="redirect" href="/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">&nbsp;</a>
+{#if $sitelang == 'en' && $state.thislang.id == 'en'}
+<a hidden aria-hidden="true" rel="redirect" href="/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">&nbsp;</a>
 {/if}
 
 <style>
@@ -155,6 +155,6 @@
     cursor: pointer;
   }
   nav {
-    margin-block: 6rem;
+    padding-block: 3rem;
   }
 </style>
