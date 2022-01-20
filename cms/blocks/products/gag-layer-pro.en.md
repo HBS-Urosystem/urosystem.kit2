@@ -138,23 +138,21 @@ components:
     anchor: references
     items:
       - title: https://www.sciencedirect.com/science/article/pii/S156990561100056X?casa_token=cFwAQKtrctMAAAAA:oEgDy9LQCpoRKJIzxAu3BNsV3L-DyQmssnPlN4mAJnwY5-VLx6G6LJKB7H1_SPL7AJgj-Rc7
-        url: "
-          https://www.sciencedirect.com/science/article/pii/S156990561100056X?casa_\
+        url: "https://www.sciencedirect.com/science/article/pii/S156990561100056X?casa_\
           token=cFwAQKtrctMAAAAA:oEgDy9LQCpoRKJIzxAu3BNsV3L-DyQmssnPlN4mAJnwY5-\
           VLx6G6LJKB7H1_SPL7AJgj-Rc7"
       - title: https://pubmed.ncbi.nlm.nih.gov/11248610/
-        url: " https://pubmed.ncbi.nlm.nih.gov/11248610/"
+        url: "https://pubmed.ncbi.nlm.nih.gov/11248610/"
       - title: https://www.researchgate.net/publication/246297699_534Comparative_assessment_of_maximal_bladder_capacity_09_NaCl_VS_02_M_KCl_before_and_after_therapy_for_interstitial_cystitis
-        url: "
-          https://www.researchgate.net/publication/246297699_534Comparative_assessm\
+        url: "https://www.researchgate.net/publication/246297699_534Comparative_assessm\
           ent_of_maximal_bladder_capacity_09_NaCl_VS_02_M_KCl_before_and_after_\
           therapy_for_interstitial_cystitis"
       - title: https://pubmed.ncbi.nlm.nih.gov/19936591/
-        url: " https://pubmed.ncbi.nlm.nih.gov/19936591/"
+        url: "https://pubmed.ncbi.nlm.nih.gov/19936591/"
       - title: https://www.sciencedirect.com/science/article/abs/pii/S0022534717414789
-        url: " https://www.sciencedirect.com/science/article/abs/pii/S0022534717414789"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0022534717414789"
       - title: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6443427/
-        url: " https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6443427/"
+        url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6443427/"
   - type: links
     title: Printable forms for performing the GAG-Layer Integrity Test
     anchor: downloads

@@ -28,7 +28,7 @@ components:
       - title: 再発性尿路感染症(rUTIs)
         url: /rutis
         src: ""
-      - title: " がん治療後の療法、特定の状態にある出 血性膀胱炎(HC)"
+      - title: "がん治療後の療法、特定の状態にある出 血性膀胱炎(HC)"
         url: /post-cancer-treatment
         src: ""
       - title: 膀胱がん(女性患者)

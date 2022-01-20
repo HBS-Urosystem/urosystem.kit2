@@ -121,7 +121,7 @@ components:
         text: iAluadapter® (UroDapter®)
     ratio: 90
   - type: images
-    title: " مع UroDapter®  يمكن إعطاء أي محلول في المثانة."
+    title: "مع UroDapter®  يمكن إعطاء أي محلول في المثانة."
     shape: default
     images:
       - alt: محول حقنة المسالك البولية وأجزائها – UroDapter®

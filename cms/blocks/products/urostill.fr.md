@@ -91,7 +91,7 @@ components:
       marquage CE et l'enregistrement FDA.
   - type: video
     source: youtube
-    title: " Une démonstration vidéo de assemblage et utilisation d'UroStill ® "
+    title: "Une démonstration vidéo de assemblage et utilisation d'UroStill ® "
     id: GR2fk6xSquQ
     anchor: video
   - type: links
