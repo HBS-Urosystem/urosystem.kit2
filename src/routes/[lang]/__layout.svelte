@@ -63,9 +63,9 @@
 </script>
 
 <svelte:head>
-  {#each $state.langs || [] as lang}
+  <!--{#each $state.langs || [] as lang}
     <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
-  {/each}
+  {/each}-->
 
 
   {#if !dev }
@@ -148,9 +148,12 @@
 <slot></slot>
 <Footer/>
 <Cookies cookie={$cookies}/>
-
+<!--
 {#each $state.langs || [] as lang}
+{#if !!lang.active}
 <a hidden aria-hidden="true" rel="alternate" href="/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">
   {lang.id}
 </a>
+{/if}
 {/each}
+-->

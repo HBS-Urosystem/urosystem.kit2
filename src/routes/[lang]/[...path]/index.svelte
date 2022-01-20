@@ -131,9 +131,9 @@
   {/if}
 <!--{/if}-->
 </main>
-{#if $sitelang == 'en' && $state.thislang.id == 'en'}
+<!--{#if $sitelang == 'en' && $state.thislang.id == 'en'}-->
 <a hidden aria-hidden="true" rel="redirect" href="/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">&nbsp;</a>
-{/if}
+<!--{/if}-->
 
 <style>
   header {

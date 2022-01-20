@@ -5,8 +5,8 @@ import { variables } from '$lib/stores'
 
 const _site = variables.site
 
-const allblocks = import.meta.glob('/cms/blocks/**/*.md')
-const allposts = import.meta.glob('/cms/pages/**/*.md')
+const allblocks = import.meta.glob('/cms/blocks/**/*.en.md')
+const allposts = import.meta.glob('/cms/pages/**/*.en.md')
 const allconfs = import.meta.glob('/cms/config/*.md')
 
 let theposts = []
