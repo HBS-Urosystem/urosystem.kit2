@@ -5,9 +5,10 @@ published: true
 title: Urosystem – Buy the UroDapter® from our Shop
 #keywords: Urosystem, UroDapter, catheter replacement, painless instillation, urological adapter, syringe adapter, buy, webshop, Amazon
 keywords: Urosystem, UroDapter, catheter replacement, painless instillation, urological adapter, syringe adapter
-description: The UroDapter can be purchased here. If you are from the US or Canada, visit our Amazon page.
+description: The UroDapter® can be purchased here. If you are from the US or Canada, visit our Amazon page.
 menutitle: Shop
 hero: shop/hero
+herotitle: UroDapter®
 blocks:
   - id: shop/shop-5pcs
   - id: shop/amazon

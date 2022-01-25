@@ -9,6 +9,7 @@ description: The UroDapter® completely replaces the catheter and enables
   painless bladder instillation. With UroDapter®, any solution can be instilled
   into the bladder.
 menutitle: UroDapter®
+herotitle: " "
 hero: products/hero_urodapter
 blocks:
   - id: products/urodapter

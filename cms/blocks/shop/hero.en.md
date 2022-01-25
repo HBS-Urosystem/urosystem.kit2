@@ -18,9 +18,6 @@ components:
   - type: cta
     title: ""
     text: >-
-      # UroDapter®
-
-
       ### A urological syringe adapter which completely replaces the catheter: it enables painless and complication-free bladder instillation
   - type: grid
     slide: false

@@ -1,5 +1,4 @@
----
-footer_us:
+footer:
   - link: company
     titles:
       - lang: en
@@ -21,7 +20,7 @@ footer_us:
       - lang: zh
         title: UroSystem
       - lang: ar
-        title: UroSystem
+        title: شركتنا
       - lang: he
         title: UroSystem
       - lang: ko
@@ -61,6 +60,36 @@ footer_us:
             title: 회사소개
           - lang: tr
             title: Hakkımızda
+      - link: company#contact
+        titles:
+          - lang: en
+            title: Contact
+          - lang: hu
+            title: Kapcsolat
+          - lang: ru
+            title: Контакт
+          - lang: de
+            title: Kontakt
+          - lang: fr
+            title: Contacter
+          - lang: it
+            title: Contatto
+          - lang: es
+            title: Contacto
+          - lang: pt
+            title: Contato
+          - lang: ja
+            title: 連絡先
+          - lang: zh
+            title: 关于我们
+          - lang: ar
+            title: معلومات عنا
+          - lang: he
+            title: איש קשר
+          - lang: ko
+            title: 연락처
+          - lang: tr
+            title: İletişim
       - link: company#partners
         titles:
           - lang: en
@@ -91,36 +120,6 @@ footer_us:
             title: 협력사
           - lang: tr
             title: Ortaklarımız
-      - link: company#contact
-        titles:
-          - lang: en
-            title: Contact us
-          - lang: hu
-            title: Kapcsolat
-          - lang: ru
-            title: Контакт
-          - lang: de
-            title: Kontakt
-          - lang: fr
-            title: Contacter
-          - lang: it
-            title: Contatto
-          - lang: es
-            title: Contacto
-          - lang: pt
-            title: Contato
-          - lang: ja
-            title: 連絡先
-          - lang: zh
-            title: 关于我们
-          - lang: ar
-            title: اتصال
-          - lang: he
-            title: איש קשר
-          - lang: ko
-            title: 연락처
-          - lang: tr
-            title: İletişim
       - titles:
           - lang: hu
             title: Pályázatok
@@ -156,38 +155,8 @@ footer_us:
       - lang: ar
         title: منتجات
     subpages:
-      - ext: true
-        link: https://www.urodapter.com
-        titles:
-          - lang: en
-            title: UroDapter®
-          - lang: ru
-            title: UroDapter®
-          - lang: hu
-            title: UroDapter®
-          - lang: de
-            title: UroDapter®
-          - lang: ko
-            title: UroDapter®
-          - lang: fr
-            title: UroDapter®
-          - lang: he
-            title: UroDapter®
-          - lang: it
-            title: UroDapter®
-          - lang: ar
-            title: UroDapter®
-          - lang: ja
-            title: UroDapter®
-          - lang: pt
-            title: UroDapter®
-          - lang: es
-            title: UroDapter®
-          - lang: tr
-            title: UroDapter®
-          - lang: zh
-            title: UroDapter®
-      - link: development
+      - link: urodapter
+      - link: urostill
   - link: ""
     titles:
       - lang: en
@@ -276,10 +245,10 @@ footer_us:
         ext: true
         logo: /uploads/bxl-vk.svg
         alt: vk
-      #- ext: true
-        #link: https://ok.ru/urodapter
-        #logo: /uploads/bxl-ok-ru.svg
-        #alt: ok
+      - ext: true
+        link: https://ok.ru/urodapter
+        logo: /uploads/bxl-ok-ru.svg
+        alt: ok
   - subpages:
       - logo: /uploads/visa-mastercard.png
         alt: visa mastercard amex paypal
@@ -314,4 +283,3 @@ footer_us:
       - lang: tr
         title: Ödeme metodları
     link: ""
----
