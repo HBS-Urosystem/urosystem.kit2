@@ -178,10 +178,10 @@ components:
       - q: でも......膀胱内注入はカテーテルで行うんですよね！？
         anchor: instillation
         text: >-
-          確かに、長い間、カテーテルを使って膀胱に注入する方法しかありませんでした。しかし、この方法は痛みや不快感を伴い、治療後に感染症を起こすこともしばしばありました。これらの問題を解決するために、カテーテルに代わる泌尿器科用アダプター、UroDapter®が開発されました。UroDapter®については、[こちらのページ](/urodapter)で詳しく紹介しています。
+          確かに、長い間、カテーテルを使って膀胱に注入する方法しかありませんでした。しかし、この方法は痛みや不快感を伴い、治療後に感染症を起こすこともしばしばありました。これらの問題を解決するために、カテーテルに代わる泌尿器科用アダプター、UroDapter®が開発されました。UroDapter®については、[こちらのページ](https://www.urodapter.com)で詳しく紹介しています。
 
 
-          また、患者の自己治療を支援する医療機器として、UroStill®があります。UroStill®を使用すると、外部の助けを借りずに、尿道を通して膀胱に注入することができます。詳細は[こちらのページ](/urostill)をご覧ください。
+          また、患者の自己治療を支援する医療機器として、UroStill®があります。UroStill®を使用すると、外部の助けを借りずに、尿道を通して膀胱に注入することができます。詳細は[こちらのページ](https://www.urosystem.com/development#urostill)をご覧ください。
       - q: Not only has t治療は効果がなかったばかりか、よけいに悪化してしまいました。私は間違った治療を受けたに違いありません。he treatment
           help, but also it has made everything worse! I must have received the
           wrong treatment!

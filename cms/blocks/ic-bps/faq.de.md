@@ -262,10 +262,10 @@ components:
           Infektionen aufgetreten sind. Um diese Probleme zu überwinden, wurde
           UroDapter® entwickelt, ein urologischer Adapter, der den Katheter
           ersetzt. Mehr über UroDapter® erfahren Sie auf [dieser
-          Seite](/urodapter).
+          Seite](https://www.urodapter.com).
 
 
-          Außerdem gibt es ein weiteres medizinisches Gerät, UroStill®, das Patienten bei der Selbstbehandlung unterstützt. Mit UroStill® kann die Blaseninstillation durch die Harnröhre ohne fremde Hilfe erfolgen. Weitere Informationen finden Sie auf [dieser Seite](/urostill).
+          Außerdem gibt es ein weiteres medizinisches Gerät, UroStill®, das Patienten bei der Selbstbehandlung unterstützt. Mit UroStill® kann die Blaseninstillation durch die Harnröhre ohne fremde Hilfe erfolgen. Weitere Informationen finden Sie auf [dieser Seite](https://www.urosystem.com/development#urostill).
       - q: Die Behandlung hat nicht nur nicht geholfen, sondern alles noch schlimmer
           gemacht! Ich hab sicherlich die falsche Behandlung erhalten!
         anchor: treatment

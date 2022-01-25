@@ -244,10 +244,10 @@ components:
           fájdalmas, kellemetlen, és gyakran alakultak ki fertőzések a kezelés
           után. E problémák kiküszöbölése céljából lett kifejlesztve az
           UroDapter®, amely egy a katétert helyettesítő fecskendő adapter. E
-          termékről bővebben [ezen az oldalon lehet olvasni](/urodapter).  
+          termékről bővebben [ezen az oldalon lehet olvasni](https://www.urodapter.com).  
 
 
-          Az UroStill® formájában ma már olyan, úgynevezett önkezelő eszköz is létezik, amellyel a páciens egyedül, külső segítség nélkül is képes a szükséges gyógyszert a húgycsövébe fecskendezni. Az eszközt [ezen az oldalon](/urostill) mutatjuk be.
+          Az UroStill® formájában ma már olyan, úgynevezett önkezelő eszköz is létezik, amellyel a páciens egyedül, külső segítség nélkül is képes a szükséges gyógyszert a húgycsövébe fecskendezni. Az eszközt [ezen az oldalon](https://www.urosystem.com/development#urostill) mutatjuk be.
       - q: Nekem nem segített semmit a kezelés! Sőt, csak rosszabb lett tőle az
           állapotom! Tehát rossz gyógyszert kaptam!
         anchor: treatment
