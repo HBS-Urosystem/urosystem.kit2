@@ -1,8 +1,10 @@
-#/              /en
-#/urodapter              /en
-/recurring-urinary-tract-infectoins              /rutis
-/icbps          /ic-bps
+/recurring-urinary-tract-infectoins          https://www.urodapter.com/en/rutis
+/icbps          https://www.urodapter.com/ic-bps
+
 /urodapter          https://www.urodapter.com/en
 /en/urodapter          https://www.urodapter.com/en
-/ic-bps          https://www.urodapter.com/ic-bps
+
 /en/ic-bps          https://www.urodapter.com/en/ic-bps
+/en/post-cancer-treatment          https://www.urodapter.com/en/post-cancer-treatment
+/en/bladder-cancer          https://www.urodapter.com/en/bladder-cancer
+/en/other-uses-and-indications          https://www.urodapter.com/en/other-uses-and-indications
