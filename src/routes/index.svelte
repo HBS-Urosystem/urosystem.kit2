@@ -8,7 +8,7 @@
   import { sitelang, cookies } from '$lib/stores'
   import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
   /*export const load = async ({ page }) => {
-    console.log('page',{...page})
+    console.log('page',page.query.URLSearchParams)
     return {
 				props: {
           page: {...page}

@@ -9,5 +9,4 @@ description: Előnyös volna a (helyi) kemoterápiás kezelést UroDapterrel vé
   mivel így a gyógyszer egyben a húgycsőre is hatna – ami megakadályozhatná a
   tumoros sejtek újrafejlődését.
 menutitle: Húgyhólyagrák (női páciensek)
-blocks: []
 ---
