@@ -5,8 +5,8 @@ import { variables } from '$lib/stores'
 
 const _site = variables.site
 
-const allblocks = import.meta.glob('/cms/blocks/**/*.en.md')
-const allposts = import.meta.glob('/cms/pages/**/*.en.md')
+const allblocks = import.meta.glob('/cms/blocks/**/*.md')
+const allposts = import.meta.glob('/cms/pages/**/*.md')
 const allconfs = import.meta.glob('/cms/config/*.md')
 
 let theposts = []
@@ -52,6 +52,8 @@ export async function _getConf(lang = 'en') {
     //console.log(c)
   }
 
+  _.remove(config.langs, (n) => { return !n.active })
+  //console.log('config.langs',config.langs)
   config.thislang = null
   for (const l of config.langs) {
     if (l.id == lang) config.thislang = l

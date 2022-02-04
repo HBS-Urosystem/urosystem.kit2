@@ -282,7 +282,7 @@ components:
           Ennek már nem kell így lennie.
 
 
-          2019. őszén megalakult a Magyarországi IC/BPS Egyesület, amely kifejezetten az e betegségben szenvedők segítését tűzte ki célul. Az Egyesület azonban nemcsak a páciensek, hanem azok hozzátartozói előtt is nyitott, s várja azon orvosokat és laikusokat is, akik többet szeretnének tudni erről az igen súlyos tünetekkel járó állapotról.
+          2019 őszén megalakult a Magyarországi IC/BPS Egyesület, amely kifejezetten az e betegségben szenvedők segítését tűzte ki célul. Az Egyesület azonban nemcsak a páciensek, hanem azok hozzátartozói előtt is nyitott, s várja azon orvosokat és laikusokat is, akik többet szeretnének tudni erről az igen súlyos tünetekkel járó állapotról.
 
 
           Az Egyesület munkakapcsolatban áll a külföldön, már évtizedek óta sikeresen működő, nagy tapasztalatú társszervezetekkel, és már megkezdődött az azokkal való együttműködés is.

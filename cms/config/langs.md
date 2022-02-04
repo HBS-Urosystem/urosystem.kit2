@@ -9,7 +9,7 @@ langs:
     title: Русский
     dir: ltr
     font: default
-    active: false
+    active: true
   - id: zh
     title: 中文
     dir: ltr
@@ -64,7 +64,7 @@ langs:
     font: default
     id: hu
     title: Magyar
-    active: false
+    active: true
   - id: en
     title: English
     dir: ltr

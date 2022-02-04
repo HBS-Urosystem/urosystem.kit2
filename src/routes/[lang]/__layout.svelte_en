@@ -5,7 +5,7 @@
   import { get } from 'svelte/store'
   import { state, sitelang, cookies, variables } from '$lib/stores'
   import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
-  import Nav from '$lib/Nav.svelte'
+  import Nav from '$lib/NavNew.svelte'
   import Footer from '$lib/Footer.svelte'
   import Cookies from '$lib/Cookies.svelte'
 
@@ -26,12 +26,13 @@
     }
     u.push('cms.json')
 		const url = '/'+u.join('/')
-//console.log('cms-url:', url)
 
+    //console.log('1.fetch(url)', url)
 		let res = await fetch(url)
+
 		if (res.ok) {
       const result = await res.json()
-//console.log('result_l',result.post)
+      //console.log('result_l',result.post)
 
 			if (result.thislang) return {
 				props: {
@@ -40,7 +41,6 @@
         }
 			}
 		}
-console.log('res.notOK',res)
     return {
 			status: res.status,
 			error: new Error(`Could not load ${url}`)
@@ -65,11 +65,9 @@ console.log('res.notOK',res)
 </script>
 
 <svelte:head>
-  {#each $state.langs || [] as lang}
-  {#if !!lang.active}
+  <!--{#each $state.langs || [] as lang}
     <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
-  {/if}  
-  {/each}
+  {/each}-->
 
 
   {#if !dev }

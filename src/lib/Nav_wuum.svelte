@@ -1,5 +1,5 @@
 <script context="module">
-	import { state, sitelang, variables } from '$lib/stores'
+	import { state, /*moved, */sitelang } from '$lib/stores'
   import { onMount, afterUpdate } from 'svelte'
   //import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
   //import { langs } from '$lib/config';
@@ -25,9 +25,6 @@
       }
     }
   })*/
-  const _site = variables.site
-  const sitelogo = `sitelogo${_site}.svg`
-  const logoclass = `sitelogo${_site}`
 </script>
 <script>
   import { createEventDispatcher } from "svelte";
@@ -173,7 +170,7 @@
         <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
         <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
         <li><a href="https://vk.com/urodapter" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-vk.svg" alt="vk"></a></li>
-        <!--<li><a href="https://ok.ru/urodapter" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>-->
+        <li><a href="https://ok.ru/urodapter" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>
       </ul>
     </div>
     <!--<ul bind:this={navul} mobil={navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}>-->
@@ -182,7 +179,7 @@
       mobil={!!hamburger}>
       <li>
         <a tabindex="0" sveltekit:prefetch href="/{$sitelang}" aria-label="home">
-          <img loading="lazy" class={logoclass} src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
+          <img loading="lazy" src="/uploads/logo-03-web.svg" alt="UroSystem – Revolutionizing bladder pain treatment">
         </a>
       </li>
       <!--{@debug topnav}-->
@@ -327,24 +324,19 @@
   nav > div {
     display: flex;
     flex-wrap: nowrap;
-    padding: 1rem var(--sides) 0;
+    justify-content: space-between;
+    padding: 1rem 1rem 0 1rem;
     margin: 0;
-    height: 2.5rem;
+    height: 3rem;
     position: sticky;
     /*left: 0;*/
     inset-inline-start: 0;
-    justify-content: space-between;
-    /*justify-content: center;*/
   }
   nav > div > ul {
     list-style: none;
   }
   nav > div li {
     display: inline;
-  }
-  nav > div a {
-    display: inline-block;
-    padding-inline: 0.25rem;
   }
   nav > div li img{
     filter: invert();
@@ -371,9 +363,8 @@
   nav > ul:not([mobil='true']) {
     /*align-self: center;
     margin-inline: auto;*/
-    /*margin-inline-start: var(--sides);
-    margin-inline-end: var(--sides);*/
-    margin-inline: auto;
+    margin-inline-start: var(--sides);
+    margin-inline-end: var(--sides);
   }
   nav > ul[mobil='true'] > li:not(:first-child) {
     display: none;
@@ -396,39 +387,30 @@
     aspect-ratio: 100 / 100;
   }
   nav > ul > li {
-    padding-inline-end: 1.75rem;
+    padding-inline-end: 2rem;
     align-self: baseline;
     text-transform: uppercase;
     /*position: relative;*/
     /*overflow-y: visible;*/
     flex-shrink: 0;
   }
-  /*nav > ul > li > a {
+  nav > ul > li > a {
     text-shadow: 1px 1px 2px var(--dark-blue-75);
-  }*/
+  }
   nav > ul > li > span {
     cursor: default;
-    /*text-shadow: 1px 1px 2px var(--dark-blue-75);*/
+    text-shadow: 1px 1px 2px var(--dark-blue-75);
   }
   nav > ul > li:first-of-type a {
     display: block;
-    height: 3.5rem;
+    height: 4rem;
     margin-bottom: 1rem;
   }
   nav > ul > li:first-of-type img {
     padding-inline-end: 1rem;
-  }
-  img.sitelogo, img.sitelogo_ud {
-    margin-bottom: -1.4rem;
-    height: 3.5rem;
-    aspect-ratio: 300 / 119;
-  }
-  img.sitelogo_us {
-    /*margin-bottom: -0.9rem;
-    aspect-ratio: 407 / 100;*/
-    margin-bottom: -1.05rem;
-    height: 3.226rem;
-    aspect-ratio: 300 / 95;
+    margin-bottom: -1.6rem;
+    height: 4rem;
+    aspect-ratio: 100 / 39.56;
   }
   nav > ul > li:not(:first-of-type) {
     min-height: 1.25rem;
@@ -516,7 +498,6 @@
   }
   select {
     display: flex;
-    /*display: none;*/
     padding: 0.65em 1.75em 0 2em;
     padding-inline-start: 2em;
     padding-inline-end: 1.75em;
