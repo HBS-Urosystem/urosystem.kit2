@@ -15,16 +15,15 @@ export const get = async (request) => {
 	let post, conf
 
 	conf = await _getConf(lang || 'en')
-//console.log('_getConf', conf.thislang)
-//console.log('sitelang',store(sitelang))
-//console.log('conf.thislang',conf.thislang.id,'->',lang)
   if (!conf.thislang) {
 		conf = await _getConf(store(sitelang) || 'en')
-		if (!conf.thislang) return false
-		lang = conf?.thislang?.id || 'en'
+    if (!conf.thislang) return false
+      path = lang
+      lang = conf?.thislang?.id || 'en'
 		//path = lang + (!!path ? '/' + path : '')
-		path = !!path ? '/' + path : ''
 	}
+//console.log('conf.thislang',conf.thislang.id,'->',lang)
+//console.log('conf.path',path)
 
 	const parts = path?.split('/') || []
 //console.log('cms_parts',parts)
