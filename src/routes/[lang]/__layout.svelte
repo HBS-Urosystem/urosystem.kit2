@@ -13,16 +13,18 @@
 
   export const load = async ({ params, fetch, page }) => {
     let { lang, path } = {...page.params}
+//console.log({ lang, path })
+//console.log('get(sitelang)',get(sitelang))
     let u = []
 		if (!!path) {
       u.push(lang)
-      //u.push('en')
       u.push(path)
     } else {
-      u.push(get(sitelang))
-      get(sitelang) != lang && u.push(lang)
+      //u.push(get(sitelang) || 'en')
+      u.push(lang || '/')
+      //get(sitelang) != lang && u.push(lang) /// which is holding now the path
       //u.push('en')
-      //u.push(lang) /// which is holding now the path
+      //u.push(lang)
     }
     u.push('cms.json')
 		const url = '/'+u.join('/')
@@ -40,7 +42,7 @@
         }
 			}
 		}
-console.log('res.notOK',res)
+//console.log('res.notOK',res)
     return {
 			status: res.status,
 			error: new Error(`Could not load ${url}`)
@@ -51,7 +53,7 @@ console.log('res.notOK',res)
 
   export let result//, lang, path
   $: $state = result
-  //$: console.log(result)
+  //$: console.log('result.',result.thislang.id)
   $: $sitelang = result.thislang.id
   //$: console.log('_layout $state:',result.post.path)
   //$: console.log('__layout $state:',$state.post.id)

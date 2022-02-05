@@ -5,7 +5,7 @@ fallback: en
 components:
   - type: form
     text: >-
-      Should you have questions, remarks or need further information on any conditions or products, please, use the form below.
+      Ha kérdése, észrevétele van, vagy további információra van szüksége, kérjük, használja az alábbi űrlapot.
       
       <fieldset>
         <label>Név <input type="text" name="name" required /></label>   

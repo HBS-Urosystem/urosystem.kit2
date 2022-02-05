@@ -37,26 +37,11 @@ top_us:
       - link: diagnostic-help/gag-layer-pro
     link: diagnostic-help
   - subpages:
-      - link: https://www.urodapter.com/en/ic-bps
-        titles:
-          - lang: en
-            title: Bladder Pain Syndrome (IC/BPS)
-      - link: https://www.urodapter.com/en/rutis
-        titles:
-          - lang: en
-            title: Urinary Tract Infections
-      - link: https://www.urodapter.com/en/post-cancer-treatment
-        titles:
-          - lang: en
-            title: Post-cancer treatment
-      - link: https://www.urodapter.com/en/bladder-cancer
-        titles:
-          - lang: en
-            title: Bladder Cancer (Female Patients)
-      - link: https://www.urodapter.com/en/other-uses-and-indications
-        titles:
-          - lang: en
-            title: Other Uses and Indications
+      - link: ic-bps
+      - link: rutis
+      - link: post-cancer-treatment
+      - link: bladder-cancer
+      - link: other-uses-and-indications
     titles:
       - lang: en
         title: Indications
@@ -86,6 +71,56 @@ top_us:
         title: 适应症
       - lang: ar
         title: دواعي الإستعمال
+  #- subpages:
+      #- link: https://www.urodapter.com/en/ic-bps
+        #titles:
+          #- lang: en
+            #title: Bladder Pain Syndrome (IC/BPS)
+      #- link: https://www.urodapter.com/en/rutis
+        #titles:
+          #- lang: en
+            #title: Urinary Tract Infections
+      #- link: https://www.urodapter.com/en/post-cancer-treatment
+        #titles:
+          #- lang: en
+            #title: Post-cancer treatment
+      #- link: https://www.urodapter.com/en/bladder-cancer
+        #titles:
+          #- lang: en
+            #title: Bladder Cancer (Female Patients)
+      #- link: https://www.urodapter.com/en/other-uses-and-indications
+        #titles:
+          #- lang: en
+            #title: Other Uses and Indications
+    #titles:
+      #- lang: en
+        #title: Indications
+      #- lang: ru
+        #title: Показания
+      #- lang: hu
+        #title: Felhasználási területek
+      #- lang: de
+        #title: Indikationen
+      #- lang: ko
+        #title: 사용처
+      #- lang: fr
+        #title: Les indications
+      #- lang: he
+        #title: אינדיקציות
+      #- lang: it
+        #title: Indicazioni
+      #- lang: ja
+        #title: 適応症
+      #- lang: pt
+        #title: Indicações
+      #- lang: es
+        #title: Indicaciones
+      #- lang: tr
+        #title: Belirteçler
+      #- lang: zh
+        #title: 适应症
+      #- lang: ar
+        #title: دواعي الإستعمال
   - link: company
     titles:
       - lang: en
