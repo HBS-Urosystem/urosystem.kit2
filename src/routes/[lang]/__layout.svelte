@@ -53,7 +53,6 @@
 
   export let result//, lang, path
   $: $state = result
-  //$: console.log('result.',result.thislang.id)
   $: $sitelang = result.thislang.id
   //$: console.log('_layout $state:',result.post.path)
   //$: console.log('__layout $state:',$state.post.id)

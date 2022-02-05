@@ -46,7 +46,6 @@ export async function _getConf(lang = 'en') {
   for (const b in theconf) {
     //console.log('config[b]',await conf[b])
     const c = await theconf[b]().then(({metadata}) => metadata)
-    //if (c.active) 
     config[Object.keys(c)[0]] = c[Object.keys(c)[0]]
     //config.push(c[Object.keys(c)[0]])
     //console.log(c)
@@ -65,7 +64,6 @@ export async function _getConf(lang = 'en') {
 
   config.topnav = await Promise.all(config[top]?.map(async (subs) => _subnav(subs)))
   config.footnav = await Promise.all(config[footer]?.map(async (subs) => _subnav(subs)))
-  //console.log('config.topnav',config.topnav)
   //console.log('UTILS',config)
   
   return config
@@ -103,9 +101,10 @@ export async function _getConf(lang = 'en') {
       //console.log('obj.subpages',obj.subpages)
       let subs = []
       for (let page of obj.subpages) {
-        if (page.titles && page.titles.length) {
+        if (page.titles?.length) {
+          page.title = null
           for (let item of page.titles) {
-            //console.log(lang, item.lang, item.title)
+            //console.log(lang, {item})
             if (item.lang == lang) page.title = item.title
           }
           //delete page.titles /// ?
