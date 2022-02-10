@@ -43,7 +43,7 @@ components:
       より重症な場合 、他の方法の中でも膀胱内治療が頻繁に行わ れます。化学療法による膀胱炎の治療は通常 数日ですが、放射線療法による膀胱炎の場合 6 ヵ月以上続きます。[19](https://www.ncbi.nlm.nih.gov/books/NBK470594/) 出血を防ぐためには、いくつかの薬剤が知ら れています。アミノカプロン酸(アミノ酸リ ジンに類似)は、プラスミノーゲンの活性化 を阻害し、血液凝固を増加させます。[20](https://www.ncbi.nlm.nih.gov/pubmed/1523745/) ALUM(硫酸アルミニウムアンモニウムまた は硫酸アルミニウムカリウム)は、タンパク 質の沈殿を引き起こし、毛細血管の透過性を 低下させます。[21](https://www.ncbi.nlm.nih.gov/pubmed/3676666/) 硝酸銀は化学凝固を引き 起こします。[22](https://www.uptodate.com/contents/hemorrhagic- cystitis-in-cancer-patients/abstract/102)] 毒性の強いホルマリンは、 患者が他の治療に反応しなかった 場合にのみ使用されます。 いくつかのガイドラインによれば、その前に 患部の高周波療法を行うべきとあります。
 
 
-      後年、専門医はGAG 層の補充にも力を入れるようになってき ています。ヒアルロン酸、コンドロイチン硫 酸、ペントサンポリ硫酸ナトリウムはすでに HC の治療に使用されています。[23](https://www.ncbi.nlm.nih.gov/pubmed/20562794),[24](https://www.ncbi.nlm.nih.gov/pubmed/18751498),[25](https://www.ncbi.nlm.nih.gov/pubmed?term=15476520) プロスタグランジンやエストロゲンも 投与されてはいますが、その結果には議論の 余地があります。[26](https://www.ncbi.nlm.nih.gov/pubmed/7801847?dopt= Abstract),[27](https://www.ncbi.nlm.nih.gov/pubmed?term=2162975),[28](https://www.ncbi.nlm.nih.gov/pubmed?term=28286609) UroDapter を使用し
+      後年、専門医はGAG 層の補充にも力を入れるようになってき ています。ヒアルロン酸、コンドロイチン硫 酸、ペントサンポリ硫酸ナトリウムはすでに HC の治療に使用されています。[23](https://www.ncbi.nlm.nih.gov/pubmed/20562794),[24](https://www.ncbi.nlm.nih.gov/pubmed/18751498),[25](https://www.ncbi.nlm.nih.gov/pubmed?term=15476520) プロスタグランジンやエストロゲンも 投与されてはいますが、その結果には議論の 余地があります。[26](https://www.ncbi.nlm.nih.gov/pubmed/7801847?dopt= Abstract),[27](https://www.ncbi.nlm.nih.gov/pubmed?term=2162975),[28](https://www.ncbi.nlm.nih.gov/pubmed?term=28286609) UroDapter® を使用し
 
 
       GAG 層の補充を行うことは、適応症自体にか かわらず、間違いなく効果的な方法です。

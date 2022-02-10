@@ -41,7 +41,7 @@ components:
       under- or overtreatment. The UroStill was developed especially for female
       IC/BPS patients: this medical device provides them help so that they can
       perform the bladder instillation on their own, at their homes. The
-      UroStill includes the UroDapter syringe adapter, too. 
+      UroStill includes the UroDapter® syringe adapter, too. 
 
 
       The prototype of the device has been used in Hungary by more than 70 patients. The situation caused by the COVID pandemic proved how advantageous the home-treatment is. 

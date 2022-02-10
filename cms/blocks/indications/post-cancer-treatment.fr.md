@@ -53,7 +53,7 @@ components:
       Au cours des dernières années, les thérapeutes ont également commencé à se concentrer sur les reconstitutions de la couche GAG. L'acide hyaluronique, le sulfate de chondroïtine et le polysulfate de pentosan sodique ont déjà été utilisés dans le traitement de la CH.[23](https://www.ncbi.nlm.nih.gov/pubmed/20562794),[24](https://www.ncbi.nlm.nih.gov/pubmed/18751498),[25](https://www.ncbi.nlm.nih.gov/pubmed?term=15476520) De la prostaglandine et des œstrogènes ont également été administrés - les résultats sont cependant controversés.[26](https://www.ncbi.nlm.nih.gov/pubmed/7801847?dopt=Abstract),[27](https://www.ncbi.nlm.nih.gov/pubmed?term=2162975),[28](https://www.ncbi.nlm.nih.gov/pubmed?term=28286609)
 
 
-      L'administration des réapprovisionnements de la couche GAG ​​avec l'UroDapter est certainement une méthode efficace quelle que soit l'indication elle-même.
+      L'administration des réapprovisionnements de la couche GAG ​​avec l'UroDapter® est certainement une méthode efficace quelle que soit l'indication elle-même.
   - type: refs
     title: Les références
     items:

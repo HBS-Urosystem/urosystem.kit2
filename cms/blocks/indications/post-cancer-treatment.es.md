@@ -52,7 +52,7 @@ components:
       El ácido hialurónico, el condroitín sulfato y el pentosano polisulfato sódico ya se han utilizado en el tratamiento de la CH.[23](https://www.ncbi.nlm.nih.gov/pubmed/20562794),[24](https://www.ncbi.nlm.nih.gov/pubmed/18751498),[25](https://www.ncbi.nlm.nih.gov/pubmed?term=15476520) También se han administrado prostaglandinas y estrógenos; aunque los resultados son contradictorios.[26](https://www.ncbi.nlm.nih.gov/pubmed/7801847?dopt=Abstract),[27](https://www.ncbi.nlm.nih.gov/pubmed?term=2162975),[28](https://www.ncbi.nlm.nih.gov/pubmed?term=28286609)
 
 
-      La administración de reposiciones de capas de GAG con UroDapter es definitivamente un método eficaz independientemente de la indicación en sí.
+      La administración de reposiciones de capas de GAG con UroDapter® es definitivamente un método eficaz independientemente de la indicación en sí.
   - type: refs
     title: Referencias
     items:

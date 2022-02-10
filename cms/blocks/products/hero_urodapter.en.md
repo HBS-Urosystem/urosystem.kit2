@@ -34,5 +34,5 @@ components:
       # UroDapter®
 
 
-      ### A urological syringe adapter which completely replaces the catheter: it enables painless and complication-free bladder instillation
+      ### Urológiai fecskendő adapter. Tökéletesen helyettesíti a katétert: a vele végzett húgyhólyagfeltöltés fájdalommentes és komplikációmentes 
 ---

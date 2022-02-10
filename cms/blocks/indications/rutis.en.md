@@ -42,7 +42,7 @@ components:
       UroDapter®, as a new device for bladder instillation could help treat and prevent recurring UTIs, too. Non-invasive intravesical medicine administration is a tremendous advantage compared to the catheter since the latter device itself can be responsible for infections.
 
 
-      A contraindication of UroDapter® must be pointed out as well. In case of bacterial urethritis beside any other condition, using the UroDapter might help the bacteria drift into the bladder, which could lead to a bladder infection. Therefore, if the urethra is affected in a bacterial infection, using a catheter is a safer way of the instillation.
+      A contraindication of UroDapter® must be pointed out as well. In case of bacterial urethritis beside any other condition, using the UroDapter® might help the bacteria drift into the bladder, which could lead to a bladder infection. Therefore, if the urethra is affected in a bacterial infection, using a catheter is a safer way of the instillation.
 
 
       Based on similar consideration, instillation performed by UroDapter® should not be applied within two days after sexual intercourse or during menstruation.

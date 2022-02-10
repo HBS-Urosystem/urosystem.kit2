@@ -4,7 +4,6 @@ folder: products
 fallback: ""
 components:
   - type: article
-    #title: Diagnosing IC/BPS
     subhead: And Certain other Lower Urinary Tract Conditions
     text: >-
       The GAG-Layer Integrity Test was developed for learning the status of the

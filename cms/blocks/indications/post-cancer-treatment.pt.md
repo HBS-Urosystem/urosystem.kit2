@@ -52,7 +52,7 @@ components:
       Nos últimos anos, os terapeutas começaram a concentrar-se nos reabastecimentos da camada GAG também. Ácido hialurónico, sulfato de condroitina e pentosan polissulfato de sódio já foram utilizados na terapia da HC.[23](https://www.ncbi.nlm.nih.gov/pubmed/20562794),[24](https://www.ncbi.nlm.nih.gov/pubmed/18751498)],[25](https://www.ncbi.nlm.nih.gov/pubmed?term=15476520) Prostaglandina e estrogénios também foram administrados - os resultados, porém, são controversos.[26](https://www.ncbi.nlm.nih.gov/pubmed/7801847?dopt=Abstract),[27](https://www.ncbi.nlm.nih.gov/pubmed?term=2162975),[28](https://www.ncbi.nlm.nih.gov/pubmed?term=28286609)
 
 
-      Administrar reabastecimentos da camada GAG com o UroDapter é definitivamente um método eficaz, independentemente da indicação em si.
+      Administrar reabastecimentos da camada GAG com o UroDapter® é definitivamente um método eficaz, independentemente da indicação em si.
   - type: refs
     title: Referências
     items:

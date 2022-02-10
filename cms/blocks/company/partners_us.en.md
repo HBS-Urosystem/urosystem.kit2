@@ -1,7 +1,7 @@
 ---
 id: partners_us
 folder: company
-fallback: en
+fallback: ""
 components:
   - type: grid
     slide: false

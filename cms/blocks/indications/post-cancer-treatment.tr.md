@@ -51,7 +51,7 @@ components:
       In the later years, therapists have started focusing on GAG-layer replenishments, too. Hyaluronic acid, chondroitin sulphate and pentosan polysulfate sodium have already been used in the therapy of HC.[23](https://www.ncbi.nlm.nih.gov/pubmed/20562794),[24](https://www.ncbi.nlm.nih.gov/pubmed/18751498),[25](https://www.ncbi.nlm.nih.gov/pubmed?term=15476520). Prostaglandin and estrogens have been administered as well – the results are controversial, though[26](https://www.ncbi.nlm.nih.gov/pubmed/7801847?dopt=Abstract).[27](https://www.ncbi.nlm.nih.gov/pubmed?term=2162975),[28](https://www.ncbi.nlm.nih.gov/pubmed?term=28286609).
 
 
-      Administering GAG-layer replenishments with the UroDapter is definitely an effective method regardless of the indication itself.
+      Administering GAG-layer replenishments with the UroDapter® is definitely an effective method regardless of the indication itself.
   - type: refs
     title: References
     items:

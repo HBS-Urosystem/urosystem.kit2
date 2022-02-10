@@ -45,7 +45,7 @@ components:
       UroDapter®, como nuevo dispositivo para la instilación vesical, también podría ayudar a tratar y prevenir las ITUs recurrentes. La administración intravesical no invasiva de fármacos es una gran ventaja sobre el catéter, ya que este último dispositivo en sí mismo es responsable de las infecciones.
 
 
-      También se debe señalar una contraindicación de UroDapter®. En caso de uretritis bacteriana además de cualquier otra afección, el uso de UroDapter podría ayudar a que las bacterias entren a la vejiga, lo que podría provocar una infección de la vejiga. Por lo tanto, si la uretra se ve afectada por una infección bacteriana, usar un catéter es una forma más segura de instilación.
+      También se debe señalar una contraindicación de UroDapter®. En caso de uretritis bacteriana además de cualquier otra afección, el uso de UroDapter® podría ayudar a que las bacterias entren a la vejiga, lo que podría provocar una infección de la vejiga. Por lo tanto, si la uretra se ve afectada por una infección bacteriana, usar un catéter es una forma más segura de instilación.
 
 
       Por razones similares, la instilación de UroDapter® no debe usarse dentro de los dos días posteriores a las relaciones sexuales o durante la menstruación.

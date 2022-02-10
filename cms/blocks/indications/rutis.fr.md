@@ -46,7 +46,7 @@ components:
       UroDapter®, en tant que nouveau dispositif pour l'instillation de la vessie, pourrait également aider à traiter et à prévenir les infections urinaires récurrentes. L'administration de médicaments intravésicaux non invasifs est un avantage considérable par rapport au cathéter puisque ce dernier dispositif lui-même peut être une cause des infections.
 
 
-      Une contre-indication d'UroDapter® doit également être signalée. En cas d'urétrite bactérienne à côté de toute autre affection, l'utilisation de l'UroDapter pourrait aider les bactéries à dériver dans la vessie, ce qui pourrait entraîner une infection de la vessie. Par conséquent, si l'urètre est affecté par une infection bactérienne, l'utilisation d'un cathéter est un moyen plus sûr d'instillation.
+      Une contre-indication d'UroDapter® doit également être signalée. En cas d'urétrite bactérienne à côté de toute autre affection, l'utilisation de l'UroDapter® pourrait aider les bactéries à dériver dans la vessie, ce qui pourrait entraîner une infection de la vessie. Par conséquent, si l'urètre est affecté par une infection bactérienne, l'utilisation d'un cathéter est un moyen plus sûr d'instillation.
 
 
       Sur la base de considérations similaires, l'instillation réalisée par UroDapter® ne doit pas être appliquée dans les deux jours suivant un rapport sexuel ou pendant les règles.

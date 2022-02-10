@@ -9,8 +9,7 @@ components:
       (also known as 2-Day Voiding Diary). It is to be used for several
       different purposes:
 
-      * Performing the test can confirm or deny whether you have may have
-      Interstitial Cystitis/Bladder Pain Syndrome (IC/BPS).
+      * Performing the test can confirm or deny whether you have may have Interstitial Cystitis/Bladder Pain Syndrome (IC/BPS).
 
       * If you have already been diagnosed with IC/BPS, the test quantitatively refers to the current severeness of the condition.
 

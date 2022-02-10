@@ -20,10 +20,10 @@ components:
       on this topic.
 
 
-      In the field of diagnosis there are possible uses of UroDapter as well. Retrograde urethrography, for example is usually performed with a catheter with which the contrast materials needed for imaging are delivered. In certain cases, the administration of these materials to the urethra too might reveal additional information.
+      In the field of diagnosis there are possible uses of UroDapter® as well. Retrograde urethrography, for example is usually performed with a catheter with which the contrast materials needed for imaging are delivered. In certain cases, the administration of these materials to the urethra too might reveal additional information.
 
 
-      Lidocaine, as a local analgesic, is often being instilled into the bladder in many different conditions. Regardless of the condition being treated UroDapter can be beneficial to deliver lidocaine. It is an additional advantage that the drug affects the urethra, too, since in many urinary conditions patients experience pain in that area as well.
+      Lidocaine, as a local analgesic, is often being instilled into the bladder in many different conditions. Regardless of the condition being treated UroDapter® can be beneficial to deliver lidocaine. It is an additional advantage that the drug affects the urethra, too, since in many urinary conditions patients experience pain in that area as well.
   - type: refs
     title: References
     items:

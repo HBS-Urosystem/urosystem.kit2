@@ -52,7 +52,7 @@ components:
       Negli ultimi anni, i terapeuti hanno iniziato a concentrarsi anche sulla ricostituzione dello strato di GAG. L’acido ialuronico, il solfato di condroitina e il polisolfato di pentosano sodico sono già stati utilizzati nella terapia dell'HC.[23](https://www.ncbi.nlm.nih.gov/pubmed/20562794)],[24](https://www.ncbi.nlm.nih.gov/pubmed/18751498),[25](https://www.ncbi.nlm.nih.gov/pubmed?term=15476520) Le prostaglandine e gli estrogeni sono pure stati somministrati, ma i risultati sono comunque controversi.[26](https://www.ncbi.nlm.nih.gov/pubmed/7801847?dopt=Abstract),[27](https://www.ncbi.nlm.nih.gov/pubmed?term=2162975),[28](https://www.ncbi.nlm.nih.gov/pubmed?term=28286609)
 
 
-      L'amministrazione di principi attivi con l’UroDapter per ricostituire lo strato di GAG è un metodo efficace senza dubbio, indipendentemente dall'indicazione stessa.
+      L'amministrazione di principi attivi con l’UroDapter® per ricostituire lo strato di GAG è un metodo efficace senza dubbio, indipendentemente dall'indicazione stessa.
   - type: refs
     title: Riferimenti
     items:

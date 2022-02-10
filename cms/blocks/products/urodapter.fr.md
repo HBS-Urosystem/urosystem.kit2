@@ -28,7 +28,7 @@ components:
   - type: qas
     title: ""
     items:
-      - q: Qu'est-ce que c'est UroDapter ® ?
+      - q: Qu'est-ce que c'est UroDapter®?
         text: >-
           * Moulé à partir de polymère élastique de qualité médicale
 

@@ -34,7 +34,7 @@
   import validate from "./_validation";
   let duration = "450ms";
   let offset = 0;
-  let tolerance = 8;
+  let tolerance = 4;
   let headerClass = "pin";
   let lastHeaderClass = "pin";
   let y = 0;
@@ -157,7 +157,7 @@
 
   <nav
     use:action class={headerClass}
-    class:moved={y>32}
+    class:moved={y>48}
     bind:clientWidth={wnav}>
     <div>
       <!-- svelte-ignore a11y-no-onchange -->

@@ -45,7 +45,7 @@ components:
       L’UroDapter® come un dispositivo nuovo per l'instillazione intravescicale, potrebbe aiutare a trattare e anche a prevenire le infezioni ricorrenti del tratto urinario. La somministrazione di farmaci intravescicali non invasivi è un enorme vantaggio rispetto al catetere poiché quest'ultimo dispositivo stesso può provocare le infezioni.
 
 
-      Comunque, deve essere menzionata anche una controindicazione dell’uso dell’UroDapter®. In caso di uretrite batterica oltre a qualsiasi altra condizione, l'uso dell’UroDapter potrebbe aiutare i batteri a penetrare nella vescica, il che potrebbe provocare un'infezione della vescica. Perciò, se l'uretra è colpita da un'infezione batterica, l'uso di un catetere è un metodo più sicuro dell’instillazione.
+      Comunque, deve essere menzionata anche una controindicazione dell’uso dell’UroDapter®. In caso di uretrite batterica oltre a qualsiasi altra condizione, l'uso dell’UroDapter® potrebbe aiutare i batteri a penetrare nella vescica, il che potrebbe provocare un'infezione della vescica. Perciò, se l'uretra è colpita da un'infezione batterica, l'uso di un catetere è un metodo più sicuro dell’instillazione.
 
 
       Sulla base delle stesse considerazioni, l'instillazione eseguita dall’UroDapter® non deve essere applicata entro due giorni dal rapporto sessuale o durante le mestruazioni.
