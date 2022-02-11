@@ -12,5 +12,8 @@ menutitle: UroSystem
 hero: urosystem/hero
 blocks:
   - id: urosystem/intro
+  - id: urodapter/details
+  - id: cta/shop_ud
+  - id: index/testimonials
 canonical: /en
 ---
