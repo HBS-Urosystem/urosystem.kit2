@@ -6,15 +6,16 @@ import { sitelang } from '$lib/stores'
 
 export const get = async (request) => {
 	let { lang, path } = {...request.params}
-//console.log('CMS',request.params)
+  //console.log('CMS',request.params)
+  //console.log({lang},{path})
 	if (path.endsWith('.json')) { ///?
-		console.log('JSON',path)
 		return false
 	}
 
 	let post, conf
 
 	conf = await _getConf(lang || 'en')
+  //console.log('conf.thislang',conf.thislang.id,'->',lang)
   if (!conf.thislang) {
 		conf = await _getConf(store(sitelang) || 'en')
     if (!conf.thislang) return false
@@ -22,11 +23,10 @@ export const get = async (request) => {
       lang = conf?.thislang?.id || 'en'
 		//path = lang + (!!path ? '/' + path : '')
 	}
-//console.log('conf.thislang',conf.thislang.id,'->',lang)
-//console.log('conf.path',path)
+  //console.log('conf.path',path)
 
 	const parts = path?.split('/') || []
-//console.log('cms_parts',parts)
+  //console.log({parts},{lang})
 
 	post = await _getPost({path: parts[0], lang, sub: parts[1] || null})
 //console.log('post',post)

@@ -9,12 +9,12 @@ components:
       - type: article
         subhead: "UroDapter® on the European market: iAluadapter®"
         text: >-
-              We concluded an agreement with IBSA granting them exclusivity for the
-              marketing and sale of iAluadapter®/UroDapter®, which is packed in one
-              box with their product iAluRil®.\
+          We concluded an agreement with IBSA granting them exclusivity for the
+          marketing and sale of iAluadapter®/UroDapter®, which is packed in one
+          box with their product iAluRil®.
 
 
-              <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener" target="_blank">IBSA Global Network</a></li></ul>
+          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener" target="_blank">IBSA Global Network</a></li></ul>
       - type: images
         subhead: UroDapter® can be attached directly to the syringe so that any solution
           can be instilled with it into the bladder.
@@ -24,17 +24,17 @@ components:
             src: /uploads/urodapter_illustration.png
             text: UroDapter® – Urological Syringe Adapter and its parts
       - type: article
-        subhead: Strong legal background
+        subhead: "Erős jogi háttér "
         text: >-
-              It has got the necessary European CE certificate, it is registered by
-              the USA Food and Drug Administration (FDA), and has strong IP
-              protection in many countries.
+          It has got the necessary European CE certificate, it is registered by
+          the USA Food and Drug Administration (FDA), and has strong IP
+          protection in many countries.
 
 
-              ​UroDapter® 's patent is pending. 
+          ​UroDapter® 's patent is pending. 
 
 
-              ​PCT international patent application number: PCT/HU2016/000063
+          ​PCT international patent application number: PCT/HU2016/000063
   - type: grid
     slide: false
     title: UroDapter® presentation videos

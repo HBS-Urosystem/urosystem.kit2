@@ -5,18 +5,20 @@ fallback: en
 components:
   - type: cta
     title: ""
-    text: >-
-      ### Urológiai fecskendő adapter a húgyhólyag feltöltéséhez. Tökéletesen helyettesíti a katétert. Lehetővé teszi a fájdalommentes hólyaginstillációt
-    icon: ""
+    button: ""
+    text: "### Urológiai fecskendő adapter. Tökéletesen helyettesíti a katétert: a
+      vele végzett húgyhólyagfeltöltés fájdalommentes és komplikációmentes "
   - type: grid
     slide: false
     components:
       - type: cta
-        below: for the US/Canada
+        below: USA és Kanada
         button: Amazon.com
         link: https://www.amazon.com/stores/UroDapter/page/EE971FBB-A516-4E98-A2CD-2B62117F088A
       - type: cta
-        below:  for other countries
-        button: Our webshop
-        link: "/shop#content"
+        below: Többi ország
+        button: A mi webshopunk
+        link: /shop#content
+    title: ""
+    subhead: ""
 ---

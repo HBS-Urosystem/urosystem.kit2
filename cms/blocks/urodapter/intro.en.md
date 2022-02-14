@@ -18,9 +18,9 @@ components:
         posx: ""
         scale: ""
       - alt: Complication-free bladder treatment
-        text: "#### No post treatment complications or infections
-
-          #### No risk of urethral trauma or injury"
+        text: |-
+          #### No post treatment complications or infections
+          #### No risk of urethral trauma or injury
         src: /uploads/advantage-2.jpg
         posx: 40
         scale: 1.25
@@ -51,7 +51,8 @@ components:
         title: ""
         anchor: ""
         text: >-
-          * The specially designed radiused tip easily accesses the external urethral orifice
+          * The specially designed radiused tip easily accesses the external
+          urethral orifice
 
           * It enters the urethra merely 6-8 mm deep
 

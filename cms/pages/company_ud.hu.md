@@ -9,5 +9,4 @@ blocks:
   - id: company/about_us
   - id: company/partners_us
   - id: index/contact
-  - id: company/palyazat
 ---

@@ -3,6 +3,12 @@ id: shop-5pcs
 folder: shop
 fallback: en
 components:
+  - type: buy
+    title: Vásároljon webshopunkból!
+    button: Vásárlás
+    product: "5983114002592"
+    text: Válassza ki a kívánt mennyiséget!
+    subhead: "Az 5 db-os csomag ára: $40 / 10 db ára: $80"
   - type: grid
     slide: false
     components:
@@ -11,9 +17,9 @@ components:
           #### SZÁLLÍTÁSI DÍJAK
 
           * Európai országok, Oroszország, Ukrajna: $9.50
-          * Egyéb országok: $10.00
+          * Többi ország: $10.00
 
-          Regisztrált elsőbbségi küldmény
+          A küldemény ajánlott elsőbbségi levélként kerül feladásra 
         subhead: ""
         background:
           - type: image
@@ -21,37 +27,33 @@ components:
             posy: 72
             scale: 20
             src: /uploads/urodapter-removebg.png
-    title: Az UroDapter® újdonság az Ön számára?  Rendeljen mintacsomagot!
-    subhead: "Az 5 db-os mintacsomag ára: $40 / 10 db: $80"
-    background: []
-  - type: buy
     title: ""
-    button: Vásárlás
-    product: "5983114002592"
+    subhead: ""
+    background: []
   - type: article
     text: >-
-      #### A VÁRHATÓ SZÁLLÍTÁSI IDŐ:
+      #### VÁRHATÓ SZÁLLÍTÁSI IDŐ A VÁSÁRLÁS ORSZÁGÁNAK MEGFELELŐEN:
 
 
       * Európai országok: 12 nap
 
-      * Russia, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 nap
+      * Oroszország, Örményország, Azerbajdzsán, Grúzia, Kazahsztán, Kirgizisztán, Moldova, Tádzsikisztán, Türkmenisztán, Ukrajna, Üzbegisztán: 19 nap
 
-      * Egyéb országok: 15 nap
+      * Többi ország: 15 nap
     subhead: ""
   - type: article
     subhead: ""
     anchor: ""
-    text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
-      USUAL."
+    text: "#### A COVID OKOZTA VILÁGJÁRVÁNY MIATT A KÉZBESÍTÉS TOVÁBB TARTHAT A
+      SZOKÁSOSNÁL. "
   - type: article
     text: >-
-      AZ ALÁBBI ORSZÁGOKBAN A TERMÉK NEM ELÉRHETŐ CÉGÜNKTŐL:\
+      A TERMÉK NEM RENDELHETŐ MEG CÉGÜNKTŐL A KÖVETKEZŐ ORSZÁGOKBAN:\
 
-      *Albánia, Ausztria, Belorusszia, Csehország, Ciprus, Dánia, Észtország, Finnország, Franciaország, Németország, Koszovó, Görögország, <b>Magyarország</b>, Írország, Olaszország, Lettország, Litvánia, Luxemburg, Észak-Macedónia, Málta, Hollandia, Lengyelország, Portugália, Románia, Szerbia, Szlovákia, Szlovénia, Spanyolország, Svédország, Egyesült Királyság, Törökország, Ausztrália, Új-Zéland.* 
+      *Albánia, Ausztria, Belorusszia, Belgium, Bulgária Csehország, Ciprus, Dánia, Észtország, Finnország, Franciaország, Horvátország, Németország, Koszovó, Görögország, Magyarország, Írország, Olaszország, Lettország, Litvánia, Luxemburg, Észak-Macedónia, Málta, Hollandia, Lengyelország, Portugália, Románia, Szerbia, Szlovákia, Szlovénia, Spanyolország, Svédország, Egyesült Királyság, Törökország, Ausztrália, Új-Zéland.* 
 
 
-      TOVÁBBI INFORMÁCIÓÉRT LÁTOGASSA MEG PARTNERÜNK HONLAPJÁT: \
+      TOVÁBBI INFORMÁCIÓÉRT KERESSE FEL A FORGALMAZÓ PARTNERÜNK HONLAPJÁT: \
 
       <a href="https://www.ibsagroup.com" rel="noopener" target="_blank">https://www.ibsagroup.com</a>
 ---

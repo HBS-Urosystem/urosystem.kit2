@@ -2,5 +2,5 @@
 id: shop
 fallback: en
 published: true
-title: Rendeljen UroDapter® mintacsomagot!
+title: Vásároljon webshopunkból!
 ---

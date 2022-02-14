@@ -1,5 +1,6 @@
 <script context="module">
-	import { state, /*cookies, moved, */sitelang/*, pagepath*/ } from '$lib/stores'
+	import { state, sitelang, variables } from '$lib/stores'
+  const _site = variables.site
   //import {footnav} from '$lib/config'
   //import {findPost} from '$lib/config'
   //import {findPosts} from '$lib/config'
@@ -17,11 +18,11 @@
 
 <footer>
   <div>
-    {#if $sitelang == 'hu'}
+    {#if $sitelang == 'hu' && _site != '_ud'}
     <a href="/hu/company#ginop" aria-label="ginop"><img loading="lazy" src="/uploads/ginop.png" alt="GINOP pályázat" style="width:20ch;display:block;"/></a>
     {/if}
     <a href="https://www.urosystem.com" rel="opener" target="_blank" aria-label="urosystem home"><img loading="lazy" src="/uploads/urosystem_logo_02_web.svg" alt="" style="filter:invert();width:20ch;display:block; aspect-ratio: 100 / 90.861"/></a>
-    {#if $sitelang == 'hu'}
+    {#if $sitelang == 'hu' && _site != '_ud'}
     <a href="/hu/company#nkfi" aria-label="nkfi"><img loading="lazy" src="/uploads/nkfi.png" alt="NKFI pályázat" style="width:20ch;display:block;"/></a>
     {/if}
   </div>

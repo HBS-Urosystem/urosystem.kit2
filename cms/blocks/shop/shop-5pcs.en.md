@@ -51,8 +51,7 @@ components:
   - type: article
     subhead: ""
     anchor: ""
-    text: "#### DUE TO THE COVID PANDEMIC DELIVERY CAN BE LONGER THAN
-      USUAL."
+    text: "#### DUE TO THE COVID PANDEMIC DELIVERY CAN BE LONGER THAN USUAL."
   - type: article
     text: >-
       THE PRODUCT IS NOT AVAILABLE FROM OUR COMPANY IN THE FOLLOWING COUNTRIES:\

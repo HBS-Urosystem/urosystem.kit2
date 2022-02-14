@@ -130,7 +130,7 @@ export async function _getConf(lang = 'en') {
 
 export async function _getPost({path, lang = 'en', sub = null}) {
   const p = await _findPost({path, lang})
-  //console.log('UTILS',lang,path,sub)
+  //console.log({lang},{path},{sub})
   //console.log('_getPost',p.menutitle)
   let post = {...p}
   post.path = path
@@ -182,9 +182,10 @@ export async function _getPost({path, lang = 'en', sub = null}) {
   return await post
 }
 
-export async function _findPost({path = 'index', lang = 'en'}) {
+export async function _findPost({path, lang}) {
+  path = path || 'index'
   const path_site = `${path}${_site}`
-  //console.log(path_site)
+  //console.log({path_site})
   for (const s in theposts[lang]) {
     if (s.endsWith(path_site)) {
       //console.log({path_site})
@@ -204,9 +205,6 @@ export async function _findPost({path = 'index', lang = 'en'}) {
       //console.log(p.menutitle)
       if (p.fallback && p.fallback !== lang) {
         p = mixing(p, await _findPost({path, lang: p.fallback}), {recursive: true}) // A) recursive fallbacks / cascading blocks
-        //p = mixing(p, await theposts[p.fallback][s]().then(({metadata}) => metadata), {recursive: true}) // B) faster – single block fallback
-        //console.log('bad mixing: no native desc & kw', await theposts[lang][s])
-        //console.log('bad mixing: no native desc & wk', await theposts[p.fallback][s])
       }
       //console.log('_findPost', p.menutitle)
       return p
@@ -253,11 +251,12 @@ function mdtext(value, key) {
     return marked(value)
   }
   if (key == 'background') {
-    return _getBg(value);
+    return value && _getBg(value);
   }
 }
 
-function _getBg(obj) {
+function _getBg(obj = []) {
+  //console.log(!!obj || obj)
   let bgs = [], pos = [], siz = []
   for (let bg of obj) {
     //console.log(bg)

@@ -23,5 +23,8 @@ components:
       # UroDapter®
 
 
-      ### Urológiai fecskendő adapter a húgyhólyag feltöltéséhez. Tökéletesen helyettesíti a katétert. Lehetővé teszi a fájdalommentes hólyaginstillációt
+      ### Urológiai fecskendő adapter. Tökéletesen helyettesíti a katétert: a vele végzett húgyhólyagfeltöltés fájdalommentes és komplikációmentes 
+
+
+      #### Már több mint 1 000 000 UroDapter®-t értékesítettünk
 ---

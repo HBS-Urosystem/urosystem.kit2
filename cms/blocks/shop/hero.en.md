@@ -17,8 +17,9 @@ background:
 components:
   - type: cta
     title: ""
-    text: >-
-      ### A urological syringe adapter which completely replaces the catheter: it enables painless and complication-free bladder instillation
+    text: "### A urological syringe adapter which completely replaces the catheter:
+      it enables painless and complication-free bladder instillation"
+    below: ""
   - type: grid
     slide: false
     components:
@@ -27,7 +28,7 @@ components:
         button: Amazon.com
         link: https://www.amazon.com/stores/UroDapter/page/EE971FBB-A516-4E98-A2CD-2B62117F088A
       - type: cta
-        below:  for other countries
+        below: for other countries
         button: Our webshop
-        link: "/shop#content"
+        link: /shop#content
 ---
