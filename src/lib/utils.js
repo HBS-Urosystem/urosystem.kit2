@@ -58,7 +58,7 @@ export async function _getConf(lang = 'en') {
 
   _.remove(config[langs], (n) => { return !n.active })
   config.langs = config[langs]
-  console.log(langs,config.langs)
+  //console.log(langs,config.langs)
   config.thislang = null
   for (const l of config.langs) {
     if (l.id == lang) config.thislang = l

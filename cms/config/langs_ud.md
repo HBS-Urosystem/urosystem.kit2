@@ -59,7 +59,7 @@ langs_ud:
     title: Русский
     dir: ltr
     font: default
-    active: true
+    active: false
   - dir: ltr
     font: default
     id: tr

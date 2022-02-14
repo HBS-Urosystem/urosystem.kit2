@@ -12,4 +12,5 @@ blocks:
   - id: urodapter/details
   - id: cta/shop_ud
   - id: index/testimonials
+canonical: https://www.urosystem.com/en
 ---

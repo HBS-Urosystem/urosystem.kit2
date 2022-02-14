@@ -4,9 +4,6 @@ fallback: en
 published: false
 title: "UroSystem – Páciensek millióinak életminőségéért "
 keywords: Urosystem, UroDapter, IC/BPS, bladder disease, cystitis, urological
-blocks:
-  - id: urosystem/intro
-canonical: /en
 description: "Az Urosystem az alsó húgyutakat érintő megbetegedésekkel,
   különösképpen az interstitiális cystitis/hólyagfájdalom szindrómával (IC/BPS)
   foglalkozik. A cég egy olyan komplex portfolió kifejlesztésén dolgozik, amely
@@ -14,4 +11,10 @@ description: "Az Urosystem az alsó húgyutakat érintő megbetegedésekkel,
   diagnosztizálástól a terápiáig. "
 menutitle: UroSystem
 hero: urosystem/hero
+blocks:
+  - id: urosystem/intro
+  - id: urodapter/details
+  - id: cta/shop_ud
+  - id: index/testimonials
+canonical: /en
 ---
