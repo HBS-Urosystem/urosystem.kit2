@@ -24,7 +24,7 @@ components:
             src: /uploads/urodapter_illustration.png
             text: UroDapter® – Urological Syringe Adapter and its parts
       - type: article
-        subhead: "Erős jogi háttér "
+        subhead: "Strong legal background "
         text: >-
           It has got the necessary European CE certificate, it is registered by
           the USA Food and Drug Administration (FDA), and has strong IP

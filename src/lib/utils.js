@@ -39,10 +39,10 @@ export async function _getConf(lang = 'en') {
   let config = []
   /*const langs = await theconf['langs']().then(({metadata}) => metadata)
   //for (c in langs.langs)
-  config.langs = _.chain(c)
+  config[langs] = _.chain(c)
     .filter(lang => console.log('lang',lang))//.active)
     .value()
-  console.log(config.langs)*/
+  console.log(config[langs])*/
   for (const b in theconf) {
     //console.log('config[b]',await conf[b])
     const c = await theconf[b]().then(({metadata}) => metadata)
@@ -51,16 +51,18 @@ export async function _getConf(lang = 'en') {
     //console.log(c)
   }
 
-  _.remove(config.langs, (n) => { return !n.active })
-  //console.log('config.langs',config.langs)
+  const langs = `langs${_site}`
+  const top = `top${_site}`
+  const footer = `footer${_site}`
+  //console.log(top)
+
+  _.remove(config[langs], (n) => { return !n.active })
+  config.langs = config[langs]
+  console.log(langs,config.langs)
   config.thislang = null
   for (const l of config.langs) {
     if (l.id == lang) config.thislang = l
   }
-
-  const top = `top${_site}`
-  const footer = `footer${_site}`
-  //console.log(top)
 
   config.topnav = await Promise.all(config[top]?.map(async (subs) => _subnav(subs)))
   config.footnav = await Promise.all(config[footer]?.map(async (subs) => _subnav(subs)))

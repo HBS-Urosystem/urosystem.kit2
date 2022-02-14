@@ -1,5 +1,5 @@
 ---
-langs:
+langs_ud:
   - id: ar
     title: العربية
     dir: rtl
