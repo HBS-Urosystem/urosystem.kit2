@@ -5,7 +5,7 @@ top_ud:
       - lang: en
         title: Details
       - lang: hu
-        title: Details
+        title: Részletek
       - lang: ru
         title: Details
       - lang: de
@@ -70,7 +70,7 @@ top_ud:
       - lang: en
         title: Resources
       - lang: hu
-        title: Resources
+        title: Segédanyagok
       - lang: ru
         title: Resources
       - lang: de
