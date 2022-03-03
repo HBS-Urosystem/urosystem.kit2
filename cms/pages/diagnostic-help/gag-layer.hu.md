@@ -2,11 +2,13 @@
 id: gag-layer
 fallback: en
 published: false
-submenu: true
-title: Útmutató a GAG-réteg integritás teszt elvégzéséhez
+title: "A GAG-réteg integritás teszt – páciens információk "
+keywords: IC/BPS, GAG-réteg, vizelési napló, fájdalmatlan, GAG-teszt, hólyagfájdalom
+description: Röviden a GAG-réteg integritás teszt működéséről, és annak
+  elvégzéséről. E fájdalommentes, nem invazív tesztet a páciensek saját maguk is
+  elvégezhetik.
 menutitle: GAG-réteg integritás teszt – pácienseknek
-keywords: IC/BPS, GAG-layer, voiding diary, painless, non-invasive, instructions
-description: This page briefly explains how the GAG-Layer Integrity Test works and how patients can perform it on their own. The test is a voiding diary, thus, non-invasive and painless.
 blocks:
   - id: products/gag-layer
+submenu: true
 ---

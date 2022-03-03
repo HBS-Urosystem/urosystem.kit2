@@ -6,10 +6,11 @@ published: true
 subpages:
   - link: diagnostic-help/gag-layer
   - link: diagnostic-help/gag-layer-pro
-#title: Urosystem – GAG-Layer Integrity Test
-title: Diagnosztika
+title: "GAG-réteg integritás teszt "
+keywords: IC/BPS, GAG-réteg, vizelési napló, fájdalmatlan, nem invazív, húgyhólyag
+description: A GAG-réteg integritás teszt kvantitatív (mennyiségi) információt
+  nyújt a húgyhólyag belső felszínét borító nyákréteg állapotáról. E réteg
+  sérülései utalhatnak IC/BPS-re is.
 menutitle: Diagnosztika
-keywords: IC/BPS, GAG-layer, voiding diary, diagnostic tool, quantitative, non-invasive
-description: "The GAG-Layer Integrity Test provides quantitative information on the status of the GAG-layer. This mucus layer covers the bladder: its deficiencies can refer to IC/BPS and some other conditions."
 subhero: products/diagnostic-intro
 ---

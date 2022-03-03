@@ -247,4 +247,5 @@ top_us:
           - lang: hu
             title: Pályázatok
   - link: shop
+  - link: blog
 ---

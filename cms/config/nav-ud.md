@@ -220,4 +220,5 @@ top_ud:
           - lang: tr
             title: İletişim
   - link: shop
+  - link: blog
 ---

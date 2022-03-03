@@ -2,5 +2,10 @@
 id: shop
 fallback: en
 published: true
-title: Vásároljon webshopunkból!
+title: "Urosystem – Vásároljon UroDaptert® online shopunkból "
+keywords: Urosystem, UroDapter, urológiai adapter, fecskendő adapter,
+  hólyagfeltöltés, instilláció
+description: Az Urodapter adaptert megvásárolhatja közvetlenül ezen az oldalon.
+  Amennyiben az Egyesült Államokban vagy Kanadában él, látogasson el az Amazon
+  oldalunkra.
 ---

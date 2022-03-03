@@ -1,12 +1,15 @@
 ---
 id: gag-layer-pro
-fallback: en
 folder: diagnostic-help
-submenu: true
-title: A GAG-réteg integritás teszt rövid ismertetése
+fallback: en
+title: A GAG-réteg integritás teszt, mint diagnosztikai eszköz
+keywords: IC/BPS, GAG-réteg, glükozaminoglikán, kvantitatív, diagnosztikai
+  eszköz, húgyhólyag
+description: A GAG-réteg integritás teszt nem invazív, fájdalmatlan, és
+  kvantitatív információt nyújt a húgyhólyag belső felszínét borító
+  glükozaminoglikán réteg állapotáról.
 menutitle: GAG-réteg integritás teszt – orvosoknak
-keywords: IC/BPS, GAG-layer integrity, quantitative, non-invasive, bladder mucus, diagnostic tool
-description: The GAG-Layer Integrity Test is non-invasive, painless, and provides quantitative information on the status of the inner mucus layer of the bladder.
 blocks:
   - id: products/gag-layer-pro
+submenu: true
 ---

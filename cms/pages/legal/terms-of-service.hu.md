@@ -3,6 +3,10 @@ id: terms-of-service
 folder: legal
 fallback: en
 published: true
-title: Általános tájékoztató
+title: Urosystem – Általános tájékoztató
+keywords: Urosystem, általános tájékoztató, nyilatkozat, felhasználói
+  feltételek, fizetési feltételek
+description: Általános tájékoztató a felhasználók részére az oldal használatáról
+  és a fizetési feltételekről
 menutitle: null
 ---
