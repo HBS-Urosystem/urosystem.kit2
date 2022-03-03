@@ -247,5 +247,34 @@ top_us:
           - lang: hu
             title: Pályázatok
   - link: shop
-  - link: blog
+  - link: https://www.urosystem.com/blog
+    titles:
+      - lang: en
+        title: Blog
+      - lang: hu
+        title: Blog
+      - lang: ru
+        title: Blog
+      - lang: de
+        title: Blog
+      - lang: it
+        title: Blog
+      - lang: es
+        title: Blog
+      - lang: pt
+        title: Blog
+      - lang: ja
+        title: Blog
+      - lang: zh
+        title: Blog
+      - lang: ar
+        title: Blog
+      - lang: he
+        title: Blog
+      - lang: ko
+        title: Blog
+      - lang: tr
+        title: Blog
+      - lang: fr
+        title: Blog
 ---
