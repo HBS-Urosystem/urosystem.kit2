@@ -247,7 +247,7 @@ top_us:
           - lang: hu
             title: Pályázatok
   - link: shop
-  - link: https://www.urosystem.com/blog
+  - link: https://bladder-dev.netlify.app/blog
     titles:
       - lang: en
         title: Blog
