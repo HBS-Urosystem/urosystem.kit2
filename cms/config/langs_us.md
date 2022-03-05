@@ -30,11 +30,11 @@ langs_us:
     #dir: rtl
     #font: default
     #active: true
-  #- dir: ltr
-    #font: default
-    #id: hu
-    #title: Magyar
-    #active: true
+  - dir: ltr
+    font: default
+    id: hu
+    title: Magyar
+    active: true
   #- id: it
     #title: Italiano
     #dir: ltr
@@ -65,9 +65,9 @@ langs_us:
     #id: tr
     #title: Türkçe
     #active: false
-  - id: zh
-    title: 中文
-    dir: ltr
-    font: default
-    active: true
+  #- id: zh
+    #title: 中文
+    #dir: ltr
+    #font: default
+    #active: true
 ---
