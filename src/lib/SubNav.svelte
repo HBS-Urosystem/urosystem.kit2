@@ -22,6 +22,9 @@
   } else if (sub.link?.startsWith('http')) {
     sublink = sub.link// + '#vhollo'
     sub.ext = true
+  } else if (sub.link?.startsWith('/')) {
+    sublink = sub.link// + '#vhollo'
+    //sub.ext = true
   } else {
     sublink = '/' + $sitelang + '/' + sub.link
     //console.log(sub.link)

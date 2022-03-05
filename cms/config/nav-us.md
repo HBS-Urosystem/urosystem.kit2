@@ -248,6 +248,7 @@ top_us:
             title: Pályázatok
   - link: shop
   - link: /blog
+    ext: true
     titles:
       - lang: en
         title: Blog
