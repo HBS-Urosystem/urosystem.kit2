@@ -247,7 +247,7 @@ top_us:
           - lang: hu
             title: Pályázatok
   - link: shop
-  - link: https://bladder-dev.netlify.app/blog
+  - link: /blog
     titles:
       - lang: en
         title: Blog
