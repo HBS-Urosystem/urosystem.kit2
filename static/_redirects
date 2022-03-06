@@ -12,4 +12,4 @@
 
 /*/urostill          https://www.urosystem.com/en/development#urostill
 
-/blog/*     https://bladder-dev.netlify.app/blog/:splat 200!
+/blog/*     https://bladder-blog.netlify.app/blog/:splat 200!
