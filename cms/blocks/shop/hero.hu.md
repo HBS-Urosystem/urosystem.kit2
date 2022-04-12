@@ -12,12 +12,12 @@ components:
     slide: false
     components:
       - type: cta
-        below: USA és Kanada
+        below: (USA és Kanada)
         button: Amazon.com
         link: https://www.amazon.com/stores/UroDapter/page/EE971FBB-A516-4E98-A2CD-2B62117F088A
       - type: cta
-        below: Többi ország
-        button: A mi webshopunk
+        below: (A többi országba)
+        button: Webshop
         link: /shop#content
     title: ""
     subhead: ""

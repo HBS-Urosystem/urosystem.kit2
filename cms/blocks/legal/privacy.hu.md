@@ -155,7 +155,7 @@ components:
       1. Az adatok hozzáférhetősége
 
 
-      Mindazok, akiknek joga van a számára szükséges adatokhoz hozzáférnie, azt bármikor megtehetik. 
+      Mindazok, akinek joga van a számára szükséges adatokhoz hozzáférnie, azt bármikor megtehetik. 
 
 
       2. Bizalmas kezelés
@@ -268,7 +268,7 @@ components:
       Minden Felhasználónak joga van felszólítani az Adatkezelőt a személyes adatai helyesbítésére. (Ugyanakkor, előfordulhat, hogy a Felhasználótól az Adatkezelő további adatokat kér, amennyiben azok az Adatkezelés céljainál részletezett okokból hiányoznak.)
 
 
-      A helyesbítésről az Adatkezelő minden olyan természetes vagy jogi személyt értesít, akiknek a helytelen adatot korábban továbbította, kivéve, ha az lehetetlen, vagy aránytalan erőfeszítést igényelne.
+      A helyesbítésről az Adatkezelő minden olyan természetes vagy jogi személyt értesít, akinek a helytelen adatot korábban továbbította, kivéve, ha az lehetetlen, vagy aránytalan erőfeszítést igényelne.
 
 
       4. A törléshez és az elfeledtetéshez való jog.
