@@ -28,7 +28,7 @@ components:
         button: Amazon.com
         link: https://www.amazon.com/stores/UroDapter/page/EE971FBB-A516-4E98-A2CD-2B62117F088A
       - type: cta
-        below: (FFrom the other countries)
+        below: (From the other countries)
         button: Our webshop
         link: /shop#content
 ---
