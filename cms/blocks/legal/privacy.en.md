@@ -373,5 +373,8 @@ components:
       Visitor – A person who is visiting the Webshop without filling in forms or purchasing goods. Visitors need give no personal data for this action. 
 
 
-      Webshop – <https://www.urosystem.com>
+      Website – <https://www.urosystem.com>
+
+
+      Webshop – <https://www.urosystem.com/en/shop>
 ---

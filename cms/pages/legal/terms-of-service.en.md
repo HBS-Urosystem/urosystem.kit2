@@ -9,5 +9,5 @@ keywords: Urosystem, Terms of Service, Terms and Conditions, Payment Conditions,
 description: The Terms of Service of Urosystem
 menutitle: Terms of service
 blocks:
-  - id: terms
+  - id: legal/terms
 ---
