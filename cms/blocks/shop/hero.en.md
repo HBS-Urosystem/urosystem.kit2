@@ -24,11 +24,11 @@ components:
     slide: false
     components:
       - type: cta
-        below: (from the US/Canada)
+        below: (for the US/Canada)
         button: Amazon.com
         link: https://www.amazon.com/stores/UroDapter/page/EE971FBB-A516-4E98-A2CD-2B62117F088A
       - type: cta
-        below: (from the other countries)
+        below: (for the other countries)
         button: Our webshop
         link: /shop#content
 ---
