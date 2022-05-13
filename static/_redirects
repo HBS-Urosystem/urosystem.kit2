@@ -1,5 +1,5 @@
 /blog/*     https://bladder-blog.netlify.app/blog/:splat 200!
-/b2b/*     https://urosystem-b2b.netlify.app/b2b/:splat 200!
+/b2b/*     https://urosystem-b2b.netlify.app/:splat 200!
 
 /recurring-urinary-tract-infectoins          https://www.urodapter.com/en/rutis
 /icbps          https://www.urodapter.com/en/ic-bps
