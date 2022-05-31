@@ -11,7 +11,7 @@ components:
     items:
       - q: Mi az öninstilláció?
         text: >-
-          #### Egyedüli lehetőség, hogy a beteg a húgyhólyag önkezelését a
+          ##### Egyedüli lehetőség, hogy a beteg a húgyhólyag önkezelését a
           katéter nélküli módszerrel tudja könnyen, külső segítség nélkül
           elvégezni.
 
@@ -37,7 +37,7 @@ components:
           A páciens az öninstillációt bármilyen, számára kényelmes pózban elvégezheti, miközben a képernyőn folyamatosan nyomon tudja követni az önkezelést.
       - q: Miért jó az önkezelés?
         text: >-
-          #### Az UroStill® segítségével a páciensek – a kezelőorvosuk
+          ##### Az UroStill® segítségével a páciensek – a kezelőorvosuk
           útmutatásait követve – maguk is elvégezhetik az önkezelést, amikor
           csak úgy érzik, hogy szükségük van rá.
 
