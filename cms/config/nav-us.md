@@ -7,8 +7,6 @@ top_us:
         title: UroDapter®
       - lang: ru
         title: UroDapter®
-      - lang: hu
-        title: UroDapter®
       - lang: de
         title: UroDapter®
       - lang: ko
@@ -31,6 +29,15 @@ top_us:
         title: UroDapter®
       - lang: zh
         title: UroDapter®
+  - titles:
+      - lang: hu
+        title: Termékek
+    subpages:
+      - link: https://www.urodapter.com
+        titles:
+          - lang: hu
+            title: UroDapter®
+      - link: urostill
   - link: development
   - subpages:
       - link: diagnostic-help/gag-layer

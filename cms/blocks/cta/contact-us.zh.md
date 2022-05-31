@@ -10,7 +10,7 @@ components:
     title: ""
     button: 如对购买有意，联系我们
     background: ""
-    link: "#contact"
+    link:  "company#contact"
     text: >-
       # UroStill®
 

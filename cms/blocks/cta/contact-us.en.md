@@ -10,7 +10,7 @@ components:
     title: ""
     button: Contact us
     background: ""
-    link: "#contact"
+    link:  "company#contact"
     text: >-
       # UroStill®
 
