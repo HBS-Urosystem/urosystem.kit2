@@ -37,21 +37,21 @@ components:
   - type: article
     text: >-
       Amennyiben az IC/BPS tünetei súlyosak, a legjobb terápiát a húgyhólyag
-      rendszeres feltöltése (instillációja) jelenti. Ám, a képzett szakorvosok
+      rendszeres feltöltése (instillációja) jelenti. Ám a képzett szakorvosok
       száma alacsony, a terápiás alkalmak nem a páciens állapotához, hanem az
       urológus elérhetőségéhez igazodnak – ami gyakran vezet alul-, vagy
-      túlkezeléshez. Az UroStill-t kifejezetten női páciensek számára
+      túlkezeléshez. Az UroStill®-t kifejezetten női páciensek számára
       fejlesztettük ki. Az eszközt használva a húgycsőnyílás könnyedén
       megtalálható – e művelet hatalmas nehézséget okoz a hölgyek számára –,
       ezért a betegek az instillációt otthon, önállóan is el tudják végezni. Az
-      UroStill tartalmazza az UroDapter® fecskendő adaptert is. 
+      UroStill® tartalmazza az UroDapter® fecskendő adaptert is. 
 
 
-      Az eszköz prototípusa Magyarországon már elérhető: jelenleg 70-nél is több IC/BPS páciens végez önkezelést a segítségükkel. A COVID világjárvány okozta helyzet kihangsúlyozta az otthon is elvégezhető terápia előnyeit. 
+      Az eszköz prototípusa Magyarországon már elérhető: jelenleg 70-nél is több IC/BPS páciens végez önkezelést a segítségével. A COVID világjárvány okozta helyzet kihangsúlyozta az otthon is elvégezhető terápia előnyeit. 
 
 
-      Az UroStill következő változata jelenleg fejlesztés alatt áll; az eszköz 2023-ben lesz bevezetve a nemzetközi piacra is.
-    title: UroStill
+      Az UroStill® következő változata jelenleg fejlesztés alatt áll; az eszközt 2023-ban vezetjük be a nemzetközi piacra is.
+    title: UroStill®
     anchor: urostill
   - type: article
     text: >-
