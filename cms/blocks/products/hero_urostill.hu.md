@@ -24,5 +24,5 @@ components:
 
       ## A húgyhólyag önkezelését segítő eszköz
 
-      ### Az UroStill® eredetileg interstitiális cystitis/hólyagfájdalom szindrómában (IC/BPS) szenvedő nőbetegek számára lett kifejlesztve, azonban más, rendszeres húgyhólyagfeltöltést igénylő betegségben szenvedők önkezelésére is használható. Az UroStill® tartalmazza az UroDapter® urológiai fecskendő adaptert is.
+      ### Az UroStill®-t interstitiális cystitis/hólyagfájdalom szindrómában (IC/BPS) szenvedő nőbetegek számára tervezte Dr. Lovász Sándor, azonban más, rendszeres húgyhólyagfeltöltést igénylő betegségben szenvedők fájdalom- és komplikációmentes otthoni önkezelésére is használható. Az UroStill® tartalmazza az UroDapter® urológiai fecskendő adaptert is.
 ---
