@@ -187,6 +187,10 @@ footer_us:
             title: UroDapter®
           - lang: zh
             title: UroDapter®
+      - link: urostill
+        titles:
+          - lang: hu
+            title: UroStill®
       - link: development
   - link: ""
     titles:
@@ -276,6 +280,10 @@ footer_us:
         ext: true
         logo: /uploads/bxl-vk.svg
         alt: vk
+      - ext: true
+        link: https://linktr.ee/urodapter
+        logo: /uploads/linktree.svg
+        alt: linktree
       #- ext: true
         #link: https://ok.ru/urodapter
         #logo: /uploads/bxl-ok-ru.svg
