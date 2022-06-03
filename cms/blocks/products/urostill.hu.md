@@ -109,5 +109,5 @@ components:
         title: Bővebben az öninstillációról
         src: /uploads/bxs-file-doc.svg
     marker: /uploads/bxs-file-pdf.svg
-    subhead: Letölthető
+    subhead: Letöltések
 ---
