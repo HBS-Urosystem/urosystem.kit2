@@ -105,9 +105,9 @@ components:
       - src: ""
         url: uploads/UroStill_hasznalati_utmutato_v1_2.pdf
         title: Használati útmutató
-      - url: uploads/HA_Self_Instillation_v03_2.docx
+      - url: uploads/HA_Self_Instillation.pdf
         title: Bővebben az öninstillációról
-        src: /uploads/bxs-file-doc.svg
+        src: ""
     marker: /uploads/bxs-file-pdf.svg
     subhead: Letöltések
 ---
