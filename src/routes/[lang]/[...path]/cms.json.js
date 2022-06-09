@@ -30,7 +30,7 @@ export const get = async (request) => {
 
 	post = await _getPost({path: parts[0], lang, sub: parts[1] || null})
 //console.log('post',post)
-	if (post.id) {
+	if (post.id && !!post.published) {
 			return {
 			body: {post, ...conf}
 		}
