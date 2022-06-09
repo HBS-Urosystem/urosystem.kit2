@@ -2,7 +2,7 @@
 id: resources-pro
 folder: urodapter
 fallback: en
-published: false
+published: true
 title: Ingyenes segédanyagok terapeutáknak 
 menutitle: Terapeutáknak
 ---

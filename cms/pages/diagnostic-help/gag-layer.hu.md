@@ -1,7 +1,7 @@
 ---
 id: gag-layer
 fallback: en
-published: false
+published: true
 title: "A GAG-réteg integritás teszt – páciens információk "
 keywords: IC/BPS, GAG-réteg, vizelési napló, fájdalmatlan, GAG-teszt, hólyagfájdalom
 description: Röviden a GAG-réteg integritás teszt működéséről, és annak

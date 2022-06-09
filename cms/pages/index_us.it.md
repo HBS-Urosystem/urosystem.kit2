@@ -1,7 +1,7 @@
 ---
 id: index_us
 fallback: en
-published: false
+published: true
 canonical: /en
 title: Restoring the Quality of Life – Literally
 keywords: Urosystem, UroDapter, IC/BPS, bladder disease, cystitis, urological

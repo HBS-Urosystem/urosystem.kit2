@@ -1,7 +1,7 @@
 ---
 id: index_us
 fallback: en
-published: false
+published: true
 title: UroSystem – Páciensek millióinak életminőségéért
 keywords: Urosystem, UroDapter, IC/BPS, hólyagfájdalom, cystitis, urológia
 blocks:

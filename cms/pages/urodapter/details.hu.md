@@ -2,7 +2,7 @@
 id: details
 folder: urodapter
 fallback: en
-published: false
+published: true
 title: UroDapter® fecskendő adapter
 canonical: https://www.urosystem.com/hu
 ---

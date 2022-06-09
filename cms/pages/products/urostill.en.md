@@ -1,7 +1,7 @@
 ---
 id: urostill
 folder: products
-published: false
+published: true
 title: UroStill® – An assistive device for the self-instillation of the bladder
 herotitle: ""
 keywords: UroStill, self-treatment, instillation, UroDapter, intravesical, bladder, local treatment, urethra

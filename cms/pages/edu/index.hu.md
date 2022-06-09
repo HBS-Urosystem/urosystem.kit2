@@ -1,5 +1,5 @@
 ---
 folder: edu
 fallback: en
-published: false
+published: true
 ---
