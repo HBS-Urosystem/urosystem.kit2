@@ -209,10 +209,14 @@ footer_ud:
         ext: true
         logo: /uploads/bxl-vk.svg
         alt: vk
-      #- ext: true
-        #link: https://ok.ru/urodapter
-        #logo: /uploads/bxl-ok-ru.svg
-        #alt: ok
+      - ext: true
+        link: https://ok.ru/urodapter
+        logo: /uploads/bxl-ok-ru.svg
+        alt: ok
+      - ext: true
+        link: https://linktr.ee/urodapter
+        logo: /uploads/linktree.svg
+        alt: linktree
   - subpages:
       - logo: /uploads/visa-mastercard.png
         alt: visa mastercard amex paypal
