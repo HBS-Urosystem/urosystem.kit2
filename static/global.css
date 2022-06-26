@@ -402,6 +402,8 @@ summary {
   list-style: none;
   position: relative;
 }
+summary::-webkit-details-marker {display: none; }
+
 article summary > *:last-child {
   padding-bottom: 0;
 }
