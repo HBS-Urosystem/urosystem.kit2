@@ -10,4 +10,10 @@ components:
     link:  "company#contact"
     text: >-
       &nbsp;
+  #- type: cta
+  #  title: ""
+  #  subhead: Vásárolni szeretne?
+  #  text: Kérje részletfizetéssel!
+  #  button: Vásárlás
+  #  link:  "urostill#buy"
 ---
