@@ -199,7 +199,7 @@
   .carousel button:last-of-type {
     right: .25em;
   }
-  img, .imgplaceholder {
+  img {
     @apply shadow-2xl;
     object-fit: contain;
   }
