@@ -1,4 +1,5 @@
 <script context="module">
+  //import '/src/routes/events/_tailwind.css'
   //export const hydrate = false
   //export const prerender = true
   import { onMount } from 'svelte'
@@ -28,13 +29,9 @@
     }
     u.push('cms.json')
 		const url = '/'+u.join('/')
-//console.log('cms-url:', url)
-
 		let res = await fetch(url)
 		if (res.ok) {
       const result = await res.json()
-//console.log('result_l',result.post)
-
 			if (result.thislang) return {
 				props: {
           result: await result/*,
@@ -42,7 +39,7 @@
         }
 			}
 		}
-//console.log('res.notOK',res)
+    //throw error(404, `Could not load ${url}`)
     return {
 			status: res.status,
 			error: new Error(`Could not load ${url}`)
@@ -66,6 +63,9 @@
 </script>
 
 <svelte:head>
+  <style global>
+    @import "/src/_tailwind.css";
+  </style>
   {#each $state.langs || [] as lang}
   {#if !!lang.active}
     <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />

@@ -1,72 +1,43 @@
 <script context="module">
-  //export const hydrate = false
-  //export const prerender = true
-  import { onMount } from 'svelte'
-  import { get } from 'svelte/store'
+  //import { onMount } from 'svelte'
   import { state, sitelang, cookies, variables } from '$lib/stores'
   import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
-  import Nav from '$lib/NavNew.svelte'
+  import Nav from '$lib/Nav.svelte'
   import Footer from '$lib/Footer.svelte'
   import Cookies from '$lib/Cookies.svelte'
 
-  const _site = variables.site
-
-  export const load = async ({ page, fetch }) => {
-    let { lang, path } = {...page.params}
-    let u = []
-		if (!!path) {
-      u.push(lang)
-      u.push(path)
-    } else {
-      //u.push(get(sitelang) || 'en')
-      u.push(lang || get(sitelang) || 'en')
-    }
-    u.push('cms.json')
-		const url = '/'+u.join('/')
-
-    //console.log('1.fetch(url)', url)
-		let res = await fetch(url)
-
+  export const load = async ({ params, fetch, page }) => {
+		let res = await fetch('/en/cms.json')
 		if (res.ok) {
       const result = await res.json()
-      //console.log('result_l',result.post)
-
-			if (result.thislang) return {
+			return {
 				props: {
-          result: await result/*,
-          lang: result.thislang.id*/
+          result: await result
         }
 			}
 		}
+    //throw error(404, 'Not found')
     return {
 			status: res.status,
-			error: new Error(`Could not load ${url}`)
+			error: new Error(`Could not load`)
 		};
   }
 </script>
 <script>
-
-  export let result//, lang, path
+  export let result
+  result.post.id = 'events'
+  result.post.slug = 'events'
+  result.post.canonical = 'events'
+  result.post.menutitle = 'Events'
+  //console.log({result})
   $: $state = result
-  //$: console.log(result)
   $: $sitelang = result.thislang.id
-  //$: console.log('_layout $state:',result.post.path)
-  //$: console.log('__layout $state:',$state.post.id)
-  //let thislang = {dir: 'ltr'}
-	onMount(() => {
-    document.querySelector('html').lang = $state.thislang.id
-    //thislang = $state.thislang
-    document.querySelector('html').dir = $state.thislang.dir
-    //console.log(thislang)
-	});
 </script>
 
 <svelte:head>
-  {#each $state.langs || [] as lang}
-    <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
-  {/each}
-
-
+  <style global>
+    @import "/src/_tailwind.css";
+  </style>
   {#if !dev }
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180221975-1"></script>
@@ -122,33 +93,9 @@
       })(window,document,'script','dataLayer','GTM-T4KTKF5');</script>
       <!-- End Google Tag Manager -->
 	{/if} <!-- $cookies -->
-  {#if _site == '_ud'}
-  <style>
-    :root {
-      --mid-blue: #005c5b;
-      --light-blue: #02979d;
-      --pale-blue: #e2f3f3;
-      /*--dark-blue-75: #005c5bc0;*/
-      --mid-blue-75: #005c5bc0;
-      --light-blue-75: #02979dc0;
-      --pale-blue-75: #e2f3f3c0;
-    }
-    main {
-      background-image: var(--grad-light-blue);
-      background-position: 50% 50%;
-      background-size: cover;
-    }
-  </style>
-  {/if}
 </svelte:head>
 
-<Nav/><!--  state={result} -->
+<Nav/>
 <slot></slot>
 <Footer/>
 <Cookies cookie={$cookies}/>
-
-{#each $state.langs || [] as lang}
-<a hidden aria-hidden="true" rel="alternate" href="/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">
-  {lang.id}
-</a>
-{/each}

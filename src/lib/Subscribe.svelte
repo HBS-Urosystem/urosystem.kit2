@@ -1,0 +1,47 @@
+<script>
+  import { browser } from '$app/env';
+</script>
+
+<!--<aside class="pb-16">
+  <div class="card mx-auto w-fit shadow-xl image-full bg-base-300">
+    <form class="card-body" name="Blog_subscribe" method="POST" netlify>
+      <h2 class="card-title">Subscribe to get monthly news</h2>
+      <fieldset>
+        <input id="email" name="email" type="email" required placeholder="Your Email" class="input input-bordered input-md flex-auto">
+        <button type="submit" tabindex="0" class="btn btn-primary flex-none">Subscribe</button>
+      </fieldset>
+      <fieldset>
+        <input id="consent" name="consent" type="checkbox" required class="toggle toggle-sm" />
+        <label for="consent">I agree to subscribe to the newsletter.</label> <a href="https://www.urosystem.com/en/privacy-policy" rel="external" target="_blank">See our Privacy Policy</a>
+      </fieldset>
+    </form>
+
+  </div>
+</aside>-->
+
+<aside class="pb-8 w-full">
+  <div class="card mx-auto shadow-xl image-full">
+    <div class="card-body">
+
+      {#if browser}
+      <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+          region: "eu1",
+          portalId: "25100362",
+          formId: "2a52da7c-0376-49d5-892f-78dfe29ca48c"
+        });
+      </script>
+      {/if}
+
+      <a href="https://www.urosystem.com/en/privacy-policy" rel="external" target="_blank">Privacy Policy</a>
+    </div>
+
+  </div>
+</aside>
+
+<style>
+  fieldset {
+    @apply flex flex-wrap gap-4;
+  }
+</style>

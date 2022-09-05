@@ -151,6 +151,7 @@
   }*/
   h1/*, .h1*/ {
     cursor: pointer;
+    margin-inline: auto;
   }
   nav {
     padding-block: 3rem;

@@ -1,30 +1,11 @@
 <script context="module">
 	import { state, sitelang, variables } from '$lib/stores'
   import { onMount, afterUpdate } from 'svelte'
-  //import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
-  //import { langs } from '$lib/config';
-  //import { topnav } from '$lib/config'
-  //import { _findPost } from '$lib/utils'
-  //import { _findPosts } from '$lib/utils'
-  //import { _getBlock } from '$lib/utils'
   import Components from '$lib/Components.svelte'
 	//import Modal from '$lib/my/Modal.svelte'
   import SubNav from '$lib/SubNav.svelte'
   import * as scrollnav from "svelte-scrollto"
-  /*scrollnav.setGlobalOptions({
-    container: 'nav',
-    //offset: 200,
-    scrollX: true,
-    //scrollY: false,
-    onStart: (element, offset) => {
-      if(element) {
-        console.log("Start scrolling to element:", element);
-      } 
-      if(offset) {
-        console.log(`Start scrolling to offset: ${offset.x}, ${offset.y}`);
-      }
-    }
-  })*/
+
   const _site = variables.site
   const sitelogo = `sitelogo${_site}.svg`
   const logoclass = `sitelogo${_site}`
@@ -79,82 +60,25 @@
     }
   }
 
-	//const { page } = stores()
-  //export let $state
   let /*navbar, navul,*/ nwidth, wnav, wul, hamburger = false//, modal
-  //$: hamburger = navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)
-  //$: hamburger = !w || (w + navbar.scrollLeft < navbar.scrollWidth)
-  /*$: {
-    if (!!w && !!navbar && hamburger === false) {
-      console.log('$: (', w, navbar.scrollWidth, hamburger, ') -> ?')
-      //hamburger = false
-      hamburger = w < navbar.scrollWidth
-    } else {
-      //hamburger = false /// 20 goto 10
-      //console.log('$: -> ', hamburger, '')
-    }
-  }*/
   onMount(() => {
     if (!!wul && !hamburger && !nwidth) {
-      /*if (!hamburger) {
-        nwidth = nwidth || wul // nwidth is fixed once set
-        console.log(nwidth, wnav)
-      }*/
       nwidth = wul
-      //console.log('before: , nwidth, wnav, hamburger)')
       hamburger = (nwidth > wnav)
-      //console.log(`onmount: ${hamburger} = (${nwidth} > ${wnav})`)
     }
   })
   afterUpdate(() => {
-    //if (!!nwidth && !!wnav) {
-      hamburger = (nwidth > wnav)
-      //console.log(`update: ${hamburger} = (${nwidth} > ${wnav})`)
-    //}
+    hamburger = (nwidth > wnav)
   })
-  /*//afterUpdate(() => {
-  $: {
-    if (!!nwidth && !!wnav && !hamburger) {
-      console.log('after: (', nwidth, wnav, hamburger, ') -> ?')
-      hamburger = (nwidth > wnav)
-    }
-	}//)*/
   let langchng = $sitelang
-  //const path = $pagepath.split('/')
-  //console.log(`${langchng}/${$pagepath}`)
-  /*let subpath
-  $: {
-    //console.log('nav_$pagepath',$pagepath)
-    subpath = $pagepath && $pagepath.split('/') || []
-    subpath.shift()
-    subpath.shift()
-  }*/
-  //console.log($page)
 	/*async */function newlang() {
-    //path[1] = langchng
-    //console.log(path)
-    //await goto(path.join('/'))
-    //window.location.href = path.join('/')
     window.location.href = `/${langchng}/${$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}`
     //console.log(`${langchng}/${$state.post.path}`)
   }
   let slct
-
-  //$: console.log('$state.subpage', $state.post.subpage)
-  //const dir = $state.thislang.dir
 </script>
 
-<!--<svelte:head>
-  {#each $state.langs as lang}
-    <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
-  {/each}
-</svelte:head>-->
-
 <svelte:window bind:scrollY={y} />
-  <!--{#each $state.langs as lang}
-    <a hidden aria-hidden="true" href="/{lang.id}/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">/{lang.id}/{$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}</a>
-  {/each}-->
-
   <nav
     use:action class={headerClass}
     class:moved={y>48}
@@ -167,23 +91,22 @@
         {/each}
       </select>
       <ul>
-        <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
-        <li><a href="https://www.instagram.com/urodapter/" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
-        <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
-        <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
-        <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
-        <li><a href="https://vk.com/urodapter" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-vk.svg" alt="vk"></a></li>
-        <li><a href="https://ok.ru/urodapter" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>
-        <li><a href="https://linktr.ee/urodapter" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/linktree.svg" alt="linktree"></a></li>
+        <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener" target="_blank"><img src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
+        <li><a href="https://www.instagram.com/urodapter/" rel="noopener" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
+        <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener" target="_blank"><img src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
+        <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener" target="_blank"><img src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
+        <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener" target="_blank"><img src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
+        <li><a href="https://vk.com/urodapter" rel="noopener" target="_blank"><img src="/uploads/bxl-vk.svg" alt="vk"></a></li>
+        <li><a href="https://ok.ru/urodapter" rel="noopener" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>
+        <li><a href="https://linktr.ee/urodapter" rel="noopener" target="_blank"><img src="/uploads/linktree.svg" alt="linktree"></a></li>
       </ul>
     </div>
-    <!--<ul bind:this={navul} mobil={navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}>-->
     <ul 
       bind:clientWidth={wul}
       mobil={!!hamburger}>
       <li>
         <a sveltekit:prefetch href="/{$sitelang}" aria-label="home">
-          <img loading="lazy" class={logoclass} src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
+          <img class={logoclass} src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
         </a>
       </li>
       <!--{@debug topnav}-->
@@ -191,13 +114,10 @@
         {#if nav.title}
           <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
             {#if nav.link}
-              <!--<a sveltekit:prefetch tabindex="0" href="/{$sitelang}/{nav.link}">{nav.title} 
-                {#if nav.sublinks} <img loading="lazy" src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
-              </a>-->
               <SubNav sub={nav}/>
             {:else}
               <span tabindex="0">{nav.title}
-                {#if nav.sublinks} <img loading="lazy" src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
+                {#if nav.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
               </span>
             {/if}
             {#if nav.modal}
@@ -221,43 +141,15 @@
           </li>
         {/if}
       {/each}
-      <!--{#if navbar && (navbar.clientWidth < navbar.scrollWidth)}-->
       {#if hamburger}
-        <!--{#if navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}
-          <li id="over" on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? 200 : -200 )})}>
-            <button aria-label="Scroll the nav"></button>
-          </li>
-        {:else}
-          <li id="over" on:click={() => scrollnav.scrollTo({container: 'nav', element: navul, scrollX: true, scrollY: false, offset: navbar.scrollLeft+( dir=='ltr' ? -200 : 200 )})}>
-            <button aria-label="Scroll the nav"></button>
-          </li>
-        {/if}-->
         <li id="over" tabindex="0">
           <button aria-label="menu"></button>
         </li>
       {/if}
-      <!--<li><a href="/">Company</a></li>
-      <li><a href="/">Downloads</a></li>
-      <li><a href="/">Events</a></li>-->
     </ul>
   </nav>
-<!--</div>-->
-  
 
 <style>
-  /*main {
-    position: absolute;
-    top: 0;
-    z-index: -1;
-  }*/
-  
-  /*div.sticky {
-    position: sticky;
-    top: -3rem;
-  }*/
-  /*.over {
-    background-color:red;
-  }*/
   .pin {
     transform: translateY(0%);
   }
@@ -298,7 +190,6 @@
     /*z-index: 999;*/
   }
   nav:focus-within li#over, ul:focus-within li#over {
-    /*display: none;*/
     opacity: 0;
     outline: none;
   }
@@ -337,9 +228,6 @@
     justify-content: space-between;
     /*justify-content: center;*/
   }
-  nav > div > ul {
-    list-style: none;
-  }
   nav > div li {
     display: inline;
   }
@@ -347,20 +235,20 @@
     display: inline-block;
     padding-inline: 0.25rem;
   }
-  nav > div li img{
+  nav > div li img {
     filter: invert();
     width: 1.5rem;
     height: 1.5rem;
+  }
+  nav ul {
+    list-style: none;
   }
   nav > ul {
     display: flex;
     flex-wrap: nowrap;
     padding-inline-start: 1rem;
-    /*margin: 1rem max(var(--sides), 0px) 0;*/
     margin-top: 1rem;
     margin-bottom: 0;
-    /*margin-inline-start: var(--sides);*/
-    /*margin-inline-end: var(--sides);*/
     width: max-content;
     /*overflow-y: hidden;*/ /* just for sticky over */
     z-index: 1;
@@ -370,17 +258,13 @@
     /*width: revert;*/
   }
   nav > ul:not([mobil='true']) {
-    /*align-self: center;
-    margin-inline: auto;*/
-    /*margin-inline-start: var(--sides);
-    margin-inline-end: var(--sides);*/
     margin-inline: auto;
   }
   nav > ul[mobil='true'] > li:not(:first-child) {
     display: none;
     opacity: 0;
   }
-  nav > ul[mobil='true']:active > li/*, nav > ul[mobil='true']:focus > li*/, nav > ul[mobil='true']:focus-within > li {
+  nav > ul[mobil='true']:active > li, nav > ul[mobil='true']:focus-within > li {
     display: list-item;
     opacity: 1;
   }
@@ -389,10 +273,6 @@
     white-space: nowrap;
     transition: opacity, .25s; /*fast out*/
   }
-  /*li[aria-current] {
-    border: 2px dotted white;
-    border-radius: 50%;
-  }*/
   li img {
     aspect-ratio: 100 / 100;
   }
@@ -400,26 +280,37 @@
     padding-inline-end: 1.75rem;
     align-self: baseline;
     text-transform: uppercase;
-    /*position: relative;*/
-    /*overflow-y: visible;*/
     flex-shrink: 0;
   }
-  /*nav > ul > li > a {
-    text-shadow: 1px 1px 2px var(--dark-blue-75);
-  }*/
-  nav > ul > li > span {
-    cursor: default;
+  nav > ul > li:not(:first-of-type) {
+    min-height: 1.25rem;
+    margin-block: 1.2rem;
+  }
+  nav > ul > li a {
     /*text-shadow: 1px 1px 2px var(--dark-blue-75);*/
+    display: block;
+    padding-block: 1rem;
+  }
+  nav > ul > li > span {
+    /*text-shadow: 1px 1px 2px var(--dark-blue-75);*/
+    cursor: default;
+    padding-block: 1rem;
   }
   nav > ul > li:first-of-type a {
-    display: block;
     height: 3.5rem;
     margin-bottom: 1rem;
+    padding-block: 0;
   }
-  nav > ul > li:first-of-type img {
-    padding-inline-end: 1rem;
+  nav > ul > li img {
   }
+  nav > ul > li:not(:first-of-type) img {
+    height: 1.25rem;
+    filter: invert();
+  }
+
   img.sitelogo, img.sitelogo_ud {
+    display: block;
+    padding-inline-end: 1rem;
     margin-bottom: -1.4rem;
     height: 3.5rem;
     aspect-ratio: 300 / 119;
@@ -427,23 +318,12 @@
   img.sitelogo_us {
     /*margin-bottom: -0.9rem;
     aspect-ratio: 407 / 100;*/
+    padding-inline-end: 1rem;
     margin-bottom: -1.05rem;
     height: 3.226rem;
     aspect-ratio: 300 / 95;
   }
-  nav > ul > li:not(:first-of-type) {
-    min-height: 1.25rem;
-    padding-bottom: 1rem;
-  }
-  nav > ul > li:not(:first-of-type) img {
-    height: 1.25rem;
-    filter: invert();
-  }
-  /*nav > ul ul {
-    margin-inline-start: -50%;
-  }*/
   ul ul {
-    /*display: none;*/
     display: grid;
     visibility:hidden;
     height: 0;
@@ -517,11 +397,8 @@
   }
   select {
     display: flex;
-    /*display: none;*/
-    padding: 0.65em 1.75em 0 2em;
-    padding-inline-start: 2em;
-    padding-inline-end: 1.75em;
-    /*height: 1.5em;*/
+    /*padding: 0.65em 1.75em 0 2em;*/
+    padding: 0.4em 1.75em 0 2em;
     background: url("/uploads/bx-world.svg") no-repeat left, url("/uploads/open-down.svg") no-repeat right;
     background-size: 1.5em;
     filter: invert();
