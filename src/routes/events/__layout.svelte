@@ -24,6 +24,7 @@
   }
 </script>
 <script>
+  import "/src/tailwind.css";
   export let result
   result.post.id = 'events'
   result.post.slug = 'events'
@@ -35,9 +36,9 @@
 </script>
 
 <svelte:head>
-  <style global>
-    @import "/src/_tailwind.css";
-  </style>
+  <!--<style global>
+    @import "/src/tailwind.css";
+  </style>-->
   {#if !dev }
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180221975-1"></script>

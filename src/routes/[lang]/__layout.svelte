@@ -1,5 +1,4 @@
 <script context="module">
-  //import '/src/routes/events/_tailwind.css'
   //export const hydrate = false
   //export const prerender = true
   import { onMount } from 'svelte'
@@ -47,7 +46,7 @@
   }
 </script>
 <script>
-
+  import "/src/tailwind.css";
   export let result//, lang, path
   $: $state = result
   $: $sitelang = result.thislang.id
@@ -64,7 +63,7 @@
 
 <svelte:head>
   <style global>
-    @import "/src/_tailwind.css";
+    /*@import "/src/tailwind.css";*/
   </style>
   {#each $state.langs || [] as lang}
   {#if !!lang.active}

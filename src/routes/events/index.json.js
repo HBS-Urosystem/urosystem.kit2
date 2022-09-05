@@ -1,6 +1,6 @@
 import { client } from '/src/lib/sanityClient.js'
 import { allEvents } from '/src/lib/api.js'
-console.log('JSON.JS')
+//console.log('JSON.JS')
 export async function get() {
   const data = await client.fetch(allEvents);
 
