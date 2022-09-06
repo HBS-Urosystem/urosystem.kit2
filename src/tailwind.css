@@ -56,6 +56,9 @@ select {
 *:focus:not(:focus-visible){outline:none;}
 .no-outline *:focus{outline:none;}
 
+html {
+  height: 100%;
+}
 body {
   margin: 0;
   /*letter-spacing: .03em;*/
@@ -65,9 +68,7 @@ body {
 
   scrollbar-color: rebeccapurple green;
   scrollbar-width: thin;
-}
-html, body {
-  height: 100%;
+  min-height: 100%;
 }
 #svelte /*> div */{
   min-height: 100%;
