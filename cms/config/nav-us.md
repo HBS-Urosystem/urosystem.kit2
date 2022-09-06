@@ -38,7 +38,6 @@ top_us:
           - lang: hu
             title: UroDapter®
       - link: urostill
-  - link: development
   - subpages:
       - link: diagnostic-help/gag-layer
       - link: diagnostic-help/gag-layer-pro
@@ -189,6 +188,37 @@ top_us:
             title: 회사소개
           - lang: tr
             title: Hakkımızda
+      - link: /events
+        titles:
+          - lang: en
+            title: Events
+          - lang: hu
+            title: Events
+          - lang: ru
+            title: Events
+          - lang: de
+            title: Events
+          - lang: it
+            title: Events
+          - lang: es
+            title: Events
+          - lang: pt
+            title: Events
+          - lang: ja
+            title: Events
+          - lang: zh
+            title: Events
+          - lang: ar
+            title: Events
+          - lang: he
+            title: Events
+          - lang: ko
+            title: Events
+          - lang: tr
+            title: Events
+          - lang: fr
+            title: Events
+      - link: development
       - link: company#partners
         titles:
           - lang: en
@@ -253,37 +283,6 @@ top_us:
         titles:
           - lang: hu
             title: Pályázatok
-  - link: shop
-  - link: /events
-    titles:
-      - lang: en
-        title: Events
-      - lang: hu
-        title: Events
-      - lang: ru
-        title: Events
-      - lang: de
-        title: Events
-      - lang: it
-        title: Events
-      - lang: es
-        title: Events
-      - lang: pt
-        title: Events
-      - lang: ja
-        title: Events
-      - lang: zh
-        title: Events
-      - lang: ar
-        title: Events
-      - lang: he
-        title: Events
-      - lang: ko
-        title: Events
-      - lang: tr
-        title: Events
-      - lang: fr
-        title: Events
   - link: /blog
     ext: true
     titles:
@@ -315,4 +314,5 @@ top_us:
         title: Blog
       - lang: fr
         title: Blog
+  - link: shop
 ---
