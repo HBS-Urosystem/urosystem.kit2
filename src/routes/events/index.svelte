@@ -184,7 +184,7 @@
     position: relative;
     gap: 2ch;
     width: 100%;
-    max-width: 100;
+    max-width: 100%;
     grid-column-end: auto;
   }
   .carousel-item {
