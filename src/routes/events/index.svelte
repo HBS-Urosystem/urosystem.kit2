@@ -73,7 +73,7 @@
 
 <header class="full">
   <div class="hero-overlay bg-opacity-60"></div>
-  <div class="text-center hero-content flex-wrap ">
+  <div class="text-center hero-content flex-wrap">
     {#each futureEvents as event}
       <article class="max-w-lg">
         <aside>
@@ -133,6 +133,9 @@
     height: 100%;
     width: 100%;
   }
+  header > .hero-content {
+    padding-top: 9rem;
+  }
   .hero-content {
     grid-column-start: 1;
     grid-row-start: 1;
@@ -142,8 +145,8 @@
     justify-content: center;
     max-width: 80rem;
     gap: 1rem;
-    padding-top: 9rem;
-    padding-bottom: 6rem;
+    /*padding-bottom: 6rem;*/
+    padding-bottom: 0;
   }
 /*  main {
     padding-bottom: var(--gap);
@@ -163,6 +166,7 @@
   aside {
     flex: 0 1 65ch;
     padding: 0;
+    margin-inline: auto;
   }
   h1 {
     @apply text-2xl font-bold pb-4;
@@ -180,6 +184,7 @@
     position: relative;
     gap: 2ch;
     width: 100%;
+    max-width: 100;
     grid-column-end: auto;
   }
   .carousel-item {

@@ -254,6 +254,36 @@ top_us:
           - lang: hu
             title: Pályázatok
   - link: shop
+  - link: /events
+    titles:
+      - lang: en
+        title: Events
+      - lang: hu
+        title: Events
+      - lang: ru
+        title: Events
+      - lang: de
+        title: Events
+      - lang: it
+        title: Events
+      - lang: es
+        title: Events
+      - lang: pt
+        title: Events
+      - lang: ja
+        title: Events
+      - lang: zh
+        title: Events
+      - lang: ar
+        title: Events
+      - lang: he
+        title: Events
+      - lang: ko
+        title: Events
+      - lang: tr
+        title: Events
+      - lang: fr
+        title: Events
   - link: /blog
     ext: true
     titles:

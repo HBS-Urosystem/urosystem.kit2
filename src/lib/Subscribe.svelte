@@ -1,30 +1,34 @@
-<script>
-  import { browser } from '$app/env';
+<script context=module>
+  //import { browser } from '$app/env';
+  import { onMount } from 'svelte'
 </script>
 
-<!--<aside class="pb-16">
-  <div class="card mx-auto w-fit shadow-xl image-full bg-base-300">
-    <form class="card-body" name="Blog_subscribe" method="POST" netlify>
-      <h2 class="card-title">Subscribe to get monthly news</h2>
-      <fieldset>
-        <input id="email" name="email" type="email" required placeholder="Your Email" class="input input-bordered input-md flex-auto">
-        <button type="submit" tabindex="0" class="btn btn-primary flex-none">Subscribe</button>
-      </fieldset>
-      <fieldset>
-        <input id="consent" name="consent" type="checkbox" required class="toggle toggle-sm" />
-        <label for="consent">I agree to subscribe to the newsletter.</label> <a href="https://www.urosystem.com/en/privacy-policy" rel="external" target="_blank">See our Privacy Policy</a>
-      </fieldset>
-    </form>
-
-  </div>
-</aside>-->
+<script>
+  let hbspt
+  onMount(async () => {
+    try {
+      await addScript('//js-eu1.hsforms.net/forms/v2.js');
+      // do something after it was loaded
+      hbspt = true
+    } catch (e) {
+      console.log(e);
+    }
+	})
+  function addScript(src) {
+    return new Promise((resolve, reject) => {
+      const s = document.createElement('script');
+      s.setAttribute('src', src);
+      s.addEventListener('load', resolve);
+      s.addEventListener('error', reject);
+      document.getElementById('subscribe').appendChild(s)
+    });
+  }
+</script>
 
 <aside class="pb-8 w-full">
   <div class="card mx-auto shadow-xl image-full">
-    <div class="card-body">
-
-      {#if browser}
-      <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/v2.js"></script>
+    <div id="subscribe" class="card-body">
+      {#if hbspt}
       <script>
         hbspt.forms.create({
           region: "eu1",
@@ -33,7 +37,7 @@
         });
       </script>
       {/if}
-
+      <!--<svelte:component this={hubspotForm}/>-->
       <a href="https://www.urosystem.com/en/privacy-policy" rel="external" target="_blank">Privacy Policy</a>
     </div>
 
