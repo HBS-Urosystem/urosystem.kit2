@@ -1,3 +1,4 @@
+/blog/events  /events
 /blog/*     https://bladder-blog.netlify.app/blog/:splat 200!
 /b2b/*     https://urosystem-b2b.netlify.app/:splat 301!
 #/b2b/*     https://urosystem-b2b.netlify.app/b2b/:splat 200!
