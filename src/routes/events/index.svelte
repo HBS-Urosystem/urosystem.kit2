@@ -2,7 +2,7 @@
   import { onMount, afterUpdate } from 'svelte'
   import { PortableText } from '@portabletext/svelte'
   import { getSanityImageUrl, formatBlogPostDate } from '$lib/helpers.js'
-  import Subscribe from '$lib/Subscribe.svelte'
+  import Subscribe from '$lib/SubscribeActivecamp.svelte'
   //import { client } from '/src/lib/sanityClient.js'
   //import { allEvents } from '/src/lib/api.js'
 
@@ -84,11 +84,11 @@
         </aside>
       </article>
     {/each}
-    <div class="text-center hero-content text-neutral-content w-full">
-      <div class="max-w-lg">
+    <!--<div class="text-center hero-content text-neutral-content w-full">
+      <div class="max-w-lg">-->
         <Subscribe/>
-      </div>
-    </div>
+      <!--</div>
+    </div>-->
   </div>
 </header>
 <main id="events">
@@ -134,7 +134,7 @@
     width: 100%;
   }
   header > .hero-content {
-    padding-top: 9rem;
+    padding-top: 4rem;
   }
   .hero-content {
     grid-column-start: 1;
@@ -146,7 +146,7 @@
     max-width: 80rem;
     gap: 1rem;
     /*padding-bottom: 6rem;*/
-    padding-bottom: 0;
+    padding-bottom: 8rem;
   }
 /*  main {
     padding-bottom: var(--gap);
