@@ -9,22 +9,22 @@
   {#if comp.cat}<h4>{comp.cat}</h4>{/if}
     <!--{#if $moved}-->
     {#if comp.source == 'youtube'}
-      <div>
-        <iframe title="{comp.title || comp.anchor || 'video'}" loading="lazy" width="100%" height="315" src="https://www.youtube-nocookie.com/embed/{comp.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+    <div>
+      <iframe title="{comp.title || comp.anchor || 'video'}" loading="lazy" width="100%" height="315" src="https://www.youtube-nocookie.com/embed/{comp.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     {/if}
     {#if comp.source == 'embed'}
       {@html comp.code}
     {/if}
     {#if comp.source == 'local'}
       <!-- svelte-ignore a11y-media-has-caption -->
-      <video title="{comp.title || comp.anchor || 'video'}" loading="lazy"  poster={comp.poster || `${comp.id}.png`} width="100%" controls>
+      <video title="{comp.title || comp.anchor || 'video'}" loading="lazy"  poster={comp.poster || `${comp.id}.png`} width="100%" controls controlsList="nodownload">
         <source src="/{comp.id}" type="video/mp4">
       </video>
     {/if}
     {#if comp.source == 'web'}
       <!-- svelte-ignore a11y-media-has-caption -->
-      <video title="{comp.title || comp.anchor || 'video'}" loading="lazy"  poster={comp.poster || `${comp.id}.png`} width="100%" controls>
+      <video title="{comp.title || comp.anchor || 'video'}" loading="lazy"  poster={comp.poster || `${comp.id}.png`} width="100%" controls controlsList="nodownload">
         <source src="{comp.id}" type="video/mp4">
       </video>
     {/if}
