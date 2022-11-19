@@ -47,16 +47,18 @@
   //console.log(allEventData)
   const d = new Date()
   const futureEvents = new Array()
-  const pastEvents = allEventData.filter(event => {
+  const pastEvents = allEventData.filter(event => { /// 'ELOG'
     //console.log({event})
-    const date = new Date(event.date2 || event.date1)
+    const date = new Date(event.date2 || event.date1 || d)
     if (d.getTime() < date.getTime()) {
-      futureEvents.push(event)
+      futureEvents.push(event) /// future event
       //console.log('FUTURE')
       return false
     }
-    //console.log('PAST')
-    return true
+    if (event.images?.length) return true /// good past event
+
+    //console.log('NONE'/*, date, event*/)
+    return false /// past or no date event, but not updated yet
   })
 
   let carous = {}
@@ -73,6 +75,7 @@
 
 <header class="full">
   <div class="hero-overlay bg-opacity-60"></div>
+  
   <div class="text-center hero-content flex-wrap">
     {#each futureEvents as event}
       <article class="max-w-lg">
@@ -80,7 +83,6 @@
           <time><span class="badge badge-md badge-accent">Upcoming</span> {formatBlogPostDate(event.date1)}{event.date2 ? ' – ' + formatBlogPostDate(event.date2) : ''}</time>
           <h1 class="">{event.title}</h1>
           <PortableText value={event.body}/>
-
         </aside>
       </article>
     {/each}
