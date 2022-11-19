@@ -1,41 +1,46 @@
-<script context=module>
-  //import { browser } from '$app/env';
-  import { onMount } from 'svelte'
+<script context="module">
+  //import { onMount } from 'svelte'
+	import { cookies/*, sitelang*/ } from '$lib/stores'
 </script>
 
-<script>
-  let hbspt
-  onMount(async () => {
-    try {
-      await addScript('https://urosystem.activehosted.com/f/embed.php?id=7');
-      // do something after it was loaded
-      //hbspt = true
-    } catch (e) {
-      console.log(e);
-    }
-	})
-  function addScript(src) {
-    return new Promise((resolve, reject) => {
-      const s = document.createElement('script');
-      s.setAttribute('src', src);
-      s.addEventListener('load', resolve);
-      s.addEventListener('error', reject);
-      document.getElementById('subscribe').appendChild(s)
-    });
-  }
-</script>
-
-<!--<aside class="pb-8 w-full">
-  <div class="card mx-auto shadow-xl image-full">-->
-    <div id="subscribe" class="-card-body">
-      <!--<svelte:component this={hubspotForm}/>-->
-      <!--<a href="https://www.urosystem.com/en/privacy-policy" rel="external" target="_blank">Privacy Policy</a>-->
+<aside class="pb-16">
+  <div class="card mx-auto w-fit shadow-xl image-full bg-base-300">
+    <div class="card-body" name="Blog_subscribe" method="POST" netlify>
+      <div class="_form_9"></div><script src="https://urosystem.activehosted.com/f/embed.php?id=9" type="text/javascript" charset="utf-8"></script>
+      {#if !$cookies}
+        <a href="https://www.urosystem.com/en/privacy-policy" rel="external" 
+      target="_blank">See our Privacy Policy</a>
+      {/if}
     </div>
-  <!--</div>
-</aside>-->
+
+  </div>
+</aside>
 
 <style>
+  .card-title {
+    justify-content: center;
+  }
   fieldset {
-    @apply flex flex-wrap gap-4;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  label {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  input[type='checkbox'] {
+    --tw-border-opacity: 1;
+    margin-bottom: -2px;
+  }
+  button {
+    border-radius: 1.75rem;
+  }
+  form a, aside a {
+    -webkit-text-decoration: dotted underline;
+    text-decoration: dotted underline;
   }
 </style>
