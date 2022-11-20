@@ -1,5 +1,6 @@
 <script context="module">
   import { onMount, afterUpdate } from 'svelte'
+  import { browser } from '$app/env'
   import { PortableText } from '@portabletext/svelte'
   import { getSanityImageUrl, formatBlogPostDate } from '$lib/helpers.js'
   import Subscribe from '$lib/SubscribeActivecamp.svelte'
@@ -58,6 +59,7 @@
     if (event.images?.length) return true /// good past event
 
     //console.log('NONE'/*, date, event*/)
+    futureEvents.push(event) /// future event 
     return false /// past or no date event, but not updated yet
   })
 
@@ -86,11 +88,14 @@
         </aside>
       </article>
     {/each}
-    <!--<div class="text-center hero-content text-neutral-content w-full">
-      <div class="max-w-lg">-->
+
+    {#if browser}
+    <div class="text-center hero-content text-neutral-content w-full">
+      <div class="ma-x-w-lg">
         <Subscribe/>
-      <!--</div>
-    </div>-->
+      </div>
+    </div>
+    {/if}
   </div>
 </header>
 <main id="events">
@@ -166,7 +171,7 @@
     align-items: flex-end;
   }
   aside {
-    flex: 0 1 65ch;
+    flex: 0 1 48ch;
     padding: 0;
     margin-inline: auto;
   }
@@ -188,6 +193,7 @@
     width: 100%;
     max-width: 100%;
     grid-column-end: auto;
+    align-self: stretch;
   }
   .carousel-item {
     /*width: min(32ch,100%);*/
