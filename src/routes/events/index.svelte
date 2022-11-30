@@ -1,5 +1,5 @@
 <script context="module">
-  import { onMount, afterUpdate } from 'svelte'
+  //import { onMount, afterUpdate } from 'svelte'
   import { browser } from '$app/env'
   import { PortableText } from '@portabletext/svelte'
   import { getSanityImageUrl, formatBlogPostDate } from '$lib/helpers.js'
@@ -7,27 +7,6 @@
   //import { client } from '/src/lib/sanityClient.js'
   //import { allEvents } from '/src/lib/api.js'
 
-  /*export const load = async () => {
-    const allEventData = await client.fetch(allEvents)
-    const d = new Date()
-    const futureEvents = new Array()
-    const pastEvents = allEventData?.filter(event => {
-      const date = new Date(event.date2 || event.date1)
-      if (d.getTime() < date.getTime()) {
-        futureEvents.push(event)
-        console.log('FUTURE')
-        return false
-      }
-      console.log('PAST')
-      return true
-    })
-    return {
-      //status: 200,
-      props: {
-        futureEvents, pastEvents
-      }
-    }
-  }*/
   export const load = async ({fetch}) => {
     let res = await fetch('/events.json')
 		if (res.ok) {
@@ -117,6 +96,8 @@
     </div>
   </article>
   {/each}
+
+  <p class="text-center"><a href="/events/rss.xml">RSS feed</a></p>
 </main>
 
 <style>

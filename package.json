@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@portabletext/svelte": "^1.0.1",
+    "@portabletext/to-html": "^1.0.4",
     "@sveltejs/adapter-netlify": "^1.0.0-next.15",
     "@sveltejs/adapter-static": "^1.0.0-next.18",
     "@sveltejs/kit": "1.0.0-next.201",
@@ -24,6 +25,7 @@
     "rehype-slug": "^4.0.1",
     "remark-abbr": "^1.4.1",
     "remark-github": "^10.0.1",
+    "rss": "^1.2.2",
     "stream": "^0.0.2",
     "svelte": "^3.34.0",
     "svelte-preprocess": "^4.10.7",
