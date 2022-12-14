@@ -145,6 +145,17 @@ article > p:first-child {
   margin-top: 0;
 }
 
+main a:not(:has('button')) {
+  overflow-x:auto;
+  text-decoration: none;
+  border-bottom: dotted;
+}
+a, a:visited {
+  color: inherit;
+}
+/*sup a {
+}*/
+
 h1 a, .h1 a {
   text-decoration: none;
 }
@@ -337,18 +348,9 @@ aside div > p > img {
   border-radius: min(calc(4 * var(--sides)), 3.5rem) min(calc(4 * var(--sides)), 3.5rem) 0 0;
 }
 
-a {
-  overflow-x:auto;
-}
-a, a:visited {
-  color: inherit;
-}
 article p a, article p a:visited, article li > a, article li > a:visited {
   word-break: break-word;
   color: var(--white);
-}
-sup a {
-  text-decoration: none;
 }
 
 hr {

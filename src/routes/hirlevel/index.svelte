@@ -121,6 +121,9 @@
     font-size: smaller;
     font-variant: small-caps;
   }
+  time + h2 {
+    margin-top: 1em;
+  }
 
   /*.carousel {
     flex: 1 0 32ch;
