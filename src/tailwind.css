@@ -145,7 +145,7 @@ article > p:first-child {
   margin-top: 0;
 }
 
-main a:not(:has('button')) {
+main a:not(:has(> button)) {
   overflow-x:auto;
   text-decoration: none;
   border-bottom: dotted;
