@@ -283,6 +283,10 @@ top_us:
         titles:
           - lang: hu
             title: Pályázatok
+  - link: /hirlevel
+    titles:
+      - lang: hu
+        title: Hírlevél
   - link: /blog
     ext: true
     titles:

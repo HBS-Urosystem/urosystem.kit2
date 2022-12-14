@@ -77,27 +77,28 @@
     {/if}
   </div>
 </header>
+
 <main id="events">
   {#each pastEvents as event}
-  <article>
-    <aside>
-      <time>{formatBlogPostDate(event.date1)}{event.date2 ? ' – ' + formatBlogPostDate(event.date2) : ''}</time>
-      <h1 class="">{event.title}</h1>
-      <PortableText value={event.body}/>
-    </aside>
-    <div bind:this={carous[event.slug.current]} class="carousel rounded-lg" id={event.slug.current}>
-      <button on:click={_carleft(carous[event.slug.current])}>◀︎</button>
-      {#each event.images as img} 
-      <div class="carousel-item" id={`${img._key}`}>
-        <img loading="lazy" alt="" src={getSanityImageUrl(img).width(720).url()} class={img.portray ? 'portray' : 'landscape'}>
+    <article>
+      <aside>
+        <time>{formatBlogPostDate(event.date1)}{event.date2 ? ' – ' + formatBlogPostDate(event.date2) : ''}</time>
+        <h1 class="">{event.title}</h1>
+        <PortableText value={event.body}/>
+      </aside>
+      <div bind:this={carous[event.slug.current]} class="carousel rounded-lg" id={event.slug.current}>
+        <button on:click={_carleft(carous[event.slug.current])}>◀︎</button>
+        {#each event.images as img} 
+        <div class="carousel-item" id={`${img._key}`}>
+          <img loading="lazy" alt="" src={getSanityImageUrl(img).width(720).url()} class={img.portray ? 'portray' : 'landscape'}>
+        </div>
+        {/each}
+        <button on:click={_carright(carous[event.slug.current])}>▶︎</button>
       </div>
-      {/each}
-      <button on:click={_carright(carous[event.slug.current])}>▶︎</button>
-    </div>
-  </article>
+    </article>
   {/each}
 
-  <p class="text-center"><a href="/events/rss.xml">RSS feed</a></p>
+  <p class="text-center mt-16"><a href="/events/rss.xml">RSS feed</a></p>
 </main>
 
 <style>
@@ -177,7 +178,6 @@
     align-self: stretch;
   }
   .carousel-item {
-    /*width: min(32ch,100%);*/
     width: min(32ch,100%);
   }
   .carousel button {

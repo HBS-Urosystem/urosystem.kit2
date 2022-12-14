@@ -7,3 +7,5 @@ export const allAuthors = `*[_type == 'author']`;
 */
 export const allEvents = `*[_type == 'event']{...} | order(date1 desc)`;
 
+export const hirlev = `*[_type == 'hirlev']{...} | order(publishedAt desc)`;
+
