@@ -34,10 +34,10 @@
   <div id="content" class="s-xEUe3BhquCBG"></div>
 
   {#each hirlevel as hirlev}
-    <article class="">
-      <aside>
-        <time>{formatBlogPostDate(hirlev.publishedAt)}</time>
-        <h2 class="text-left">{hirlev.title}</h2>
+    <article class="text-center">
+      <time>{formatBlogPostDate(hirlev.publishedAt)}</time>
+      <h2 class="">{hirlev.title}</h2>
+      <aside class="text-left">
         <h5>{hirlev.excerpt}</h5>
         <PortableText value={hirlev.body}/>
       </aside>
@@ -55,6 +55,11 @@
   }
   article {
     padding: var(--gap) var(--sides);
+  }
+  aside, details, figcaption {
+    max-width: 56ch;
+    margin: 0 auto;
+    padding: 0;
   }
   /*header {
     display: grid;
