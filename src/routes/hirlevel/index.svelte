@@ -44,7 +44,7 @@
     </article>
   {/each}
 
-  <p class="text-center mt-16"><a href="/hirlevel/rss.xml">RSS feed</a></p>
+  <!--<p class="text-center mt-16"><a href="/hirlevel/rss.xml">RSS feed</a></p>-->
 </main>
 
 
