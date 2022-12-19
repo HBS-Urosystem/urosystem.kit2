@@ -26,12 +26,12 @@ export async function get() {
       }),
       //link: `https://www.urosystem.com/events/`,
       //date: item.date1,
-      enclose: {url: `${item.images?.length && getSanityImageUrl(item.images[0]).width(400).url() || ''}`},
-      /*custom_elements: [
-        {'img': `${item.images?.length && getSanityImageUrl(item.images[0]).width(400).url() || ''}`},
-        {'date1': `${item.date1 || null}`},
-        {'date2': `${item.date2 || null}`},
-      ],*/
+      image: {url: `${item.images?.length && getSanityImageUrl(item.images[0]).width(400).url() || ''}`},
+      custom_elements: [
+        {'image': `${item.images?.length && getSanityImageUrl(item.images[0]).width(400).url() || ''}`},
+        //{'date1': `${item.date1 || null}`},
+        //{'date2': `${item.date2 || null}`},
+      ],
     })
   }
   return {
