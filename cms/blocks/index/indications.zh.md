@@ -16,7 +16,6 @@ components:
         posy: 20
       - type: gradient
         name: dark-blue
-    subhead: ""
     anchor: 用例和適應症
   - type: links
     title: ""

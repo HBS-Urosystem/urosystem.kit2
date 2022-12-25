@@ -17,7 +17,6 @@ components:
         posy: 20
       - type: gradient
         name: dark-blue
-    subhead: ""
     anchor: 적용 사례
   - type: links
     title: ""

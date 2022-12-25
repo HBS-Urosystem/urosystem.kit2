@@ -4,7 +4,6 @@ folder: products
 fallback: en
 components:
   - type: article
-    subhead: ""
     text: >-
       A GAG-réteg integritás teszt célja a húgyhólyag belső felszínét borító
       nyákréteg (GAG-réteg) állapotának a felmérése. A GAG-réteg hiányosságai

@@ -5,7 +5,6 @@ fallback: en
 components:
   - type: article
     title: Felhasználási területek és indikációk
-    subhead: ""
     background:
       - type: image
         posx: 50

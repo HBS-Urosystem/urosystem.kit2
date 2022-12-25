@@ -6,7 +6,6 @@ components:
   - type: article
     anchor: about
     title: About us
-    subhead: ""
     text: >-
       ### Our company, Urosystem Co. Ltd., located in Hungary, has been
       successfully developing and commercializing several innovative urological

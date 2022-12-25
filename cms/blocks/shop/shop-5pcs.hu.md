@@ -20,15 +20,13 @@ components:
           * Többi ország: $10.00
 
           A küldemény ajánlott elsőbbségi levélként kerül feladásra 
-        subhead: ""
-        background:
+            background:
           - type: image
             posx: 80
             posy: 72
-            scale: 20
+            scale: 23
             src: /uploads/urodapter-removebg.png
     title: ""
-    subhead: ""
     background: []
   - type: article
     text: >-
@@ -42,8 +40,7 @@ components:
       * Többi ország: 15 nap
     subhead: ""
   - type: article
-    subhead: ""
     anchor: ""
-    text: "#### A COVID OKOZTA VILÁGJÁRVÁNY MIATT A KÉZBESÍTÉS TOVÁBB TARTHAT A
+    subhead: "A COVID OKOZTA VILÁGJÁRVÁNY MIATT A KÉZBESÍTÉS TOVÁBB TARTHAT A
       SZOKÁSOSNÁL. "
 ---

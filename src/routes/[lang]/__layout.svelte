@@ -138,21 +138,22 @@
 	{/if} <!-- $cookies -->
   
   {#if _site == '_ud'}
-  <style>
-    /*:root {
-      --mid-blue: #005c5b;
-      --light-blue: #02979d;
-      --pale-blue: #e2f3f3;
-      --mid-blue-75: #005c5bc0;
-      --light-blue-75: #02979dc0;
-      --pale-blue-75: #e2f3f3c0;
-    }*/
-    main {
-      background-image: var(--grad-light-blue);
-      background-position: 50% 50%;
-      background-size: cover;
-    }
-  </style>
+    <style>
+      :root {
+        /*--mid-blue: #005c5b;*/
+        --light-blue: #02979d;
+        --pale-blue: #e2f3f3;
+        /*--dark-blue-75: #005c5bc0;*/
+        /*--mid-blue-75: #005c5bc0;*/
+        --light-blue-75: #02979dc0;
+        --pale-blue-75: #e2f3f3c0;
+      }
+      main {
+        /*background-image: var(--grad-light-blue);*/
+        background-position: 50% 50%;
+        background-size: cover;
+      }
+    </style>
   {/if}
 </svelte:head>
 

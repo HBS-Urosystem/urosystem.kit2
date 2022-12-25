@@ -8,8 +8,7 @@ components:
     anchor: partners
     components:
       - type: article
-        subhead: ""
-        text: >-
+            text: >-
           <a href="https://www.ibsagroup.com/ibsa-group/technologies.html"
           rel="noopener" target="_blank"><img loading="lazy"
           src="/uploads/1000px-logo_ibsa.svg.sm.png"
@@ -21,8 +20,7 @@ components:
           <center>A svájci IBSA cég az UroDaptert® iAluadapter® néven, a húgyhólyag feltöltésére szolgáló gyógyszerükkel, az iAluRil®-lal együtt csomagolva hozza forgalomba. Az iAluadapter® 85 országban elérhető.</center>
         anchor: ibsa
       - type: article
-        subhead: ""
-        anchor: uro-pro
+            anchor: uro-pro
         text: >-
           <a href="http://uro-ginecology.ru/" rel="noopener"
           target="_blank"><img

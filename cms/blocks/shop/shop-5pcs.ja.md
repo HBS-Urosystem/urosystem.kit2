@@ -14,12 +14,11 @@ components:
           * その他の国：$10.00
 
           登録優先メールで発送
-        subhead: ""
-        background:
+            background:
           - type: image
             posx: 80
             posy: 72
-            scale: 20
+            scale: 23
             src: /uploads/urodapter-removebg.png
     title: UroDapter®は初めてですか？今すぐサンプルパッケージを注文してください！
     subhead: 5個を40 / 10個を80ドルで購入
@@ -41,8 +40,7 @@ components:
       * Other countries: 15 days
     subhead: ""
   - type: article
-    subhead: ""
     anchor: ""
-    text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
+    subhead: "DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
       USUAL."
 ---

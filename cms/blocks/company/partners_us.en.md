@@ -9,8 +9,7 @@ components:
     anchor: partners
     components:
       - type: article
-        subhead: ""
-        text: >-
+            text: >-
           <a href="https://www.ibsagroup.com/ibsa-group/technologies.html"
           rel="noopener" target="_blank"><img loading="lazy"
           src="/uploads/1000px-logo_ibsa.svg.sm.png"
@@ -22,8 +21,7 @@ components:
           <center>Packed together with iAluRil®, the intravesical drug solution from IBSA (Switzerland), the UroDapter® is also available under the name iAluadapter®, in 85 countries.</center>
         anchor: ibsa
       - type: article
-        subhead: ""
-        anchor: uro-pro
+            anchor: uro-pro
         text: >-
           <a href="http://uro-ginecology.ru/" rel="noopener"
           target="_blank"><img
