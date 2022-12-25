@@ -46,14 +46,4 @@ components:
     anchor: ""
     text: "#### A COVID OKOZTA VILÁGJÁRVÁNY MIATT A KÉZBESÍTÉS TOVÁBB TARTHAT A
       SZOKÁSOSNÁL. "
-  - type: article
-    text: >-
-      A TERMÉK NEM RENDELHETŐ MEG CÉGÜNKTŐL A KÖVETKEZŐ ORSZÁGOKBAN:\
-
-      *Albánia, Ausztria, Belorusszia, Belgium, Bulgária Csehország, Ciprus, Dánia, Észtország, Finnország, Franciaország, Horvátország, Németország, Koszovó, Görögország, Magyarország, Írország, Olaszország, Lettország, Litvánia, Luxemburg, Észak-Macedónia, Málta, Hollandia, Lengyelország, Portugália, Románia, Szerbia, Szlovákia, Szlovénia, Spanyolország, Svédország, Egyesült Királyság, Törökország, Ausztrália, Új-Zéland.* 
-
-
-      TOVÁBBI INFORMÁCIÓÉRT KERESSE FEL A FORGALMAZÓ PARTNERÜNK HONLAPJÁT: \
-
-      <a href="https://www.ibsagroup.com" rel="noopener" target="_blank">https://www.ibsagroup.com</a>
 ---

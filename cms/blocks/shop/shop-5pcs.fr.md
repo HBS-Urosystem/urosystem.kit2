@@ -46,14 +46,4 @@ components:
     anchor: ""
     text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
       USUAL."
-  - type: article
-    text: >-
-      THE PRODUCT IS NOT AVAILABLE FROM OUR COMPANY IN THE FOLLOWING COUNTRIES:\
-
-      *Albania, Austria, Belarus, Belgium, Bosnia, Bulgaria, Croatia, Czech Republic, Cyprus, Denmark, Estonia, Finland, France, Germany, Kosovo, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, North Macedonia, Malta, The Netherlands, Poland, Portugal, Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, The United Kingdom, Turkey, Australia, New Zealand.* 
-
-
-      VISIT OUR PARTNER'S WEBPAGE FOR FURTHER INFORMATION: \
-
-      <a href="https://www.ibsagroup.com" rel="noopener" target="_blank">https://www.ibsagroup.com</a>
 ---
