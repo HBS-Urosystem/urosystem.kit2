@@ -6,15 +6,6 @@ components:
   - type: grid
     slide: false
     components:
-      - type: article
-        subhead: "UroDapter® on the European market: iAluadapter®"
-        text: >-
-          We concluded an agreement with IBSA granting them exclusivity for the
-          marketing and sale of iAluadapter®/UroDapter®, which is packed in one
-          box with their product iAluRil®.
-
-
-          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener" target="_blank">IBSA Global Network</a></li></ul>
       - type: images
         subhead: UroDapter® can be attached directly to the syringe so that any solution
           can be instilled with it into the bladder.
