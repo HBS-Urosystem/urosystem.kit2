@@ -9,8 +9,7 @@ blocks:
   - id: shop/shop-5pcs
   - id: shop/amazon
 canonical: https://www.urosystem.com/shop
-description: The UroDapter® can be purchased here. If you are from the US or
-  Canada, visit our Amazon page.
+description: The UroDapter® can be purchased here or on our Amazon page.
 menutitle: Shop
 hero: shop/hero
 herotitle: UroDapter®

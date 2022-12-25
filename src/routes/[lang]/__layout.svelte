@@ -62,9 +62,9 @@
 </script>
 
 <svelte:head>
-  <style global>
-    /*@import "/src/tailwind.css";*/
-  </style>
+  <!--<style global>
+    @import "/src/tailwind.css";
+  </style>-->
   {#each $state.langs || [] as lang}
   {#if !!lang.active}
     <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
@@ -139,15 +139,14 @@
   
   {#if _site == '_ud'}
   <style>
-    :root {
+    /*:root {
       --mid-blue: #005c5b;
       --light-blue: #02979d;
       --pale-blue: #e2f3f3;
-      /*--dark-blue-75: #005c5bc0;*/
       --mid-blue-75: #005c5bc0;
       --light-blue-75: #02979dc0;
       --pale-blue-75: #e2f3f3c0;
-    }
+    }*/
     main {
       background-image: var(--grad-light-blue);
       background-position: 50% 50%;
