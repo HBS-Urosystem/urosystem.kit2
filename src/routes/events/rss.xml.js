@@ -8,6 +8,7 @@ export async function get() {
   const data = await client.fetch(allEvents)
 
   const feed = new RSS({
+    custom_namespaces: { media: 'http://search.yahoo.com/mrss/' },
     title: 'Urosystem Events',
     description: 'We aim to give guidance for individuals who think they may have IC, as well as tips and tricks for those who have already received a diagnosis and are looking for ways to alleviate symptoms. Our company, Urosystem Ltd. is focused on spreading awareness of IC/BPS and encourages you to share our content with anyone who is affected by this disease.',
     site: 'https://www.urosystem.com/blog/events/',//import.meta.env.SITE,
@@ -26,9 +27,10 @@ export async function get() {
       }),
       //link: `https://www.urosystem.com/events/`,
       //date: item.date1,
-      image: {url: `${item.images?.length && getSanityImageUrl(item.images[0]).width(400).url() || ''}`},
+      customData: `<media:content url="${getSanityImageUrl(item.images[0]).width(600).url()}" type="image/jpeg" medium="image" />`,
+      //media: {url: `${item.images?.length && getSanityImageUrl(item.images[0]).width(400).url() || ''}`},
       custom_elements: [
-        {'image': `${item.images?.length && getSanityImageUrl(item.images[0]).width(400).url() || ''}`},
+        `<media:content url="${getSanityImageUrl(item.images[0]).width(400).url()}" type="image/jpeg" medium="image" />`,
         //{'date1': `${item.date1 || null}`},
         //{'date2': `${item.date2 || null}`},
       ],
