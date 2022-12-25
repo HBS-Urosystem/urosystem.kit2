@@ -11,7 +11,7 @@ components:
       /uploads/1000px-logo_ibsa.svg.sm.png 1x" alt="IBSA logo"
       style="max-height:6ch;display:block;margin:0 auto;" /></a>
 
-      ### Together with iAluRil®, the drug solution from IBSA, UroDapter® is available under the name iAluadapter® in 85 countries. 
+      ### Together with iAluRil®, the drug solution from IBSA, UroDapter® is also available under the name iAluadapter® in 85 countries. 
 
 
       <img loading="lazy" src="/uploads/screen-shot-2019-10-25-at-11.30.43-am.png" alt="IBSA iAluadapter®" style="width:100%;display:block;margin:0 auto;" />

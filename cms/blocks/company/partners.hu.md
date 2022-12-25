@@ -20,7 +20,7 @@ components:
           style="max-height:6ch;display:block;margin:0 auto;" /></a>
 
 
-          ### Az UroDapter®, együtt csomagolva az IBSA cég iAluRil® nevű készítményével, a Föld 85 országában hozzáférhető (iAluadapter néven).
+          ### Az UroDapter®, együtt csomagolva az IBSA cég iAluRil® nevű készítményével, a Föld 85 országában iAluadapter néven is hozzáférhető.
 
 
           <img loading="lazy" src="/uploads/screen-shot-2019-10-25-at-11.30.43-am.png" alt="IBSA iAluadapter®" style="width:100%;display:block;margin:0 auto;" />
