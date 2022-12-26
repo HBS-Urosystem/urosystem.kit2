@@ -9,7 +9,8 @@ components:
     components:
       - type: article
         title: IBSA
-            text: >-
+        subhead: ""
+        text: >-
           <a href="https://www.ibsagroup.com/ibsa-group/technologies.html"
           rel="noopener" target="_blank"><img loading="lazy"
           src="/uploads/1000px-logo_ibsa.svg.sm.png"
@@ -25,7 +26,8 @@ components:
         anchor: ibsa
       - type: article
         title: Uro-Pro Russia
-            anchor: uro-pro
+        subhead: ""
+        anchor: uro-pro
         text: >-
           <a href="http://uro-ginecology.ru/" rel="noopener"
           target="_blank"><img

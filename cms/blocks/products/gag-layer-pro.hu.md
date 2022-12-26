@@ -164,5 +164,6 @@ components:
         title: Vizelési napló 1.
       - title: Vizelési napló 2
         url: /uploads/gag-layer/HU_VizelesiNaplo2.pdf
+    subhead: ""
     marker: /uploads/bxs-file-pdf.svg
 ---

@@ -14,11 +14,12 @@ components:
           * Autres pays: 10,00 $
 
           Envoyé par courrier prioritaire recommandé
-            background:
+        subhead: ""
+        background:
           - type: image
             posx: 80
             posy: 72
-            scale: 23
+            scale: 20
             src: /uploads/urodapter-removebg.png
     title: UroDapter® nouveau pour vous? Commandez un échantillon de package
       aujourd'hui!
@@ -41,7 +42,8 @@ components:
       * Other countries: 15 days
     subhead: ""
   - type: article
+    subhead: ""
     anchor: ""
-    subhead: "DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
+    text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
       USUAL."
 ---

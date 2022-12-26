@@ -14,11 +14,12 @@ components:
           * دول أخرى: 10.00 دولارات
 
           أرسلت عن طريق البريد المسجل الأولوية
-            background:
+        subhead: ""
+        background:
           - type: image
             posx: 20
             posy: 72
-            scale: 23
+            scale: 20
             src: /uploads/urodapter-removebg.png
     title: UroDapter® جديد بالنسبة لك؟ اطلب حزمة عينة اليوم!
     subhead: شراء 5 قطع مقابل 40 دولارًا / 10 قطعة مقابل 80 دولارًا
@@ -39,7 +40,8 @@ components:
       * دول أخرى: 15 يومًا
     subhead: ""
   - type: article
+    subhead: ""
     anchor: ""
-    subhead: "بسبب انتشار فيروس كورونا المستجد ، يمكن أن يكون انتشار الوباء في
+    text: "#### بسبب انتشار فيروس كورونا المستجد ، يمكن أن يكون انتشار الوباء في
       جميع أنحاء العالم أطول من المعتاد."
 ---

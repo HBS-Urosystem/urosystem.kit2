@@ -5,6 +5,7 @@ components:
   - type: article
     anchor: about
     title: About us
+    subhead: ""
     text: >-
       According to the Food and Drug Administration (FDA, the USA) Interstitial
       cystitis/bladder pain syndrome is “a complex, poorly understood syndrome

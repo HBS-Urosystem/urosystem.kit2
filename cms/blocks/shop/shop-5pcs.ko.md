@@ -14,11 +14,12 @@ components:
           * 기타 국가: $10.00
 
           등기 우선 우편 발송
-            background:
+        subhead: ""
+        background:
           - type: image
             posx: 80
             posy: 72
-            scale: 23
+            scale: 20
             src: /uploads/urodapter-removebg.png
     title: UroDapter®가 처음이십니까? 오늘 샘플 패키지를 주문하세요!!
     subhead: $40에 5 / $80에 10 개 구매
@@ -40,7 +41,8 @@ components:
       * Other countries: 15 days
     subhead: ""
   - type: article
+    subhead: ""
     anchor: ""
-    subhead: "DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
+    text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
       USUAL."
 ---

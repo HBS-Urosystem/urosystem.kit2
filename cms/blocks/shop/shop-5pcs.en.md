@@ -28,11 +28,12 @@ components:
           * Other countries: $10.00
 
           Sent out by registered priority mail
-            background:
+        subhead: ""
+        background:
           - type: image
             posx: 80
             posy: 72
-            scale: 23
+            scale: 20
             src: /uploads/urodapter-removebg.png
     background: []
   - type: article
@@ -48,6 +49,7 @@ components:
       * Other countries: 15 days
     subhead: ""
   - type: article
-    subhead: "DUE TO THE COVID PANDEMIC DELIVERY CAN BE LONGER THAN USUAL."
+    subhead: ""
     anchor: ""
+    text: "#### DUE TO THE COVID PANDEMIC DELIVERY CAN BE LONGER THAN USUAL."
 ---

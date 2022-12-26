@@ -131,5 +131,6 @@ components:
         title: Voiding Diary 1
       - title: Voiding Diary 2
         url: /uploads/gag-layer/BladderpainEuVoidingDiary2.pdf
+    subhead: ""
     marker: /uploads/bxs-file-pdf.svg
 ---

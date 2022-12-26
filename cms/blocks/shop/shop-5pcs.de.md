@@ -14,11 +14,12 @@ components:
           * Andere Länder: $10.00
 
           Versand per Einschreiben mit Prioritätspriorität
-            background:
+        subhead: ""
+        background:
           - type: image
             posx: 80
             posy: 72
-            scale: 23
+            scale: 20
             src: /uploads/urodapter-removebg.png
     title: Kennen Sie UroDapter® noch nicht? Bestellen Sie 5/10 Produktproben!
     subhead: Kaufen Sie 5 Stück für $40 / 10 Stück für $80
@@ -40,7 +41,8 @@ components:
       * Other countries: 15 days
     subhead: ""
   - type: article
+    subhead: ""
     anchor: ""
-    subhead: "DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
+    text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
       USUAL."
 ---
