@@ -17,15 +17,13 @@ components:
       - type: article
         subhead: "Strong legal background "
         text: >-
-          It has got the necessary European CE certificate, it is registered by
-          the USA Food and Drug Administration (FDA), and has strong IP
-          protection in many countries.
+          * It has got the necessary European CE certificate, it is
+          registered by the USA Food and Drug Administration (FDA), and has
+          strong IP protection in many countries.
 
+          * ​UroDapter®'s patent is pending. 
 
-          ​UroDapter® 's patent is pending. 
-
-
-          ​PCT international patent application number: PCT/HU2016/000063
+          * PCT international patent application number: PCT/HU2016/000063
   - type: grid
     slide: false
     title: UroDapter® presentation videos

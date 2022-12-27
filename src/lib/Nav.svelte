@@ -297,7 +297,7 @@
     padding-block: 1rem;
   }
   nav > ul > li:first-of-type a {
-    height: 3.5rem;
+    height: 2rem;
     margin-bottom: 1rem;
     padding-block: 0;
   }

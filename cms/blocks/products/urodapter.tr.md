@@ -87,7 +87,7 @@ components:
           protection in many countries.
 
 
-          ​UroDapter® 's patent is pending. 
+          ​UroDapter®'s patent is pending. 
 
 
           ​PCT international patent application number: PCT/HU2016/000063
