@@ -38,13 +38,10 @@
 </aside>
 
 <style>
-	aside[data-sticky=true] {
-		position: sticky;
-		border-top: solid var(--pale-blue-75);
-	}
 	aside {
     background-color: var(--dark-blue);
 		bottom: 0;
+    /*border-top-width: thin;*/ /* /// */
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -53,6 +50,11 @@
 		padding-block: 0;
 		/*padding-inline-start: 1rem;*/
 	}
+	aside[data-sticky=true] {
+		position: sticky;
+		border-top: solid var(--pale-blue-75);
+	}
+
   p {
     font-size: smaller;
     max-height: 5em;
@@ -67,6 +69,7 @@
 	button {
 		/*flex-shrink: 0;
     width: min-content;*/
-    margin: .5rem
+    margin: .25rem;
+    line-height: 1.25rem;
   }
 </style>
