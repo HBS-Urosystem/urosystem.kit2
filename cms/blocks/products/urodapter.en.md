@@ -77,15 +77,13 @@ components:
           * UroDapter® might be applied for diagnostic purposes, too – e.g. retrograde urethrography, fistulography
       - q: Strong legal background
         text: >-
-          It has got the necessary European CE certificate, it is registered by
-          the USA Food and Drug Administration (FDA), and has strong IP
-          protection in many countries.
+          * It has got the necessary European CE certificate, it is
+          registered by the USA Food and Drug Administration (FDA), and has
+          strong IP protection in many countries.
 
+          * ​UroDapter®'s patent is pending. 
 
-          ​UroDapter®'s patent is pending. 
-
-
-          ​PCT international patent application number: PCT/HU2016/000063
+          * PCT international patent application number: PCT/HU2016/000063
       - q: "UroDapter® on the European market: iAluadapter®"
         text: >-
           We concluded an agreement with IBSA granting them exclusivity for the
