@@ -13,6 +13,6 @@ components:
           adapter onto your urethral opening. The amazing part is that the
           injection is now essentially painless – and absolutely no pain after
           treatment.</p> <p>Talk to your health provider. This is a massive
-          improvement for anyone doing bladder instillations."</p> <cite>– a
+          improvement for anyone doing bladder instillations."</p> <cite>A
           male patient about the UroDapter®</cite> </blockquote>
 ---
