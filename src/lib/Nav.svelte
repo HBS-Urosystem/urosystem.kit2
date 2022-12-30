@@ -296,8 +296,11 @@
     cursor: default;
     padding-block: 1rem;
   }
+  nav > ul > li:first-of-type {
+    height: 4rem;
+  }
   nav > ul > li:first-of-type a {
-    height: 2rem;
+    height: 2.2rem;
     margin-bottom: 1rem;
     padding-block: 0;
   }
