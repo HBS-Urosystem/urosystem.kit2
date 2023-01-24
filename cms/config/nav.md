@@ -222,6 +222,36 @@ top:
             title: 협력사
           - lang: tr
             title: Ortaklarımız
+      - link: /b2b
+        titles:
+          - lang: en
+            title: B2B
+          - lang: hu
+            title: B2B
+          - lang: ru
+            title: B2B
+          - lang: de
+            title: B2B
+          - lang: fr
+            title: B2B
+          - lang: it
+            title: B2B
+          - lang: es
+            title: B2B
+          - lang: pt
+            title: B2B
+          - lang: zh
+            title: B2B
+          - lang: ja
+            title: B2B
+          - lang: ar
+            title: B2B
+          - lang: he
+            title: B2B
+          - lang: ko
+            title: B2B
+          - lang: tr
+            title: B2B
       - link: company#palyazatok
         titles:
           - lang: hu

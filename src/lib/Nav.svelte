@@ -52,7 +52,7 @@
   import { snapto } from '$lib/stores'
   $: {
     if (!!$snapto) {
-      scrollnav.scrollTo({element: $snapto, offset: -50, onDone: _snap})
+      scrollnav.scrollTo({element: $snapto, offset: -75, onDone: _snap})
       //scrollnav.scrollTo({element: $snapto, offset: 0})
       function _snap() {
         scrollnav.scrollTo({element: $snapto, offset: 0, onDone: () => {$snapto = false} })
