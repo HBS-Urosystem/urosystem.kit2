@@ -304,8 +304,8 @@
     margin-bottom: 1rem;
     padding-block: 0;
   }
-  nav > ul > li img {
-  }
+  /*nav > ul > li img {
+  }*/
   nav > ul > li:not(:first-of-type) img {
     height: 1.25rem;
     filter: invert();

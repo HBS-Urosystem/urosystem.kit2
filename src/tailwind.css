@@ -209,9 +209,6 @@ section, fieldset {
   flex-wrap: wrap;
   gap: 2rem;
 }
-section > * {
-  /*max-width: 100%;*/
-}
 section > article, section > div {
   flex: 1 0 25ch;
   padding: 0;
