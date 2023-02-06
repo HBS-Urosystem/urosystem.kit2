@@ -153,9 +153,9 @@
     align-items: flex-end;
   }
   aside {
-    flex: 0 1 48ch;
+    /*flex: 0 1 48ch;*/
     padding: 0;
-    margin-inline: auto;
+    /*margin-inline: auto;*/
   }
   h1 {
     @apply text-2xl font-bold pb-4;
