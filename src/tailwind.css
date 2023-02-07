@@ -167,8 +167,15 @@ h1 a, .h1 a {
 aside {
   padding: 0 var(--sides) 1rem;
 }
-main > div > article {
-  padding: var(--gap) var(--sides);
+
+/*main > div:not(:has(li)) {*/
+main > div {
+  text-align: center;
+  margin-inline: auto;
+}
+main > div article {
+  padding-bottom: var(--gap);
+  text-align: initial;
 }
 article > div, article > details, aside > div, figcaption {
   max-width: 56ch;
@@ -197,10 +204,6 @@ header ~ nav li, header > nav li {
 
 section {
   justify-content: center;
-}
-main > div:not(:has(li)) {
-  text-align: center;
-  margin-inline: auto;
 }
 
 section, fieldset {
