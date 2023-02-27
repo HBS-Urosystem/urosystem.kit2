@@ -1,5 +1,7 @@
-@tailwind base;
-/* REVERTING some TW declarations */
+/* Write your global styles here, in PostCSS syntax */
+/*@tailwind base;*/
+
+/* REVERTING some TW declarations? */
 img, svg {
   display: initial;
   vertical-align: unset;
@@ -7,10 +9,13 @@ img, svg {
 select {
   color: fieldtext;
 }
-
-/* INSERTED here the original GLOBAL.CSS */
+button, input, optgroup, select, textarea {
+  line-height: inherit;
+}
 
 /*! minireset.css v0.0.7 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+/* UROSYSTEM globals */
 :root {
   --white: #fff;
   --dark-blue: #072c3f;
@@ -47,7 +52,8 @@ select {
   --fluid-typography-ratio: 0.334;
   --rem: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 1vw);*/
   --user-font-scale: 1rem - 16px;
-  --rem: clamp(0.875rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.125rem);
+  /*--rem: clamp(0.875rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.125rem);*/
+  --rem: clamp(0.875rem, 0.4626rem + 0.9309vw + var(--user-font-scale), 1.125rem);
 
   font-size: var(--rem);
 }
@@ -173,9 +179,10 @@ main > div {
   text-align: center;
   margin-inline: auto;
 }
-main > div article {
-  padding-bottom: var(--gap);
+main > div > article {
+  /*padding-bottom: var(--gap);*/
   text-align: initial;
+  padding: var(--gap) var(--sides);
 }
 article > div, article > details, aside > div, figcaption {
   max-width: 56ch;
@@ -204,6 +211,12 @@ header ~ nav li, header > nav li {
 
 section {
   justify-content: center;
+}
+section:has(aside + aside) {
+  justify-content:space-around;
+}
+section > aside {
+  padding: 0;
 }
 
 section, fieldset {
@@ -474,6 +487,15 @@ dt {
 [dir='rtl'] li#over {
   /*left: 0;*/
   transform: rotate(180deg);
+}
+
+blockquote {
+  font-style: italic;
+}
+cite {
+  text-align: right;
+  display: block;
+  font-style: normal;
 }
 
 /* TAILWIND */

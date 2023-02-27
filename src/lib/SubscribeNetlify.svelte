@@ -4,7 +4,7 @@
       <h2 class="card-title">Subscribe to the UroSystem Newsletter</h2>
       <fieldset>
         <input id="email" name="email" type="email" required placeholder="Your Email" class="input input-bordered input-md flex-auto">
-        <button type="submit" tabindex="0" class="btn btn-primary flex-none">Subscribe</button>
+        <button type="submit" class="btn btn-primary flex-none">Subscribe</button>
       </fieldset>
       <fieldset>
         <input id="consent" name="consent" type="checkbox" required class="toggle toggle-sm" />

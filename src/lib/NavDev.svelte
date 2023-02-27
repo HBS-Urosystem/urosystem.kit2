@@ -167,13 +167,13 @@
         {/each}
       </select>
       <ul>
-        <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
-        <li><a href="https://www.instagram.com/urodapter/" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
-        <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
-        <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
-        <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
-        <li><a href="https://vk.com/urodapter" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-vk.svg" alt="vk"></a></li>
-        <!--<li><a href="https://ok.ru/urodapter" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>-->
+        <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
+        <li><a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
+        <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
+        <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
+        <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
+        <li><a href="https://vk.com/urodapter" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-vk.svg" alt="vk"></a></li>
+        <!--<li><a href="https://ok.ru/urodapter" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>-->
       </ul>
     </div>
     <!--<ul bind:this={navul} mobil={navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}>-->
@@ -181,7 +181,7 @@
       bind:clientWidth={wul}
       mobil={!!hamburger}>
       <li>
-        <a tabindex="0" sveltekit:prefetch href="/{$sitelang}" aria-label="home">
+        <a sveltekit:prefetch href="/{$sitelang}" aria-label="home">
           <img loading="lazy" class={logoclass} src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
         </a>
       </li>
@@ -190,12 +190,12 @@
         {#if nav.title}
           <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
             {#if nav.link}
-              <!--<a sveltekit:prefetch tabindex="0" href="/{$sitelang}/{nav.link}">{nav.title} 
+              <!--<a sveltekit:prefetch href="/{$sitelang}/{nav.link}">{nav.title} 
                 {#if nav.sublinks} <img loading="lazy" src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
               </a>-->
               <SubNav sub={nav}/>
             {:else}
-              <span tabindex="0">{nav.title}
+              <span>{nav.title}
                 {#if nav.sublinks} <img loading="lazy" src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
               </span>
             {/if}
@@ -231,7 +231,7 @@
             <button aria-label="Scroll the nav"></button>
           </li>
         {/if}-->
-        <li id="over" tabindex="0">
+        <li id="over">
           <button aria-label="menu"></button>
         </li>
       {/if}

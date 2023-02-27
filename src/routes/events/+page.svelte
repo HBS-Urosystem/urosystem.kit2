@@ -1,33 +1,23 @@
 <script context="module">
-  //import { onMount, afterUpdate } from 'svelte'
-  import { browser } from '$app/env'
+  import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
+  //const _siteurl = variables.siteurl[variables.site] || 'https://www.urosystem.com'
+  //import { onMount } from 'svelte';
+  //import * as scroller from "svelte-scrollto"
+  //import { amp, browser, dev, prerendering } from '$app/environment'
+  import { browser } from '$app/environment'
   import { PortableText } from '@portabletext/svelte'
   import { getSanityImageUrl, formatBlogPostDate } from '$lib/helpers.js'
-  import Subscribe from '$lib/SubscribeActivecamp.svelte'
-  //import { client } from '/src/lib/sanityClient.js'
-  //import { allEvents } from '/src/lib/api.js'
-
-  export const load = async ({fetch}) => {
-    let res = await fetch('/events.json')
-		if (res.ok) {
-      const result = await res.json()
-			return {
-				props: {
-          allEventData: await result
-        }
-			}
-    }
-  }
-
 </script>
 
 <script>
-  //console.log($$props)
-  export let allEventData
-  //console.log(allEventData)
+  //import { onMount, afterUpdate } from 'svelte'
+  import Subscribe from '$lib/SubscribeActivecamp.svelte'
+
+  console.log($state)
+
   const d = new Date()
   const futureEvents = new Array()
-  const pastEvents = allEventData.filter(event => { /// 'ELOG'
+  const pastEvents = $state.filter(event => { /// 'ELOG'
     //console.log({event})
     const date = new Date(event.date2 || event.date1 || d)
     if (d.getTime() < date.getTime()) {

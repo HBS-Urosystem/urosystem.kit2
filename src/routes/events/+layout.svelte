@@ -1,39 +1,24 @@
-<script context="module">
-  //export const hydrate = true
-  //export const prerender = true
-  //export const prerender = false
-
-  import { onMount } from 'svelte'
-  import { goto/*, invalidate, prefetch, prefetchRoutes*/ } from '$app/navigation'
-  import { sitelang, cookies } from '$lib/stores'
-  import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
-  /*export const load = async ({ page }) => {
-    console.log('page',page.query.URLSearchParams)
-    return {
-				props: {
-          page: {...page}
-        }
-			}
-  }*/
-</script>
 <script>
-  //export let page
-  //if (!page) goto($sitelang || 'en')
-  onMount(() => {
-    $sitelang = 'en'
-    goto('/' + $sitelang, { replaceState: false });
-	})
-  //async ()=> {
-  //}
+  import "/src/app.postcss"
+  import { state, sitelang, cookies, variables } from '$lib/stores'
+  import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/environment'
+  import Nav from '$lib/Nav.svelte'
+  import Footer from '$lib/Footer.svelte'
+  import Cookies from '$lib/Cookies.svelte'
+
+  export let data
+  data.post.id = 'events'
+  data.post.slug = 'events'
+  data.post.canonical = 'events'
+  data.post.menutitle = 'Events'
+  $: $state = data
+  $: $sitelang = 'en'
 </script>
 
 <svelte:head>
-  <!--<link rel="canonical" href="https://urosystem.com/en"/>-->
-  <meta name='robots' content='follow, noindex' />
-  <title>UroDapter® – Replacing Catheter in the Field of Bladder Instillation</title>
-  <meta name="description" content="The UroDapter® urological adapter replaces catheter. It enables painless and complication-free bladder treatment for several lower urinary tract diseases.">
-  <meta name="keywords" content="instillation, urological adapter, bladder treatment, urethra treatment, pain-free, catheter replacement, cystitis, painless, complication-free, bladder">
-
+  <!--<style global>
+    @import "/src/tailwind.css";
+  </style>-->
   {#if !dev }
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180221975-1"></script>
@@ -45,7 +30,7 @@
     </script>
 
     <!-- Hotjar Tracking Code for https://www.urosystem.com/ -->
-    <!--<script>
+    <script>
       (function(h,o,t,j,a,r){
           h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
           h._hjSettings={hjid:2464168,hjsv:6};
@@ -54,7 +39,7 @@
           r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
           a.appendChild(r);
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>-->
+    </script>
   {/if}
   
   {#if !!$cookies && !dev }
@@ -81,17 +66,24 @@
     /></noscript>
     <!-- End Facebook Pixel Code -->
     <!--{/if}--> <!-- $moved -->
-	{/if} <!-- $cookies -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-T4KTKF5');
+    </script>
+    <!-- End Google Tag Manager -->
+    <script>
+      (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
+      vgo('setAccount', '477728237');
+      vgo('setTrackByDefault', true);
+      vgo('process');
+    </script>
+    {/if} <!-- $cookies -->
 </svelte:head>
-<main>
-  <a href="/" aria-label="home"><img loading="lazy" src="/uploads/urosystem_logo_02_web.svg" alt="" style="filter:invert();width:20ch;display:block;margin:0 auto; aspect-ratio: 100 / 90.861"/></a>
-  <p>Welcome! The website is loading…</p>
-  <noscript><p><a href="/en">NO JAVASCRIPT… Click here to load the website</a></p></noscript>
-</main>
 
-<style>
-  main {
-    text-align: center;
-    /*padding-top: 9rem;*/
-  }
-</style>
+<Nav/>
+<slot></slot>
+<Footer/>
+<Cookies cookie={$cookies}/>

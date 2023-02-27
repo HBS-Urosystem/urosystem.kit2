@@ -12,7 +12,7 @@ components:
         subhead: ""
         text: >-
           <a href="https://www.ibsagroup.com/ibsa-group/technologies.html"
-          rel="noopener" target="_blank"><img loading="lazy"
+          rel="noopener noreferrer" target="_blank"><img loading="lazy"
           src="/uploads/1000px-logo_ibsa.svg.sm.png"
           srcset="/uploads/1000px-logo_ibsa.svg.png 2x,
           /uploads/1000px-logo_ibsa.svg.sm.png 1x" alt="IBSA logo"
@@ -29,7 +29,7 @@ components:
         subhead: ""
         anchor: uro-pro
         text: >-
-          <a href="http://uro-ginecology.ru/" rel="noopener"
+          <a href="http://uro-ginecology.ru/" rel="noopener noreferrer"
           target="_blank"><img
           src="/uploads/screenshot-2020-09-07-at-10.23.38-am.png" loading="lazy"
           alt="Uro-Pro logo" style="max-height:6ch;display:block;margin:0 auto;"

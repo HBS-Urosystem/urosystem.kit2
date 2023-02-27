@@ -11,7 +11,7 @@ components:
       North Macedonia, Malta, The Netherlands, Poland, Portugal, Romania,
       Serbia, Slovakia, Slovenia, Spain, Sweden, The United Kingdom, Turkey,
       Australia, New Zealand. Visit our partner’s webpage, <a
-      href="https://www.ibsagroup.com" rel="noopener"
+      href="https://www.ibsagroup.com" rel="noopener noreferrer"
       target="_blank">https://www.ibsagroup.com</a> for further
       information.</small></p>'
 ---

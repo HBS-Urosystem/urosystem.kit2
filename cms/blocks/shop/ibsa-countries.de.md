@@ -12,6 +12,6 @@ components:
       Rumänien, Serbien, Slowakei, Slowenien, Spanien, Schweden, Vereinigtes
       Königreich, Türkei, Australien, Neuseeland. Für mehr Informationen
       besuchen Sie die Webseite unseres Partners: <a
-      href="https://www.ibsagroup.com" rel="noopener"
+      href="https://www.ibsagroup.com" rel="noopener noreferrer"
       target="_blank">https://www.ibsagroup.com</a>.</small></p>'
 ---

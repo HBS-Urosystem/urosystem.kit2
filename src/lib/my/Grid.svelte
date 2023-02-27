@@ -22,9 +22,9 @@
   {#if comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
   <section class="{comp.slide ? 'slides' : ''}" style="--cols: {comp.components.length};">
     {#each comp.components || [] as c}
-    {#if c.lang = comp.lang}
+    <!--{#if c.lang = comp.lang}-->
     <svelte:component this={options[c.type]} comp={c}/>
-    {/if}
+    <!--{/if}-->
     {/each}
   </section>
 </article>

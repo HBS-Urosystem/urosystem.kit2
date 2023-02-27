@@ -91,14 +91,14 @@
         {/each}
       </select>
       <ul>
-        <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener" target="_blank"><img src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
-        <li><a href="https://www.instagram.com/urodapter/" rel="noopener" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
-        <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener" target="_blank"><img src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
-        <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener" target="_blank"><img src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
-        <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener" target="_blank"><img src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
-        <li><a href="https://vk.com/urodapter" rel="noopener" target="_blank"><img src="/uploads/bxl-vk.svg" alt="vk"></a></li>
-        <li><a href="https://ok.ru/urodapter" rel="noopener" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>
-        <li><a href="https://linktr.ee/urodapter" rel="noopener" target="_blank"><img src="/uploads/linktree.svg" alt="linktree"></a></li>
+        <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
+        <li><a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
+        <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
+        <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
+        <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
+        <li><a href="https://vk.com/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-vk.svg" alt="vk"></a></li>
+        <li><a href="https://ok.ru/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>
+        <li><a href="https://linktr.ee/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/linktree.svg" alt="linktree"></a></li>
       </ul>
     </div>
     <ul 
@@ -116,7 +116,7 @@
             {#if nav.link}
               <SubNav sub={nav}/>
             {:else}
-              <span tabindex="0">{nav.title}
+              <span>{nav.title}
                 {#if nav.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
               </span>
             {/if}
@@ -142,7 +142,7 @@
         {/if}
       {/each}
       {#if hamburger}
-        <li id="over" tabindex="0">
+        <li id="over">
           <button aria-label="menu"></button>
         </li>
       {/if}
@@ -189,10 +189,6 @@
     opacity: 1;
     /*z-index: 999;*/
   }
-  nav:focus-within li#over, ul:focus-within li#over {
-    opacity: 0;
-    outline: none;
-  }
   li#over button {
     background-color: var(--light-blue);
     background-image: url(/menu.svg);
@@ -205,6 +201,19 @@
     height: 2.75rem;
     padding: 0.75rem;
     outline: none;
+  }
+  nav:focus-within li#over button, ul:focus-within li#over button {
+    /*outline: none;
+    box-shadow: none;
+    background-color: transparent;*/
+    position: absolute;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  nav:focus-within li#over, ul:focus-within li#over {
+    background-image: url(/uploads/open-up.svg);
+    background-position: 0% 100%;
   }
   nav:not(.moved) li li {
     border: solid var(--light-blue-75);
@@ -284,7 +293,8 @@
   }
   nav > ul > li:not(:first-of-type) {
     min-height: 1.25rem;
-    margin-block: 1.2rem;
+    /*margin-block: 1.2rem;*/
+    padding-block: 1.2rem;
   }
   nav > ul > li a {
     /*text-shadow: 1px 1px 2px var(--dark-blue-75);*/
@@ -299,11 +309,16 @@
   nav > ul > li:first-of-type {
     height: 4rem;
   }
-  nav > ul > li:first-of-type a {
+  /*nav > ul > li:first-of-type a {
     height: 2.2rem;
     margin-bottom: 1rem;
     padding-block: 0;
+  }*/
+  nav > ul > li:first-of-type a {
+    padding-bottom: 1rem;
+    padding-top: 0;
   }
+
   /*nav > ul > li img {
   }*/
   nav > ul > li:not(:first-of-type) img {
@@ -312,15 +327,12 @@
   }
 
   img.sitelogo, img.sitelogo_ud {
-    display: block;
     padding-inline-end: 1rem;
     margin-bottom: -1.4rem;
     height: 3.5rem;
     aspect-ratio: 300 / 119;
   }
   img.sitelogo_us {
-    /*margin-bottom: -0.9rem;
-    aspect-ratio: 407 / 100;*/
     padding-inline-end: 1rem;
     margin-bottom: -1.05rem;
     height: 3.226rem;

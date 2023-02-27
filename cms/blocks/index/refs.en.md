@@ -5,7 +5,7 @@ fallback: ""
 components:
   - type: article
     text: >-
-      <a href="https://www.ibsagroup.com/ibsa-group/technologies.html" rel="noopener"
+      <a href="https://www.ibsagroup.com/ibsa-group/technologies.html" rel="noopener noreferrer"
       target="_blank"><img loading="lazy" src="/uploads/1000px-logo_ibsa.svg.sm.png"
       srcset="/uploads/1000px-logo_ibsa.svg.png 2x,
       /uploads/1000px-logo_ibsa.svg.sm.png 1x" alt="IBSA logo"

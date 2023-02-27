@@ -75,7 +75,7 @@ components:
 
           IBSA有权递送拥有iAluadapter®/UroDapter®的iAluRil®包装或者基于非排他性，适配器作为独立产品也可以在以下国家销售：乌克兰，俄罗斯，巴林，阿曼，科威特，卡塔尔，沙特阿拉伯，阿联酋，埃及，阿尔及利亚，约旦，巴勒斯坦，黎巴嫩，伊拉克，利比亚，摩洛哥，突尼斯，以色列，伊朗，韩国，印度尼西亚，中国，新加坡 ，台湾，土库曼斯坦，马来西亚，哥伦比亚，阿根廷，巴巴多斯，玻利维亚，巴西，智利，哥斯达黎加，多米尼加共和国，厄瓜多尔，萨尔瓦多，危地马拉，洪都拉斯，墨西哥，尼加拉瓜，巴拿马，巴拉圭，秘鲁，委内瑞拉，尼日利亚，肯尼亚， 加蓬和加纳。
 
-          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener" target="_blank">IBSA Global Network</a></li></ul>
+          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener noreferrer" target="_blank">IBSA Global Network</a></li></ul>
     fixed: true
   - type: images
     slide: false

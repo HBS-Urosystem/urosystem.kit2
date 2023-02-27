@@ -13,6 +13,6 @@ components:
       Románia, Szerbia, Szlovákia, Szlovénia, Spanyolország, Svédország,
       Egyesült Királyság, Törökország, Ausztrália, Új-Zéland. További
       információért látogassa meg partnerünk honlapját: <a
-      href="https://www.ibsagroup.com" rel="noopener"
+      href="https://www.ibsagroup.com" rel="noopener noreferrer"
       target="_blank">https://www.ibsagroup.com</a></small></p>'
 ---

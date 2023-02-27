@@ -77,6 +77,7 @@
                     "border-radius": "40px",
                     "padding-left": "80px",
                     "padding-right": "80px",
+                    "line-height": "1rem",
                   },
                   quantityInput: {
                     "font-size": "1em",
@@ -221,7 +222,7 @@
   {#if comp.button && langs}
     {#each langs as lang}
       <div
-        tabindex="0"
+       
         lang={lang.id}
         id="product-component-1616169000007-{lang.id}"
         hidden={comp.lang !== lang.id}

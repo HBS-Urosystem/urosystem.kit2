@@ -16,7 +16,7 @@ components:
           csomagolva, iAluadapter® néven árusítják. 
 
 
-          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener" target="_blank">IBSA Global Network</a></li></ul>
+          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener noreferrer" target="_blank">IBSA Global Network</a></li></ul>
       - type: images
         subhead: "Az UroDapter® eszközt közvetlenül a fecskendőhöz csatlakoztatva
           bármilyen oldat bevihető a húgyhólyagba "

@@ -1,8 +1,4 @@
 <script context="module">
-  //export const hydrate = true
-  //export const prerender = true
-  //export const prerender = false
-
   import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
@@ -47,7 +43,7 @@
 <main>
 <!--{#if $state && !!$state.id}-->
   {#if !!$state.post.hero}
-    <header class="full" style="{$state.post.hero.background ? $state.post.hero.background : ``}" on:click={() => $snapto = '#content'}>
+    <header class="full" style="{$state.post.hero.background ? $state.post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'}>
       {#if $state.post.herotitle && $state.post.herotitle != ''}
       <h1>{$state.post.herotitle}</h1>
       {:else if $state.post.herotitle != ''}
@@ -72,7 +68,7 @@
       {/if}
     </header>
   {:else}
-    <header on:click={() => $snapto = '#content'}>
+    <header on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'}>
       <h1>{$state.post.title}</h1>
       {#if $state.post.subhero}
         {#each $state.post.subhero.components || [] as comp}

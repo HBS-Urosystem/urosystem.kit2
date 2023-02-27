@@ -106,7 +106,7 @@ components:
 
           A IBAS tem o direito de entregar pacotes iAluRil® com iAluadapter®/UroDapter® e/ou o adaptador como um produto autónomo e não exclusivo nos seguintes países: Ucrânia, Rússia, Bahrein, Omã, Kuwait, Catar, Arábia Saudita, Emirados Árabes Unidos, Egito, Argélia, Jordânia, Palestina, Líbano, Iraque, Líbia, Marrocos, Tunísia, Israel, Irão, Coreia do Sul, Indonésia, China, Cingapura, Taiwan, Turcomenistão, Malásia, Colômbia, Argentina, Barbados, Bolívia, Brasil , Chile, Costa Rica, República Dominicana, Equador, El Salvador, Guatemala, Honduras, México, Nicarágua, Panamá, Paraguai, Peru, Venezuela, Nigéria, Quénia, Gabão e Gana.
 
-          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener" target="_blank">IBSA Global Network</a></li></ul>
+          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener noreferrer" target="_blank">IBSA Global Network</a></li></ul>
     fixed: true
   - type: images
     slide: false

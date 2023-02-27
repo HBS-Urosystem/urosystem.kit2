@@ -180,7 +180,7 @@
 <aside id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
   {#if comp.title}<h2 id="{comp.anchor}">{comp.title}</h2>{/if}
   {#if comp.text}<div>{@html comp.text}</div>{/if}
-  {#if comp.button}<div tabindex="0" id='product-component-1616768837870'></div>{/if}
+  {#if comp.button}<div id='product-component-1616768837870'></div>{/if}
 </aside>
 
 <style>
