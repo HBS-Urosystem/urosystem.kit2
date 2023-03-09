@@ -2,7 +2,7 @@
   import { onMount } from 'svelte'
 	import { cookies/*, sitelang*/ } from '$lib/stores'
 </script>
-
+  
 <style>
   #_form_9_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; }
   #_form_9_ * { outline:0; }
