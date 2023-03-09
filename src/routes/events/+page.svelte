@@ -1,4 +1,6 @@
 <script context="module">
+  import "./events.postcss"
+
   import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
   //const _siteurl = variables.siteurl[variables.site] || 'https://www.urosystem.com'
   //import { onMount } from 'svelte';
@@ -7,17 +9,28 @@
   import { browser } from '$app/environment'
   import { PortableText } from '@portabletext/svelte'
   import { getSanityImageUrl, formatBlogPostDate } from '$lib/helpers.js'
+  import Subscribe from '$lib/SubscribeActivecamp.svelte'
 </script>
 
 <script>
-  //import { onMount, afterUpdate } from 'svelte'
-  import Subscribe from '$lib/SubscribeActivecamp.svelte'
+  export let data
+  /*
+  data.post = {}
+  */
+  data.post.id = 'events'
+  data.post.slug = 'events'
+  data.post.canonical = '/events'
+  data.post.menutitle = 'Events'
+  $: $state = data
+  $: $sitelang = 'en'
 
-  console.log($state)
+  //import { onMount, afterUpdate } from 'svelte'
+
+  //console.log({data}) // has EVENTS
 
   const d = new Date()
   const futureEvents = new Array()
-  const pastEvents = $state.filter(event => { /// 'ELOG'
+  const pastEvents = data.events.filter(event => { /// 'ELOG'
     //console.log({event})
     const date = new Date(event.date2 || event.date1 || d)
     if (d.getTime() < date.getTime()) {
@@ -43,8 +56,13 @@
   }
 </script>
 
+<svelte:head>
+  <title>UroSystem – Events</title>
+  <meta name="description" content="Urosystem is dedicated to lower urinary tract conditions, especially IC\u002FBPS. Get to know its diverse portfolio, from diagnosis to medication, including the UroDapter.">
+  <meta name="keywords" content="Urosystem, UroDapter, IC/BPS, bladder disease, cystitis, urological">
+</svelte:head>
 
-<header class="full">
+<header>
   <div class="hero-overlay bg-opacity-60"></div>
   
   <div class="text-center hero-content flex-wrap">
@@ -59,11 +77,9 @@
     {/each}
 
     {#if browser}
-    <div class="text-center hero-content text-neutral-content w-full">
-      <div class="ma-x-w-lg">
-        <Subscribe/>
-      </div>
-    </div>
+    <!--<div class="text-center hero-content text-neutral-content w-full">-->
+      <Subscribe/>
+    <!--</div>-->
     {/if}
   </div>
 </header>
@@ -88,7 +104,7 @@
     </article>
   {/each}
 
-  <p class="text-center mt-16"><a href="/events/rss.xml">RSS feed</a></p>
+  <!--<p class="text-center mt-16"><a href="/events/rss.xml">RSS feed</a></p>-->
 </main>
 
 <style>
@@ -97,13 +113,11 @@
     width: 100%;
     place-items: center;
     background-position: center;
-    padding: 0;
-  }
-  header.full {
+    /*padding-top: 9rem;*/
     background-image: url('/uploads/+.svg');
     background-size: 568px;
     background-repeat: initial;
-    min-height:100vh;
+    /*min-height:100vh;*/
   }
   .hero-overlay {
     backdrop-filter: blur(2px);
@@ -111,9 +125,6 @@
     grid-row-start: 1;
     height: 100%;
     width: 100%;
-  }
-  header > .hero-content {
-    padding-top: 4rem;
   }
   .hero-content {
     grid-column-start: 1;
@@ -126,6 +137,7 @@
     gap: 1rem;
     /*padding-bottom: 6rem;*/
     padding-bottom: 8rem;
+    padding-top: 12rem;
   }
 /*  main {
     padding-bottom: var(--gap);
@@ -184,8 +196,13 @@
     right: .25em;
   }
   img {
-    @apply shadow-2xl;
+    /*@apply shadow-2xl;*/
     object-fit: contain;
   }
 
+  #_form_6408E8C107AA5_ input[type="text"], button, input, optgroup, select, textarea {
+  line-height: inherit;
+  background: revert;
+  color: revert;
+}
 </style>

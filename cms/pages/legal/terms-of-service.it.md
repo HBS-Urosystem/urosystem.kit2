@@ -3,7 +3,7 @@ id: terms-of-service
 folder: legal
 fallback: en
 published: true
-title: Urosystem – termini di servizio
+title: UroSystem – termini di servizio
 keywords: Urosystem, termini di servizio, termini e condizioni, condizioni di
   pagamento, condizioni di spedizione, legale
 description: I termini di servizio di Urosystem

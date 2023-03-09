@@ -110,7 +110,7 @@
         </a>
       </li>
       <!--{@debug topnav}-->
-      {#each $state.topnav as nav}<!--{@debug nav}-->
+      {#each $state.topnav as nav}
         {#if nav.title}
           <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
             {#if nav.link}
@@ -175,9 +175,9 @@
     overflow-x: auto;
   }
   nav.moved {
-    top: -3rem;
-    /*border-bottom: 2px var(--light-blue-75) solid;*/
+    top: -3.5rem;
     background-color: var(--dark-blue);
+    border-bottom: 2px var(--light-blue-75) solid;
   }
   li#over {
     /*position: sticky;*/
@@ -186,6 +186,7 @@
     padding: 0;
     display: block;
     position: fixed;
+    top: 4rem;
     opacity: 1;
     /*z-index: 999;*/
   }
@@ -196,25 +197,25 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 75%;
-    margin: 0 0 -.75rem;
-    width: 2.75rem;
-    height: 2.75rem;
-    padding: 0.75rem;
+    margin: 0 0 -.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
     outline: none;
   }
-  nav:focus-within li#over button, ul:focus-within li#over button {
-    /*outline: none;
+  nav:focus-within li#over button/*, ul:focus-within li#over button*/ {
+    outline: none;
     box-shadow: none;
-    background-color: transparent;*/
+    background-color: transparent;
     position: absolute;
     width: 0;
     height: 0;
-    visibility: hidden;
+    /*visibility: hidden;*/
   }
-  nav:focus-within li#over, ul:focus-within li#over {
+  /*nav:focus-within li#over, ul:focus-within li#over {
     background-image: url(/uploads/open-up.svg);
-    background-position: 0% 100%;
-  }
+    background-position: 0% 90%;
+  }*/
   nav:not(.moved) li li {
     border: solid var(--light-blue-75);
     color: var(--pale-blue);
@@ -257,7 +258,7 @@
     flex-wrap: nowrap;
     padding-inline-start: 1rem;
     margin-top: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     width: max-content;
     /*overflow-y: hidden;*/ /* just for sticky over */
     z-index: 1;
@@ -273,7 +274,8 @@
     display: none;
     opacity: 0;
   }
-  nav > ul[mobil='true']:active > li, nav > ul[mobil='true']:focus-within > li {
+  /*nav > ul[mobil='true']:active > li, */
+  nav:focus-within > ul[mobil='true'] > li {
     display: list-item;
     opacity: 1;
   }
@@ -293,30 +295,34 @@
   }
   nav > ul > li:not(:first-of-type) {
     min-height: 1.25rem;
-    /*margin-block: 1.2rem;*/
-    padding-block: 1.2rem;
+    /*padding-block: 1.2rem;*/
   }
-  nav > ul > li a {
-    /*text-shadow: 1px 1px 2px var(--dark-blue-75);*/
+  nav > ul[mobil='true'] > li:not(:first-of-type) { /*  */
+    /*padding-bottom: .5rem;*/
+    padding-top: 1.5rem;
+  }
+  /*nav > ul > li a, nav > ul > li span {
     display: block;
     padding-block: 1rem;
   }
   nav > ul > li > span {
-    /*text-shadow: 1px 1px 2px var(--dark-blue-75);*/
     cursor: default;
     padding-block: 1rem;
-  }
-  nav > ul > li:first-of-type {
+  }*/
+
+  /*nav > ul > li:first-of-type {
+    height: 2.2rem;
     height: 4rem;
-  }
+  }*/
   /*nav > ul > li:first-of-type a {
     height: 2.2rem;
     margin-bottom: 1rem;
     padding-block: 0;
   }*/
   nav > ul > li:first-of-type a {
-    padding-bottom: 1rem;
-    padding-top: 0;
+    /*padding-bottom: 1rem;
+    padding-top: 0;*/
+    /*margin-bottom: 1rem;*/
   }
 
   /*nav > ul > li img {
@@ -324,9 +330,15 @@
   nav > ul > li:not(:first-of-type) img {
     height: 1.25rem;
     filter: invert();
+    /*display: contents;*/
   }
 
-  img.sitelogo, img.sitelogo_ud {
+  a:has(img) {
+    /*text-decoration: none;*/
+    display: inline-block;
+  }
+
+  img.sitelogo_ud, img.sitelogo {
     padding-inline-end: 1rem;
     margin-bottom: -1.4rem;
     height: 3.5rem;

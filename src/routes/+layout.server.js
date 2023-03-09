@@ -1,6 +1,5 @@
 //export const hydrate = true
-//export const prerender = true
-//export const prerender = false
+export const prerender = true
 
 import { _getPost } from '$lib/utils'
 import { _getConf } from '$lib/utils'
@@ -11,10 +10,10 @@ import { sitelang } from '$lib/stores'
 //import { page } from '$app/stores'
 //console.log(store(page))
 
-export const load = async ({ params, route, url, fetch/*, page*/ }) => {
-  console.log('params.path',params.path/*, {route}, {url}, {fetch}, {page}*/)
+export const load = async ({ params/*, route, url, fetch, page*/ }) => {
+  console.log('layout.path',params.path/*, {route}, {url}, {fetch}, {page}*/)
 
-  let [lang, path, sub] = params.path.split('/') || []
+  let [lang, path, sub] = params.path?.split('/') || []
   //let { lang, path } = {...params}
   //const path = route.id || ''
   lang = lang || 'en'

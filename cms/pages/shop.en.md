@@ -2,7 +2,7 @@
 id: shop
 fallback: ""
 published: true
-title: Urosystem – Buy the UroDapter® from our Shop
+title: UroSystem – Buy the UroDapter® from our Shop
 keywords: Urosystem, UroDapter, catheter replacement, painless instillation,
   urological adapter, syringe adapter
 blocks:

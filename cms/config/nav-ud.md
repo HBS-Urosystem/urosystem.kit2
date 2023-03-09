@@ -70,7 +70,7 @@ top_ud:
       - lang: en
         title: Resources
       - lang: hu
-        title: Segédanyagok
+        title: Oktatóanyagok
       - lang: ru
         title: Resources
       - lang: de

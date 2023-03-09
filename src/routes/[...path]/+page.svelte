@@ -2,43 +2,10 @@
   import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
-  const _siteurl = variables.siteurl[variables.site] || 'https://www.urosystem.com'
   //import { onMount } from 'svelte';
   //import * as scroller from "svelte-scrollto"
   //import { amp, browser, dev, prerendering } from '$app/env'
 </script>
-<script>
-//console.log($state.thislang.id, $sitelang)
-</script>
-
-<svelte:head>
-<!--{#if $state && !!$state.id}-->
-  {#if $state.post.subpage}
-    <title>{$state.post.subpage.title}</title>
-    <meta name="description" content="{$state.post.subpage.description}">
-    <meta name="keywords" content="{$state.post.subpage.keywords}">
-    {#if $state.post.subpage.meta}
-      {#each $state.post.subpage.meta as meta}
-        <meta name={meta.name} content={meta.content}>
-      {/each}
-    {/if}
-  {:else}
-    <title>{$state.post.title}</title>
-    <meta name="description" content="{$state.post.description}">
-    <meta name="keywords" content="{$state.post.keywords}">
-    {#if $state.post.meta}
-      {#each $state.post.meta as meta}
-        <meta name={meta.name} content={meta.content}>
-      {/each}
-    {/if}
-  {/if}
-  {#if $state.post.canonical}
-  <link rel="canonical" href="{$state.post.canonical}"/>
-  {:else}
-  <link rel="canonical" href="{_siteurl}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
-  {/if}
-<!--{/if}-->
-</svelte:head>
 
 <main>
 <!--{#if $state && !!$state.id}-->
@@ -118,7 +85,7 @@
       <h2>{$state.post.title}</h2>
       <ul>
         {#each $state.post.subpages as sub}
-        <li class:active={$state.post.subpage?.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
+        <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
         {/each}
       </ul>
     </nav>

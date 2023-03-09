@@ -1,25 +1,54 @@
 <script>
   import "/src/app.postcss"
+  import { onMount } from 'svelte'
+  import { get } from 'svelte/store'
   import { state, sitelang, cookies, variables } from '$lib/stores'
+  const _siteurl = variables.siteurl[variables.site] || 'https://www.urosystem.com'
   import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/environment'
   import Nav from '$lib/Nav.svelte'
   import Footer from '$lib/Footer.svelte'
   import Cookies from '$lib/Cookies.svelte'
 
+  const _site = variables.site
+
   export let data
-  data.post.id = 'events'
-  data.post.slug = 'events'
-  data.post.canonical = 'events'
-  data.post.menutitle = 'Events'
+  //console.log({data})
   $: $state = data
-  $: $sitelang = 'en'
+  $: $sitelang = data.thislang.id
+	onMount(() => {
+    document.querySelector('html').lang = $state.thislang.id
+    document.querySelector('html').dir = $state.thislang.dir
+	});
+
 </script>
 
 <svelte:head>
-  <!--<style global>
-    @import "/src/tailwind.css";
-  </style>-->
-  {#if !dev }
+  {#if $state.post.subpage}
+    <title>{$state.post.subpage.title}</title>
+    <meta name="description" content="{$state.post.subpage.description}">
+    <meta name="keywords" content="{$state.post.subpage.keywords}">
+    {#if $state.post.subpage.meta}
+      {#each $state.post.subpage.meta as meta}
+        <meta name={meta.name} content={meta.content}>
+      {/each}
+    {/if}
+  {:else}
+    <title>{$state.post.title}</title>
+    <meta name="description" content="{$state.post.description}">
+    <meta name="keywords" content="{$state.post.keywords}">
+    {#if $state.post.meta}
+      {#each $state.post.meta as meta}
+        <meta name={meta.name} content={meta.content}>
+      {/each}
+    {/if}
+  {/if}
+  {#if $state.post.canonical}
+    <link rel="canonical" href="{$state.post.canonical}"/>
+  {:else}
+    <link rel="canonical" href="{_siteurl}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
+  {/if}
+
+  {#if !dev && !!$cookies}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180221975-1"></script>
     <script>
@@ -73,17 +102,39 @@
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-T4KTKF5');
     </script>
-    <!-- End Google Tag Manager -->
+      <!-- End Google Tag Manager -->
+    
+    <!-- Active Campaign -->
     <script>
       (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
       vgo('setAccount', '477728237');
       vgo('setTrackByDefault', true);
       vgo('process');
     </script>
-    {/if} <!-- $cookies -->
+	{/if}
+  
+  {#if _site == '_ud'}
+    <style>
+      main {
+        background-image: var(--grad-light-blue);
+        background-position: 50% 50%;
+        background-size: cover;
+      }
+    </style>
+  {/if}
 </svelte:head>
 
 <Nav/>
-<slot></slot>
+
+<slot/>
+
 <Footer/>
-<Cookies cookie={$cookies}/>
+<Cookies/>
+
+<!--{#each $state.langs || [] as lang}
+{#if !!lang.active}
+<a hidden aria-hidden="true" rel="alternate" href="/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">
+  {lang.id}
+</a>
+{/if}
+{/each}-->

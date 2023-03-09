@@ -1,3 +1,8 @@
+PayPal:
+lukacsurosystem
+@UroSystem
+
+
 npm create @svelte-add/kit@latest urosystem.kit1
 
 npx --yes svelte-add@latest tailwindcss --typography true --daisyui true --forms true
