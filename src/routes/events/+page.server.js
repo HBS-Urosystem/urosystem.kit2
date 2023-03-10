@@ -1,5 +1,5 @@
 //export const hydrate = true
-export const prerender = true
+//export const prerender = true
 
 import { client } from '/src/lib/sanityClient.js'
 import { allEvents } from '/src/lib/api.js'
