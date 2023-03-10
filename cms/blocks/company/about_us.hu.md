@@ -5,6 +5,7 @@ fallback: en
 components:
   - type: article
     title: Rólunk
+    anchor: about
     text: >-
       Az Egyesült Államok-beli Élelmiszer- és Gyógyszerügyi Hivatal (FDA)
       megfogalmazása alapján az interstitiális cystitis/hólyagfájdalom szindróma

@@ -17,8 +17,6 @@ const config = {
     }),
     mdsvex(mdsvexConfig),
   ],
-
-  extensions: [".svelte", ".md"],
 };
 
 export default config;

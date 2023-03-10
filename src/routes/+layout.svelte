@@ -12,7 +12,7 @@
   const _site = variables.site
 
   export let data
-  //console.log({data})
+  if (!data || !data.thislang) console.log({data})
   $: $state = data
   $: $sitelang = data.thislang.id
 	onMount(() => {

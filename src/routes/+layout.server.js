@@ -38,11 +38,10 @@ export const load = async ({ params/*, route, url, fetch, page*/ }) => {
 	//post = await _getPost({path: parts[0], lang, sub: parts[1] || null})
 	post = await _getPost({lang, path, sub})
   //console.log('post',post)
-	if (post.id && !!post.published) {
-    //return new Response(String(random));
+	//if (post.id && !!post.published) {
 		return {
 			post, ...conf
 		}
-	}
-	return false
+	//}
+	//return false
 }
