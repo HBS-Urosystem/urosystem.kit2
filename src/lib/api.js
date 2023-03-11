@@ -5,7 +5,7 @@ export const allCategoriesWithPosts = `*[_type == 'category']{"posts": *[_type =
 
 export const allAuthors = `*[_type == 'author']`;
 */
-export const allEvents = `*[_type == 'event']{...} | order(date1 desc)`;
+export const allEvents = `*[_type == 'event' && !(_id in path('drafts.**'))]{...} | order(date1 desc)`;
 
 export const hirlev = `*[_type == 'hirlev']{...} | order(publishedAt desc)`;
 
