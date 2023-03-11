@@ -5,7 +5,7 @@ const config = {
   dataset: import.meta.env.VITE_PUBLIC_SANITY_DATASET,
   token: import.meta.env.VITE_PUBLIC_SANITY_READ_TOKEN,
   apiVersion: import.meta.env.VITE_PUBLIC_SANITY_API_VERSION,
-  useCdn: false,
+  useCdn: true,
 }
 //console.log({config})
 
