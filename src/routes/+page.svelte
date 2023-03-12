@@ -92,8 +92,4 @@
     text-align: center;
     /*padding-top: 9rem;*/
   }
-  h1/*, .h1*/ {
-    cursor: pointer;
-    margin-inline: auto;
-  }
 </style>
