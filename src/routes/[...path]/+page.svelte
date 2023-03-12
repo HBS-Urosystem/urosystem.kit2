@@ -5,7 +5,19 @@
   //import { onMount } from 'svelte';
   //import * as scroller from "svelte-scrollto"
   //import { amp, browser, dev, prerendering } from '$app/env'
+  const _site = variables.site
+  const _siteurl = variables.siteurl[_site] || 'https://www.urosystem.com'
 </script>
+
+<svelte:head>
+  
+  {#each $state.langs || [] as lang}
+    {#if !!lang.active}
+      <link rel="alternate" href="{_siteurl}/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
+    {/if}
+  {/each}
+
+</svelte:head>
 
 <main>
 <!--{#if $state && !!$state.id}-->
