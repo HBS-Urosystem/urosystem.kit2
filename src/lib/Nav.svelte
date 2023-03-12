@@ -171,7 +171,7 @@
   }
   nav:hover, nav:focus, nav:focus-within {
     /*background-color: var(--dark-blue-75);*/
-    background-color: var(--dark-blue);
+    background-color: var(--dark-blue-95);
     overflow-x: auto;
   }
   nav.moved {
