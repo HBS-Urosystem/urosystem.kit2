@@ -1,14 +1,14 @@
 <script>
   import "/src/app.postcss"
   import { onMount } from 'svelte'
-  import { get } from 'svelte/store'
+  //import { get } from 'svelte/store'
   import { state, sitelang, cookies, variables } from '$lib/stores'
-  const _siteurl = variables.siteurl[variables.site] || 'https://www.urosystem.com'
-  import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/environment'
+  import { dev, /*amp, browser,*/ /*prerendering*/ } from '$app/environment'
   import Nav from '$lib/Nav.svelte'
   import Footer from '$lib/Footer.svelte'
   import Cookies from '$lib/Cookies.svelte'
 
+  const _siteurl = variables.siteurl[variables.site] || 'https://www.urosystem.com'
   const _site = variables.site
 
   export let data

@@ -13,7 +13,7 @@
 <script>
   import { createEventDispatcher } from "svelte";
   import validate from "./_validation";
-  let duration = "450ms";
+  let duration = "250ms";
   let offset = 0;
   let tolerance = 4;
   let headerClass = "pin";
@@ -52,7 +52,7 @@
   import { snapto } from '$lib/stores'
   $: {
     if (!!$snapto) {
-      scrollnav.scrollTo({element: $snapto, offset: -75, onDone: _snap})
+      scrollnav.scrollTo({element: $snapto, duration: 1000, offset: -75, onDone: _snap})
       //scrollnav.scrollTo({element: $snapto, offset: 0})
       function _snap() {
         scrollnav.scrollTo({element: $snapto, offset: 0, onDone: () => {$snapto = false} })
@@ -171,7 +171,7 @@
   }
   nav:hover, nav:focus, nav:focus-within {
     /*background-color: var(--dark-blue-75);*/
-    background-color: var(--dark-blue-95);
+    background-color: var(--dark-blue);
     overflow-x: auto;
   }
   nav.moved {
@@ -186,7 +186,7 @@
     padding: 0;
     display: block;
     position: fixed;
-    top: 4rem;
+    top: 4.75rem;
     opacity: 1;
     /*z-index: 999;*/
   }
@@ -257,7 +257,7 @@
     display: flex;
     flex-wrap: nowrap;
     padding-inline-start: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     width: max-content;
     /*overflow-y: hidden;*/ /* just for sticky over */
@@ -427,7 +427,7 @@
     /*padding: 0.65em 1.75em 0 2em;*/
     padding: 0.4em 1.75em 0 2em;
     background: url("/uploads/bx-world.svg") no-repeat left, url("/uploads/open-down.svg") no-repeat right;
-    background-size: 1.5em;
+    background-size: 1.5em, 1.25em;
     filter: invert();
     text-transform: uppercase;
   }  

@@ -165,7 +165,7 @@
     </div>
   </form>
   {#if !$cookies}
-    <a href="https://www.urosystem.com/en/privacy-policy" rel="noreferrer" target="_blank">See our Privacy Policy</a>
+    <p class="mt-4"><a href="https://www.urosystem.com/en/privacy-policy" rel="noreferrer" target="_blank">See our Privacy Policy</a></p>
   {/if}
 </div>
 
@@ -565,4 +565,4 @@ onMount(() => {
     addEvent(form_to_submit, 'submit', form_submit);
   })();
 })
- </script>
+</script>

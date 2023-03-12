@@ -115,7 +115,7 @@
     background-position: center;
     /*padding-top: 9rem;*/
     background-image: url('/uploads/+.svg');
-    background-size: 568px;
+    background-size: 426px;/*568*/
     background-repeat: initial;
     /*min-height:100vh;*/
   }
