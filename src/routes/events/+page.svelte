@@ -10,6 +10,10 @@
   import { PortableText } from '@portabletext/svelte'
   import { getSanityImageUrl, formatBlogPostDate } from '$lib/helpers.js'
   import Subscribe from '$lib/SubscribeActivecamp.svelte'
+
+  const _site = variables.site
+  const _siteurl = variables.siteurl[_site] || 'https://www.urosystem.com'
+  //console.log('variables.site',variables.site)
 </script>
 
 <script>
@@ -60,6 +64,7 @@
   <title>UroSystem – Events</title>
   <meta name="description" content="Urosystem is dedicated to lower urinary tract conditions, especially IC\u002FBPS. Get to know its diverse portfolio, from diagnosis to medication, including the UroDapter.">
   <meta name="keywords" content="Urosystem, UroDapter, IC/BPS, bladder disease, cystitis, urological">
+  <link rel="canonical" href="{_siteurl}/events"/>
 </svelte:head>
 
 <header>

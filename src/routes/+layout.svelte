@@ -1,4 +1,4 @@
-<script>
+<script context="module">
   import "/src/app.postcss"
   import { onMount } from 'svelte'
   //import { get } from 'svelte/store'
@@ -8,9 +8,12 @@
   import Footer from '$lib/Footer.svelte'
   import Cookies from '$lib/Cookies.svelte'
 
-  const _siteurl = variables.siteurl[variables.site] || 'https://www.urosystem.com'
   const _site = variables.site
+  const _siteurl = variables.siteurl[_site] || 'https://www.urosystem.com'
+  //console.log('variables.site',variables.site)
+</script>
 
+<script>
   export let data
   if (!data || !data.thislang) console.log({data})
   $: $state = data
@@ -43,7 +46,7 @@
     {/if}
   {/if}
   {#if $state.post.canonical}
-    <link rel="canonical" href="{$state.post.canonical}"/>
+    <link rel="canonical" href="{_siteurl}{$state.post.canonical}"/>
   {:else}
     <link rel="canonical" href="{_siteurl}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
   {/if}
