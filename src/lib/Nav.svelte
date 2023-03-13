@@ -143,7 +143,7 @@
       {/each}
       {#if hamburger}
         <li id="over">
-          <button aria-label="menu"></button>
+          <div tabindex="-1" aria-label="menu"></div>
         </li>
       {/if}
     </ul>
@@ -190,7 +190,7 @@
     opacity: 1;
     /*z-index: 999;*/
   }
-  li#over button {
+  li#over div {
     background-color: var(--light-blue);
     background-image: url(/menu.svg);
     border-radius: 50% 0 0 50%;
@@ -203,7 +203,7 @@
     padding: 0.5rem;
     outline: none;
   }
-  nav:focus-within li#over button/*, ul:focus-within li#over button*/ {
+  nav:focus-within li#over div/*, ul:focus-within li#over button*/ {
     outline: none;
     box-shadow: none;
     background-color: transparent;
@@ -221,7 +221,7 @@
     color: var(--pale-blue);
     background: none;
   }
-  li#over button:focus {
+  li#over div:focus {
     box-shadow: white 0 0 0 2px;
   }
   /*nav > ul, nav > div {

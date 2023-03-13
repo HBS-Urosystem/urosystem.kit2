@@ -1,8 +1,8 @@
 //export const hydrate = true
 export const prerender = true
+//export const trailingSlash = 'never' // default
 
-import { _getPost } from '$lib/utils'
-import { _getConf } from '$lib/utils'
+import { _getPost, _getConf } from '$lib/utils'
 import { get as store} from 'svelte/store'
 import { sitelang } from '$lib/stores'
 
