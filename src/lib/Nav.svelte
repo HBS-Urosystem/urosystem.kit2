@@ -216,11 +216,11 @@
     background-image: url(/uploads/open-up.svg);
     background-position: 0% 90%;
   }*/
-  nav:not(.moved) li li {
+  /*nav:not(.moved) li li {
     border: solid var(--light-blue-75);
     color: var(--pale-blue);
     background: none;
-  }
+  }*/
   li#over div:focus {
     box-shadow: white 0 0 0 2px;
   }
@@ -380,12 +380,12 @@
     /*background-color: var(--pale-blue);
     color: black;
     */
-    border: solid var(--light-blue-75);
+    /*border: solid var(--light-blue-75);*/
     color: var(--pale-blue);
     background: none;
 
     width: max-content;
-    margin: .5rem 0 0;
+    margin: 1rem 0 0 .5rem;
     border-radius: 1.5rem;
     /*border: 2px transparent solid;*/
     /*padding: 2px;*/
