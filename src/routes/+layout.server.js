@@ -1,5 +1,5 @@
 //export const hydrate = true
-export const prerender = true
+//export const prerender = true
 //export const trailingSlash = 'never' // default
 
 import { _getPost, _getConf } from '$lib/utils'
@@ -11,7 +11,7 @@ import { sitelang } from '$lib/stores'
 //console.log(store(page))
 
 export const load = async ({ params/*, route, url, fetch, page*/ }) => {
-  console.log('layout.path',params.path/*, {route}, {url}, {fetch}, {page}*/)
+  //console.log('layout.path',params.path/*, {route}, {url}, {fetch}, {page}*/)
 
   let [lang, path, sub] = params.path?.split('/') || []
   //let { lang, path } = {...params}
