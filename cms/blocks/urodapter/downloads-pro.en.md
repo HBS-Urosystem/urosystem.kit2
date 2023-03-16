@@ -5,6 +5,7 @@ fallback: ""
 published: ProfessionalsGateway
 components:
   - type: links
+    title: Explicit medical content
     items:
       - title: UroDapter® Tips & Tricks
         url: uploads/Using_UroDapter_Tips_and_Tricks.pdf

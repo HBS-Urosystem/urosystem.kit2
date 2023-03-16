@@ -16,8 +16,8 @@ sitelang.subscribe((value) => browser && (localStorage.setItem(`sitelang`, value
 export const cookies = !browser || !typeof localStorage.cookies ? writable(false) : writable(JSON.parse(browser && localStorage.cookies || false))
 cookies.subscribe((value) => browser && (localStorage.setItem(`cookies`, value)))
 
-export const gateway = !browser || !typeof localStorage.gateway ? writable({}) : writable(browser && localStorage.gateway || {})
-gateway.subscribe((value) => browser && (localStorage.setItem(`gateway`, value)))
+export const gateway = !browser || !typeof localStorage.gateway ? writable({}) : writable(JSON.parse(browser &&  localStorage.gateway || '{}'))
+gateway.subscribe((value) => browser && (localStorage.setItem(`gateway`, JSON.stringify(value))))
 
 
 export const variables = {
