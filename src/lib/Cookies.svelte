@@ -66,7 +66,7 @@
 	button {
 		/*flex-shrink: 0;
     width: min-content;*/
-    margin: .25rem;
-    line-height: 1.25rem;
+    margin: .5rem;
+    line-height: 1.5rem;
   }
 </style>

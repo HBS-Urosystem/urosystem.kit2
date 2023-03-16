@@ -73,12 +73,15 @@
   a.block {
     /*padding: .5rem 1rem .25rem;*/
     display: block;
-    padding: .25rem 1rem 0;
+    /*padding: .25rem 1rem 0;*/
+    padding: .25rem 1rem .5rem;
   }
   img {
     filter: invert();
     /*width: 1.5rem;*/
     height: 1.25rem;
+    position: absolute;
+    margin: -0.25rem 0.25rem;
   }
 
 </style>

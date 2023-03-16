@@ -256,10 +256,10 @@
   nav > ul {
     display: flex;
     flex-wrap: nowrap;
-    padding-inline-start: 1rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     width: max-content;
+    padding-inline-start: 1rem;
     /*overflow-y: hidden;*/ /* just for sticky over */
     z-index: 1;
   }
@@ -330,6 +330,8 @@
   nav > ul > li:not(:first-of-type) img {
     height: 1.25rem;
     filter: invert();
+    position: absolute;
+    margin: -0.25rem 0.25rem;
     /*display: contents;*/
   }
 
@@ -359,9 +361,12 @@
     width: 0;
     max-width: 0;
     overflow-x: visible;
-    margin-inline-start: -1rem;
     text-transform: initial;
     /*padding-bottom: 1rem;*/
+    margin-inline-start: -1.5rem;
+  }
+  ul[mobil='true'] ul {
+    margin-inline-start: -1rem;
   }
   ul li:hover ul, ul li:focus-within ul {
     visibility:visible;
