@@ -113,13 +113,14 @@
       {#each $state.topnav as nav}
         {#if nav.title}
           <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
-            {#if nav.link}
+            <SubNav sub={nav}/>
+            <!--{#if nav.link}
               <SubNav sub={nav}/>
             {:else}
               <span>{nav.title}
                 {#if nav.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
               </span>
-            {/if}
+            {/if}-->
             {#if nav.modal}
               {#each nav.modal.components || [] as comp}
                 <Components {comp}/>
@@ -288,10 +289,13 @@
     aspect-ratio: 100 / 100;
   }
   nav > ul > li {
-    padding-inline-end: 1.75rem;
+    padding-inline-end: 1.75rem;/*1.25+1.75rem;*/
     align-self: baseline;
     text-transform: uppercase;
     flex-shrink: 0;
+  }
+  nav > ul > li:has(img) {
+    padding-inline-end: 3rem;/*1.25+1.75rem;*/
   }
   nav > ul > li:not(:first-of-type) {
     min-height: 1.25rem;

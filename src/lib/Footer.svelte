@@ -98,9 +98,9 @@
   a {
     text-decoration: none;
   }
-  h5 + :global(a:first-of-type)/*, h4 + img*/ {
-    padding-inline-start: 1rem;
-  }
+  /*h5 + a:has(img) {
+    padding-inline-start: .75rem;
+  }*/
   div {
     /*background-color: var(--light-blue);*/
     display: flex;

@@ -39,7 +39,7 @@
     <a href="{sublink}" rel="noopener noreferrer" target="_blank"><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
     <a class="{dir}" href="{sublink}" rel="noopener noreferrer" target="_blank">{sub.title}
-      {#if sub.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
+      {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
     </a>
   <!--{:else if subpage}
     <a class="{dir}" href="{sublink}" rel="noopener noreferrer" target="_blank">{subpage.menutitle || subpage.title}</a>-->
@@ -48,10 +48,19 @@
   {#if sub.logo}
     <a sveltekit:prefetch href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
-    <a sveltekit:prefetch class="{dir}" href="{sublink}">{sub.title}
+    {#if sub.link}
+      <a sveltekit:prefetch class="{dir}" href="{sublink}">{sub.title}
+        {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
+      </a>
+    {:else}
+      <span>{sub.title}
+        {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
+      </span>
+    {/if}
+        <!--<a sveltekit:prefetch class="{dir}" href="{sublink}">{sub.title}
       {#if sub.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
-    </a>
-  <!--{:else if subpage && (subpage.menutitle || subpage.title)}
+    </a>-->
+    <!--{:else if subpage && (subpage.menutitle || subpage.title)}
     <a class="{dir}" href="{sublink}">{subpage.menutitle || subpage.title}</a>-->
   {/if}
 {/if}
@@ -76,12 +85,17 @@
     /*padding: .25rem 1rem 0;*/
     padding: .25rem 1rem .5rem;
   }
+  a:has(img:not([aria-hidden="true"])):first-of-type {
+    padding-inline-start: .75rem;
+  }
   img {
     filter: invert();
     /*width: 1.5rem;*/
     height: 1.25rem;
-    position: absolute;
     margin: -0.25rem 0.25rem;
+  }
+  img[aria-hidden="true"] {
+    position: absolute;
   }
 
 </style>
