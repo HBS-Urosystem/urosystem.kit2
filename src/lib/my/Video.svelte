@@ -38,6 +38,7 @@
     display: flex;
     flex-direction: column;
     flex-basis: 36ch;
+    justify-content: space-between;
   }
   h2, h3 {
     padding-top: 0;

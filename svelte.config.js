@@ -9,6 +9,7 @@ const config = {
 
   kit: {
     adapter: adapter(),
+    //prerender: {"force": true}
   },
 
   preprocess: [
