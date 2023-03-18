@@ -53,7 +53,7 @@
         {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
       </a>
     {:else}
-      <span>{sub.title}
+      <span tabindex="0">{sub.title}
         {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
       </span>
     {/if}

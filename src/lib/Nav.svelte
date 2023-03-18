@@ -374,7 +374,9 @@
   ul[mobil='true'] ul {
     margin-inline-start: -1rem;
   }
-  ul li:hover ul, ul li:focus-within ul {
+
+  /* hover csak ha nem mobil */
+  ul:not([mobil='true']) li:hover ul, ul li:focus-within ul {
     visibility:visible;
     height: auto;
     opacity: 1;
