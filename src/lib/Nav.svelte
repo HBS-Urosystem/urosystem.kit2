@@ -113,9 +113,9 @@
       {#each $state.topnav as nav}
         {#if nav.title}
           <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
-            <SubNav sub={nav}/>
+            <SubNav mobil={!!hamburger} sub={nav}/>
             <!--{#if nav.link}
-              <SubNav sub={nav}/>
+              <SubNav {mobil=!!hamburger} sub={nav}/>
             {:else}
               <span>{nav.title}
                 {#if nav.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
@@ -176,7 +176,7 @@
     overflow-x: auto;
   }
   nav.moved {
-    top: -3.5rem;
+    top: -4rem;
     background-color: var(--dark-blue);
     border-bottom: 2px var(--light-blue-75) solid;
   }
@@ -211,6 +211,7 @@
     position: absolute;
     width: 0;
     height: 0;
+    padding: 0;
     /*visibility: hidden;*/
   }
   /*nav:focus-within li#over, ul:focus-within li#over {
@@ -323,12 +324,7 @@
     margin-bottom: 1rem;
     padding-block: 0;
   }*/
-  nav > ul > li:first-of-type a {
-    /*padding-bottom: 1rem;
-    padding-top: 0;*/
-    /*margin-bottom: 1rem;*/
-  }
-
+  /*nav > ul > li:first-of-type a {*/
   /*nav > ul > li img {
   }*/
   nav > ul > li:not(:first-of-type) img {
@@ -344,17 +340,23 @@
     display: inline-block;
   }
 
-  img.sitelogo_ud, img.sitelogo {
-    padding-inline-end: 1rem;
-    margin-bottom: -1.4rem;
-    height: 3.5rem;
-    aspect-ratio: 300 / 119;
+  a:has(.sitelogo_ud) {
+    padding-bottom: .5rem;
+    padding-top: 0;
+    /*margin-bottom: 1rem;*/
   }
-  img.sitelogo_us {
+
+  img.sitelogo_us, img.sitelogo {
     padding-inline-end: 1rem;
     margin-bottom: -1.05rem;
     height: 3.226rem;
     aspect-ratio: 300 / 95;
+  }
+  img.sitelogo_ud {
+    padding-inline-end: 1rem;
+    margin-bottom: -1.4rem;
+    height: 3.5rem;
+    aspect-ratio: 300 / 119;
   }
   ul ul {
     display: grid;

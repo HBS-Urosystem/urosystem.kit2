@@ -9,7 +9,7 @@
   //console.log($page)
 	//import { lang } from '$lib/stores'
   //const lang = $sitelang
-  export let /*post, */sub, dir
+  export let /*post, */sub, dir, mobil = false
   //console.log(sub)
   //$: post = $state.post
 
@@ -48,7 +48,7 @@
   {#if sub.logo}
     <a sveltekit:prefetch href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
-    {#if sub.link}
+    {#if sub.link && !mobil}
       <a sveltekit:prefetch class="{dir}" href="{sublink}">{sub.title}
         {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
       </a>

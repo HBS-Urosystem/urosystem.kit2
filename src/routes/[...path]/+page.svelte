@@ -1,5 +1,4 @@
 <script context="module">
-  export const prerender = true
   import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
