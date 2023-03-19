@@ -105,7 +105,7 @@
       bind:clientWidth={wul}
       mobil={!!hamburger}>
       <li>
-        <a sveltekit:prefetch href="/{$sitelang}" aria-label="home">
+        <a href="/{$sitelang}" aria-label="home">
           <img class={logoclass} src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
         </a>
       </li>
