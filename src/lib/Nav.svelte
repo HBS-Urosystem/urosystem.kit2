@@ -265,12 +265,12 @@
     /*overflow-y: hidden;*/ /* just for sticky over */
     z-index: 1;
   }
+  nav > ul:not([mobil='true']) {
+    margin-inline: auto;
+  }
   nav > ul[mobil='true'] {
     flex-direction: column;
     /*width: revert;*/
-  }
-  nav > ul:not([mobil='true']) {
-    margin-inline: auto;
   }
   nav > ul[mobil='true'] > li:not(:first-child) {
     display: none;
@@ -376,7 +376,7 @@
   }
 
   /* hover csak ha nem mobil */
-  ul:not([mobil='true']) li:hover ul, ul li:focus-within ul {
+  :not([mobil='true']) li:hover ul, ul li:focus-within > ul {
     visibility:visible;
     height: auto;
     opacity: 1;

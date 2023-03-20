@@ -78,7 +78,8 @@
     padding-inline-end: .5rem;
   }
   span {
-    cursor:default;
+    /*cursor:default;*/
+    cursor:pointer;
   }
   a.block, span.block {
     /*padding: .5rem 1rem .25rem;*/
