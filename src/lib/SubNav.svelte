@@ -48,12 +48,12 @@
   {#if sub.logo}
     <a href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
-    {#if sub.link && !mobil}
+    {#if sub.link && (!mobil || !sub.sublinks)}
       <a class="{dir}" href="{sublink}">{sub.title}
         {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
       </a>
     {:else}
-      <span tabindex="0">{sub.title}
+      <span class="{dir}" tabindex="0">{sub.title}
         {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
       </span>
     {/if}
@@ -74,20 +74,21 @@
     border: 2px transparent;
   }
   li */
-  a {
+  a, span {
     text-decoration: none;
     white-space: nowrap;
     padding-inline-end: .5rem;
   }
-  a.block {
+  span {
+    cursor:default;
+  }
+  a.block, span.block {
     /*padding: .5rem 1rem .25rem;*/
     display: block;
     /*padding: .25rem 1rem 0;*/
     padding: .25rem 1rem .5rem;
   }
-  a:has(img:not([aria-hidden="true"])):first-of-type {
-    padding-inline-start: .75rem;
-  }
+
   img {
     filter: invert();
     /*width: 1.5rem;*/
@@ -96,6 +97,10 @@
   }
   img[aria-hidden="true"] {
     position: absolute;
+  }
+
+  a:has(img:not([aria-hidden="true"])):first-of-type {
+    padding-inline-start: .75rem;
   }
 
 </style>
