@@ -36,9 +36,9 @@
 
 {#if sub.ext}
   {#if sub.logo}
-    <a href="{sublink}" rel="noopener noreferrer" target="_blank"><img src="{sub.logo}" alt="{sub.alt}"/></a>
+    <a href="{sublink}" rel="external noopener noreferrer" target="_blank"><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
-    <a class="{dir}" href="{sublink}" rel="noopener noreferrer" target="_blank">{sub.title}
+    <a class="{dir}" href="{sublink}" rel="external noopener noreferrer" target="_blank">{sub.title}
       {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
     </a>
   <!--{:else if subpage}
