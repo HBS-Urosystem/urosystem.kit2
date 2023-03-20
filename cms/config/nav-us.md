@@ -1,7 +1,7 @@
 ---
 top_us:
-  - ext: true
-    link: https://www.urodapter.com
+  - link: https://www.urodapter.com
+    ext: true
     titles:
       - lang: en
         title: UroDapter®
@@ -77,56 +77,6 @@ top_us:
         title: 适应症
       - lang: ar
         title: دواعي الإستعمال
-  #- subpages:
-      #- link: https://www.urodapter.com/en/ic-bps
-        #titles:
-          #- lang: en
-            #title: Bladder Pain Syndrome (IC/BPS)
-      #- link: https://www.urodapter.com/en/rutis
-        #titles:
-          #- lang: en
-            #title: Urinary Tract Infections
-      #- link: https://www.urodapter.com/en/post-cancer-treatment
-        #titles:
-          #- lang: en
-            #title: Post-cancer treatment
-      #- link: https://www.urodapter.com/en/bladder-cancer
-        #titles:
-          #- lang: en
-            #title: Bladder Cancer (Female Patients)
-      #- link: https://www.urodapter.com/en/other-uses-and-indications
-        #titles:
-          #- lang: en
-            #title: Other Uses and Indications
-    #titles:
-      #- lang: en
-        #title: Indications
-      #- lang: ru
-        #title: Показания
-      #- lang: hu
-        #title: Felhasználási területek
-      #- lang: de
-        #title: Indikationen
-      #- lang: ko
-        #title: 사용처
-      #- lang: fr
-        #title: Les indications
-      #- lang: he
-        #title: אינדיקציות
-      #- lang: it
-        #title: Indicazioni
-      #- lang: ja
-        #title: 適応症
-      #- lang: pt
-        #title: Indicações
-      #- lang: es
-        #title: Indicaciones
-      #- lang: tr
-        #title: Belirteçler
-      #- lang: zh
-        #title: 适应症
-      #- lang: ar
-        #title: دواعي الإستعمال
   - link: company
     titles:
       - lang: en
@@ -279,7 +229,7 @@ top_us:
             title: 연락처
           - lang: tr
             title: İletişim
-      - link: /b2b
+      - link: https://b2b.urosystem.com/
         titles:
           - lang: en
             title: B2B

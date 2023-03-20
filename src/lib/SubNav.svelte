@@ -21,7 +21,7 @@
     //console.log(sublink)
   } else if (sub.link?.startsWith('http')) {
     sublink = sub.link// + '#vhollo'
-    sub.ext = true
+    //sub.ext = true
   } else if (sub.link?.startsWith('/')) {
     sublink = sub.link// + '#vhollo'
     //sub.ext = true
