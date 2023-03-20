@@ -18,13 +18,11 @@
   //const subpage = _getPost($sitelang, sub.link) || {}
   $: if (sub.link?.startsWith('#')) {
     sublink = '/' + $sitelang + ($state.post.path ? '/' + $state.post.path : '') + sub.link
-    //console.log(sublink)
   } else if (sub.link?.startsWith('http')) {
     sublink = sub.link// + '#vhollo'
-    //sub.ext = true
+    sub.http = true
   } else if (sub.link?.startsWith('/')) {
     sublink = sub.link// + '#vhollo'
-    //sub.ext = true
   } else {
     sublink = '/' + $sitelang + '/' + sub.link
     //console.log(sub.link)
@@ -46,10 +44,10 @@
   {/if}
 {:else}
   {#if sub.logo}
-    <a href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
+    <a rel={sub.http ? "external noopener noreferrer" : ''} href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
     {#if sub.link && (!mobil || !sub.sublinks)}
-      <a class="{dir}" href="{sublink}">{sub.title}
+      <a rel={sub.http ? "external noopener noreferrer" : ''} class="{dir}" href="{sublink}">{sub.title}
         {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
       </a>
     {:else}
