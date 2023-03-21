@@ -377,7 +377,7 @@
   }
 
   /* hover csak ha nem mobil */
-  ul:not([data-mobile='true']) > li:hover > ul, ul > li:focus-within > ul {
+  ul/*:not([data-mobile='true'])*/ li:hover ul/*, ul li:active ul*/, ul li:focus-within ul {
     visibility:visible;
     height: auto;
     opacity: 1;
