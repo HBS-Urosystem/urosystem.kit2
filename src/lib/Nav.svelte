@@ -103,7 +103,7 @@
     </div>
     <ul 
       bind:clientWidth={wul}
-      mobil={!!hamburger}>
+      data-mobile={!!hamburger}>
       <li>
         <a href="/{$sitelang}" aria-label="home">
           <img class={logoclass} src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
@@ -113,9 +113,9 @@
       {#each $state.topnav as nav}
         {#if nav.title}
           <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
-            <SubNav mobil={!!hamburger} sub={nav}/>
+            <SubNav mobile={!!hamburger} sub={nav}/>
             <!--{#if nav.link}
-              <SubNav {mobil=!!hamburger} sub={nav}/>
+              <SubNav {data-mobile=!!hamburger} sub={nav}/>
             {:else}
               <span>{nav.title}
                 {#if nav.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
@@ -143,8 +143,8 @@
         {/if}
       {/each}
       {#if hamburger}
-        <li id="over">
-          <div tabindex="-1" aria-label="menu"></div>
+        <li id="over" tabindex="-1">
+          <button aria-label="menu"></button>
         </li>
       {/if}
     </ul>
@@ -191,7 +191,7 @@
     opacity: 1;
     /*z-index: 999;*/
   }
-  li#over div {
+  li#over button {
     background-color: var(--light-blue);
     background-image: url(/menu.svg);
     border-radius: 50% 0 0 50%;
@@ -204,8 +204,8 @@
     padding: 0.5rem;
     outline: none;
   }
-  nav:focus-within li#over div/*, ul:focus-within li#over button*/ {
-    outline: none;
+  ul:focus-within li#over button/*, ul:focus-within li#over button*/ {
+    /*outline: none;*/
     box-shadow: none;
     background-color: transparent;
     position: absolute;
@@ -223,7 +223,7 @@
     color: var(--pale-blue);
     background: none;
   }*/
-  li#over div:focus {
+  li#over button:focus {
     box-shadow: white 0 0 0 2px;
   }
   /*nav > ul, nav > div {
@@ -265,19 +265,20 @@
     /*overflow-y: hidden;*/ /* just for sticky over */
     z-index: 1;
   }
-  nav > ul:not([mobil='true']) {
-    margin-inline: auto;
-  }
-  nav > ul[mobil='true'] {
+  nav > ul[data-mobile='true'] {
     flex-direction: column;
     /*width: revert;*/
   }
-  nav > ul[mobil='true'] > li:not(:first-child) {
+  nav > ul:not([data-mobile='true']) {
+    margin-inline: auto;
+  }
+  nav > ul[data-mobile='true'] > li:not(:first-child) {
     display: none;
     opacity: 0;
   }
-  /*nav > ul[mobil='true']:active > li, */
-  nav:focus-within > ul[mobil='true'] > li {
+
+  /* :active is for Safari */
+  nav > ul[data-mobile='true']:active > li, nav > ul[data-mobile='true']:focus-within > li {
     display: list-item;
     opacity: 1;
   }
@@ -302,7 +303,7 @@
     min-height: 1.25rem;
     /*padding-block: 1.2rem;*/
   }
-  nav > ul[mobil='true'] > li:not(:first-of-type) { /*  */
+  nav > ul[data-mobile='true'] > li:not(:first-of-type) { /*  */
     /*padding-bottom: .5rem;*/
     padding-top: 1.5rem;
   }
@@ -371,12 +372,12 @@
     /*padding-bottom: 1rem;*/
     margin-inline-start: -1.5rem;
   }
-  ul[mobil='true'] ul {
+  ul[data-mobile='true'] ul {
     margin-inline-start: -1rem;
   }
 
   /* hover csak ha nem mobil */
-  :not([mobil='true']) li:hover ul, ul li:focus-within > ul {
+  ul:not([data-mobile='true']) > li:hover > ul, ul > li:focus-within > ul {
     visibility:visible;
     height: auto;
     opacity: 1;

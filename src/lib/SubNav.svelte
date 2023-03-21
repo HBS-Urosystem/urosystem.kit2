@@ -9,18 +9,19 @@
   //console.log($page)
 	//import { lang } from '$lib/stores'
   //const lang = $sitelang
-  export let /*post, */sub, dir, mobil = false
+  export let /*post, */sub, dir, mobile = false
   //console.log(sub)
   //$: post = $state.post
 
   let sublink
   //console.log('subnav',sub)
   //const subpage = _getPost($sitelang, sub.link) || {}
-  $: if (sub.link?.startsWith('#')) {
+  //$: 
+  if (sub.link?.startsWith('#')) {
     sublink = '/' + $sitelang + ($state.post.path ? '/' + $state.post.path : '') + sub.link
   } else if (sub.link?.startsWith('http')) {
     sublink = sub.link// + '#vhollo'
-    sub.http = true
+    sub.rel = 'external noopener noreferrer'
   } else if (sub.link?.startsWith('/')) {
     sublink = sub.link// + '#vhollo'
   } else {
@@ -44,10 +45,10 @@
   {/if}
 {:else}
   {#if sub.logo}
-    <a rel={sub.http ? "external noopener noreferrer" : ''} href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
+    <a rel={sub.rel || ''} href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
-    {#if sub.link && (!mobil || !sub.sublinks)}
-      <a rel={sub.http ? "external noopener noreferrer" : ''} class="{dir}" href="{sublink}">{sub.title}
+    {#if sub.link && (!mobile || !sub.sublinks)}
+      <a rel={sub.rel || ''} class="{dir}" href="{sublink}">{sub.title}
         {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
       </a>
     {:else}
@@ -79,7 +80,7 @@
   }
   span {
     /*cursor:default;*/
-    cursor:pointer;
+    cursor:default;
   }
   a.block, span.block {
     /*padding: .5rem 1rem .25rem;*/
