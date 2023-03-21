@@ -45,7 +45,7 @@
   {/if}
 {:else}
   {#if sub.logo}
-    <a rel={sub.rel || ''} href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
+    <a rel={sub.rel || ''} class="{dir}" href="{sublink}"><img src="{sub.logo}" alt="{sub.alt}"/></a>
   {:else if sub.title}
     {#if sub.link && (!mobile || !sub.sublinks)}
       <a rel={sub.rel || ''} class="{dir}" href="{sublink}">{sub.title}
@@ -76,17 +76,12 @@
   a, span {
     text-decoration: none;
     white-space: nowrap;
+    /*padding-block-start: .5rem;*/
     padding-inline-end: .5rem;
   }
   span {
     /*cursor:default;*/
     cursor:default;
-  }
-  a.block, span.block {
-    /*padding: .5rem 1rem .25rem;*/
-    display: block;
-    /*padding: .25rem 1rem 0;*/
-    padding: .25rem 1rem .5rem;
   }
 
   img {

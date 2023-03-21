@@ -114,28 +114,21 @@
         {#if nav.title}
           <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
             <SubNav mobile={!!hamburger} sub={nav}/>
-            <!--{#if nav.link}
-              <SubNav {data-mobile=!!hamburger} sub={nav}/>
-            {:else}
-              <span>{nav.title}
-                {#if nav.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
-              </span>
-            {/if}-->
-            {#if nav.modal}
+            <!--{#if nav.modal}
               {#each nav.modal.components || [] as comp}
                 <Components {comp}/>
               {/each}        
-            {/if}
+            {/if}-->
 
             {#if nav.sublinks}
               <ul>
                 {#each nav.sublinks as sub}
                   {#if sub.title}<li><SubNav {sub} dir='block' /></li>{/if}
-                  {#if sub.modal}
+                  <!--{#if sub.modal}
                     {#each sub.modal.components || [] as comp}
                       <Components {comp}/>
                     {/each}
-                  {/if}
+                  {/if}-->
                 {/each}
               </ul>
             {/if}
@@ -369,7 +362,7 @@
     max-width: 0;
     overflow-x: visible;
     text-transform: initial;
-    /*padding-bottom: 1rem;*/
+    padding-block: 0;
     margin-inline-start: -1.5rem;
   }
   ul[data-mobile='true'] ul {
@@ -399,7 +392,7 @@
     background: none;
 
     width: max-content;
-    margin: 1rem 0 0 .5rem;
+    margin-inline-start: .5rem;
     border-radius: 1.5rem;
     /*border: 2px transparent solid;*/
     /*padding: 2px;*/
