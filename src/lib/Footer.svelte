@@ -92,7 +92,8 @@
   }
   h5 {
     text-transform: uppercase;
-    padding: .25rem 1rem 0;
+    /*padding: .25rem 1rem 0 0;*/
+    padding-right: 1rem;
     margin-top: 0;
   }
   a {

@@ -106,7 +106,7 @@
       data-mobile={!!hamburger}>
       <li>
         <a href="/{$sitelang}" aria-label="home">
-          <img class={logoclass} src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
+          <img class="sitelogo {logoclass}" src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
         </a>
       </li>
       <!--{@debug topnav}-->
@@ -254,12 +254,13 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
     width: max-content;
-    padding-inline-start: 1rem;
+    /*padding-inline-start: 1rem;*/
     /*overflow-y: hidden;*/ /* just for sticky over */
     z-index: 1;
   }
   nav > ul[data-mobile='true'] {
     flex-direction: column;
+    margin-inline: 1rem;
     /*width: revert;*/
   }
   nav > ul:not([data-mobile='true']) {
@@ -284,13 +285,13 @@
     aspect-ratio: 100 / 100;
   }
   nav > ul > li {
-    padding-inline-end: 1.75rem;/*1.25+1.75rem;*/
+    padding-inline-end: 1.25rem;
     align-self: baseline;
     text-transform: uppercase;
     flex-shrink: 0;
   }
-  nav > ul > li:has(img) {
-    padding-inline-end: 3rem;/*1.25+1.75rem;*/
+  nav > ul > li:not(:first-of-type):has(img) {
+    padding-inline-end: 2.5rem;/*1.25+1.25rem;*/
   }
   nav > ul > li:not(:first-of-type) {
     min-height: 1.25rem;
@@ -300,27 +301,10 @@
     /*padding-bottom: .5rem;*/
     padding-top: 1.5rem;
   }
-  /*nav > ul > li a, nav > ul > li span {
-    display: block;
-    padding-block: 1rem;
+  nav > ul > li:last-of-type {
+    padding-inline-end: 0;
   }
-  nav > ul > li > span {
-    cursor: default;
-    padding-block: 1rem;
-  }*/
 
-  /*nav > ul > li:first-of-type {
-    height: 2.2rem;
-    height: 4rem;
-  }*/
-  /*nav > ul > li:first-of-type a {
-    height: 2.2rem;
-    margin-bottom: 1rem;
-    padding-block: 0;
-  }*/
-  /*nav > ul > li:first-of-type a {*/
-  /*nav > ul > li img {
-  }*/
   nav > ul > li:not(:first-of-type) img {
     height: 1.25rem;
     filter: invert();
@@ -329,29 +313,33 @@
     /*display: contents;*/
   }
 
-  a:has(img) {
-    /*text-decoration: none;*/
+  /*a:has(img) {
     display: inline-block;
-  }
+  }*/
 
   a:has(.sitelogo_ud) {
     padding-bottom: .5rem;
     padding-top: 0;
+    padding-inline-start: 1rem;
     /*margin-bottom: 1rem;*/
   }
 
-  img.sitelogo_us, img.sitelogo {
-    padding-inline-end: 1rem;
+  img.sitelogo_us {
+    /*padding-inline-end: 1rem;
+    padding-inline-start: 1rem;*/
     margin-bottom: -1.05rem;
     height: 3.226rem;
     aspect-ratio: 300 / 95;
   }
   img.sitelogo_ud {
-    padding-inline-end: 1rem;
+    /*padding-inline-end: 1rem;*/
     margin-bottom: -1.4rem;
     height: 3.5rem;
     aspect-ratio: 300 / 119;
   }
+  /*[data-mobile='true'] img.sitelogo {
+    margin-bottom: 0;
+  }*/
   ul ul {
     display: grid;
     visibility:hidden;
@@ -363,10 +351,10 @@
     overflow-x: visible;
     text-transform: initial;
     padding-block: 0;
-    margin-inline-start: -1.5rem;
+    margin-inline-start: 0;
   }
   ul[data-mobile='true'] ul {
-    margin-inline-start: -1rem;
+    margin-inline-start: 0;
   }
 
   /* hover csak ha nem mobil */
@@ -382,6 +370,9 @@
     border-radius: 1.5rem;
     border: 2px var(--mid-blue-75) solid;
   }*/
+  [data-mobile='true'] li li:first-of-type {
+    margin-block-start: 1rem;
+  }
   li li {
     /*justify-self: center;*/
     /*background-color: var(--pale-blue);
@@ -392,30 +383,23 @@
     background: none;
 
     width: max-content;
-    margin-inline-start: .5rem;
     border-radius: 1.5rem;
     /*border: 2px transparent solid;*/
     /*padding: 2px;*/
     /*width: auto;*/
   }
-  li li a {
-    padding: .25rem 1rem 0;
+  [data-mobile='true'] li li {
+    margin-inline-start: 1rem;
+  }
+
+  /*li li a {
+    padding: .5rem 1rem;
     display: block;
-  }
-  a {
-    text-decoration: none;
-  }
-  
-  /*ul select, ul option {
-    font-size: inherit;
-    line-height: inherit;
-    text-transform: uppercase;
-  }
-  ul option, ul select::before, ul option::before, ul select::after, ul option::after {
-    width: 0!important;
-    overflow-x: hidden;
-    display: inline;
   }*/
+  /*a {
+    text-decoration: none;
+  }*/
+  
   select, option {
     -webkit-appearance: none;
     -moz-appearance: none;

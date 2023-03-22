@@ -77,7 +77,7 @@
     text-decoration: none;
     white-space: nowrap;
     /*padding-block-start: .5rem;*/
-    padding-inline-end: .5rem;
+    padding-inline: .5rem;
   }
   span {
     /*cursor:default;*/
@@ -88,14 +88,14 @@
     filter: invert();
     /*width: 1.5rem;*/
     height: 1.25rem;
-    margin: -0.25rem 0.25rem;
   }
   img[aria-hidden="true"] {
     position: absolute;
+    margin: -0.125rem 0.25rem;
   }
 
   a:has(img:not([aria-hidden="true"])):first-of-type {
-    padding-inline-start: .75rem;
+    padding-inline-start: 0;
   }
 
 </style>
