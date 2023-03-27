@@ -219,7 +219,7 @@ top_ud:
             title: 연락처
           - lang: tr
             title: İletişim
-      - link: /b2b
+      - link: https://b2b.urosystem.com/
         titles:
           - lang: en
             title: B2B

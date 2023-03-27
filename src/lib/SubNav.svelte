@@ -52,7 +52,7 @@
         {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
       </a>
     {:else}
-      <span class="{dir}" tabindex="0">{sub.title}
+      <span class="{dir}" tabindex="-1">{sub.title}
         {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
       </span>
     {/if}

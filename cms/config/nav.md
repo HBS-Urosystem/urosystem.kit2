@@ -222,7 +222,7 @@ top:
             title: 협력사
           - lang: tr
             title: Ortaklarımız
-      - link: /b2b
+      - link: https://b2b.urosystem.com/
         titles:
           - lang: en
             title: B2B
