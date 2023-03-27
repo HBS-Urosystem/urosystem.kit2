@@ -1,7 +1,8 @@
 import _ from 'lodash'
 import mixing from 'mixing'
-import marked from 'marked'
+import { marked } from 'marked'
 import { variables } from '$lib/stores'
+//console.log({variables})
 
 const _site = variables.site
 
@@ -26,6 +27,7 @@ for (const p in allposts) {
 	//console.log(lang,slug,posts[lang][slug])
 }
 
+//console.log({allconfs})
 let theconf = []
 for (const p in allconfs) {
 	const parts = p.split('/')
@@ -36,29 +38,31 @@ for (const p in allconfs) {
 //console.log(allconfs,theconf)
 
 export async function _getConf(lang = 'en') {
-  let config = []
+  let config = {}
   /*const langs = await theconf['langs']().then(({metadata}) => metadata)
   //for (c in langs.langs)
   config[langs] = _.chain(c)
     .filter(lang => console.log('lang',lang))//.active)
     .value()
   console.log(config[langs])*/
+
+  //console.log({theconf})
   for (const b in theconf) {
-    //console.log('config[b]',await conf[b])
     const c = await theconf[b]().then(({metadata}) => metadata)
     config[Object.keys(c)[0]] = c[Object.keys(c)[0]]
-    //config.push(c[Object.keys(c)[0]])
-    //console.log(c)
   }
 
   const langs = `langs${_site}`
   const top = `top${_site}`
   const footer = `footer${_site}`
-  //console.log(top)
+
+  //console.log({config})
 
   _.remove(config[langs], (n) => { return !n.active })
   config.langs = config[langs]
+
   //console.log(langs,config.langs)
+
   config.thislang = null
   for (const l of config.langs) {
     if (l.id == lang) config.thislang = l
@@ -133,7 +137,7 @@ export async function _getConf(lang = 'en') {
 export async function _getPost({path, lang = 'en', sub = null}) {
   const p = await _findPost({path, lang})
   //console.log({lang},{path},{sub})
-  //console.log('_getPost',p.menutitle)
+  //console.log('_getPost',p/*.menutitle*/)
   let post = {...p}
   post.path = path
   //console.log('...p',p)
@@ -187,7 +191,6 @@ export async function _getPost({path, lang = 'en', sub = null}) {
 export async function _findPost({path, lang}) {
   path = path || 'index'
   const path_site = `${path}${_site}`
-  //console.log({path_site})
   for (const s in theposts[lang]) {
     if (s.endsWith(path_site)) {
       //console.log({path_site})

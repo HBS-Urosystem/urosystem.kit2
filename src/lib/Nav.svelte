@@ -13,7 +13,7 @@
 <script>
   import { createEventDispatcher } from "svelte";
   import validate from "./_validation";
-  let duration = "450ms";
+  let duration = "250ms";
   let offset = 0;
   let tolerance = 4;
   let headerClass = "pin";
@@ -52,7 +52,7 @@
   import { snapto } from '$lib/stores'
   $: {
     if (!!$snapto) {
-      scrollnav.scrollTo({element: $snapto, offset: -75, onDone: _snap})
+      scrollnav.scrollTo({element: $snapto, duration: 500, offset: -75, onDone: _snap})
       //scrollnav.scrollTo({element: $snapto, offset: 0})
       function _snap() {
         scrollnav.scrollTo({element: $snapto, offset: 0, onDone: () => {$snapto = false} })
@@ -91,50 +91,44 @@
         {/each}
       </select>
       <ul>
-        <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener" target="_blank"><img src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
-        <li><a href="https://www.instagram.com/urodapter/" rel="noopener" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
-        <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener" target="_blank"><img src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
-        <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener" target="_blank"><img src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
-        <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener" target="_blank"><img src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
-        <li><a href="https://vk.com/urodapter" rel="noopener" target="_blank"><img src="/uploads/bxl-vk.svg" alt="vk"></a></li>
-        <li><a href="https://ok.ru/urodapter" rel="noopener" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>
-        <li><a href="https://linktr.ee/urodapter" rel="noopener" target="_blank"><img src="/uploads/linktree.svg" alt="linktree"></a></li>
+        <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
+        <li><a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
+        <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
+        <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
+        <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
+        <li><a href="https://vk.com/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-vk.svg" alt="vk"></a></li>
+        <li><a href="https://ok.ru/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>
+        <li><a href="https://linktr.ee/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/linktree.svg" alt="linktree"></a></li>
       </ul>
     </div>
     <ul 
       bind:clientWidth={wul}
-      mobil={!!hamburger}>
+      data-mobile={!!hamburger}>
       <li>
-        <a sveltekit:prefetch href="/{$sitelang}" aria-label="home">
-          <img class={logoclass} src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
+        <a href="/{$sitelang}" aria-label="home">
+          <img class="sitelogo {logoclass}" src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
         </a>
       </li>
       <!--{@debug topnav}-->
-      {#each $state.topnav as nav}<!--{@debug nav}-->
+      {#each $state.topnav as nav}
         {#if nav.title}
           <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
-            {#if nav.link}
-              <SubNav sub={nav}/>
-            {:else}
-              <span tabindex="0">{nav.title}
-                {#if nav.sublinks} <img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
-              </span>
-            {/if}
-            {#if nav.modal}
+            <SubNav mobile={!!hamburger} sub={nav}/>
+            <!--{#if nav.modal}
               {#each nav.modal.components || [] as comp}
                 <Components {comp}/>
               {/each}        
-            {/if}
+            {/if}-->
 
             {#if nav.sublinks}
               <ul>
                 {#each nav.sublinks as sub}
                   {#if sub.title}<li><SubNav {sub} dir='block' /></li>{/if}
-                  {#if sub.modal}
+                  <!--{#if sub.modal}
                     {#each sub.modal.components || [] as comp}
                       <Components {comp}/>
                     {/each}
-                  {/if}
+                  {/if}-->
                 {/each}
               </ul>
             {/if}
@@ -142,7 +136,7 @@
         {/if}
       {/each}
       {#if hamburger}
-        <li id="over" tabindex="0">
+        <li id="over" tabindex="-1">
           <button aria-label="menu"></button>
         </li>
       {/if}
@@ -175,9 +169,9 @@
     overflow-x: auto;
   }
   nav.moved {
-    top: -3rem;
-    /*border-bottom: 2px var(--light-blue-75) solid;*/
+    top: -4rem;
     background-color: var(--dark-blue);
+    border-bottom: 2px var(--light-blue-75) solid;
   }
   li#over {
     /*position: sticky;*/
@@ -186,12 +180,9 @@
     padding: 0;
     display: block;
     position: fixed;
+    top: 4.75rem;
     opacity: 1;
     /*z-index: 999;*/
-  }
-  nav:focus-within li#over, ul:focus-within li#over {
-    opacity: 0;
-    outline: none;
   }
   li#over button {
     background-color: var(--light-blue);
@@ -200,17 +191,31 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 75%;
-    margin: 0 0 -.75rem;
-    width: 2.75rem;
-    height: 2.75rem;
-    padding: 0.75rem;
+    margin: 0 0 -.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
     outline: none;
   }
-  nav:not(.moved) li li {
+  ul:focus-within li#over button/*, ul:focus-within li#over button*/ {
+    /*outline: none;*/
+    box-shadow: none;
+    background-color: transparent;
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    /*visibility: hidden;*/
+  }
+  /*nav:focus-within li#over, ul:focus-within li#over {
+    background-image: url(/uploads/open-up.svg);
+    background-position: 0% 90%;
+  }*/
+  /*nav:not(.moved) li li {
     border: solid var(--light-blue-75);
     color: var(--pale-blue);
     background: none;
-  }
+  }*/
   li#over button:focus {
     box-shadow: white 0 0 0 2px;
   }
@@ -246,25 +251,28 @@
   nav > ul {
     display: flex;
     flex-wrap: nowrap;
-    padding-inline-start: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     width: max-content;
+    /*padding-inline-start: 1rem;*/
     /*overflow-y: hidden;*/ /* just for sticky over */
     z-index: 1;
   }
-  nav > ul[mobil='true'] {
+  nav > ul[data-mobile='true'] {
     flex-direction: column;
+    margin-inline: 1rem;
     /*width: revert;*/
   }
-  nav > ul:not([mobil='true']) {
+  nav > ul:not([data-mobile='true']) {
     margin-inline: auto;
   }
-  nav > ul[mobil='true'] > li:not(:first-child) {
+  nav > ul[data-mobile='true'] > li:not(:first-child) {
     display: none;
     opacity: 0;
   }
-  nav > ul[mobil='true']:active > li, nav > ul[mobil='true']:focus-within > li {
+
+  /* :active is for Safari */
+  nav > ul[data-mobile='true']:active > li, nav > ul[data-mobile='true']:focus-within > li {
     display: list-item;
     opacity: 1;
   }
@@ -277,55 +285,61 @@
     aspect-ratio: 100 / 100;
   }
   nav > ul > li {
-    padding-inline-end: 1.75rem;
+    padding-inline-end: 1.25rem;
     align-self: baseline;
     text-transform: uppercase;
     flex-shrink: 0;
   }
+  nav > ul > li:not(:first-of-type):has(img) {
+    padding-inline-end: 2.5rem;/*1.25+1.25rem;*/
+  }
   nav > ul > li:not(:first-of-type) {
     min-height: 1.25rem;
-    margin-block: 1.2rem;
+    /*padding-block: 1.2rem;*/
   }
-  nav > ul > li a {
-    /*text-shadow: 1px 1px 2px var(--dark-blue-75);*/
-    display: block;
-    padding-block: 1rem;
+  nav > ul[data-mobile='true'] > li:not(:first-of-type) { /*  */
+    /*padding-bottom: .5rem;*/
+    padding-top: 1.5rem;
   }
-  nav > ul > li > span {
-    /*text-shadow: 1px 1px 2px var(--dark-blue-75);*/
-    cursor: default;
-    padding-block: 1rem;
+  nav > ul > li:last-of-type {
+    padding-inline-end: 0;
   }
-  nav > ul > li:first-of-type {
-    height: 4rem;
-  }
-  nav > ul > li:first-of-type a {
-    height: 2.2rem;
-    margin-bottom: 1rem;
-    padding-block: 0;
-  }
-  /*nav > ul > li img {
-  }*/
+
   nav > ul > li:not(:first-of-type) img {
     height: 1.25rem;
     filter: invert();
+    position: absolute;
+    margin: -0.25rem 0.25rem;
+    /*display: contents;*/
   }
 
-  img.sitelogo, img.sitelogo_ud {
-    display: block;
-    padding-inline-end: 1rem;
-    margin-bottom: -1.4rem;
-    height: 3.5rem;
-    aspect-ratio: 300 / 119;
+  /*a:has(img) {
+    display: inline-block;
+  }*/
+
+  a:has(.sitelogo_ud) {
+    padding-bottom: .5rem;
+    padding-top: 0;
+    padding-inline-start: 1rem;
+    /*margin-bottom: 1rem;*/
   }
+
   img.sitelogo_us {
-    /*margin-bottom: -0.9rem;
-    aspect-ratio: 407 / 100;*/
-    padding-inline-end: 1rem;
+    /*padding-inline-end: 1rem;
+    padding-inline-start: 1rem;*/
     margin-bottom: -1.05rem;
     height: 3.226rem;
     aspect-ratio: 300 / 95;
   }
+  img.sitelogo_ud {
+    /*padding-inline-end: 1rem;*/
+    margin-bottom: -1.4rem;
+    height: 3.5rem;
+    aspect-ratio: 300 / 119;
+  }
+  /*[data-mobile='true'] img.sitelogo {
+    margin-bottom: 0;
+  }*/
   ul ul {
     display: grid;
     visibility:hidden;
@@ -335,11 +349,16 @@
     width: 0;
     max-width: 0;
     overflow-x: visible;
-    margin-inline-start: -1rem;
     text-transform: initial;
-    /*padding-bottom: 1rem;*/
+    padding-block: 0;
+    margin-inline-start: 0;
   }
-  ul li:hover ul, ul li:focus-within ul {
+  ul[data-mobile='true'] ul {
+    margin-inline-start: 0;
+  }
+
+  /* hover csak ha nem mobil */
+  ul/*:not([data-mobile='true'])*/ li:hover ul/*, ul li:active ul*/, ul li:focus-within ul {
     visibility:visible;
     height: auto;
     opacity: 1;
@@ -351,40 +370,36 @@
     border-radius: 1.5rem;
     border: 2px var(--mid-blue-75) solid;
   }*/
+  [data-mobile='true'] li li:first-of-type {
+    margin-block-start: 1rem;
+  }
   li li {
     /*justify-self: center;*/
     /*background-color: var(--pale-blue);
     color: black;
     */
-    border: solid var(--light-blue-75);
+    /*border: solid var(--light-blue-75);*/
     color: var(--pale-blue);
     background: none;
 
     width: max-content;
-    margin: .5rem 0 0;
     border-radius: 1.5rem;
     /*border: 2px transparent solid;*/
     /*padding: 2px;*/
     /*width: auto;*/
   }
-  li li a {
-    padding: .25rem 1rem 0;
+  [data-mobile='true'] li li {
+    margin-inline-start: 1rem;
+  }
+
+  /*li li a {
+    padding: .5rem 1rem;
     display: block;
-  }
-  a {
-    text-decoration: none;
-  }
-  
-  /*ul select, ul option {
-    font-size: inherit;
-    line-height: inherit;
-    text-transform: uppercase;
-  }
-  ul option, ul select::before, ul option::before, ul select::after, ul option::after {
-    width: 0!important;
-    overflow-x: hidden;
-    display: inline;
   }*/
+  /*a {
+    text-decoration: none;
+  }*/
+  
   select, option {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -403,7 +418,7 @@
     /*padding: 0.65em 1.75em 0 2em;*/
     padding: 0.4em 1.75em 0 2em;
     background: url("/uploads/bx-world.svg") no-repeat left, url("/uploads/open-down.svg") no-repeat right;
-    background-size: 1.5em;
+    background-size: 1.5em, 1.25em;
     filter: invert();
     text-transform: uppercase;
   }  

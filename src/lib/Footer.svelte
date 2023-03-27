@@ -19,18 +19,18 @@
 <footer>
   <div>
     {#if $sitelang == 'hu' && _site != '_ud'}
-    <a href="/hu/company#ginop" aria-label="ginop"><img loading="lazy" src="/uploads/ginop.png" alt="GINOP pályázat" style="width:20ch;display:block;"/></a>
+      <a href="/hu/company#ginop" aria-label="ginop"><img loading="lazy" src="/uploads/ginop.png" alt="GINOP pályázat" style="width:20ch;display:block;"/></a>
     {/if}
-    <a href="https://www.urosystem.com" rel="opener" target="_blank" aria-label="urosystem home"><img loading="lazy" src="/uploads/urosystem_logo_02_web.svg" alt="" style="filter:invert();width:20ch;display:block; aspect-ratio: 100 / 90.861"/></a>
+    <a href="https://www.urosystem.com" aria-label="urosystem home"><img loading="lazy" src="/uploads/urosystem_logo_02_web.svg" alt="" style="filter:invert();width:20ch;display:block; aspect-ratio: 100 / 90.861"/></a>
     {#if $sitelang == 'hu' && _site != '_ud'}
-    <a href="/hu/company#nkfi" aria-label="nkfi"><img loading="lazy" src="/uploads/nkfi.png" alt="NKFI pályázat" style="width:20ch;display:block;"/></a>
+      <a href="/hu/company#nkfi" aria-label="nkfi"><img loading="lazy" src="/uploads/nkfi.png" alt="NKFI pályázat" style="width:20ch;display:block;"/></a>
     {/if}
   </div>
   <nav>
     <ul>
       {#each footnav as nav}
       <li>
-        <h5><span tabindex="0">{nav.title}</span></h5>
+        <h5><span>{nav.title}</span></h5>
         {#if sublinks = nav.sublinks}
           {#each sublinks as sub}
             <SubNav {sub} dir='block'/>
@@ -43,7 +43,7 @@
           {/each}
         {/if}
         {:else if sublinks = findPosts($sitelang, nav.link)}
-          <h4><span tabindex="0">{nav[$sitelang] || nav['en']}</span></h4>
+          <h4><span>{nav[$sitelang] || nav['en']}</span></h4>
           {#each sublinks as sub}
           <SubNav {sub}/>
           {/each}-->
@@ -52,11 +52,11 @@
       {/each}
       <!--<li>
         <h4>FOLLOW US</h4>
-        <a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-facebook.svg" alt="facebook"/></a>
-        <a href="https://www.instagram.com/urodapter/" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-instagram.svg" alt="instagram"/></a>
-        <a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-youtube.svg" alt="youtube"/></a>
-        <a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a>
-        <a href="https://twitter.com/UroSystem_Inc" rel="noopener" target="_blank"><img loading="lazy" src="/uploads/bxl-twitter.svg" alt="twitter"/></a>
+        <a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-facebook.svg" alt="facebook"/></a>
+        <a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-instagram.svg" alt="instagram"/></a>
+        <a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-youtube.svg" alt="youtube"/></a>
+        <a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a>
+        <a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-twitter.svg" alt="twitter"/></a>
       </li>-->
       <!--<li>
         <h4>ACCEPTED PAYMENTS</h4>
@@ -92,15 +92,16 @@
   }
   h5 {
     text-transform: uppercase;
-    padding: .25rem 1rem 0;
+    /*padding: .25rem 1rem 0 0;*/
+    padding-right: 1rem;
     margin-top: 0;
   }
   a {
     text-decoration: none;
   }
-  h5 + :global(a:first-of-type)/*, h4 + img*/ {
-    padding-inline-start: 1rem;
-  }
+  /*h5 + a:has(img) {
+    padding-inline-start: .75rem;
+  }*/
   div {
     /*background-color: var(--light-blue);*/
     display: flex;

@@ -1,53 +1,28 @@
 <script context="module">
-  //export const hydrate = true
-  //export const prerender = true
-  //export const prerender = false
-
   import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
-  const _siteurl = variables.siteurl[variables.site] || 'https://www.urosystem.com'
   //import { onMount } from 'svelte';
   //import * as scroller from "svelte-scrollto"
   //import { amp, browser, dev, prerendering } from '$app/env'
-</script>
-<script>
-//console.log($state.thislang.id, $sitelang)
+  const _site = variables.site
+  const _siteurl = variables.siteurl[_site] || 'https://www.urosystem.com'
 </script>
 
 <svelte:head>
-<!--{#if $state && !!$state.id}-->
-  {#if $state.post.subpage}
-    <title>{$state.post.subpage.title}</title>
-    <meta name="description" content="{$state.post.subpage.description}">
-    <meta name="keywords" content="{$state.post.subpage.keywords}">
-    {#if $state.post.subpage.meta}
-      {#each $state.post.subpage.meta as meta}
-        <meta name={meta.name} content={meta.content}>
-      {/each}
+  
+  {#each $state.langs || [] as lang}
+    {#if !!lang.active}
+      <link rel="alternate" href="{_siteurl}/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
     {/if}
-  {:else}
-    <title>{$state.post.title}</title>
-    <meta name="description" content="{$state.post.description}">
-    <meta name="keywords" content="{$state.post.keywords}">
-    {#if $state.post.meta}
-      {#each $state.post.meta as meta}
-        <meta name={meta.name} content={meta.content}>
-      {/each}
-    {/if}
-  {/if}
-  {#if $state.post.canonical}
-  <link rel="canonical" href="{$state.post.canonical}"/>
-  {:else}
-  <link rel="canonical" href="{_siteurl}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
-  {/if}
-<!--{/if}-->
+  {/each}
+
 </svelte:head>
 
 <main>
 <!--{#if $state && !!$state.id}-->
   {#if !!$state.post.hero}
-    <header class="full" style="{$state.post.hero.background ? $state.post.hero.background : ``}" on:click={() => $snapto = '#content'}>
+    <header class="full" style="{$state.post.hero.background ? $state.post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'}>
       {#if $state.post.herotitle && $state.post.herotitle != ''}
       <h1>{$state.post.herotitle}</h1>
       {:else if $state.post.herotitle != ''}
@@ -72,7 +47,7 @@
       {/if}
     </header>
   {:else}
-    <header on:click={() => $snapto = '#content'}>
+    <header on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'}>
       <h1>{$state.post.title}</h1>
       {#if $state.post.subhero}
         {#each $state.post.subhero.components || [] as comp}
@@ -122,7 +97,7 @@
       <h2>{$state.post.title}</h2>
       <ul>
         {#each $state.post.subpages as sub}
-        <li class:active={$state.post.subpage?.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
+        <li class:active={$state.post.subpage.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
         {/each}
       </ul>
     </nav>

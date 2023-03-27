@@ -18,12 +18,14 @@
   {#if comp.title}<h2>{comp.title}</h2>{/if}
   {#if comp.subhead}<div><h3>{comp.subhead}</h3></div>{/if}
   {#if comp.text}<div>{@html comp.text}</div>{/if}
-  <section>
-    {#each comp.components || [] as c}
-    <!--c.lang = comp.lang-->
-    <svelte:component this={options[c.type]} comp={c}/>
-    {/each}
-  </section>
+  {#if comp.components?.length}
+    <section>
+      {#each comp.components as c}
+      <!--c.lang = comp.lang-->
+      <svelte:component this={options[c.type]} comp={c}/>
+      {/each}
+    </section>
+  {/if}
 </article>
 
 <style>

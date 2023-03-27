@@ -37,7 +37,7 @@ function getLink(url) {
     {#each comp.items || [] as item}
     {#if link = getLink(item.url)}
       <li style="{item.src ? `--marker:url(${item.src})` : ''}">
-        <!--<a href={item.url.startsWith('http') ? `${item.url}` : `/${lang}${item.url}`} rel="noopener" target="{item.url.startsWith('http') ? `_blank` : ``}">-->
+        <!--<a href={item.url.startsWith('http') ? `${item.url}` : `/${lang}${item.url}`} rel="noopener noreferrer" target="{item.url.startsWith('http') ? `_blank` : ``}">-->
         {#if link.rel}
         <a href={link.url} rel="{link.rel}" target="{link.target}">
           {item.title}

@@ -5,6 +5,7 @@ fallback: en
 components:
   - type: article
     title: Rólunk
+    anchor: about
     text: >-
       Az Egyesült Államok-beli Élelmiszer- és Gyógyszerügyi Hivatal (FDA)
       megfogalmazása alapján az interstitiális cystitis/hólyagfájdalom szindróma
@@ -30,9 +31,9 @@ components:
 
       <center> <dl> <dt>Cím</dt> <dd>1137-H Budapest</dd> <dd>Szent István park 26. fszt. 2.</dd> <dd>Hungary</dd>
 
-      <dt>Email</dt> <dd><a href="mailto:mail@urosystem.com" rel="noopener" target="_blank">mail@urosystem.com</a></dd>
+      <dt>Email</dt> <dd><a href="mailto:mail@urosystem.com" rel="noopener noreferrer" target="_blank">mail@urosystem.com</a></dd>
 
-      <dt>Phone</dt> <dd><a href="tel:+36209342674" rel="noopener" target="_blank">+36 20 934 2674</a></dd>
+      <dt>Phone</dt> <dd><a href="tel:+36209342674" rel="noopener noreferrer" target="_blank">+36 20 934 2674</a></dd>
 
       <dt>Közösségi (EU VAT) adószám</dt> <dd>HU22923820</dd> </dl> </center>
 ---

@@ -7,5 +7,3 @@
     goto(`https://b2b.urosystem.com`, { replaceState: true });
 	})
 </script>
-
-<slot></slot>

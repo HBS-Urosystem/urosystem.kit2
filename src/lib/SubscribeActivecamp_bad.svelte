@@ -1,5 +1,4 @@
 <script context=module>
-  //import { browser } from '$app/env';
   import { onMount } from 'svelte'
 </script>
 

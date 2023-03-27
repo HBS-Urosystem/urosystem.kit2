@@ -1,5 +1,10 @@
 ---
 langs_ud:
+  - id: en
+    title: English
+    dir: ltr
+    font: default
+    active: true
   - id: ar
     title: العربية
     dir: rtl
@@ -10,11 +15,6 @@ langs_ud:
     id: de
     title: Deutsch
     active: false
-  - id: en
-    title: English
-    dir: ltr
-    font: default
-    active: true
   - id: es
     title: Español
     dir: ltr

@@ -1,16 +1,8 @@
-@tailwind base;
-/* REVERTING some TW declarations */
-img, svg {
-  display: initial;
-  vertical-align: unset;
-}
-select {
-  color: fieldtext;
-}
-
-/* INSERTED here the original GLOBAL.CSS */
+/* Write your global styles here, in PostCSS syntax */
 
 /*! minireset.css v0.0.7 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+/* UROSYSTEM globals */
 :root {
   --white: #fff;
   --dark-blue: #072c3f;
@@ -47,7 +39,8 @@ select {
   --fluid-typography-ratio: 0.334;
   --rem: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 1vw);*/
   --user-font-scale: 1rem - 16px;
-  --rem: clamp(0.875rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.125rem);
+  /*--rem: clamp(0.875rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.125rem);*/
+  --rem: clamp(0.875rem, 0.4626rem + 0.9309vw + var(--user-font-scale), 1.125rem);
 
   font-size: var(--rem);
 }
@@ -170,13 +163,25 @@ aside {
 
 /*main > div:not(:has(li)) {*/
 main > div {
-  text-align: center;
   margin-inline: auto;
 }
-main > div article {
-  padding-bottom: var(--gap);
-  text-align: initial;
+main > div > aside {
+  text-align: center;
 }
+main > div > *:not(aside)/*article */{
+  /*text-align: initial;*/
+  padding: var(--gap) var(--sides);
+}
+
+a.block, span.block, 
+[data-mobile='false'] a, [data-mobile='false'] span {
+  /*padding: .5rem 1rem .25rem;*/
+  display: block;
+  /*padding: .25rem 1rem 0;*/
+  padding: .5rem .125rem;
+}
+
+
 article > div, article > details, aside > div, figcaption {
   max-width: 56ch;
   margin: 0 auto;
@@ -186,11 +191,11 @@ div > figure {
   margin-bottom: 2rem;
 }
 
-header ~ nav, header {
+header ~ nav, main > header {
   padding: var(--rem) var(--sides);
-  /*text-align: center;*/
-  /*background-color: var(--light-blue);*/
-  background-image: var(--grad-light-blue);
+}
+header ~ nav {
+  background-image: var(--grad-dark-blue);
 }
 header ~ nav ul, header > nav ul {
   display: flex;
@@ -205,6 +210,12 @@ header ~ nav li, header > nav li {
 section {
   justify-content: center;
 }
+section:has(aside + aside) {
+  justify-content:space-around;
+}
+section > aside {
+  padding: 0;
+}
 
 section, fieldset {
   display: flex;
@@ -216,10 +227,11 @@ section > article, section > div {
   flex: 1 0 25ch;
   padding: 0;
 }
-article:not(:has(> section)) {
+article:not(:has(> section), > div) {
   display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: var(--gap);
 }
 fieldset { 
   padding: 0;
@@ -324,7 +336,7 @@ article h4, article h5, article h6 {
   -webkit-hyphens:auto;-ms-hyphens:auto;hyphens: auto;
 }
 @supports ((-webkit-hyphens: auto) or (-ms-hyphens: auto) or (hyphens: auto)) {
-  article p:not(figcaption *):not(li *):not(aside *)/*, article h4, article h5, article h6*/ {
+  article p:not(figcaption *):not(li *):not(aside *), article ol:not(li *):not(aside *), a≈rticle ul:not(li *):not(aside *)/*, article h4, article h5, article h6*/ {
     text-align: justify;
   }
 }
@@ -343,13 +355,17 @@ article p, article ul, article ol, article dl, article table, aside p, aside ul,
   vertical-align: baseline;
   color: var(--pale-blue);
 }
-article :not(figcaption) > p:first-child, article ul:first-child, article ol:first-child, article dl:first-child, article table:first-child, main aside p:first-child, main aside ul:first-child, main aside ol:first-child, main aside dl:first-child, aside table:first-child, main > div > :not(article):not(aside):first-child {
+/*article :not(figcaption, ol, ul) p:first-child, */article ul:first-child, article ol:first-child, article dl:first-child, article table:first-child, main aside p:first-child, main aside ul:first-child, main aside ol:first-child, main aside dl:first-child, aside table:first-child, main > div > :not(article):not(aside):first-child {
   margin-top: 2em;
 }
-article p:last-child, article ul:last-child, article ol:last-child, article dl:last-child, article table:last-child, aside p:last-child, aside ul:last-child, aside ol:last-child, aside dl:last-child, aside table:last-child {
+/*article p:last-child, article ul:last-child, article ol:last-child, article dl:last-child, article table:last-child, aside p:last-child, aside ul:last-child, aside ol:last-child, aside dl:last-child, aside table:last-child {
   padding-bottom: 1em;
   margin-bottom: 0;
-}
+}*/
+/*article *:not(li):last-child {
+  padding-bottom: .25rem;
+  margin-bottom: 0;
+}*/
 /*aside p {
   margin-top: 0;
 }*/
@@ -380,12 +396,15 @@ hr {
   list-style: initial;
   margin-inline-start: 1em;
 }*/
-article ul {
+article ol, article ul {
   /*list-style: none;*/
   list-style: initial;
   /*margin-inline-start: 0;*/
   padding-inline-start: 1rem;
 }
+/*article:last-child {
+  margin-bottom: calc(var(--gap2) + var(--gap));
+}*/
 
 article li > a:first-child {
   text-decoration: none;
@@ -393,7 +412,7 @@ article li > a:first-child {
   flex-basis: 100%;
   border-bottom: 2px solid;
   border-color: var(--pale-blue);
-  /*margin-bottom: 1.5rem;*/
+  margin-bottom: 1.5rem;
   position: relative;
   padding-inline-end: 1.5rem;
   /*margin-right: 1.5rem;*/
@@ -476,6 +495,32 @@ dt {
   transform: rotate(180deg);
 }
 
+blockquote {
+  font-style: italic;
+}
+cite {
+  text-align: right;
+  display: block;
+  font-style: normal;
+}
+
+li, summary {
+  text-align: start;
+}
+
 /* TAILWIND */
-@tailwind components;
-@tailwind utilities;
+/*@tailwind components;
+@tailwind utilities;*/
+
+/* REVERTING some TW declarations? */
+/*img, svg {
+  display: initial;
+  vertical-align: unset;
+}
+select {
+  color: var(--white);
+}
+button, input, optgroup, select, textarea {
+  line-height: inherit;
+}*/
+

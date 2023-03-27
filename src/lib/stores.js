@@ -1,22 +1,24 @@
-import { writable as persistent } from "svelte-local-storage-store"
-import { writable/*, readable, derived*/ } from 'svelte/store'
+//import { writable as persistent } from "svelte-local-storage-store"
+import { readable, writable, get, derived } from 'svelte/store'
+import { browser } from "$app/environment";
 
 export const state = writable({})
 export const moved = writable(false)
 export const snapto = writable(false)
-export const sitelang = persistent('frontend_lang', 'en')
-//export const pagepath = writable()
-//export const sitelang = writable('en')
-export const cookies = persistent('cookieconsent_status', false)
-export const gateway = persistent('gateway', {})
-//export const gateway = writable({})
 
-//import { persist, localStorage, cookieStorage } from "@macfja/svelte-persistent-store"
-//export let name = persist(writable("John"), localStorage(), "name")
+//export const sitelang = persistent('frontend_lang', 'en')
+//export const cookies = persistent('cookieconsent_status', false)
+//export const gateway = persistent('gateway', {})
 
-//export let lang = persist(writable('en'), cookieStorage(), 'frontend_lang')
-//export let cookies = persist(writable(false), cookieStorage(), 'cookieconsent_status')
-//export const moved = writable(false)
+export const sitelang = !browser || !typeof localStorage.sitelang ? writable('en') : writable(browser && localStorage.sitelang || 'en')
+sitelang.subscribe((value) => browser && (localStorage.setItem(`sitelang`, value)))
+
+export const cookies = !browser || !typeof localStorage.cookies ? writable(false) : writable(JSON.parse(browser && localStorage.cookies || false))
+cookies.subscribe((value) => browser && (localStorage.setItem(`cookies`, value)))
+
+export const gateway = !browser || !typeof localStorage.gateway ? writable({}) : writable(JSON.parse(browser &&  localStorage.gateway || '{}'))
+gateway.subscribe((value) => browser && (localStorage.setItem(`gateway`, JSON.stringify(value))))
+
 
 export const variables = {
   site: import.meta.env.VITE_SITE || '',

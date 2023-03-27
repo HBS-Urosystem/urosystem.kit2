@@ -100,7 +100,7 @@ components:
 
           IBSA has the right to deliver iAluRil® packages with iAluadapter®/UroDapter® and/or the adapter as a stand-alone product on the nonexclusive basis in the following countries:  Ukraine, Russia, Bahrein, Oman, Kuwait, Qatar, Saudi Arabia, The United Arab Emirates, Egypt, Algeria, Jordan, Palestine, Lebanon, Iraq, Libya, Morocco, Tunisia, Israel, Iran, South Korea, Indonesia, China, Singapore, Taiwan, Turkmenistan, Malaysia, Colombia, Argentina, Barbados, Bolivia, Brazil, Chile, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Paraguay, Peru, Venezuela, Nigeria, Kenya, Gabon and Ghana.
 
-          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener" target="_blank">IBSA Global Network</a></li></ul>
+          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener noreferrer" target="_blank">IBSA Global Network</a></li></ul>
     fixed: true
   - type: images
     slide: false

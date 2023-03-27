@@ -105,7 +105,7 @@ components:
 
           Az IBSA, akár az iAluRil®-lal együtt csomagolva, akár az iAluadapter®-t (UroDapter®-t) önálló termékként, kizárólagossági jog nélkül árusíthatja a következő országokban: Ukrajna, Oroszország, Bahrein, Omán, Kuvait, Katar, Szaúd-Arábia, Egyesült Arab Emírségek, Algéria, Jordánia, Palesztina, Libanon, Líbia, Marokkó, Tunézia, Izrael, Irán, Dél-Korea, Indonézia, Kína, Szingapúr, Tajvan, Türkmenisztán, Malaysia, Kolumbia, Argentína, Barbados, Bolívia, Brazília, Chile, Costa Rica, Dominikai Köztársaság, Ecuador, El Salvador, Guatemala, Honduras, Mexikó, Nicaragua, Panama, Paraguay, Peru, Venezuela, Nigéria, Kenya, Gabon és Ghána.
 
-          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener" target="_blank">IBSA Global Network</a></li></ul>
+          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener noreferrer" target="_blank">IBSA Global Network</a></li></ul>
     fixed: true
   - type: images
     slide: false

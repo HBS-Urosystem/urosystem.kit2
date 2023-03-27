@@ -89,7 +89,7 @@ components:
 
           IBSA 는 아래 명시된 국가에서 비 독점적으로 iAluadapter®/UroDapter® 및/또는 어댑터가 포함 된 iAluRil® 패키지를 독립형 제품으로 제공 할 권리가 있습니다. 우크라이나, 러시아, 바레인, 오만, 쿠웨이트, 카타르, 사우디 아라비아, 아랍 에미리트, 이집트, 알제리, 요르단, 팔레스타인, 레바논, 이라크, 리비아, 모로코, 튀니지, 이스라엘,이란, 대한민국, 인도네시아, 중국, 싱가포르, 대만, 투르크 메니스탄, 말레이시아, 콜롬비아, 아르헨티나, 바베이도스, 볼리비아, 브라질, 칠레, 코스타리카, 도미니카 공화국, 에콰도르, 엘살바도르, 과테말라, 온두라스, 멕시코,니카라과, 파나마, 파라과이, 페루, 베네수엘라, 나이지리아, 케냐, 가봉, 가나.
 
-          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener" target="_blank">IBSA Global Network</a></li></ul>
+          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener noreferrer" target="_blank">IBSA Global Network</a></li></ul>
     fixed: true
   - type: images
     slide: false

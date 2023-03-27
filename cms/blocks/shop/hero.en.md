@@ -19,7 +19,6 @@ components:
     title: ""
     text: "### A urological syringe adapter which completely replaces the catheter:
       it enables painless and complication-free bladder instillation"
-    below: ""
   - type: grid
     slide: false
     components:

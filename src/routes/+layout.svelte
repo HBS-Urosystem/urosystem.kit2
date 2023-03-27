@@ -1,76 +1,57 @@
 <script context="module">
-  //export const hydrate = false
-  //export const prerender = true
+  import "/src/app.postcss"
   import { onMount } from 'svelte'
-  import { get } from 'svelte/store'
+  //import { get } from 'svelte/store'
   import { state, sitelang, cookies, variables } from '$lib/stores'
-  import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
-  import Nav from '$lib/NavNew.svelte'
+  import { dev, /*amp, browser,*/ /*prerendering*/ } from '$app/environment'
+  import Nav from '$lib/Nav.svelte'
   import Footer from '$lib/Footer.svelte'
   import Cookies from '$lib/Cookies.svelte'
 
   const _site = variables.site
-
-  export const load = async ({ params, fetch, page }) => {
-    let { lang, path } = {...page.params}
-    let u = []
-		if (!!path) {
-      u.push(lang)
-      //u.push('en')
-      u.push(path)
-    } else {
-      u.push(get(sitelang))
-      get(sitelang) != lang && u.push(lang)
-      //u.push('en')
-      //u.push(lang) /// which is holding now the path
-    }
-    u.push('cms.json')
-		const url = '/'+u.join('/')
-
-    //console.log('1.fetch(url)', url)
-		let res = await fetch(url)
-
-		if (res.ok) {
-      const result = await res.json()
-      //console.log('result_l',result.post)
-
-			if (result.thislang) return {
-				props: {
-          result: await result/*,
-          lang: result.thislang.id*/
-        }
-			}
-		}
-    return {
-			status: res.status,
-			error: new Error(`Could not load ${url}`)
-		};
-  }
+  const _siteurl = variables.siteurl[_site] || 'https://www.urosystem.com'
+  //console.log('variables.site',variables.site)
 </script>
-<script>
 
-  export let result//, lang, path
-  $: $state = result
-  //$: console.log(result)
-  $: $sitelang = result.thislang.id
-  //$: console.log('_layout $state:',result.post.path)
-  //$: console.log('__layout $state:',$state.post.id)
-  //let thislang = {dir: 'ltr'}
+<script>
+  export let data
+  if (!data || !data.thislang) console.log({data})
+  $: $state = data
+  $: $sitelang = data.thislang.id
 	onMount(() => {
     document.querySelector('html').lang = $state.thislang.id
-    //thislang = $state.thislang
     document.querySelector('html').dir = $state.thislang.dir
-    //console.log(thislang)
 	});
+
 </script>
 
 <svelte:head>
-  <!--{#each $state.langs || [] as lang}
-    <link rel="alternate" href="https://www.urosystem.com/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
-  {/each}-->
+  {#if $state.post.subpage}
+    <title>{$state.post.subpage.title}</title>
+    <meta name="description" content="{$state.post.subpage.description}">
+    <meta name="keywords" content="{$state.post.subpage.keywords}">
+    {#if $state.post.subpage.meta}
+      {#each $state.post.subpage.meta as meta}
+        <meta name={meta.name} content={meta.content}>
+      {/each}
+    {/if}
+  {:else}
+    <title>{$state.post.title}</title>
+    <meta name="description" content="{$state.post.description}">
+    <meta name="keywords" content="{$state.post.keywords}">
+    {#if $state.post.meta}
+      {#each $state.post.meta as meta}
+        <meta name={meta.name} content={meta.content}>
+      {/each}
+    {/if}
+  {/if}
+  {#if $state.post.canonical}
+    <link rel="canonical" href="{_siteurl}{$state.post.canonical}"/>
+  {:else}
+    <link rel="canonical" href="{_siteurl}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
+  {/if}
 
-
-  {#if !dev }
+  {#if !dev && !!$cookies}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180221975-1"></script>
     <script>
@@ -122,39 +103,41 @@
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-T4KTKF5');</script>
+      })(window,document,'script','dataLayer','GTM-T4KTKF5');
+    </script>
       <!-- End Google Tag Manager -->
-	{/if} <!-- $cookies -->
+    
+    <!-- Active Campaign -->
+    <script>
+      (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
+      vgo('setAccount', '477728237');
+      vgo('setTrackByDefault', true);
+      vgo('process');
+    </script>
+	{/if}
   
   {#if _site == '_ud'}
-  <style>
-    :root {
-      --mid-blue: #005c5b;
-      --light-blue: #02979d;
-      --pale-blue: #e2f3f3;
-      /*--dark-blue-75: #005c5bc0;*/
-      --mid-blue-75: #005c5bc0;
-      --light-blue-75: #02979dc0;
-      --pale-blue-75: #e2f3f3c0;
-    }
-    main {
-      background-image: var(--grad-light-blue);
-      background-position: 50% 50%;
-      background-size: cover;
-    }
-  </style>
+    <style>
+      main {
+        background-image: var(--grad-light-blue);
+        background-position: 50% 50%;
+        background-size: cover;
+      }
+    </style>
   {/if}
 </svelte:head>
 
-<Nav/><!--  state={result} -->
-<slot></slot>
-<Footer/>
-<Cookies cookie={$cookies}/>
+<Nav/>
 
-{#each $state.langs || [] as lang}
+<slot/>
+
+<Footer/>
+<Cookies/>
+
+<!--{#each $state.langs || [] as lang}
 {#if !!lang.active}
 <a hidden aria-hidden="true" rel="alternate" href="/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">
   {lang.id}
 </a>
 {/if}
-{/each}
+{/each}-->

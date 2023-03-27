@@ -1,30 +1,13 @@
 <script context="module">
-  //export const hydrate = true
-  //export const prerender = true
-  //export const prerender = false
-
   import { onMount } from 'svelte'
-  import { goto/*, invalidate, prefetch, prefetchRoutes*/ } from '$app/navigation'
   import { sitelang, cookies } from '$lib/stores'
-  import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/env'
-  /*export const load = async ({ page }) => {
-    console.log('page',page.query.URLSearchParams)
-    return {
-				props: {
-          page: {...page}
-        }
-			}
-  }*/
+  import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/environment'
+  import { goto/*, invalidate, prefetch, prefetchRoutes*/ } from '$app/navigation'
 </script>
 <script>
-  //export let page
-  //if (!page) goto($sitelang || 'en')
   onMount(() => {
-    $sitelang = 'en'
-    goto('/' + $sitelang, { replaceState: false });
+    goto(`/en`, { replaceState: true });
 	})
-  //async ()=> {
-  //}
 </script>
 
 <svelte:head>
@@ -83,13 +66,28 @@
     <!--{/if}--> <!-- $moved -->
 	{/if} <!-- $cookies -->
 </svelte:head>
+
 <main>
-  <a href="/" aria-label="home"><img loading="lazy" src="/uploads/urosystem_logo_02_web.svg" alt="" style="filter:invert();width:20ch;display:block;margin:0 auto; aspect-ratio: 100 / 90.861"/></a>
-  <p>Welcome! The website is loading…</p>
-  <noscript><p><a href="/en">NO JAVASCRIPT… Click here to load the website</a></p></noscript>
+  <header class="full">
+    <a href="/" aria-label="home"><img loading="lazy" src="/uploads/urosystem_logo_02_web.svg" alt="" style="filter:invert();width:20ch;display:block;margin:0 auto; aspect-ratio: 100 / 90.861"/></a>
+    <p>Welcome! The website is loading…</p>
+    <noscript><p><a href="/en">NO JAVASCRIPT… Click here to load the website</a></p></noscript>
+  </header>
 </main>
 
 <style>
+  header {
+    padding-top: 12rem;
+    padding-bottom: 1rem;
+  }
+  header.full {
+    padding-top: 9rem;
+    padding-bottom: 6rem;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   main {
     text-align: center;
     /*padding-top: 9rem;*/

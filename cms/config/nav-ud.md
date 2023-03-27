@@ -70,7 +70,7 @@ top_ud:
       - lang: en
         title: Resources
       - lang: hu
-        title: Segédanyagok
+        title: Oktatóanyagok
       - lang: ru
         title: Resources
       - lang: de
@@ -249,7 +249,6 @@ top_ud:
             title: B2B
           - lang: tr
             title: B2B
-  - link: shop
   - link: https://www.urosystem.com/blog
     titles:
       - lang: en
@@ -280,4 +279,5 @@ top_ud:
         title: Blog
       - lang: fr
         title: Blog
+  - link: shop
 ---

@@ -1,12 +1,17 @@
 <script context="module">
   //import { onMount, afterUpdate } from 'svelte'
-  import { browser } from '$app/env'
+  import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
+  //const _siteurl = variables.siteurl[variables.site] || 'https://www.urosystem.com'
+  //import { onMount } from 'svelte';
+  //import * as scroller from "svelte-scrollto"
+  //import { amp, browser, dev, prerendering } from '$app/environment'
+  import { browser } from '$app/environment'
   import { PortableText } from '@portabletext/svelte'
   import { getSanityImageUrl, formatBlogPostDate } from '$lib/helpers.js'
   import Subscribe from '$lib/SubscribeActivecamp.svelte'
   //import { client } from '/src/lib/sanityClient.js'
 
-  export const load = async ({fetch}) => {
+  /*export const load = async ({fetch}) => {
     let res = await fetch('/hirlevel.json')
 		if (res.ok) {
       const result = await res.json()
@@ -16,15 +21,28 @@
         }
 			}
     }
-  }
+  }*/
 
 </script>
 
 <script>
-  export let hirlevel
+  export let data
   //console.log(hirlevel)
+  data.post.id = 'hirlevel'
+  data.post.slug = 'hirlevel'
+  data.post.canonical = 'hirlevel'
+  data.post.menutitle = 'Hírlevelek'
+  //console.log({result})
+  $state = data
+  $sitelang = 'hu'
+  console.log({$sitelang})
 </script>
 
+<svelte:head>
+  <title>UroSystem – Hírlevelek</title>
+  <meta name="description" content="Urosystem is dedicated to lower urinary tract conditions, especially IC\u002FBPS. Get to know its diverse portfolio, from diagnosis to medication, including the UroDapter.">
+  <meta name="keywords" content="Urosystem, UroDapter, IC/BPS, bladder disease, cystitis, urological">
+</svelte:head>
 
 <main id="hirlev">
   <header class="fu-ll">
@@ -33,7 +51,7 @@
   
   <div id="content" class="s-xEUe3BhquCBG"></div>
 
-  {#each hirlevel as hirlev}
+  {#each data.news as hirlev}
     <article class="text-center w-full">
       <time>{formatBlogPostDate(hirlev.publishedAt)}</time>
       <h2 class="">{hirlev.title}</h2>

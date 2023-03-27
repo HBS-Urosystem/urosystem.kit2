@@ -71,7 +71,7 @@
 
 {#if showModal}
 <Portal target="body">
-<div class="modal-background" on:click={close} id="{comp.anchor}" transition:fade>
+<div class="modal-background" on:click={close} on:keypress={close} id="{comp.anchor}" transition:fade>
 
 <aside role="dialog" aria-modal="true" bind:this={modal}>
   <!-- svelte-ignore a11y-autofocus -->
@@ -79,7 +79,7 @@
   <div style="{comp.background ? comp.background : ``}">
     {#if comp.title}<h2 id="{comp.anchor}">{comp.title}</h2>{/if}
     {#if comp.text}{@html comp.text}{/if}
-    {#if comp.button}<a tabindex="0" href="{link}" rel="{rel}" target="{target}"><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>{/if}
+    {#if comp.button}<a href="{link}" rel="{rel}" target="{target}"><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>{/if}
   </div>
 </aside>
 </div>

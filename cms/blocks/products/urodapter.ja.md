@@ -89,7 +89,7 @@ components:
 
           IBSA 社は、「iAluadapter®/UroDapter®」を搭載 した「iAluRil®」パッケージ、またはアダプターを単体製品として以下の国で非独占的に販売する権利を有しています。 ウクライナ、ロシア、バーレーン、オマーン、クウェート、カタール、サウジアラビア、アラブ首長国連邦、エジプト、アルジェリア、ヨルダン、パレスチナ、レバノン、イラク、リビア、モロッコ、チュニジア、イスラエル、イラン、韓国、インドネシア、中国、シンガポール、台湾、トルクメニスタン。マレーシア、コロンビア、アルゼンチン、バルバドス、ボリビア、ブラジル、チリ、コスタリカ、ドミニカ共和国、エクアドル、エルサルバドル、グアテマラ、ホンジュラス、メキシコ、ニカラグア、パナマ、パラグアイ、ペルー、ベネズエラ、ナイジェリア、ケニア、ガボン、ガーナ
 
-          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener" target="_blank">IBSA Global Network</a></li></ul>
+          <ul><li><a href="https://www.ibsagroup.com/subsidiaries/global-network.html" rel="noopener noreferrer" target="_blank">IBSA Global Network</a></li></ul>
     fixed: true
   - type: images
     slide: false
