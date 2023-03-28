@@ -4,7 +4,7 @@ import { client } from '/src/lib/sanityClient.js'
 import { allEvents } from '/src/lib/api.js'
 import {toHTML} from '@portabletext/to-html'
 
-export async function get() {
+export async function GET() {
   const data = await client.fetch(allEvents)
 
   const feed = new RSS({
@@ -36,7 +36,8 @@ export async function get() {
       ],
     })
   }
-  return {
-    body: feed.xml({ indent: true }),
-  }
+  return new Response(
+    `${feed.xml({ indent: true })}`
+    //body: feed.xml({ indent: true }),
+  )
 }
