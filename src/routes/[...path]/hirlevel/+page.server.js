@@ -1,6 +1,3 @@
-//export const hydrate = true
-export const prerender = true
-
 import { client } from '/src/lib/sanityClient.js'
 import { hirlev } from '/src/lib/api.js'
 
