@@ -5,7 +5,7 @@ fallback: ""
 components:
   - type: images
     subhead: UroDapter® can be attached directly to the syringe so that any solution
-      can be instilled with it into the bladder.
+      can be instilled into the bladder.
     shape: default
     images:
       - alt: UroDapter® – Urological Syringe Adapter and its parts
