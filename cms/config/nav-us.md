@@ -42,41 +42,6 @@ top_us:
       - link: diagnostic-help/gag-layer
       - link: diagnostic-help/gag-layer-pro
     link: diagnostic-help
-  - subpages:
-      - link: ic-bps
-      - link: rutis
-      - link: post-cancer-treatment
-      - link: bladder-cancer
-      - link: other-uses-and-indications
-    titles:
-      - lang: en
-        title: Indications
-      - lang: ru
-        title: Показания
-      - lang: hu
-        title: Felhasználási területek
-      - lang: de
-        title: Indikationen
-      - lang: ko
-        title: 사용처
-      - lang: fr
-        title: Les indications
-      - lang: he
-        title: אינדיקציות
-      - lang: it
-        title: Indicazioni
-      - lang: ja
-        title: 適応症
-      - lang: pt
-        title: Indicações
-      - lang: es
-        title: Indicaciones
-      - lang: tr
-        title: Belirteçler
-      - lang: zh
-        title: 适应症
-      - lang: ar
-        title: دواعي الإستعمال
   - link: company
     titles:
       - lang: en
@@ -263,7 +228,7 @@ top_us:
         titles:
           - lang: hu
             title: Pályázatok
-  - link: /hirlevel
+  - link: /hu/hirlevel
     titles:
       - lang: hu
         title: Hírlevél

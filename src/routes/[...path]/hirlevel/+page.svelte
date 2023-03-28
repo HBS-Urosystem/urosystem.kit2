@@ -2,7 +2,7 @@
   //import { onMount, afterUpdate } from 'svelte'
   import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
   //const _siteurl = variables.siteurl[variables.site] || 'https://www.urosystem.com'
-  //import { onMount } from 'svelte';
+  import { onMount } from 'svelte'
   //import * as scroller from "svelte-scrollto"
   //import { amp, browser, dev, prerendering } from '$app/environment'
   import { browser } from '$app/environment'
@@ -22,7 +22,6 @@
 			}
     }
   }*/
-
 </script>
 
 <script>
@@ -34,8 +33,10 @@
   data.post.menutitle = 'Hírlevelek'
   //console.log({result})
   $state = data
-  $sitelang = 'hu'
-  console.log({$sitelang})
+  onMount(() => {
+    $sitelang = 'hu'
+    console.log({$sitelang})
+	})
 </script>
 
 <svelte:head>

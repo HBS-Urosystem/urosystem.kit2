@@ -1,3 +1,5 @@
+/hirlevel  /hu/hirlevel
+
 /blog/events  /events
 /blog/*     https://bladder-blog.netlify.app/blog/:splat 200!
 
