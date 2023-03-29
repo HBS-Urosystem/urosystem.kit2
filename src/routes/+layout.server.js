@@ -10,13 +10,13 @@ import { sitelang } from '$lib/stores'
 //import { page } from '$app/stores'
 //console.log(store(page))
 
-export const load = async ({ params/*, route, url, fetch, page*/ }) => {
-  //console.log('layout.path',params.path/*, {route}, {url}, {fetch}, {page}*/)
+export const load = async ({ params, url/*, route, fetch, page*/ }) => {
+  //console.log('layout.search',url.searchParams.get('lang'))
 
   let [lang, path, sub] = params.path?.split('/') || []
   //let { lang, path } = {...params}
   //const path = route.id || ''
-  lang = lang || 'en'
+  lang = lang || url.searchParams.get('lang') || 'en'
   path = path || ''
   sub = sub || ''
 
@@ -25,14 +25,15 @@ export const load = async ({ params/*, route, url, fetch, page*/ }) => {
 	conf = await _getConf(lang)
   //console.log('conf.thislang',conf.thislang.id,'->',lang)
   if (!conf.thislang) {
-		conf = await _getConf(store(sitelang) || 'en')
+		conf = await _getConf(url.searchParams.get('lang') || store(sitelang) || 'en')
+    //console.log(conf.thislang)
     if (!conf.thislang) return false
     sub = path
     path = lang
     lang = conf.thislang.id || 'en'
 		//path = lang + (!!path ? '/' + path : '')
 	}
-  //console.log('conf.path',path)
+  //console.log([lang, path, sub])
 
 	//const parts = path?.split('/') || []
 	//post = await _getPost({path: parts[0], lang, sub: parts[1] || null})

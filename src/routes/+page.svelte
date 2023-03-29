@@ -6,7 +6,8 @@
 </script>
 <script>
   onMount(() => {
-    goto(`/en`, { replaceState: true });
+    //console.log('MOUNT', `/${$sitelang || '/en'}`)
+    goto(`/${$sitelang || '/en'}`, { replaceState: true });
 	})
 </script>
 
