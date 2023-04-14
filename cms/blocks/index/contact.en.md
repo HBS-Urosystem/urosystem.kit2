@@ -30,7 +30,7 @@ components:
 
       <div>
         <!--label><input type="checkbox" name="newsletter" /> I want to subscribe to the newsletter</label><br><br-->
-        <label><input type="checkbox" name="privacy" required /> I've read and accepted the <a href="/privacy-policy" target="_blank">privacy policy</a>.</label><br><br>
+        <label><input type="checkbox" class="checkbox checkbox-primary" name="privacy" required /> I've read and accept the <a href="/privacy-policy" target="_blank">privacy policy</a>.</label><br><br>
       </div>
 
       <section>

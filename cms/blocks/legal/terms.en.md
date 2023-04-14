@@ -80,6 +80,7 @@ components:
 
          * via PayPal (directly) 
          * with bank debit or credit card through PayPal
+         * via bank deposit
       5. The shipping of the products shall be performed after the payment has been done.
 
       6. Therefore, when the purchase has been submitted, the process of delivering the products to the customer is started instantly. For this reason, purchase orders, having been submitted, cannot be withdrawn. 
@@ -99,6 +100,16 @@ components:
       5. Our Company shall not be liable if the Shipping fails to be completed due to reasons beyond its control.
 
       6. Our Company shall not be liable for any losses, damages or expenses induced by the Buyer or any third party (including but not limited to the shipping company entrusted with the delivery). 
+
+
+      ## Discounts
+
+
+      1. Specific discounts can be applied during checkout using a discount code.
+
+      2. A full discount is applicable on the 5 pcs package, upon previously negotiated conditions.
+
+      3. Discounts are not applicable on the shipping costs.
 
 
       ## Return and Refund

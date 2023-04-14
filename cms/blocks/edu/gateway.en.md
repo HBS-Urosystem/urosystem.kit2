@@ -28,7 +28,7 @@ components:
       </div>
 
       <div>
-        <label><input type="checkbox" name="privacy" required /> I've read and accepted the <a href="/privacy-policy" target="_blank">privacy policy</a>.</label>
+        <label><input type="checkbox" name="privacy" required /> I've read and accept the <a href="/privacy-policy" target="_blank">privacy policy</a>.</label>
       </div>
 
       <section>
