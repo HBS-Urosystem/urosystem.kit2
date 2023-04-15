@@ -1,6 +1,43 @@
 /* Write your global styles here, in PostCSS syntax */
 
-/*! minireset.css v0.0.7 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+@tailwind base;
+
+/*! minireset.css v0.0.7 | MIT License | github.com/jgthms/minireset.css */
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+/* REVERSING some TW declarations? */
+img, svg {
+  display: initial;
+  vertical-align: unset;
+}
+/*svg {
+  fill="currentColor";
+}*/
+select {
+  /*color: var(--white);*/
+  color: black;
+}
+
+
+[type='checkbox'], [type='radio'] {
+  appearance: auto;
+}
+/*[type='checkbox']:focus, [type='radio']:focus {
+}
+[type='checkbox']:checked, [type='radio']:checked {
+}*/
+
+.btn, button, input, optgroup, select, textarea {
+  line-height: inherit;
+  --p: hsl(202deg 58% 92%);
+  --bc: hsl(202deg 58% 92%);
+}
+.card {
+  flex: 1 0 25ch;
+  max-width: 56ch;
+  margin: 0 auto;
+}
+
 
 /* UROSYSTEM globals */
 :root {
@@ -145,9 +182,9 @@ main a:not(:has(> button, > img)) {
   border-bottom: dotted;
 }
 
-a, a:visited {
+/*a, a:visited {
   color: inherit;
-}
+}*/
 /*sup a {
 }*/
 
@@ -233,7 +270,7 @@ article:not(:has(> section), > div) {
   justify-content: space-between;
   margin-bottom: var(--gap);
 }
-fieldset { 
+/*fieldset { 
   padding: 0;
   border: none;
 }
@@ -241,7 +278,6 @@ section > label, div > label {
   flex: 1 0 20ch;
   padding-top: 1em;
   margin: 0 var(--rem) 1em;
-  /*border-bottom: 2px solid var(--white);*/
 }
 fieldset > label {
   flex: 1 0 20ch;
@@ -251,6 +287,7 @@ fieldset > label {
   display: flex;
   flex-direction: column;
 }
+*/
 textarea {
   background: none;
   border: none;
@@ -258,32 +295,21 @@ textarea {
   font-size: inherit;
   resize: vertical;
 }
-/*select {
-  appearance: none;
-  background: no-repeat;
-  border: none;
-  height: 1rem;
-  font-size: inherit;
-  color: inherit;
-  vertical-align: baseline;
-  font-family: inherit;
-}
-option {
-  appearance: none;
-  display: inline;
-}
-option:checked {
-  color: red;
-  background-color: transparent;
-}*/
-input {
-  background: transparent;
+[type='text'], [type='email'], [type='url'], [type='password'], [type='number'], [type='date'], [type='datetime-local'], [type='month'], [type='search'], [type='tel'], [type='time'], [type='week'], [multiple], textarea, select {
+  background-color: transparent!important;
   border: none;
   margin: 0;
   color: inherit;
   font-size: inherit;
 }
-button {
+[type='checkbox'], [type='radio'] {
+  border: none;
+  margin: 0;
+  color: inherit;
+  font-size: inherit;
+}
+button, .btn {
+  /*color: black!important;*/
   cursor: pointer;
   vertical-align: baseline;
   font-family: inherit;
@@ -303,25 +329,41 @@ button {
   white-space: nowrap;
 }
 
+/*select {
+  appearance: none;
+  background: no-repeat;
+  border: none;
+  height: 1rem;
+  font-size: inherit;
+  color: inherit;
+  vertical-align: baseline;
+  font-family: inherit;
+}
+option {
+  appearance: none;
+  display: inline;
+}
+option:checked {
+  color: red;
+  background-color: transparent;
+}*/
+
 /*TW fix*/
-button, [type='button'], [type='reset'], [type='submit'] {
-  /* -webkit-appearance: button; */
+button, [type='button'], [type='reset'], [type='submit'], .btn {
    background-color: var(--pale-blue); 
-  /* background-image: none; */
 }
 
-button:hover, button:focus {
+button:hover, button:focus, .btn:hover, .btn:focus {
   background-color: var(--light-blue);
   transition: background-color 350ms ease;
-  /*"background-color": "#52b2d6",*/
 }
-button img {
+button img, .btn img {
   width: 1.75rem;
   margin: .5rem .5rem 0 0;
 }
 
 @media (max-width: 80ch) {
-  button {
+  button, .btn {
     --gap2: 1rem
   }
 }
@@ -485,11 +527,6 @@ dt {
   margin-inline-start: 1rem;
 }
 
-[dir='rtl'] select {
-  background: url("/uploads/bx-world.svg") no-repeat right, url("/uploads/open-down.svg") no-repeat left!important;
-  background-size: 1.5em!important;
-}
-
 [dir='rtl'] li#over {
   /*left: 0;*/
   transform: rotate(180deg);
@@ -507,20 +544,4 @@ cite {
 li, summary {
   text-align: start;
 }
-
-/* TAILWIND */
-/*@tailwind components;
-@tailwind utilities;*/
-
-/* REVERTING some TW declarations? */
-/*img, svg {
-  display: initial;
-  vertical-align: unset;
-}
-select {
-  color: var(--white);
-}
-button, input, optgroup, select, textarea {
-  line-height: inherit;
-}*/
 

@@ -10,6 +10,18 @@ const config = {
   kit: {
     adapter: adapter(),
     //prerender: {"force": true}
+    /*csp:{
+      mode:"auto",
+      directives:{
+        "frame-ancestors": ['none'],
+        "default-src": ["https:"],
+        "connect-src": ["https:", "wss:"], 
+        "script-src":["self", "https:"],
+        "style-src":["self", "https:"],
+        "object-src":["none"],
+        "img-src":["https:", "data:"],
+      },
+    },*/
   },
 
   preprocess: [

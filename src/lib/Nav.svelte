@@ -79,69 +79,70 @@
 </script>
 
 <svelte:window bind:scrollY={y} />
-  <nav
+
+<nav
     use:action class={headerClass}
     class:moved={y>48}
     bind:clientWidth={wnav}>
-    <div>
-      <!-- svelte-ignore a11y-no-onchange -->
-      <select on:focus={() => slct = true} on:blur={() => slct = false} bind:value={langchng} on:change={newlang}>
-        {#each $state.langs as lang}
-        <option value={lang.id}>{lang.id} {#if slct}· {lang.title}{/if}</option>
-        {/each}
-      </select>
-      <ul>
-        <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
-        <li><a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
-        <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
-        <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
-        <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
-        <li><a href="https://vk.com/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-vk.svg" alt="vk"></a></li>
-        <li><a href="https://ok.ru/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>
-        <li><a href="https://linktr.ee/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/linktree.svg" alt="linktree"></a></li>
-      </ul>
-    </div>
-    <ul 
-      bind:clientWidth={wul}
-      data-mobile={!!hamburger}>
-      <li>
-        <a href="/{$sitelang}" aria-label="home">
-          <img class="sitelogo {logoclass}" src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
-        </a>
-      </li>
-      <!--{@debug topnav}-->
-      {#each $state.topnav as nav}
-        {#if nav.title}
-          <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
-            <SubNav mobile={!!hamburger} sub={nav}/>
-            <!--{#if nav.modal}
-              {#each nav.modal.components || [] as comp}
-                <Components {comp}/>
-              {/each}        
-            {/if}-->
-
-            {#if nav.sublinks}
-              <ul>
-                {#each nav.sublinks as sub}
-                  {#if sub.title}<li><SubNav {sub} dir='block' /></li>{/if}
-                  <!--{#if sub.modal}
-                    {#each sub.modal.components || [] as comp}
-                      <Components {comp}/>
-                    {/each}
-                  {/if}-->
-                {/each}
-              </ul>
-            {/if}
-          </li>
-        {/if}
+  <div>
+    <select on:focus={() => slct = true} on:blur={() => slct = false} bind:value={langchng} on:change={newlang}>
+      {#each $state.langs as lang}
+      <option value={lang.id}>{lang.id} {#if slct}· {lang.title}{/if}</option>
       {/each}
-      {#if hamburger}
-        <li id="over" tabindex="-1">
-          <button aria-label="menu"></button>
+    </select>
+    <ul>
+      <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
+      <li><a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
+      <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
+      <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
+      <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
+      <li><a href="https://vk.com/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-vk.svg" alt="vk"></a></li>
+      <li><a href="https://ok.ru/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>
+      <li><a href="https://linktr.ee/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/linktree.svg" alt="linktree"></a></li>
+    </ul>
+  </div>
+  <ul 
+    bind:clientWidth={wul}
+    data-mobile={!!hamburger}>
+    <li>
+      <a href="/{$sitelang}" aria-label="home">
+        <img class="sitelogo {logoclass}" src="/uploads/{sitelogo}" alt="UroSystem – Revolutionizing bladder pain treatment">
+      </a>
+    </li>
+    <!--{@debug topnav}-->
+    {#each $state.topnav as nav}
+      {#if nav.title}
+        <li aria-current={nav.link == $state.post.path || $state.post.folder == nav.link ? 'page' : undefined}>
+          <SubNav mobile={!!hamburger} sub={nav}/>
+          <!--{#if nav.modal}
+            {#each nav.modal.components || [] as comp}
+              <Components {comp}/>
+            {/each}        
+          {/if}-->
+
+          {#if nav.sublinks}
+            <ul>
+              {#each nav.sublinks as sub}
+                {#if sub.title}<li><SubNav {sub} dir='block' /></li>{/if}
+                <!--{#if sub.modal}
+                  {#each sub.modal.components || [] as comp}
+                    <Components {comp}/>
+                  {/each}
+                {/if}-->
+              {/each}
+            </ul>
+          {/if}
         </li>
       {/if}
-    </ul>
-  </nav>
+    {/each}
+    
+    {#if hamburger}
+      <li id="over" tabindex="-1">
+        <button aria-label="menu"></button>
+      </li>
+    {/if}
+  </ul>
+</nav>
 
 <style>
   .pin {
@@ -421,5 +422,11 @@
     background-size: 1.5em, 1.25em;
     filter: invert();
     text-transform: uppercase;
+    color: black;
   }  
+  [dir='rtl'] select {
+    background: url("/uploads/bx-world.svg") no-repeat right, url("/uploads/open-down.svg") no-repeat left!important;
+    background-size: 1.5em!important;
+  }
+
   </style>

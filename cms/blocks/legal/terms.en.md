@@ -105,11 +105,14 @@ components:
       ## Discounts
 
 
-      1. Specific discounts can be applied during checkout using a discount code.
+      - Specific discounts can be applied during checkout using discount codes. 
+      
+      - Codes are generated and revoked regarding specific marketing campaigns.
 
-      2. A full discount is applicable on the 5 pcs package, upon previously negotiated conditions.
+      - A full discount is only applicable on the 5 pcs package, upon negotiated conditions.
 
-      3. Discounts are not applicable on the shipping costs.
+
+      - Discounts are not applicable on the shipping costs.
 
 
       ## Return and Refund

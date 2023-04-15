@@ -35,4 +35,22 @@ function _submit(e) {
     text-align: center;
   }
   a[hidden] { display:none; }
+  
+  form :global(fieldset) { 
+    padding: 0;
+    border: none;
+  }
+  form :global(section > label), form :global(div > label) {
+    flex: 1 0 20ch;
+    padding-top: 1em;
+    margin: 0 var(--rem) 1em;
+  }
+  form :global(fieldset > label) {
+    flex: 1 0 20ch;
+    padding-top: 1em;
+    margin: 0 var(--rem) 1em 0;
+    border-bottom: 2px solid var(--white);
+    display: flex;
+    flex-direction: column;
+  }
 </style>

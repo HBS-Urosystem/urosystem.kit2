@@ -118,4 +118,7 @@
     display: flex;
     flex-direction: column;
   }*/
+  a, a:visited {
+    color: inherit;
+  }
 </style>
