@@ -196,8 +196,8 @@
     min-width: 2rem;
     height: 2rem;
     color: #3da4c9;
-    /*border-width: 2px;
-    border-style: solid;*/
+    border-width: 2px;
+    border-style: solid;
     padding: 0;
     margin: 0;
     backdrop-filter: blur(0.25rem);
