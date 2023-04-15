@@ -98,13 +98,13 @@
         <PortableText value={event.body}/>
       </aside>
       <div bind:this={carous[event.slug.current]} class="carousel rounded-lg" id={event.slug.current}>
-        <button on:click={_carleft(carous[event.slug.current])}>◀︎</button>
-        {#each event.images as img} 
-        <div class="carousel-item" id={`${img._key}`}>
-          <img loading="lazy" alt="" src={getSanityImageUrl(img).width(720).url()} class={img.portray ? 'portray' : 'landscape'}>
-        </div>
-        {/each}
-        <button on:click={_carright(carous[event.slug.current])}>▶︎</button>
+        <button on:click={_carleft(carous[event.slug.current])}><span>◀︎</span></button>
+          {#each event.images as img} 
+          <div class="carousel-item" id={`${img._key}`}>
+            <img loading="lazy" alt="" src={getSanityImageUrl(img).width(720).url()} class={img.portray ? 'portray' : 'landscape'}>
+          </div>
+          {/each}
+        <button on:click={_carright(carous[event.slug.current])}><span>▶︎</span></button>
       </div>
     </article>
   {/each}
@@ -122,7 +122,7 @@
     background-image: url('/uploads/+.svg');
     background-size: 426px;/*568*/
     background-repeat: initial;
-    /*min-height:100vh;*/
+    min-height:100vh;
   }
   .hero-overlay {
     backdrop-filter: blur(2px);
@@ -130,6 +130,7 @@
     grid-row-start: 1;
     height: 100%;
     width: 100%;
+    --tw-bg-opacity: 0;
   }
   .hero-content {
     grid-column-start: 1;
@@ -151,7 +152,7 @@
     @apply container max-w-6xl mx-auto px-4;
   }
   article {
-    @apply mt-16 shadow-xl image-full;
+    @apply mt-16 shadow-xl;
     background-color: var(--dark-blue);
     display: flex;
     flex-wrap: wrap;
@@ -188,11 +189,27 @@
     width: min(32ch,100%);
   }
   .carousel button {
-    @apply btn btn-circle btn-sm;
+    /*@apply btn btn-circle btn-sm;*/
     position: sticky;
     top: 50%;
     width: 2rem;
+    min-width: 2rem;
+    height: 2rem;
     color: #3da4c9;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0;
+    margin: 0;
+    backdrop-filter: blur(0.25rem);
+  }
+  .carousel button > span {
+    vertical-align: text-top;
+  }
+  .carousel button > *:not(span) {
+    display: inline-block;
+    min-width: 2rem;
+    min-height: 2rem;
+    vertical-align: text-top;
   }
   .carousel button:first-of-type {
     left: .25em;
@@ -207,7 +224,7 @@
 
   #_form_6408E8C107AA5_ input[type="text"], button, input, optgroup, select, textarea {
   line-height: inherit;
-  background: revert;
+  background: initial;
   color: revert;
 }
 </style>
