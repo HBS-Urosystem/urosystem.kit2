@@ -106,8 +106,10 @@ components:
 
 
       - Specific discounts can be applied during checkout using discount codes. 
-      
+
+
       - Codes are generated and revoked regarding specific marketing campaigns.
+
 
       - A full discount is only applicable on the 5 pcs package, upon negotiated conditions.
 
