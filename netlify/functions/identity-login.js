@@ -1,5 +1,5 @@
-import { env } from 'process'
-import {createClient} from '@sanity/client'
+//import { env } from 'process'
+//import {createClient} from '@sanity/client'
 
 //console.log('process.env',env)
 
@@ -8,8 +8,8 @@ export async function handler (event, context, callback) {
   //const { identity, user } = context.clientContext;
   
   //console.log({client})
-  console.log({event})
-  console.log({context})
+  //console.log({event})
+  //console.log({context})
   const data = event.body && JSON.parse(event.body)
   //const { user } = data
   const user = data?.user || null
