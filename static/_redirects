@@ -3,7 +3,7 @@
 /blog/events  /events
 /blog/*     https://bladder-blog.netlify.app/blog/:splat 200!
 
-/b2b/*     https://b2b.urosystem.com/:splat 301!
+#/b2b/*     https://b2b.urosystem.com/:splat 301!
 
 /ickepzes2022/*     https://urosystem-kepzes.netlify.app/:splat 301!
 /kepzes/*     https://urosystem-kepzes.netlify.app/:splat 301!
