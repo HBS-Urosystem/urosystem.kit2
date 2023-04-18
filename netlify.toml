@@ -1,0 +1,6 @@
+[dev]
+  command = "vite dev"
+  targetPort = 5173
+
+[build]
+  command = "vite build"
