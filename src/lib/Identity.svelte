@@ -26,7 +26,7 @@
     netlifyIdentity.on('login', user => {
       netlifyIdentity.close();
       visitor = user;
-      netlifyIdentity.refresh().then((jwt)=>console.log(jwt))
+      netlifyIdentity.refresh()//.then((jwt)=>console.log(jwt))
       console.log('login', user)
     });
     netlifyIdentity.on('logout', () => {
