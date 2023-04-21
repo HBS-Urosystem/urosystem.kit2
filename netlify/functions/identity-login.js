@@ -19,7 +19,7 @@ export async function handler (event, context, callback) {
   const netlifyResponseBody = {
     user_metadata: {
       ...user?.user_metadata || null,
-      //user_other_thing: 'some user value'
+      user_other_thing: 'some user value'
     },
   }
 
