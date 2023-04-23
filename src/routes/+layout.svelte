@@ -51,8 +51,8 @@
     <link rel="canonical" href="{_siteurl}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
   {/if}
 
-  {#if !dev && _site == '_us'}
-    <!-- Global site tag (gtag.js) --- OLD Google Analytics -->
+  {#if !dev}
+    <!-- OLD UA --- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180221975-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -61,9 +61,21 @@
       gtag('config', 'UA-180221975-1');
     </script>
   {/if}
+
+  {#if !dev && _site == '_us'}
+    <!-- GA4 --- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KREFNHDNH0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KREFNHDNH0');
+    </script>
+  {/if}
   
   {#if !dev && _site == '_ud'}
-    <!-- Google tag (gtag.js) -->
+    <!-- Ga4 --- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1SZ43L7KWV"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
