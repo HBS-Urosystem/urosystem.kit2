@@ -51,8 +51,8 @@
     <link rel="canonical" href="{_siteurl}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
   {/if}
 
-  {#if !dev && !!$cookies}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+  {#if !dev && _site == '_us'}
+    <!-- Global site tag (gtag.js) --- OLD Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180221975-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -60,7 +60,33 @@
       gtag('js', new Date());
       gtag('config', 'UA-180221975-1');
     </script>
+  {/if}
+  
+  {#if !dev && _site == '_ud'}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1SZ43L7KWV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-1SZ43L7KWV');
+    </script>
+  {/if}
+
+  {#if !!$cookies && !dev }
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-T4KTKF5');
+    </script>
+      <!-- End Google Tag Manager -->
+    <script>
+      gtag('config', 'AW-433475160')
+    </script>
+    
     <!-- Hotjar Tracking Code for https://www.urosystem.com/ -->
     <script>
       (function(h,o,t,j,a,r){
@@ -72,13 +98,7 @@
           a.appendChild(r);
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
-  {/if}
   
-  {#if !!$cookies && !dev }
-    <script>
-      gtag('config', 'AW-433475160')
-    </script>
-    
     <!--{#if $moved}-->
     <!-- Facebook Pixel Code -->
     <script>
@@ -98,14 +118,6 @@
     /></noscript>
     <!-- End Facebook Pixel Code -->
     <!--{/if}--> <!-- $moved -->
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-T4KTKF5');
-    </script>
-      <!-- End Google Tag Manager -->
     
     <!-- Active Campaign -->
     <script>
