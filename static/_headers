@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: frame-ancestors 'none'; default-src https: 'self'; connect-src https: 'self' wss:; script-src https: 'self' 'unsafe-inline'; style-src https: 'self' 'unsafe-inline'; style-src-elem https: 'self' data: 'unsafe-inline'; object-src 'none'; img-src https: 'self' data:
+  Content-Security-Policy: frame-ancestors 'none'; default-src https: 'self'; connect-src https: 'self' wss:; script-src https: 'self' 'unsafe-inline' 'unsafe-eval'; style-src https: 'self' 'unsafe-inline'; style-src-elem https: 'self' data: 'unsafe-inline'; object-src 'none'; img-src https: 'self' data:
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
