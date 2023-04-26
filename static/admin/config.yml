@@ -1,3 +1,5 @@
+# <meta http-equiv="Content-Security-Policy" content="default-src https:" />
+
 # npx netlify-cms-proxy-server
 backend:
   name: git-gateway
@@ -15,18 +17,18 @@ i18n:
   locales:
     - en
     - hu
-    #- de
-    #- es
-    #- pt
-    #- fr
-    #- it
-    #- ru
-    #- zh
-    #- ja
-    #- ar
-    #- he
-    #- tr
-    #- ko
+    - de
+    - es
+    - pt
+    - fr
+    - it
+    - ru
+    - zh
+    - ja
+    - ar
+    - he
+    - tr
+    - ko
 search: false
 collections:
   - sortable_fields:
