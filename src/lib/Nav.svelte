@@ -424,9 +424,9 @@
     text-transform: uppercase;
     color: black;
   }  
-  [dir='rtl'] select {
-    background: url("/uploads/bx-world.svg") no-repeat right, url("/uploads/open-down.svg") no-repeat left!important;
-    background-size: 1.5em!important;
+  :global([dir='rtl']) select {
+    background: url("/uploads/bx-world.svg") no-repeat right, url("/uploads/open-down.svg") no-repeat left;
+    background-size: 1.5em;
   }
 
   </style>

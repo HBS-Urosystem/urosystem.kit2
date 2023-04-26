@@ -19,9 +19,13 @@ export async function handler (event, context, callback) {
   const netlifyResponseBody = {
     user_metadata: {
       ...user?.user_metadata || null,
+      ...user?.app_metadata || null,
+      email: user.email,
       user_other_thing: 'some user value'
     },
   }
+
+  console.log({netlifyResponseBody})
 
   return {
     statusCode: 200,
