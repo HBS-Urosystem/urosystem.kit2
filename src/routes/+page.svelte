@@ -1,8 +1,10 @@
 <script context="module">
   import { onMount } from 'svelte'
-  import { sitelang, cookies } from '$lib/stores'
+  import { sitelang, variables, state, cookies } from '$lib/stores'
   import { /*amp, browser,*/ dev/*, prerendering*/ } from '$app/environment'
   import { goto/*, invalidate, prefetch, prefetchRoutes*/ } from '$app/navigation'
+  const _site = variables.site
+  const _siteurl = variables.siteurl[_site] || 'https://www.urosystem.com'
 </script>
 <script>
   onMount(() => {
@@ -17,6 +19,7 @@
   <title>UroDapter® – Replacing Catheter in the Field of Bladder Instillation</title>
   <meta name="description" content="The UroDapter® urological adapter replaces catheter. It enables painless and complication-free bladder treatment for several lower urinary tract diseases.">
   <meta name="keywords" content="instillation, urological adapter, bladder treatment, urethra treatment, pain-free, catheter replacement, cystitis, painless, complication-free, bladder">
+  <link rel="canonical" href="{_siteurl}/{$sitelang || 'hu'}"/>
 
 </svelte:head>
 

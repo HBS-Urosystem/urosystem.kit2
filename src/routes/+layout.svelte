@@ -15,7 +15,7 @@
 
 <script>
   export let data
-  if (!data || !data.thislang) console.log({data})
+  //if (!data || !data.thislang) console.log({data})
   $: $state = data
   $: $sitelang = data.thislang.id
 	onMount(() => {
@@ -45,10 +45,10 @@
       {/each}
     {/if}
   {/if}
-  {#if $state.post.canonical}
-    <link rel="canonical" href="{_siteurl}{$state.post.canonical}"/>
-  {:else}
-    <link rel="canonical" href="{_siteurl}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
+  {#if $state.post.canonical && $state.post.canonical != _site}
+    <link class={_site} rel="canonical" href="{variables.siteurl[$state.post.canonical]}/{$sitelang}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
+  <!--{:else}
+    <link rel="canonical" href="{_siteurl}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>-->
   {/if}
 
   {#if !dev}
@@ -140,7 +140,7 @@
     </script>
 	{/if}
   
-  {#if _site == '_ud'}
+  {#if _site == '_ud' || _site == '_na'}
     <style>
       main {
         background-image: var(--grad-light-blue);

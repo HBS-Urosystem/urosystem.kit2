@@ -12,7 +12,7 @@
 <svelte:head>
   
   {#each $state.langs || [] as lang}
-    {#if !!lang.active}
+    {#if !!lang.active && lang.id != $sitelang}
       <link rel="alternate" href="{_siteurl}/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hreflang="{lang.id}" />
     {/if}
   {/each}

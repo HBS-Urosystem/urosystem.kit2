@@ -17,18 +17,18 @@ i18n:
   locales:
     - en
     - hu
-    - de
-    - es
-    - pt
-    - fr
-    - it
-    - ru
-    - zh
-    - ja
-    - ar
-    - he
-    - tr
-    - ko
+    #- de
+    #- es
+    #- pt
+    #- fr
+    #- it
+    #- ru
+    #- zh
+    #- ja
+    #- ar
+    #- he
+    #- tr
+    #- ko
 search: false
 collections:
   - sortable_fields:
@@ -113,6 +113,11 @@ collections:
         i18n: true
       - label: Meta description
         name: description
+        widget: text
+        required: false
+        i18n: true
+      - label: Meta canonical
+        name: canonical
         widget: text
         required: false
         i18n: true

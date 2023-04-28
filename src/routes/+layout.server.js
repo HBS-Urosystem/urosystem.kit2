@@ -2,14 +2,15 @@
 //export const prerender = true
 //export const trailingSlash = 'never' // default
 
+import { redirect } from '@sveltejs/kit'
 import { _getPost, _getConf } from '$lib/utils'
 import { get as store} from 'svelte/store'
 import { sitelang } from '$lib/stores'
 
-/** @type {import('./$types').LayoutServerLoad} */
 //import { page } from '$app/stores'
 //console.log(store(page))
 
+/** @type {import('./$types').LayoutServerLoad} */
 export const load = async ({ params, url/*, route, fetch, page*/ }) => {
   //console.log('layout.search',url.searchParams.get('lang'))
 
@@ -38,11 +39,14 @@ export const load = async ({ params, url/*, route, fetch, page*/ }) => {
 	//const parts = path?.split('/') || []
 	//post = await _getPost({path: parts[0], lang, sub: parts[1] || null})
 	post = await _getPost({lang, path, sub})
-  //console.log('post',post)
-	//if (post.id && !!post.published) {
+	if (post.title && !!post.published) {
+    //console.log('post',post)
 		return {
 			post, ...conf
 		}
-	//}
+	}
+  //return fail( 307 , {...conf} )
+  throw redirect(303, '/en')
+  //throw error(404, 'Enhance your calm')
 	//return false
 }

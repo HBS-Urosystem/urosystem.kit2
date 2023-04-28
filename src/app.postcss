@@ -3,7 +3,7 @@
 @tailwind base;
 
 /*! minireset.css v0.0.7 | MIT License | github.com/jgthms/minireset.css */
-html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}/*ul{list-style:none}*/button,input,select{margin:0}html{box-sizing:border-box}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
 /* REVERSING some TW declarations? */
 img, svg {
@@ -434,15 +434,12 @@ hr {
   padding: 0;
 }
 
-/*article ul {
+article ul {
   list-style: initial;
-  margin-inline-start: 1em;
-}*/
-article ol, article ul {
-  /*list-style: none;*/
-  list-style: initial;
-  /*margin-inline-start: 0;*/
   padding-inline-start: 1rem;
+}
+article ol {
+  list-style: auto;
 }
 /*article:last-child {
   margin-bottom: calc(var(--gap2) + var(--gap));

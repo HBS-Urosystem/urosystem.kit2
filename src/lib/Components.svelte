@@ -1,4 +1,5 @@
 <script context="module">
+  import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
   import Article from '$lib/my/Article.svelte'
   import Images from '$lib/my/Images.svelte'
   import Grid from '$lib/my/Grid.svelte'
@@ -23,12 +24,18 @@
     links: Links,
     refs: Refs,
     qas: Qas
-	};
+	}
+
+  const _site = variables.site
+  const _siteurl = variables.siteurl[_site] || 'https://www.urosystem.com'
+
 </script>
 <script>
 	//import { stores } from '@sapper/app';
   //let { /*preloading, */page/*, session */} = stores();
   export let comp//, lang
+  $: comp.text = comp.text?.replaceAll('https://www.urosystem.com', _siteurl) || null
+  //console.log(typeof(comp.text.replace))
   //$: {
     //l = $page.params.lang
     //comp.lang = lang

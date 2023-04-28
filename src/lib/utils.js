@@ -4,7 +4,7 @@ import { marked } from 'marked'
 import { variables } from '$lib/stores'
 //console.log({variables})
 
-const _site = variables.site
+const _site = variables.site || '_us'
 
 const allblocks = import.meta.glob('/cms/blocks/**/*.md')
 const allposts = import.meta.glob('/cms/pages/**/*.md')
@@ -56,12 +56,12 @@ export async function _getConf(lang = 'en') {
   const top = `top${_site}`
   const footer = `footer${_site}`
 
-  //console.log({config})
+  //console.log(`langs${_site}`, config[langs])
 
   _.remove(config[langs], (n) => { return !n.active })
   config.langs = config[langs]
 
-  //console.log(langs,config.langs)
+  //console.log(footer,config[footer])
 
   config.thislang = null
   for (const l of config.langs) {
