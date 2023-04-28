@@ -17,7 +17,7 @@ components:
       3. The estimated delivery time, according to the customer’s country as follows:
 
          * EU countries: 12 days
-         * Russia, Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
+         * Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
          * Other countries: 15 days
 
          Due to COVID world wide pandemic delivery can be longer than usual.
