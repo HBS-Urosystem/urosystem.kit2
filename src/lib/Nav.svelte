@@ -85,11 +85,15 @@
     class:moved={y>48}
     bind:clientWidth={wnav}>
   <div>
-    <select on:focus={() => slct = true} on:blur={() => slct = false} bind:value={langchng} on:change={newlang}>
-      {#each $state.langs as lang}
-      <option value={lang.id}>{lang.id} {#if slct}· {lang.title}{/if}</option>
-      {/each}
-    </select>
+    {#if $state.langs?.length > 1}
+      <select on:focus={() => slct = true} on:blur={() => slct = false} bind:value={langchng} on:change={newlang}>
+        {#each $state.langs as lang}
+          <option value={lang.id}>{lang.id} {#if slct}· {lang.title}{/if}</option>
+        {/each}
+      </select>
+    {:else}
+      <div></div>
+    {/if}
     <ul>
       <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
       <li><a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
@@ -318,7 +322,7 @@
     display: inline-block;
   }*/
 
-  a:has(.sitelogo_ud) {
+  a:has(.sitelogo_ud), a:has(.sitelogo_na) {
     padding-bottom: .5rem;
     padding-top: 0;
     padding-inline-start: 1rem;
@@ -332,7 +336,7 @@
     height: 3.226rem;
     aspect-ratio: 300 / 95;
   }
-  img.sitelogo_ud {
+  img.sitelogo_ud, img.sitelogo_na {
     /*padding-inline-end: 1rem;*/
     margin-bottom: -1.4rem;
     height: 3.5rem;
