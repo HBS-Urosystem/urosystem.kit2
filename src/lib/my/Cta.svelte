@@ -2,7 +2,7 @@
   import { snapto/*, sitelang*/ } from '$lib/stores'
   //console.log({sitelang})
   export let comp//, lang
-  let rel = '', target = '', link
+  let rel = '', target = '', link, scrollto = false
   $: {
     console.log(comp.link)
     if (comp.link && comp.link.startsWith('/')) comp.link = comp.link.substring(1)
@@ -11,8 +11,8 @@
       target = '_blank'
       link = comp.link
     } else if(comp.link && comp.link.startsWith('#')) {
-      link = comp.link
-      //$snapto = true
+      link = scrollto = comp.link
+      //scrollto = link
     } else {
       //console.log(comp.link)
       //if (comp.link == 'index') comp.link = ''
@@ -26,7 +26,7 @@
   {#if comp.text}<div>{@html comp.text}</div>{/if}
   {#if comp.button}
   <div>
-    <a on:click|stopPropagation={() => $snapto = false} href="{link}" rel="{rel}" target="{target}"><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>
+    <a on:click={() => $snapto = scrollto} on:keypress={() => $snapto = scrollto} href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a> <!-- or unclick? -->
     {#if comp.below}<p>{comp.below}</p>{/if}
   </div>
   {/if}
