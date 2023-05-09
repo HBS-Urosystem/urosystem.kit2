@@ -5,6 +5,7 @@
 	//import Modal from '$lib/my/Modal.svelte'
   import SubNav from '$lib/SubNav.svelte'
   import * as scrollnav from "svelte-scrollto"
+  import { cubicIn, cubicOut } from 'svelte/easing'
 
   const _site = variables.site
   const sitelogo = `sitelogo${_site}.svg`
@@ -52,10 +53,10 @@
   import { snapto } from '$lib/stores'
   $: {
     if (!!$snapto) {
-      scrollnav.scrollTo({element: $snapto, duration: 500, offset: -75, onDone: _snap})
+      scrollnav.scrollTo({element: $snapto, duration: 500, offset: -75, easing: cubicIn, onDone: _snap})
       //scrollnav.scrollTo({element: $snapto, offset: 0})
       function _snap() {
-        scrollnav.scrollTo({element: $snapto, offset: 0, onDone: () => {$snapto = false} })
+        scrollnav.scrollTo({element: $snapto, offset: 0, easing: cubicOut, onDone: () => {$snapto = false} })
       }
     }
   }
