@@ -84,6 +84,7 @@
 <nav
     use:action class={headerClass}
     class:moved={y>48}
+    class:full={!hamburger}
     bind:clientWidth={wnav}>
   <div>
     {#if $state.langs?.length > 1}
@@ -174,10 +175,13 @@
     background-color: var(--dark-blue);
     overflow-x: auto;
   }
+  nav.moved.full {
+    border-bottom: 2px var(--light-blue-75) solid;
+  }
   nav.moved {
     top: -4rem;
     background-color: var(--dark-blue);
-    border-bottom: 2px var(--light-blue-75) solid;
+    /*border-bottom: 2px var(--light-blue-75) solid;*/
   }
   li#over {
     /*position: sticky;*/
