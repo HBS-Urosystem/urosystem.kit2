@@ -1,11 +1,11 @@
 <script context="module">
+  import "./hirlev.postcss"
   //import { onMount, afterUpdate } from 'svelte'
   import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
   //const _siteurl = variables.siteurl[variables.site] || 'https://www.urosystem.com'
   import { onMount } from 'svelte'
   //import * as scroller from "svelte-scrollto"
   //import { amp, browser, dev, prerendering } from '$app/environment'
-  import { browser } from '$app/environment'
   import { PortableText } from '@portabletext/svelte'
   import { getSanityImageUrl, formatBlogPostDate } from '$lib/helpers.js'
   import Subscribe from '$lib/SubscribeActivecamp.svelte'
@@ -35,8 +35,10 @@
   $state = data
   onMount(() => {
     $sitelang = 'hu'
-    console.log({$sitelang})
+    //console.log({$sitelang})
 	})
+  let news, filter = false
+  $: news = filter && data.news_doc || data.news
 </script>
 
 <svelte:head>
@@ -48,11 +50,18 @@
 <main id="hirlev">
   <header class="fu-ll">
     <h1>Hírleveleink</h1>
+    <form>
+      <label for="filter">
+        <span>Páciens</span>
+        <input id="filter" type="checkbox" bind:checked={filter}/>
+        <span>Orvos</span>
+      </label>
+    </form>
   </header>
   
   <div id="content" class="s-xEUe3BhquCBG"></div>
 
-  {#each data.news as hirlev}
+  {#each news as hirlev}
     <article class="text-center w-full">
       <time>{formatBlogPostDate(hirlev.publishedAt)}</time>
       <h2 class="">{hirlev.title}</h2>
@@ -75,10 +84,17 @@
   article {
     padding: var(--gap) var(--sides);
   }
-  aside/*, details, figcaption*/ {
+  aside {
     max-width: 56ch;
-    margin: 0 auto;
     padding: 0;
+    margin-inline: auto;
+  }
+  form {
+    @apply form-control mb-12;
+    align-items: center;
+  }
+  input#filter {
+    @apply toggle toggle-sm bg-none;
   }
   /*header {
     display: grid;
@@ -124,11 +140,6 @@
     flex-wrap: wrap;
     gap: 4ch;
     align-items: flex-end;
-  }
-  aside {
-    flex: 0 1 48ch;
-    padding: 0;
-    margin-inline: auto;
   }*/
   /*h1 {
     @apply text-2xl font-bold pb-4;

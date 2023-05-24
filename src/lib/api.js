@@ -8,4 +8,5 @@ export const allAuthors = `*[_type == 'author']`;
 export const allEvents = `*[_type == 'event' && !(_id in path('drafts.**'))]{...} | order(date1 desc)`;
 
 export const hirlev = `*[_type == 'hirlev']{...} | order(publishedAt desc)`;
+export const hirlev_doc = `*[_type == 'hirlev_doc']{...} | order(publishedAt desc)`;
 
