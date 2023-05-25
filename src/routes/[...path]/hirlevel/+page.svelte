@@ -37,7 +37,7 @@
     $sitelang = 'hu'
     //console.log({$sitelang})
 	})
-  let news, filter = false
+  let news, filter = data.filter == 'doc' || false
   $: news = filter && data.news_doc || data.news
 </script>
 
@@ -62,13 +62,15 @@
   <div id="content" class="s-xEUe3BhquCBG"></div>
 
   {#each news as hirlev}
-    <article class="text-center w-full">
+    <article id={hirlev.slug.current} class="text-center w-full">
       <time>{formatBlogPostDate(hirlev.publishedAt)}</time>
       <h2 class="">{hirlev.title}</h2>
-      <aside class="text-left mx-auto">
-        <h5>{hirlev.excerpt}</h5>
+      <details class="text-left mx-auto">
+        <!--<h5>{hirlev.excerpt}</h5>
+        <PortableText value={hirlev.body}/>-->
+        <summary>{hirlev.excerpt}</summary>
         <PortableText value={hirlev.body}/>
-      </aside>
+      </details>
     </article>
   {/each}
 
@@ -84,7 +86,7 @@
   article {
     padding: var(--gap) var(--sides);
   }
-  aside {
+  aside, details {
     max-width: 56ch;
     padding: 0;
     margin-inline: auto;
