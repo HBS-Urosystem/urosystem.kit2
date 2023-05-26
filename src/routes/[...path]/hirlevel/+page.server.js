@@ -7,9 +7,10 @@ export const load = async ({ url }) => {
 
   const news = await client.fetch(hirlev)
   const news_doc = await client.fetch(hirlev_doc)
-  const filter = url.searchParams.get('filter')
+  const filters = url.searchParams.get('filter') || []
+  //console.log({filters})
   //if (news) {
-    return {news, news_doc, filter}
+    return {news, news_doc, filters}
   //}
   //return false
 }

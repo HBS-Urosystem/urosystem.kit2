@@ -29,16 +29,21 @@
   //console.log(hirlevel)
   data.post.id = 'hirlevel'
   data.post.slug = 'hirlevel'
-  data.post.canonical = 'hirlevel'
+  data.post.canonical = '_us'
   data.post.menutitle = 'Hírlevelek'
   //console.log({result})
   $state = data
+  let news, doc, filter
   onMount(() => {
     $sitelang = 'hu'
     //console.log({$sitelang})
-	})
-  let news, filter = data.filter == 'doc' || false
-  $: news = filter && data.news_doc || data.news
+    doc = data.filters.indexOf('doc') > -1
+  })
+  $: {
+    filter = doc && '?filter=doc' || ''
+    news = doc && data.news_doc || data.news
+  }
+  //$: console.log(doc, filter)
 </script>
 
 <svelte:head>
@@ -51,9 +56,9 @@
   <header class="fu-ll">
     <h1>Hírleveleink</h1>
     <form>
-      <label for="filter">
+      <label for="doc">
         <span>Páciens</span>
-        <input id="filter" type="checkbox" bind:checked={filter}/>
+        <input id="doc" type="checkbox" bind:checked={doc}/>
         <span>Orvos</span>
       </label>
     </form>
@@ -63,8 +68,9 @@
 
   {#each news as hirlev}
     <article id={hirlev.slug.current} class="text-center w-full">
-      <time>{formatBlogPostDate(hirlev.publishedAt)}</time>
-      <h2 class="">{hirlev.title}</h2>
+      <a href={`/hirlevel${filter}#${hirlev.slug.current}`} on:click={() => $snapto = `#${hirlev.slug.current}`}><time class="-mb-4 mt-6">{formatBlogPostDate(hirlev.publishedAt)}</time>
+        <h2 class="">{hirlev.title}</h2>
+      </a>
       <details class="text-left mx-auto">
         <!--<h5>{hirlev.excerpt}</h5>
         <PortableText value={hirlev.body}/>-->
@@ -95,8 +101,12 @@
     @apply form-control mb-12;
     align-items: center;
   }
-  input#filter {
+  input#doc {
     @apply toggle toggle-sm bg-none;
+  }
+
+  label span {
+    @apply mx-4;
   }
   /*header {
     display: grid;
@@ -112,7 +122,7 @@
     min-height:100vh;
   }
   .hero-overlay {
-    backdrop-filter: blur(2px);
+    backdrop-doc: blur(2px);
     grid-column-start: 1;
     grid-row-start: 1;
     height: 100%;
