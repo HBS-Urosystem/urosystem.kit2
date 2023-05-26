@@ -8,7 +8,7 @@
   //import { amp, browser, dev, prerendering } from '$app/environment'
   import { PortableText } from '@portabletext/svelte'
   import { getSanityImageUrl, formatBlogPostDate } from '$lib/helpers.js'
-  import Subscribe from '$lib/SubscribeActivecamp.svelte'
+  //import Subscribe from '$lib/SubscribeActivecamp.svelte'
   //import { client } from '/src/lib/sanityClient.js'
 
   /*export const load = async ({fetch}) => {
@@ -38,6 +38,8 @@
     $sitelang = 'hu'
     //console.log({$sitelang})
     doc = data.filters.indexOf('doc') > -1
+    $snapto = location.hash
+    //console.log(location.hash)
   })
   $: {
     filter = doc && '?filter=doc' || ''
@@ -92,7 +94,7 @@
   article {
     padding: var(--gap) var(--sides);
   }
-  aside, details {
+  details {
     max-width: 56ch;
     padding: 0;
     margin-inline: auto;
@@ -108,55 +110,6 @@
   label span {
     @apply mx-4;
   }
-  /*header {
-    display: grid;
-    width: 100%;
-    place-items: center;
-    background-position: center;
-    padding: 0;
-  }
-  header.full {
-    background-image: url('/uploads/+.svg');
-    background-size: 568px;
-    background-repeat: initial;
-    min-height:100vh;
-  }
-  .hero-overlay {
-    backdrop-doc: blur(2px);
-    grid-column-start: 1;
-    grid-row-start: 1;
-    height: 100%;
-    width: 100%;
-  }
-  header > .hero-content {
-    padding-top: 4rem;
-  }
-  .hero-content {
-    grid-column-start: 1;
-    grid-row-start: 1;
-    z-index: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 80rem;
-    gap: 1rem;
-    padding-bottom: 8rem;
-  }
-  main {
-    @apply container max-w-6xl mx-auto px-4;
-  }
-  article {
-    @apply mt-32 py-16 shadow-xl image-full;
-    background-color: var(--dark-blue);
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4ch;
-    align-items: flex-end;
-  }*/
-  /*h1 {
-    @apply text-2xl font-bold pb-4;
-    text-align:initial;
-  }*/
   time {
     /*@apply h-8;*/
     display: block;
@@ -166,35 +119,5 @@
   time + h2 {
     margin-top: 1em;
   }
-
-  /*.carousel {
-    flex: 1 0 32ch;
-    position: relative;
-    gap: 2ch;
-    width: 100%;
-    max-width: 100%;
-    grid-column-end: auto;
-    align-self: stretch;
-  }
-  .carousel-item {
-    width: min(32ch,100%);
-  }
-  .carousel button {
-    @apply btn btn-circle btn-sm;
-    position: sticky;
-    top: 50%;
-    width: 2rem;
-    color: #3da4c9;
-  }
-  .carousel button:first-of-type {
-    left: .25em;
-  }
-  .carousel button:last-of-type {
-    right: .25em;
-  }
-  img {
-    @apply shadow-2xl;
-    object-fit: contain;
-  }*/
 
 </style>
