@@ -4,7 +4,7 @@ folder: indications
 fallback: ""
 published: true
 subpages:
-  - link: ic-bps/.
+  - link: ic-bps/whatis
   - link: ic-bps/facts
   - link: ic-bps/difficulty
   - link: ic-bps/treatment
