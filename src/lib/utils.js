@@ -61,7 +61,7 @@ export async function _getConf(lang = 'en') {
   _.remove(config[langs], (n) => { return !n.active })
   config.langs = config[langs]
 
-  console.log(langs,config[langs])
+  //console.log(langs,config[langs])
 
   config.thislang = null
   for (const l of config.langs) {
@@ -136,8 +136,8 @@ export async function _getConf(lang = 'en') {
 
 export async function _getPost({path, lang = 'en', sub = null}) {
   const p = await _findPost({path, lang})
-  //console.log({lang},{path},{sub})
-  //console.log('_getPost',p/*.menutitle*/)
+  //console.log({lang},{path},{sub}) /// works
+  //console.log('_getPost',p) /// works
   let post = {...p}
   post.path = path
   //console.log('...p',p)
@@ -162,26 +162,29 @@ export async function _getPost({path, lang = 'en', sub = null}) {
 
   post.subpages = null
   post.subpage = null
+  //console.log({p})
   if (p.subpages) {
     post.subpages = []
     for (let s of p.subpages) {
-      if (!!s.link) s.link = s.link.replace('/.', '/whatis') // TODO: remove this
-      const parts = s.link.split('/')
-      let sp = await _getPost({path: s.link, lang/*, sub*/})
+      //if (!!s.link) s.link = s.link.replace('/.', '/whatis') // TODO: remove this
+      //const parts = s.link.split('/')
+      let sp = await _getPost({path: s.link, lang, sub: s.id})
       sp.slug = sp.slug || sp.id
-      //console.log('util_sub', sp.slug, lang, parts)
+      //console.log('>>', s.link)
+
       if (sp.slug == '.' && !sub || sp.slug == sub) {
         //subpage = sp
+        //post = sp
+        //post.subpages = []
         post.subpage = sp
-        //console.log('>subpage',sp.slug)
       }
-      //console.log('>slug',sp.slug)
+              //console.log('>subpage',sp.slug)
       post.subpages.push(sp)
     }
     //post.subposts = subpages
-  /*} else {
-    post.subposts = null
-    //console.log('_getPost',post)*/
+    /*} else {
+    post.subposts = null*/
+    //console.log('post.subpages',post.subpages.length)
   }
 
   //console.log('>>>new',post)
@@ -202,10 +205,11 @@ export async function _findPost({path, lang}) {
     }
   }
   for (const s in theposts[lang]) {
+    //console.log({path})
     if (s.endsWith(path)) {
-    //if (s.match(`.*${path}`)) {
+      //if (s.match(`.*${path}`)) {
       //console.log('_findPost', path)
-      let p = await theposts[lang][s]().then(({metadata}) => metadata)
+      let p = await theposts[lang][s]().then(({metadata}) => metadata) || {}
       //if (path == 'details') console.log(p)
       //console.log(p.menutitle)
       if (p.fallback && p.fallback !== lang) {
