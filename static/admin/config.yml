@@ -1184,6 +1184,10 @@ collections:
                         name: id
                         widget: string
                         required: true
+                      - label: Poster Image
+                        name: poster
+                        widget: image
+                        required: false
                       - label: Text
                         name: text
                         widget: markdown
@@ -1479,6 +1483,10 @@ collections:
                 name: id
                 widget: string
                 required: true
+              - label: Poster Image
+                name: poster
+                widget: image
+                required: false
               - label: Text
                 name: text
                 widget: markdown
@@ -2046,6 +2054,10 @@ collections:
                         name: id
                         widget: string
                         required: true
+                      - label: Poster Image
+                        name: poster
+                        widget: image
+                        required: false
                       - label: Text
                         name: text
                         widget: markdown
@@ -2222,6 +2234,103 @@ collections:
                 name: title
                 widget: string
                 default: References
+                required: false
+              - label: Anchor
+                name: anchor
+                widget: string
+                required: false
+              - label: Markers
+                name: marker
+                widget: image
+                required: false
+              - label: Items
+                label_singular: Item
+                name: items
+                identifier_field: anchor
+                summary: "{{title}}"
+                widget: list
+                fields:
+                  - label: Link text
+                    name: title
+                    widget: string
+                  - label: URL
+                    name: url
+                    widget: string
+                  - label: Link image/icon
+                    name: src
+                    widget: image
+                    required: false
+          - label: Buttons grid
+            name: buttons
+            summary: "Buttons: {{title}}"
+            fields:
+              - label: Background layers
+                label_singular: Background layer
+                name: background
+                i18n: true
+                widget: list
+                types:
+                  - label: Image
+                    name: image
+                    required: false
+                    fields:
+                      - label: Scale
+                        name: scale
+                        widget: number
+                        required: false
+                        value_type: float
+                      - label: Position-X (%)
+                        name: posx
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Position-Y (%)
+                        name: posy
+                        widget: number
+                        required: false
+                        value_type: int
+                        default: 50
+                        max: 100
+                      - label: Image
+                        name: src
+                        widget: image
+                        required: false
+                  - label: Color
+                    name: color
+                    widget: list
+                    fields:
+                      - widget: relation
+                        options_length: 999
+                        name: name
+                        value_field: colors.*.title
+                        search_fields:
+                          - colors.*.title
+                        label: Color
+                        display_fields:
+                          - colors.*.title
+                        file: design
+                        collection: config
+                  - label: Gradient
+                    name: gradient
+                    widget: list
+                    fields:
+                      - widget: relation
+                        options_length: 999
+                        name: name
+                        value_field: gradients.*.title
+                        search_fields:
+                          - gradients.*.title
+                        label: Gradients
+                        display_fields:
+                          - gradients.*.title
+                        file: design
+                        collection: config
+              - label: Header
+                name: title
+                widget: string
+                default: Buttons
                 required: false
               - label: Anchor
                 name: anchor

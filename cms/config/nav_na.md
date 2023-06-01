@@ -1,35 +1,41 @@
 ---
 top_na:
-  - link: details
+  - link: instructions
     titles:
       - lang: en
-        title: Details
+        title: Intructions
       - lang: hu
-        title: Részletek
+        title: Tudnivalók
       - lang: ru
-        title: Details
+        title: Intructions
       - lang: de
-        title: Details
+        title: Intructions
       - lang: es
-        title: Details
+        title: Intructions
       - lang: fr
-        title: Details
+        title: Intructions
       - lang: he
-        title: Details
+        title: Intructions
       - lang: it
-        title: Details
+        title: Intructions
       - lang: ja
-        title: Details
+        title: Intructions
       - lang: pt
-        title: Details
+        title: Intructions
       - lang: tr
-        title: Details
+        title: Intructions
       - lang: zh
-        title: Details
+        title: Intructions
       - lang: ko
-        title: Details
+        title: Intructions
       - lang: ar
-        title: Details
+        title: Intructions
+    subpages:
+      - link: instructions/general
+      - link: instructions/prior
+      - link: instructions/female
+      - link: instructions/male
+      - link: instructions/faq
   - subpages:
       - link: ic-bps
       - link: rutis

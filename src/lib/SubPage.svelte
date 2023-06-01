@@ -10,7 +10,7 @@
 	//const { /*preloading, */page/*, session */} = stores();
   export let sub, /*noscroll = false,*/ scrollto = false
   //let subpage = _findPost($page.params.lang, link) || []
-    //console.log(active)
+  //console.log(sub)
   
 </script>
 

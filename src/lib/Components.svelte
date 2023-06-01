@@ -1,5 +1,5 @@
 <script context="module">
-  import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
+  import { /*state, sitelang, snapto, gateway,*/ variables } from '$lib/stores'
   import Article from '$lib/my/Article.svelte'
   import Images from '$lib/my/Images.svelte'
   import Grid from '$lib/my/Grid.svelte'
@@ -8,6 +8,7 @@
   import Video from '$lib/my/Video.svelte'
   import Links from '$lib/my/Links.svelte'
   import Refs from '$lib/my/Refs.svelte'
+  import Buttons from '$lib/my/Buttons.svelte'
   import Qas from '$lib/my/Qas.svelte'
   import Form from '$lib/my/Form.svelte'
 	import Modal from '$lib/my/Modal.svelte'
@@ -23,6 +24,7 @@
 		video: Video,
     links: Links,
     refs: Refs,
+    buttons: Buttons,
     qas: Qas
 	}
 

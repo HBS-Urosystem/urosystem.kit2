@@ -19,7 +19,7 @@ langs_na:
     title: Español
     dir: ltr
     font: default
-    active: false
+    active: true
   - id: fr
     title: Français
     dir: ltr

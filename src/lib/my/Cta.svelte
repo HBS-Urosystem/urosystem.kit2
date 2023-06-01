@@ -4,7 +4,7 @@
   export let comp//, lang
   let rel = '', target = '', link, scrollto = false
   $: {
-    console.log(comp.link)
+    //console.log(comp.link)
     if (comp.link && comp.link.startsWith('/')) comp.link = comp.link.substring(1)
     if (comp.link && comp.link.startsWith('http')) {
       rel = 'noopener'

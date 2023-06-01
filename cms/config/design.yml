@@ -52,3 +52,7 @@ gradients:
     title: light-blue-75
     var1: light-blue-75
     var2: mid-blue-75
+  - deg: 0
+    title: radial-dark
+    var1: mid-blue-75
+    var2: dark-blue

@@ -18,13 +18,13 @@
     {/if}
     {#if comp.source == 'local'}
       <!-- svelte-ignore a11y-media-has-caption -->
-      <video title="{comp.title || comp.anchor || 'video'}" loading="lazy"  poster={comp.poster || `/${comp.id}.png`} width="100%" controls controlsList="nodownload">
+      <video title="{comp.title || comp.anchor || 'video'}" loading="lazy" poster={comp.poster || `/${comp.id}.png`} width="100%" controls controlsList="nodownload">
         <source src="/{comp.id}" type="video/mp4">
       </video>
     {/if}
     {#if comp.source == 'web'}
       <!-- svelte-ignore a11y-media-has-caption -->
-      <video title="{comp.title || comp.anchor || 'video'}" loading="lazy"  poster={comp.poster || `${comp.id}.png`} width="100%" controls controlsList="nodownload">
+      <video title="{comp.title || comp.anchor || 'video'}" loading="lazy" poster={comp.poster || `${comp.id}.png`} width="100%" controls controlsList="nodownload">
         <source src="{comp.id}" type="video/mp4">
       </video>
     {/if}
