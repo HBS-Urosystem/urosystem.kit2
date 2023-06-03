@@ -14,7 +14,7 @@ components:
       instillation, and a ribbed grip for easy mounting.
 
 
-      With over 1,000,000 pieces sold, UroDapter is preferred by patients and healthcare professionals for its pain-free insertion, simultaneous treatment of bladder and urethra, and low risk of complications and infections.
+      With over 1,000,000 pieces used, UroDapter is preferred by patients and healthcare professionals for its pain-free insertion, simultaneous treatment of bladder and urethra, and low risk of complications and infections.
 
 
       It is applicable in most patients and suitable for a range of urological conditions and diagnostic purposes.

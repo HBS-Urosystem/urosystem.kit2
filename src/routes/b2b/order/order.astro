@@ -1,0 +1,110 @@
+---
+import Identity from '../components/Identity.svelte';
+import Layout from '../components/Layout.astro';
+
+const url = new URL(Astro.request.url);
+const user = url.searchParams.get('email');
+---
+<script>
+  const inputs = document.querySelectorAll('input[data-multi]');
+  inputs.forEach((i) => {
+    ['change','keyup'].forEach( evt => 
+      i.addEventListener(evt, () => {
+        const id = event.target.id;
+        const v = event.target.valueAsNumber;
+        const m = event.target.dataset.multi;//_multi(v, 5);
+        const total = document.getElementById(`${id}-confirm`);
+        total.valueAsNumber = _multi(v,m);
+      }, false)
+    );
+    /*i.addEventListener('change', () => {
+      const id = event.target.id;
+      const v = event.target.valueAsNumber;
+      const m = event.target.dataset.multi;//_multi(v, 5);
+      const total = document.getElementById(`${id}-confirm`);
+      total.valueAsNumber = _multi(v,m);
+      //console.log(total,_multi(v,m));
+    });*/
+  });
+  const _multi = (val, m) => { return val * m };
+</script>
+
+<Layout title="CUSTOMER ORDER FORM">
+    <Identity client:only="svelte" bind={false} redirect="/"/>
+
+    <div class="card w-auto shadow-xl image--full mx-4 bg-base-100">
+      <form class="card-body gap-8" name="B2B Order Form" method="POST" action="/thankyou">
+        <input type="hidden" name="form-name" value="B2B Order Form">
+        <fieldset class="flex flex-wrap gap-8">
+          <label for="company" class="flex-1 min-w-fit">Customer name<br>
+            <input id="company" name="company" type="text" required placeholder="* required" class="input input-bordered input-md flex-1 min-w-fit w-full">
+          </label>
+          <label for="email" class="flex-1 min-w-fit">Contact's Email<br>
+            <input id="email" name="email" type="email" required placeholder="* required" class="input input-bordered input-md flex-1 min-w-fit w-full">
+          </label>
+        </fieldset>
+        <fieldset class="flex flex-wrap gap-8">
+          <legend>5 pieces box of UroDapter®</legend>
+          <label for="5pcs" class="flex-1 min-w-fit">Number of boxes with 5 pieces<br>
+            <input id="5pcs" name="5pcs" type="number" min="0" required placeholder="* required" data-multi=5 class="input input-bordered input-md flex-1 min-w-fit w-full">
+          </label>
+          <label for="5pcs-confirm" class="flex-1 min-w-fit">Total number of pieces (for control)<br>
+            <input id="5pcs-confirm" name="5pcs-confirm" type="number" min="0" disabled class="input input-bordered input-md flex-1 min-w-fit w-full">
+          </label>
+        </fieldset>
+        <fieldset class="flex flex-wrap gap-8">
+          <legend>10 pieces box of UroDapter®</legend>
+          <label for="10pcs" class="flex-1 min-w-fit">Number of boxes with 10 pieces<br>
+            <input id="10pcs" name="10pcs" type="number" min="0" required placeholder="* required" data-multi=10 class="input input-bordered input-md flex-1 min-w-fit w-full">
+          </label>
+          <label for="10pcs-confirm" class="flex-1 min-w-fit">Total number of pieces (for control)<br>
+            <input id="10pcs-confirm" name="10pcs-confirm" type="number" min="0" disabled class="input input-bordered input-md flex-1 min-w-fit w-full">
+          </label>
+        </fieldset>
+        <fieldset class="flex flex-wrap gap-8">
+          <legend>100 pieces box of UroDapter®</legend>
+          <label for="100pcs" class="flex-1 min-w-fit">Number of boxes with 100 pieces<br>
+            <input id="100pcs" name="100pcs" type="number" min="0" required placeholder="* required" data-multi=100 class="input input-bordered input-md flex-1 min-w-fit w-full">
+          </label>
+          <label for="100pcs-confirm" class="flex-1 min-w-fit">Total number of pieces (for control)<br>
+            <input id="100pcs-confirm" name="100pcs-confirm" type="number" min="0" disabled class="input input-bordered input-md flex-1 min-w-fit w-full">
+          </label>
+        </fieldset>
+
+        <fieldset class="flex flex-col gap-8 my-4">
+          <label for="message" class="label w-full">Any other important comment?
+            <textarea id="message" name="message" class="textarea textarea-primary w-full" placeholder="Your message"></textarea>
+          </label>
+        </fieldset>
+
+        <fieldset class="flex gap-8">
+          <label for="consent"><input id="consent" name="consent" type="checkbox" required class="checkbox checkbox-xs" /> I accept the 
+          <a href="https://www.urosystem.com/en/privacy-policy" rel="external" target="_blank">Privacy Policy</a></label>
+          <button type="submit" tabindex="0" class="btn btn-primary flex-none ml-auto">Send</button>
+        </fieldset>
+      </form>
+    </div>
+    <aside class="flex justify-center my-10">
+      <a href="/" tabindex="0" class="btn btn-ghost">◀︎ Back</a>
+    </aside>
+
+</Layout>
+
+<style>
+input, textarea {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /*letter-spacing: .04em;*/
+  -webkit-hyphens:auto;-ms-hyphens:auto;hyphens: auto;
+  text-shadow: 0 0 0.75em var(--dark-blue);
+}
+</style>
+
+<script is:inline>
+  const u = new URL(window.location.href); 
+  const email = u.searchParams.get('email')
+  if (email) {
+    const el = document.getElementById("email");
+    //console.log(el);
+    el.value = email;
+  }
+</script>

@@ -37,5 +37,5 @@ components:
       ### A urological syringe adapter which completely replaces the catheter: it enables painless and complication-free bladder instillation
 
 
-      #### More than 1,000,000 pieces sold
+      #### More than 1,000,000 pieces used
 ---

@@ -11,5 +11,5 @@ blocks:
   - id: company/partners_us
   - id: index/contact
 subhero: company/logo
-canonical: https://www.urosystem.com/company
+canonical: _us
 ---

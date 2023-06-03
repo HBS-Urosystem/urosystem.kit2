@@ -17,7 +17,7 @@ components:
       **Customer –** Aka. Buyer, any natural or legal person who is purchasing products using the Webshop.
 
 
-      **Product –** Plural Products, aka. Goods, any urological product available for purchasing in our Webshop, sold by Our Company, bought by the Customer.
+      **Product –** Plural Products, aka. Goods, any urological product available for purchasing in our Webshop, used by Our Company, bought by the Customer.
 
 
       **Price –** Equals the amount of money shown on the Webpage or established otherwise. 

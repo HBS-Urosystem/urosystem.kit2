@@ -15,5 +15,5 @@ components:
 
 
       <img loading="lazy" src="/uploads/screen-shot-2019-10-25-at-11.30.43-am.png" alt="IBSA iAluadapter®" style="width:100%;display:block;margin:0 auto;" />
-    title: UroDapter® has already sold over a million pieces around the world​
+    title: UroDapter® has already used over a million pieces around the world​
 ---

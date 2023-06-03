@@ -1,10 +1,11 @@
 [dev]
-  command = "vite dev"
-  targetPort = 5173
+#  command = "vite dev"
+#  targetPort = 5173
+  framework = "svelte-kit"
 
-[build]
-  command = "vite build"
-  publish = "build"
+#[build]
+#  command = "vite build"
+#  publish = "build"
 
-[functions]
-  directory = "netlify/functions/"
+#[functions]
+#  directory = "netlify/functions/"

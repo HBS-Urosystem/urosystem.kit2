@@ -8,6 +8,9 @@
   import { PortableText } from '@portabletext/svelte'
   import { getSanityImageUrl, formatBlogPostDate } from '$lib/helpers.js'
   import Identity from '$lib/Identity.svelte'
+  
+  export let data
+  console.log({data})
 </script>
 
 <main>
@@ -19,7 +22,9 @@
 
       {#if browser}
       <!--<div class="text-center hero-content text-neutral-content w-full">-->
-        <Identity slot="header" bind={true}/>
+        <Identity slot="header" bind={true}>
+          <p slot="notuser">(Not logged in)</p>
+        </Identity>
       <!--</div>-->
       {/if}
     </div>

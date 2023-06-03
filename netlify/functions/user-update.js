@@ -7,21 +7,31 @@
 export async function handler (event, context, callback) {
   //const { identity, user } = context.clientContext;
   
-  //console.log({client})
   //console.log({event})
   //console.log({context})
-  const data = event.body && JSON.parse(event.body)
-  //const { user } = data
-  const user = data?.user || null
-  console.log({user})
+  const user = event.body && JSON.parse(event.body) || null
+  //console.log({user})
+
+  /* AC fetch */
+  const key = "import.meta.env.VITE_AC_API_KEY"
+  const url = "import.meta.env.VITE_AC_API_URL + '/contacts?filters[email]=' + user.email"
+
+  const options = {method: 'GET', headers: {accept: 'application/json'}}
+
+  fetch(url, options)
+    .then(response => response.json())
+    .then(response => console.log({response}))
+    .catch(err => console.error(err));
+
 
   //prep metadata for future tokens
   const netlifyResponseBody = {
     user_metadata: {
       ...user?.user_metadata || null,
       ...user?.app_metadata || null,
-      email: user.email,
-      user_other_thing: 'some user value'
+      email: user?.email,
+      user_other_thing: 'some user value',
+      another: 'another user value',
     },
   }
 
