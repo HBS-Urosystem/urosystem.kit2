@@ -87,7 +87,8 @@
   img {
     filter: invert();
     /*width: 1.5rem;*/
-    height: 1.25rem;
+    /*height: 1.25rem;*/
+    height: 1rem;
   }
   img[aria-hidden="true"] {
     position: absolute;

@@ -19,7 +19,7 @@
   <title>UroDapter® – Replacing Catheter in the Field of Bladder Instillation</title>
   <meta name="description" content="The UroDapter® urological adapter replaces catheter. It enables painless and complication-free bladder treatment for several lower urinary tract diseases.">
   <meta name="keywords" content="instillation, urological adapter, bladder treatment, urethra treatment, pain-free, catheter replacement, cystitis, painless, complication-free, bladder">
-  <link rel="canonical" href="{_siteurl}/{$sitelang || 'hu'}"/>
+  <link rel="canonical" href="{_siteurl}/{$sitelang || 'en'}"/>
 
 </svelte:head>
 

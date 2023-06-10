@@ -72,7 +72,7 @@
   }*/
   nav {
     background-color: var(--dark-blue);
-    padding: 0 var(--sides);
+    padding: var(--gap2) var(--sides) 0;
   }
   ul {
     display: flex;
@@ -111,7 +111,7 @@
     background-image:var(--grad-light-blue);
     background-position:50% 50%;
     background-size:cover;*/
-    padding-top: var(--gap);
+    padding-top: var(--gap2);
   }
 
   /*div {
