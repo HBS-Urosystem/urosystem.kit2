@@ -3,6 +3,12 @@ id: shop-5pcs
 folder: shop
 fallback: en
 components:
+  - type: buy
+    title: شراء من متجرنا على شبكة الإنترنت
+    subhead: شراء 5 قطع مقابل 40 دولارًا / 10 قطعة مقابل 80 دولارًا
+    text: اختر الكمية المطلوبة واشتري!
+    button: تسوق الآن
+    product: "5983114002592"
   - type: grid
     slide: false
     components:
@@ -21,13 +27,8 @@ components:
             posy: 72
             scale: 20
             src: /uploads/urodapter-removebg.png
-    title: UroDapter® جديد بالنسبة لك؟ اطلب حزمة عينة اليوم!
-    subhead: شراء 5 قطع مقابل 40 دولارًا / 10 قطعة مقابل 80 دولارًا
+    #title: UroDapter® جديد بالنسبة لك؟ اطلب حزمة عينة اليوم!
     background: []
-  - type: buy
-    title: ""
-    button: تسوق الآن
-    product: "5983114002592"
   - type: article
     text: >-
       #### وقت التسليم المقدر حسب بلد العميل كالتالي:

@@ -153,8 +153,10 @@ export async function _getPost({path, lang = 'en', sub = null}) {
   post.blocks = null
   if (p.blocks) {
     let blocks = []
+    post.canonlang = p.fallback
     for (const b of p.blocks) {
       const block = await _getBlock(b.id, lang)
+      if (!block.canonlang) post.canonlang = false
       blocks.push(block)
     }
     post.blocks = blocks
@@ -245,9 +247,17 @@ async function _findBlock(id, l, all = allblocks) {
 for (const b in all) {
   if (b.indexOf(id + '.' + l) >= 0) {
     const block = await all[b]().then(({metadata}) => metadata)
-    //console.log('b.fb',block.fallback)
+    //console.log('')
+    //console.log(l)
     if (block.fallback && block.fallback !== l) {
+      //console.log('')
+      //console.log(block.id, block.canonlang)
+      //console.log(block.components?.length)
+      if (!block.components?.length) block.canonlang = block.fallback
+      //console.log(block.canonlang)
       return mixing(_.cloneDeepWith(block, mdtext), await _findBlock(id, block.fallback), {recursive: true}) // A) recursive fallbacks / cascading blocks
+    } else {
+      //console.log(block.id)
     }
     return _.cloneDeepWith(block, mdtext)
   }
@@ -256,14 +266,15 @@ return null
 }
 function mdtext(value, key) {
   if (key == 'text') {
-    //console.log(marked(value))
+    //console.log('text')
     return marked(value)
   }
   if (key == 'background') {
+    //console.log('background')
     return value && _getBg(value);
   }
+  //console.log(key)
 }
-
 function _getBg(obj = []) {
   //console.log(!!obj || obj)
   let bgs = [], pos = [], siz = []

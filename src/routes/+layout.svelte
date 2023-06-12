@@ -45,10 +45,11 @@
       {/each}
     {/if}
   {/if}
-  {#if $state.post.canonical && $state.post.canonical != _site}
-    <link class={_site} rel="canonical" href="{variables.siteurl[$state.post.canonical]}/{$sitelang}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
-  <!--{:else}
-    <link rel="canonical" href="{_siteurl}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>-->
+  
+  {#if $state.post.canonical && $state.post.canonical != _site}<!--  || !!$state.post.canonlang && $state.post.canonlang != $sitelang -->
+    <link class="{_site} {$state.post.canonical} {$state.post.canonlang}" rel="canonical" href="{variables.siteurl[$state.post.canonical]}/{($state.post.canonlang || $sitelang)}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
+  {:else if !!$state.post.canonlang && $state.post.canonlang != $sitelang}<!-- $state.post.canonical && $state.post.canonical != _site ||  -->
+    <link class="{$sitelang} {$state.post.canonical} {$state.post.canonlang}" rel="canonical" href="{_siteurl}/{$state.post.canonlang}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
   {/if}
 
   {#if !dev}
