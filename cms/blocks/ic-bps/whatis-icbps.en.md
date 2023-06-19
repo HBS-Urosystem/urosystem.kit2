@@ -3,6 +3,7 @@ id: whatis-icbps
 folder: ic-bps
 components:
   - type: article
+    title: What is IC/BPS?
     text: >-
       Interstitial Cystitis/Bladder Pain Syndrome – shortly called IC/BPS – is a
       chronic, long lasting condition that causes painful urinary symptoms which

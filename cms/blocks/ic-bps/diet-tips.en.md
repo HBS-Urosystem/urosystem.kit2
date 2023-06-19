@@ -4,7 +4,7 @@ folder: ic-bps
 published: true
 components:
   - type: article
-    title: ""
+    title: Work out your IC/BPS diet
     text: >-
       Regardless of any other therapy applied in case of severe symptoms, it is
       worth for IC/BPS patients helping the recovery with lifestyle changes,

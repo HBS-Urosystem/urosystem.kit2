@@ -4,7 +4,7 @@ folder: ic-bps
 published: true
 components:
   - type: article
-    title: ""
+    title: "IC/BPS: Frequently asked questions and often misunderstood things"
     text: >-
       We must face the fact: plenty of people have never heard of IC/BPS. In
       spite of this, there are a lot of false assumption and incorrect

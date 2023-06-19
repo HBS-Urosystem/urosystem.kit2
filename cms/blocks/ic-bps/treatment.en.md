@@ -4,6 +4,7 @@ folder: ic-bps
 published: true
 components:
   - type: article
+    title: The treatment of Interstitial Cystitis/Bladder Pain Syndrome (IC/BPS)
     text: >-
       Most guidelines – including the one of American Urological Association
       (AUA) – shares the view that the doctor should start with the least

@@ -4,7 +4,7 @@ folder: ic-bps
 published: true
 components:
   - type: article
-    title: ""
+    title: IC/BPS Glossary
     text: >-
       **Acute** – In the medical terminology, acute refers to diseases,
       illnesses or symptoms that develop fast and don’t last long. (Acute

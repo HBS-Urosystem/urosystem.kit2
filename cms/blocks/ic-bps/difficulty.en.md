@@ -4,6 +4,7 @@ folder: ic-bps
 published: true
 components:
   - type: article
+    title: "Diagnosis and prevalence of IC/BPS: double difficulty"
     text: >-
       Despite many efforts taken to find any marker, so far nothing has been
       discovered that can be inarguably associated with

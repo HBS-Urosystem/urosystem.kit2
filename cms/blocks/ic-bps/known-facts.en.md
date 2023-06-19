@@ -4,6 +4,7 @@ folder: ic-bps
 published: true
 components:
   - type: article
+    title: What we Know about Intestitial Cystitis/Bladder Pain Syndrome
     text: >-
       The causes of IC/BPS are still not known. The possible explanations are
       the dysfunction of the related nerves, autoimmune problems, allergic
@@ -15,7 +16,6 @@ components:
 
 
       Since the cause of the GAG-layer loss is not known, it is impossible to prevent IC/BPS. Moreover, there is no therapy available which cures the condition for good. The early diagnosis and the proper treatment can stop the progression of IC/BPS.
-    title: ""
   - type: refs
     title: References
     items:

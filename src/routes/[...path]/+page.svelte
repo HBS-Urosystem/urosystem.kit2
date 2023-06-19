@@ -91,7 +91,9 @@
 
   <div id="content"></div>
 
-  <h2>{post.title}</h2>
+  <!--{#if !!post.hero}
+    <h2>{post.title}</h2>
+  {/if}-->
 
   {#if $state.post.subpage && $state.post.subpage.subpages && !$state.post.subpage.hidesubs}
     <nav>
