@@ -23,19 +23,18 @@ components:
         anchor: ibsa
       - type: article
         subhead: ""
-        anchor: uro-pro
+        anchor: tyro
         text: >-
-          <a href="http://uro-ginecology.ru/" rel="noopener noreferrer"
-          target="_blank"><img
-          src="/uploads/screenshot-2020-09-07-at-10.23.38-am.png" loading="lazy"
-          alt="Uro-Pro logo" style="max-height:6ch;display:block;margin:0 auto;"
-          /></a>
+          <a
+          href="https://www.tyro-medical.com/shop?store-page=Urodapter-10x-plus-6-35-Sales-Tax-p553514051"
+          rel="noopener noreferrer" target="_blank"><img
+          src="/uploads/tyro-medical-white.png" loading="lazy" alt="Tyro
+          Medical" style="max-height:6ch;display:block;margin:0 auto;" /></a>
 
-          <center>Uro-Pro Russia: Our sales partner for UroDapter®</center>
+
+          <center>Tyro Medical's commitment to excellence and their deep understanding of the healthcare landscape make them the perfect partner for us. Their established distribution channels, strong relationships with healthcare providers, and comprehensive market strategies will enable us to effectively communicate the unique benefits and capabilities of the UroDapter® to medical professionals and patients across the United States.</center>
   - type: article
-    text: >-
-      We are looking for partners for our first commercially available
-      product, the UroDapter. This syringe adapter replaces the catheter in the
-      field of bladder instillation; it enables painless and complication-free
-      treatment.
+    text: We are looking for partners for our first commercially available product,
+      the UroDapter. This syringe adapter replaces the catheter in the field of
+      bladder instillation; it enables painless and complication-free treatment.
 ---

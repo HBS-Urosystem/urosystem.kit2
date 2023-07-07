@@ -22,16 +22,19 @@ components:
         anchor: ibsa
       - type: article
         subhead: ""
-        anchor: uro-pro
+        anchor: tyro
         text: >-
-          <a href="http://uro-ginecology.ru/" rel="noopener noreferrer"
-          target="_blank"><img
-          src="/uploads/screenshot-2020-09-07-at-10.23.38-am.png" loading="lazy"
-          alt="Uro-Pro logo" style="max-height:6ch;display:block;margin:0 auto;"
-          /></a>
+          <a
+          href="https://www.tyro-medical.com/shop?store-page=Urodapter-10x-plus-6-35-Sales-Tax-p553514051"
+          rel="noopener noreferrer" target="_blank"><img
+          src="/uploads/tyro-medical-white.png" loading="lazy" alt="Tyro
+          Medical" style="max-height:6ch;display:block;margin:0 auto;" /></a>
 
-          <center>Uro-Pro Russia: UroDapter®-t forgalmazó partnercégünk.</center>
+
+          <center>A Tyro Medical kiválóság iránti elkötelezettsége és az egészségügyi környezet mélyreható ismerete tökéletes partnerré teszi őket számunkra. Elosztási csatornáik, szoros kapcsolataik az egészségügyi szolgáltatókkal és átfogó piaci stratégiáik lehetővé teszik számunkra, hogy hatékonyan kommunikáljuk az UroDapter® egyedülálló előnyeit és képességeit az egészségügyi szakemberek és a betegek számára szerte az Egyesült Államokban.</center>
   - type: article
-    text: >-
-      Jelenleg az első, a piacon már elérhető orvosi eszközünk forgalmazásához keresünk partnereket. Az Urodapter nevű fecskendő adapter helyettesíti a katétert a húgyhólyag instillációja során, amivel lehetővé teszi a fájdalommentes és komplikációmentes kezelést. 
+    text: "Jelenleg az első, a piacon már elérhető orvosi eszközünk forgalmazásához
+      keresünk partnereket. Az Urodapter nevű fecskendő adapter helyettesíti a
+      katétert a húgyhólyag instillációja során, amivel lehetővé teszi a
+      fájdalommentes és komplikációmentes kezelést. "
 ---

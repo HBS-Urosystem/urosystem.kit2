@@ -35,5 +35,6 @@ components:
           alt="Uro-Pro logo" style="max-height:6ch;display:block;margin:0 auto;"
           /></a>
 
-          <center> <h3>Our sales partner for UroDapter®</h3> </center>
+
+          <center>Uro-Pro Russia: Our sales partner for UroDapter®</center>
 ---
