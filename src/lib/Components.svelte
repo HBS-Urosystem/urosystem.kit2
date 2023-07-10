@@ -37,6 +37,8 @@
   //let { /*preloading, */page/*, session */} = stores();
   export let comp//, lang
   $: comp.text = comp.text?.replaceAll('https://www.urosystem.com', _siteurl) || null
+  $: comp.link = comp.link || false
+  //$: comp.lang = comp.lang == 'undefined' || !comp.lang ? '' : comp.lang
   //console.log(typeof(comp.text.replace))
   //$: {
     //l = $page.params.lang
@@ -50,3 +52,16 @@
 </script>
 
 <svelte:component this={options[comp.type]} {comp}/>
+
+{#key comp.link}
+{#if comp.link}
+  <style>
+    :has(:target) > header {
+      display: none!important;
+    }
+    :has(:target) > :target {
+      padding-top: var(--gap4)
+    }
+  </style>
+{/if}
+{/key}

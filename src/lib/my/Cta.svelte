@@ -1,13 +1,14 @@
 <script>
-  import { snapto/*, sitelang*/ } from '$lib/stores'
+  import { snapto, sitelang } from '$lib/stores'
   //console.log({sitelang})
   export let comp//, lang
   let rel = '', target = '', link, scrollto = false
   $: {
-    console.log('1',comp.link, typeof(comp.lang))
+    //console.log('1',comp.link, comp.lang || $sitelang)
     //if (comp.link && comp.link.startsWith('/')) comp.link = comp.link.substring(1)
-    if (comp.link && comp.link.startsWith('/')) link = comp.link
-    if (comp.link && comp.link.startsWith('http')) {
+    if (comp.link && comp.link.startsWith('/')) {
+      link = '/' + (comp.lang || $sitelang) + (comp.link == '/index' ? '' : comp.link)
+    } else if (comp.link && comp.link.startsWith('http')) {
       rel = 'noopener'
       target = '_blank'
       link = comp.link
@@ -15,9 +16,9 @@
       link = scrollto = comp.link
       //scrollto = link
     } else {
-      //link = '/' + (comp.lang || '') + (comp.link && comp.link == 'index' ? '' : '/' + comp.link)
+      link = '/' + (comp.lang || $sitelang) + (comp.link && comp.link == 'index' ? '' : '/' + comp.link)
     }
-    console.log('2',link)
+    //console.log('2',link)
   }
 </script>
 
