@@ -253,7 +253,7 @@
     {/each}
   {/if}
   <!-- PayPal Logo -->
-  <a href="#content" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/webapps/mpp/pay-online','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700');"><img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/logo-center/9_bdg_secured_by_pp_2line.png" border="0" alt="Secured by PayPal" width="148" height="48"></a><!-- PayPal Logo -->
+  <a href="#content" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/us/digital-wallet/how-paypal-works','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700');"><img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/logo-center/9_bdg_secured_by_pp_2line.png" border="0" alt="Secured by PayPal" width="148" height="48"></a><!-- PayPal Logo -->
 
 </aside>
 
@@ -265,10 +265,10 @@
     text-align: center;
     margin-bottom: 1em;
   }
-  table {
+  /*table {
     margin-top: 2rem;
     margin-inline: auto;
-  }
+  }*/
   h3 {
     text-align: center;
   }

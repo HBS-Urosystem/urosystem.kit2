@@ -4,8 +4,9 @@
   export let comp//, lang
   let rel = '', target = '', link, scrollto = false
   $: {
-    //console.log(comp.link)
-    if (comp.link && comp.link.startsWith('/')) comp.link = comp.link.substring(1)
+    console.log('1',comp.link, typeof(comp.lang))
+    //if (comp.link && comp.link.startsWith('/')) comp.link = comp.link.substring(1)
+    if (comp.link && comp.link.startsWith('/')) link = comp.link
     if (comp.link && comp.link.startsWith('http')) {
       rel = 'noopener'
       target = '_blank'
@@ -14,10 +15,9 @@
       link = scrollto = comp.link
       //scrollto = link
     } else {
-      //console.log(comp.link)
-      //if (comp.link == 'index') comp.link = ''
-      link = '/' + comp.lang + (comp.link && comp.link == 'index' ? '' : '/' + comp.link)
+      //link = '/' + (comp.lang || '') + (comp.link && comp.link == 'index' ? '' : '/' + comp.link)
     }
+    console.log('2',link)
   }
 </script>
 
