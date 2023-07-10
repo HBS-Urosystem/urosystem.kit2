@@ -18,7 +18,7 @@
     } else {
       link = '/' + (comp.lang || $sitelang) + (comp.link && comp.link == 'index' ? '' : '/' + comp.link)
     }
-    //console.log('2',link)
+    //console.log('2',link) 
   }
 </script>
 
