@@ -23,8 +23,8 @@ components:
     slide: false
     components:
       - type: cta
-        button: Amazon.com
-        link: https://www.amazon.com/stores/UroDapter/page/EE971FBB-A516-4E98-A2CD-2B62117F088A
+        button: US webshop
+        link: https://www.tyro-medical.com/shop?store-page=Urodapter-10x-plus-6-35-Sales-Tax-p553514051
       - type: cta
         button: Our webshop
         link: "#content"

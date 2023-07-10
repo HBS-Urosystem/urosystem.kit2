@@ -9,7 +9,6 @@ herotitle: UroDapter®
 hero: shop/hero
 blocks:
   - id: shop/shop-5pcs
-  - id: shop/amazon
 canonical: _us
 description: The UroDapter® can be purchased here or on our Amazon page.
 menutitle: Shop
