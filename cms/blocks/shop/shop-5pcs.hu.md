@@ -44,6 +44,5 @@ components:
   - type: article
     subhead: ""
     anchor: ""
-    text: "#### A COVID OKOZTA VILÁGJÁRVÁNY MIATT A KÉZBESÍTÉS TOVÁBB TARTHAT A
-      SZOKÁSOSNÁL. "
+    text: "#### Tájékoztató adatok, esetenként eltérhet"
 ---

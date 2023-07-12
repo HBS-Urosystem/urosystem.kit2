@@ -2,7 +2,7 @@
   import { onMount } from 'svelte'
   import { browser } from '$app/environment'
   import netlifyIdentity from 'netlify-identity-widget'
-  export let bind, redirect, user
+  export let bind, redirect = '', user
   //console.log('env.MODE:',import.meta.env.MODE)
   let visitor, consent
   
@@ -28,8 +28,8 @@
       netlifyIdentity.close()
       visitor = user
       netlifyIdentity.refresh()//.then((jwt)=>console.log(jwt))
-      console.log('login', user)
-      cookies.set('session', user)
+     // console.log('login', user)
+      //cookies.set('session', user)
       //update(user)
     })
     netlifyIdentity.on('logout', () => {

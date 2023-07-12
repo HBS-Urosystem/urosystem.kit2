@@ -4,6 +4,7 @@ folder: instructions
 fallback: ""
 components:
   - type: video
+    title: Female instructions
     source: local
     id: xyyz
     poster: /uploads/234f6cf379286c1a99a123814d84398f.png

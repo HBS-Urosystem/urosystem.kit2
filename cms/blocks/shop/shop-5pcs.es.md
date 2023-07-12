@@ -43,6 +43,5 @@ components:
   - type: article
     subhead: ""
     anchor: ""
-    text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
-      USUAL."
+    text: "#### Solo con fines informativos, pueden diferir en ciertos casos."
 ---

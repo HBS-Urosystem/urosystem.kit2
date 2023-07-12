@@ -48,8 +48,8 @@ components:
 
       * Other countries: 15 days
     subhead: ""
-#  - type: article
-#    subhead: ""
-#    anchor: ""
-#    text: "#### DUE TO THE COVID PANDEMIC DELIVERY CAN BE LONGER THAN USUAL."
+  - type: article
+    subhead: ""
+    anchor: ""
+    text: "#### For informational purposes only, may differ in certain cases."
 ---

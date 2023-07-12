@@ -9,7 +9,7 @@
   //console.log($page)
 	//import { lang } from '$lib/stores'
   //const lang = $sitelang
-  export let /*post, */sub, dir, mobile = false
+  export let /*post, */sub, dir = 'ltr', mobile = false
   //console.log(sub)
   //$: post = $state.post
 
