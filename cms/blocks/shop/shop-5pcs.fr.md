@@ -40,10 +40,13 @@ components:
       * Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
 
       * Other countries: 15 days
+
+
+      For informational purposes only, may differ in certain cases.
     subhead: ""
-  - type: article
-    subhead: ""
-    anchor: ""
-    text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
-      USUAL."
+  #- type: article
+  #  subhead: ""
+  #  anchor: ""
+  #  text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
+  #    USUAL."
 ---

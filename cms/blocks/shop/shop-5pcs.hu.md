@@ -40,9 +40,12 @@ components:
       * Oroszország, Örményország, Azerbajdzsán, Grúzia, Kazahsztán, Kirgizisztán, Moldova, Tádzsikisztán, Türkmenisztán, Ukrajna, Üzbegisztán: 19 nap
 
       * Többi ország: 15 nap
+
+
+      Tájékoztató adatok, esetenként eltérhet.
     subhead: ""
-  - type: article
-    subhead: ""
-    anchor: ""
-    text: "#### Tájékoztató adatok, esetenként eltérhet"
+  #- type: article
+  #  subhead: ""
+  #  anchor: ""
+  #  text: "#### Tájékoztató adatok, esetenként eltérhet."
 ---

@@ -39,9 +39,12 @@ components:
       * Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
 
       * Other countries: 15 days
+
+
+      Solo con fines informativos, pueden diferir en ciertos casos.
     subhead: ""
-  - type: article
-    subhead: ""
-    anchor: ""
-    text: "#### Solo con fines informativos, pueden diferir en ciertos casos."
+  #- type: article
+  #  subhead: ""
+  #  anchor: ""
+  #  text: "#### Solo con fines informativos, pueden diferir en ciertos casos."
 ---

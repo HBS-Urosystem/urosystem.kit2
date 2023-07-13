@@ -38,10 +38,13 @@ components:
       * Россия, Армения, Азербайджан, Грузия, Казахстан, Кыргызстан, Молдова, Таджикистан, Туркменистан, Украина, Узбекистан: 19 дней
 
       * Other countries: 15 days
+
+
+      For informational purposes only, may differ in certain cases.
     subhead: ""
-  - type: article
-    subhead: ""
-    anchor: ""
-    text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
-      USUAL."
+  #- type: article
+  #  subhead: ""
+  #  anchor: ""
+  #  text: "#### DUE TO THE COVID WORLD WIDE PANDEMIC DELIVERY CAN BE LONGER THAN
+  #    USUAL."
 ---
