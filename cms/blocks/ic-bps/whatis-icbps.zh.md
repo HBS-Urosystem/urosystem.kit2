@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: IC/BPS 是什么？
     text: >-
       间质性膀胱炎， 简称为IC/BPS，
       是一种慢性，长期持续的疾病，会引起痛苦的泌尿症状，严重影响患者的生活质量。随着IC/BPS的恶化，疼痛和频繁的排尿会严重阻碍工作，性交，社交生活和夜间休息。 

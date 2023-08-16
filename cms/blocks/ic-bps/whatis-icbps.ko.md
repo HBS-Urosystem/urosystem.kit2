@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: IC/BPS 란 무엇인가요?
     text: >-
       간질 성 방광염/방광 통증 증후군 (간단히 IC/BPS라고 함)은 환자의 삶의 질에 중대한 영향을 미치는 고통스러운 비뇨
       증상을 일으키는 만성적이고 오래 지속되는 상태입니다. IC/BPS 가 진행됨에 따라 통증과 빈번한 배뇨는 작업, 성관계, 사회

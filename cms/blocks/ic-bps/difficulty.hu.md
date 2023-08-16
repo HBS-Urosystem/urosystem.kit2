@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: "Diagnózis és előfordulási gyakoriság: nagy nehézségek"
     text: >-
       Eddig még egyetlen olyan anyagot – úgynevezett markert – sem sikerült
       találni, amely jelenléte egyértelműen bizonyítaná az IC/BPS

@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Die bekannten Fakten
     text: >-
       Die Ursachen von IC/BPS sind immer noch nicht bekannt. Mögliche
       Erklärungen sind die Funktionsstörung der entsprechenden Nerven,

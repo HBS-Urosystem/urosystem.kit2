@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: O que é a CI/BPS?
     text: >-
       A cistite intersticial/síndrome de dor na bexiga - também chamada de
       CI/BPS - é uma doença crónica e de longa duração que causa sintomas

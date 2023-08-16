@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: ¿Qué es CI/SDV?
     text: >-
       El síndrome de cistitis intersticial/dolor de vejiga, en breve llamado
       CI/SDV, es una afección crónica y duradera que causa síntomas urinarios

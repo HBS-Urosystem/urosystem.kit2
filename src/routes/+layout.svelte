@@ -2,6 +2,18 @@
   import "/src/app.postcss"
   import { onMount } from 'svelte'
   //import { get } from 'svelte/store'
+  /*export function load({ cookies }) {
+    //const consent = cookies.get('cookies')
+    const consent = writable(cookies.get('consent'))
+    consent.subscribe((value) => cookies.set(`consent`, value))
+
+    //cookies.set('consent', 'true');
+
+    return {
+      cookies: consent
+    };
+  }*/
+
   import { state, sitelang, cookies, variables } from '$lib/stores'
   import { dev, /*amp, browser,*/ /*prerendering*/ } from '$app/environment'
   import Nav from '$lib/Nav.svelte'
@@ -16,6 +28,7 @@
 <script>
   export let data
   //if (!data || !data.thislang) console.log({data})
+  //$: $cookies = data.cookies
   $: $state = data
   $: $sitelang = data.thislang.id
 	onMount(() => {

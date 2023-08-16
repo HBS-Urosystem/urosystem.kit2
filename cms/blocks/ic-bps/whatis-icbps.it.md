@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Cosa è l’IC/BPS?
     text: >-
       La cistite interstiziale/sindrome del dolore vescicale - brevemente
       chiamata l’IC/BPS - è una condizione cronica e di durata lunga che provoca

@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: IC/BPS – 常见问题和常见误解
     text: >-
       我们必须面对一个事实：很多人从未听说过 IC/BPS。尽管如此，网上有很多关于这种疾病的错误假设和不正确的信息。
 

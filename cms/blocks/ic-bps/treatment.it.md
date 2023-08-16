@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Il trattamento dell’IC/BPS
     text: >-
       La maggior parte delle linee guida - incluso quella dell'American
       Urological Association (AUA) - condivide l'opinione che il terapeuta

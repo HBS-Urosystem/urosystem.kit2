@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: 间质性膀胱炎及膀胱疼痛综合征（IC/BPS ）术语表
     text: >-
       **急性** – 在医学术语中，急性是指快速发展且持续时间不长的疾病、
 

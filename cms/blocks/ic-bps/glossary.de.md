@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: IC/BPS Glossar
     text: >-
       **Akut** – In der medizinischen Terminologie bezeichnet Akut Krankheiten,
 

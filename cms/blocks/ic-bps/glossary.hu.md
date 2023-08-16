@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Szószedet
     text: >-
       **Akut** – Az orvosi szóhasználatban a gyorsan kialakuló, rövid lefolyású
       betegségeket, illetve tünetegyütteseket értik a kifejezés alatt. (Ami

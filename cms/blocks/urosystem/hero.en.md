@@ -2,6 +2,7 @@
 id: hero
 folder: urosystem
 fallback: ""
+title: Restoring the Quality of Life – Literally
 background:
   - type: image
     src: /uploads/radials.png

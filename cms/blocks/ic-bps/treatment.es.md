@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: El tratamiento de CI/SDV
     text: >-
       La mayoría de las pautas, incluida la de la Asociación Estadounidense de
       Urología (AUA), comparte la opinión de que el médico debe comenzar con el

@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Glossário CI/BPS
     text: >-
       **Agudo** – Na terminologia médica, agudo refere-se a doenças,
       enfermidades ou sintomas que se desenvolvem rapidamente e não duram muito.

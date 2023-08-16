@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: IC/BPS とは?
     text: >-
       間質性膀胱炎・膀胱痛症候群(略して IC/BPS) は、慢性的、 長期的に続く症状で、患者の生活の質に大きな影 響を与える痛みを伴う尿路症状
       を引き起こします。IC/BPS が進行すると、その 痛みと頻繁な排尿は、仕事、性交、社会生活、睡 眠をひどく妨げる可能性があります。

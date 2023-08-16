@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: I fatti noti
     text: >-
       Le cause dell’IC/BPS non sono ancora note. Le spiegazioni possibili sono
       la disfunzione dei nervi correlati, problemi autoimmuni, reazioni

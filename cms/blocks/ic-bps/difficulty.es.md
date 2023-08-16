@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: "Diagnóstico y Prevalencia: Doble Dificultad"
     text: >-
       Aunque se han realizado muchos esfuerzos para encontrar algún marcador,
       hasta ahora no se ha descubierto nada que pueda estar indiscutiblemente

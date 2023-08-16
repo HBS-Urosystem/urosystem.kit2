@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Die Behandlung von IC/BPS
     text: >-
       Die meisten Leitlinien - einschließlich der der American Urological
       Association (AUA) - teilen die Ansicht, dass der Arzt mit der am wenigsten

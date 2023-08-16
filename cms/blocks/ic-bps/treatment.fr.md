@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Le traitement des CI/SVD
     text: >-
       La plupart des directives - y compris celle de l'American Urological
       Association (AUA) - partagent le point de vue selon lequel le médecin

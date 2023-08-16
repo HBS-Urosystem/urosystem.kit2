@@ -2,7 +2,7 @@
 id: development
 folder: ""
 fallback: en
-title: "Kutatás és Fejlesztés "
+title: "Kutatás és Fejlesztés"
 keywords: UretaCit, GAG-réteg, instilláció, húgyhólyag gyógyszer, vizelet
   lúgosítás, beteg utókövetés
 description: Ismerje meg az Urosystem fejlesztés alatt álló termékeit, teljes

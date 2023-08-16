@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Come elaborare la propria dieta IC/BPS?
     text: >-
       Indipendentemente da qualsiasi altra terapia applicata in caso di sintomi
       gravi, vale la pena che i pazienti con IC/BPS aiutino il recupero anche

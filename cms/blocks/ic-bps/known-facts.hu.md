@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Az ismert tények
     text: >-
       Az IC/BPS kialakulásának pontos oka jelenleg még nem ismert. Elképzelhető,
       hogy az idegműködés rendellenességei, autoimmun problémák, allergiás

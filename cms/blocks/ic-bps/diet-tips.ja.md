@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: IC/BPSダイエットの進め方
     text: >-
       IC/BPS患者にとっては、症状が重い場合の他の治療法を行うにもかかわらず、並行して生活習慣の改善によって回復を助けることが重要です。その中でも特に重要なのが、最適な食生活を送ることです。
 

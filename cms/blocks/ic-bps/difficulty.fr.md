@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: "Diagnostic et prévalence: Difficulté double"
     text: >-
       Malgré de nombreux efforts déployés pour aucun marqueur n'a été découvert
       jusqu'à présent qui puisse être indiscutablement associé à CI/SVD.

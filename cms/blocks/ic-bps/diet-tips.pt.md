@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Como fazer a sua própria dieta CI/BPS
     text: >-
       Independentemente de qualquer outra terapia aplicada em caso de sintomas
       graves, vale a pena que os pacientes com CI/BPS ajudem na recuperação

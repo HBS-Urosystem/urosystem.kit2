@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: IC/BPS用語集
     text: >-
       マーカーを見つけるために多くの努力が払われて きましたが、現時点では IC/BPS に関連するマー カーは発見されていません。[1]
       IC/BPS を特定す る代わりの方法もなく、最も知られている画像診 断法を適用しても正確な診断はできません。健康

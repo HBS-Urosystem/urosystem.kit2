@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Os factos conhecidos
     text: >-
       As causas da CI/BPS ainda não são conhecidas. As possíveis explicações são
       a disfunção dos nervos relacionados, problemas auto-imunes, reações

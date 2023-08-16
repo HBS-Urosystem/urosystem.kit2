@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Was ist IC/BPS?
     text: >-
       Das interstitielle Zystitis-Blasenschmerz-Syndrom - kurz IC/BPS genannt -
       ist ein chronischer, langanhaltender Zustand, der schmerzhafte

@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: 已知事实
     text: >-
       IC/BPS的原因仍然未知。可能的解释是相关神经的功能障碍，自身免疫问题，过敏反应和压力。遗传因素也可能起作用。无论如何，这些假设都没有被科学证明。
 

@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: IC/BPS の治療法
     text: >-
       アメリカ泌尿器科学会(AUA)のものを含むほと んどのガイドラインは、医師は 最も低侵襲な方法から始め、より侵襲的な技術へ
       は段階的に進めるべきだという見 解を共有しています。[1]

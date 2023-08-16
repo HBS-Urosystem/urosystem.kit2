@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Glossario dell’IC/BPS
     text: >-
       **Acuto** – Nella terminologia medica, acuto si riferisce a patologie,
 

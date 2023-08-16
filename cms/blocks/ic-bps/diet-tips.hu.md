@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Az IC/BPS diéta kialakítása
     text: >-
       Az IC/BPS betegségben szenvedőknek akkor is érdemes életmód-változtatással
       is segíteniük a gyógyulást, ha a tünetek súlyossága miatt más terápiában

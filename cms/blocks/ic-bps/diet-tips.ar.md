@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: كيفية وضع النظام الغذائي الخاص بك IC/BPS
     text: >-
       بغض النظر عن أي علاج آخر يتم تطبيقه في حالة الأعراض الشديدة فهو كذلك
 

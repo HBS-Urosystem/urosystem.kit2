@@ -251,8 +251,8 @@ footer:
         logo: /uploads/bxl-ok-ru.svg
         alt: ok
   - subpages:
-      - logo: /uploads/visa-mastercard.png
-        alt: visa mastercard amex paypal
+      - logo: /uploads/visa-master.png
+        alt: visa mastercard amex apple
         link: shop
     titles:
       - lang: en

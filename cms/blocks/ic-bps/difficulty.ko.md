@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: "진단 및 유병률: 이중 난이도"
     text: >-
       발병의 원인을 찾기 위해 많은 노력을 기울 였음에도 불구하고 지금까지 IC/BPS 와 연관 될 수 있는 것은 아무것도 발견되지
       않았습니다.[1] IC/BPS 에 대한 대안이 없기 때문에 가장 유명하고 널리 활용되는 영상법만으로는 정확한 진단을 할 수 없습니다.

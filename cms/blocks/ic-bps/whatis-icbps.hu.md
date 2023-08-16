@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Mi az IC/BPS?
     text: >-
       Az interstitiális cystitis/hólyagfájdalom szindróma (angolul interstitial
       cystitis/bladder pain syndrome, közismert rövidítése: IC/BPS) egy olyan,

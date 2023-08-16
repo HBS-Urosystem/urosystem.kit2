@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Qu'est qu'est Ie CI/SVD?
     text: >-
       La cystite interstitielle/syndrome de la vessie douleureuse - brièvement
       appelée CI/SVD - est une affection chronique de longue durée qui provoque

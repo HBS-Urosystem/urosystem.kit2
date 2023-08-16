@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: 如何制定自己的 IC/BPS 饮食
     text: >-
       无论在严重症状的情况下应用任何其他疗法，对于 IC/BPS 患者来说，值得通过改变生活方式来帮助康复。
 

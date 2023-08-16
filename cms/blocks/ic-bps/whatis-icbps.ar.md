@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: ؟IC/BPSما هو
     text: >-
       التهاب المثانة الخلالي/متلازمة آلام المثانة - التي تسمى إختصاراً IC/
       BPS - هي حالة مزمنة طويلة الأمد تسبب أعراضًا بولية مؤلمة تؤثر بشكل كبير

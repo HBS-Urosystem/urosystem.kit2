@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: CI/BPS – Perguntas frequentes e mal-entendidos comuns
     text: >-
       Devemos encarar o facto: muita gente nunca ouviu falar de CI/BPS. Apesar
       disso, há muitas suposições falsas e informações incorretas na Internet

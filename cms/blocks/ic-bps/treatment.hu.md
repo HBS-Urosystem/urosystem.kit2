@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Az IC/BPS terápiája
     text: >-
       A legtöbb irányelv, így az Amerikai Urológiai Társaság (American
       Urological Association, AUA) is azt javasolja, hogy az orvosnak a

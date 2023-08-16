@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: "Diagnosi e prevalenza: Una doppia difficoltà"
     text: >-
       Nonostante i molti sforzi compiuti per trovare qualche marker, finora non
       è stato scoperto nulla che possa essere indiscutibilmente associato alla

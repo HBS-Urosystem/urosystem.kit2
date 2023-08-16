@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: IC/BPS – Häufig gestellte Fragen und häufige Missverständnisse
     text: >-
       Wir müssen uns der Tatsache stellen: viele Leute haben noch nie von IC/BPS
       gehört. Trotzdem gibt es im Internet viele falsche Annahmen und falsche

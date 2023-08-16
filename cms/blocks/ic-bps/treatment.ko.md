@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: 간질성 방광염의 (IC/BPS) 의 치료
     text: >-
       미국 비뇨기과 협회 (AUA)를 포함한 대부분의 지침은 의사가 최소 침습적 방법으로 시작하고보다 침습적 인 기술을 향해 단계적으로
       진행해야한다는 견해를 공유합니다.[1]

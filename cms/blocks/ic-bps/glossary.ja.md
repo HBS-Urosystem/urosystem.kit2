@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: IC/BPS用語集
     text: >-
       **急性**：医学用語で急性とは、速く発症して長く続かない病気、疾患、症状を指す。（急性は重症という意味ではない。）
 

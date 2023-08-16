@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Los hechos conocidos
     text: >-
       Las causas de CI/SDV aún son desconocidas. Las posibles explicaciones son
       la disfunción de los nervios relacionados, problemas autoinmunes,

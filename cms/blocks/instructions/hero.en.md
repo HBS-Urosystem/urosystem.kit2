@@ -16,12 +16,12 @@ components:
         posx: 60
         posy: 60
         scale: ""
-        src: /uploads/urodapter-white-nobg-sm.png
+        src: /uploads/urodapter-removebg.png
     subhead: ""
   - type: cta
     title: ""
     button: Enter ▼
     text: Everything you need to know about the urological syringe adapter which can
       completely replace the catheter
-    link: "#toc"
+    link: "#content"
 ---

@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: IC/BPS – Domande frequenti e malintesi comuni
     text: >-
       Dobbiamo affrontare il fatto: molte persone non hanno mai sentito parlare
       dell’IC/BPS. Ciò nonostante, ci sono molte supposizioni false e

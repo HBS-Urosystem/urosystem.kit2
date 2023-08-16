@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Il trattamento di CI/BPS
     text: >-
       A maioria das diretrizes - incluindo a da Associação Urológica Americana
       (AUA) - compartilha a visão de que o médico deve começar com o método

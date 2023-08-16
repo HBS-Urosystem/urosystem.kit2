@@ -37,8 +37,8 @@
 
       {#if post.herotitle && post.herotitle != ''}
         <h1>{post.herotitle}</h1>
-      {:else if $state.post.title != ''}
-        <h1>{$state.post.title}</h1>
+      {:else if $state.post.hero.title && $state.post.title != ''}
+        <h1>{$state.post.hero.title}</h1>
       {/if}
 
       {#each post.hero.components || [] as comp}

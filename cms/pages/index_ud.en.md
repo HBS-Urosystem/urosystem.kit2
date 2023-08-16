@@ -13,5 +13,6 @@ menutitle: UroDapter®
 hero: products/hero_urodapter
 blocks:
   - id: urodapter/intro
+  - id: index/testimonials
 herotitle: ""
 ---

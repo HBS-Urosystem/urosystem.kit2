@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: "Diagnose und Prävalenz: Doppelte Schwierigkeit"
     text: >-
       Trotz vieler Bemühungen, einen Marker zu finden, ist bisher nichts
       entdeckt worden, das unzweifelhaft mit IC/BPS in Verbindung gebracht

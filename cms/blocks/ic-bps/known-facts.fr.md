@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Les faits connus
     text: >-
       Les causes d'IC/BPS ne sont toujours pas connues. Les explications
       possibles sont le dysfonctionnement des nerfs associés, les problèmes

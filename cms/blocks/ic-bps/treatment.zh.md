@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: IC/BPS 的治疗
     text: >-
       大多数指南 — 包括美国泌尿外科协会（AUA）— 都认为医生应该从侵入性最小的方法开始，逐步开始使用侵入性更大的技术。[1]
 

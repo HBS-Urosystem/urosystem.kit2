@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Wie Sie Ihre eigene IC/BPS-Diät ausarbeiten
     text: >-
       Unabhängig von einer anderen Therapie, die bei schweren Symptomen
       angewendet wird, lohnt es sich für IC/BPS-Patienten, auch mit

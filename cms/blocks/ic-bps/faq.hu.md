@@ -4,6 +4,7 @@ folder: ic-bps
 fallback: en
 components:
   - type: article
+    title: Gyakori kérdések és tévhitek
     text: >-
       Ahhoz képest, hogy az emberek jelentős hányada még csak nem is hallott
       erről a betegségről, azzal kapcsolatban már sok tévedés, fél-információ és
