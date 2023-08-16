@@ -247,13 +247,13 @@
           hidden={comp.lang !== lang.id}
           aria-hidden={comp.lang !== lang.id}
           align="center"
-          >Bank Card payment is Secured by PayPal
+          >Bank Card payment is Secured by Stripe
         </p>
       {/if}
     {/each}
   {/if}
   <!-- PayPal Logo -->
-  <a href="#content" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/us/digital-wallet/how-paypal-works','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700');"><img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/logo-center/9_bdg_secured_by_pp_2line.png" border="0" alt="Secured by PayPal" width="148" height="48"></a><!-- PayPal Logo -->
+  <!--<a href="#content" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/us/digital-wallet/how-paypal-works','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700');"><img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/logo-center/9_bdg_secured_by_pp_2line.png" border="0" alt="Secured by PayPal" width="148" height="48"></a>--><!-- PayPal Logo -->
 
 </aside>
 
