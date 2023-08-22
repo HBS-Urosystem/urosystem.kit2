@@ -68,20 +68,28 @@
   {#if !dev &&  !!$cookies}
     <!-- Google tag (gtag.js) --> 
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-433475160"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'AW-433475160');
-      gtag('config', 'UA-180221975-1');
-      gtag('config', 'GTM-T4KTKF5');
-      {#if _site == '_us'}
+    {#if _site == '_us'}
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-433475160');
+        gtag('config', 'UA-180221975-1');
+        gtag('config', 'GTM-T4KTKF5');
         gtag('config', 'G-KREFNHDNH0');
-      {/if}
-      {#if _site == '_us'}
+      </script>
+    {/if}
+    {#if _site == '_ud'}
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-433475160');
+        gtag('config', 'UA-180221975-1');
+        gtag('config', 'GTM-T4KTKF5');
         gtag('config', 'G-1SZ43L7KWV');
-      {/if}
-    </script>
+      </script>
+    {/if}
 
 
     <!--{#if !!$cookies }-->
