@@ -68,37 +68,6 @@
   {#if !dev }
     <!-- Google tag (gtag.js) --> 
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-433475160"></script>
-    {#if _site == '_us'}
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('consent', 'default', {
-          'ad_storage': 'denied',
-          'analytics_storage': 'denied'
-        });
-        gtag('js', new Date());
-        gtag('config', 'AW-433475160');
-        gtag('config', 'UA-180221975-1');
-        gtag('config', 'GTM-T4KTKF5');
-        gtag('config', 'G-KREFNHDNH0');
-      </script>
-    {/if}
-    {#if _site == '_ud'}
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('consent', 'default', {
-          'ad_storage': 'denied',
-          'analytics_storage': 'denied'
-        });
-        gtag('js', new Date());
-        gtag('config', 'AW-433475160');
-        gtag('config', 'UA-180221975-1');
-        gtag('config', 'GTM-T4KTKF5');
-        gtag('config', 'G-1SZ43L7KWV');
-      </script>
-    {/if}
-    
     {#if !!$cookies}
 
       {#if _site == '_us'}
@@ -139,6 +108,39 @@
           gtag('config', 'G-1SZ43L7KWV');
         </script>
       {/if}
+    {:else}
+      {#if _site == '_us'}
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'analytics_storage': 'denied'
+          });
+          gtag('js', new Date());
+          gtag('config', 'AW-433475160');
+          gtag('config', 'UA-180221975-1');
+          gtag('config', 'GTM-T4KTKF5');
+          gtag('config', 'G-KREFNHDNH0');
+        </script>
+      {/if}
+      {#if _site == '_ud'}
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'analytics_storage': 'denied'
+          });
+          gtag('js', new Date());
+          gtag('config', 'AW-433475160');
+          gtag('config', 'UA-180221975-1');
+          gtag('config', 'GTM-T4KTKF5');
+          gtag('config', 'G-1SZ43L7KWV');
+        </script>
+      {/if}
+      
+    {/if}
 
     <!--{#if !!$cookies }-->
       <!-- Google Tag Manager -->
@@ -154,7 +156,8 @@
       </script>-->
         <!-- End Google Tag Manager -->
       
-      <!-- Hotjar Tracking Code for https://www.urosystem.com/ -->
+      {#if !!$cookies}
+        <!-- Hotjar Tracking Code for https://www.urosystem.com/ -->
       <script>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
