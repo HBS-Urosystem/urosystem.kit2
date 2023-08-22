@@ -74,10 +74,6 @@
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
-          gtag('consent', 'default', {
-            'ad_storage': 'denied',
-            'analytics_storage': 'denied'
-          });
           gtag('consent', 'update', {
           'ad_storage': 'granted',
           'analytics_storage': 'granted'
@@ -93,10 +89,6 @@
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
-          gtag('consent', 'default', {
-            'ad_storage': 'denied',
-            'analytics_storage': 'denied'
-          });
           gtag('consent', 'update', {
           'ad_storage': 'granted',
           'analytics_storage': 'granted'
