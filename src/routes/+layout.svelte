@@ -65,13 +65,17 @@
     <link class="{$sitelang} {$state.post.canonical} {$state.post.canonlang}" rel="canonical" href="{_siteurl}/{$state.post.canonlang}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
   {/if}
 
-  {#if !dev &&  !!$cookies}
+  {#if !dev }
     <!-- Google tag (gtag.js) --> 
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-433475160"></script>
     {#if _site == '_us'}
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
+        gtag('consent', 'default', {
+          'ad_storage': 'denied',
+          'analytics_storage': 'denied'
+        });
         gtag('js', new Date());
         gtag('config', 'AW-433475160');
         gtag('config', 'UA-180221975-1');
@@ -83,6 +87,10 @@
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
+        gtag('consent', 'default', {
+          'ad_storage': 'denied',
+          'analytics_storage': 'denied'
+        });
         gtag('js', new Date());
         gtag('config', 'AW-433475160');
         gtag('config', 'UA-180221975-1');
@@ -90,7 +98,47 @@
         gtag('config', 'G-1SZ43L7KWV');
       </script>
     {/if}
+    
+    {#if !!$cookies}
 
+      {#if _site == '_us'}
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'analytics_storage': 'denied'
+          });
+          gtag('consent', 'update', {
+          'ad_storage': 'granted',
+          'analytics_storage': 'granted'
+          });
+          gtag('js', new Date());
+          gtag('config', 'AW-433475160');
+          gtag('config', 'UA-180221975-1');
+          gtag('config', 'GTM-T4KTKF5');
+          gtag('config', 'G-KREFNHDNH0');
+        </script>
+      {/if}
+      {#if _site == '_ud'}
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'analytics_storage': 'denied'
+          });
+          gtag('consent', 'update', {
+          'ad_storage': 'granted',
+          'analytics_storage': 'granted'
+          });
+          gtag('js', new Date());
+          gtag('config', 'AW-433475160');
+          gtag('config', 'UA-180221975-1');
+          gtag('config', 'GTM-T4KTKF5');
+          gtag('config', 'G-1SZ43L7KWV');
+        </script>
+      {/if}
 
     <!--{#if !!$cookies }-->
       <!-- Google Tag Manager -->
@@ -156,6 +204,7 @@
         background-size: cover;
       }
     </style>
+  {/if}
   {/if}
 </svelte:head>
 
