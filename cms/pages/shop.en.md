@@ -10,6 +10,6 @@ hero: shop/hero
 blocks:
   - id: shop/shop-5pcs
 canonical: _us
-description: The UroDapter® can be purchased here or on our Amazon page.
+description: "A urological syringe adapter which completely replaces the catheter: it enables painless and complication-free bladder instillation. The UroDapter® can be purchased here."
 menutitle: Shop
 ---
