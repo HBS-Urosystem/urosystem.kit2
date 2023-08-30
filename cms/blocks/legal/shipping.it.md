@@ -14,8 +14,8 @@ components:
 
       2. Le spese di spedizione, in base al paese del cliente, sono le seguenti:
 
-         * UE, Russia e Ucraina: $9,50
-         * Altri paesi: $10.00
+         * UE, Russia e Ucraina: €9,50
+         * Altri paesi: €10.00
 
       3. Il tempo di consegna stimato, in base al paese del cliente, come segue:
 

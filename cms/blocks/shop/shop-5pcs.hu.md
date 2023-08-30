@@ -8,7 +8,7 @@ components:
     button: Vásárlás
     product: "5983114002592"
     text: Válassza ki a kívánt mennyiséget!
-    subhead: "Az 5 db-os csomag ára: $40 / 10 db ára: $80"
+    subhead: "Az 5 db-os csomag ára: €40 / 10 db ára: €80"
   - type: grid
     slide: false
     components:
@@ -16,8 +16,8 @@ components:
         text: |-
           #### SZÁLLÍTÁSI DÍJAK
 
-          * Európai országok, Oroszország, Ukrajna: $9.50
-          * Többi ország: $10.00
+          * Európai országok, Oroszország, Ukrajna: €9.50
+          * Többi ország: €10.00
 
           A küldemény ajánlott elsőbbségi levélként kerül feladásra 
         subhead: ""

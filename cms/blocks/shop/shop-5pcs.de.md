@@ -5,7 +5,7 @@ fallback: en
 components:
   - type: buy
     title: Kaufen Sie in unserem Webshop
-    subhead: Kaufen Sie 5 Stück für $40 / 10 Stück für $80
+    subhead: Kaufen Sie 5 Stück für €40 / 10 Stück für €80
     text: Wählen Sie die gewünschte Menge und kaufen Sie!
     button: Jetzt einkaufen
     product: "5983114002592"
@@ -16,8 +16,8 @@ components:
         text: |-
           #### VERSANDKOSTEN
 
-          * EU, Russland, Ukraine: $9.50
-          * Andere Länder: $10.00
+          * EU, Russland, Ukraine: €9.50
+          * Andere Länder: €10.00
 
           Versand per Einschreiben mit Prioritätspriorität
         subhead: ""

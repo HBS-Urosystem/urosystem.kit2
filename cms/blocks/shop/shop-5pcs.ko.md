@@ -10,8 +10,8 @@ components:
         text: |-
           #### 배송비
 
-          * EU, 러시아, 우크라이나: $9.50
-          * 기타 국가: $10.00
+          * EU, 러시아, 우크라이나: €9.50
+          * 기타 국가: €10.00
 
           등기 우선 우편 발송
         subhead: ""
@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: UroDapter®가 처음이십니까? 오늘 샘플 패키지를 주문하세요!!
-    subhead: $40에 5 / $80에 10 개 구매
+    subhead: €40에 5 / €80에 10 개 구매
     background: []
   - type: buy
     title: ""

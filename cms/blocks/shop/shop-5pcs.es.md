@@ -10,8 +10,8 @@ components:
         text: |-
           #### COSTO DE ENVÍO
 
-          * UE, Rusia, Ucrania: $9,50
-          * Otros países: $10.00
+          * UE, Rusia, Ucrania: €9,50
+          * Otros países: €10.00
 
           Enviado por correo prioritario registrado
         subhead: ""
@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: ¿UroDapter® es nuevo para usted? ¡Ordene un paquete de muestra hoy!
-    subhead: Compra 5 piezas por $40 / 10 piezas por $80
+    subhead: Compra 5 piezas por €40 / 10 piezas por €80
     background: []
   - type: buy
     title: ""

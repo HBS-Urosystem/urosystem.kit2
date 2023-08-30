@@ -12,8 +12,8 @@ components:
          * Adresse: H-1137 Budapest, Pozsonyi út 40. alagsor
       2. Die Versandkosten richten sich nach dem Land des Kunden wie folgt:
 
-         * EU, Russland und Ukraine: $9.50
-         * Andere Länder: $10.00
+         * EU, Russland und Ukraine: €9.50
+         * Andere Länder: €10.00
       3. Die voraussichtliche Lieferzeit ist je nach Land des Kunden wie folgt:
 
          * EU Länder: 12 Tage

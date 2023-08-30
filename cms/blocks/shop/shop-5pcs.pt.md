@@ -10,8 +10,8 @@ components:
         text: |-
           #### FRETE
 
-          * UE, Rússia, Ucrânia: $9,50
-          * Outros países: $10,00
+          * UE, Rússia, Ucrânia: €9,50
+          * Outros países: €10,00
 
           Enviado por correio prioritário registrado
         subhead: ""
@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: UroDapter® é novo para você? Peça um pacote de amostra hoje!
-    subhead: Compre 5 unidades por $40 / 10 unidades por $80
+    subhead: Compre 5 unidades por €40 / 10 unidades por €80
     background: []
   - type: buy
     title: ""

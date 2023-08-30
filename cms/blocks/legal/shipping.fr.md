@@ -12,8 +12,8 @@ components:
          * Adresse: 1137 Budapest, Pozsonyi út 40. alagsor
 
       2. Les frais de port, selon le pays du client sont comme suit:
-         * U.E., La Russie et L’Ukraine: $9.50
-         * Autres pays: $10.00
+         * U.E., La Russie et L’Ukraine: €9.50
+         * Autres pays: €10.00
 
       3. Le délai de livraison estimé, selon le pays du client est comme suit:
          * Pays de l’U.E. : 12 jours

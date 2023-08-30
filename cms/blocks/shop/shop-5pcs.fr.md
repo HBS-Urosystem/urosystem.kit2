@@ -23,7 +23,7 @@ components:
             src: /uploads/urodapter-removebg.png
     title: UroDapter® nouveau pour vous? Commandez un échantillon de package
       aujourd'hui!
-    subhead: Achetez 5 pièces pour $40 / 10 pièces pour $80
+    subhead: Achetez 5 pièces pour €40 / 10 pièces pour €80
     background: []
   - type: buy
     title: ""

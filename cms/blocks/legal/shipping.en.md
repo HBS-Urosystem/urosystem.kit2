@@ -12,8 +12,8 @@ components:
          * Address: 1137 Budapest, Pozsonyi út 40. alagsor
       2. The shipping costs, according to the customer’s country as follows:
 
-         * EU, Russia and Ukraine: $9.50
-         * Other countries: $10.00
+         * EU, Russia and Ukraine: €9.50
+         * Other countries: €10.00
       3. The estimated delivery time, according to the customer’s country as follows:
 
          * EU countries: 12 days
