@@ -247,7 +247,7 @@
           hidden={comp.lang !== lang.id}
           aria-hidden={comp.lang !== lang.id}
           align="center"
-          >Bank Card payment is Secured by Stripe
+          >Bank Card payment is secured by Stripe
         </p>
       {/if}
     {/each}
