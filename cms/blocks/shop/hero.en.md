@@ -17,8 +17,7 @@ background:
 components:
   - type: cta
     title: ""
-    text: "### A urological syringe adapter which completely replaces the catheter:
-      it enables painless and complication-free bladder instillation"
+    text: "### To place orders for delivery within the United States, kindly visit the Tyro Medical webshop, our trusted partner in the USA. For international orders (excluding the USA), please scroll down to complete your seamless checkout."
   - type: grid
     slide: false
     components:
