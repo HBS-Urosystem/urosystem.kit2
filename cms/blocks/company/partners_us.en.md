@@ -35,6 +35,6 @@ components:
           <center>Tyro Medical's commitment to excellence and their deep understanding of the healthcare landscape make them the perfect partner for us. Their established distribution channels, strong relationships with healthcare providers, and comprehensive market strategies will enable us to effectively communicate the unique benefits and capabilities of the UroDapter® to medical professionals and patients across the United States.</center>
   - type: article
     text: We are looking for partners for our first commercially available product,
-      the UroDapter. This syringe adapter replaces the catheter in the field of
+      the UroDapter®. This syringe adapter replaces the catheter in the field of
       bladder instillation; it enables painless and complication-free treatment.
 ---
