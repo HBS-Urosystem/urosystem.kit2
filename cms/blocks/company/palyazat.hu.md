@@ -10,7 +10,7 @@ components:
         title: ""
         button: ""
         text: >-
-          ### Hólyagfájdalom szindróma hatékony kezelése kálium mentes, nyújtott hatóanyag leadású készítménnyel
+          ### Hólyagfájdalom szindróma hatékony kezelése káliummentes, nyújtott hatóanyagleadású készítménnyel
 
           **Kedvezményezett neve:** Happy Business Services Zrt. (ma: Urosystem
           Zrt.)\

@@ -29,5 +29,6 @@ components:
       5. Jedes separat erworbene Produkt oder Produktpaket ist als separate Einheit zu versenden.
 
 
-      6. Weitere Informationen zu Versand, Lieferung und Rückerstattung, die oben nicht aufgeführt wurden, sind in unseren \[Allgemeinen Geschäftsbedingungen] enthalten (https://urosystem-ru.myshopify.com/admin/settings/terms-of-service).
+      6. Weitere Informationen zu Versand, Lieferung und Rückerstattung, die oben nicht aufgeführt wurden, sind in unseren \[Allgemeinen Geschäftsbedingungen](/terms-of-service) enthalten.
+    anchor: shipping-policy
 ---

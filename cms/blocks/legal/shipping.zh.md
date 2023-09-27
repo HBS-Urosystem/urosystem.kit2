@@ -40,5 +40,6 @@ components:
       5. 购买的每个产品或产品包都将作为一个单独的单元装运。
 
 
-      6.我们的 [《条款和条件》] 中包含上文未详述的运输、交付和退款有关的更多信息(https://urosystem-ru.myshopify.com/admin/settings/terms-of-service).
+      6.我们的 [《条款和条件》](/terms-of-service) 中包含上文未详述的运输、交付和退款有关的更多信息.
+    anchor: shipping-policy
 ---

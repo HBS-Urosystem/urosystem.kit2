@@ -70,7 +70,7 @@
 
   {#each news as hirlev}
     <article id={hirlev.slug.current} class="text-center w-full">
-      <a href={`/hirlevel${filter}#${hirlev.slug.current}`} on:click={() => $snapto = `#${hirlev.slug.current}`}><time class="-mb-4 mt-6">{formatBlogPostDate(hirlev.publishedAt)}</time>
+      <a href={`/${$sitelang}/hirlevel${filter}#${hirlev.slug.current}`} on:click={() => $snapto = `#${hirlev.slug.current}`}><time class="-mb-4 mt-6">{formatBlogPostDate(hirlev.publishedAt)}</time>
         <h2 class="">{hirlev.title}</h2>
       </a>
       <details class="text-left mx-auto">

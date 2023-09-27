@@ -30,5 +30,5 @@ components:
 
       5. Ogni prodotto o confezione di prodotto che è stato acquistato separatamente deve essere spedito come unità separata.
 
-      6. Ulteriori informazioni su spedizione, consegna e rimborso che non sono state descritte sopra sono incluse nei nostri [termini e condizioni](https://urosystem-ru.myshopify.com/admin/settings/terms-of-service).
+      6. Ulteriori informazioni su spedizione, consegna e rimborso che non sono state descritte sopra sono incluse nei nostri [Termini e condizioni](/terms-of-service).
 ---
