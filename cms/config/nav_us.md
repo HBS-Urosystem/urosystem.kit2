@@ -195,7 +195,7 @@ top_us:
           - lang: tr
             title: İletişim
       - link: https://b2b.urosystem.com/
-        titles:
+        hidden-titles:
           - lang: en
             title: B2B
           - lang: hu
