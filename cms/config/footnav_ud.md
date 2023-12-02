@@ -201,18 +201,18 @@ footer_ud:
         ext: true
         logo: /uploads/bxl-linkedin.svg
         alt: linked in
-      - link: https://twitter.com/UroSystem_Inc
-        ext: true
-        logo: /uploads/bxl-twitter.svg
-        alt: twitter
-      - link: https://vk.com/urodapter
-        ext: true
-        logo: /uploads/bxl-vk.svg
-        alt: vk
-      - ext: true
-        link: https://ok.ru/urodapter
-        logo: /uploads/bxl-ok-ru.svg
-        alt: ok
+      #- link: https://twitter.com/UroSystem_Inc
+      #  ext: true
+      #  logo: /uploads/bxl-twitter.svg
+      #  alt: twitter
+      #- link: https://vk.com/urodapter
+      #  ext: true
+      #  logo: /uploads/bxl-vk.svg
+      #  alt: vk
+      #- ext: true
+      #  link: https://ok.ru/urodapter
+      #  logo: /uploads/bxl-ok-ru.svg
+      #  alt: ok
       - ext: true
         link: https://linktr.ee/urodapter
         logo: /uploads/linktree.svg

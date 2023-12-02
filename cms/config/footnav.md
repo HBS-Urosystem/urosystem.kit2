@@ -237,19 +237,19 @@ footer:
       - link: https://www.linkedin.com/company/urosystem-inc
         ext: true
         logo: /uploads/bxl-linkedin.svg
-        alt: linked in
-      - link: https://twitter.com/UroSystem_Inc
-        ext: true
-        logo: /uploads/bxl-twitter.svg
-        alt: twitter
-      - link: https://vk.com/urodapter
-        ext: true
-        logo: /uploads/bxl-vk.svg
-        alt: vk
-      - ext: true
-        link: https://ok.ru/urodapter
-        logo: /uploads/bxl-ok-ru.svg
-        alt: ok
+        alt: LinkedIn
+      #- link: https://twitter.com/UroSystem_Inc
+      #  ext: true
+      #  logo: /uploads/bxl-twitter.svg
+      #  alt: twitter
+      #- link: https://vk.com/urodapter
+      #  ext: true
+      #  logo: /uploads/bxl-vk.svg
+      #  alt: vk
+      #- ext: true
+      #  link: https://ok.ru/urodapter
+      #  logo: /uploads/bxl-ok-ru.svg
+      #  alt: ok
   - subpages:
       - logo: /uploads/visa-master.png
         alt: visa mastercard amex apple

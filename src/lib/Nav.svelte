@@ -101,9 +101,9 @@
       <li><a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
       <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
       <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
-      <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
+      <!--<li><a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
       <li><a href="https://vk.com/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-vk.svg" alt="vk"></a></li>
-      <li><a href="https://ok.ru/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>
+      <li><a href="https://ok.ru/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>-->
       <li><a href="https://linktr.ee/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/linktree.svg" alt="linktree"></a></li>
     </ul>
   </div>

@@ -1,7 +1,7 @@
 ---
 id: thankyou
 folder: index
-fallback: "en"
+fallback: en
 components:
   - type: cta
     title: Your submission has been received.

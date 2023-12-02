@@ -1567,7 +1567,7 @@ collections:
                 name: subhead
                 widget: string
                 required: false
-              - label: Anchor
+              - label: ID (or anchor)
                 name: anchor
                 widget: string
                 required: false
@@ -1577,7 +1577,7 @@ collections:
                 default: false
                 required: false
               - label: Cookie
-                name: cokie
+                name: cookie
                 widget: boolean
                 default: false
                 required: false
@@ -2476,7 +2476,7 @@ collections:
           - name: local_backend
             label: local_backend
             widget: boolean
-      - label: Main nav (old)
+      - label: Main nav (default)
         file: cms/config/nav.md
         name: nav
         fields:
