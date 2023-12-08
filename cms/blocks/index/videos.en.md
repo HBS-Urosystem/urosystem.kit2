@@ -8,8 +8,8 @@ components:
   - type: article
     components:
       - type: video
-        source: local
-        id: uploads/urodapter_5_20.mp4
+        source: youtube
+        id: x10av1eP8L8
         anchor: animation
   - type: cta
     title: ""
