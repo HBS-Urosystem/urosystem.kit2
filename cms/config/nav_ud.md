@@ -98,6 +98,37 @@ top_ud:
     subpages:
       - link: resources
       - link: resources-pro
+      - link: https://app.urodapter.com
+        ext: true
+        titles:
+          - lang: en
+            title: UroDapter Web Manual App
+          - lang: hu
+            title: UroDapter Web Manual App
+          - lang: ru
+            title: UroDapter Web Manual App
+          - lang: de
+            title: UroDapter Web Manual App
+          - lang: es
+            title: UroDapter Web Manual App
+          - lang: fr
+            title: UroDapter Web Manual App
+          - lang: he
+            title: UroDapter Web Manual App
+          - lang: it
+            title: UroDapter Web Manual App
+          - lang: ja
+            title: UroDapter Web Manual App
+          - lang: pt
+            title: UroDapter Web Manual App
+          - lang: tr
+            title: UroDapter Web Manual App
+          - lang: zh
+            title: UroDapter Web Manual App
+          - lang: ko
+            title: UroDapter Web Manual App
+          - lang: ar
+            title: UroDapter Web Manual App
   - link: company
     titles:
       - lang: en
