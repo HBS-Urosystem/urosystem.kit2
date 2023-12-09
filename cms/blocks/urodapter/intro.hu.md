@@ -42,8 +42,8 @@ components:
     link: details
     icon: ""
   - type: video
-    source: youtube
-        id: x10av1eP8L8
+    source: local
+    id: "uploads/Urodapter_anim_30sec_EN_230309.mp4"
     title: Rövid bemutatóvideó az UroDapter® fecskendő adapterről
     anchor: animation
   - type: grid
