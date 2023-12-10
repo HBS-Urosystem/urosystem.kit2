@@ -9,17 +9,20 @@ const config = {
   extensions: [".svelte", ...mdsvexConfig.extensions],
 
   kit: {
-    adapter: htmlMinifierAdaptor(adapter({
-      // https://github.com/terser/html-minifier-terser#options-quick-reference
-      minifierOptions: {
-        minifyCSS: true,
-        minifyJS: true,
-        removeComments: true,
-        collapseWhitespace: true,
-        conservativeCollapse: true,
-        preserveLineBreaks: true,
-      },
-    })),
+    adapter: htmlMinifierAdaptor(
+      adapter(),
+      {
+        minifierOptions: {
+          // https://github.com/terser/html-minifier-terser#options-quick-reference
+          minifyCSS: true,
+          minifyJS: true,
+          removeComments: true,
+          collapseWhitespace: true,
+          conservativeCollapse: true,
+          preserveLineBreaks: true,
+        },
+      }
+    ),
     //prerender: {"force": true}
     /*csp:{
       mode:"auto",
