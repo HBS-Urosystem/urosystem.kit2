@@ -6,7 +6,7 @@
 <!--<aside class="pb---16 px-0">-->
   <div class="card mx-auto w-fit image-full bg-base-300">
     <div class="card-body" name="Blog_subscribe" method="POST" netlify>
-      <div class="_form_9"></div><script src="https://urosystem.activehosted.com/f/embed.php?id=9" type="text/javascript" charset="utf-8"></script>
+      <div class="_form_9"></div><script src="https://urosystem.activehosted.com/f/embed.php?id=9" charset="utf-8"></script>
       {#if !$cookies}
         <a href="https://www.urosystem.com/en/privacy-policy" rel="noreferrer" 
       target="_blank">See our Privacy Policy</a>
