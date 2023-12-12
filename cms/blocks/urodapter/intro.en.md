@@ -43,7 +43,22 @@ components:
     source: local
     id: "uploads/Urodapter_anim_30sec_EN_230309.mp4"
     title: A quick demonstration on the UroDapter® syringe adapter
+    poster: "/uploads/Urodapter_anim_30sec_EN_230309_optim.jpg"
     anchor: animation
+  - type: images
+    slide: false
+    title: UroDapter Web Manual App
+    anchor: manual
+    images:
+      - alt: UroDapter Web Manual App
+        shape: rounded
+        src: /uploads/Thumbnail-Web-App_optim.jpg
+        posx: ""
+        scale: "1.21"
+        link: https://app.urodapter.com
+        ext: true
+    shape: rounded
+    ratio: 100
   - type: grid
     slide: false
     components:

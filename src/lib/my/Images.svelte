@@ -17,7 +17,13 @@
     {#each comp.images || [] as img}
     <figure>
       <div class="{comp.shape}" class:ratio={comp.ratio} style="--ratio: {comp.ratio};--ratiopct: {comp.ratio}%">
-        <img loading="lazy" src="{_sm(img.src)}" srcset="{img.src} 2x, {_sm(img.src)} 1x" alt="{img.alt}" style="object-position: {img.posx || 50}% {img.posy || 50}%; transform: scale({img.scale >=0 ? img.scale : 1})"/>
+        {#if img.link}
+          <a href={img.link} target={img.ext ? '_blank' : ''} rel={img.ext ? 'noopener' : ''}>
+            <img loading="lazy" src="{_sm(img.src)}" srcset="{img.src} 2x, {_sm(img.src)} 1x" alt="{img.alt}" style="object-position: {img.posx || 50}% {img.posy || 50}%; transform: scale({img.scale >=0 ? img.scale : 1})"/>
+          </a>
+        {:else}
+          <img loading="lazy" src="{_sm(img.src)}" srcset="{img.src} 2x, {_sm(img.src)} 1x" alt="{img.alt}" style="object-position: {img.posx || 50}% {img.posy || 50}%; transform: scale({img.scale >=0 ? img.scale : 1})"/>
+        {/if}
       </div>
       {#if img.text}<figcaption>{@html img.text}</figcaption>{/if}
     </figure>
