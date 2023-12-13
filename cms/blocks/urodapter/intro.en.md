@@ -51,7 +51,7 @@ components:
     images:
       - alt: UroDapter Web Manual App
         shape: rounded
-        src: /uploads/Thumbnail Web App_optim.sm.jpg
+        src: /uploads/Thumbnail-Web-App_optim.jpg
         posx: ""
         scale: "1.21"
         link: https://app.urodapter.com
