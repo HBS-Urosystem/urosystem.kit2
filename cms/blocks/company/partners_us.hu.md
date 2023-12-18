@@ -25,7 +25,7 @@ components:
         anchor: tyro
         text: >-
           <a
-          href="https://www.tyro-medical.com/shop?store-page=Urodapter-10x-plus-6-35-Sales-Tax-p553514051"
+          href="https://www.tyro-medical.com/shop/?store-page=Urology-c156988914"
           rel="noopener noreferrer" target="_blank"><img
           src="/uploads/tyro-medical-white.png" loading="lazy" alt="Tyro
           Medical" style="max-height:6ch;display:block;margin:0 auto;" /></a>
