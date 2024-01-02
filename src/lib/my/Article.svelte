@@ -19,7 +19,7 @@
   {#if comp.subhead}<div><h3>{comp.subhead}</h3></div>{/if}
   {#if comp.text}<div>{@html comp.text}</div>{/if}
   {#if comp.components?.length}
-    <section>
+    <section class={comp.framed ? 'framed' : ''}>
       {#each comp.components as c}
       <!--c.lang = comp.lang-->
       <svelte:component this={options[c.type]} comp={c}/>
@@ -31,5 +31,16 @@
 <style>
   h3 {
     text-align: center;
+  }
+  .framed {
+    border: 2px #fff solid;
+    /*padding: var(--gap);*/
+    
+    max-width: 56ch;
+    margin-inline: auto;
+    margin-top: 3rem;
+  }
+  .framed :global(figure) {
+    margin-top: 2rem;
   }
 </style>

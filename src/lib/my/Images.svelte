@@ -8,7 +8,7 @@
   }
 </script>
 
-<article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
+<article id="{comp.anchor}" style="{comp.background ? comp.background : ``}" class={comp.framed ? 'framed' : ''}>
   {#if comp.title}<h2 id="{comp.anchor}">{comp.title}</h2>{/if}
   {#if comp.subhead}<h3>{comp.subhead}</h3>{/if}
   <!-- shape: default/squre/cicrcle -->
@@ -102,5 +102,10 @@
   }
   figcaption :global(*) {
     color: white;
+  }
+  .framed {
+    border: 2px #fff solid;
+    padding: var(--gap);
+    margin: var(--gap2);
   }
 </style>

@@ -17,7 +17,7 @@
   const lang = comp.lang
 </script>
 
-<article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
+<article id="{comp.anchor}" style="{comp.background ? comp.background : ``}" class={comp.framed ? 'framed' : ''}>
   {#if comp.title}<h2 id="{comp.anchor}">{comp.title}</h2>{/if}
   {#if comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
   <section class="{comp.slide ? 'slides' : ''}" style="--cols: {comp.components.length};">
@@ -36,5 +36,10 @@
   }
   h3 {
     text-align: center;
+  }
+  .framed {
+    border: 2px #fff solid;
+    padding: var(--gap);
+    margin: var(--gap2);
   }
 </style>
