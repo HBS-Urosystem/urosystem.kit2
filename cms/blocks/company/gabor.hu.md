@@ -13,7 +13,7 @@ components:
           - alt: Rényi Gábor
             posx: 50
             posy: 50
-            src: /uploads/rg.jpg
+            src: /uploads/rg-removebg-optim.png
             text: Mély fájdalommal tudatjuk, hogy szeretett kollegánk Rényi Gábor, cégünk
               alapítója és résztulajdonosa tragikus gyorsasággal lefolyt súlyos
               betegségben 2023. december 31-én elhunyt. Lendülete, aktivitása,

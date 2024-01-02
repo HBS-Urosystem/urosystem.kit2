@@ -1,6 +1,11 @@
 ---
 id: gabor
 folder: company
+background:
+  - type: image
+    posx: 50
+    posy: 50
+    src: /uploads/+.svg
 components:
   - type: article
     components:
@@ -12,7 +17,7 @@ components:
           - alt: Gabor Renyi
             posx: 50
             posy: 50
-            src: /uploads/rg.jpg
+            src: /uploads/rg-removebg-optim.png
             text: With a heavy heart we inform you that Gábor Rényi, our beloved colleague,
               the founder and co-owner of our company passed away due to a
               severe illness with tragically quick progression on the 31st of
