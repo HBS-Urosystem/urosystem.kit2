@@ -792,6 +792,10 @@ collections:
                           - gradients.*.title
                         file: design
                         collection: config
+              - label: Framed
+                name: framed
+                widget: boolean
+                required: false
               - label: Header
                 name: title
                 widget: string
@@ -1666,6 +1670,10 @@ collections:
                 widget: boolean
                 default: false
                 required: false
+              - label: Framed
+                name: framed
+                widget: boolean
+                required: false
               - label: Header
                 name: title
                 widget: string
@@ -1742,6 +1750,10 @@ collections:
                         name: background
                         i18n: true
                         widget: list
+                      - label: Framed
+                        name: framed
+                        widget: boolean
+                        required: false
                         types:
                           - label: Image
                             name: image
