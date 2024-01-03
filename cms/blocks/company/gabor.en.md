@@ -18,7 +18,7 @@ components:
             posx: 50
             posy: 50
             src: /uploads/rg-removebg-optim.png
-            text: With a heavy heart we inform you that Gábor Rényi, our beloved colleague,
+            text: With a heavy heart we inform you that Gábor&nbsp;Rényi, our beloved colleague,
               the founder and co-owner of our company passed away due to a
               severe illness with tragically quick progression on the 31st of
               December, 2023. His drive, initiative, wisdom, and power of
