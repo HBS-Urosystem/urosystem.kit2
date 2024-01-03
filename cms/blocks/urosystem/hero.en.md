@@ -22,7 +22,7 @@ components:
           - alt: Gabor Renyi
             posx: 50
             posy: 50
-            src: /uploads/rg-removebg-optim.png
+            src: /uploads/rg.jpg
             text: With a heavy heart we inform you that Gábor&nbsp;Rényi, our beloved colleague,
               the founder and co-owner of our company passed away due to a
               severe illness with tragically quick progression on the 31st of

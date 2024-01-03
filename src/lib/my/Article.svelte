@@ -33,7 +33,8 @@
     text-align: center;
   }
   .framed {
-    border: 2px #fff solid;
+    background: white;
+    /*border: 2px #fff solid;*/
     /*padding: var(--gap);*/
     
     max-width: 56ch;
@@ -42,5 +43,9 @@
   }
   .framed :global(figure) {
     margin-top: 2rem;
+  }
+  .framed :global(figcaption p) {
+    color: black;
+    text-shadow: none;
   }
 </style>
