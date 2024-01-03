@@ -38,7 +38,7 @@
     
     max-width: 56ch;
     margin-inline: auto;
-    margin-top: 3rem;
+    margin-block: 3rem;
   }
   .framed :global(figure) {
     margin-top: 2rem;
