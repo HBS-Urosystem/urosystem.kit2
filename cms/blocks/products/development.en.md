@@ -15,7 +15,7 @@ components:
       A clinical pilot trial was conducted in 2020 to prove the safety and effectiveness of the UretaCit. The necessary preparations of mass production have been started at our partner, HGA Biomed. This Hungarian company, which is a part of the Vanessa Research Group (the US), has GMP certificate, too. 
 
 
-      The UretaCit will be available on the market as food supplement in 2022.
+      The UretaCit will be available on the market as food supplement in 2024.
     title: UretaCit
     anchor: uretacit
   - type: article

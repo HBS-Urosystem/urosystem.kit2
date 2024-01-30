@@ -15,7 +15,7 @@ components:
       2020-ban klinikai pilot vizsgálat elvégzésével igazoltuk az UretaCit hatásosságát és biztonságosságát. Partnerünkkel, a HGA Biomed-del együtt működve megkezdődtek a tömeggyártáshoz szükséges előkészületek. A magyar HGA Biomed az Egyesült Államok-beli Vanessa Research Group tagja, a cég Jó Gyártási Gyakorlat (GMP) tanúsítvánnyal is rendelkezik. 
 
 
-      Az UretaCit 2022-ben kerül a piacra táplálékkiegészítőként.
+      Az UretaCit várhatóan 2024 végén kerülhet piacra táplálékkiegészítőként.
     title: UretaCit
     anchor: uretacit
   - type: article
