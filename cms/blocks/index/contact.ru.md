@@ -15,6 +15,11 @@ components:
       </fieldset>
 
       <fieldset>
+        <label>Company <input type="text" name="account" /></label>   
+        <label>EU VAT <input type="text" name="vat" /></label>
+      </fieldset>
+
+      <fieldset>
         <label>Тема <input type="text" name="subject" required /></label>
       </fieldset>
 

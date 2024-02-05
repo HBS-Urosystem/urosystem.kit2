@@ -13,11 +13,18 @@ components:
     title: Contact us
     anchor: contact
     text: >-
-      Should you have questions, remarks or need further information on any conditions or products, please, use the form below.
-      
+      Should you have questions, remarks or need further information on any
+      conditions or products, please, use the form below.
+
+
       <fieldset>
         <label>Name <input type="text" name="name" required /></label>   
         <label>Email <input type="email" name="email" autocomplete="email" required /></label>
+      </fieldset>
+
+      <fieldset>
+        <label>Company <input type="text" name="account" /></label>   
+        <label>EU VAT <input type="text" name="vat" /></label>
       </fieldset>
 
       <fieldset>
