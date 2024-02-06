@@ -1,12 +1,13 @@
 <script context="module">
   import { gateway } from '$lib/stores'
+  import { enhance } from '$app/forms'
 </script>
 <script>
 export let comp
 function _submit(e) {
   //console.log(comp.name)
   //if (comp.cookie) 
-  $gateway[comp.name] = true
+  if (comp.name) $gateway[comp.name] = true
   //const myform = document.getElementsByName(name)
   //console.log(myform[0])
   //myform[0].submit()
@@ -15,11 +16,11 @@ function _submit(e) {
 </script>
 
 <!--{#if !$gateway[comp.name]}-->
-<article hidden={!!$gateway[comp.name]} id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
+<article hidden={$gateway[comp.name]} id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
   {#if !!comp.title}<h2>{comp.title}</h2>{/if}
   {#if !!comp.subhead}<h3>{comp.subhead}</h3>{/if}
   <div>
-    <form name="{comp.name}" method={!!comp.action ? "POST" : ''} action={(!!comp.action ? '/' + comp.lang + comp.action : '') + '#content'} on:submit="{_submit}">
+    <form use:enhance id={comp.anchor} name="{comp.name}" method={!!comp.action ? "POST" : ''} action={(!!comp.action ? '/' + comp.lang + comp.action : '') + '#content'} on:submit="{_submit}">
       <input type="hidden" name="form-name" value="{comp.name}">
       {#if !!comp.text}{@html comp.text}{/if}
       {#if !!comp.action}
@@ -43,12 +44,14 @@ function _submit(e) {
   form :global(section > label), form :global(div > label) {
     flex: 1 0 20ch;
     padding-top: 1em;
-    margin: 0 var(--rem) 1em;
+    /*margin: 0 var(--rem) 1em;*/
+    margin: 0 0 1em;
   }
   form :global(fieldset > label) {
     flex: 1 0 20ch;
     padding-top: 1em;
-    margin: 0 var(--rem) 1em 0;
+    /*margin: 0 var(--rem) 1em 0;*/
+    margin: 0 0 1em;
     border-bottom: 2px solid var(--white);
     display: flex;
     flex-direction: column;
