@@ -13,4 +13,4 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Header Permissions-Policy = "browsing-topics=()"
+    Permissions-Policy "browsing-topics=()"
