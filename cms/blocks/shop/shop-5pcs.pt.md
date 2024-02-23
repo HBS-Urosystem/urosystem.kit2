@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: UroDapter® é novo para você? Peça um pacote de amostra hoje!
-    subhead: Compre 5 unidades por €40 / 10 unidades por €80
+    subhead: Compre 5 unidades por €75 / 10 unidades por €150
     background: []
   - type: buy
     title: ""

@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: UroDapter®は初めてですか？今すぐサンプルパッケージを注文してください！
-    subhead: 5個を40 / 10個を80ドルで購入
+    subhead: 5個を75 / 10個を150ドルで購入
     background: []
   - type: buy
     title: ""

@@ -22,7 +22,7 @@ components:
             scale: 20
             src: /uploads/urodapter-removebg.png
     title: UroDapter®对您来说是新手？立即订购样品包！
-    subhead: 买5件，价格为$ 40/10件，价格为$ 80
+    subhead: 买5件，价格为$ 75/10件，价格为$ 150
     background: []
   - type: buy
     title: ""

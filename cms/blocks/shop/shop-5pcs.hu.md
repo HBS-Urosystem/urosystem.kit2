@@ -8,7 +8,7 @@ components:
     button: Vásárlás
     product: "5983114002592"
     text: Válassza ki a kívánt mennyiséget!
-    subhead: "Az 5 db-os csomag ára: €40 / 10 db ára: €80"
+    subhead: "Az 5 db-os csomag ára: €75 / 10 db ára: €150"
   - type: grid
     slide: false
     components:

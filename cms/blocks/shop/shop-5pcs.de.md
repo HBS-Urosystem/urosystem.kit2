@@ -5,7 +5,7 @@ fallback: en
 components:
   - type: buy
     title: Kaufen Sie in unserem Webshop
-    subhead: Kaufen Sie 5 Stück für €40 / 10 Stück für €80
+    subhead: Kaufen Sie 5 Stück für €75 / 10 Stück für €150
     text: Wählen Sie die gewünschte Menge und kaufen Sie!
     button: Jetzt einkaufen
     product: "5983114002592"
