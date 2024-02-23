@@ -20,11 +20,11 @@ function _submit(e) {
   {#if !!comp.title}<h2>{comp.title}</h2>{/if}
   {#if !!comp.subhead}<h3>{comp.subhead}</h3>{/if}
   <div>
-    <form use:enhance id={comp.anchor} name="{comp.name}" method={!!comp.action ? "POST" : ''} action={(!!comp.action ? '/' + comp.lang + comp.action : '') + '#content'} on:submit="{_submit}">
+    <form id={comp.anchor} name="{comp.name}" mmmethod={!!comp.action ? "POST" : ''} action={(!!comp.action ? '/' + comp.lang + comp.action : '') + '#content'} on:submit="{_submit}" data-netlify={comp.netlify}>
       <input type="hidden" name="form-name" value="{comp.name}">
       {#if !!comp.text}{@html comp.text}{/if}
       {#if !!comp.action}
-      <a href="/{comp.lang}{comp.action}" hidden aria-hidden="true">{comp.name}</a>
+        <a href="/{comp.lang}{comp.action}" hidden aria-hidden="true">{comp.name}</a>
       {/if}
     </form>
   </div>
@@ -56,4 +56,24 @@ function _submit(e) {
     display: flex;
     flex-direction: column;
   }
+
+  /*button {
+    margin-block: 0;
+  }*/
+  div {
+    text-align: center;
+    /*margin-bottom: 3.75em;
+    margin-top: 2.5rem;*/
+  }
+  a {
+    text-decoration: none;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    display: block;
+  }
+  p {
+    text-align: center;
+    margin-top: -1.5rem;
+  }
+  
 </style>
