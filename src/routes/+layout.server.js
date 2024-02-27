@@ -39,14 +39,14 @@ export const load = async ({ params, url/*, route, fetch, page*/ }) => {
 	//const parts = path?.split('/') || []
 	//post = await _getPost({path: parts[0], lang, sub: parts[1] || null})
 	post = await _getPost({lang, path, sub})
+  //console.log('post',post.id)
 	if (post.title && !!post.published) {
-    //console.log('post',post)
 		return {
 			post, ...conf
 		}
 	}
   //return fail( 307 , {...conf} )
-  throw redirect(303, '/en')
+  throw redirect(303, '/'/*'/en'*/)
   //throw error(404, 'Enhance your calm')
 	//return false
 }

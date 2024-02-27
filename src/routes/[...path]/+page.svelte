@@ -23,15 +23,16 @@
 <svelte:head>
   
   {#each $state.langs || [] as lang}
-    {#if !!lang.active && lang.id != $sitelang}
+    {#if !!lang.active}
       <link rel="alternate" href="{_siteurl}/{lang.id}/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}" hreflang="{lang.id}" />
+      <!--&& lang.id != $sitelang-->
     {/if}
   {/each}
 
 </svelte:head>
 
 <main>
-<!--{#if $state && !!$state.id}-->
+  <!--{#if $state && !!$state.id}-->
   {#if !!post.hero}
     <header class="full" style="{post.hero.background ? post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'}>
 

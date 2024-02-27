@@ -11,11 +11,15 @@
   import Buttons from '$lib/my/Buttons.svelte'
   import Qas from '$lib/my/Qas.svelte'
   import Form from '$lib/my/Form.svelte'
+  import B2Bmail from '$lib/my/B2Bmail.svelte'
+  import ACmail from '$lib/my/ACmail.svelte'
 	import Modal from '$lib/my/Modal.svelte'
 
   const options = {
 		article: Article,
 		form: Form,
+		b2bmail: B2Bmail,
+		acmail: ACmail,
 		images: Images,
 		grid: Grid,
 		cta: Cta,

@@ -7,7 +7,7 @@
     //console.log('1',comp.link, comp.lang || $sitelang)
     //if (comp.link && comp.link.startsWith('/')) comp.link = comp.link.substring(1)
     if (comp.link && comp.link.startsWith('/')) {
-      link = '/' + (comp.lang || $sitelang) + (comp.link == '/index' ? '' : comp.link)
+      link = '/' + (comp.lang || $sitelang) + (comp.link == '/index' ? '/' : comp.link) + '#' + (comp.anchor || 'content')
     } else if (comp.link && comp.link.startsWith('http')) {
       rel = 'noopener'
       target = '_blank'
