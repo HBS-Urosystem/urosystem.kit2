@@ -22,7 +22,7 @@
       <input type="hidden" name="or" value="6c3bb69a7fbf3e7d26e1eb835244af71" />
     
       <fieldset>
-        <label class="mx-auto w-min">Company <input type="text" bind:value={account} name="customer_account"/></label>
+        <label class="mx-auto w-min">Company <input type="text" bind:value={account} name="customer_account" required placeholder="*"/></label>
         <label>EU VAT <input type="text" bind:value={vat} name="ca[14][v]"/></label>
       </fieldset>
 
