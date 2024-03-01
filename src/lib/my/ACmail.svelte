@@ -5,7 +5,7 @@
   export let comp
 </script>
 
-<article>
+<article id="b2b">
   {#if !!comp.title}<h2>{comp.title}</h2>{/if}
   {#if !!comp.subhead}<h3>{comp.subhead}</h3>{/if}
   {#if comp.text}<div>{@html comp.text}</div>{/if}
