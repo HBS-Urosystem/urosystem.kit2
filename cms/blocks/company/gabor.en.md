@@ -26,5 +26,5 @@ components:
     framed: true
     subhead: ""
     title: ""
-    anchor: gabor
+    anchor: necrolog
 ---

@@ -23,5 +23,5 @@ components:
 
               Lendülete, aktivitása, bölcsessége és motivációs ereje nagyon fog hiányozni, mert mindig a cégek legfőbb motorja volt és mindenben számíthattunk rá. Munkánkat az ő szellemiségében igyekszünk tovább folytatni.
     framed: true
-    anchor: gabor
+    anchor: necrolog
 ---
