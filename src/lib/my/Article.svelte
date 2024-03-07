@@ -34,6 +34,7 @@
   }
   .framed {
     background: white;
+    padding: var(--halfgap);
     /*border: 2px #fff solid;*/
     /*padding: var(--gap);*/
     
@@ -44,8 +45,11 @@
   .framed :global(figure) {
     margin-top: 2rem;
   }
-  .framed :global(figcaption p) {
+  .framed :global(*) {
     color: black;
     text-shadow: none;
+  }
+  .framed :global(figcaption p) {
+    hyphens: none;
   }
 </style>

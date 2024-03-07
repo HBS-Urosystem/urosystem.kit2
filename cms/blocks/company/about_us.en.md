@@ -32,7 +32,7 @@ components:
 
       <dt>Email</dt> <dd><a href="mailto:mail@urosystem.com" rel="noopener noreferrer" target="_blank">mail@urosystem.com</a></dd>
 
-      <dt>Phone</dt> <dd><a href="tel:+36209342674" rel="noopener noreferrer" target="_blank">+36 20 934 2674</a></dd>
+      <dt>Phone</dt> <dd><a href="tel:+36204683882" rel="noopener noreferrer" target="_blank">+36 20 468 3882</a></dd>
 
       <dt>EU VAT</dt> <dd>HU22923820</dd> </dl> </center>
 ---

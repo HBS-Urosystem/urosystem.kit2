@@ -36,7 +36,7 @@
       </fieldset>
 
       <fieldset>
-        <label class="mx-auto w-min">Company website<input type="text" bind:value={account_url} name="account_url" placeholder="https://"/></label>
+        <label class="mx-auto w-min">Company website<input type="url" pattern="https://.*" bind:value={account_url} name="account_url" placeholder="https://"/></label>
         <label>LinkedIn profile <input type="text" bind:value={linkedin} name="ca[13][t]"/></label>
       </fieldset>
 

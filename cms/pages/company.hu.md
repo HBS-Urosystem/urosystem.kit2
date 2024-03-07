@@ -10,6 +10,7 @@ description: Az Urosystem célja az alsó húgyúti megbetegedések különösk�
   forradalmasítása.
 menutitle: Cégünk
 blocks:
+  - id: company/gabor
   - id: company/about_us
   - id: company/partners_us
   - id: index/contact

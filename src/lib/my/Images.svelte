@@ -103,9 +103,9 @@
   figcaption :global(*) {
     color: white;
   }
-  .framed {
+  /*.framed {
     border: 2px #fff solid;
     padding: var(--gap);
     margin: var(--gap2);
-  }
+  }*/
 </style>
