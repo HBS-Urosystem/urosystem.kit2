@@ -57,7 +57,7 @@ components:
           define the condition of the GAG-layer.
 
 
-          Voiding diaries have been frequently applied at clinical trials evaluating the IC/BPS patients’ response to specific treatments or for differential diagnostic purposes (e.g. ,). However, none of these diaries have seemed to make a connection between the fluid intake (thus, the urine concentration) and the voided volume. GAG-layer integrity test, in contrast, is based on examining this correlation.
+          Voiding diaries have been frequently applied at clinical trials evaluating the IC/BPS patients’ response to specific treatments or for differential diagnostic purposes (e.g. v,vi). However, none of these diaries have seemed to make a connection between the fluid intake (thus, the urine concentration) and the voided volume. GAG-layer integrity test, in contrast, is based on examining this correlation.
 
 
           Doing so, the patients suspected to have IC/BPS – or a deficient GAG-layer – are to fill in a 2-day voiding diary. On Day 1, they have to minimize the fluid intake so that the urine concentration will be high. On Day 2, they have to maximize the fluid intake to dilute the urine. During these two days, the patients are to hold their urine back as long as they can so that the maximum bladder capacity affected by the urine concentration can be learned given that they are asked to measure the volume (or the weight) of each maximal voided volume (called urine portions) during the daytime. (Night-time voiding has proven to be unreliable for the test.)
