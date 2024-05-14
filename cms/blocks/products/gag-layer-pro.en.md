@@ -37,7 +37,57 @@ components:
 
 
           <figure>
-            <img loading="lazy" src="/uploads/gag-layer/image1.jpeg" alt=""/>
+            <!--img loading="lazy" src="/uploads/gag-layer/image1.jpeg" alt=""/-->
+            <table style="border-collapse: collapse; width: 100%;" border="1"><colgroup><col style="width: 40%;"><col style="width: 20%;"><col style="width: 20%;"><col style="width: 20%;"></colgroup>
+            <tbody>
+            <tr>
+            <td>
+            <p> </p>
+            </td>
+            <td style="text-align: center;">
+            <strong>Painless</strong>
+            </td>
+            <td style="text-align: center;"><strong>Non-invasive</strong></td>
+            <td style="text-align: center;">
+            <strong>Quantitative</strong>
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <strong>Potassium Sensitivity Test <em>(Parsons)</em></strong>
+            </td>
+            <td style="text-align: center;">❌</td>
+            <td style="text-align: center;">❌</td>
+            <td style="text-align: center;">❌</td>
+            </tr>
+            <tr>
+            <td>
+            <strong>Modified PST <em>(Daha, Riedl et al.)</em></strong>
+            </td>
+            <td style="text-align: center;">❌</td>
+            <td style="text-align: center;">❌</td>
+            <td style="text-align: center;">✅</td>
+            </tr>
+            <tr>
+            <td>
+            <strong>Lidocain anesthetic test <em>(Taneja)</em></strong>
+            </td>
+            <td style="text-align: center;">✅</td>
+            <td style="text-align: center;">❌</td>
+            <td style="text-align: center;">❌</td>
+            </tr>
+            <tr>
+            <td>
+            <strong>GAG-layer integrity test <em>(Lovasz)</em></strong>
+            </td>
+            <td style="text-align: center;">✅</td>
+            <td style="text-align: center;">
+            ✅
+            </td>
+            <td style="text-align: center;">✅</td>
+            </tr>
+            </tbody>
+            </table>
             <figcaption>Figure 1. A summary of methods examining the status of the GAG-layer</figcaption>
           </figure>
         anchor: attempts

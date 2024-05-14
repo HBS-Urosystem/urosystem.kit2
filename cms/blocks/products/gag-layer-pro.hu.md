@@ -42,7 +42,58 @@ components:
 
 
           <figure>
-            <img loading="lazy" src="/uploads/gag-layer/hu-image1.png" alt=""/>
+            <!--img loading="lazy" src="/uploads/gag-layer/hu-image1.png" alt=""/-->
+            <table style="border-collapse: collapse; width: 100%;" border="1"><colgroup><col style="width: 40%;"><col style="width: 20%;"><col style="width: 20%;"><col style="width: 20%;"></colgroup>
+            <tbody>
+            <tr>
+            <td>
+            <p> </p>
+            </td>
+            <td style="text-align: center;">
+            <strong>Painless</strong>
+            </td>
+            <td style="text-align: center;"><strong>Non-invasive</strong></td>
+            <td style="text-align: center;">
+            <strong>Quantitative</strong>
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <strong>Kálium terheléses teszt <em>(Parsons)</em></strong>
+            </td>
+            <td style="text-align: center;">❌</td>
+            <td style="text-align: center;">❌</td>
+            <td style="text-align: center;">❌</td>
+            </tr>
+            <tr>
+            <td>
+            <strong>Módosított k.t.t. <em>(Daha, Riedl et al.)</em></strong>
+            </td>
+            <td style="text-align: center;">❌</td>
+            <td style="text-align: center;">❌</td>
+            <td style="text-align: center;">✅</td>
+            </tr>
+            <tr>
+            <td>
+            <strong>Lidokain teszt <em>(Taneja)</em></strong>
+            </td>
+            <td style="text-align: center;">✅</td>
+            <td style="text-align: center;">❌</td>
+            <td style="text-align: center;">❌</td>
+            </tr>
+            <tr>
+            <td>
+            <strong>GAG•réteg integritás teszt <em>(Lovász)</em></strong>
+            </td>
+            <td style="text-align: center;">✅</td>
+            <td style="text-align: center;">
+            ✅
+            </td>
+            <td style="text-align: center;">✅</td>
+            </tr>
+            </tbody>
+            </table>
+
             <figcaption>1. ábra: a GAG-réteg vizsgálatát célzó módszerek összehasonlítása</figcaption>
           </figure>
         anchor: tesztek
