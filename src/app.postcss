@@ -218,7 +218,11 @@ a.block, span.block,
   /*padding: .25rem 1rem 0;*/
   padding: .5rem .125rem;
 }
-
+a.inline-block {
+  display: inline-block;
+  /*padding: .25rem 1rem 0;*/
+  padding: .5rem .125rem;
+}
 
 article > div, article > details, aside > div, figcaption {
   max-width: 56ch;
@@ -379,7 +383,7 @@ article h4, article h5, article h6 {
   -webkit-hyphens:auto;-ms-hyphens:auto;hyphens: auto;
 }
 @supports ((-webkit-hyphens: auto) or (-ms-hyphens: auto) or (hyphens: auto)) {
-  article p:not(figcaption *):not(li *):not(aside *), article ol:not(li *):not(aside *), a≈rticle ul:not(li *):not(aside *)/*, article h4, article h5, article h6*/ {
+  article p:not(figcaption *):not(table *):not(li *):not(aside *), article ol:not(li *):not(aside *), a≈rticle ul:not(li *):not(aside *)/*, article h4, article h5, article h6*/ {
     text-align: justify;
   }
 }
