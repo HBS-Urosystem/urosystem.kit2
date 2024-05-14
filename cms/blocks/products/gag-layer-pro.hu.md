@@ -50,16 +50,18 @@ components:
             <p> </p>
             </td>
             <td style="text-align: center;">
-            <strong>Painless</strong>
+            <p><strong>Fájdalommentes</strong></p>
             </td>
-            <td style="text-align: center;"><strong>Non-invasive</strong></td>
             <td style="text-align: center;">
-            <strong>Quantitative</strong>
+            <p><strong>Nem invazív</strong></p>
+            </td>
+            <td style="text-align: center;">
+            <p><strong>Kvantitatív</strong></p>
             </td>
             </tr>
             <tr>
             <td>
-            <strong>Kálium terheléses teszt <em>(Parsons)</em></strong>
+            <p><strong>Kálium terheléses teszt <em>(Parsons)</em></strong></p>
             </td>
             <td style="text-align: center;">❌</td>
             <td style="text-align: center;">❌</td>
@@ -67,7 +69,7 @@ components:
             </tr>
             <tr>
             <td>
-            <strong>Módosított k.t.t. <em>(Daha, Riedl et al.)</em></strong>
+            <p><strong>Módosított k.t.t. <em>(Daha, Riedl et al.)</em></strong></p>
             </td>
             <td style="text-align: center;">❌</td>
             <td style="text-align: center;">❌</td>
@@ -75,7 +77,7 @@ components:
             </tr>
             <tr>
             <td>
-            <strong>Lidokain teszt <em>(Taneja)</em></strong>
+            <p><strong>Lidokain teszt <em>(Taneja)</em></strong></p>
             </td>
             <td style="text-align: center;">✅</td>
             <td style="text-align: center;">❌</td>
@@ -83,7 +85,7 @@ components:
             </tr>
             <tr>
             <td>
-            <strong>GAG•réteg integritás teszt <em>(Lovász)</em></strong>
+            <p><strong>GAG•réteg integritás teszt <em>(Lovász)</em></strong></p>
             </td>
             <td style="text-align: center;">✅</td>
             <td style="text-align: center;">

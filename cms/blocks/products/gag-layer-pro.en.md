@@ -45,16 +45,16 @@ components:
             <p> </p>
             </td>
             <td style="text-align: center;">
-            <strong>Painless</strong>
+            </p><strong>Painless</strong></p>
             </td>
-            <td style="text-align: center;"><strong>Non-invasive</strong></td>
+            <td style="text-align: center;"></p><strong>Non-invasive</strong></p></td>
             <td style="text-align: center;">
-            <strong>Quantitative</strong>
+            </p><strong>Quantitative</strong></p>
             </td>
             </tr>
             <tr>
             <td>
-            <strong>Potassium Sensitivity Test <em>(Parsons)</em></strong>
+            </p><strong>Potassium Sensitivity Test <em>(Parsons)</em></strong></p>
             </td>
             <td style="text-align: center;">❌</td>
             <td style="text-align: center;">❌</td>
@@ -62,7 +62,7 @@ components:
             </tr>
             <tr>
             <td>
-            <strong>Modified PST <em>(Daha, Riedl et al.)</em></strong>
+            </p><strong>Modified PST <em>(Daha, Riedl et al.)</em></strong></p>
             </td>
             <td style="text-align: center;">❌</td>
             <td style="text-align: center;">❌</td>
@@ -70,7 +70,7 @@ components:
             </tr>
             <tr>
             <td>
-            <strong>Lidocain anesthetic test <em>(Taneja)</em></strong>
+            </p><strong>Lidocain anesthetic test <em>(Taneja)</em></strong></p>
             </td>
             <td style="text-align: center;">✅</td>
             <td style="text-align: center;">❌</td>
@@ -78,7 +78,7 @@ components:
             </tr>
             <tr>
             <td>
-            <strong>GAG-layer integrity test <em>(Lovasz)</em></strong>
+            </p><strong>GAG-layer integrity test <em>(Lovasz)</em></strong></p>
             </td>
             <td style="text-align: center;">✅</td>
             <td style="text-align: center;">
