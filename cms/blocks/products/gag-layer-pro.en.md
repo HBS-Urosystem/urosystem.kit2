@@ -45,7 +45,7 @@ components:
             <p> </p>
             </td>
             <td style="text-align: center;">
-            </p><strong>Painless</strong></p>
+            <p><strong>Painless</strong></p>
             </td>
             <td style="text-align: center;"></p><strong>Non-invasive</strong></p></td>
             <td style="text-align: center;">
@@ -54,7 +54,7 @@ components:
             </tr>
             <tr>
             <td>
-            </p><strong>Potassium Sensitivity Test <em>(Parsons)</em></strong></p>
+            <p><strong>Potassium Sensitivity Test <em>(Parsons)</em></strong></p>
             </td>
             <td style="text-align: center;">❌</td>
             <td style="text-align: center;">❌</td>
@@ -62,7 +62,7 @@ components:
             </tr>
             <tr>
             <td>
-            </p><strong>Modified PST <em>(Daha, Riedl et al.)</em></strong></p>
+            <p><strong>Modified PST <em>(Daha, Riedl et al.)</em></strong></p>
             </td>
             <td style="text-align: center;">❌</td>
             <td style="text-align: center;">❌</td>
@@ -70,7 +70,7 @@ components:
             </tr>
             <tr>
             <td>
-            </p><strong>Lidocain anesthetic test <em>(Taneja)</em></strong></p>
+            <p><strong>Lidocain anesthetic test <em>(Taneja)</em></strong></p>
             </td>
             <td style="text-align: center;">✅</td>
             <td style="text-align: center;">❌</td>
