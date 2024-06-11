@@ -106,6 +106,11 @@ components:
           * Lehetséges további alkalmazás diagnosztikai célú ágensek instillációja – pl. retrográd uretrográfia, fisztulográfia
         subhead: Egy eszköz számos indikációra
     anchor: intro
+  - type: video
+    source: youtube
+    id: Uh_yW9p6izYWYEFL
+    title: The UroDapter® Introductory Webinar by Dr. Bela Koves MD, PhD.
+    anchor: webinar
   - type: cta
     button: Vásárlási lehetőségek
     link: /shop

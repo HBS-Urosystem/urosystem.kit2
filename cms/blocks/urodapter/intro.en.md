@@ -120,6 +120,11 @@ components:
           * UroDapter® might be applied for diagnostic purposes, too – e.g. retrograde urethrography, fistulography
         subhead: A device for many indications
     anchor: intro
+  - type: video
+    source: youtube
+    id: Uh_yW9p6izYWYEFL
+    title: The UroDapter® Introductory Webinar by Dr. Bela Koves MD, PhD.
+    anchor: webinar
   - type: cta
     button: How to buy?
     link: /shop
