@@ -46,4 +46,5 @@ components:
     name: Contact
     netlify: true
     action: /thankyou
+    always: true
 ---
