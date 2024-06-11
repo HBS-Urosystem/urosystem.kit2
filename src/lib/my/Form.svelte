@@ -23,7 +23,7 @@ function _submit(e) {
   {#if !!comp.title}<h2>{comp.title}</h2>{/if}
   {#if !!comp.subhead}<h3>{comp.subhead}</h3>{/if}
   <div>
-    <form id={comp.anchor} name="{comp.name}" method={!!comp.action ? "POST" : ''} action={(!!comp.action ? '/' + comp.lang + comp.action : '')} on:submit="{_submit}" data-netlify={comp.netlify}>
+    <form id={comp.anchor} name="{comp.name}" method={!!comp.action ? "POST" : ''} action={(!!comp.action ? '/' + comp.lang + comp.action : '')} neon-submit="{_submit}" data-netlify={comp.netlify}>
       <input type="hidden" name="form-name" value="{comp.name}">
       {#if !!comp.text}{@html comp.text}{/if}
       {#if !!comp.action}
@@ -73,10 +73,6 @@ function _submit(e) {
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
     display: block;
-  }
-  p {
-    text-align: center;
-    margin-top: -1.5rem;
   }
   
 </style>
