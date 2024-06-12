@@ -87,7 +87,6 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'AW-433475160');
-        gtag('config', 'UA-180221975-1');
         gtag('config', 'GTM-T4KTKF5');
         gtag('config', 'G-KREFNHDNH0');
       </script>
@@ -98,7 +97,6 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'AW-433475160');
-        gtag('config', 'UA-180221975-1');
         gtag('config', 'GTM-T4KTKF5');
         gtag('config', 'G-1SZ43L7KWV');
       </script>
