@@ -66,14 +66,16 @@
     <link class="{$sitelang} {$state.post.canonical} {$state.post.canonlang}" rel="canonical" href="{_siteurl}/{$state.post.canonlang}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
   {/if}
 
-  {#if !dev }
+  {#if !dev}
     <script>
       // Define dataLayer and the gtag function.
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('consent', 'default', {
         'ad_storage': 'denied',
-        'analytics_storage': 'denied'
+        'analytics_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied'
       });
     </script>
     
@@ -104,53 +106,32 @@
   
       
     {#if !!$cookies}
-      {#if _site == '_us'}
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('consent', 'update', {
-            'ad_storage': 'granted',
-            'analytics_storage': 'granted'
-          });
-        </script>
-      {/if}
-      {#if _site == '_ud'}
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('consent', 'update', {
-            'ad_storage': 'granted',
-            'analytics_storage': 'granted'
-          });
-        </script>
-      {/if}
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('consent', 'update', {
+          'ad_storage': 'granted',
+          'analytics_storage': 'granted',
+          'ad_user_data': 'granted',
+          'ad_personalization': 'granted'
+        });
+      </script>
 
       {#if $state.post.id.indexOf('index') == 0}
         <!-- Event snippet for Oldalmegtekintés conversion page --> 
         <script> gtag('event', 'conversion', {'send_to': 'AW-433475160/DN5ECOK9rvwCENic2c4B'}); </script>
       {/if}
     {:else}
-      {#if _site == '_us'}
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('consent', 'update', {
-            'ad_storage': 'denied',
-            'analytics_storage': 'denied'
-          });
-        </script>
-      {/if}
-      {#if _site == '_ud'}
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('consent', 'update', {
-            'ad_storage': 'denied',
-            'analytics_storage': 'denied'
-          });
-        </script>
-      {/if}
-      
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('consent', 'update', {
+          'ad_storage': 'denied',
+          'analytics_storage': 'denied',
+          'ad_user_data': 'denied',
+          'ad_personalization': 'denied'
+        });
+      </script>
     {/if}
 
     {#if !!$cookies}
@@ -180,9 +161,7 @@
         fbq('init', '699963074016051');
         fbq('track', 'PageView');
       </script>
-      <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=551710929579793&ev=PageView&noscript=1" alt="fb-pixel"
-      /></noscript>
+      <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=551710929579793&ev=PageView&noscript=1" alt="fb-pixel"/></noscript>
       <!-- End Facebook Pixel Code -->
       <!--{/if}--> <!-- $moved -->
       
