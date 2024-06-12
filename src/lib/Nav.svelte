@@ -1,19 +1,33 @@
 <script context="module">
 	import { state, sitelang, variables } from '$lib/stores'
   import { onMount, afterUpdate } from 'svelte'
-  import Components from '$lib/Components.svelte'
+  import { goto } from '$app/navigation'
+  //import Components from '$lib/Components.svelte'
 	//import Modal from '$lib/my/Modal.svelte'
   import SubNav from '$lib/SubNav.svelte'
   import * as scrollnav from "svelte-scrollto"
   import { cubicIn, cubicOut } from 'svelte/easing'
+  import { createEventDispatcher } from "svelte";
+  import validate from "./_validation";
 
   const _site = variables.site
   const sitelogo = `sitelogo${_site}.svg`
   const logoclass = `sitelogo${_site}`
+
 </script>
+
 <script>
-  import { createEventDispatcher } from "svelte";
-  import validate from "./_validation";
+  import { snapto } from '$lib/stores'
+  let nwidth, wnav, wul, hamburger = false, slct
+  onMount(() => {
+    if (!!wul && !hamburger && !nwidth) {
+      nwidth = wul
+      hamburger = (nwidth > wnav)
+    }
+  })
+  afterUpdate(() => {
+    hamburger = (nwidth > wnav)
+  })
   let duration = "250ms";
   let offset = 0;
   let tolerance = 4;
@@ -50,10 +64,9 @@
     //console.log(headerClass)
   }
 
-  import { snapto } from '$lib/stores'
   $: {
     if (!!$snapto) {
-      scrollnav.scrollTo({element: $snapto, duration: 500, offset: -75, easing: cubicIn, onDone: _snap})
+      scrollnav.scrollTo({element: $snapto, duration: 500, offset: -150, easing: cubicIn, onDone: _snap})
       //scrollnav.scrollTo({element: $snapto, offset: 0})
       function _snap() {
         scrollnav.scrollTo({element: $snapto, offset: 0, easing: cubicOut, onDone: () => {$snapto = false} })
@@ -61,22 +74,12 @@
     }
   }
 
-  let /*navbar, navul,*/ nwidth, wnav, wul, hamburger = false//, modal
-  onMount(() => {
-    if (!!wul && !hamburger && !nwidth) {
-      nwidth = wul
-      hamburger = (nwidth > wnav)
-    }
-  })
-  afterUpdate(() => {
-    hamburger = (nwidth > wnav)
-  })
   let langchng = $sitelang
-	/*async */function newlang() {
-    window.location.href = `/${langchng}/${$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}`
+	function newlang() {
+    //window.location.href = `/${langchng}/${$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}`
+   goto(`/${langchng}/${$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}`, { noscroll: true, keepFocus: true })
     //console.log(`${langchng}/${$state.post.path}`)
   }
-  let slct
 </script>
 
 <svelte:window bind:scrollY={y} />
