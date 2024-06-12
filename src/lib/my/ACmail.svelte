@@ -58,7 +58,6 @@
   h3 {
     text-align: center;
   }
-  a[hidden] { display:none; }
   
   form :global(fieldset) { 
     padding: 0;
@@ -88,15 +87,16 @@
     /*margin-bottom: 3.75em;
     margin-top: 2.5rem;*/
   }
-  a {
+  /*a {
     text-decoration: none;
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
     display: block;
-  }
-  p {
+  }*/
+  /*a[hidden] { display:none; }*/
+  /*p {
     text-align: center;
     margin-top: -1.5rem;
-  }
+  }*/
   
 </style>

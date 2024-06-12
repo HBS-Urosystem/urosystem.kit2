@@ -99,7 +99,7 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: var(--dark-blue-75);
+		background-color: var(--dark-75);
     z-index: 1;
 	}
 
@@ -121,7 +121,7 @@
     z-index: 1;
   }
   aside div {
-    border: solid var(--pale-blue);
+    border: solid var(--pale);
 		border-width: 2px;
     /*border-radius: 4px;*/
     border-radius: min(calc(4 * var(--sides)), 3.5rem);
@@ -129,7 +129,7 @@
 		max-width: 100%;
 	}
   /*hr {
-    border-color: var(--mid-blue);
+    border-color: var(--mid);
   }*/
   /*h2 {
     margin: 0;
@@ -141,7 +141,7 @@
     position: absolute;
     top: var(--halfgap);
     inset-inline-end: 0;
-    background-color: var(--light-blue);
+    background-color: var(--light);
     background-image: url(/uploads/bx-x.svg);
     border-radius: 50% ;
     background-position: center;

@@ -12,7 +12,7 @@ background:
     posx: 50
     posy: -15
   - type: gradient
-    name: dark-blue-75
+    name: radial-light
 components:
   - type: images
     slide: false

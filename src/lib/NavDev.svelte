@@ -171,9 +171,9 @@
         <li><a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
         <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
         <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
-        <li><a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
+        <!--<li><a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
         <li><a href="https://vk.com/urodapter" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-vk.svg" alt="vk"></a></li>
-        <!--<li><a href="https://ok.ru/urodapter" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>-->
+        <li><a href="https://ok.ru/urodapter" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>-->
       </ul>
     </div>
     <!--<ul bind:this={navul} mobil={navbar && (navbar.clientWidth + navbar.scrollLeft < navbar.scrollWidth)}>-->
@@ -273,18 +273,18 @@
     overflow-y: hidden;
     z-index: 1;
     /*background-color: transparent;*/
-    /*background-color: var(--dark-blue-75);*/
-    /*background-image: var(--grad-light-blue-25);*/
+    /*background-color: var(--dark-75);*/
+    /*background-image: var(--grad-light-25);*/
   }
   nav:hover, nav:focus, nav:focus-within {
-    /*background-color: var(--dark-blue-75);*/
-    background-color: var(--dark-blue);
+    /*background-color: var(--dark-75);*/
+    background-color: var(--dark);
     overflow-x: auto;
   }
   nav.moved {
     top: -3rem;
-    /*border-bottom: 2px var(--light-blue-75) solid;*/
-    background-color: var(--dark-blue);
+    /*border-bottom: 2px var(--light-75) solid;*/
+    background-color: var(--dark);
   }
   li#over {
     /*position: sticky;*/
@@ -302,7 +302,7 @@
     outline: none;
   }
   li#over button {
-    background-color: var(--light-blue);
+    background-color: var(--light);
     background-image: url(/menu.svg);
     border-radius: 50% 0 0 50%;
     background-position: center;
@@ -315,8 +315,8 @@
     outline: none;
   }
   nav:not(.moved) li li {
-    border: solid var(--light-blue-75);
-    color: var(--pale-blue);
+    border: solid var(--light-75);
+    color: var(--pale);
     background: none;
   }
   li#over button:focus {
@@ -404,11 +404,11 @@
     flex-shrink: 0;
   }
   /*nav > ul > li > a {
-    text-shadow: 1px 1px 2px var(--dark-blue-75);
+    text-shadow: 1px 1px 2px var(--dark-75);
   }*/
   nav > ul > li > span {
     cursor: default;
-    /*text-shadow: 1px 1px 2px var(--dark-blue-75);*/
+    /*text-shadow: 1px 1px 2px var(--dark-75);*/
   }
   nav > ul > li:first-of-type a {
     display: block;
@@ -463,17 +463,17 @@
   /*li :global(li) {
     width: max-content;
     margin: .5rem 0;
-    background-color: var(--light-blue);
+    background-color: var(--light);
     border-radius: 1.5rem;
-    border: 2px var(--mid-blue-75) solid;
+    border: 2px var(--mid-75) solid;
   }*/
   li li {
     /*justify-self: center;*/
-    /*background-color: var(--pale-blue);
+    /*background-color: var(--pale);
     color: black;
     */
-    border: solid var(--light-blue-75);
-    color: var(--pale-blue);
+    border: solid var(--light-75);
+    color: var(--pale);
     background: none;
 
     width: max-content;

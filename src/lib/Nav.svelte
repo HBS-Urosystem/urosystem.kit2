@@ -167,21 +167,21 @@
     overflow-y: hidden;
     z-index: 1;
     /*background-color: transparent;*/
-    /*background-color: var(--dark-blue-75);*/
-    /*background-image: var(--grad-light-blue-25);*/
+    /*background-color: var(--dark-75);*/
+    /*background-image: var(--grad-light-25);*/
   }
   nav:hover, nav:focus, nav:focus-within {
-    /*background-color: var(--dark-blue-75);*/
-    background-color: var(--dark-blue);
+    /*background-color: var(--dark-75);*/
+    background-color: var(--dark);
     overflow-x: auto;
   }
   nav.moved.full {
-    border-bottom: 2px var(--light-blue-75) solid;
+    border-bottom: 2px var(--light-75) solid;
   }
   nav.moved {
     top: -4rem;
-    background-color: var(--dark-blue);
-    /*border-bottom: 2px var(--light-blue-75) solid;*/
+    background-color: var(--dark);
+    /*border-bottom: 2px var(--light-75) solid;*/
   }
   li#over {
     /*position: sticky;*/
@@ -195,7 +195,7 @@
     /*z-index: 999;*/
   }
   li#over button {
-    background-color: var(--light-blue);
+    background-color: var(--light);
     background-image: url(/menu.svg);
     border-radius: 50% 0 0 50%;
     background-position: center;
@@ -222,8 +222,8 @@
     background-position: 0% 90%;
   }*/
   /*nav:not(.moved) li li {
-    border: solid var(--light-blue-75);
-    color: var(--pale-blue);
+    border: solid var(--light-75);
+    color: var(--pale);
     background: none;
   }*/
   li#over button:focus {
@@ -376,20 +376,20 @@
   /*li :global(li) {
     width: max-content;
     margin: .5rem 0;
-    background-color: var(--light-blue);
+    background-color: var(--light);
     border-radius: 1.5rem;
-    border: 2px var(--mid-blue-75) solid;
+    border: 2px var(--mid-75) solid;
   }*/
   [data-mobile='true'] li li:first-of-type {
     margin-block-start: 1rem;
   }
   li li {
     /*justify-self: center;*/
-    /*background-color: var(--pale-blue);
+    /*background-color: var(--pale);
     color: black;
     */
-    /*border: solid var(--light-blue-75);*/
-    color: var(--pale-blue);
+    /*border: solid var(--light-75);*/
+    color: var(--pale);
     background: none;
 
     width: max-content;

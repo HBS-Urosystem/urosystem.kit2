@@ -71,7 +71,7 @@
     margin-top: var(--gap);
   }*/
   nav {
-    background-color: var(--dark-blue);
+    background-color: var(--dark);
     padding: var(--gap2) var(--sides) 0;
   }
   ul {
@@ -103,12 +103,12 @@
     padding-inline-start: .75rem;
   }*/
   div {
-    /*background-color: var(--light-blue);*/
+    /*background-color: var(--light);*/
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /*background-image:var(--grad-light-blue);
-    background-image:var(--grad-light-blue);
+    /*background-image:var(--grad-light);
+    background-image:var(--grad-light);
     background-position:50% 50%;
     background-size:cover;*/
     padding-top: var(--gap2);

@@ -29,7 +29,7 @@
     }
     function ShopifyBuyInit() {
       var client = ShopifyBuy.buildClient({
-        domain: comp.domain || 'urosystem-ru.myshopify.com',
+        domain: comp.domain || 'shop.urosystem.com',
         storefrontAccessToken: 'c1a2152628eaac39db753d008b8e24a2',
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {

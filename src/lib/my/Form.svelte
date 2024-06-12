@@ -24,7 +24,7 @@ function _submit(e) {
   {#if !!comp.subhead}<h3>{comp.subhead}</h3>{/if}
   <div>
     <form id={comp.anchor} name="{comp.name}" method={!!comp.action ? "POST" : ''} action={(!!comp.action ? '/' + comp.lang + comp.action : '')} neon-submit="{_submit}" data-netlify={comp.netlify}>
-      <input type="hidden" name="form-name" value="{comp.name}">
+      <input type="hidden" name="form-name" value={comp.name}>
       {#if !!comp.text}{@html comp.text}{/if}
       {#if !!comp.action}
         <a href="/{comp.lang}{comp.action}" hidden aria-hidden="true">{comp.name}</a>

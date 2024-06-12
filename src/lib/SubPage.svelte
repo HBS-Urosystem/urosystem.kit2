@@ -31,7 +31,7 @@
     border-radius: 1.5rem;
   }
   :global(.active) a {
-    border-color: var(--pale-blue);
+    border-color: var(--pale);
   }
   /*.active a::before {
     content: '';

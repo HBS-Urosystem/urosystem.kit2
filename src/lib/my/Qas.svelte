@@ -32,7 +32,7 @@
   }*/
   :not([open]) summary h3 {
     display: inline;
-    /*color: var(--pale-blue);*/
+    /*color: var(--pale);*/
   }
   /*h3 {
     display: inline;

@@ -42,21 +42,57 @@ select {
 /* UROSYSTEM globals */
 :root {
   --white: #fff;
+
   --dark-blue: #072c3f;
   --mid-blue: #0b3b54;
   --light-blue: #52b2d6;
   /*--pale-blue: #c7e1f0;*/
-  --pale-blue: hsl(202deg 58% 92%);
+  --pale-blue: #dfeef6;
   --dark-blue-75: #072c3fc0;
   --mid-blue-75: #0b3b54c0;
   --light-blue-75: #52b2d6c0;
   --pale-blue-75: #c7e1f0c0;
+  
   --grad-pale-blue: linear-gradient(224deg, var(--pale-blue), var(--light-blue));
   --grad-light-blue: linear-gradient(302deg, var(--light-blue), var(--mid-blue));
   --grad-dark-blue: linear-gradient(302deg, var(--mid-blue), var(--dark-blue));
   --grad-dark-blue-75: linear-gradient(302deg, var(--mid-blue-75), var(--dark-blue-75));
   --grad-light-blue-75: linear-gradient(302deg, var(--light-blue-75), var(--mid-blue-75));
+
+  --pale-green:#6fc6ca;
+  --light-green:#23a0a3;
+  --mid-green:#09979d;
+  --dark-green:#166b6a;
+  --pale-green-75:#6fc6cac0;
+  --light-green-75:#23a0a3c0;
+  --mid-green-75:#09979dc0;
+  --dark-green-75:#166b6ac0;
+
+  --grad-light-green: linear-gradient(315deg, var(--pale-green), var(--mid-green));
+  --grad-dark-green: linear-gradient(45deg, var(--dark-green), var(--light-green));
+  --grad-light-green-75: linear-gradient(315deg, var(--pale-green-75), var(--mid-green-75));
+  --grad-dark-green-75: linear-gradient(45deg, var(--dark-green-75), var(--light-green-75));
+
+  --pale: var(--pale-blue);
+  --light: var(--light-blue);
+  --mid: var(--mid-blue);
+  --dark: var(--dark-blue);
+  --pale-75: var(--pale-blue-75);
+  --light-75: var(--light-blue-75);
+  --mid-75: var(--mid-blue-75);
+  --dark-75: var(--dark-blue-75);
+
+  --grad-pale: var(--grad-pale-blue);
+  --grad-light: var(--grad-light-blue);
+  --grad-dark: var(--grad-dark-blue);
+  --grad-light-75: var(--grad-light-blue-75);
+  --grad-dark-75: var(--grad-dark-blue-75);
+  
   --grad-radial-dark: radial-gradient(var(--mid-blue-75), var(--dark-blue));
+  --grad-radial-light: radial-gradient(var(--light-blue-75), var(--mid-blue));
+
+
+
 
   --half: calc(var(--rem) / 2);
   --halfgap: calc(var(--rem) * .75);
@@ -96,7 +132,7 @@ body {
   /*letter-spacing: .03em;*/
   letter-spacing: .04em;
   color: var(--white);
-  background-color: var(--dark-blue);
+  background-color: var(--dark);
 
   scrollbar-color: rebeccapurple green;
   scrollbar-width: thin;
@@ -156,7 +192,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {
   margin: 1.5em 0 1em;
   line-height: 1.2;
   letter-spacing: 0;
-  text-shadow: 0 0 0.75em var(--dark-blue-75);
+  text-shadow: 0 0 0.75em var(--dark-75);
 }
 header h1, header .h1 {
   font-size: 3.2rem;
@@ -377,7 +413,7 @@ article p, article ul, article ol, article dl, article table, footer + aside p {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   /*letter-spacing: .04em;*/
   -webkit-hyphens:auto;-ms-hyphens:auto;hyphens: auto;
-  text-shadow: 0 0 0.25em var(--dark-blue-75);
+  text-shadow: 0 0 0.25em var(--dark-75);
 }
 article h4, article h5, article h6 {
   -webkit-hyphens:auto;-ms-hyphens:auto;hyphens: auto;

@@ -66,7 +66,7 @@
 
 <style>
 /*  li {
-    background-color: var(--light-blue);
+    background-color: var(--light);
     width: max-content;
     margin: .5rem 0;
     border-radius: 1.5rem;

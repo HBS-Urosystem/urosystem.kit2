@@ -129,7 +129,7 @@
                     ":hover": {
                       "background-color": "#52b2d6",
                     },
-                    "background-color": "#var(--pale-blue)",
+                    "background-color": "#var(--pale)",
                     ":focus": {
                       "background-color": "#4aa0c1",
                     },

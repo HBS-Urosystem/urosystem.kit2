@@ -22,7 +22,7 @@
 
   const _site = variables.site
   const _siteurl = variables.siteurl[_site] || 'https://www.urosystem.com'
-  //console.log('variables.site',variables.site)
+  //console.log('variables.site',_site)
 </script>
 
 <script>
@@ -67,14 +67,14 @@
   {/if}
 
   {#if !dev }
-  <script>
-    // Define dataLayer and the gtag function.
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('consent', 'default', {
-      'ad_storage': 'denied',
-      'analytics_storage': 'denied'
-    });
+    <script>
+      // Define dataLayer and the gtag function.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied'
+      });
     </script>
     
     <!-- Google tag (gtag.js) --> 
@@ -195,16 +195,32 @@
       </script>
       
     {/if}
+  {/if}
   
-    {#if _site == '_ud' || _site == '_na'}
-      <style>
-        main {
-          background-image: var(--grad-light-blue);
-          background-position: 50% 50%;
-          background-size: cover;
-        }
-      </style>
-    {/if}
+  {#if _site == '_ud' || _site == '_na'}
+    <style>
+      body {
+        --pale: var(--pale-green);
+        --light: var(--light-green);
+        --mid: var(--mid-green);
+        --dark: var(--dark-green);
+        --pale-75: var(--pale-green-75);
+        --light-75: var(--light-green-75);
+        --mid-75: var(--mid-green-75);
+        --dark-75: var(--dark-green-75);
+
+        --grad-pale: var(--grad-pale-green);
+        --grad-light: var(--grad-light-green);
+        --grad-dark: var(--grad-dark-green);
+        --grad-light-75: var(--grad-light-green-75);
+        --grad-dark-75: var(--grad-dark-green-75);
+      }
+      main {
+        background-color: var(--mid);
+        background-position: 50% 50%;
+        background-size: cover;
+      }
+    </style>
   {/if}
 </svelte:head>
 
