@@ -16,7 +16,7 @@ function _submit(event) {
   const myForm = event.target;
   const formData = new FormData(myForm);
 
-  fetch('https://urosystem.netlify.app/' + comp.lang + comp.action, {
+  fetch("", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams(formData).toString(),
