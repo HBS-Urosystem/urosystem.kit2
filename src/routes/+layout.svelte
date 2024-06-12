@@ -155,7 +155,7 @@
 
     {#if !!$cookies}
         <!-- Hotjar Tracking Code for https://www.urosystem.com/ -->
-      <script>
+      <!--<script>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
             h._hjSettings={hjid:2464168,hjsv:6};
@@ -164,7 +164,7 @@
             r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-      </script>
+      </script>-->
     
       <!--{#if $moved}-->
       <!-- Facebook Pixel Code -->
@@ -187,12 +187,12 @@
       <!--{/if}--> <!-- $moved -->
       
       <!-- Active Campaign -->
-      <script>
+      <!--<script>
         (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
         vgo('setAccount', '477728237');
         vgo('setTrackByDefault', true);
         vgo('process');
-      </script>
+      </script>-->
       
     {/if}
   {/if}
@@ -239,7 +239,7 @@
 {/if}
 {/each}-->
 
-{#if !dev}
+{#if !dev && !!$cookies}
 <script>
   _linkedin_partner_id = "6306329";
   window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
