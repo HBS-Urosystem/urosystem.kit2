@@ -1,19 +1,29 @@
 <script context="module">
+  import { goto } from '$app/navigation';
+  //import { error } from '@sveltejs/kit';
   import { gateway } from '$lib/stores'
   //import { enhance } from '$app/forms'
 </script>
 <script>
 export let comp
-function _submit(e) {
-  //console.log(comp.name)
-  //if (comp.cookie) 
+function _submit(event) {
+  //console.log(comp);
+  if (comp.always !== true) $gateway[comp.name] = true ///
+  if (!comp.action) return;
 
-  if (!comp.always) $gateway[comp.name] = true ///
+  event.preventDefault();
 
-  //const myform = document.getElementsByName(name)
-  //console.log(myform[0])
-  //myform[0].submit()
-  if (!comp.action) return false
+  const myForm = event.target;
+  const formData = new FormData(myForm);
+
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => goto('/' + comp.lang + comp.action))
+    .catch((error) => alert(error));
+  //if (!comp.action) return false
 }
 //$: console.log($state.post.path, $state.post.subpage?.path)
 </script>
@@ -23,7 +33,7 @@ function _submit(e) {
   {#if !!comp.title}<h2>{comp.title}</h2>{/if}
   {#if !!comp.subhead}<h3>{comp.subhead}</h3>{/if}
   <div>
-    <form data-sveltekit-reload id={comp.anchor} name="{comp.name}" method={!!comp.action ? "POST" : ''} action={(!!comp.action ? '/' + comp.lang + comp.action : '')} neon-submit="{_submit}" data-netlify={comp.netlify}>
+    <form data-sveltekit-reload id={comp.anchor} name="{comp.name}" method={!!comp.action || !!comp.netlify ? "POST" : ''} action={(!!comp.action ? '/' + comp.lang + comp.action : '')} on:submit="{_submit}">
       <input type="hidden" name="form-name" value={comp.name}>
       {#if !!comp.text}{@html comp.text}{/if}
       {#if !!comp.action}
