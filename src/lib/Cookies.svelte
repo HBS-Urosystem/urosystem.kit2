@@ -8,6 +8,7 @@
 	}
 	function unconsent() {
 		//alert('unconsent')
+    window.googlefc?.callbackQueue.push(googlefc.showRevocationMessage);
 		$cookies = false
 	}
 </script>
