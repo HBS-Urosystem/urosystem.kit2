@@ -149,7 +149,7 @@
     
       <!--{#if $moved}-->
       <!-- Facebook Pixel Code -->
-      <script>
+      <!--<script>
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -161,7 +161,7 @@
         fbq('init', '699963074016051');
         fbq('track', 'PageView');
       </script>
-      <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=551710929579793&ev=PageView&noscript=1" alt="fb-pixel"/></noscript>
+      <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=551710929579793&ev=PageView&noscript=1" alt="fb-pixel"/></noscript>-->
       <!-- End Facebook Pixel Code -->
       <!--{/if}--> <!-- $moved -->
       
@@ -218,7 +218,7 @@
 {/if}
 {/each}-->
 
-{#if !dev && !!$cookies}
+<!--{#if !dev && !!$cookies}
 <script>
   _linkedin_partner_id = "6306329";
   window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
@@ -236,4 +236,4 @@
 <noscript>
   <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=6306329&fmt=gif" />
 </noscript>
-{/if}
+{/if}-->
