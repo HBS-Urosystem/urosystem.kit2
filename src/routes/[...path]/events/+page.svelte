@@ -34,7 +34,7 @@
 
   const d = new Date()
   const futureEvents = new Array()
-  const pastEvents = data.events.filter(event => { /// 'ELOG'
+  const pastEvents = data.events?.filter(event => { /// 'ELOG'
     //console.log({event})
     const date = new Date(event.date2 || event.date1 || d)
     if (d.getTime() < date.getTime()) {
@@ -75,7 +75,7 @@
       <article class="max-w-lg">
         <aside>
           <time><span class="badge badge-md badge-accent">Upcoming</span> {formatBlogPostDate(event.date1)}{event.date2 ? ' – ' + formatBlogPostDate(event.date2) : ''}</time>
-          <h1 class="">{event.title}</h1>
+          <h2 class="">{event.title}</h2>
           <PortableText value={event.body}/>
         </aside>
       </article>
@@ -94,7 +94,7 @@
     <article>
       <aside>
         <time>{formatBlogPostDate(event.date1)}{event.date2 ? ' – ' + formatBlogPostDate(event.date2) : ''}</time>
-        <h1 class="">{event.title}</h1>
+        <h2 class="">{event.title}</h2>
         <PortableText value={event.body}/>
       </aside>
       <div bind:this={carous[event.slug.current]} class="carousel rounded-lg" id={event.slug.current}>

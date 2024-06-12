@@ -1,7 +1,7 @@
 import { mdsvex } from "mdsvex";
 import mdsvexConfig from "./mdsvex.config.js";
 import preprocess from "svelte-preprocess";
-import adapter from "@sveltejs/adapter-netlify";
+import adapter from "@sveltejs/adapter-static";
 import htmlMinifierAdaptor from "sveltekit-html-minifier";
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -10,7 +10,9 @@ const config = {
 
   kit: {
     adapter: htmlMinifierAdaptor(
-      adapter(),
+      adapter({
+        fallback: '200.html' // may differ from host to host
+      }),
       {
         minifierOptions: {
           // https://github.com/terser/html-minifier-terser#options-quick-reference
