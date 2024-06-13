@@ -1,5 +1,5 @@
 //export const hydrate = true
-export const prerender = 'auto'
+//export const prerender = 'auto'
 //export const trailingSlash = 'never' // default
 
 import { redirect } from '@sveltejs/kit'
@@ -26,7 +26,7 @@ export const load = async ({ params, url/*, route, fetch, page*/ }) => {
 	conf = await _getConf(lang)
   //console.log('conf.thislang',conf.thislang.id,'->',lang)
   if (!conf.thislang) {
-		conf = await _getConf(url.searchParams.get('lang') || store(sitelang) || 'en')
+		conf = await _getConf(/*url.searchParams.get('lang') ||*/ store(sitelang) || 'en')
     //console.log(conf.thislang)
     if (!conf.thislang) return false
     sub = path
