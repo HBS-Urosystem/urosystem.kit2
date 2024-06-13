@@ -13,7 +13,7 @@ hero: ""
 blocks:
   - id: company/about_us
   - id: company/partners_us
-  - id: company/gabor
   - id: index/contact
+  - id: company/gabor
 subhero: company/logo
 ---

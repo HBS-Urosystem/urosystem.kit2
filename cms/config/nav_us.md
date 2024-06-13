@@ -164,12 +164,6 @@ top_us:
             title: 협력사
           - lang: tr
             title: Ortaklarımız
-      - link: company#necrolog
-        titles:
-          - lang: en
-            title: Necrolog
-          - lang: hu
-            title: Nekrológ
       - link: company#contact
         titles:
           - lang: en
@@ -230,6 +224,12 @@ top_us:
             title: B2B
           - lang: tr
             title: B2B
+      - link: company#necrolog
+        titles:
+          - lang: en
+            title: Necrolog
+          - lang: hu
+            title: Nekrológ
       - link: company#palyazatok
         titles:
           - lang: hu

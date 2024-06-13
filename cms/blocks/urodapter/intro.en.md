@@ -123,7 +123,7 @@ components:
   - type: video
     source: youtube
     id: wrwK2ACpynk
-    title: The UroDapter® Introductory Webinar by Dr. Bela Koves MD, PhD.
+    title: The UroDapter® Introductory Webinar by Bela Koves MD, PhD.
     anchor: webinar
   - type: cta
     button: How to buy?
