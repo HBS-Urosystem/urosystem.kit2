@@ -10,9 +10,9 @@ const config = {
 
   kit: {
     adapter: htmlMinifierAdaptor(
-      adapter({
+      adapter(/*{
         fallback: 'index.html' // may differ from host to host
-      }),
+      }*/),
       {
         minifierOptions: {
           // https://github.com/terser/html-minifier-terser#options-quick-reference
@@ -25,7 +25,11 @@ const config = {
         },
       }
     ),
-    //prerender: {"force": true}
+    prerender: {
+      //"force": true,
+      crawl: true,
+      entries: ["/*/contact"]
+    }
     /*csp:{
       mode:"auto",
       directives:{
