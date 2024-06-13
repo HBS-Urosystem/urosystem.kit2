@@ -26,9 +26,9 @@ const config = {
       }
     ),
     prerender: {
-      //"force": true,
+      //force: true,
       crawl: true,
-      entries: ["/*/contact"]
+      entries: ["/en/contact"]
     }
     /*csp:{
       mode:"auto",

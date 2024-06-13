@@ -123,7 +123,7 @@ header.full h1, header.full .h1, header.full h2, header.full h3 {
   padding: 0!important;
 }
 header.full h2, header.full h3 {
-  margin-top: 0;/* 0 1em*/
+  /*margin-top: 0;*//* 0 1em*/
 }
 
 header figure {
@@ -277,6 +277,9 @@ button img {
   button {
     --gap2: 1rem
   }
+}
+a > button {
+  --gap2: 0
 }
 
 article p, article ul, article ol, article dl, article table, footer + aside p {

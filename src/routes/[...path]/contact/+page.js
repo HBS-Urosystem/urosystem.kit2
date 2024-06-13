@@ -5,3 +5,9 @@ export const prerender = true
     return data
   }
 }*/
+/*export function entries() {
+	return [
+		{ path: ['en'] },
+		{ path: ['hu'] }
+	];
+}*/
