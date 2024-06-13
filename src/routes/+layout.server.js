@@ -12,9 +12,11 @@ import { sitelang } from '$lib/stores'
 
 /** @type {import('./$types').LayoutServerLoad} */
 export const load = async ({ params, url/*, route, fetch, page*/ }) => {
-  //console.log('layout.search',url.searchParams.get('lang'))
+  //console.log({url})
 
-  let [lang, path, sub] = params.path?.split('/') || []
+  let [l, p, s] = params.path?.split('/') || []
+  let [x, lang, path, sub] = url.pathname.split('/') || []
+  //console.log({lang}, {path}, {sub})
   //let { lang, path } = {...params}
   //const path = route.id || ''
   lang = lang || /*url.searchParams.get('lang') || */'en'

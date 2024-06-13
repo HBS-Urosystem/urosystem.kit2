@@ -7,7 +7,7 @@ background:
     posy: 50
     src: /uploads/medical-physician-doctor-man_web.jpg
   - type: gradient
-    name: dark-blue
+    name: radial-light
 components:
   - type: form
     title: Contact us
