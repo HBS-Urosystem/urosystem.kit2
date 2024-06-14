@@ -54,6 +54,6 @@ components:
   - type: cta
     title: ""
     button: What is UroDapter®
-    link: urodapter
+    link: /urodapter
     icon: ""
 ---

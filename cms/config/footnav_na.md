@@ -91,7 +91,7 @@ footer_na:
             title: 협력사
           - lang: tr
             title: Ortaklarımız
-      - link: company#contact
+      - link: /contact
         titles:
           - lang: en
             title: Contact us
@@ -220,7 +220,7 @@ footer_na:
   - subpages:
       - logo: /uploads/visa-master.png
         alt: visa mastercard amex apple
-        link: shop
+        link: /shop
     titles:
       - lang: en
         title: Accepted payments

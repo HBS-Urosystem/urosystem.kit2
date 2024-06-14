@@ -4,13 +4,13 @@ folder: cta
 fallback: en
 background:
   - type: gradient
-    name: dark-blue
+    name: dark
 components:
   - type: cta
     title: ""
     button: 如对购买有意，联系我们
     background: ""
-    link:  "company#contact"
+    link: /contact
     text: >-
       # UroStill®
 

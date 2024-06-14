@@ -60,12 +60,12 @@
 {#key comp.link}
 {#if comp.link}
   <style>
-    :has(:target) > header {
+    /*:has(:target) > header {
       display: none!important;
-    }
-    :has(:target) > :target {
+    }*/
+    /*:has(:target) > :target {
       padding-top: var(--gap4)
-    }
+    }*/
   </style>
 {/if}
 {/key}

@@ -7,7 +7,7 @@ components:
     title: ""
     button: Érdekli? Lépjen velünk kapcsolatba!
     background: ""
-    link:  "company#contact"
+    link: /contact
     text: >-
       &nbsp;
   #- type: cta
@@ -15,5 +15,5 @@ components:
   #  subhead: Vásárolni szeretne?
   #  text: Kérje részletfizetéssel!
   #  button: Vásárlás
-  #  link:  "urostill#buy"
+  #  link: "urostill#buy"
 ---

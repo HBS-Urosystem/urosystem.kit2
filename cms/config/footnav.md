@@ -61,7 +61,7 @@ footer:
             title: 회사소개
           - lang: tr
             title: Hakkımızda
-      - link: company#contact
+      - link: contact
         titles:
           - lang: en
             title: Contact

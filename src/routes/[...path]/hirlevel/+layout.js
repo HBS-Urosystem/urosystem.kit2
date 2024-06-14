@@ -1,3 +1,4 @@
+export const prerender = false
 import { client } from '/src/lib/sanityClient.js'
 import { hirlev, hirlev_doc } from '/src/lib/api.js'
 

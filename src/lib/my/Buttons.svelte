@@ -37,7 +37,7 @@ function getLink(item) {
     {#if comp.title}<h3>{comp.title}</h3>{/if}
     {#if comp.subhead}<div><h3>{comp.subhead}</h3></div>{/if}
     <section>
-      {#each comp.items || [] as item, ix}
+      {#each comp.items || [] as item}
         {#if link = getLink(item)}
           <!--<li id="ref-{ix+1}" style="{item.src ? `--marker:url(${item.src})` : ''}">-->
           <!--<a href={item.url.startsWith('http') ? `${item.url}` : `/${lang}${item.url}`} rel="noopener noreferrer" target="{item.url.startsWith('http') ? `_blank` : ``}">-->

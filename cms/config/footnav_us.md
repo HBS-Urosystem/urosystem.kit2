@@ -91,7 +91,7 @@ footer_us:
             title: 협력사
           - lang: tr
             title: Ortaklarımız
-      - link: company#contact
+      - link: contact
         titles:
           - lang: en
             title: Contact us

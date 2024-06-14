@@ -1,5 +1,5 @@
 //export const hydrate = true
-//export const prerender = 'auto'
+export const prerender = true
 //export const trailingSlash = 'never' // default
 
 import { redirect } from '@sveltejs/kit'

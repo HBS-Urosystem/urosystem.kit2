@@ -20,6 +20,11 @@ components:
       </fieldset>
 
       <fieldset>
+        <label>Company website<input type="url" pattern="https://.*" name="account_url" placeholder="https://"/></label>
+        <label>LinkedIn profile <input type="text" name="linkedin"/></label>
+      </fieldset>
+
+      <fieldset>
         <label>Тема <input type="text" name="subject" required /></label>
       </fieldset>
 

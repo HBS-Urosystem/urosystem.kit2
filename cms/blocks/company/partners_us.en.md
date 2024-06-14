@@ -34,7 +34,19 @@ components:
 
           <center>Tyro Medical's commitment to excellence and their deep understanding of the healthcare landscape make them the perfect partner for us. Their established distribution channels, strong relationships with healthcare providers, and comprehensive market strategies will enable us to effectively communicate the unique benefits and capabilities of the UroDapter® to medical professionals and patients across the United States.</center>
   - type: article
-    text: We are looking for partners for our first commercially available product,
-      the UroDapter®. This syringe adapter replaces the catheter in the field of
-      bladder instillation; it enables painless and complication-free treatment.
+    text: >
+      We understand the power of partnership in bringing transformative
+      healthcare solutions to a wider audience. We invite our B2B partners to
+      reach out and explore collaborative opportunities. Whether you're looking
+      to introduce the UroDapter® into your product line or seeking a
+      partnership for distribution, we are open to discussions. Together, we can
+      make a significant impact on urological care and patient wellbeing.
+
+
+      Don't miss out on these opportunities to be at the forefront of urological healthcare innovation. Contact us today to learn more about our offers and how we can work together towards a healthier tomorrow.
+    title: A Special Invitation to Our B2B Partners
+  - type: cta
+    button: Contact us
+    anchor: contact
+    link: /contact
 ---

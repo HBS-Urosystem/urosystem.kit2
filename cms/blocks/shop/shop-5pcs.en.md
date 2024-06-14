@@ -51,9 +51,8 @@ components:
 
       For informational purposes only, may differ in certain cases.
     subhead: ""
-  - type: cta
+  - type: article
     title: Exciting Offer for First-Time Users, Patients, and Doctors!
-    button: Contact us
     anchor: contact
     text: Welcome to our webshop, where innovation meets care through our
       state-of-the-art UroDapter®. Understanding the importance of firsthand
@@ -63,48 +62,7 @@ components:
       UroDapter® at a 50% discount. This exclusive offer is designed to ensure
       that you can experience the advanced benefits of the UroDapter® at a cost
       that remains as accessible as today’s market rates.
-    link: /company
-    background:
-      - type: gradient
-        name: radial-dark
-  #- type: qaas
-  #  fixed: false
-  #  title: ""
-  #  items:
-  #    - q: A Special Invitation to Our B2B Partners
-  #      text: >-
-  #        We understand the power of partnership in bringing transformative
-  #        healthcare solutions to a wider audience. We invite our B2B partners
-  #        to reach out and explore collaborative opportunities. Whether you're
-  #        looking to introduce the UroDapter® into your product line or seeking
-  #        a partnership for distribution, we are open to discussions. Together,
-  #        we can make a significant impact on urological care and patient
-  #        wellbeing.
-
-
-  #        Don't miss out on these opportunities to be at the forefront of urological healthcare innovation. Contact us today to learn more about our offers and how we can work together towards a healthier tomorrow.
-
-
-  #        <form class="grid grid-center mx-auto" action="/en/thankyou">
-  #          <fieldset>
-  #            <label class="mx-auto w-min">Name <input type="text" bind:value={name} name="name" required placeholder="*"/></label>
-  #            <label>Email <input type="email" bind:value={email} name="email" autocomplete="email" required placeholder="*"/></label>
-  #          </fieldset>
-
-  #          <fieldset>
-  #            <label class="mx-auto w-min">Company <input type="text" bind:value={account} name="account"/></label>
-  #            <label>EU VAT <input type="text" bind:value={vat} name="vat"/></label>
-  #          </fieldset>
-
-  #          <section>
-  #            <a href="mailto:subscribe-f7b584ca6bf3382121b7bb72dc035bba@subscription-serv.com?subject=Question To UroSystem&body=Name:{name};Email:{email};Account:{account};VAT:{vat}">
-  #              <button type="button">Send an Email</button>
-  #            </a>
-  #          </section>
-  #          <fieldset>
-  #          </fieldset>
-  #          <fieldset>
-
-  #          </fieldset>
-  #        </form>
+  - type: cta
+    link: /contact
+    button: Contact us
 ---

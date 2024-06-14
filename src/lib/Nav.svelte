@@ -76,8 +76,8 @@
 
   let langchng = $sitelang
 	function newlang() {
-    //window.location.href = `/${langchng}/${$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}`
-   goto(`/${langchng}/${$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}`, { noscroll: true, keepFocus: true })
+    window.location.href = `/${langchng}/${$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}`
+    //goto(`/${langchng}/${$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}`, { noscroll: true, keepFocus: true })
     //console.log(`${langchng}/${$state.post.path}`)
   }
 </script>

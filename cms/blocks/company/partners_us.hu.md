@@ -37,4 +37,8 @@ components:
       keresünk partnereket. Az UroDapter® nevű fecskendő adapter helyettesíti a
       katétert a húgyhólyag instillációja során, amivel lehetővé teszi a
       fájdalommentes és komplikációmentes kezelést. "
+  - type: cta
+    button: Lépjen velünk kapcsolatba!
+    anchor: contact
+    link: /contact
 ---

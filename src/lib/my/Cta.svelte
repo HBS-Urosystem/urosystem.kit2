@@ -7,7 +7,8 @@
     //console.log('1',comp.link, comp.lang || $sitelang)
     //if (comp.link && comp.link.startsWith('/')) comp.link = comp.link.substring(1)
     if (comp.link && comp.link.startsWith('/')) {
-      link = '/' + (comp.lang || $sitelang) + (comp.link == '/index' ? '/' : comp.link) + '#' + (comp.anchor || 'content')
+      link = '/' + (comp.lang || $sitelang) + (comp.link == '/index' ? '/' : comp.link)
+      scrollto = false
     } else if (comp.link && comp.link.startsWith('http')) {
       rel = 'noopener'
       target = '_blank'
@@ -16,7 +17,7 @@
       link = scrollto = comp.link
       //scrollto = link
     } else {
-      link = '/' + (comp.lang || $sitelang) + (comp.link && comp.link == 'index' ? '' : '/' + comp.link)
+      link = '/' + (comp.lang || $sitelang) + (comp.link && comp.link == 'index' ? '' : '/' + comp.link) + '#' + (comp.anchor || 'content')
     }
     //console.log('2',link) 
   }

@@ -18,7 +18,7 @@ components:
     title: ""
     button: Érdekli? Lépjen velünk kapcsolatba!
     background: ""
-    link: "company#contact"
+    link: /contact
     text: >-
       # UroStill®
 

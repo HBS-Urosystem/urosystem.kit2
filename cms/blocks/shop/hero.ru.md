@@ -16,5 +16,5 @@ components:
         link: https://www.tyro-medical.com/shop/?store-page=Urology-c156988914
       - type: cta
         button: Our webshop
-        link: "/shop#content"
+        link: "#content"
 ---

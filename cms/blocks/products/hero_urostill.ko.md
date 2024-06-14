@@ -18,7 +18,7 @@ components:
     title: ""
     button: 구매를 원하시면 저희에게 연락주세요.
     background: ""
-    link: "company#contact"
+    link: /contact
     text: >-
       # UroStill®
 

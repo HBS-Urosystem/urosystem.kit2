@@ -9,8 +9,8 @@
   const _siteurl = variables.siteurl[_site] || 'https://www.urosystem.com'
 </script>
 <script>
-  export let form
-  console.log({form})
+  //export let form
+  //console.log({form})
   let post, subs
   $: {
     post = $state.post.subpage || $state.post

@@ -19,6 +19,11 @@ components:
       </fieldset>
 
       <fieldset>
+        <label>Cég weboldala<input type="url" pattern="https://.*" name="account_url" placeholder="https://"/></label>
+        <label>LinkedIn profil <input type="text" name="linkedin"/></label>
+      </fieldset>
+
+      <fieldset>
         <label>Tárgy <input type="text" name="subject" required /></label>
       </fieldset>
 

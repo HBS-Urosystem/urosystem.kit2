@@ -43,20 +43,11 @@ components:
 
 
       Tájékoztató adatok, esetenként eltérhet.
-  - type: cta
-    title: Exciting Offer for First-Time Users, Patients, and Doctors!
-    button: Contact us
+  - type: article
+    title: Különleges ajánlatunk azon betegeknek és orvosoknak, akik még nem használták!
     anchor: contact
-    text: Welcome to our webshop, where innovation meets care through our
-      state-of-the-art UroDapter®. Understanding the importance of firsthand
-      experience with new medical technologies, we are delighted to offer an
-      exclusive opportunity for our first-time users, patients, and healthcare
-      professionals. Contact us today to obtain samples of our groundbreaking
-      UroDapter® at a 50% discount. This exclusive offer is designed to ensure
-      that you can experience the advanced benefits of the UroDapter® at a cost
-      that remains as accessible as today’s market rates.
-    link: /company
-    background:
-      - type: gradient
-        name: radial-dark
+    text: Ismerve az új orvostechnológiákról szerzett közvetlen tapasztalat fontosságát, exkluzív lehetőséget kínálunk a UroDapter®-t első alkalommal használó páciensek és egészségügyi szakemberek számára. Vegye fel velünk a kapcsolatot, hogy 50%-os kedvezménnyel vásárolhasson forradalmi UroDapter® készülékünkből. Ez az egyedi ajánlat biztosítja, hogy megismerhesse az UroDapter® előnyeit olyan áron, amely a mai piaci árakhoz képest is megfizethető.
+  - type: cta
+    button: Lépjen velünk kapcsolatba!
+    link: /contact
 ---
