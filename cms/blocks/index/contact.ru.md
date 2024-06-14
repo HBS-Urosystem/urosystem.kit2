@@ -41,6 +41,7 @@ components:
         <button type="submit">Отправлять</button>
       </section>
     name: Связаться
-    netlify: true
     action: /thankyou
+    netlify: true
+    always: true
 ---

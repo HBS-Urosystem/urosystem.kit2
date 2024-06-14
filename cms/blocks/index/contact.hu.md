@@ -11,6 +11,8 @@ background:
     name: radial-light
 components:
   - type: form
+    title: Kapcsolat
+    anchor: contact
     text: >-
       Ha kérdése, észrevétele van, vagy további információra van szüksége,
       kérjük, használja az alábbi űrlapot.
@@ -46,9 +48,8 @@ components:
       <section>
         <button type="submit">Küldés</button>
       </section>
-    title: Kapcsolat
-    anchor: contact
+    name: Contact
     action: /thankyou
     netlify: true
-    name: contact
+    always: true
 ---

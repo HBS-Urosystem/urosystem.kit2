@@ -1,7 +1,6 @@
 ---
 id: contact
 folder: index
-fallback = ""
 background:
   - type: image
     posx: 50
@@ -16,7 +15,6 @@ components:
     text: >-
       Should you have questions, remarks or need further information on any
       conditions or products, please, use the form below.
-
 
       <fieldset>
         <label>Name <input type="text" name="name" required /></label>   
@@ -50,7 +48,7 @@ components:
         <button type="submit">Send</button>
       </section>
     name: Contact
-    netlify: true
     action: /thankyou
+    netlify: true
     always: true
 ---

@@ -134,7 +134,7 @@ export async function _getConf(lang = 'en') {
   }
 }
 
-export async function _getPost({lang = 'en', path, sub = null}) {
+export async function _getPost({path, lang = 'en', sub = null}) {
   const p = await _findPost({path, lang})
   //console.log({lang},{path},{sub}) /// works
   let post = {...p}
@@ -169,7 +169,7 @@ export async function _getPost({lang = 'en', path, sub = null}) {
     for (let s of p.subpages) {
       //if (!!s.link) s.link = s.link.replace('/.', '/whatis') // TODO: remove this
       //const parts = s.link.split('/')
-      let sp = await _getPost({lang, path: s.link, sub: s.id})
+      let sp = await _getPost({path: s.link, lang, sub: s.id})
       sp.slug = sp.slug || sp.id
       //console.log('>>', s.link)
 
@@ -254,7 +254,7 @@ for (const b in all) {
       //console.log(block.components?.length)
       if (!block.components || !block.components.length) block.canonlang = block.fallback
       //console.log(block.canonlang)
-      return mixing(_.cloneDeepWith(block, mdtext), await _findBlock(id, block.canonlang), {recursive: true}) // A) recursive fallbacks / cascading blocks
+      return mixing(_.cloneDeepWith(block, mdtext), await _findBlock(id, block.fallback), {recursive: true}) // A) recursive fallbacks / cascading blocks
     } else {
       //console.log(block.id)
     }

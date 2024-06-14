@@ -42,6 +42,7 @@ components:
         <p>Please note that in most cases we will response in English.</p>
       </section>
     name: Contact
-    netlify: true
     action: /thankyou
+    netlify: true
+    always: true
 ---
