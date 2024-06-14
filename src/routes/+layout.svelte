@@ -59,12 +59,14 @@
       {/each}
     {/if}
   {/if}
-  
-  {#if $state.post.canonical && $state.post.canonical != _site}<!--  || !!$state.post.canonlang && $state.post.canonlang != $sitelang -->
+  <!--
+  {#if $state.post.canonical && $state.post.canonical != _site}
     <link class="{_site} {$state.post.canonical} {$state.post.canonlang}" rel="canonical" href="{variables.siteurl[$state.post.canonical]}/{($state.post.canonlang || $sitelang)}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
-  {:else if !!$state.post.canonlang && $state.post.canonlang != $sitelang}<!-- $state.post.canonical && $state.post.canonical != _site ||  -->
+  {:else if !!$state.post.canonlang && $state.post.canonlang != $sitelang}
     <link class="{$sitelang} {$state.post.canonical} {$state.post.canonlang}" rel="canonical" href="{_siteurl}/{$state.post.canonlang}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
   {/if}
+-->
+  <link rel="canonical" href="/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
 
   {#if !dev}
     <script>
@@ -208,13 +210,14 @@
 <Footer/>
 <Cookies/>
 
-<!--{#each $state.langs || [] as lang}
-{#if !!lang.active}
-<a hidden aria-hidden="true" rel="alternate" href="/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}">
-  {lang.id}
-</a>
-{/if}
-{/each}-->
+{#each $state.langs || [] as lang}
+  {#if !!lang.active}
+    <link rel="alternate" href="{_siteurl}/{lang.id}/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}" hreflang="{lang.id}" />
+    
+    <a rel="alternate" href="/{lang.id}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}" hidden aria-hidden="true">
+    </a>
+  {/if}
+{/each}
 
 <!--{#if !dev && !!$cookies}
 <script>
