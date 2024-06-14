@@ -134,10 +134,9 @@ export async function _getConf(lang = 'en') {
   }
 }
 
-export async function _getPost({path, lang = 'en', sub = null}) {
+export async function _getPost({lang = 'en', path, sub = null}) {
   const p = await _findPost({path, lang})
   //console.log({lang},{path},{sub}) /// works
-  //console.log('_getPost',p) /// works
   let post = {...p}
   post.path = path
   //console.log('...p',p)
@@ -170,7 +169,7 @@ export async function _getPost({path, lang = 'en', sub = null}) {
     for (let s of p.subpages) {
       //if (!!s.link) s.link = s.link.replace('/.', '/whatis') // TODO: remove this
       //const parts = s.link.split('/')
-      let sp = await _getPost({path: s.link, lang, sub: s.id})
+      let sp = await _getPost({lang, path: s.link, sub: s.id})
       sp.slug = sp.slug || sp.id
       //console.log('>>', s.link)
 
@@ -194,11 +193,11 @@ export async function _getPost({path, lang = 'en', sub = null}) {
 }
 
 export async function _findPost({path, lang}) {
+  //if (path == 'contact') console.log('_getPost',path, lang) ///
   path = path || 'index'
   const path_site = `${path}${_site}`
   for (const s in theposts[lang]) {
     if (s.endsWith(path_site)) {
-      //console.log({path_site})
       let p = await theposts[lang][s]().then(({metadata}) => metadata)
       if (p.fallback && p.fallback !== lang) {
         p = mixing(p, await _findPost({path, lang: p.fallback}), {recursive: true}) // A) recursive fallbacks / cascading blocks
@@ -207,7 +206,7 @@ export async function _findPost({path, lang}) {
     }
   }
   for (const s in theposts[lang]) {
-    //console.log({path})
+    //if (path == 'contact') console.log({s})
     if (s.endsWith(path)) {
       //if (s.match(`.*${path}`)) {
       //console.log('_findPost', path)
@@ -249,13 +248,13 @@ for (const b in all) {
     const block = await all[b]().then(({metadata}) => metadata)
     //console.log('')
     //console.log(l)
-    if (block.fallback && block.fallback !== l) {
+    if (block?.fallback && block.fallback !== l) {
       //console.log('')
       //console.log(block.id, block.canonlang)
       //console.log(block.components?.length)
-      if (!block.components?.length) block.canonlang = block.fallback
+      if (!block.components || !block.components.length) block.canonlang = block.fallback
       //console.log(block.canonlang)
-      return mixing(_.cloneDeepWith(block, mdtext), await _findBlock(id, block.fallback), {recursive: true}) // A) recursive fallbacks / cascading blocks
+      return mixing(_.cloneDeepWith(block, mdtext), await _findBlock(id, block.canonlang), {recursive: true}) // A) recursive fallbacks / cascading blocks
     } else {
       //console.log(block.id)
     }
@@ -277,12 +276,12 @@ function mdtext(value, key) {
 }
 function _getBg(obj = []) {
   //console.log(!!obj || obj)
-  let bgs = [], pos = [], siz = []
+  let bgs = [], bgc, pos = [], siz = []
   for (let bg of obj) {
     //console.log(bg)
-    /*if (bg.type == 'color') {
-      bgs[0] = (`var(--${bg.name})`)
-    }*/
+    if (bg.type == 'color') {
+      bgc = `var(--${bg.name})`
+    }
     if (bg.type == 'gradient') {
       bgs.push(`var(--grad-${bg.name})`)
     }
@@ -295,6 +294,6 @@ function _getBg(obj = []) {
   //console.log(bgs)
   //bgs = bgs.filter(bg => bg)
   //return { img: bgs.join(), pos: pos.join(), siz: siz.join() }
-  return (bgs.length ? `background-image:${bgs.join()};` : '') + (pos.length ? `background-position:${pos.join()};` : '') + (siz.length ? `background-size:${siz.join()};` : '')
+  return `background-color:${bgc};` + (bgs.length ? `background-image:${bgs.join()};` : '') + (pos.length ? `background-position:${pos.join()};` : '') + (siz.length ? `background-size:${siz.join()};` : '')
 }
 

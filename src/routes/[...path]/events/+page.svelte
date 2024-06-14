@@ -165,10 +165,10 @@
     padding: 0;
     /*margin-inline: auto;*/
   }
-  h1 {
+  /*h1 {
     @apply text-2xl font-bold pb-4;
     text-align:initial;
-  }
+  }*/
   time {
     /*@apply h-8;*/
     display: block;
@@ -221,10 +221,4 @@
     /*@apply shadow-2xl;*/
     object-fit: contain;
   }
-
-  #_form_6408E8C107AA5_ input[type="text"], button, input, optgroup, select, textarea {
-  line-height: inherit;
-  background: initial;
-  color: revert;
-}
 </style>

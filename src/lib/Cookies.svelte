@@ -1,13 +1,14 @@
 <script>
   //import { onMount } from 'svelte'
 	import { cookies, sitelang } from '$lib/stores'
+	import { browser } from '$app/environment'
 
 	function consent() {
 		//alert('consent')
 		$cookies = {'consent': true}
 	}
-  function deleteAllCookies() {
-    document.cookie.split(';').forEach(cookie => {
+  export function deleteAllCookies() {
+    if (browser) document.cookie.split(';').forEach(cookie => {
       const eqPos = cookie.indexOf('=');
       const name = eqPos > -1 ? cookie.substring(0, eqPos) : cookie;
       document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:00 GMT';
@@ -15,9 +16,9 @@
   }
 	function unconsent() {
 		//alert('unconsent')
-    deleteAllCookies();
 		$cookies = false
 	}
+  $: if (!$cookies) deleteAllCookies()
 </script>
 
 <aside class:consent={!!$cookies}>

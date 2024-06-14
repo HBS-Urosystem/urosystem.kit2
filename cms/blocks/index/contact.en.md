@@ -1,6 +1,7 @@
 ---
 id: contact
 folder: index
+fallback = ""
 background:
   - type: image
     posx: 50

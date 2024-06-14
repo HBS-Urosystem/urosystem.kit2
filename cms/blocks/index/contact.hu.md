@@ -2,6 +2,13 @@
 id: contact
 folder: index
 fallback: en
+background:
+  - type: image
+    posx: 50
+    posy: 50
+    src: /uploads/medical-physician-doctor-man_web.jpg
+  - type: gradient
+    name: radial-light
 components:
   - type: form
     text: >-

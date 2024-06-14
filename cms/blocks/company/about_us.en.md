@@ -1,6 +1,7 @@
 ---
 id: about_us
 folder: company
+fallback: ""
 components:
   - type: article
     anchor: about
