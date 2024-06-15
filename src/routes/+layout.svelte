@@ -75,6 +75,7 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'AW-433475160');
+        gtag('config', 'G-KREFNHDNH0');
       </script>
     {/if}
     {#if _site == '_ud'}
@@ -83,9 +84,9 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'AW-433475160');
+        gtag('config', 'G-1SZ43L7KWV');
       </script>
     {/if}
-  
       
     {#if !!$cookies}
       <script>
