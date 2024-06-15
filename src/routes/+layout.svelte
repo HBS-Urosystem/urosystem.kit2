@@ -1,19 +1,6 @@
 <script context="module">
   import "/src/app.postcss"
   import { onMount } from 'svelte'
-  //import { get } from 'svelte/store'
-  /*export function load({ cookies }) {
-    //const consent = cookies.get('cookies')
-    const consent = writable(cookies.get('consent'))
-    consent.subscribe((value) => cookies.set(`consent`, value))
-
-    //cookies.set('consent', 'true');
-
-    return {
-      cookies: consent
-    };
-  }*/
-
   import { state, sitelang, cookies, variables } from '$lib/stores'
   import { dev/*, browser, amp, prerendering*/ } from '$app/environment'
   import Nav from '$lib/Nav.svelte'
@@ -27,8 +14,6 @@
 
 <script>
   export let data
-  //if (!data || !data.thislang) console.log({data})
-  //$: $cookies = data.cookies
   $: $state = data
   $: $sitelang = data.thislang.id
 	onMount(() => {
@@ -36,7 +21,6 @@
     document.querySelector('html').dir = $state.thislang.dir
     //console.log($state.post.id.indexOf('index'))
 	});
-
 </script>
 
 <svelte:head>
@@ -66,7 +50,7 @@
     <link class="{$sitelang} {$state.post.canonical} {$state.post.canonlang}" rel="canonical" href="{_siteurl}/{$state.post.canonlang}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
   {/if}
 -->
-  <link rel="canonical" href="{variables.siteurl[$state.post.canonical]}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
+  <link rel="canonical" href="{variables.siteurl[$state.post.canonical]}/en{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? ('/' + $state.post.subpage.path) : ('/' + $state.post.path || '')}"/>
 
   {#if !dev}
     <script>
