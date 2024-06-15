@@ -74,7 +74,7 @@
         gtag('js', new Date());
         gtag('config', 'AW-433475160');
         gtag('config', 'GTM-T4KTKF5');
-        gtag('config', 'G-KREFNHDNH0');
+        //gtag('config', 'G-KREFNHDNH0');
       </script>
     {/if}
     {#if _site == '_ud'}
@@ -84,7 +84,7 @@
         gtag('js', new Date());
         gtag('config', 'AW-433475160');
         gtag('config', 'GTM-T4KTKF5');
-        gtag('config', 'G-1SZ43L7KWV');
+        //gtag('config', 'G-1SZ43L7KWV');
       </script>
     {/if}
   
