@@ -78,9 +78,8 @@ components:
 
       4. The payment may be performed in any of the following ways:
 
-         * via PayPal (directly) 
-         * with bank debit or credit card through PayPal
-         * via bank deposit
+         * with bank debit or credit card through Stripe
+
       5. The shipping of the products shall be performed after the payment has been done.
 
       6. Therefore, when the purchase has been submitted, the process of delivering the products to the customer is started instantly. For this reason, purchase orders, having been submitted, cannot be withdrawn. 

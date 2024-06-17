@@ -84,9 +84,7 @@ components:
       4. Die Zahlung kann auf eine der folgenden Arten erfolgen:
 
 
-      * über PayPal (direkt) 
-
-      * mit Bankeinzug oder Kreditkarte über PayPal
+      * mit Bankeinzug oder Kreditkarte über Stripe
 
 
       5. Der Versand der Produkte erfolgt nach Zahlungseingang.

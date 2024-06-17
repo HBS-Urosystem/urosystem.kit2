@@ -69,10 +69,10 @@ components:
       8.数据传输给谁？
 
 
-      在购买的情况下，描述财务信息的数据将传输到 PayPal 并由其处理。PayPal 以成功报告的形式将相应数据告知数据控制者。
+      在购买的情况下，描述财务信息的数据将传输到 Stripe 并由其处理。Stripe 以成功报告的形式将相应数据告知数据控制者。
 
 
-      PayPal总部：2211 North First Street, Jan Jose, California 95131 美国– [www.paypal.com](https://www.paypal.com/)
+      Stripe总部：Stripe Payments Europe Limited – 1 Grand Canal Street Lower, Grand Canal Dock, Dublin, D02 H210, Ireland – [https://stripe.com/en-hu/privacy](https://https://stripe.com/en-hu/privacy/)
 
 
       使用 Shopify 作为网店系统，数据被转移到 Shopify 并由 Shopify 处理。

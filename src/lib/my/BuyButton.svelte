@@ -233,7 +233,7 @@
           hidden={comp.lang !== lang.id}
           aria-hidden={comp.lang !== lang.id}
           align="center"
-          >Оплата банковской картой защищена PayPal
+          >Оплата банковской картой защищена Stripe
         </p>
       {:else}
         <div

@@ -83,10 +83,10 @@ components:
       8. A chi vengono trasferiti i dati?
 
 
-      Nel caso di un acquisto, i dati che descrivono le informazioni finanziarie vengono trasferiti e gestiti da PayPal. Il titolare del trattamento viene informato da PayPal sui dati corrispondenti sotto forma di un rapporto di successo.
+      Nel caso di un acquisto, i dati che descrivono le informazioni finanziarie vengono trasferiti e gestiti da Stripe. Il titolare del trattamento viene informato da Stripe sui dati corrispondenti sotto forma di un rapporto di successo.
 
 
-      Sede centrale di PayPal: 2211 North First Street, San José, California 95131 USA – [www.paypal.com](https://www.paypal.com/)
+      Sede centrale di Stripe: Stripe Payments Europe Limited – 1 Grand Canal Street Lower, Grand Canal Dock, Dublin, D02 H210, Ireland – [https://stripe.com/en-hu/privacy](https://https://stripe.com/en-hu/privacy/)
 
 
       Utilizzando Shopify come sistema di negozio online, i dati vengono trasferiti e gestiti da Shopify.

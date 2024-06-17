@@ -83,10 +83,10 @@ components:
       8. An wen werden Daten übermittelt?
 
 
-      Beim Kauf werden Daten, die Finanzinformationen beschreiben, an PayPal übertragen und von diesem verarbeitet. Die entsprechenden Daten werden dem Verantwortlichen von PayPal in Form eines Erfolgsberichts mitgeteilt.
+      Beim Kauf werden Daten, die Finanzinformationen beschreiben, an Stripe übertragen und von diesem verarbeitet. Die entsprechenden Daten werden dem Verantwortlichen von Stripe in Form eines Erfolgsberichts mitgeteilt.
 
 
-      PayPal-Unternehmenszentrale: 2211 North First Street, San Jose, Kalifornien 95131, USA – [www.paypal.com](https://www.paypal.com/)
+      Stripe Payments Europe Limited – 1 Grand Canal Street Lower, Grand Canal Dock, Dublin, D02 H210, Ireland – [https://stripe.com/en-hu/privacy](https://https://stripe.com/en-hu/privacy/)
 
 
       Bei der Verwendung von Shopify als Webshop-System werden Daten an Shopify übertragen und von diesem verarbeitet.

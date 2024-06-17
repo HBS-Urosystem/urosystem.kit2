@@ -20,7 +20,6 @@ components:
          * Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Turkmenistan, Ukraine, Uzbekistan: 19 days
          * Other countries: 15 days
 
-         Due to COVID world wide pandemic delivery can be longer than usual.
       4. In case the customer has not received the purchased products, we recommend they contact our company using the following e-mail address: [shop@urosystem.com](mailto:shop@urosystem.com)
 
       5. Every product or product package which has been purchased separately is to be shipped as a separate unit.

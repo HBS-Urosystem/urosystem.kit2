@@ -20,8 +20,6 @@ components:
          * Russland, Armenien, Aserbaidschan, Georgien, Kasachstan, Kirgisistan, Moldawien, Tadschikistan, Turkmenistan, Ukraine, Usbekistan: 19 Tage
          * Andere Länder: 15 Tage
 
-      Aufgrund von COVID kann die weltweite Pandemie-Lieferung länger als üblich dauern.
-
 
       4. Falls der Kunde die gekauften Produkte nicht erhalten hat, empfehlen wir ihm, unser Unternehmen über die folgende E-Mail-Adresse zu kontaktieren: [shop@urosystem.com](mailto:shop@urosystem.com)
 

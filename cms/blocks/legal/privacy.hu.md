@@ -104,10 +104,10 @@ components:
       8. Kinek továbbítunk adatokat?
 
 
-      Vásárlás esetén a szükséges pénzügyi információkat leíró adatokat a PayPal-nak továbbítjuk. Az Adatkezelőt a PayPal értesíti jelentés formájában a pénzügyi tranzakció sikerességéről.
+      Vásárlás esetén a szükséges pénzügyi információkat leíró adatokat a Stripe-nak továbbítjuk. Az Adatkezelőt a Stripe értesíti jelentés formájában a pénzügyi tranzakció sikerességéről.
 
 
-      PayPal Corporate Headquarters: 2211 North First Street, Jan Jose, California, 95131 the USA – [www.paypal.com](http://www.paypal.com)
+      Stripe Payments Europe Limited – 1 Grand Canal Street Lower, Grand Canal Dock, Dublin, D02 H210, Ireland – [https://stripe.com/en-hu/privacy](http://https://stripe.com/en-hu/privacy)
 
 
       A Weblap Webshopját a Shopify rendszere működteti, következésképp a szükséges adatokat az Adatkezelők a Shopify-nak továbbítják.

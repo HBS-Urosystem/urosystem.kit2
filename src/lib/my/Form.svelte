@@ -27,7 +27,7 @@ function _submit(e) {
       <input type="hidden" name="form-name" value={comp.name}>
       {#if !!comp.text}{@html comp.text}{/if}
       {#if !!comp.netlify}
-      <input type="text" name="country" />
+      <input type="text" name="country">
       {/if}
       {#if !!comp.action}
         <a href="/{comp.lang}{comp.action}" hidden aria-hidden="true"></a>
@@ -63,7 +63,7 @@ function _submit(e) {
     flex-direction: column;
   }
   input[name="country"] {
-    visibility: hidden;
+    display: none;
   }
 
   /*button {

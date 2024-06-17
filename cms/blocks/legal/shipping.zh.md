@@ -31,9 +31,6 @@ components:
       * 其它国家：15天
 
 
-      由于冠状病毒全球疫情，运输时间可能会长一些。
-
-
       4. 如果客户没有收到购买的产品，我们建议使用以下电子邮件地址与我公司联系：[shop@urosystem.com](mailto:shop@urosystem.com)
 
 

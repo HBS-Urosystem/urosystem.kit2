@@ -68,10 +68,10 @@ components:
       8. データは誰に転送されますか。
 
 
-      購入の際には、財務情報を含むデータがPayPalに転送され、処理されます。データ管理者は、PayPalから成功報告の形で対応するデータについて通知を受けます。
+      購入の際には、財務情報を含むデータがStripeに転送され、処理されます。データ管理者は、Stripeから成功報告の形で対応するデータについて通知を受けます。
 
 
-      PayPal本社：2211 North First Street, Jan Jose, California 95131 the USA - \[www.paypal.com](<https://www.paypal.com/>)
+      Stripe本社：Stripe Payments Europe Limited – 1 Grand Canal Street Lower, Grand Canal Dock, Dublin, D02 H210, Ireland - \[https://stripe.com/en-hu/privacy](<https://https://stripe.com/en-hu/privacy/>)
 
 
       ウェブショップシステムとしてShopifyをご利用の場合、データはShopifyに転送され、扱われます。

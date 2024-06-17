@@ -86,10 +86,7 @@ components:
 
       4. Il pagamento può essere effettuato in uno dei seguenti modi:
 
-
-      * tramite PayPal (direttamente) 
-
-      * con carta di debito o di credito bancaria tramite PayPal
+      * con carta di debito o di credito bancaria tramite Stripe
 
       5. La consegna dei prodotti verrà effettuata soltanto dopo l’avvenuto pagamento.
 

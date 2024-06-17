@@ -83,10 +83,10 @@ components:
       8. Кому передаются данные?
 
 
-      В случае покупки, данные о финансовой информации передаются и обрабатываются PayPal. PayPal информирует Контроллера данных о соответствующих данных в виде отчета об успешном выполнении.
+      В случае покупки, данные о финансовой информации передаются и обрабатываются Stripe. Stripe информирует Контроллера данных о соответствующих данных в виде отчета об успешном выполнении.
 
 
-      Штаб-квартира PayPal: 2211 North First Street, Сан-Хосе, Калифорния 95131, США - [www.paypal.com](https://www.paypal.com/)
+      Штаб-квартира Stripe: Stripe Payments Europe Limited – 1 Grand Canal Street Lower, Grand Canal Dock, Dublin, D02 H210, Ireland - [https://stripe.com/en-hu/privacy](https://https://stripe.com/en-hu/privacy/)
 
 
       Используя Shopify в качестве системы интернет-магазинов, данные передаются и обрабатываются Shopify.

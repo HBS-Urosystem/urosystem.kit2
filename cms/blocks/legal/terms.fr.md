@@ -79,9 +79,7 @@ components:
       4. Le paiement peut être effectué de l'une des manières suivantes:
 
 
-      * par PayPal (directement) 
-
-      * avec carte de credit ou débit via PayPal
+      * avec carte de credit ou débit via Stripe
 
 
       5. L'expédition des produits sera effectuée après le paiement.
