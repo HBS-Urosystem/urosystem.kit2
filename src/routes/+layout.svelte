@@ -118,7 +118,8 @@
     {/if}
 
     {#if !!$cookies}
-        <!-- Hotjar Tracking Code for https://www.urosystem.com/ -->
+      <!--{#if $moved}-->
+      <!-- Hotjar Tracking Code for https://www.urosystem.com/ -->
       <!--<script>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -130,7 +131,6 @@
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
       </script>-->
     
-      <!--{#if $moved}-->
       <!-- Facebook Pixel Code -->
       <!--<script>
         !function(f,b,e,v,n,t,s)
@@ -146,7 +146,6 @@
       </script>
       <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=551710929579793&ev=PageView&noscript=1" alt="fb-pixel"/></noscript>-->
       <!-- End Facebook Pixel Code -->
-      <!--{/if}--> <!-- $moved -->
       
       <!-- Active Campaign -->
       <!--<script>
@@ -155,6 +154,7 @@
         vgo('setTrackByDefault', true);
         vgo('process');
       </script>-->
+      <!--{/if}--> <!-- $moved -->
       
     {/if}
   {/if}

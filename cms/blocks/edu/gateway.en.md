@@ -5,8 +5,6 @@ fallback: ""
 components:
   - type: form
     netlify: true
-    cookie: true
-    subhead: "" 
     name: ProfessionalsGateway
     text: >-
       Further resources – including videos, manuals and guides – contain explicit medical content. Therefore, we would like you to fill out the form as follows:
