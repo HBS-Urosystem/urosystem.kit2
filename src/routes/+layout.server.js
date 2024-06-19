@@ -1,4 +1,4 @@
-//export const hydrate = true
+//export const csr = false
 export const prerender = true
 //export const trailingSlash = 'never' // default
 

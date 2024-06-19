@@ -144,6 +144,7 @@
   header.full {
     padding-top: 9rem;
     padding-bottom: 6rem;
+    height: auto;
     min-height:100vh;
     display: flex;
     flex-direction: column;

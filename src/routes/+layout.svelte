@@ -49,7 +49,7 @@
   {:else if !!$state.post.canonlang && $state.post.canonlang != $sitelang}
     <link class="{$sitelang} {$state.post.canonical} {$state.post.canonlang}" rel="canonical" href="{_siteurl}/{$state.post.canonlang}/{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? $state.post.subpage.path : ($state.post.path || '')}"/>
   {/if}
--->
+  -->
   <link rel="canonical" href="{variables.siteurl[$state.post.canonical] || _siteurl}/en{!!$state.post.subpage && $state.post.subpage.slug !== '.' ? ('/' + $state.post.subpage.path) : ('/' + $state.post.path || '')}"/>
 
   {#if !dev}
