@@ -60,7 +60,7 @@ footer:
             title: 회사소개
           - lang: tr
             title: Hakkımızda
-      - link: company#contact
+      - link: /contact
         titles:
           - lang: en
             title: Contact
@@ -252,7 +252,7 @@ footer:
   - subpages:
       - logo: /uploads/visa-mastercard.png
         alt: visa mastercard amex paypal
-        link: shop
+        link: /shop
     titles:
       - lang: en
         title: Accepted payments
