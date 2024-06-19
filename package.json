@@ -41,7 +41,6 @@
     "@sanity/client": "^3.3.6",
     "@sanity/image-url": "^1.0.1",
     "netlify-identity-widget": "^1.9.2",
-    "svelte-portal": "^2.1.2",
     "svelte-scrollto": "^0.2.0"
   }
 }
