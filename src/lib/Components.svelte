@@ -13,7 +13,7 @@
   import Form from '$lib/my/Form.svelte'
   //import B2Bmail from '$lib/my/B2Bmail.svelte'
   import ACmail from '$lib/my/ACmail.svelte'
-	import Modal from '$lib/my/Modal.svelte'
+	//import Modal from '$lib/my/Modal.svelte'
 
   const options = {
 		article: Article,
@@ -23,7 +23,7 @@
 		images: Images,
 		grid: Grid,
 		cta: Cta,
-		modal: Modal,
+		//modal: Modal,
 		buy: BuyButton,
 		video: Video,
     links: Links,
