@@ -11,7 +11,7 @@
 <script>
   //export let form
   //console.log({form})
-  let post, subs
+  //let post, subs
   $: {
     post = $state.post.subpage || $state.post
     //subs = /*$state.post.subpage?.subpages || */$state.post.subpages

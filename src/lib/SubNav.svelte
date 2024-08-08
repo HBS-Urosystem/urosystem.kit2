@@ -52,7 +52,8 @@
         {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
       </a>
     {:else}
-      <span class="{dir}" tabindex="-1">{sub.title}
+      <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+      <span class="{dir}" tabindex="0" role="list">{sub.title}
         {#if sub.sublinks}<img src="/uploads/open-down.svg" alt="" aria-hidden="true">{/if}
       </span>
     {/if}

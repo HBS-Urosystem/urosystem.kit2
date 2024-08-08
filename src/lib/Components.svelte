@@ -1,5 +1,5 @@
 <script context="module">
-  import { /*state, sitelang, snapto, gateway,*/ variables } from '$lib/stores'
+  import { variables } from '$lib/stores'
   import Article from '$lib/my/Article.svelte'
   import Images from '$lib/my/Images.svelte'
   import Grid from '$lib/my/Grid.svelte'

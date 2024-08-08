@@ -2,24 +2,30 @@
   import { snapto, sitelang } from '$lib/stores'
   //console.log({sitelang})
   export let comp//, lang
-  let rel = '', target = '', link, scrollto = false
+  let rel = '', target = '', link//, scrollto = false
+  //console.log(comp.lang, $sitelang)
   $: {
-    //console.log('1',comp.link, comp.lang || $sitelang)
+    //console.log('1',/*scrollto,*/ comp.link)
     //if (comp.link && comp.link.startsWith('/')) comp.link = comp.link.substring(1)
     if (comp.link && comp.link.startsWith('/')) {
-      link = '/' + (comp.lang || $sitelang) + (comp.link == '/index' ? '/' : comp.link)
-      scrollto = false
+      link = '/' + $sitelang + (comp.link == '/index' ? '' : comp.link)
+      //scrollto = false
     } else if (comp.link && comp.link.startsWith('http')) {
       rel = 'noopener'
       target = '_blank'
       link = comp.link
     } else if(comp.link && comp.link.startsWith('#')) {
-      link = scrollto = comp.link
+      link = /*scrollto =*/ comp.link
       //scrollto = link
     } else {
-      link = '/' + (comp.lang || $sitelang) + (comp.link && comp.link == 'index' ? '' : '/' + comp.link) + '#' + (comp.anchor || 'content')
+      if (comp.link == '/index' || !comp.link) {
+        comp.link = ''
+      } else {
+        comp.link = '/' + comp.link
+      }
+      link = '/' + $sitelang + comp.link //+ (scrollto || '')
     }
-    //console.log('2',link) 
+    //console.log('2',/*scrollto,*/ link) 
   }
 </script>
 
@@ -28,7 +34,8 @@
   {#if comp.text}<div>{@html comp.text}</div>{/if}
   {#if comp.button}
   <div>
-    <a on:click={() => $snapto = scrollto} on:keypress={() => $snapto = scrollto} href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a> <!-- or unclick? -->
+    <!--<a on:click={() => $snapto = `${scrollto}`} on:keypress={() => $snapto = `${scrollto}`} href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>--> <!-- or unclick? -->
+    <a href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a> <!-- or unclick? -->
     {#if comp.below}<p>{comp.below}</p>{/if}
   </div>
   {/if}

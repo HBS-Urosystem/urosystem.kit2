@@ -9,5 +9,5 @@ description: The Privacy Policy and the Cookie Policy of Urosystem
 canonical: _us
 menutitle: Privacy policy
 blocks:
-  - id: privacy
+  - id: legal/privacy
 ---

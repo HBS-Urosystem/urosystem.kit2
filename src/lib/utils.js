@@ -137,6 +137,7 @@ export async function _getConf(lang = 'en') {
 export async function _getPost({path, lang = 'en', sub = null}) {
   const p = await _findPost({path, lang})
   //console.log({lang},{path},{sub}) /// works
+  //console.log(p.blocks)
   let post = {...p}
   post.path = path
   //console.log('...p',p)
@@ -155,6 +156,7 @@ export async function _getPost({path, lang = 'en', sub = null}) {
     post.canonlang = p.fallback
     for (const b of p.blocks) {
       const block = await _getBlock(b.id, lang)
+      //console.log(b.id, lang,{block})
       if (!block.canonlang) post.canonlang = false
       blocks.push(block)
     }
@@ -188,12 +190,11 @@ export async function _getPost({path, lang = 'en', sub = null}) {
     //console.log('post.subpages',post.subpages.length)
   }
 
-  //console.log('>>>new',post)
+  console.log('>>>new',post.blocks[0].components)
   return await post
 }
 
 export async function _findPost({path, lang}) {
-  //if (path == 'contact') console.log('_getPost',path, lang) ///
   path = path || 'index'
   const path_site = `${path}${_site}`
   for (const s in theposts[lang]) {

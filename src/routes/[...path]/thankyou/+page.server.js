@@ -1,4 +1,4 @@
-export const prerender = false
+export const prerender = false /// miért?
 export const actions = {
   default: async ({request, url}) => {
     const formData = await request.formData()

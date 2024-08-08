@@ -241,10 +241,12 @@ main > div {
 }
 main > div > aside {
   text-align: center;
+  /*padding: var(--gap) var(--sides);*/
 }
 main > div > *:not(aside)/*article */{
   /*text-align: initial;*/
-  padding: var(--gap) var(--sides);
+  /*padding: var(--gap) var(--sides) 0;*/
+  padding: 0 var(--sides) var(--gap);
 }
 
 a.block, span.block, 
