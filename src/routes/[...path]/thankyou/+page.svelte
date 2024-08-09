@@ -11,7 +11,7 @@
 <script>
   //export let form
   //console.log({form})
-  //let post, subs
+  let post
   $: {
     post = $state.post.subpage || $state.post
     //subs = /*$state.post.subpage?.subpages || */$state.post.subpages
@@ -25,6 +25,7 @@
 <main>
   <!--{#if $state && !!$state.id}-->
   {#if !!post.hero}
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
     <header class="full" style="{post.hero.background ? post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'}>
 
       {#if post.herotitle && post.herotitle != ''}
@@ -57,6 +58,7 @@
 
     </header>
   {:else}
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
     <header on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'}>
       
       {#if $state.post.title != ''}

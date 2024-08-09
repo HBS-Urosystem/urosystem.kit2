@@ -190,8 +190,8 @@ export async function _getPost({path, lang = 'en', sub = null}) {
     //console.log('post.subpages',post.subpages.length)
   }
 
-  console.log('>new',post.blocks[0])
-  console.log('>>>new',post.blocks[0].components)
+  //console.log('>new',post.blocks[0])
+  //console.log('>>>new',post.blocks[0].components)
   return await post
 }
 

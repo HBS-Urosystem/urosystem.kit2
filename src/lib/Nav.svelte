@@ -66,7 +66,7 @@
 
   $: {
     if ($snapto) {
-      scrollnav.scrollTo({element: $snapto, duration: 500, offset: -150, easing: cubicIn, onDone: _snap})
+      scrollnav.scrollTo({element: $snapto, duration: 500, offset: -610, easing: cubicIn, onDone: _snap})
       //scrollnav.scrollTo({element: $snapto, offset: 0})
       function _snap() {
         scrollnav.scrollTo({element: $snapto, offset: 0, easing: cubicOut, onDone: () => {$snapto = false} })
