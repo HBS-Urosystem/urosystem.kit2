@@ -86,7 +86,7 @@ components:
       In case of purchasing, data describing financial information are transferred to and handled by Stripe. The Data Controller is being informed by Stripe on the corresponding data in the form of a success report.
 
 
-     Stripe Payments Europe Limited – 1 Grand Canal Street Lower, Grand Canal Dock, Dublin, D02 H210, Ireland – [https://stripe.com/en-hu/privacy](https://https://stripe.com/en-hu/privacy/)
+      Stripe Payments Europe Limited – 1 Grand Canal Street Lower, Grand Canal Dock, Dublin, D02 H210, Ireland – [https://stripe.com/en-hu/privacy](https://https://stripe.com/en-hu/privacy/)
 
 
       Using Shopify as a webshop system, data are being transferred to and handled by Shopify.
