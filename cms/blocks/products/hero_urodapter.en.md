@@ -26,10 +26,6 @@ components:
         src: /uploads/tagline-pic-wider.png
     ratio: 50
   - type: cta
-    title: ""
-    button: How to buy?
-    background: ""
-    link: /shop
     text: >-
       # UroDapter®
 
@@ -38,4 +34,6 @@ components:
 
 
       #### More than 1,000,000 pieces used
+    button: How to buy?
+    link: /shop
 ---

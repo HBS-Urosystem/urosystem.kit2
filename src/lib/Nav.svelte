@@ -1,9 +1,7 @@
 <script context="module">
 	import { state, sitelang, variables } from '$lib/stores'
   import { onMount, afterUpdate } from 'svelte'
-  import { goto } from '$app/navigation'
-  //import Components from '$lib/Components.svelte'
-	//import Modal from '$lib/my/Modal.svelte'
+  //import { goto } from '$app/navigation'
   import SubNav from '$lib/SubNav.svelte'
   import * as scrollnav from "svelte-scrollto"
   import { cubicIn, cubicOut } from 'svelte/easing'
@@ -65,12 +63,13 @@
   }
 
   $: {
+    console.log({$snapto})
     if ($snapto) {
       scrollnav.scrollTo({element: $snapto, duration: 500, offset: -610, easing: cubicIn, onDone: _snap})
-      //scrollnav.scrollTo({element: $snapto, offset: 0})
       function _snap() {
         scrollnav.scrollTo({element: $snapto, offset: 0, easing: cubicOut, onDone: () => {$snapto = false} })
       }
+      //$snapto = false
     }
   }
 
