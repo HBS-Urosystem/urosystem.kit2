@@ -63,7 +63,7 @@
   }
 
   $: {
-    console.log({$snapto})
+    //console.log({$snapto})
     if ($snapto) {
       scrollnav.scrollTo({element: $snapto, duration: 500, offset: -610, easing: cubicIn, onDone: _snap})
       function _snap() {
