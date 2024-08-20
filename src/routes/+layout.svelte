@@ -187,9 +187,7 @@
 </svelte:head>
 
 <Nav/>
-
 <slot/>
-
 <Footer/>
 <Cookies/>
 

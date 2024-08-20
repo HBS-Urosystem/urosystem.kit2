@@ -54,12 +54,13 @@ export async function _getConf(lang = 'en') {
 
   const langs = `langs${_site}`
   const top = `top${_site}`
+  //console.log(config[top])
   const footer = `footer${_site}`
 
   //console.log(`langs${_site}`, config[langs])
 
   _.remove(config[langs], (n) => { return !n.active })
-  config.langs = config[langs]
+  config.langs = config[langs] || []
 
   //console.log(langs,config[langs])
 

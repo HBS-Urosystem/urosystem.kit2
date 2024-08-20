@@ -35,41 +35,14 @@
           {#each sublinks as sub}
             <SubNav {sub} dir='block'/>
           {/each}
-          <!--{:else if post = findPost($sitelang, nav.link)}
-          <h4>{nav[$sitelang] || nav['en']}</h4>
-          {#if post.subpages}
-          {#each post.subpages as sub}
-          <SubNav {sub}/>
-          {/each}
-        {/if}
-        {:else if sublinks = findPosts($sitelang, nav.link)}
-          <h4><span>{nav[$sitelang] || nav['en']}</span></h4>
-          {#each sublinks as sub}
-          <SubNav {sub}/>
-          {/each}-->
         {/if}
       </li>
       {/each}
-      <!--<li>
-        <h4>FOLLOW US</h4>
-        <a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-facebook.svg" alt="facebook"/></a>
-        <a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-instagram.svg" alt="instagram"/></a>
-        <a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-youtube.svg" alt="youtube"/></a>
-        <a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a>
-        <a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img loading="lazy" src="/uploads/bxl-twitter.svg" alt="twitter"/></a>
-      </li>-->
-      <!--<li>
-        <h4>ACCEPTED PAYMENTS</h4>
-        <img loading="lazy" src="/uploads/visa-mastercard.png" alt="visa mastercard amex paypal"/>
-      </li>-->
     </ul>
   </nav>
   </footer>
 
 <style>
-  /*footer {
-    margin-top: var(--gap);
-  }*/
   nav {
     background-color: var(--dark);
     padding: var(--gap2) var(--sides) 0;

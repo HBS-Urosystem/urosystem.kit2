@@ -1,11 +1,9 @@
-# <meta http-equiv="Content-Security-Policy" content="default-src https:" />
-
-
+# <SEO http-equiv="Content-Security-Policy" content="default-src https:" />
 # npx netlify-cms-proxy-server
 backend:
   name: git-gateway
   branch: main
-site_url: https://www.urosystem.com
+site_url: https://urodapter2.netlify.app
 local_backend: true
 media_folder: /static/uploads
 public_folder: /uploads
@@ -43,7 +41,7 @@ collections:
     delete: false
     name: pages
     slug: "{{id}}"
-    folder: cms/pages
+    folder: cms2/pages
     view_groups:
       - label: Folder
         field: folder
@@ -107,24 +105,24 @@ collections:
         widget: string
         i18n: true
         required: false
-      - label: Meta keywords
+      - label: SEO keywords
         name: keywords
         widget: string
         required: false
         i18n: true
-      - label: Meta description
+      - label: SEO description
         name: description
         widget: text
         required: false
         i18n: true
-      - label: Meta canonical
+      - label: SEO canonical
         name: canonical
         widget: text
         required: false
         i18n: true
-      - label: Other Metas
-        label_singular: Meta
-        name: meta
+      - label: Other SEOs
+        label_singular: SEO
+        name: SEO
         widget: list
         required: false
         i18n: true
@@ -184,7 +182,7 @@ collections:
     delete: false
     name: blocks
     slug: "{{id}}"
-    folder: cms/blocks
+    folder: cms2/blocks
     view_groups:
       - label: Folder
         field: folder
@@ -2377,7 +2375,7 @@ collections:
     label: Site settings
     files:
       - label: Visuals
-        file: cms/config/design.yml
+        file: cms2/config/design.yml
         name: design
         fields:
           - name: colors
@@ -2431,48 +2429,48 @@ collections:
                 default: 0
                 min: 0
                 max: 360
-      - label: Languages
-        name: langs
-        file: cms/config/langs_glob.yml
-        fields:
-          - label: Languages
-            label_singular: Lang
-            name: langs
-            delete: false
-            widget: list
-            fields:
-              - label: ID
-                name: id
-                widget: string
-              - label: Label
-                name: title
-                widget: string
-              - label: Active
-                name: active
-                required: false
-                widget: boolean
-              - label: Flag
-                name: flag
-                widget: image
-                required: false
-              - label: Text direction
-                name: dir
-                default: ltr
-                widget: select
-                options:
-                  - label: Left to right
-                    value: ltr
-                  - label: Right to left
-                    value: rtl
-              - label: Font Face
-                name: font
-                default: default
-                widget: select
-                options:
-                  - label: Default
-                    value: default
-                  - label: Serif
-                    value: serif
+      #- label: Urodapter languages
+      #  name: langs_ud
+      #  file: cms2/config/langs_ud
+      #  fields:
+      #    - label: Languages
+      #      label_singular: Lang
+      #      name: langs
+      #      delete: false
+      #      widget: list
+      #      fields:
+      #        - label: ID
+      #          name: id
+      #          widget: string
+      #        - label: Label
+      #          name: title
+      #          widget: string
+      #        - label: Active
+      #          name: active
+      #          required: false
+      #          widget: boolean
+      #        - label: Flag
+      #          name: flag
+      #          widget: image
+      #          required: false
+      #        - label: Text direction
+      #          name: dir
+      #          default: ltr
+      #          widget: select
+      #          options:
+      #            - label: Left to right
+      #              value: ltr
+      #            - label: Right to left
+      #              value: rtl
+      #        - label: Font Face
+      #          name: font
+      #          default: default
+      #          widget: select
+      #          options:
+      #            - label: Default
+      #              value: default
+      #            - label: Serif
+      #              value: serif
       - label: Danger zone
         name: danger
         file: /static/admin/config.yml
@@ -2488,8 +2486,8 @@ collections:
           - name: local_backend
             label: local_backend
             widget: boolean
-      - label: Main nav (default)
-        file: cms/config/nav.md
+      - label: Urodapter navbar
+        file: cms2/config/nav_ud.md
         name: nav
         fields:
           - name: top
@@ -2498,7 +2496,7 @@ collections:
             widget: list
             summary: "{{link}}"
             fields:
-              - label: Menu title
+              - label: Menu link text
                 name: titles
                 widget: list
                 fields:
@@ -2506,7 +2504,7 @@ collections:
                     label: Lang
                     widget: string
                   - name: title
-                    label: Menu title
+                    label: Menu link text
                     widget: string
               - label: Link to
                 name: link
@@ -2521,7 +2519,7 @@ collections:
                 required: false
                 widget: list
                 fields:
-                  - label: Submenu Title
+                  - label: SubMenu link text
                     name: titles
                     widget: list
                     fields:
@@ -2529,7 +2527,7 @@ collections:
                         label: Lang
                         widget: string
                       - name: title
-                        label: Menu title
+                        label: Menu link text
                         widget: string
                   - label: Link
                     name: link
@@ -2539,111 +2537,111 @@ collections:
                     name: ext
                     widget: boolean
                     required: false
-      - label: UroSystem navbar
-        file: cms/config/nav-us.md
-        name: nav-us
-        fields:
-          - name: top_us
-            label: Top menu items
-            label_singular: Item
-            widget: list
-            summary: "{{link}}"
-            fields:
-              - label: Menu title
-                name: titles
-                widget: list
-                fields:
-                  - name: lang
-                    label: Lang
-                    widget: string
-                  - name: title
-                    label: Menu title
-                    widget: string
-              - label: Link to
-                name: link
-                widget: string
-                required: false
-              - label: External?
-                name: ext
-                widget: boolean
-                required: false
-              - label: Submenu
-                name: subpages
-                required: false
-                widget: list
-                fields:
-                  - label: Submenu Title
-                    name: titles
-                    widget: list
-                    fields:
-                      - name: lang
-                        label: Lang
-                        widget: string
-                      - name: title
-                        label: Menu title
-                        widget: string
-                  - label: Link
-                    name: link
-                    widget: string
-                    required: false
-                  - label: External?
-                    name: ext
-                    widget: boolean
-                    required: false
-      - label: UroDapter navbar
-        file: cms/config/nav-ud.md
-        name: nav-ud
-        fields:
-          - name: top_ud
-            label: Top menu items
-            label_singular: Item
-            widget: list
-            summary: "{{link}}"
-            fields:
-              - label: Menu title
-                name: titles
-                widget: list
-                fields:
-                  - name: lang
-                    label: Lang
-                    widget: string
-                  - name: title
-                    label: Menu title
-                    widget: string
-              - label: Link to
-                name: link
-                widget: string
-                required: false
-              - label: External?
-                name: ext
-                widget: boolean
-                required: false
-              - label: Submenu
-                name: subpages
-                required: false
-                widget: list
-                fields:
-                  - label: Submenu Title
-                    name: titles
-                    widget: list
-                    fields:
-                      - name: lang
-                        label: Lang
-                        widget: string
-                      - name: title
-                        label: Menu title
-                        widget: string
-                  - label: Link
-                    name: link
-                    widget: string
-                    required: false
-                  - label: External?
-                    name: ext
-                    widget: boolean
-                    required: false
-      - label: Footer nav
-        file: cms/config/footnav.md
-        name: footnav
+      #- label: UroSystem navbar
+      #  file: cms2/config/nav-us.md
+      #  name: nav-us
+      #  fields:
+      #    - name: top_us
+      #      label: Top menu items
+      #      label_singular: Item
+      #      widget: list
+      #      summary: "{{link}}"
+      #      fields:
+      #        - label: Menu link text
+      #          name: titles
+      #          widget: list
+      #          fields:
+      #            - name: lang
+      #              label: Lang
+      #              widget: string
+      #            - name: title
+      #              label: Menu link text
+      #              widget: string
+      #        - label: Link to
+      #          name: link
+      #          widget: string
+      #          required: false
+      #        - label: External?
+      #          name: ext
+      #          widget: boolean
+      #          required: false
+      #        - label: Submenu
+      #          name: subpages
+      #          required: false
+      #          widget: list
+      #          fields:
+      #            - label: SubMenu link text
+      #              name: titles
+      #              widget: list
+      #              fields:
+      #                - name: lang
+      #                  label: Lang
+      #                  widget: string
+      #                - name: title
+      #                  label: Menu link text
+      #                  widget: string
+      #            - label: Link
+      #              name: link
+      #              widget: string
+      #              required: false
+      #            - label: External?
+      #              name: ext
+      #              widget: boolean
+      #              required: false
+      #- label: UroDapter navbar
+      #  file: cms2/config/nav-ud.md
+      #  name: nav-ud
+      #  fields:
+      #    - name: top_ud
+      #      label: Top menu items
+      #      label_singular: Item
+      #      widget: list
+      #      summary: "{{link}}"
+      #      fields:
+      #        - label: Menu link text
+      #          name: titles
+      #          widget: list
+      #          fields:
+      #            - name: lang
+      #              label: Lang
+      #              widget: string
+      #            - name: title
+      #              label: Menu link text
+      #              widget: string
+      #        - label: Link to
+      #          name: link
+      #          widget: string
+      #          required: false
+      #        - label: External?
+      #          name: ext
+      #          widget: boolean
+      #          required: false
+      #        - label: Submenu
+      #          name: subpages
+      #          required: false
+      #          widget: list
+      #          fields:
+      #            - label: SubMenu link text
+      #              name: titles
+      #              widget: list
+      #              fields:
+      #                - name: lang
+      #                  label: Lang
+      #                  widget: string
+      #                - name: title
+      #                  label: Menu link text
+      #                  widget: string
+      #            - label: Link
+      #              name: link
+      #              widget: string
+      #              required: false
+      #            - label: External?
+      #              name: ext
+      #              widget: boolean
+      #              required: false
+      - label: Urodapter footer
+        file: cms2/config/footnav_ud.md
+        name: footnav_ud
         fields:
           - name: footer
             label: Footer menu items
@@ -2651,7 +2649,7 @@ collections:
             widget: list
             summary: "{{link}}"
             fields:
-              - label: Menu title
+              - label: Menu link text
                 name: titles
                 widget: list
                 fields:
@@ -2659,7 +2657,7 @@ collections:
                     label: Lang
                     widget: string
                   - name: title
-                    label: Menu title
+                    label: Menu link text
                     widget: string
               - label: Link to
                 name: link
@@ -2674,7 +2672,7 @@ collections:
                 required: false
                 widget: list
                 fields:
-                  - label: Submenu Title
+                  - label: SubMenu link text
                     name: titles
                     widget: list
                     fields:
@@ -2682,7 +2680,7 @@ collections:
                         label: Lang
                         widget: string
                       - name: title
-                        label: Menu title
+                        label: Menu link text
                         widget: string
                   - label: Link
                     name: link

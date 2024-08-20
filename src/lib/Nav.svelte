@@ -343,7 +343,7 @@
     height: 3.226rem;
     aspect-ratio: 300 / 95;
   }
-  img.sitelogo_ud, img.sitelogo_na {
+  img.sitelogo_ud, img.sitelogo_ud2, img.sitelogo_na {
     /*padding-inline-end: 1rem;*/
     margin-bottom: -1.4rem;
     height: 3.5rem;

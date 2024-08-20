@@ -9,6 +9,7 @@ import { sitelang } from '$lib/stores'
 
 /** @type {import('./$types').LayoutServerLoad} */
 export const load = async ({ params, url/*, route, fetch, page*/ }) => {
+  //console.log(params, url)
   let [l, p, s] = params.path?.split('/') || []
   let [x, lang, path, sub] = url.pathname.split('/') || []
   lang = lang || /*url.searchParams.get('lang') || */'en'
@@ -18,6 +19,7 @@ export const load = async ({ params, url/*, route, fetch, page*/ }) => {
 	let post, conf
 
 	conf = await _getConf(lang)
+  //console.log({conf})
   //console.log('conf.thislang',conf.thislang.id,'->',lang)
   if (!conf.thislang) {
 		conf = await _getConf(/*url.searchParams.get('lang') ||*/ store(sitelang) || 'en')
@@ -26,7 +28,6 @@ export const load = async ({ params, url/*, route, fetch, page*/ }) => {
     path = lang
     lang = conf.thislang.id || 'en'
 	}
-
   post = await _getPost({lang, path, sub})
   //console.log('post',{lang, path, sub},post.blocks[0].components)
 	if (post.title && !!post.published) {
