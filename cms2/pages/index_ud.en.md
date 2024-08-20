@@ -10,9 +10,6 @@ description: The UroDapter® urological adapter replaces catheter. It enables
   painless and complication-free bladder treatment for several lower urinary
   tract diseases.
 menutitle: UroDapter®
-hero: heroes/hero_ud
-#blocks:
-#  - id: urodapter/intro
-#  - id: index/testimonials
+hero: ud/hero
 herotitle: ""
 ---
