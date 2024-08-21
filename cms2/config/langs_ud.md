@@ -1,5 +1,5 @@
 ---
-langs_ud:
+langs:
   - id: en
     title: English
     dir: ltr

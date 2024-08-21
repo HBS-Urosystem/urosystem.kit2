@@ -29,7 +29,7 @@ export const load = async ({ params, url/*, route, fetch, page*/ }) => {
     lang = conf.thislang.id || 'en'
 	}
   post = await _getPost({lang, path, sub})
-  //console.log('post',{lang, path, sub},post.blocks[0].components)
+  console.log('post',{lang, path, sub},post.blocks[0]?.components)
 	if (post.title && !!post.published) {
 		return {
 			post, ...conf

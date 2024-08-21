@@ -14,8 +14,8 @@
     post = $state.post.subpage || $state.post
     //subs = /*$state.post.subpage?.subpages || */$state.post.subpages
     //console.log('ID',$state.post.id,$state.post.subpage?.id)
-    //console.log({post})
-    console.log(post.hero)
+    console.log({post})
+    //console.log(post.hero)
   }
   //console.log($state.post)
 </script>

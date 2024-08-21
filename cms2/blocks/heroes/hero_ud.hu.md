@@ -18,7 +18,7 @@ components:
     title: ""
     button: Vásárlási lehetőségek
     background: ""
-    link: /shop
+    link: []
     text: >-
       # UroDapter®
 

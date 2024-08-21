@@ -6,9 +6,9 @@ import { variables } from '$lib/stores'
 
 const _site = variables.site || '_us'
 
-const allblocks = import.meta.glob('/cms/blocks/**/*.md')
-const allposts = import.meta.glob('/cms/pages/**/*.md')
-const allconfs = import.meta.glob('/cms/config/*.md')
+const allblocks = import.meta.glob('/cms2/blocks/**/*.md')
+const allposts = import.meta.glob('/cms2/pages/**/*.md')
+const allconfs = import.meta.glob('/cms2/config/*.md')
 
 let theposts = []
 for (const p in allposts) {
@@ -38,7 +38,7 @@ for (const p in allconfs) {
 //console.log(allconfs,theconf)
 
 export async function _getConf(lang = 'en') {
-  let config = {}
+  let config = {}, conf = {}
   /*const langs = await theconf['langs']().then(({metadata}) => metadata)
   //for (c in langs.langs)
   config[langs] = _.chain(c)
@@ -49,33 +49,32 @@ export async function _getConf(lang = 'en') {
   //console.log({theconf})
   for (const b in theconf) {
     const c = await theconf[b]().then(({metadata}) => metadata)
-    config[Object.keys(c)[0]] = c[Object.keys(c)[0]]
+    conf[Object.keys(c)[0]] = c[Object.keys(c)[0]]
   }
 
-  const langs = `langs${_site}`
-  const top = `top${_site}`
-  //console.log(config[top])
-  const footer = `footer${_site}`
+  const langs = 'langs'//`langs${_site}`
+  const topnav = 'top'//`top${_site}`
+  const footnav = 'footer'//`footer${_site}`
 
-  //console.log(`langs${_site}`, config[langs])
+  //console.log(`langs${_site}`, conf[langs])
 
-  _.remove(config[langs], (n) => { return !n.active })
-  config.langs = config[langs] || []
+  _.remove(conf[langs], (n) => { return !n.active })
+  config.langs = conf[langs] || []
 
   //console.log(langs,config[langs])
 
-  config.thislang = null
-  for (const l of config.langs) {
-    if (l.id == lang) config.thislang = l
+  config.thislang = 'en'
+  for (const l of conf.langs) {
+    if (l?.id == lang) config.thislang = l
   }
-
-  config.topnav = await Promise.all(config[top]?.map(async (subs) => _subnav(subs)))
-  config.footnav = await Promise.all(config[footer]?.map(async (subs) => _subnav(subs)))
-  //console.log('UTILS',config)
+  config.topnav = await Promise.all(conf[topnav]?.map(async (subs) => _subnav(subs)))
+  config.footnav = await Promise.all(conf[footnav]?.map(async (subs) => _subnav(subs)))
+  console.log({config})
   
   return config
 
   async function _subnav(obj) {
+    //console.log({obj})
     let p
     //console.log('obj.link',obj.link)
     delete obj.title

@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite dev --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cms": "npx decap-server"
   },
   "devDependencies": {
     "@dansvel/vite-plugin-markdown": "^2.0.5",

@@ -1,5 +1,6 @@
 # <SEO http-equiv="Content-Security-Policy" content="default-src https:" />
 # npx netlify-cms-proxy-server
+# npx decap-server
 backend:
   name: git-gateway
   branch: main

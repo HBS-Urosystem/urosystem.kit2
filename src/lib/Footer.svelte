@@ -31,11 +31,9 @@
       {#each footnav as nav}
       <li>
         <h5><span>{nav.title}</span></h5>
-        {#if sublinks = nav.sublinks}
-          {#each sublinks as sub}
-            <SubNav {sub} dir='block'/>
-          {/each}
-        {/if}
+        {#each nav.sublinks || [] as sub}
+          <SubNav {sub} dir='block'/>
+        {/each}
       </li>
       {/each}
     </ul>
