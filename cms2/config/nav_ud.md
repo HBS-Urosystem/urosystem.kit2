@@ -4,4 +4,6 @@ top:
     titles:
       - title: Home
         lang: en
+      - lang: hu
+        title: Home
 ---
