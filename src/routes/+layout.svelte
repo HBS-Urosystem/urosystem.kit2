@@ -14,6 +14,7 @@
 
 <script>
   export let data
+  console.log(data)
   $: $state = data
   $: $sitelang = data.thislang.id
 	onMount(() => {
@@ -119,43 +120,7 @@
 
     {#if !!$cookies}
       <!--{#if $moved}-->
-      <!-- Hotjar Tracking Code for https://www.urosystem.com/ -->
-      <!--<script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:2464168,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-      </script>-->
-    
-      <!-- Facebook Pixel Code -->
-      <!--<script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '699963074016051');
-        fbq('track', 'PageView');
-      </script>
-      <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=551710929579793&ev=PageView&noscript=1" alt="fb-pixel"/></noscript>-->
-      <!-- End Facebook Pixel Code -->
-      
-      <!-- Active Campaign -->
-      <!--<script>
-        (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
-        vgo('setAccount', '477728237');
-        vgo('setTrackByDefault', true);
-        vgo('process');
-      </script>-->
       <!--{/if}--> <!-- $moved -->
-      
     {/if}
   {/if}
   
@@ -186,10 +151,10 @@
   {/if}
 </svelte:head>
 
-<Nav/>
+<!--<Nav/>-->
 <slot/>
-<Footer/>
-<Cookies/>
+<!--<Footer/>-->
+<!--<Cookies/>-->
 
 {#each $state.langs || [] as lang}
   {#if !!lang.active}

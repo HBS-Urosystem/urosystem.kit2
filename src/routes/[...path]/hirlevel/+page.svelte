@@ -9,7 +9,7 @@
   import { PortableText } from '@portabletext/svelte'
   import { getSanityImageUrl, formatBlogPostDate } from '$lib/helpers.js'
   //import Subscribe from '$lib/SubscribeActivecamp.svelte'
-  //import { client } from '/src/lib/sanityClient.js'
+  //import { client } from '/src/lib/sanity/client.js'
 
   /*export const load = async ({fetch}) => {
     let res = await fetch('/hirlevel.json')

@@ -1,7 +1,7 @@
 //export const hydrate = true
 export const prerender = false
 
-import { client } from '/src/lib/sanityClient.js'
+import { client } from '/src/lib/sanity/client.js'
 import { allEvents } from '/src/lib/api.js'
 
 /** @type {import('./$types').LayoutServerLoad} */

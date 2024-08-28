@@ -1,6 +1,6 @@
 import { getSanityImageUrl, formatBlogPostDate } from '$lib/helpers.js'
 import RSS from 'rss'
-import { client } from '/src/lib/sanityClient.js'
+import { client } from '/src/lib/sanity/client.js'
 import { allEvents } from '/src/lib/api.js'
 import {toHTML} from '@portabletext/to-html'
 
