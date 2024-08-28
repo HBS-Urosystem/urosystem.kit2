@@ -2,7 +2,7 @@
   import { snapto, sitelang } from '$lib/stores'
   //console.log({sitelang})
   export let comp//, lang
-  let rel = '', target = '', link, scrollto = false
+  let rel, target, link, scrollto = false
   //console.log(comp.lang, $sitelang)
   $: {
     //console.log('1',/*scrollto,*/ comp.link)
@@ -17,7 +17,7 @@
     } else if(comp.link && comp.link.startsWith('#')) {
       link = scrollto = comp.link
     } else {
-      if (comp.link == '/index' || !comp.link) {
+      if (comp.link == '/' || !comp.link) {
         comp.link = ''
       } else {
         comp.link = '/' + comp.link
@@ -30,14 +30,14 @@
 
 <aside id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
   {#if comp.title}<h2>{comp.title}</h2>{/if}
-  {#if comp.text}<div>{@html comp.text}</div>{/if}
-  {#if comp.button}
   <div>
-    <a on:click|stopPropagation={() => $snapto = `${scrollto}`} on:keypress={() => $snapto = `${scrollto}`} href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>
-    <!--<a on:click|stopPropagation href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>-->
-    {#if comp.below}<p>{comp.below}</p>{/if}
+    {#if comp.text}<div>{@html comp.text}</div>{/if}
+    {#if comp.button}
+      <a on:click|stopPropagation={() => $snapto = `${scrollto}`} on:keypress={() => $snapto = `${scrollto}`} href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>
+      <!--<a on:click|stopPropagation href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>-->
+      {#if comp.below}<p>{comp.below}</p>{/if}
+    {/if}
   </div>
-  {/if}
 </aside>
 
 <style>

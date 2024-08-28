@@ -4,7 +4,7 @@ import { marked } from 'marked'
 import { variables } from '$lib/stores'
 //console.log({variables})
 
-const _site = variables.site || '_ud'
+const _site = variables.site || '_us'
 
 const allblocks = import.meta.glob('/cms2/blocks/**/*.md')
 const allposts = import.meta.glob('/cms2/pages/**/*.md')
@@ -38,39 +38,43 @@ for (const p in allconfs) {
 //console.log(allconfs,theconf)
 
 export async function _getConf(lang = 'en') {
-  let config = {}
+  let config = {}, conf = {}
   /*const langs = await theconf['langs']().then(({metadata}) => metadata)
   //for (c in langs.langs)
-  config.langs = _.chain(c)
+  config[langs] = _.chain(c)
     .filter(lang => console.log('lang',lang))//.active)
     .value()
-  console.log(config.langs)*/
+  console.log(config[langs])*/
 
+  //console.log({theconf})
   for (const b in theconf) {
     const c = await theconf[b]().then(({metadata}) => metadata)
-    config[Object.keys(c)[0]] = c[Object.keys(c)[0]]
+    conf[Object.keys(c)[0]] = c[Object.keys(c)[0]]
   }
 
-  //const langs = `langs`
-  //const top = `top`
-  //const footer = `footer`
+  const langs = 'langs'//`langs${_site}`
+  const topnav = 'top'//`top${_site}`
+  const footnav = 'footer'//`footer${_site}`
 
-  _.remove(config.langs, (n) => { return !n.active })
+  //console.log(`langs${_site}`, conf[langs])
 
-  config.thislang = null
-  for (const l of config.langs) {
-    if (l.id == lang) config.thislang = l
+  _.remove(conf[langs], (n) => { return !n.active })
+  config.langs = conf[langs] || []
+
+  //console.log(langs,config[langs])
+
+  config.thislang = 'en'
+  for (const l of conf.langs) {
+    if (l?.id == lang) config.thislang = l
   }
-
-  //console.log(langs,config.thislang)
-
-  config.topnav = await Promise.all(config.top?.map(async (subs) => _subnav(subs)))
-  config.footnav = await Promise.all(config.footer?.map(async (subs) => _subnav(subs)))
-  //console.log('UTILS',config)
+  config.topnav = await Promise.all(conf[topnav]?.map(async (subs) => _subnav(subs)))
+  config.footnav = await Promise.all(conf[footnav]?.map(async (subs) => _subnav(subs)))
+  console.log({config})
   
   return config
 
   async function _subnav(obj) {
+    //console.log({obj})
     let p
     //console.log('obj.link',obj.link)
     delete obj.title
@@ -97,7 +101,9 @@ export async function _getConf(lang = 'en') {
       //console.log('obj.modal',await obj.modal)
     }*/
     //obj.modal = null
-    if (!!obj.link && obj.link.startsWith('#')) obj.modal = await _findBlock('modal/' + obj.link.substring(1), lang)
+
+    //  ??? kelle? hiányzike?
+    //if (!!obj.link && obj.link.startsWith('#')) obj.modal = await _findBlock('modal/' + obj.link.substring(1), lang)
   
     if (obj.subpages) {
       //console.log('obj.subpages',obj.subpages)
@@ -133,13 +139,13 @@ export async function _getConf(lang = 'en') {
 export async function _getPost({path, lang = 'en', sub = null}) {
   const p = await _findPost({path, lang})
   //console.log({lang},{path},{sub}) /// works
-  //console.log(p.blocks)
+  console.log(p.id)
   let post = {...p}
   post.path = path
   //console.log('...p',p)
   if (p.hero) {
-    //console.log('awaithero', lang)
     post.hero = await _getBlock(p.hero, lang)
+    //console.log('THEERO1', post.hero.id)
   }
   if (p.subhero) {
     //console.log('awaithero', lang)
@@ -188,6 +194,7 @@ export async function _getPost({path, lang = 'en', sub = null}) {
 
   //console.log('>new',post.blocks[0])
   //console.log('>>>new',post.blocks[0].components)
+  //console.log('THEERO2', post.hero.id)
   return await post
 }
 
@@ -223,8 +230,8 @@ export async function _findPost({path, lang}) {
 
 
 export async function _getBlock(id = path, l) {
+  //console.log('_getBlock->find', id, l)
   let block = await _findBlock(id, l)
-  //console.log('_get', id, l)
   if (block && block.components?.length) {
     for (let c of block.components) {
       c.lang = l
@@ -235,16 +242,17 @@ export async function _getBlock(id = path, l) {
     //console.log('BAD', id,l)
     return {}
   }
+  console.log('_findBlock->_get', block)
   //console.log('.bg', block.id, block.bg)
   return block
 }
 
 async function _findBlock(id, l, all = allblocks) {
-//console.log(id + '.' + l)
+console.log('_findBlock', id, all)
 for (const b in all) {
   if (b.indexOf(id + '.' + l) >= 0) {
     const block = await all[b]().then(({metadata}) => metadata)
-    //console.log('')
+    //console.log('all', id, block.id)
     //console.log(l)
     if (block?.fallback && block.fallback !== l) {
       //console.log('')
@@ -284,7 +292,7 @@ function _getBg(obj = []) {
       bgs.push(`var(--grad-${bg.name})`)
     }
     if (bg.type == 'image') {
-      bgs.push(`url(${encodeURI(bg.src)})`)
+      bgs.push(`url(${bg.src})`)
     }
     pos.push(`${bg.posx || 50}% ${bg.posy || 50}%`)
     siz.push(bg.scale ? `${bg.scale}%` : 'cover')

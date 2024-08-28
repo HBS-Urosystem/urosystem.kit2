@@ -42,6 +42,7 @@ select {
 /* UROSYSTEM globals */
 :root {
   --white: #fff;
+  --black: #000;
 
   --dark-blue: #072c3f;
   --mid-blue: #0b3b54;
@@ -150,6 +151,7 @@ body {
 
 main {
   flex: 1;
+  background-color: var(--white);
 }
 
 header, article, aside, main > div {
@@ -192,7 +194,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {
   margin: 1.5em 0 1em;
   line-height: 1.2;
   letter-spacing: 0;
-  text-shadow: 0 0 0.75em var(--dark-75);
+  /*text-shadow: 0 0 0.75em var(--dark-75);*/
 }
 header h1, header .h1 {
   font-size: 3.2rem;
@@ -364,8 +366,8 @@ button, .btn {
   border-radius: 1.75rem;
   padding: 0 var(--gap2);
   line-height: 2.5rem;
-  margin-bottom: -.5em;
-  margin-top: 2.5rem;
+  /*margin-bottom: -.5em;
+  margin-top: 2.5rem;*/
   margin-inline: 1rem;
   background-color: var(--pale-blue);
   color: black;
@@ -415,7 +417,7 @@ article p, article ul, article ol, article dl, article table, footer + aside p {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   /*letter-spacing: .04em;*/
   -webkit-hyphens:auto;-ms-hyphens:auto;hyphens: auto;
-  text-shadow: 0 0 0.25em var(--dark-75);
+  /*text-shadow: 0 0 0.25em var(--dark-75);*/
 }
 article h4, article h5, article h6 {
   -webkit-hyphens:auto;-ms-hyphens:auto;hyphens: auto;
@@ -435,11 +437,15 @@ article > h1:last-child, article > .h1:last-child, article > h2:last-child, arti
   padding-bottom: 1em;
   margin-bottom: 0;
 }
-article p, article ul, article ol, article dl, article table, aside p, aside ul, aside ol, aside dl, aside table {
+article p, article h1, article h2, article h3, article h4, article h5, article ul, article ol, article dl, article table, aside p, aside ul, aside ol, aside dl, aside table {
   margin: 1em 0;
   vertical-align: baseline;
-  color: var(--pale-blue);
+  color: var(--black);
 }
+article p a, article p a:visited, article li > a, article li > a:visited {
+  word-break: break-word;
+}
+
 /*article :not(figcaption, ol, ul) p:first-child, */article ul:first-child, article ol:first-child, article dl:first-child, article table:first-child, main aside p:first-child, main aside ul:first-child, main aside ol:first-child, main aside dl:first-child, aside table:first-child, main > div > :not(article):not(aside):first-child {
   margin-top: 2em;
 }
@@ -460,11 +466,6 @@ aside p + p {
 
 aside div > p > img {
   border-radius: min(calc(4 * var(--sides)), 3.5rem) min(calc(4 * var(--sides)), 3.5rem) 0 0;
-}
-
-article p a, article p a:visited, article li > a, article li > a:visited {
-  word-break: break-word;
-  color: var(--white);
 }
 
 hr {

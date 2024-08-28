@@ -7,11 +7,9 @@
   import { cubicIn, cubicOut } from 'svelte/easing'
   import { createEventDispatcher } from "svelte";
   import validate from "./_validation";
-
   const _site = variables.site
   const sitelogo = `sitelogo${_site}.svg`
   const logoclass = `sitelogo${_site}`
-
 </script>
 
 <script>
@@ -99,13 +97,8 @@
       <div></div>
     {/if}
     <ul>
-      <li><a href="https://www.facebook.com/UroDapter-101721465255769" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-facebook.svg" alt="facebook"/></a></li>
-      <li><a href="https://www.instagram.com/urodapter/" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-instagram.svg" alt="instagram"/></a></li>
       <li><a href="https://www.youtube.com/channel/UCuS_Y21yqaUrj5u8h8NYiZg" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-youtube.svg" alt="youtube"/></a></li>
       <li><a href="https://www.linkedin.com/company/urosystem-inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-linkedin.svg" alt="linkedin"/></a></li>
-      <!--<li><a href="https://twitter.com/UroSystem_Inc" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-twitter.svg" alt="twitter"/></a></li>
-      <li><a href="https://vk.com/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-vk.svg" alt="vk"></a></li>
-      <li><a href="https://ok.ru/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/bxl-ok-ru.svg" alt="ok"></a></li>-->
       <li><a href="https://linktr.ee/urodapter" rel="noopener noreferrer" target="_blank"><img src="/uploads/linktree.svg" alt="linktree"></a></li>
     </ul>
   </div>
@@ -303,7 +296,7 @@
     flex-shrink: 0;
   }
   nav > ul > li:not(:first-of-type):has(img) {
-    padding-inline-end: 2.5rem;/*1.25+1.25rem;*/
+    padding-inline-end: 2.5rem;
   }
   nav > ul > li:not(:first-of-type) {
     min-height: 1.25rem;

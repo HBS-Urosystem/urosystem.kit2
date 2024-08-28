@@ -1117,39 +1117,39 @@ collections:
                         name: text
                         widget: markdown
                         required: false
-                  - label: Product link
-                    name: product
-                    summary: "Product: {{title}}"
-                    fields:
-                      - label: Product name
-                        name: title
-                        widget: string
-                        required: false
-                      - label: Text
-                        name: text
-                        widget: markdown
-                        required: false
-                      - label: Image
-                        name: src
-                        widget: image
-                        required: false
-                      - label: SEO (alt)
-                        name: alt
-                        widget: string
-                        required: true
-                        default: Illustration
-                      - widget: relation
-                        options_length: 999
-                        name: link
-                        value_field: "{{folder}}/{{id}}"
-                        search_fields:
-                          - id
-                          - title
-                        label: Link to
-                        display_fields:
-                          - "{{folder}}/{{id}}"
-                        collection: pages
-                        required: false
+                  #- label: Product link
+                  #  name: product
+                  #  summary: "Product: {{title}}"
+                  #  fields:
+                  #    - label: Product name
+                  #      name: title
+                  #      widget: string
+                  #      required: false
+                  #    - label: Text
+                  #      name: text
+                  #      widget: markdown
+                  #      required: false
+                  #    - label: Image
+                  #      name: src
+                  #      widget: image
+                  #      required: false
+                  #    - label: SEO (alt)
+                  #      name: alt
+                  #      widget: string
+                  #      required: true
+                  #      default: Illustration
+                  #    - widget: relation
+                  #      options_length: 999
+                  #      name: link
+                  #      value_field: "{{folder}}/{{id}}"
+                  #      search_fields:
+                  #        - id
+                  #        - title
+                  #      label: Link to
+                  #      display_fields:
+                  #        - "{{folder}}/{{id}}"
+                  #      collection: pages
+                  #      required: false
                   - label: Video
                     name: video
                     summary: "Video: {{title}}"

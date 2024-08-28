@@ -2,8 +2,10 @@
 top:
   - link: /
     titles:
-      - title: Home
-        lang: en
+      - lang: en
+        title: Introduction
       - lang: hu
-        title: Home
+        title: Bemutatás
+    subpages:
+      - link: index/desc
 ---

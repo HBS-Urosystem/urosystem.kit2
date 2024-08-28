@@ -1,6 +1,7 @@
 ---
-id: index_ud
+id: index
 slug: hu
+folder: _ud
 fallback: en
 published: true
 title: UroDapter® – Fájdalommentes húgyhólyagkezelés
