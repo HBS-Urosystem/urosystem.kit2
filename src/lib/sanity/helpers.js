@@ -1,5 +1,5 @@
 import { parseISO, format } from "date-fns";
-import { client } from './client.js';
+import { client } from './client.ts';
 import imageUrlBuilder from '@sanity/image-url';
 
 const builder = imageUrlBuilder(client);

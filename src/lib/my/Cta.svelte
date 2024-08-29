@@ -24,7 +24,7 @@
       }
       link = '/' + $sitelang + comp.link //+ (scrollto || '')
     }
-    //console.log('2',/*scrollto,*/ link) 
+    console.log('CTA',comp) 
   }
 </script>
 

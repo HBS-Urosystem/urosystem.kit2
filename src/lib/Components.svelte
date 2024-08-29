@@ -23,6 +23,7 @@
 		images: Images,
 		grid: Grid,
 		cta: Cta,
+		ctas: Grid,
 		//modal: Modal,
 		buy: BuyButton,
 		video: Video,
@@ -40,6 +41,7 @@
 	//import { stores } from '@sapper/app';
   //let { /*preloading, */page/*, session */} = stores();
   export let comp//, lang
+  //console.log({comp})
   $: comp.text = comp.text?.replaceAll('https://www.urosystem.com', _siteurl) || null
   $: comp.link = comp.link || false
   //$: comp.lang = comp.lang == 'undefined' || !comp.lang ? '' : comp.lang
@@ -55,7 +57,7 @@
   //let lang
 </script>
 
-<svelte:component this={options[comp.type]} {comp}/>
+<svelte:component this={options[comp._type]} {comp}/>
 
 {#key comp.link}
 {#if comp.link}

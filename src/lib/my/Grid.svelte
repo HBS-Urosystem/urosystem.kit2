@@ -19,11 +19,11 @@
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}" class={comp.framed ? 'framed' : ''}>
   {#if comp.title}<h2 id="{comp.anchor}">{comp.title}</h2>{/if}
-  {#if comp.subhead}<h3 id="{comp.anchor}">{comp.subhead}</h3>{/if}
+  {#if comp.subtitle}<h3 id="{comp.anchor}">{comp.subtitle}</h3>{/if}
   <section class="{comp.slide ? 'slides' : ''}" style="--cols: {comp.components.length};">
-    {#each comp.components || [] as c}
+    {#each comp.components || comp.ctas || [] as c}
     <!--{#if c.lang = comp.lang}-->
-    <svelte:component this={options[c.type]} comp={c}/>
+    <svelte:component this={options[c._type]} comp={c}/>
     <!--{/if}-->
     {/each}
   </section>

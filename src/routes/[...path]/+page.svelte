@@ -2,6 +2,7 @@
   import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
+  import { getSanityImageUrl/*, formatBlogPostDate*/ } from '$lib/sanity/helpers.js'
   //import { onMount } from 'svelte';
   //import * as scroller from "svelte-scrollto"
   //import { amp, browser, dev, prerendering } from '$app/env'
@@ -16,7 +17,7 @@
     //subs = /*$state.post.subpage?.subpages || */$state.post.subpages
     //console.log('ID',$state.post.id,$state.post.subpage?.id)
     //console.log('POST',post.id)
-    //console.log(post.hero)
+    console.log(post)
   }
   //console.log($state.post)
 </script>
@@ -24,12 +25,16 @@
 <main>
   <!--{#if $state && !!$state.id}-->
   {#if !!post.hero}
-    <header id="header" class="full" style="{post.hero.background ? post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
+    <!--<header id="header" class="full" style="{post.hero.background ? post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">-->
+    <header id="header" class="full" style="background-image: url({getSanityImageUrl(post.hero.image).width(720).url()})" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
 
       {#if post.herotitle && post.herotitle != ''}
         <h1>{post.herotitle}</h1>
-      {:else if $state.post.hero.title && $state.post.title != ''}
-        <h1>{$state.post.hero.title}</h1>
+      {:else if post.hero.title}<!-- && $state.post.title != '' -->
+        <h1>{post.hero.title}</h1>
+        {#if post.hero.subtitle}
+          <h2>{post.hero.subtitle}</h2>
+        {/if}
       {/if}
 
       {#each post.hero.components || [] as comp}
@@ -96,8 +101,8 @@
     </nav>
   {/if}
 
-  {#each post.blocks || [] as block}
-    {#if block.published == undefined || (block.published === true || !!$gateway[block.published])}
+  {#each Array.from(post.sections) || [] as block}
+    {#if block.published == undefined || (block.published === true /*|| !!$gateway[block.published]*/)}
       <div style="{block.background}">
         {#each block.components || [] as comp}
           <Components {comp}/>
@@ -144,7 +149,7 @@
   }
   header.full {
     padding-top: 9rem;
-    padding-bottom: 6rem;
+    padding-bottom: 12rem;
     height: auto;
     min-height:100vh;
     display: flex;

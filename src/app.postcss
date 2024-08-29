@@ -151,14 +151,16 @@ body {
 
 main {
   flex: 1;
+}
+main > :not(header) {
   background-color: var(--white);
   color: var(--black)
 }
 
 header, article, aside, main > div {
-  background-size: cover;
+  background-size: contain /*cover*/;
   background-repeat: no-repeat;
-  background-position: 50% 25%;
+  background-position: 50% /*25%*/;
   /*padding-bottom: 1rem;*/
   background-blend-mode: soft-light, screen;
 }
@@ -200,6 +202,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {
 header h1, header .h1 {
   font-size: 3.2rem;
   padding-inline: var(--sides);
+  text-shadow: 0 0 0.75em var(--dark-75);
 }
 header.full h1, header.full .h1, header.full h2, header.full h3 {
   padding: 0!important;
