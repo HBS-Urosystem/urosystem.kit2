@@ -7,20 +7,23 @@ export const heroBlock = defineType({
     defineField({
       type: "string",
       name: "title",
+      title: "Headline",
     }),
     defineField({
       type: "string",
       name: "subtitle",
+      title: "Description",
     }),
     defineField({
       type: "image",
       name: "image",
+      title: "Background",
       options: { hotspot: true },
     }),
     defineField({
       type: "array",
-      name: "cta",
-      title: "Call to actions",
+      name: "ctas",
+      title: "CTAs",
       of: [
         defineArrayMember({
           type: "cta",

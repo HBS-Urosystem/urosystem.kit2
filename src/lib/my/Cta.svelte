@@ -24,21 +24,26 @@
       }
       link = '/' + $sitelang + comp.link //+ (scrollto || '')
     }
-    console.log('CTA',comp) 
+    //console.log('CTA',comp) 
   }
 </script>
 
-<aside id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
-  {#if comp.title}<h2>{comp.title}</h2>{/if}
+<!--<aside id="{comp.anchor}" style="{comp.background ? comp.background : ``}">-->
   <div>
-    {#if comp.text}<div>{@html comp.text}</div>{/if}
-    {#if comp.button}
-      <a on:click|stopPropagation={() => $snapto = `${scrollto}`} on:keypress={() => $snapto = `${scrollto}`} href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>
-      <!--<a on:click|stopPropagation href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>-->
-      {#if comp.below}<p>{comp.below}</p>{/if}
-    {/if}
+  {#if comp.title}<h2>{comp.title}</h2>{/if}
+  {#if comp.subtitle}<h3>{comp.subtitle}</h3>{/if}
+  {#if comp.label}
+    <a on:click|stopPropagation={() => $snapto = `${scrollto}`} on:keypress={() => $snapto = `${scrollto}`} href={link} rel={rel} target={target}>
+      <button tabindex="-1">
+        {#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}
+        {comp.label}
+      </button>
+    </a>
+    <!--<a on:click|stopPropagation href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>-->
+  {/if}
+  {#if comp.below}<p>{comp.below}</p>{/if}
   </div>
-</aside>
+<!--</aside>-->
 
 <style>
   /*button {
@@ -51,13 +56,13 @@
   }
   a {
     text-decoration: none;
-    margin-top: 1.5rem;
-    margin-bottom: 2.5rem;
+    /*margin-top: 1.5rem;*/
+    /*margin-bottom: 2.5rem;*/
     display: block;
   }
   p {
     text-align: center;
-    margin-top: -1.5rem;
+    /*margin-top: -1.5rem;*/
   }
   
 </style>

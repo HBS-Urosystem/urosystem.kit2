@@ -17,19 +17,22 @@
     //subs = /*$state.post.subpage?.subpages || */$state.post.subpages
     //console.log('ID',$state.post.id,$state.post.subpage?.id)
     //console.log('POST',post.id)
-    console.log(post)
+    //console.log(post.sections)
   }
-  //console.log($state.post)
+  $: console.log({post})
 </script>
 
 <main>
   <!--{#if $state && !!$state.id}-->
   {#if !!post.hero}
     <!--<header id="header" class="full" style="{post.hero.background ? post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">-->
-    <header id="header" class="full" style="background-image: url({getSanityImageUrl(post.hero.image).width(720).url()})" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
+    <header id="header" class="full" style="background-image: url({post.hero.image.src})" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
 
       {#if post.herotitle && post.herotitle != ''}
         <h1>{post.herotitle}</h1>
+        {#if post.hero.subtitle}
+          <h2>{post.hero.subtitle}</h2>
+        {/if}
       {:else if post.hero.title}<!-- && $state.post.title != '' -->
         <h1>{post.hero.title}</h1>
         {#if post.hero.subtitle}
@@ -37,9 +40,10 @@
         {/if}
       {/if}
 
-      {#each post.hero.components || [] as comp}
+      {#if post.hero.ctas}
+        {@const comp = {_type: 'ctaBlock', ctas: post.hero.ctas, slide: true}}
         <Components {comp}/>
-      {/each}
+      {/if}
 
       {#if post.subhero}
         {#each post.subhero.components || [] as comp}
@@ -66,13 +70,14 @@
       {#if $state.post.title != ''}
         <h1>{$state.post.title}</h1>
       {/if}
-
+<!--
       {#if post.subhero}
         {#each post.subhero.components || [] as comp}
           <Components {comp}/>
         {/each}
       {/if}
-
+-->
+<!--
       {#if $state.post.subpages && !$state.post.hidesubs}
         <nav>
           <ul>
@@ -82,6 +87,7 @@
           </ul>
         </nav>
       {/if}
+-->
     </header>
   {/if}
 
@@ -101,14 +107,10 @@
     </nav>
   {/if}
 
-  {#each Array.from(post.sections) || [] as block}
-    {#if block.published == undefined || (block.published === true /*|| !!$gateway[block.published]*/)}
-      <div style="{block.background}">
-        {#each block.components || [] as comp}
-          <Components {comp}/>
-        {/each}
-      </div>
-    {/if}
+  {#each post.sections || [] as comp}
+    <!--<div style="{comp.background}">-->
+      <Components {comp}/>
+    <!--</div>-->
   {/each}
 
   <!--{#if $state.post.subpage}
@@ -148,8 +150,7 @@
     padding-bottom: 1rem;
   }
   header.full {
-    padding-top: 9rem;
-    padding-bottom: 12rem;
+    padding-block: 3rem;
     height: auto;
     min-height:100vh;
     display: flex;

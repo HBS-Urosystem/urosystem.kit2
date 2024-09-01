@@ -7,11 +7,32 @@ export const cta = defineType({
   fields: [
     defineField({
       type: "string",
-      name: "label",
+      name: "title",
+      title: "Heading",
+    }),
+    defineField({
+      type: "string",
+      name: "subtitle",
+      title: "Description",
+    }),
+    defineField({
+      type: "url",
+      name: "page",
+      title: "Link to page",
     }),
     defineField({
       type: "url",
       name: "link",
+      title: "External link",
+    }),
+    defineField({
+      type: "string",
+      name: "label",
+      title: "Button label",
+    }),
+    defineField({
+      type: "string",
+      name: "caption",
     }),
   ],
 });

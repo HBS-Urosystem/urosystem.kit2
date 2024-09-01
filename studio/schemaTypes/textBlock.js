@@ -7,6 +7,12 @@ export const textBlock = defineType({
     defineField({
       type: "string",
       name: "title",
+      title: "Headline",
+    }),
+    defineField({
+      type: "string",
+      name: "subtitle",
+      title: "Description",
     }),
     defineField({
       type: "array",

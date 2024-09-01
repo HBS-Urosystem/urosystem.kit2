@@ -17,13 +17,14 @@
 
   const options = {
 		article: Article,
+		textBlock: Article,
 		form: Form,
 		//b2bmail: B2Bmail,
 		acmail: ACmail,
 		images: Images,
 		grid: Grid,
+		ctaBlock: Grid,
 		cta: Cta,
-		ctas: Grid,
 		//modal: Modal,
 		buy: BuyButton,
 		video: Video,
@@ -40,7 +41,8 @@
 <script>
 	//import { stores } from '@sapper/app';
   //let { /*preloading, */page/*, session */} = stores();
-  export let comp//, lang
+  export let comp = {}//, lang
+  
   //console.log({comp})
   $: comp.text = comp.text?.replaceAll('https://www.urosystem.com', _siteurl) || null
   $: comp.link = comp.link || false
@@ -55,19 +57,35 @@
   //console.log($page.params)
   //import { lang } from '$lib/stores'
   //let lang
+  $: console.log({comp})
 </script>
 
-<svelte:component this={options[comp._type]} {comp}/>
+{#if comp._type == 'ctaBlock'}
+  <aside id="{comp.anchor}">
+    <svelte:component this={options[comp._type]} {comp}/>
+  </aside>
+{:else if comp._type == 'textBlock'}
+  <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
+    <svelte:component this={options[comp._type]} {comp}/>
+  </article>
+{:else if comp._type}
+  <section id="{comp.anchor}">
+    <svelte:component this={options[comp._type]} {comp}/>
+  </section>
+{/if}
 
-{#key comp.link}
-{#if comp.link}
-  <style>
-    /*:has(:target) > header {
+<!--{#key comp.link}-->
+<!--{#if comp.link}-->
+  <!--<style>-->
+    <!--/*:has(:target) > header {
       display: none!important;
     }*/
     /*:has(:target) > :target {
       padding-top: var(--gap4)
-    }*/
-  </style>
-{/if}
-{/key}
+    }*/-->
+  <!--</style>-->
+<!--{/if}-->
+<!--{/key}-->
+
+<style>
+</style>

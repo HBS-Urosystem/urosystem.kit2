@@ -15,31 +15,35 @@
 <script>
   export let comp//, lang
   const lang = comp.lang
+/*console.log({comp})*/
 </script>
 
-<article id="{comp.anchor}" style="{comp.background ? comp.background : ``}" class={comp.framed ? 'framed' : ''}>
+<!--<section id="{comp.anchor}" style="{comp.background ? comp.background : ``}">-->
   {#if comp.title}<h2 id="{comp.anchor}">{comp.title}</h2>{/if}
-  {#if comp.subtitle}<h3 id="{comp.anchor}">{comp.subtitle}</h3>{/if}
-  <section class="{comp.slide ? 'slides' : ''}" style="--cols: {comp.components.length};">
-    {#each comp.components || comp.ctas || [] as c}
-    <!--{#if c.lang = comp.lang}-->
-    <svelte:component this={options[c._type]} comp={c}/>
-    <!--{/if}-->
+  
+  {#if comp.subtitle}<h3>{comp.subtitle}</h3>{/if}
+
+  <div class="{comp.slide ? 'slides' : ''}" style="--cols: {comp.sections?.length || comp.ctas?.length};">
+    {#each comp.sections || comp.ctas || [] as c}
+      <svelte:component this={options[c._type]} comp={c}/>
     {/each}
-  </section>
-</article>
+  </div>
+  {#if comp.below}<h3>{comp.below}</h3>{/if}
+<!--</section>-->
 
 <style>
-  section.slides {
+  div.slides {
+    display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    justify-content: space-around;
   }
   h3 {
     text-align: center;
   }
-  .framed {
+  /*.framed {
     border: 2px #fff solid;
     padding: var(--gap);
     margin: var(--gap2);
-  }
+  }*/
 </style>

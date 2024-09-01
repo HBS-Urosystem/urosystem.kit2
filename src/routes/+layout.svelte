@@ -14,7 +14,7 @@
 
 <script>
   export let data
-  console.log(data)
+  //console.log(data)
   $: $state = data
   $: $sitelang = data.thislang.id
 	onMount(() => {
@@ -143,7 +143,7 @@
         --grad-dark-75: var(--grad-dark-green-75);
       }
       main {
-        background-color: var(--mid);
+        /*background-color: var(--mid);*/
         background-position: 50% 50%;
         background-size: cover;
       }
@@ -152,7 +152,9 @@
 </svelte:head>
 
 <!--<Nav/>-->
+{#if data.post.id}
 <slot/>
+{/if}
 <!--<Footer/>-->
 <!--<Cookies/>-->
 

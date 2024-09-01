@@ -9,6 +9,11 @@ export const page = defineType({
       name: "title",
     }),
     defineField({
+      type: "string",
+      name: "subtitle",
+      title: "Description",
+    }),
+    defineField({
       type: "slug",
       name: "slug",
       options: {
@@ -19,19 +24,22 @@ export const page = defineType({
     defineField({
       type: "array",
       name: "sections",
-      title: "Page sections",
+      title: "Page blocks",
       of: [
         defineArrayMember({
           type: "heroBlock",
         }),
         defineArrayMember({
           type: "textBlock",
+          title: "Text content"
         }),
         defineArrayMember({
           type: "ctaBlock",
+          title: "CTAs"
         }),
         defineArrayMember({
           type: "imageCarousel",
+          title: "Images",
         }),
       ],
     }),

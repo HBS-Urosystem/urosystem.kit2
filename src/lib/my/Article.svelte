@@ -1,6 +1,6 @@
 <script context="module">
   //import Article from '$lib/my/Article.svelte'
-  import Images from '$lib/my/Images.svelte'
+/*  import Images from '$lib/my/Images.svelte'
   import Cta from '$lib/my/Cta.svelte'
   import Video from '$lib/my/Video.svelte'
   const options = {
@@ -8,35 +8,35 @@
 		images: Images,
 		cta: Cta,
 		video: Video,
-	};
+	};*/
 </script>
 <script>
   export let comp
+  //console.log(comp)
 </script>
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
-  {#if comp.title}<h2>{comp.title}</h2>{/if}
-  {#if comp.subhead}<div><h3>{comp.subhead}</h3></div>{/if}
-  {#if comp.text}<div>{@html comp.text}</div>{/if}
-  {#if comp.components?.length}
+    {#if comp.title}<h2>{comp.title}</h2>{/if}
+    <div>
+      {#if comp.subtitle}<h3>{comp.subtitle}</h3>{/if}
+    {#if comp.text}{@html comp.text}{/if}
+  </div>
+  <!--{#if comp.sections?.length}
     <section class={comp.framed ? 'framed' : ''}>
-      {#each comp.components as c}
-      <!--c.lang = comp.lang-->
+      {#each comp.sections as c}
       <svelte:component this={options[c.type]} comp={c}/>
       {/each}
     </section>
-  {/if}
+  {/if}-->
 </article>
 
 <style>
   h3 {
     text-align: center;
   }
-  .framed {
+  /*.framed {
     background: white;
     padding: var(--halfgap);
-    /*border: 2px #fff solid;*/
-    /*padding: var(--gap);*/
     
     max-width: 56ch;
     margin-inline: auto;
@@ -51,5 +51,5 @@
   }
   .framed :global(figcaption p) {
     hyphens: none;
-  }
+  }*/
 </style>

@@ -125,6 +125,10 @@ select {
 *:focus:not(:focus-visible){outline:none;}
 .no-outline *:focus{outline:none;}
 
+:root {
+  color: var(--white);
+  background-color: var(--mid-green);
+}
 html {
   height: 100%;
 }
@@ -132,10 +136,10 @@ body {
   margin: 0;
   /*letter-spacing: .03em;*/
   letter-spacing: .04em;
-  color: var(--white);
-  background-color: var(--dark);
+  /*color: var(--white);*/
+  /*background-color: var(--dark);*/
 
-  scrollbar-color: rebeccapurple green;
+  /*scrollbar-color: rebeccapurple green;*/
   scrollbar-width: thin;
   min-height: 100%;
 }
@@ -152,37 +156,50 @@ body {
 main {
   flex: 1;
 }
-main > :not(header) {
+main > aside {
   background-color: var(--white);
-  color: var(--black)
+  color: var(--black);
+  border-end-start-radius: 7rem;
+  border-start-end-radius: 7rem;
+  max-width: 56ch;
+  margin-inline: auto;
+}
+
+nav, header, footer{
+  background-color: var(--mid-blue);
+  color: var(--white);
 }
 
 header, article, aside, main > div {
-  background-size: contain /*cover*/;
+  background-size: 50%;
   background-repeat: no-repeat;
   background-position: 50% /*25%*/;
-  /*padding-bottom: 1rem;*/
   background-blend-mode: soft-light, screen;
+  padding: 2rem;
 }
 /*article > div:last-child {
   margin-bottom: var(--gap);
 }*/
-header + div > article:first-child {
+/*header + div > article:first-child {
   padding-top: 2rem;
-}
+}*/
 
-.h1, .h2, .h3 {
+/*header ~ div {
+  padding: var(--rem) var(--sides);
+}*/
+
+/*.h1, .h2, .h3 {
   color: var(--white);
-}
-h1, .h1, h2, .h2 {
+}*/
+h1, .h1, h2, .h2, h3, .h3 {
   text-align: center;
 }
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 5rem;
   hyphens: auto;
 }
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 h3, .h3 {
   font-size: 1.5rem;
@@ -194,30 +211,27 @@ h5 {
   font-size: 1.2rem;
 }
 h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {
-  margin: 1.5em 0 1em;
+  margin: 1em 0;
   line-height: 1.2;
   letter-spacing: 0;
   /*text-shadow: 0 0 0.75em var(--dark-75);*/
 }
-header h1, header .h1 {
-  font-size: 3.2rem;
+/*header h1, header .h1, header h2, header .h2 {
   padding-inline: var(--sides);
-  text-shadow: 0 0 0.75em var(--dark-75);
-}
-header.full h1, header.full .h1, header.full h2, header.full h3 {
+}*/
+/*header.full h1, header.full .h1, header.full h2, header.full h3 {
   padding: 0!important;
-}
-header.full h3 {
-  margin-top: 0;/* 0 1em*/
-}
+}*/
+/*header.full h3 {
+  margin-top: 0;
+}*/
 
 header figure {
   margin: 1em!important;
 }
-article > p:first-child {
-  padding-top: 1em;
-  margin-top: 0;
-}
+/*article > p:first-child {
+  padding-top: 1.5rem;
+}*/
 
 main a:not(:has(> button, > img)) {
   overflow-x:auto;
@@ -238,22 +252,17 @@ h1 a, .h1 a {
   padding: var(--gap4) var(--sides);
 }*/
 aside {
-  padding: 0 var(--sides) 1rem;
+  padding: 3rem var(--sides);
+  text-align: center;
 }
 
 /*main > div:not(:has(li)) {*/
 main > div {
   margin-inline: auto;
 }
-main > div > aside {
-  text-align: center;
-  /*padding: var(--gap) var(--sides);*/
-}
-main > div > *:not(aside)/*article */{
-  /*text-align: initial;*/
-  /*padding: var(--gap) var(--sides) 0;*/
+/*main > div > *:not(aside){
   padding: 0 var(--sides) var(--gap);
-}
+}*/
 
 a.block, span.block, 
 [data-mobile='false'] a, [data-mobile='false'] span {
@@ -273,9 +282,9 @@ article > div, article > details, aside > div, figcaption {
   margin: 0 auto;
   padding: 0;
 }
-div > figure {
+/*div > figure {
   margin-bottom: 2rem;
-}
+}*/
 
 header ~ nav, main > header {
   padding: var(--rem) var(--sides);
@@ -358,21 +367,14 @@ textarea {
   font-size: inherit;
 }
 button, .btn {
-  /*color: black!important;*/
   cursor: pointer;
   vertical-align: baseline;
   font-family: inherit;
   font-size: inherit;
   border: none;
-  /*display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;*/
   border-radius: 1.75rem;
   padding: 0 var(--gap2);
   line-height: 2.5rem;
-  /*margin-bottom: -.5em;
-  margin-top: 2.5rem;*/
-  margin-inline: 1rem;
   background-color: var(--pale-blue);
   color: black;
   white-space: nowrap;
@@ -417,22 +419,32 @@ button img, .btn img {
   }
 }
 
-article p, article ul, article ol, article dl, article table, footer + aside p {
+main p, main ul, main ol, main dl, main table, footer + aside p {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   /*letter-spacing: .04em;*/
   -webkit-hyphens:auto;-ms-hyphens:auto;hyphens: auto;
   /*text-shadow: 0 0 0.25em var(--dark-75);*/
+  margin: 1em 0;
 }
-article h4, article h5, article h6 {
+main *:first-child, footer + aside > :first-child {
+  margin-top: 0;
+}
+main *:last-child, footer + aside > :last-child {
+  margin-bottom: 0;
+}
+main h4, main h5, main h6 {
   -webkit-hyphens:auto;-ms-hyphens:auto;hyphens: auto;
 }
 @supports ((-webkit-hyphens: auto) or (-ms-hyphens: auto) or (hyphens: auto)) {
-  article p:not(figcaption *):not(table *):not(li *):not(aside *), article ol:not(li *):not(aside *), a≈rticle ul:not(li *):not(aside *)/*, article h4, article h5, article h6*/ {
+  main p:not(figcaption *):not(table *):not(li *):not(aside *), main ol:not(li *):not(aside *), a≈rticle ul:not(li *):not(aside *)/*, main h4, main h5, main h6*/ {
     text-align: justify;
   }
 }
+main p a, main p a:visited, main li > a, main li > a:visited {
+  word-break: break-word;
+}
 
-article > h1:first-child, article > .h1:first-child, article > h2:first-child, article > h3:first-child, article > h4:first-child, article > h5:first-child, article > h6:first-child, aside > h1:first-child, aside > .h1:first-child, aside > h2:first-child, aside > h3:first-child, aside > h4:first-child, aside > h5:first-child, aside > h6:first-child {
+/*article > h1:first-child, article > .h1:first-child, article > h2:first-child, article > h3:first-child, article > h4:first-child, article > h5:first-child, article > h6:first-child, aside > h1:first-child, aside > .h1:first-child, aside > h2:first-child, aside > h3:first-child, aside > h4:first-child, aside > h5:first-child, aside > h6:first-child {
   padding-top: 1.5em;
   margin-top: 0;
 }
@@ -446,14 +458,10 @@ article p, article h1, article h2, article h3, article h4, article h5, article u
   vertical-align: baseline;
   color: var(--black);
 }
-article p a, article p a:visited, article li > a, article li > a:visited {
-  word-break: break-word;
-}
-
-/*article :not(figcaption, ol, ul) p:first-child, */article ul:first-child, article ol:first-child, article dl:first-child, article table:first-child, main aside p:first-child, main aside ul:first-child, main aside ol:first-child, main aside dl:first-child, aside table:first-child, main > div > :not(article):not(aside):first-child {
+article ul:first-child, article ol:first-child, article dl:first-child, article table:first-child, main aside p:first-child, main aside ul:first-child, main aside ol:first-child, main aside dl:first-child, aside table:first-child, main > div > :not(article):not(aside):first-child {
   margin-top: 2em;
 }
-/*article p:last-child, article ul:last-child, article ol:last-child, article dl:last-child, article table:last-child, aside p:last-child, aside ul:last-child, aside ol:last-child, aside dl:last-child, aside table:last-child {
+article p:last-child, article ul:last-child, article ol:last-child, article dl:last-child, article table:last-child, aside p:last-child, aside ul:last-child, aside ol:last-child, aside dl:last-child, aside table:last-child {
   padding-bottom: 1em;
   margin-bottom: 0;
 }*/
@@ -464,9 +472,9 @@ article p a, article p a:visited, article li > a, article li > a:visited {
 /*aside p {
   margin-top: 0;
 }*/
-aside p + p {
+/*aside p + p {
   margin-top: 1em;
-}
+}*/
 
 aside div > p > img {
   border-radius: min(calc(4 * var(--sides)), 3.5rem) min(calc(4 * var(--sides)), 3.5rem) 0 0;
@@ -566,7 +574,7 @@ details[open] > summary::after {
 
 dt {
   font-weight: bold;
-  margin-block-start: 1rem;
+  /*margin-block-start: 1rem;*/
 }
 :not(center) > dl dd {
   margin-inline-start: 1rem;

@@ -8,10 +8,12 @@ export const ctaBlock = defineType({
     defineField({
       type: "string",
       name: "title",
+      title: "Headline"
     }),
     defineField({
       type: "string",
       name: "subtitle",
+      title: "Description"
     }),
     defineField({
       type: "array",
@@ -22,6 +24,10 @@ export const ctaBlock = defineType({
           type: "cta",
         }),
       ],
+    }),
+    defineField({
+      type: "string",
+      name: "below",
     }),
   ],
 });
