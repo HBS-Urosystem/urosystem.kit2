@@ -105,6 +105,8 @@ select {
 
   --sides: max(12.5vw - 5rem, .5rem);
   --sides2: calc(var(--sides) * 2);
+  --sides-2: calc(var(--sides) / 2);
+  --radius: max(10vw, 7rem);
 
   --marker: url(/uploads/open-right.svg);
   --marker-down: url(/uploads/open-down.svg);
@@ -164,9 +166,9 @@ main {
 main > header, main > aside {
   background-color: var(--mid-green);
   color: var(--white);
-  border-end-start-radius: 7rem;
-  border-start-end-radius: 7rem;
-  margin-bottom: var(--sides2);
+  border-end-start-radius: var(--radius);
+  border-start-end-radius: var(--radius);
+  margin-bottom: var(--sides-2);
   margin-inline: var(--sides);
 }
 main > aside {
@@ -179,9 +181,9 @@ nav, footer{
   color: var(--white);
 }
 
-header {
+/*header {
   border-top: var(--sides) var(--white) solid;
-}
+}*/
 
 header, article {
   background-size: 50%;
@@ -191,7 +193,7 @@ header, article {
 }
 
 article {
-  margin-bottom: var(--sides2);
+  margin-bottom: var(--sides);
 }
 article:not(:has(> section), > div) {
   display: inline-flex;

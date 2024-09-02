@@ -30,8 +30,8 @@
 
 <!--<aside id="{comp.anchor}" style="{comp.background ? comp.background : ``}">-->
   <div class="p-8">
-  {#if comp.title}<h3>{comp.title}</h3>{/if}
-  {#if comp.subtitle}<h4>{comp.subtitle}</h4>{/if}
+  {#if comp.title}<h4>{comp.title}</h4>{/if}
+  {#if comp.subtitle}<h5>{comp.subtitle}</h5>{/if}
   {#if comp.label}
     <a on:click|stopPropagation={() => $snapto = `${scrollto}`} on:keypress={() => $snapto = `${scrollto}`} href={link} rel={rel} target={target}>
       <button tabindex="-1">
