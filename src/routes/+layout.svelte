@@ -155,7 +155,7 @@
 {#if data.post.id}
 <slot/>
 {/if}
-<!--<Footer/>-->
+<Footer/>
 <!--<Cookies/>-->
 
 {#each $state.langs || [] as lang}

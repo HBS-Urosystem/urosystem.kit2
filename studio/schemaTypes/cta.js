@@ -19,6 +19,8 @@ export const cta = defineType({
       type: "url",
       name: "page",
       title: "Link to page",
+      type: 'reference',
+      to: [{type: 'page'}],
     }),
     defineField({
       type: "url",
