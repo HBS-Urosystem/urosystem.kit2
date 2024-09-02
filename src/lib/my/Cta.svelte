@@ -29,9 +29,9 @@
 </script>
 
 <!--<aside id="{comp.anchor}" style="{comp.background ? comp.background : ``}">-->
-  <div>
-  {#if comp.title}<h2>{comp.title}</h2>{/if}
-  {#if comp.subtitle}<h3>{comp.subtitle}</h3>{/if}
+  <div class="p-8">
+  {#if comp.title}<h3>{comp.title}</h3>{/if}
+  {#if comp.subtitle}<h4>{comp.subtitle}</h4>{/if}
   {#if comp.label}
     <a on:click|stopPropagation={() => $snapto = `${scrollto}`} on:keypress={() => $snapto = `${scrollto}`} href={link} rel={rel} target={target}>
       <button tabindex="-1">
@@ -41,7 +41,7 @@
     </a>
     <!--<a on:click|stopPropagation href={link} rel={rel} target={target}><button tabindex="-1">{#if comp.icon}<img src="{comp.icon}" aria-hidden="true" alt=""/>{/if}{comp.button}</button></a>-->
   {/if}
-  {#if comp.below}<p>{comp.below}</p>{/if}
+  {#if comp.caption}<p>{comp.caption}</p>{/if}
   </div>
 <!--</aside>-->
 

@@ -27,7 +27,7 @@ export const ctaBlock = defineType({
     }),
     defineField({
       type: "string",
-      name: "below",
+      name: "caption",
     }),
   ],
 });

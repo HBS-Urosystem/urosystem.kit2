@@ -28,7 +28,7 @@
       <svelte:component this={options[c._type]} comp={c}/>
     {/each}
   </div>
-  {#if comp.below}<h3>{comp.below}</h3>{/if}
+  {#if comp.caption}<h3>{comp.caption}</h3>{/if}
 <!--</section>-->
 
 <style>

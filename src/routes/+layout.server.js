@@ -62,7 +62,7 @@ export const load = async ({ params, url, route, page/*, fetch*/ }) => {
   const pages = await client.fetch(CONTENT_QUERY)
 
   for (const p of pages) {
-    for (const s of p.sections) {
+    for (const s of p.sections || []) {
       if (s.image) {
         s.image.src = getSanityImageUrl(s.image).width(720).url()
         //console.log(s.image)
@@ -98,9 +98,10 @@ export const load = async ({ params, url, route, page/*, fetch*/ }) => {
     description: 'The UroDapter® urological adapter replaces catheter. It enables painless and complication-free bladder treatment for several lower urinary tract diseases.',
     menutitle: 'UroDapter®',
     subpage: subpage,
+    sections: [],
     ...pages[0] 
   }
-  if (post.sections[0]._type == 'heroBlock') {
+  if (post.sections[0]?._type == 'heroBlock') {
     post.hero = post.sections.shift()
     
   }
