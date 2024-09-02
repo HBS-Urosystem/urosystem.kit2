@@ -16,10 +16,10 @@
         "npm:@portabletext/to-html@^2.0.0",
         "npm:@sanity/client@^3.3.6",
         "npm:@sanity/image-url@^1.0.1",
-        "npm:@sveltejs/adapter-auto@^2.0.0",
-        "npm:@sveltejs/adapter-netlify@^2.0.6",
-        "npm:@sveltejs/adapter-static@^2.0.1",
-        "npm:@sveltejs/kit@^1.20.4",
+        "npm:@sveltejs/adapter-netlify@^4.3.0",
+        "npm:@sveltejs/adapter-static@^3.0.0",
+        "npm:@sveltejs/kit@^2.4.0",
+        "npm:@sveltejs/vite-plugin-svelte@^3.0.0",
         "npm:@tailwindcss/forms@^0.5.2",
         "npm:@tailwindcss/typography@^0.5.3",
         "npm:autoprefixer@^10.4.7",
@@ -41,7 +41,7 @@
         "npm:svelte@^4.0.0",
         "npm:sveltekit-html-minifier@^1.0.2",
         "npm:tailwindcss@^3.1.5",
-        "npm:vite@^4.2.1"
+        "npm:vite@^5.0.0"
       ]
     }
   }

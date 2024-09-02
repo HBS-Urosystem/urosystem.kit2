@@ -60,8 +60,8 @@ export const load = async ({ params, url, route, page/*, fetch*/ }) => {
   }
   `
   const pages = await client.fetch(CONTENT_QUERY)
-  console.log({pages})
-  
+  //console.log({pages})
+
   for (const p of pages) {
     for (const s of p.sections || []) {
       if (s.image) {
