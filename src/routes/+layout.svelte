@@ -152,7 +152,7 @@
 </svelte:head>
 
 <!--<Nav/>-->
-<nav style="height: var(--sides-2);background:white"></nav>
+<!--<nav style="height: var(--sides-2);background:white"></nav>-->
 {#if data.post.id}
 <slot/>
 {/if}

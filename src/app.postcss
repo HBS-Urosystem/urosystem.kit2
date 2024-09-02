@@ -162,15 +162,32 @@ main {
   flex: 1;
   background-color: var(--white);
   color: var(--black);
+  border-bottom: var(--sides2) var(--white) solid;
 }
-main > header, main > aside {
+
+main > header, main > aside, footer {
   background-color: var(--mid-green);
   color: var(--white);
+}
+main > header, main > aside/*, footer*/ {
+  margin-bottom: var(--rem);
+}
+main > header, footer {
+}
+main > header {
+  margin-inline: 0 var(--sides);
+  border-end-end-radius: var(--radius);
+}
+/*footer {
+  border-start-start-radius: var(--radius);
+  border-left: var(--sides) white solid;
+}*/
+main > aside {
   border-end-start-radius: var(--radius);
   border-start-end-radius: var(--radius);
-  margin-bottom: var(--sides-2);
   margin-inline: var(--sides);
 }
+
 main > aside {
   padding-block: var(--sides);
   text-align: center;
@@ -192,9 +209,9 @@ header, article {
   /*background-blend-mode: soft-light, screen;*/
 }
 
-article {
+/*article {
   margin-bottom: var(--sides);
-}
+}*/
 article:not(:has(> section), > div) {
   display: inline-flex;
   flex-direction: column;
@@ -211,8 +228,11 @@ article > div, article > details, figcaption {
   margin-bottom: 2rem;
 }*/
 
-header ~ nav, main > header {
+header ~ nav, main > header, main > article {
   padding: var(--rem) var(--sides);
+}
+main > article {
+  padding: var(--sides2);
 }
 /*header ~ nav {
   background-image: var(--grad-dark-blue);
