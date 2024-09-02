@@ -19,7 +19,7 @@
     //console.log('POST',post.id)
     //console.log(post.sections)
   }
-  $: console.log({post})
+  //$: console.log({post})
 </script>
 
 <main>

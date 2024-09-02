@@ -57,7 +57,7 @@
   //console.log($page.params)
   //import { lang } from '$lib/stores'
   //let lang
-  $: console.log({comp})
+  //$: console.log({comp})
 </script>
 
 {#if comp._type == 'ctaBlock'}
