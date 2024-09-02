@@ -65,9 +65,9 @@
     <svelte:component this={options[comp._type]} {comp}/>
   </aside>
 {:else if comp._type == 'textBlock'}
-  <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
+  <!--<article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">-->
     <svelte:component this={options[comp._type]} {comp}/>
-  </article>
+  <!--</article>-->
 {:else if comp._type}
   <section id="{comp.anchor}">
     <svelte:component this={options[comp._type]} {comp}/>

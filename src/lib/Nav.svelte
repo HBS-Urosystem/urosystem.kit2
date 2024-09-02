@@ -171,7 +171,7 @@
     overflow-x: auto;
   }
   nav.moved.full {
-    border-bottom: 2px var(--light-75) solid;
+    border-bottom: 2px var(--mid-green-75) solid;
   }
   nav.moved {
     top: -4rem;

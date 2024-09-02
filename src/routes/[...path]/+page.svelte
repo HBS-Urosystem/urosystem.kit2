@@ -152,7 +152,7 @@
   header.full {
     padding-block: 3rem;
     height: auto;
-    min-height:100vh;
+    min-height: calc(100vh - var(--sides));
     display: flex;
     flex-direction: column;
     justify-content: center;

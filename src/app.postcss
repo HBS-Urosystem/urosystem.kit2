@@ -104,6 +104,7 @@ select {
   --gap4: calc(8 * var(--rem));
 
   --sides: max(12.5vw - 5rem, .5rem);
+  --sides2: calc(var(--sides) * 2);
 
   --marker: url(/uploads/open-right.svg);
   --marker-down: url(/uploads/open-down.svg);
@@ -157,29 +158,94 @@ body {
 
 main {
   flex: 1;
-}
-main > aside {
   background-color: var(--white);
   color: var(--black);
+}
+main > header, main > aside {
+  background-color: var(--mid-green);
+  color: var(--white);
   border-end-start-radius: 7rem;
   border-start-end-radius: 7rem;
-  max-width: 56ch;
-  margin-inline: auto;
+  margin-bottom: var(--sides2);
+  margin-inline: var(--sides);
+}
+main > aside {
+  padding-block: var(--sides);
+  text-align: center;
 }
 
-nav, header, footer{
-  background-color: var(--mid-blue);
+nav, footer{
+  background-color: var(--mid-green);
   color: var(--white);
-  margin-block: 3rem;
 }
 
-header, article, aside, main > div {
+header {
+  border-top: var(--sides) var(--white) solid;
+}
+
+header, article {
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: 50% /*25%*/;
-  background-blend-mode: soft-light, screen;
-  padding: 2rem var(--sides);
+  /*background-blend-mode: soft-light, screen;*/
 }
+
+article {
+  margin-bottom: var(--sides2);
+}
+article:not(:has(> section), > div) {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: var(--gap);
+}
+
+article > div, article > details, figcaption {
+  max-width: 56ch;
+  margin: 0 auto;
+  padding: 0;
+}
+/*div > figure {
+  margin-bottom: 2rem;
+}*/
+
+header ~ nav, main > header {
+  padding: var(--rem) var(--sides);
+}
+/*header ~ nav {
+  background-image: var(--grad-dark-blue);
+}*/
+header ~ nav ul, header > nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header ~ nav li, header > nav li {
+  width: max-content;
+  margin: .5rem 0;
+}
+
+section {
+  justify-content: center;
+}
+section:has(aside + aside) {
+  justify-content:space-around;
+}
+section > aside {
+  padding: 0;
+}
+
+section, fieldset {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+section > article, section > div {
+  flex: 1 0 25ch;
+  padding: 0;
+}
+
 /*article > div:last-child {
   margin-bottom: var(--gap);
 }*/
@@ -254,14 +320,11 @@ h1 a, .h1 a {
 /*main header {
   padding: var(--gap4) var(--sides);
 }*/
-aside {
-  text-align: center;
-}
 
 /*main > div:not(:has(li)) {*/
-main > div {
+/*main > div {
   margin-inline: auto;
-}
+}*/
 /*main > div > *:not(aside){
   padding: 0 var(--sides) var(--gap);
 }*/
@@ -279,57 +342,6 @@ a.inline-block {
   padding: .5rem .125rem;
 }
 
-article > div, article > details, aside > div, figcaption {
-  max-width: 56ch;
-  margin: 0 auto;
-  padding: 0;
-}
-/*div > figure {
-  margin-bottom: 2rem;
-}*/
-
-header ~ nav, main > header {
-  padding: var(--rem) var(--sides);
-}
-header ~ nav {
-  background-image: var(--grad-dark-blue);
-}
-header ~ nav ul, header > nav ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-header ~ nav li, header > nav li {
-  width: max-content;
-  margin: .5rem 0;
-}
-
-section {
-  justify-content: center;
-}
-section:has(aside + aside) {
-  justify-content:space-around;
-}
-section > aside {
-  padding: 0;
-}
-
-section, fieldset {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-section > article, section > div {
-  flex: 1 0 25ch;
-  padding: 0;
-}
-article:not(:has(> section), > div) {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-bottom: var(--gap);
-}
 /*fieldset { 
   padding: 0;
   border: none;

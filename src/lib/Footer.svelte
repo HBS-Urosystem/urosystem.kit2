@@ -41,6 +41,9 @@
   </footer>
 
 <style>
+  footer {
+    border-top: var(--sides2) var(--white) solid;
+  }
   nav {
     background-color: var(--dark);
     padding: var(--gap2) var(--sides) 0;
