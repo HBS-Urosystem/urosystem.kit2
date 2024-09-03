@@ -42,7 +42,7 @@
 
 <style>
   footer {
-    border-top: var(--sides) var(--white) solid;
+    /*border-top: var(--sides) var(--white) solid;*/
     color: var(--dark);
   }
   nav {
