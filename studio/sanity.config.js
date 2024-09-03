@@ -4,8 +4,10 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
 
 export default defineConfig({
-  name: 'default',
+  name: 'urodapter',
   title: 'Urodapter2',
+  
+  studioHost: 'urodapter',
 
   projectId: 'mddv0vaq',
   dataset: 'production',
