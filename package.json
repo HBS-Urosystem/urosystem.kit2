@@ -21,6 +21,7 @@
     "autoprefixer": "^10.4.7",
     "daisyui": "^2.18.1",
     "date-fns": "^2.29.3",
+    "dotenv": "^16.4.5",
     "lodash": "^4.17.21",
     "marked": "^4.2.12",
     "mdsvex": "^0.11.2",
