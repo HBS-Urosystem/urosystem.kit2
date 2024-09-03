@@ -41,9 +41,10 @@
   </footer>
 
 <style>
-  /*footer {
+  footer {
     border-top: var(--sides) var(--white) solid;
-  }*/
+    color: var(--dark);
+  }
   nav {
     background-color: var(--dark);
     padding: var(--gap2) var(--sides) 0;
