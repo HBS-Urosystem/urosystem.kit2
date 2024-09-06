@@ -69,7 +69,7 @@ const NAV_QUERY = `*[_type == "page"] {
 const portableTextComponents = {
   types: {
     image: ({value}) => {
-      console.log({value})
+      //console.log({value})
       const src =  getSanityImageUrl(value.asset).width(1440).url()
       let comp = `<figure>
         <img src="${src}" alt="" />`
