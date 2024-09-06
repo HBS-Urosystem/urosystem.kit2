@@ -6,15 +6,16 @@
   //console.log(comp.lang, $sitelang)
   $: {
     //console.log('1',/*scrollto,*/ comp.link)
-    //if (comp.link && comp.link.startsWith('/')) comp.link = comp.link.substring(1)
-    if (comp.link && comp.link.startsWith('/')) {
+    if (comp.page) {
+      link = '/' + $sitelang + '/' + comp.page
+    } else if (comp.link && comp.link.startsWith('/')) {
       link = '/' + $sitelang + (comp.link == '/index' ? '' : comp.link)
       //scrollto = false
     } else if (comp.link && comp.link.startsWith('http')) {
       rel = 'noopener'
       target = '_blank'
       link = comp.link
-    } else if(comp.link && comp.link.startsWith('#')) {
+    } else if (comp.link && comp.link.startsWith('#')) {
       link = scrollto = comp.link
     } else {
       if (comp.link == '/' || !comp.link) {
@@ -24,7 +25,7 @@
       }
       link = '/' + $sitelang + comp.link //+ (scrollto || '')
     }
-    //console.log('CTA',comp) 
+    //if (comp.page) console.log('CTA',comp) 
   }
 </script>
 

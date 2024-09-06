@@ -22,5 +22,16 @@ export const imageCarousel = defineType({
       ],
     }),
   ],
+  preview: {
+    select: {
+      title: 'images',
+    },
+    prepare(selection) {
+      const {images} = selection
+      return {
+        title: `${images.length} Imeges)`,
+      }
+    }
+  }
 });
 

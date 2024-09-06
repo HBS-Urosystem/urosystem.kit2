@@ -16,12 +16,13 @@
 	//import Modal from '$lib/my/Modal.svelte'
 
   const options = {
-		article: Article,
+		//article: Article,
 		textBlock: Article,
 		form: Form,
 		//b2bmail: B2Bmail,
-		acmail: ACmail,
-		images: Images,
+		//acmail: ACmail,
+		//images: Images,
+		imageCarousel: Images,
 		grid: Grid,
 		ctaBlock: Grid,
 		cta: Cta,
@@ -45,7 +46,7 @@
   
   //console.log({comp})
   $: comp.text = comp.text?.replaceAll('https://www.urosystem.com', _siteurl) || null
-  $: comp.link = comp.link || false
+  //$: comp.link = comp.link || false
   //$: comp.lang = comp.lang == 'undefined' || !comp.lang ? '' : comp.lang
   //console.log(typeof(comp.text.replace))
   //$: {

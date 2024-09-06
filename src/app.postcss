@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 /*! minireset.css v0.0.7 | MIT License | github.com/jgthms/minireset.css */
-html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}/*ul{list-style:none}*/button,input,select{margin:0}html{box-sizing:border-box}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}button,input,select{margin:0}html{box-sizing:border-box}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
 /* REVERSING some TW declarations? */
 img, svg {
@@ -19,8 +19,6 @@ select {
   /*color: var(--white);*/
   color: black;
 }
-
-
 [type='checkbox'], [type='radio'] {
   appearance: auto;
 }
@@ -147,14 +145,14 @@ body {
 
   /*scrollbar-color: rebeccapurple green;*/
   scrollbar-width: thin;
-  min-height: 100%;
+  min-height: 100vh;
 }
-#svelte /*> div */{
+/*#svelte {
   min-height: 100%;
   justify-content: stretch;
   display: flex;
   flex-direction: column;
-}
+}*/
 /*div:target {*/
   /*display: block!important;*/
 /*}*/
@@ -170,9 +168,9 @@ main > header, main > aside, footer {
   background-color: var(--mid-green);
   color: var(--white);
 }
-main > aside/*, footer*/ {
-  margin-bottom: var(--rem);
-  padding-inline: var(--rem);
+main > aside, main > section/*, footer*/ {
+  margin-bottom: var(--sides);
+  margin-inline: var(--sides);
 
 }
 main > header, footer {
@@ -182,13 +180,14 @@ main > header {
   border-end-end-radius: var(--radius);
 }
 footer {
+  position: sticky;
+  top: 100%;
   border-start-start-radius: var(--radius);
   margin-left: var(--sides);
 }
 main > aside {
   border-end-start-radius: var(--radius);
   border-start-end-radius: var(--radius);
-  margin-inline: var(--sides);
   padding-block: var(--gap);
   text-align: center;
 }
@@ -223,6 +222,8 @@ article > div, article > details, figcaption {
   max-width: 56ch;
   margin: 0 auto;
   padding: 0;
+  text-align: center;
+  margin-top: 1em;
 }
 /*div > figure {
   margin-bottom: 2rem;

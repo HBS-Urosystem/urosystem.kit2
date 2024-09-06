@@ -10,6 +10,6 @@ export const schemaTypes = [
   ctaBlock,
   heroBlock,
   imageCarousel,
-  page,
   textBlock,
+  page,
 ];

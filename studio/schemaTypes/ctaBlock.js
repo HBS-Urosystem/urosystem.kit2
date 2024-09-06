@@ -30,5 +30,19 @@ export const ctaBlock = defineType({
       name: "caption",
     }),
   ],
+  preview: {
+    select: {
+      title: 'title',
+      subtitle: 'subtitle',
+      ctas: 'ctas'
+    },
+    prepare(selection) {
+      const {title, subtitle, ctas} = selection
+      return {
+        title: title + ` (${ctas.length} CTAs)`,
+        subtitle: subtitle
+      }
+    }
+  }
 });
 

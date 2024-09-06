@@ -38,6 +38,10 @@ export const page = defineType({
           title: "CTAs"
         }),
         defineArrayMember({
+          type: "cta",
+          title: "CTA"
+        }),
+        defineArrayMember({
           type: "imageCarousel",
           title: "Images",
         }),

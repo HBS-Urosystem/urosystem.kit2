@@ -25,22 +25,13 @@
           <img loading="lazy" src="{_sm(img.src)}" srcset="{img.src} 2x, {_sm(img.src)} 1x" alt="{img.alt}" style="object-position: {img.posx || 50}% {img.posy || 50}%; transform: scale({img.scale >=0 ? img.scale : 1})"/>
         {/if}
       </div>
-      {#if img.text}<figcaption>{@html img.text}</figcaption>{/if}
+      {#if img.caption}<figcaption>{@html img.caption}</figcaption>{/if}
     </figure>
     {/each}
   </section>
 </article>
 
 <style>
-  section {
-    /*display: flex;*/
-    /*align-items: center;
-    align-content: center;*/
-    /*align-items: baseline;
-    justify-content: center;*/
-    /*flex-direction: column;*/
-    display: block;
-  }
   section.slides {
     align-items: baseline;
     align-content: center;
@@ -50,9 +41,6 @@
   /*section.flow {
     display: block;
   }*/
-  h3 {
-    text-align: center;
-  }
   figure {
     flex: 1 1 var(--img-width, 56ch);
     /*max-width: var(--img-width, 56ch);*/
@@ -63,7 +51,6 @@
     section.slides {
       display: flex;
       flex-direction: row;
-      flex-wrap: nowrap;
       align-items: baseline;
     }
     /*figure {
@@ -95,13 +82,6 @@
     left: 0;
     height: 100%;
     aspect-ratio: 100 / var(--ratio, 100);
-  }
-  figcaption {
-    text-align: center;
-    margin-top: 1em;
-  }
-  figcaption :global(*) {
-    color: white;
   }
   /*.framed {
     border: 2px #fff solid;

@@ -12,61 +12,106 @@ import { sitelang } from '$lib/stores'
 
 import { client } from "$lib/sanity/client"
 /** @type {import('./$types').LayoutServerLoad} */
-export const load = async ({ params, url, route, page/*, fetch*/ }) => {
-  //console.log(params, url, route, page)
-  const CONTENT_QUERY = `*[_type == "page"] {
-    ...,
-    "id": slug["current"],
-    "slug": slug["current"],
-    sections[] {
-      _type,
-      _type == "heroBlock" => {
-        ...
-      },
-      _type == "textBlock" => {
-        ...
-      },
-      _type == "ctaBlock" => {
-        ...
-      },
-      _type == "imageCarousel" => {
-        ...
+const CONTENT_QUERY = `*[_type == "page"] {
+  ...,
+  "id": slug["current"],
+  "slug": slug["current"],
+  sections[] {
+    _type,
+    _type == "heroBlock" => {
+      ...
+    },
+    _type == "textBlock" => {
+      ...,
+      "image": image.asset->url
+    },
+    _type == "ctaBlock" => {
+      ...,
+      ctas[] {
+        ...,
+        "page": page->["slug"]["current"]
       }
-    }
-  }`  
-  const NAV_QUERY = `*[_type == "page"] {
-    ...,
-    sections[] {
-      _type,
-      _type == "heroBlock" => {
-        heroBlock {
-          ...
-        }
-      },
-      _type == "textBlock" => {
-        textBlock {
-          ...
-        }
-      },
-      _type == "ctaBlock" => {
-        ctaBlock {
-          ...
-        }
-      },
-      _type == "imageCarousel" => {
-        ...
-      }
+    },
+    _type == "cta" => {
+      ...,
+      "page": page->["slug"]["current"]
+    },
+    _type == "imageCarousel" => {
+      ...
     }
   }
-  `
-  const pages = await client.fetch(CONTENT_QUERY)
-  //console.log({pages})
+}`  
+const NAV_QUERY = `*[_type == "page"] {
+  ...,
+  sections[] {
+    _type,
+    _type == "heroBlock" => {
+      heroBlock {
+        ...
+      }
+    },
+    _type == "textBlock" => {
+      textBlock {
+        ...
+      }
+    },
+    _type == "ctaBlock" => {
+      ctaBlock {
+        ...
+      }
+    },
+    _type == "imageCarousel" => {
+      ...
+    }
+  }
+}`
 
+const portableTextComponents = {
+  types: {
+    image: ({value}) => {
+      console.log({value})
+      const src =  getSanityImageUrl(value.asset).width(1440).url()
+      let comp = `<figure>
+        <img src="${src}" alt="" />`
+      if (value.caption) comp += `<figcaption>${value.caption}</figcaption>`
+      comp += `</figure>`
+      return comp
+    },
+    unknownType: ({value}) => {
+      console.log({value})
+    }
+  }
+}
+
+const sorting = (pages) => {
   for (const p of pages || []) {
     for (const s of p.sections || []) {
+      //console.log(s)
       if (s.image) {
-        s.image.src = getSanityImageUrl(s.image).width(720).url()
+        s.image.src = getSanityImageUrl(s.image).width(1440).url()
         //console.log(s.image)
+      }
+      if (s._type == 'imageCarousel') {
+        //console.log(s)
+        for (const i of s.images || []) {
+          i.src = getSanityImageUrl(i).width(1440).url()
+        }
+      }
+      if (s._type == 'textBlock') {
+        s.text = toHTML(s.content, {
+          components: portableTextComponents,
+          /*{
+            types: {
+              image: ({value}) => `<img src="${value.imageUrl}" />`,
+            }
+            // optional object of custom components to use 
+            //
+          },*/
+          onMissingComponent: (message, options) => {
+            console.log(message, options)
+          }
+        })
+        //console.log(s.text)
       }
       if (s._type == 'heroBlock') {
         s.slide = true
@@ -74,19 +119,29 @@ export const load = async ({ params, url, route, page/*, fetch*/ }) => {
       }
       if (s._type == 'ctaBlock') {
         s.slide = true
-        //console.log(s)
-      }
-      if (s._type == 'textBlock') {
-        s.text = toHTML(s.content, {
-          //components: {
-          //   optional object of custom components to use 
-          //},
-        })
-        //console.log(s.text)
       }
     }
   }
-  
+  return pages
+}
+
+let pages
+export const load = async ({ params, url, route/*, fetch*/ }) => {
+  //console.log(params, url, route)
+
+  pages = /*pages ||*/ await client.fetch(CONTENT_QUERY).then((p) => sorting(p))
+  //console.log({pages})
+
+  const slug = () => {
+    const p = params.path || 'index'
+    const i = p.lastIndexOf('/') + 1
+    //console.log(p.slice(i))
+    return p.slice(i)
+  }
+  //console.log(slug())
+  const page = pages.find(p => p.slug == slug())
+
+  //console.log(page.sections[1])
 
   const subpage = null
   const post = {
@@ -100,11 +155,11 @@ export const load = async ({ params, url, route, page/*, fetch*/ }) => {
     menutitle: 'UroDapter®',
     subpage: subpage,
     sections: [],
-    ...pages[0] 
+    ...page
   }
   if (post.sections[0]?._type == 'heroBlock') {
     post.hero = post.sections.shift()
-    
+    //console.log(post.hero)
   }
   const thislang = {
     id: 'en',

@@ -16,6 +16,19 @@ export const cta = defineType({
       title: "Description",
     }),
     defineField({
+      type: "string",
+      name: "label",
+      title: "Button label",
+    }),
+    defineField({
+      type: "url",
+      name: "reveal",
+      title: "Reveal a page content under this button",
+      //description: "",
+      type: 'reference',
+      to: [{type: 'page'}],
+    }),
+    defineField({
       type: "url",
       name: "page",
       title: "Link to page",
@@ -29,13 +42,22 @@ export const cta = defineType({
     }),
     defineField({
       type: "string",
-      name: "label",
-      title: "Button label",
-    }),
-    defineField({
-      type: "string",
       name: "caption",
     }),
   ],
+  preview: {
+    select: {
+      label: 'label',
+      page: 'page.title',
+      link: 'link'
+    },
+    prepare(selection) {
+      const {label, page, link} = selection
+      return {
+        title: page || link,
+        subtitle: label
+      }
+    }
+  }
 });
 
