@@ -34,5 +34,18 @@ export const textBlock = defineType({
       ],
     }),
   ],
+  preview: {
+    select: {
+      title: 'title',
+      subtitle: 'subtitle',
+    },
+    prepare(selection) {
+      const {title, subtitle} = selection
+      return {
+        title: title || 'Text Block',
+        subtitle: subtitle || 'Text Block'
+      }
+    }
+  }
 });
 

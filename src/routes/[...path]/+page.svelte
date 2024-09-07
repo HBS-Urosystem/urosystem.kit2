@@ -27,7 +27,7 @@
   {#if !!post.hero}
     
     <!--<header id="header" class="full" style="{post.hero.background ? post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">-->
-    <header id="header" class="-full" style="background-image: url({post.hero.image.src})" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
+    <header id="header" class="-full" style="background-image: url({post.hero.image?.src})" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
 
       {#if post.herotitle && post.herotitle != ''}
         <h1>{post.herotitle}</h1>

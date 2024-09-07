@@ -24,12 +24,13 @@ export const imageCarousel = defineType({
   ],
   preview: {
     select: {
-      title: 'images',
+      images: 'images',
     },
     prepare(selection) {
       const {images} = selection
       return {
-        title: `${images.length} Imeges)`,
+        title: `Block of ${images.length} image(s)`,
+        //subtitle: 'Images'
       }
     }
   }

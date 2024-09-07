@@ -31,5 +31,18 @@ export const heroBlock = defineType({
       ],
     }),
   ],
+  preview: {
+    select: {
+      title: 'title',
+      subtitle: 'subtitle',
+    },
+    prepare(selection) {
+      const {title, subtitle} = selection
+      return {
+        title: title,
+        subtitle: subtitle || 'Hero Block'
+      }
+    }
+  }
 });
 
