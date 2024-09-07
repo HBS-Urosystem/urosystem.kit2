@@ -22,14 +22,6 @@ export const cta = defineType({
     }),
     defineField({
       type: "url",
-      name: "reveal",
-      title: "Reveal a page content under this button",
-      //description: "",
-      type: 'reference',
-      to: [{type: 'page'}],
-    }),
-    defineField({
-      type: "url",
       name: "page",
       title: "Link to page",
       type: 'reference',

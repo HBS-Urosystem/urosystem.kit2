@@ -23,7 +23,15 @@ const CONTENT_QUERY = `*[_type == "page"] {
     },
     _type == "textBlock" => {
       ...,
-      "image": image.asset->url
+      content[]{
+        ...,
+        markDefs[]{
+          ...,
+          _type == "internalLink" => {
+            "slug": @.reference->slug
+          }
+        }
+      }    
     },
     _type == "ctaBlock" => {
       ...,
@@ -69,7 +77,7 @@ const NAV_QUERY = `*[_type == "page"] {
 const portableTextComponents = {
   types: {
     image: ({value}) => {
-      console.log({value})
+      //console.log('image:',{value})
       const src =  getSanityImageUrl(value.asset).width(1440).url()
       let comp = `<figure>
         <img src="${src}" alt="" />`
@@ -78,8 +86,20 @@ const portableTextComponents = {
       return comp
     },
     unknownType: ({value}) => {
-      console.log({value})
+      console.log('unknownType',{value})
     }
+  },
+  marks: {
+    internalLink: ({children, value}) => {
+      console.log('internalLink:',{value})
+      let comp = `<a class="II" href="${value.slug.current}">${children}</a>`
+      return comp
+    },
+    externalLink: ({children, value}) => {
+      console.log('externalLink:',{value})
+      let comp = value.blanc ? `<a class="QQ" href="${value.href}" rel="external noopener" target="_blanc">${children}</a>` : `<a href="${value.href}">${children}</a>`
+      return comp
+    },
   }
 }
 
@@ -98,6 +118,7 @@ const sorting = (pages) => {
         }
       }
       if (s._type == 'textBlock') {
+        //console.log('textBlock:',s.content[0])
         s.text = toHTML(s.content, {
           components: portableTextComponents,
           /*{
@@ -108,7 +129,7 @@ const sorting = (pages) => {
             //
           },*/
           onMissingComponent: (message, options) => {
-            console.log(message, options)
+            console.log('onMissingComponent',{message}, {options})
           }
         })
         //console.log(s.text)
@@ -134,11 +155,11 @@ export const load = async ({ params, url, route/*, fetch*/ }) => {
 
   const slug = () => {
     const p = params.path || 'index'
-    const i = p.lastIndexOf('/') + 1
-    //console.log(p.slice(i))
+    console.log(p)
+    const i = p.indexOf('/') + 1
+    console.log(p.slice(i))
     return p.slice(i)
   }
-  //console.log(slug())
   const page = pages.find(p => p.slug == slug())
 
   //console.log(page.sections[1])

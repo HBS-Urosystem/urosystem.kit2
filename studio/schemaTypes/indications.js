@@ -1,9 +1,9 @@
 import { defineType, defineField, defineArrayMember } from 'sanity'
 
-export const page = defineType({
+export const indications = defineType({
   type: "document",
-  name: "page",
-  title: "Pages",
+  name: "indications",
+  title: "Indications",
   fields: [
     defineField({
       type: "string",
