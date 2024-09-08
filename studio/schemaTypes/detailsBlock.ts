@@ -40,7 +40,7 @@ export const detailsBlock = defineType({
       return {
         title: title || 'Untitled',
         subtitle: 'Accordion',
-        //media: image || ChevronDownIcon,
+        media: image || ChevronDownIcon,
       }
     },
   },

@@ -31,7 +31,7 @@ const CONTENT_QUERY = `*[_type == "page"] {
             "slug": @.reference->slug
           }
         }
-      }    
+      }
     },
     _type == "ctaBlock" => {
       ...,
@@ -46,6 +46,18 @@ const CONTENT_QUERY = `*[_type == "page"] {
     },
     _type == "imageCarousel" => {
       ...
+    },
+    _type == "detailsBlock" => {
+      ...,
+      details[]{
+        ...,
+        markDefs[]{
+          ...,
+          _type == "internalLink" => {
+            "slug": @.reference->slug
+          }
+        }
+      }
     }
   }
 }`  
@@ -91,12 +103,12 @@ const portableTextComponents = {
   },
   marks: {
     internalLink: ({children, value}) => {
-      console.log('internalLink:',{value})
+      //console.log('internalLink:',{value})
       let comp = `<a class="II" href="${value.slug.current}">${children}</a>`
       return comp
     },
     externalLink: ({children, value}) => {
-      console.log('externalLink:',{value})
+      //console.log('externalLink:',{value})
       let comp = value.blanc ? `<a class="QQ" href="${value.href}" rel="external noopener" target="_blanc">${children}</a>` : `<a href="${value.href}">${children}</a>`
       return comp
     },
@@ -118,21 +130,20 @@ const sorting = (pages) => {
         }
       }
       if (s._type == 'textBlock') {
-        //console.log('textBlock:',s.content[0])
         s.text = toHTML(s.content, {
           components: portableTextComponents,
-          /*{
-            types: {
-              image: ({value}) => `<img src="${value.imageUrl}" />`,
-            }
-            // optional object of custom components to use 
-            //
-          },*/
           onMissingComponent: (message, options) => {
             console.log('onMissingComponent',{message}, {options})
           }
         })
-        //console.log(s.text)
+      }
+      if (s._type == 'detailsBlock') {
+        s.text = toHTML(s.details, {
+          components: portableTextComponents,
+          onMissingComponent: (message, options) => {
+            console.log('onMissingComponent',{message}, {options})
+          }
+        })
       }
       if (s._type == 'heroBlock') {
         s.slide = true

@@ -80,8 +80,8 @@ export const textBlock = defineType({
     prepare(selection) {
       const {title, subtitle} = selection
       return {
-        title: title || 'Text Block',
-        subtitle: subtitle || 'Text Block'
+        title: title || 'Text Content',
+        subtitle: subtitle || 'Text Content'
       }
     }
   }

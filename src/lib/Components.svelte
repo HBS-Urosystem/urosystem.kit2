@@ -10,6 +10,7 @@
   import Refs from '$lib/my/Refs.svelte'
   import Buttons from '$lib/my/Buttons.svelte'
   import Qas from '$lib/my/Qas.svelte'
+  import Details from '$lib/my/Details.svelte'
   import Form from '$lib/my/Form.svelte'
   //import B2Bmail from '$lib/my/B2Bmail.svelte'
   import ACmail from '$lib/my/ACmail.svelte'
@@ -32,7 +33,8 @@
     links: Links,
     refs: Refs,
     buttons: Buttons,
-    qas: Qas
+    qas: Qas,
+    detailsBlock: Details,
 	}
 
   const _site = variables.site
@@ -43,8 +45,9 @@
 	//import { stores } from '@sapper/app';
   //let { /*preloading, */page/*, session */} = stores();
   export let comp = {}//, lang
-  
-  //console.log({comp})
+  if (comp._type == 'detailsBlock') {
+    console.log({comp})
+  }
   $: comp.text = comp.text?.replaceAll('https://www.urosystem.com', _siteurl) || null
   //$: comp.link = comp.link || false
   //$: comp.lang = comp.lang == 'undefined' || !comp.lang ? '' : comp.lang
@@ -66,6 +69,11 @@
     <svelte:component this={options[comp._type]} {comp}/>
   </aside>
 {:else if comp._type == 'textBlock'}
+  <!--<article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">-->
+    <svelte:component this={options[comp._type]} {comp}/>
+  <!--</article>-->
+{:else if comp._type == 'detailsBlock'}
+    <h2>DETAILS</h2>
   <!--<article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">-->
     <svelte:component this={options[comp._type]} {comp}/>
   <!--</article>-->

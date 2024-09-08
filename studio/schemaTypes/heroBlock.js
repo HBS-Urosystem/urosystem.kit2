@@ -39,7 +39,7 @@ export const heroBlock = defineType({
     prepare(selection) {
       const {title, subtitle} = selection
       return {
-        title: title,
+        title: title || 'Hero Block',
         subtitle: subtitle || 'Hero Block'
       }
     }

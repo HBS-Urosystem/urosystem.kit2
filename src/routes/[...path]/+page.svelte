@@ -71,6 +71,9 @@
       
       {#if $state.post.title != ''}
         <h1>{$state.post.title}</h1>
+        {#if $state.post.subtitle}
+          <h2>{$state.post.subtitle}</h2>
+        {/if}
       {/if}
 <!--
       {#if post.subhero}
