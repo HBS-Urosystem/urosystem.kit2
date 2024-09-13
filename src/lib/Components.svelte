@@ -45,9 +45,6 @@
 	//import { stores } from '@sapper/app';
   //let { /*preloading, */page/*, session */} = stores();
   export let comp = {}//, lang
-  if (comp._type == 'detailsBlock') {
-    console.log({comp})
-  }
   $: comp.text = comp.text?.replaceAll('https://www.urosystem.com', _siteurl) || null
   //$: comp.link = comp.link || false
   //$: comp.lang = comp.lang == 'undefined' || !comp.lang ? '' : comp.lang
@@ -73,10 +70,9 @@
     <svelte:component this={options[comp._type]} {comp}/>
   <!--</article>-->
 {:else if comp._type == 'detailsBlock'}
-    <h2>DETAILS</h2>
-  <!--<article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">-->
+  <aside id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
     <svelte:component this={options[comp._type]} {comp}/>
-  <!--</article>-->
+  </aside>
 {:else if comp._type}
   <section id="{comp.anchor}">
     <svelte:component this={options[comp._type]} {comp}/>
