@@ -15,13 +15,12 @@ img, svg {
 /*svg {
   fill="currentColor";
 }*/
-select {
-  /*color: var(--white);*/
+/*select {
   color: black;
 }
 [type='checkbox'], [type='radio'] {
   appearance: auto;
-}
+}*/
 /*[type='checkbox']:focus, [type='radio']:focus {
 }
 [type='checkbox']:checked, [type='radio']:checked {
@@ -34,7 +33,7 @@ select {
 }
 .card {
   flex: 1 0 25ch;
-  max-width: 56ch;
+  max-width: 64ch;
   margin: 0 auto;
 }
 
@@ -96,15 +95,14 @@ select {
 
 
   --half: calc(var(--rem) / 2);
-  --halfgap: calc(var(--rem) * .75);
-/*  --gap: calc(1.5 * var(--rem));*/
-  --gap: max(12.5vw - 5rem, 2.5rem);
-  --gap2: calc(3 * var(--rem));
-  --gap4: calc(8 * var(--rem));
+  --halfgap: calc(var(--rem) * 1.25);
+  --gap: calc(2.5 * var(--rem));
+  /*--gap: max(12.5vw - 5rem, 2.5rem);*/
+  --gap2: calc(5 * var(--rem));
+  --gap4: calc(10 * var(--rem));
 
+  /*--sides: max(12.5vw - 5rem, .5rem);*/
   --sides: max(12.5vw - 5rem, .5rem);
-  --sides2: calc(var(--sides) * 2);
-  --sides-2: calc(var(--sides) / 2);
   --radius: max(10vw, 7rem);
 
   --marker: url(/uploads/open-right.svg);
@@ -131,7 +129,7 @@ select {
 
 :root {
   color: var(--white);
-  /*background-color: var(--mid-green);*/
+  background-color: var(--mid-green);
 }
 html {
   height: 100%;
@@ -141,7 +139,7 @@ body {
   /*letter-spacing: .03em;*/
   letter-spacing: .04em;
   /*color: var(--white);*/
-  /*background-color: var(--dark);*/
+  background-color: var(--white);
 
   /*scrollbar-color: rebeccapurple green;*/
   scrollbar-width: thin;
@@ -162,20 +160,22 @@ main {
   background-color: var(--white);
   color: var(--black);
   border-bottom: var(--gap) var(--white) solid;
+  /*max-width: 112ch;*/
+  margin-inline: auto;
 }
 
-main > header, main > aside, footer {
+header, main > aside, footer {
+  text-align: center;
   background-color: var(--mid-green);
   color: var(--white);
+  padding: var(--gap);
 }
-main > aside, main > section/*, footer*/ {
-  margin-bottom: var(--sides);
+main > aside, main > section {
+  margin-bottom: var(--halfgap);
   margin-inline: var(--sides);
 
 }
-main > header, footer {
-}
-main > header {
+header {
   margin-inline: 0 var(--sides);
   border-end-end-radius: var(--radius);
 }
@@ -188,9 +188,28 @@ footer {
 main > aside {
   border-end-start-radius: var(--radius);
   border-start-end-radius: var(--radius);
-  padding-block: var(--gap);
-  text-align: center;
 }
+aside:has(.slide), footer:has(.slide) {
+  padding-inline: 0;
+}
+aside .slide, footer .slide {
+  margin-inline: 0;
+  max-width: 100%;
+}
+
+.slide {
+  scroll-snap-type: x mandatory;
+  scroll-snap-stop: always;
+}
+.slide > * {
+  scroll-snap-align: center;
+}
+/*.slide > a:first-of-type {
+  scroll-snap-align: start;
+}
+.slide > a:last-of-type {
+  scroll-snap-align: end;
+}*/
 
 nav, footer{
   background-color: var(--mid-green);
@@ -211,35 +230,32 @@ header, article {
 /*article {
   margin-bottom: var(--sides);
 }*/
-article:not(:has(> section), > div) {
+/*article:not(:has(> section), > div) {
   display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: var(--gap);
-}
+}*/
 
-article > div, article > details, figcaption {
-  max-width: 56ch;
+article > div, section > div, aside > div, figcaption {
+  max-width: 64ch;
   margin: 0 auto;
   padding: 0;
   text-align: center;
-  margin-top: 1em;
+  /*margin-top: 1em;*/
 }
 /*div > figure {
   margin-bottom: 2rem;
 }*/
 
 header ~ nav, main > article {
-  padding: var(--rem) var(--sides);
+  padding: var(--gap) var(--sides);
 }
-main > header {
-  padding-inline: var(--sides) 0;
+header {
+  padding-inline: var(--gap2) var(--gap);
 }
-main > header[style*="background-image"] {
+header[style*="background-image"] {
   text-shadow: 0 0 0.75em var(--dark-green);
-}
-main > article {
-  padding: var(--gap) var(--sides2);
 }
 /*header ~ nav {
   background-image: var(--grad-dark-blue);
@@ -254,17 +270,20 @@ header ~ nav li, header > nav li {
   margin: .5rem 0;
 }
 
-section {
+main > section {
   justify-content: center;
 }
-section:has(aside + aside) {
+aside section, footer section {
+  margin: var(--gap);
+}
+/*section:has(aside + aside) {
   justify-content:space-around;
 }
 section > aside {
   padding: 0;
-}
+}*/
 
-section, fieldset {
+/*section,*/ fieldset {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -415,7 +434,7 @@ button, .btn {
   font-size: inherit;
   border: none;
   border-radius: 1.75rem;
-  padding: 0 var(--gap2);
+  padding: 0 var(--gap);
   line-height: 2.5rem;
   background-color: var(--pale-blue);
   color: black;
@@ -461,19 +480,21 @@ button img, .btn img {
   }
 }
 
-main p, main ul, main ol, main dl, main table, footer + aside p {
+main p, main ul, main ol, main dl, main table/*, footer + aside p*/ {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   /*letter-spacing: .04em;*/
   -webkit-hyphens:auto;-ms-hyphens:auto;hyphens: auto;
   /*text-shadow: 0 0 0.25em var(--dark-75);*/
   margin: 1em 0;
 }
-main *:first-child, footer + aside > :first-child {
+
+:first-child, input:first-child + * {
   margin-top: 0;
 }
-main *:last-child, footer + aside > :last-child {
+:last-child, :has(~aside) {
   margin-bottom: 0;
 }
+
 main h4, main h5, main h6 {
   -webkit-hyphens:auto;-ms-hyphens:auto;hyphens: auto;
 }
@@ -573,6 +594,10 @@ article li > a:hover {
 /*header, main {
   color: var(--white);
 }*/
+
+.collapse-content p {
+  margin: 0;
+}
 
 summary {
   cursor: pointer;

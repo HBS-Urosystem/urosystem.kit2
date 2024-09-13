@@ -23,7 +23,7 @@
   
   {#if comp.subtitle}<h3>{comp.subtitle}</h3>{/if}
 
-  <div class="{comp.slide ? 'slides' : ''}" style="--cols: {comp.sections?.length || comp.ctas?.length};">
+  <div class="{comp.slide ? 'slide' : ''}" style="--cols: {comp.sections?.length || comp.ctas?.length};">
     {#each comp.sections || comp.ctas || [] as c}
       <svelte:component this={options[c._type]} comp={c}/>
     {/each}
@@ -32,7 +32,7 @@
 <!--</section>-->
 
 <style>
-  div.slides {
+  div.slide {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;

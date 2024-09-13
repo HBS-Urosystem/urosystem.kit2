@@ -1,17 +1,18 @@
 import { page } from "./page";
 import { heroBlock } from "./heroBlock";
 import { textBlock } from "./textBlock";
-import { detailsBlock } from "./detailsBlock";
+import { detailsItem } from "./detailsItem";
 import { cta } from "./cta";
+import { cardBlock } from "./cardBlock";
 import { ctaBlock } from "./ctaBlock";
 import { imageCarousel } from "./imageCarousel";
 
 export const schemaTypes = [
   cta,
-  ctaBlock,
+  cardBlock,
   heroBlock,
   imageCarousel,
   textBlock,
-  detailsBlock,
+  detailsItem,
   page,
 ];

@@ -3,6 +3,7 @@
   import Article from '$lib/my/Article.svelte'
   import Images from '$lib/my/Images.svelte'
   import Grid from '$lib/my/Grid.svelte'
+  import Card from '$lib/my/Card.svelte'
   import Cta from '$lib/my/Cta.svelte'
   import BuyButton from '$lib/my/BuyButton.svelte'
   import Video from '$lib/my/Video.svelte'
@@ -25,7 +26,9 @@
 		//images: Images,
 		imageCarousel: Images,
 		grid: Grid,
+		cardBlock: Card,
 		ctaBlock: Grid,
+		cta: Cta,
 		cta: Cta,
 		//modal: Modal,
 		buy: BuyButton,
@@ -34,7 +37,7 @@
     refs: Refs,
     buttons: Buttons,
     qas: Qas,
-    detailsBlock: Details,
+    detailsItem: Details,
 	}
 
   const _site = variables.site
@@ -61,23 +64,7 @@
   //$: console.log({comp})
 </script>
 
-{#if comp._type == 'ctaBlock'}
-  <aside id="{comp.anchor}">
-    <svelte:component this={options[comp._type]} {comp}/>
-  </aside>
-{:else if comp._type == 'textBlock'}
-  <!--<article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">-->
-    <svelte:component this={options[comp._type]} {comp}/>
-  <!--</article>-->
-{:else if comp._type == 'detailsBlock'}
-  <aside id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
-    <svelte:component this={options[comp._type]} {comp}/>
-  </aside>
-{:else if comp._type}
-  <section id="{comp.anchor}">
-    <svelte:component this={options[comp._type]} {comp}/>
-  </section>
-{/if}
+<svelte:component this={options[comp._type]} {comp}/>
 
 <!--{#key comp.link}-->
 <!--{#if comp.link}-->

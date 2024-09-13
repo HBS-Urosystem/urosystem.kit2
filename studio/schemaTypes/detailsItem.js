@@ -1,22 +1,19 @@
-import { defineType, defineField, defineArrayMember } from 'sanity'
+import {defineField, defineArrayMember, defineType} from 'sanity'
+import {ChevronDownIcon} from '@sanity/icons'
 
-export const textBlock = defineType({
-  type: "object",
-  name: "textBlock",
+export const detailsItem = defineType({
+  name: 'detailsItem',
+  title: 'Accordion List Item',
+  type: 'object',
   fields: [
     defineField({
-      type: "string",
-      name: "title",
-      title: "Headline",
-    }),
-    defineField({
-      type: "string",
-      name: "subtitle",
-      title: "Description",
+      name: 'summary',
+      type: 'string',
+      validation: (Rule) => Rule.required(),
     }),
     defineField({
       type: "array",
-      name: "content",
+      name: "details",
       of: [
         defineArrayMember({
           type: "block",
@@ -75,18 +72,17 @@ export const textBlock = defineType({
       ],
     }),
   ],
+  icon: ChevronDownIcon,
   preview: {
     select: {
-      title: 'title',
-      subtitle: 'subtitle',
+      title: 'summary',
     },
-    prepare(selection) {
-      const {title, subtitle} = selection
+    prepare({title, image}) {
       return {
-        title: title || 'Text Content',
-        subtitle: subtitle || 'Text Content'
+        title: title || 'Untitled',
+        subtitle: 'Accordion',
+        media: image || ChevronDownIcon,
       }
-    }
-  }
-});
-
+    },
+  },
+})

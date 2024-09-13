@@ -13,7 +13,7 @@
   {#if comp.subhead}<h3>{comp.subhead}</h3>{/if}
   <!-- shape: default/squre/cicrcle -->
   <!-- slide: true/false -->
-  <section class="{/*comp.slide && */comp.images.length > 1 ? 'slides' : 'flow'}" style="--img-width: {56 / comp.images.length}ch">
+  <section class="{/*comp.slide && */comp.images.length > 1 ? 'slide' : 'flow'}" style="--img-width: {56 / comp.images.length}ch">
     {#each comp.images || [] as img}
     <figure>
       <div class="{comp.shape}" class:ratio={comp.ratio} style="--ratio: {comp.ratio};--ratiopct: {comp.ratio}%">
@@ -32,7 +32,7 @@
 </article>
 
 <style>
-  section.slides {
+  section.slide {
     align-items: baseline;
     align-content: center;
     overflow-x: auto;
@@ -42,13 +42,13 @@
     display: block;
   }*/
   figure {
-    flex: 1 1 var(--img-width, 56ch);
-    /*max-width: var(--img-width, 56ch);*/
+    flex: 1 1 var(--img-width, 64ch);
+    /*max-width: var(--img-width, 64ch);*/
     /*margin: 0 auto var(--gap);*/
     margin: 5rem 2.5vw 0;
   }
   @media (min-width: 112ch) {
-    section.slides {
+    section.slide {
       display: flex;
       flex-direction: row;
       align-items: baseline;
@@ -59,11 +59,11 @@
   }
   div {
     position: relative;
-    /*width: var(--img-width, 56ch);*/
+    /*width: var(--img-width, 64ch);*/
     margin: 0 auto;
     overflow: hidden;
     /*max-width: 100%;*/
-    max-width: var(--img-width, 56ch);
+    max-width: var(--img-width, 64ch);
     /*width: min-content;*/
     text-align: center;
   }

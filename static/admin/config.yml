@@ -1664,7 +1664,7 @@ collections:
                           - gradients.*.title
                         file: design
                         collection: config
-              - label: Slideshow
+              - label: slidehow
                 name: slide
                 widget: boolean
                 default: false

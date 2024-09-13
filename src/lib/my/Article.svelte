@@ -31,6 +31,9 @@
 </article>
 
 <style>
+  .collapse-title, :where(.collapse > input[type="checkbox"]), :where(.collapse > input[type="radio"]) {
+    width: 100%;
+  }
   h3 {
     text-align: center;
   }
@@ -38,7 +41,7 @@
     background: white;
     padding: var(--halfgap);
     
-    max-width: 56ch;
+    max-width: 64ch;
     margin-inline: auto;
     margin-block: 3rem;
   }

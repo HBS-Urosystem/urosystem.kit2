@@ -56,7 +56,7 @@ article + aside {
   padding-top: 0;
 }
 article > div, aside > div, figcaption {
-  max-width: 56ch;
+  max-width: 64ch;
   margin: 0 auto;
   padding: 0/* var(--rem)*/;
 }

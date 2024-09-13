@@ -2,6 +2,8 @@
 export const prerender = true
 //export const trailingSlash = 'never' // default
 
+import Details from '$lib/my/Details.svelte'
+import Cta from '$lib/my/Cta.svelte'
 import { getSanityImageUrl/*, formatBlogPostDate*/ } from '$lib/sanity/helpers.js'
 import {toHTML} from '@portabletext/to-html'
 
@@ -12,6 +14,13 @@ import { sitelang } from '$lib/stores'
 
 import { client } from "$lib/sanity/client"
 /** @type {import('./$types').LayoutServerLoad} */
+
+const CTA_QUERY = `...,
+  "page": page->slug.current`
+const MARKS_QUERY = `...,
+_type == "internalLink" => {
+  "slug": @.reference->slug
+}`
 const CONTENT_QUERY = `*[_type == "page"] {
   ...,
   "id": slug["current"],
@@ -26,36 +35,33 @@ const CONTENT_QUERY = `*[_type == "page"] {
       content[]{
         ...,
         markDefs[]{
-          ...,
-          _type == "internalLink" => {
-            "slug": @.reference->slug
-          }
+          ${MARKS_QUERY}
         }
       }
     },
-    _type == "ctaBlock" => {
+    _type == "cardBlock" => {
       ...,
-      ctas[] {
-        ...,
-        "page": page->["slug"]["current"]
+      sections[] {
+        _type == "cta" => { 
+          ${CTA_QUERY} 
+        }
       }
     },
     _type == "cta" => {
-      ...,
-      "page": page->["slug"]["current"]
+      ${CTA_QUERY}
     },
     _type == "imageCarousel" => {
       ...
     },
-    _type == "detailsBlock" => {
+    _type == "detailsItem" => {
       ...,
       details[]{
         ...,
         markDefs[]{
-          ...,
-          _type == "internalLink" => {
-            "slug": @.reference->slug
-          }
+          ${MARKS_QUERY}
+        },
+        _type == "cta" => {
+            ${CTA_QUERY}
         }
       }
     }
@@ -88,6 +94,13 @@ const NAV_QUERY = `*[_type == "page"] {
 
 const portableTextComponents = {
   types: {
+    cta: ({value}) => {
+      //console.log('CTA:',value)
+      const { html, css } = Cta.render({comp: value})
+      //console.log('CTA:',{html, css})
+      //let comp = `<CTA comp=${value}>`
+      return html
+    },
     image: ({value}) => {
       //console.log('image:',{value})
       const src =  getSanityImageUrl(value.asset).width(1440).url()
@@ -97,14 +110,33 @@ const portableTextComponents = {
       comp += `</figure>`
       return comp
     },
+    details: ({children, value}) => {
+      //console.log('types/details:',{value})
+      let comp = `<div class="collapse collapse-arrow">
+        <input type="radio" name="details" style="width:100%" /> 
+        <p class="collapse-title">
+          ${value.summary}
+        </p>
+        <div class="collapse-content text-sm"> 
+          ${toHTML(value.details, {
+            components: portableTextComponents,
+            onMissingComponent: (message, options) => {
+              console.log('onMissingComponent/details',{message}, {options})
+            }
+          })}
+        </div>
+      </div>`
+      //console.log('types/details:',{comp})
+      return comp
+    },
     unknownType: ({value}) => {
       console.log('unknownType',{value})
     }
   },
   marks: {
     internalLink: ({children, value}) => {
-      //console.log('internalLink:',{value})
-      let comp = `<a class="II" href="${value.slug.current}">${children}</a>`
+      let comp = `<a class="II" href="${value.slug?.current}">${children}</a>`
+      //console.log('internalLink:',{comp})
       return comp
     },
     externalLink: ({children, value}) => {
@@ -112,45 +144,61 @@ const portableTextComponents = {
       let comp = value.blanc ? `<a class="QQ" href="${value.href}" rel="external noopener" target="_blanc">${children}</a>` : `<a href="${value.href}">${children}</a>`
       return comp
     },
+
+  },
+  detailsItem: ({children, value}) => {
+    //console.log('detailsItem:',{children, value})
+    let comp = `<div class="collapse collapse-arrow">
+      <input type="radio" name="details" /> 
+      <p class="collapse-title">
+        ${value.summary}
+      </p>
+      <div class="collapse-content text-sm"> 
+        ${value.text}
+      </div>
+    </div>`
+    return comp
   }
 }
 
 const sorting = (pages) => {
   for (const p of pages || []) {
-    for (const s of p.sections || []) {
-      //console.log(s)
-      if (s.image) {
-        s.image.src = getSanityImageUrl(s.image).width(1440).url()
-        //console.log(s.image)
+    for (const sect of p.sections || []) {
+      //console.log(sect)
+      if (sect.image) {
+        sect.image.src = getSanityImageUrl(sect.image).width(1440).url()
+        //console.log(sect.image)
       }
-      if (s._type == 'imageCarousel') {
-        //console.log(s)
-        for (const i of s.images || []) {
+      if (sect._type == 'imageCarousel') {
+        //console.log(sect)
+        for (const i of sect.images || []) {
           i.src = getSanityImageUrl(i).width(1440).url()
         }
       }
-      if (s._type == 'textBlock') {
-        s.text = toHTML(s.content, {
+      if (sect._type == 'textBlock') {
+        sect.text = toHTML(sect.content, {
           components: portableTextComponents,
           onMissingComponent: (message, options) => {
-            console.log('onMissingComponent',{message}, {options})
+            console.log('onMissingComponent/text',{message}, {options})
           }
         })
       }
-      if (s._type == 'detailsBlock') {
-        s.text = toHTML(s.details, {
+      if (sect._type == 'detailsItem') {
+        //console.log(sect)
+        sect.text = toHTML(sect.details, {
           components: portableTextComponents,
           onMissingComponent: (message, options) => {
-            console.log('onMissingComponent',{message}, {options})
+            console.log('onMissingComponent/details',{message}, {options})
           }
         })
+        //console.log(sect)
       }
-      if (s._type == 'heroBlock') {
-        s.slide = true
-        //console.log(s)
+      if (sect._type == 'heroBlock') {
+        sect.slide = true
+        //console.log(sect)
       }
-      if (s._type == 'ctaBlock') {
-        s.slide = true
+      if (sect._type == 'ctaBlock') {
+        sect.slide = true
       }
     }
   }
@@ -166,9 +214,9 @@ export const load = async ({ params, url, route/*, fetch*/ }) => {
 
   const slug = () => {
     const p = params.path || 'index'
-    console.log(p)
+    //console.log(p)
     const i = p.indexOf('/') + 1
-    console.log(p.slice(i))
+    //console.log(p.slice(i))
     return p.slice(i)
   }
   const page = pages.find(p => p.slug == slug())
@@ -183,7 +231,7 @@ export const load = async ({ params, url, route/*, fetch*/ }) => {
     published: true,
     title: 'UroDapter® – Replacing Catheter in the Field of Bladder Instillation',
     keywords: 'instillation, urological adapter, bladder treatment, urethra treatment, pain-free, catheter replacement',
-    description: 'The UroDapter® urological adapter replaces catheter. It enables painless and complication-free bladder treatment for several lower urinary tract diseases.',
+    description: 'The UroDapter® urological adapter replaces catheter. It enables painless and complication-free bladder treatment for several lower urinary tract diseasesect.',
     menutitle: 'UroDapter®',
     subpage: subpage,
     sections: [],

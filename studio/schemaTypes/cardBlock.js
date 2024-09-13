@@ -1,32 +1,29 @@
 import { defineType, defineField, defineArrayMember } from 'sanity'
 
-export const page = defineType({
-  type: "document",
-  name: "page",
-  title: "Page",
+export const cardBlock = defineType({
+  type: "object",
+  name: "cardBlock",
+  title: "Card block",
   fields: [
     defineField({
       type: "string",
       name: "title",
+      title: "Headline"
     }),
     defineField({
       type: "string",
       name: "subtitle",
-      title: "Description",
+      title: "Description"
     }),
     defineField({
-      type: "slug",
-      name: "slug",
-      validation: (Rule) => Rule.required(),
-      options: {
-        source: "title",
-        maxLength: 96,
-      },
+      type: "boolean",
+      name: "slide",
+      title: "Carousel?",
     }),
     defineField({
       type: "array",
       name: "sections",
-      title: "Page Blocks",
+      title: "Card Blocks",
       of: [
         defineArrayMember({
           type: "heroBlock",
@@ -39,36 +36,35 @@ export const page = defineType({
           type: "detailsItem",
           title: "Accordion List Item",
         }),
-        /*defineArrayMember({
+        defineArrayMember({
           type: "cta",
           title: "CTA"
-        }),*/
-        defineArrayMember({
-          type: "cardBlock",
-          title: "Card Block"
         }),
-        /*defineArrayMember({
-          type: "ctaBlock",
-          title: "CTA Block"
-        }),*/
-        /*defineArrayMember({
+        defineArrayMember({
           type: "imageCarousel",
           title: "Images",
-        }),*/
+        }),
       ],
     }),
+    defineField({
+      type: "string",
+      name: "caption",
+    }),
   ],
+  initialValue: {
+    slide: true
+  },
   preview: {
     select: {
       title: 'title',
       subtitle: 'subtitle',
-      slug: 'slug.current',
+      ctas: 'ctas'
     },
     prepare(selection) {
-      const {title, subtitle, slug} = selection
+      const {title, subtitle, ctas} = selection
       return {
-        title: subtitle || title || 'Page',
-        subtitle: slug
+        title: title || `${ctas?.length} CTAs`,
+        subtitle: subtitle || `${ctas?.length} CTAs`
       }
     }
   }

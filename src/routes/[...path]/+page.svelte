@@ -22,81 +22,80 @@
   //$: console.log({post})
 </script>
 
-<main>
-  <!--{#if $state && !!$state.id}-->
-  {#if !!post.hero}
-    
-    <!--<header id="header" class="full" style="{post.hero.background ? post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">-->
-    <!--<header id="header" class="-full" style="background-image: url({post.hero.image?.src})" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">-->
-    <header id="header" class="-full" style="{post.hero.image ? `background-image: url(${post.hero.image.src})` : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
+<!--{#if $state && !!$state.id}-->
+{#if !!post.hero}
+  
+  <!--<header id="header" class="full" style="{post.hero.background ? post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">-->
+  <!--<header id="header" class="-full" style="background-image: url({post.hero.image?.src})" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">-->
+  <header id="header" class="-full" style="{post.hero.image ? `background-image: url(${post.hero.image.src})` : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
 
-      {#if post.herotitle && post.herotitle != ''}
-        <h1>{post.herotitle}</h1>
-        {#if post.hero.subtitle}
-          <h2>{post.hero.subtitle}</h2>
-        {/if}
-      {:else if post.hero.title}<!-- && $state.post.title != '' -->
-        <h1>{post.hero.title}</h1>
-        {#if post.hero.subtitle}
-          <h2>{post.hero.subtitle}</h2>
-        {/if}
+    {#if post.herotitle && post.herotitle != ''}
+      <h1>{post.herotitle}</h1>
+      {#if post.hero.subtitle}
+        <h2>{post.hero.subtitle}</h2>
       {/if}
+    {:else if post.hero.title}<!-- && $state.post.title != '' -->
+      <h1>{post.hero.title}</h1>
+      {#if post.hero.subtitle}
+        <h2>{post.hero.subtitle}</h2>
+      {/if}
+    {/if}
 
-      {#if post.hero.ctas}
-        {@const comp = {_type: 'ctaBlock', ctas: post.hero.ctas, slide: true}}
+    {#if post.hero.ctas}
+      {@const comp = {_type: 'ctaBlock', ctas: post.hero.ctas, slide: true}}
+      <Components {comp}/>
+    {/if}
+
+    {#if post.subhero}
+      {#each post.subhero.components || [] as comp}
         <Components {comp}/>
-      {/if}
+      {/each}
+    {/if}
 
-      {#if post.subhero}
-        {#each post.subhero.components || [] as comp}
-          <Components {comp}/>
-        {/each}
-      {/if}
+    <!--{#if subs && !post.hidesubs}-->
+    {#if $state.post.subpages && !$state.post.hidesubs}
+      <nav>
+        <ul>
+          <!--{#each subs as sub}-->
+          {#each $state.post.subpages as sub}
+            <li class:active={post.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
+          {/each}
+        </ul>
+      </nav>
+    {/if}
 
-      <!--{#if subs && !post.hidesubs}-->
-      {#if $state.post.subpages && !$state.post.hidesubs}
-        <nav>
-          <ul>
-            <!--{#each subs as sub}-->
-            {#each $state.post.subpages as sub}
-              <li class:active={post.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
-            {/each}
-          </ul>
-        </nav>
+  </header>
+{:else}
+  <header id="header" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
+    
+    {#if $state.post.title != ''}
+      <h1>{$state.post.title}</h1>
+      {#if $state.post.subtitle}
+        <h2>{$state.post.subtitle}</h2>
       {/if}
-
-    </header>
-  {:else}
-    <header id="header" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
-      
-      {#if $state.post.title != ''}
-        <h1>{$state.post.title}</h1>
-        {#if $state.post.subtitle}
-          <h2>{$state.post.subtitle}</h2>
-        {/if}
-      {/if}
+    {/if}
 <!--
-      {#if post.subhero}
-        {#each post.subhero.components || [] as comp}
-          <Components {comp}/>
-        {/each}
-      {/if}
+    {#if post.subhero}
+      {#each post.subhero.components || [] as comp}
+        <Components {comp}/>
+      {/each}
+    {/if}
 -->
 <!--
-      {#if $state.post.subpages && !$state.post.hidesubs}
-        <nav>
-          <ul>
-            {#each $state.post.subpages as sub}
-              <li class:active={post.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
-            {/each}
-          </ul>
-        </nav>
-      {/if}
+    {#if $state.post.subpages && !$state.post.hidesubs}
+      <nav>
+        <ul>
+          {#each $state.post.subpages as sub}
+            <li class:active={post.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
+          {/each}
+        </ul>
+      </nav>
+    {/if}
 -->
-    </header>
-  {/if}
+  </header>
+{/if}
 
-  <div id="content"></div>
+<main id="content">
 
   <!--{#if !!post.hero}
     <h2>{post.title}</h2>
@@ -153,6 +152,7 @@
   header {
     padding-top: 12rem;
     padding-bottom: 1rem;
+    margin-bottom: var(--gap2);
   }
   header.full {
     padding-block: 3rem;

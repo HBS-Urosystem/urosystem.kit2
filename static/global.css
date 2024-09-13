@@ -147,7 +147,7 @@ main > div > article {
   padding: var(--gap) var(--sides);
 }
 article > div, article > details, aside > div, figcaption {
-  max-width: 56ch;
+  max-width: 64ch;
   margin: 0 auto;
   padding: 0;
 }

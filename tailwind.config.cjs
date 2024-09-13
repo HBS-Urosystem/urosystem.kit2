@@ -18,7 +18,7 @@ const config = {
     logs: false,
     rtl: false,
     prefix: "",
-    darkTheme: "dark",
+    //darkTheme: "dark",
   },
 };
 
