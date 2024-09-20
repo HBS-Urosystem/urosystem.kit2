@@ -25,6 +25,10 @@
     margin-inline: auto;
     margin-block: var(--gap);
     /*overflow-x: visible;*/
+    border-radius: 0;
+    border-top: black 1px solid;
+    border-left: black 1px solid;
+    border-top-left-radius: 1rem;
   }
   .collapse-title {
     margin-block: 0;

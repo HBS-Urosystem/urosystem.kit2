@@ -2,7 +2,7 @@
   import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import SubPage from '$lib/SubPage.svelte'
-  import { getSanityImageUrl/*, formatBlogPostDate*/ } from '$lib/sanity/helpers.js'
+  //import { getSanityImageUrl/*, formatBlogPostDate*/ } from '$lib/sanity/helpers.js'
   //import { onMount } from 'svelte';
   //import * as scroller from "svelte-scrollto"
   //import { amp, browser, dev, prerendering } from '$app/env'
@@ -25,9 +25,8 @@
 <!--{#if $state && !!$state.id}-->
 {#if !!post.hero}
   
-  <!--<header id="header" class="full" style="{post.hero.background ? post.hero.background : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">-->
-  <!--<header id="header" class="-full" style="background-image: url({post.hero.image?.src})" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">-->
-  <header id="header" class="-full" style="{post.hero.image ? `background-image: url(${post.hero.image.src})` : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
+  <!--<header id="header" class="-full" style="{post.hero.image ? `background-image: url(${post.hero.image.src})` : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">-->
+  <header id="header" class="-full" style={post.hero.image ? `background-image: url(${post.hero.image.src})` : `background-image: url(/intro_loop_seq.apng); background-size: auto`} on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
 
     {#if post.herotitle && post.herotitle != ''}
       <h1>{post.herotitle}</h1>
@@ -145,7 +144,7 @@
 <!--{/if}-->
 </main>
 <!--{#if $sitelang == 'en' && $state.thislang.id == 'en'}-->
-<a hidden aria-hidden="true" rel="redirect" href="/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}">&nbsp;</a>
+<!--<a hidden aria-hidden="true" rel="redirect" href="/{!!$state.post.subpage && $state.post.slug !== '.' ? $state.post.path : ($state.post.path || '')}">&nbsp;</a>-->
 <!--{/if}-->
 
 <style>

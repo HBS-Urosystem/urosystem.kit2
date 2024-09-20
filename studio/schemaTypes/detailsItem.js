@@ -69,6 +69,14 @@ export const detailsItem = defineType({
         defineArrayMember({
           type: "cta",
         }),
+        /*defineArrayMember({
+          type: "cardBlock",
+          title: "Card Block"
+        }),*/
+        defineArrayMember({
+          type: "slider",
+          title: "Slider"
+        }),
       ],
     }),
   ],

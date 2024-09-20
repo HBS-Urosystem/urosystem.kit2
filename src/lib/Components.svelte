@@ -4,6 +4,7 @@
   import Images from '$lib/my/Images.svelte'
   import Grid from '$lib/my/Grid.svelte'
   import Card from '$lib/my/Card.svelte'
+  import Slider from '$lib/my/Slider.svelte'
   import Cta from '$lib/my/Cta.svelte'
   import BuyButton from '$lib/my/BuyButton.svelte'
   import Video from '$lib/my/Video.svelte'
@@ -29,7 +30,7 @@
 		cardBlock: Card,
 		ctaBlock: Grid,
 		cta: Cta,
-		cta: Cta,
+		slider: Slider,
 		//modal: Modal,
 		buy: BuyButton,
 		video: Video,

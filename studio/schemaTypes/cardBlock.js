@@ -1,4 +1,5 @@
 import { defineType, defineField, defineArrayMember } from 'sanity'
+import {BlockElementIcon} from '@sanity/icons'
 
 export const cardBlock = defineType({
   type: "object",
@@ -14,11 +15,6 @@ export const cardBlock = defineType({
       type: "string",
       name: "subtitle",
       title: "Description"
-    }),
-    defineField({
-      type: "boolean",
-      name: "slide",
-      title: "Carousel?",
     }),
     defineField({
       type: "array",
@@ -41,8 +37,8 @@ export const cardBlock = defineType({
           title: "CTA"
         }),
         defineArrayMember({
-          type: "imageCarousel",
-          title: "Images",
+          type: "slider",
+          title: "Slider",
         }),
       ],
     }),
@@ -51,9 +47,7 @@ export const cardBlock = defineType({
       name: "caption",
     }),
   ],
-  initialValue: {
-    slide: true
-  },
+  icon: BlockElementIcon,
   preview: {
     select: {
       title: 'title',
@@ -61,10 +55,11 @@ export const cardBlock = defineType({
       ctas: 'ctas'
     },
     prepare(selection) {
-      const {title, subtitle, ctas} = selection
+      const {title, subtitle, sections} = selection
       return {
-        title: title || `${ctas?.length} CTAs`,
-        subtitle: subtitle || `${ctas?.length} CTAs`
+        title: title && `${title} ${subtitle}` || subtitle && `${subtitle}`,
+        subtitle: 'Card',
+        media: BlockElementIcon
       }
     }
   }

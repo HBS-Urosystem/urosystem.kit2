@@ -2,7 +2,9 @@
 export const prerender = true
 //export const trailingSlash = 'never' // default
 
+import Card from '$lib/my/Card.svelte'
 import Details from '$lib/my/Details.svelte'
+import Slider from '$lib/my/Slider.svelte'
 import Cta from '$lib/my/Cta.svelte'
 import { getSanityImageUrl/*, formatBlogPostDate*/ } from '$lib/sanity/helpers.js'
 import {toHTML} from '@portabletext/to-html'
@@ -16,11 +18,39 @@ import { client } from "$lib/sanity/client"
 /** @type {import('./$types').LayoutServerLoad} */
 
 const CTA_QUERY = `...,
-  "page": page->slug.current`
+"page": page->slug.current`
+
 const MARKS_QUERY = `...,
 _type == "internalLink" => {
   "slug": @.reference->slug
+},`
+const TEXT_BLOCK = `...,
+content[]{
+  ...,
+  markDefs[]{
+    ${MARKS_QUERY}
+  },
 }`
+
+const SLIDER_QUERY = `...,
+sections[] {
+  ...,
+  _type == "cta" => { 
+    ${CTA_QUERY} 
+  }
+},`
+
+const DETAILS_QUERY = `...,
+details[]{
+  ...,
+  markDefs[]{
+    ${MARKS_QUERY}
+  },
+},
+_type == "cta" => {
+    ${CTA_QUERY}
+},`
+
 const CONTENT_QUERY = `*[_type == "page"] {
   ...,
   "id": slug["current"],
@@ -31,42 +61,54 @@ const CONTENT_QUERY = `*[_type == "page"] {
       ...
     },
     _type == "textBlock" => {
-      ...,
-      content[]{
-        ...,
-        markDefs[]{
-          ${MARKS_QUERY}
-        }
-      }
+      ${TEXT_BLOCK}
+    },
+    _type == "cta" => {
+      ${CTA_QUERY}
+    },
+    _type == "slider" => {
+      ${SLIDER_QUERY}
     },
     _type == "cardBlock" => {
       ...,
       sections[] {
         _type == "cta" => { 
           ${CTA_QUERY} 
-        }
+        },
+        _type == "slider" => {
+          ${SLIDER_QUERY} 
+        },
+        _type == "textBlock" => {
+          ${TEXT_BLOCK}
+        },
       }
-    },
-    _type == "cta" => {
-      ${CTA_QUERY}
-    },
-    _type == "imageCarousel" => {
-      ...
     },
     _type == "detailsItem" => {
       ...,
       details[]{
-        ...,
-        markDefs[]{
-          ${MARKS_QUERY}
-        },
-        _type == "cta" => {
-            ${CTA_QUERY}
-        }
+        ${DETAILS_QUERY}
       }
     }
   }
 }`  
+const CONFIG_QUERY = `*[_type == "config"] {
+  "footer": footer[] {
+    ...,
+    _type,
+    _type == "heroBlock" => {
+      ...
+    },
+    _type == "textBlock" => {
+      ${TEXT_BLOCK}
+    },
+    _type == "cta" => {
+      ${CTA_QUERY}
+    },
+    _type == "slider" => {
+      ${SLIDER_QUERY}
+    },
+  }
+}`
 const NAV_QUERY = `*[_type == "page"] {
   ...,
   sections[] {
@@ -97,58 +139,54 @@ const portableTextComponents = {
     cta: ({value}) => {
       //console.log('CTA:',value)
       const { html, css } = Cta.render({comp: value})
-      //console.log('CTA:',{html, css})
-      //let comp = `<CTA comp=${value}>`
+      return html
+    },
+    slider: ({value}) => {
+      //console.log('slider:',value)
+      const { html, css } = Slider.render({comp: value})
       return html
     },
     image: ({value}) => {
       //console.log('image:',{value})
       const src =  getSanityImageUrl(value.asset).width(1440).url()
-      let comp = `<figure>
+      let out = `<figure>
         <img src="${src}" alt="" />`
-      if (value.caption) comp += `<figcaption>${value.caption}</figcaption>`
-      comp += `</figure>`
-      return comp
+      if (value.caption) out += `<figcaption>${value.caption}</figcaption>`
+      out += `</figure>`
+      return out
     },
-    details: ({children, value}) => {
+    /*details: ({children, value}) => {
       //console.log('types/details:',{value})
-      let comp = `<div class="collapse collapse-arrow">
-        <input type="radio" name="details" style="width:100%" /> 
-        <p class="collapse-title">
-          ${value.summary}
-        </p>
-        <div class="collapse-content text-sm"> 
-          ${toHTML(value.details, {
-            components: portableTextComponents,
-            onMissingComponent: (message, options) => {
-              console.log('onMissingComponent/details',{message}, {options})
-            }
-          })}
-        </div>
-      </div>`
-      //console.log('types/details:',{comp})
-      return comp
-    },
+      const { html, css } = Details.render({comp: value})
+      return html
+    },*/
     unknownType: ({value}) => {
       console.log('unknownType',{value})
     }
   },
   marks: {
+    /*em: ({children, value}) => {
+      return `<i>${children}</i>`
+    },
+    strong: ({children, value}) => {
+      return `<b>${children}</b>`
+    },*/
+  
     internalLink: ({children, value}) => {
-      let comp = `<a class="II" href="${value.slug?.current}">${children}</a>`
+      let out = `<a class="IL" href="${value.slug?.current}">${children}</a>`
       //console.log('internalLink:',{comp})
-      return comp
+      return out
     },
     externalLink: ({children, value}) => {
       //console.log('externalLink:',{value})
-      let comp = value.blanc ? `<a class="QQ" href="${value.href}" rel="external noopener" target="_blanc">${children}</a>` : `<a href="${value.href}">${children}</a>`
-      return comp
+      let out = value.blank ? `<a class="EL" href="${value.href}" rel="external noopener" target="_blanc">${children}</a>` : `<a href="${value.href}">${children}</a>`
+      return out
     },
 
   },
-  detailsItem: ({children, value}) => {
+  /*detailsItem: ({children, value}) => {
     //console.log('detailsItem:',{children, value})
-    let comp = `<div class="collapse collapse-arrow">
+    let out = `<div class="detailsItem collapse collapse-arrow">
       <input type="radio" name="details" /> 
       <p class="collapse-title">
         ${value.summary}
@@ -157,8 +195,8 @@ const portableTextComponents = {
         ${value.text}
       </div>
     </div>`
-    return comp
-  }
+    return out
+  }*/
 }
 
 const sorting = (pages) => {
@@ -183,6 +221,18 @@ const sorting = (pages) => {
           }
         })
       }
+      if (sect._type == 'cardBlock') {
+        for (const s of sect.sections || []) {
+          if (s._type == 'textBlock') {
+            s.text = toHTML(s.content, {
+              components: portableTextComponents,
+              onMissingComponent: (message, options) => {
+                console.log('onMissingComponent/text',{message}, {options})
+              }
+            })
+          }
+        }
+      }
       if (sect._type == 'detailsItem') {
         //console.log(sect)
         sect.text = toHTML(sect.details, {
@@ -197,18 +247,24 @@ const sorting = (pages) => {
         sect.slide = true
         //console.log(sect)
       }
-      if (sect._type == 'ctaBlock') {
-        sect.slide = true
-      }
+      //if (sect._type == 'slider') {
+      //  sect.slide = true
+      //}
     }
   }
   return pages
 }
 
-let pages
+
+
+let config, pages
 export const load = async ({ params, url, route/*, fetch*/ }) => {
   //console.log(params, url, route)
 
+  const c = /*config ||*/ await client.fetch(CONFIG_QUERY)//.then(([c]) => sorting([c]))
+  //console.log('+layout.server.js',c[0]/*.footer*/)
+  config = c[0]
+  
   pages = /*pages ||*/ await client.fetch(CONTENT_QUERY).then((p) => sorting(p))
   //console.log({pages})
 
@@ -250,5 +306,5 @@ export const load = async ({ params, url, route/*, fetch*/ }) => {
   }
 
   //console.log({post})
-  return {post, thislang}
+  return {config, post, thislang}
 }

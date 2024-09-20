@@ -47,10 +47,10 @@ export const page = defineType({
           type: "cardBlock",
           title: "Card Block"
         }),
-        /*defineArrayMember({
-          type: "ctaBlock",
-          title: "CTA Block"
-        }),*/
+        defineArrayMember({
+          type: "slider",
+          title: "Slider"
+        }),
         /*defineArrayMember({
           type: "imageCarousel",
           title: "Images",
@@ -67,7 +67,7 @@ export const page = defineType({
     prepare(selection) {
       const {title, subtitle, slug} = selection
       return {
-        title: subtitle || title || 'Page',
+        title: `${title} ${subtitle}` || 'Page',
         subtitle: slug
       }
     }

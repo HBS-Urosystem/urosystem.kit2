@@ -22,6 +22,19 @@
     document.querySelector('html').dir = $state.thislang.dir
     //console.log($state.post.id.indexOf('index'))
 	});
+
+  /*let src = []
+  for (let i = 0; i <= 235; i++) {
+    let num = i;
+    if (num < 10) {
+        num = '00' + i;
+    } else if (num < 100) {
+        num = '0' + i;
+    }
+
+    const name = `intro_loop_${num}.png`
+    src[i] = `https://app.urodapter.com/img/intro/seq/${name}`
+  }*/
 </script>
 
 <svelte:head>
@@ -150,6 +163,10 @@
     </style>
   {/if}
 </svelte:head>
+
+<!--{#each src as s}
+  <img src={s}>
+{/each}-->
 
 <!--<Nav/>-->
 {#if data.post.id}

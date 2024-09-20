@@ -3,13 +3,14 @@
   //console.log({sitelang})
   export let comp//, lang
   let rel, target, link, scrollto = false
-  //console.log(comp.lang, $sitelang)
+  //console.log('Cta2', comp)
   $: {
     //console.log('1',/*scrollto,*/ comp.link)
     if (comp.page) {
-      link = '/' + $sitelang + '/' + comp.page
+      if (comp.page == 'index') comp.page = ''
+      link = '/' /*+ $sitelang + '/'*/ + comp.page
     } else if (comp.link && comp.link.startsWith('/')) {
-      link = '/' + $sitelang + (comp.link == '/index' ? '' : comp.link)
+      link = '/' + /*$sitelang + */ (comp.link == '/index' ? '' : comp.link)
       //scrollto = false
     } else if (comp.link && comp.link.startsWith('http')) {
       rel = 'noopener'
@@ -18,12 +19,12 @@
     } else if (comp.link && comp.link.startsWith('#')) {
       link = scrollto = comp.link
     } else {
-      if (comp.link == '/' || !comp.link) {
-        comp.link = ''
+      if (comp.link == '/' || comp.link == 'index' || !comp.link) {
+        link = '/'
       } else {
-        comp.link = '/' + comp.link
+        link = '/' + comp.link
       }
-      link = '/' + $sitelang + comp.link //+ (scrollto || '')
+      //link = '/' + $sitelang + comp.link //+ (scrollto || '')
     }
     //if (comp.page) console.log('CTA',comp) 
   }
@@ -47,17 +48,17 @@
 <!--</aside>-->
 
 <style>
-  * {
+  :empty {
     margin: 0;
   }
   /*button {
     margin-block: 0;
   }*/
-  div {
+  /*div {
     text-align: center;
-    /*margin-bottom: 3.75em;
-    margin-top: 2.5rem;*/
-  }
+    margin-bottom: 3.75em;
+    margin-top: 2.5rem;
+  }*/
   a {
     text-decoration: none;
     display: block;

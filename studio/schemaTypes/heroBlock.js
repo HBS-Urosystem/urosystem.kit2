@@ -1,4 +1,5 @@
 import { defineType, defineField, defineArrayMember } from 'sanity'
+import {SparklesIcon} from '@sanity/icons'
 
 export const heroBlock = defineType({
   type: "object",
@@ -31,6 +32,7 @@ export const heroBlock = defineType({
       ],
     }),
   ],
+  icon: SparklesIcon,
   preview: {
     select: {
       title: 'title',
@@ -39,8 +41,9 @@ export const heroBlock = defineType({
     prepare(selection) {
       const {title, subtitle} = selection
       return {
-        title: title || 'Hero Block',
-        subtitle: subtitle || 'Hero Block'
+        subtitle: 'Hero Block',
+        title: `${title} ${subtitle}` || 'Hero Block',
+        media: SparklesIcon
       }
     }
   }

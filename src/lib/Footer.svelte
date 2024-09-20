@@ -1,23 +1,47 @@
 <script context="module">
 	import { state, sitelang, variables } from '$lib/stores'
   const _site = variables.site
-  //import {footnav} from '$lib/config'
-  //import {findPost} from '$lib/config'
-  //import {findPosts} from '$lib/config'
-  import SubNav from '$lib/SubNav.svelte'
+  import Article from '$lib/my/Article.svelte'
+  import Slider from '$lib/my/Slider.svelte'
+  import Cta2 from '$lib/my/Cta2.svelte'
+  import BuyButton from '$lib/my/BuyButton.svelte'
+  import Details from '$lib/my/Details.svelte'
+  import Video from '$lib/my/Video.svelte'
+  const options = {
+		article: Article,
+		slider: Slider,
+		cta: Cta2,
+		buy: BuyButton,
+		video: Video,
+    detailsItem: Details,
+	};
 </script>
 <script>
+  //console.log('Footer', $state.config?.footer)
   //$: langs = $state.langs
-  $: footnav = $state.footnav
+  const comp = $state.config.footer
   const dir = $state.thislang.dir
 	//import { stores } from '@sapper/app';
 	//const { page } = stores()
 	//import { lang } from '$lib/stores'
   let post, sublinks
+
+  //console.log({comp})
+
+  //export let comp//, lang
+  //const lang = comp.lang
 </script>
 
-<footer>
-  <!--<aside style="">--><h2>Learn more…</h2> <h3>about the new therapy of lower urinary tract conditions</h3> <section class="car--ousel slide grid grid-rows-4 grid-flow-col gap-8" style="--cols: 4; grid-template-rows: auto auto auto auto;"><h4>UroDapter®</h4> <h5>Urological syringe adapter that completely replaces the catheter</h5> <a class="carousel---item text-center" href="/en/index"><button tabindex="-1"> Introduction</button></a> <p></p><!--<Cta2>--><h4>Indications</h4> <h5>The UroDapter ® is applicable in a wide range of conditions requiring intravesical instillation</h5> <a class="carousel---item" href="/en/indications"><button tabindex="-1"> Indications</button></a> <p></p><!--<Cta2>--><h4>Resources</h4> <h5></h5> <a class="carousel---item" href="/en/resource"><button tabindex="-1"> Resources</button></a> <p></p><!--<Cta2>--><h4>Fun Fact</h4> <h5></h5> <a class="carousel---item" href="https://chatgpt.com/share/4c337c1e-6585-4f55-9553-127bdd4c8888" rel="noopener" target="_blank"><button tabindex="-1"> Fun Fact</button></a> <p></p><!--<Cta2>--></section> <h3>← scroll →</h3><!--</aside>-->
+<footer style="{comp.background ? comp.background : ``}">
+  <!--{#if comp.title}<h2>{comp.title}</h2>{/if}
+  {#if comp.subtitle}<h3>{comp.subtitle}</h3>{/if}-->
+
+  {#each comp || [] as c}
+    <svelte:component this={options[c._type]} comp={c}/>
+  {/each}
+
+  <!--{#if comp.caption}<h3>{comp.caption}</h3>{/if}-->
+
   <div>
     {#if $sitelang == 'hu' && _site == '_us'}
       <a href="/hu/company#ginop" aria-label="ginop"><img loading="lazy" src="/uploads/ginop.png" alt="GINOP pályázat" style="width:20ch;display:block;"/></a>
@@ -27,9 +51,9 @@
       <a href="/hu/company#nkfi" aria-label="nkfi"><img loading="lazy" src="/uploads/nkfi.png" alt="NKFI pályázat" style="width:20ch;display:block;"/></a>
     {/if}
   </div>
- <!-- <nav>
+  <!-- <nav>
     <ul>
-      {#each footnav as nav}
+      {#each footer as nav}
       <li>
         <h5><span>{nav.title}</span></h5>
         {#each nav.sublinks || [] as sub}
@@ -39,7 +63,7 @@
       {/each}
     </ul>
   </nav>-->
-  </footer>
+</footer>
 
 <style>
   section * {

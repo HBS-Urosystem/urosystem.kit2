@@ -1,4 +1,5 @@
 import { defineType, defineField, defineArrayMember } from 'sanity'
+import {BlockContentIcon} from '@sanity/icons'
 
 export const textBlock = defineType({
   type: "object",
@@ -75,6 +76,7 @@ export const textBlock = defineType({
       ],
     }),
   ],
+  icon: BlockContentIcon,
   preview: {
     select: {
       title: 'title',
@@ -83,8 +85,9 @@ export const textBlock = defineType({
     prepare(selection) {
       const {title, subtitle} = selection
       return {
-        title: title || 'Text Content',
-        subtitle: subtitle || 'Text Content'
+        title: title && `${title} ${subtitle}` || subtitle && `${subtitle}` || 'Text Content',
+        subtitle: 'Text Content',
+        media: BlockContentIcon
       }
     }
   }

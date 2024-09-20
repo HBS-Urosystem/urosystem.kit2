@@ -1,4 +1,5 @@
 import { defineType, defineField } from 'sanity'
+import {LaunchIcon} from '@sanity/icons'
 
 export const cta = defineType({
   type: "object",
@@ -36,7 +37,16 @@ export const cta = defineType({
       type: "string",
       name: "caption",
     }),
+    defineField({
+      type: "number",
+      name: "rows",
+      hidden: true
+    }),
   ],
+  initialValue: {
+    rows: 4
+  },
+  icon: LaunchIcon,
   preview: {
     select: {
       label: 'label',
@@ -47,7 +57,8 @@ export const cta = defineType({
       const {label, page, link} = selection
       return {
         title: page || link,
-        subtitle: label
+        subtitle: label,
+        media: LaunchIcon
       }
     }
   }

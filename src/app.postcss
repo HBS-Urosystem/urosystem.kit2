@@ -96,14 +96,17 @@ img, svg {
 
   --half: calc(var(--rem) / 2);
   --halfgap: calc(var(--rem) * 1.25);
-  --gap: calc(2.5 * var(--rem));
+  /*--gap: calc(2.5 * var(--rem));*/
+  --gap: max(5vw, calc(2.5 * var(--rem)));
   /*--gap: max(12.5vw - 5rem, 2.5rem);*/
   --gap2: calc(5 * var(--rem));
   --gap4: calc(10 * var(--rem));
 
   /*--sides: max(12.5vw - 5rem, .5rem);*/
   --sides: max(12.5vw - 5rem, .5rem);
-  --radius: max(10vw, 7rem);
+  /*--radius: max(10vw, 5rem);*/
+  --radius: max(10vw, calc(5 * var(--rem)));
+  --radius-2: max(5vw, 2.5rem);
 
   --marker: url(/uploads/open-right.svg);
   --marker-down: url(/uploads/open-down.svg);
@@ -162,6 +165,7 @@ main {
   border-bottom: var(--gap) var(--white) solid;
   /*max-width: 112ch;*/
   margin-inline: auto;
+  padding-inline: var(--sides);
 }
 
 header, main > aside, footer {
@@ -170,9 +174,9 @@ header, main > aside, footer {
   color: var(--white);
   padding: var(--gap);
 }
-main > aside, main > section {
+main > aside, main > section, main > .collapse {
   margin-bottom: var(--halfgap);
-  margin-inline: var(--sides);
+  /*margin-inline: var(--sides);*/
 
 }
 header {
@@ -192,15 +196,18 @@ main > aside {
 aside:has(.slide), footer:has(.slide) {
   padding-inline: 0;
 }
-aside .slide, footer .slide {
+:not(.collapse-content) > .slide {
+  padding-inline: var(--gap);
+}
+/*aside .slide, footer .slide {
   margin-inline: 0;
   max-width: 100%;
-}
+}*/
 
-.slide {
+/*.slide {
   scroll-snap-type: x mandatory;
   scroll-snap-stop: always;
-}
+}*/
 .slide > * {
   scroll-snap-align: center;
 }
@@ -274,7 +281,8 @@ main > section {
   justify-content: center;
 }
 aside section, footer section {
-  margin: var(--gap);
+  margin: var(--halfgap);
+  padding-block: var(--halfgap);
 }
 /*section:has(aside + aside) {
   justify-content:space-around;
@@ -461,9 +469,9 @@ option:checked {
 }*/
 
 /*TW fix*/
-button, [type='button'], [type='reset'], [type='submit'], .btn {
+/*button, [type='button'], [type='reset'], [type='submit'], .btn {
    background-color: var(--pale-blue); 
-}
+}*/
 
 button:hover, button:focus, .btn:hover, .btn:focus {
   background-color: var(--light-blue);
@@ -476,7 +484,8 @@ button img, .btn img {
 
 @media (max-width: 80ch) {
   button, .btn {
-    --gap2: 1rem
+    /*--gap2: 1rem;*/
+    --gap2: var(--halfgap);
   }
 }
 
@@ -596,7 +605,7 @@ article li > a:hover {
 }*/
 
 .collapse-content p {
-  margin: 0;
+  margin-bottom: 0;
 }
 
 summary {
