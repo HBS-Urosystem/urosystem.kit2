@@ -170,7 +170,7 @@ const portableTextComponents = {
     video: ({value}) => {
       const i = value.file.lastIndexOf('.') + 1
       value.ext = value.file.slice(i)
-      console.log(value)
+      //console.log(value)
     //console.log('text/video:',value)
       const { html, css } = Video.render({comp: value})
       return html
