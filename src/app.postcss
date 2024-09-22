@@ -435,19 +435,6 @@ textarea {
   color: inherit;
   font-size: inherit;
 }
-button, .btn {
-  cursor: pointer;
-  vertical-align: baseline;
-  font-family: inherit;
-  font-size: inherit;
-  border: none;
-  border-radius: 1.75rem;
-  padding: 0 var(--gap);
-  line-height: 2.5rem;
-  background-color: var(--pale-blue);
-  color: black;
-  white-space: nowrap;
-}
 
 /*select {
   appearance: none;
@@ -473,9 +460,25 @@ option:checked {
    background-color: var(--pale-blue); 
 }*/
 
+button, .btn {
+  cursor: pointer;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  border-radius: 1.75rem;
+  padding: 0 var(--gap);
+  line-height: 2.5rem;
+  background-color: var(--pale-blue);
+  color: black;
+  white-space: nowrap;
+  margin: var(--rem);
+}
+
 button:hover, button:focus, .btn:hover, .btn:focus {
   background-color: var(--light-blue);
   transition: background-color 350ms ease;
+  color: var(--white);
 }
 button img, .btn img {
   width: 1.75rem;
@@ -497,10 +500,10 @@ main p, main ul, main ol, main dl, main table/*, footer + aside p*/ {
   margin: 1em 0;
 }
 
-:first-child, input:first-child + * {
+:not(button):first-child, input:first-child + :not(button) {
   margin-top: 0;
 }
-:last-child, :has(~aside) {
+:not(button):last-child, :has(~aside) {
   margin-bottom: 0;
 }
 

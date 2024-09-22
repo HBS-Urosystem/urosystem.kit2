@@ -25,12 +25,13 @@
 		//b2bmail: B2Bmail,
 		//acmail: ACmail,
 		//images: Images,
-		imageCarousel: Images,
+		//imageCarousel: Images,
 		grid: Grid,
 		cardBlock: Card,
 		ctaBlock: Grid,
 		cta: Cta,
 		slider: Slider,
+		video: Video,
 		//modal: Modal,
 		buy: BuyButton,
 		video: Video,
@@ -65,7 +66,13 @@
   //$: console.log({comp})
 </script>
 
-<svelte:component this={options[comp._type]} {comp}/>
+{#if comp._type == 'video'}
+  <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
+    <svelte:component this={options[comp._type]} {comp}/>
+  </article>
+{:else}
+  <svelte:component this={options[comp._type]} {comp}/>
+{/if}
 
 <!--{#key comp.link}-->
 <!--{#if comp.link}-->

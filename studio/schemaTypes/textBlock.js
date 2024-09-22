@@ -71,6 +71,9 @@ export const textBlock = defineType({
           options: { hotspot: true },
         }),
         defineArrayMember({
+          type: "video",
+        }),
+        defineArrayMember({
           type: "cta",
         }),
       ],

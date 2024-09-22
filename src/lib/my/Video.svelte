@@ -1,13 +1,21 @@
 <script>
   export let comp//, lang
+  //let video
 	//import { moved } from '$lib/stores'
+  //console.log('VIDEO:',{comp})
 </script>
 
-<article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
   {#if comp.title}<h2>{comp.title}</h2>{/if}
-  {#if comp.subhead}<h3>{comp.subhead}</h3>{/if}
-  {#if comp.cat}<h4>{comp.cat}</h4>{/if}
+  {#if comp.subtitle}<h3>{comp.subtitle}</h3>{/if}
+  <!--{#if comp.cat}<h4>{comp.cat}</h4>{/if}-->
     <!--{#if $moved}-->
+    {#if comp.file}
+      <!-- svelte-ignore a11y-media-has-caption -->
+      <video preload="metadata" title="{comp.title || comp.anchor || 'video'}" poster={comp.poster} width="100%" controls c={comp.controls} controlsList="nodownload" autoplay={comp.autoplay}>
+        <source src="{comp.file}" type={`video/${comp.ext}`}>
+      </video>
+    {/if}
+
     {#if comp.source == 'youtube'}
     <div>
       <iframe loading="lazy" title="{comp.title || comp.anchor || 'video'}" width="100%" height="315" src="https://www.youtube-nocookie.com/embed/{comp.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -30,9 +38,11 @@
     {/if}
     <!--{/if}-->
   {#if comp.text}{@html comp.text}{/if}
-</article>
 
 <style>
+  video {
+    cursor: pointer;
+  }
   article {
     text-align: center;
     display: flex;

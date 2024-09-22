@@ -17,7 +17,7 @@
   //if (comp._key == 'abab22bb14aa') console.log('Slider', comp.sections)
 
   let carous = {}
-  $: console.log(carous.scrollLeft)
+  //$: console.log(carous.scrollLeft)
 </script>
 
   <h4 class="text-center">{comp.title || ''}</h4>

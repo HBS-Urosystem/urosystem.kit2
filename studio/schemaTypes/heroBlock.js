@@ -8,7 +8,7 @@ export const heroBlock = defineType({
     defineField({
       type: "string",
       name: "title",
-      title: "Headline",
+      title: "Hero Headline",
     }),
     defineField({
       type: "string",

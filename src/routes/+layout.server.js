@@ -5,7 +5,8 @@ export const prerender = true
 import Card from '$lib/my/Card.svelte'
 import Details from '$lib/my/Details.svelte'
 import Slider from '$lib/my/Slider.svelte'
-import Cta from '$lib/my/Cta.svelte'
+import Video from '$lib/my/Video.svelte'
+import Cta from '$lib/my/Cta2.svelte'
 import { getSanityImageUrl/*, formatBlogPostDate*/ } from '$lib/sanity/helpers.js'
 import {toHTML} from '@portabletext/to-html'
 
@@ -20,15 +21,25 @@ import { client } from "$lib/sanity/client"
 const CTA_QUERY = `...,
 "page": page->slug.current`
 
+const VIDEO_QUERY = `...,
+"file": file.asset->url,
+"poster": poster.asset->url
+`
+
 const MARKS_QUERY = `...,
 _type == "internalLink" => {
   "slug": @.reference->slug
-},`
+},
+`
 const TEXT_BLOCK = `...,
 content[]{
   ...,
   markDefs[]{
     ${MARKS_QUERY}
+  },
+  _type == "video" => {
+    "file": @.file.asset->url,
+    "poster": @.poster.asset->url,
   },
 }`
 
@@ -46,10 +57,14 @@ details[]{
   markDefs[]{
     ${MARKS_QUERY}
   },
-},
-_type == "cta" => {
+  _type,
+  _type == "cta" => {
     ${CTA_QUERY}
-},`
+  },
+  _type == "video" => {
+    ${VIDEO_QUERY}
+  },
+}`
 
 const CONTENT_QUERY = `*[_type == "page"] {
   ...,
@@ -69,6 +84,15 @@ const CONTENT_QUERY = `*[_type == "page"] {
     _type == "slider" => {
       ${SLIDER_QUERY}
     },
+    _type == "video" => {
+      ${VIDEO_QUERY}
+    },
+    _type == "detailsItem" => {
+      ...,
+      details[]{
+        ${DETAILS_QUERY}
+      }
+    },
     _type == "cardBlock" => {
       ...,
       sections[] {
@@ -81,14 +105,11 @@ const CONTENT_QUERY = `*[_type == "page"] {
         _type == "textBlock" => {
           ${TEXT_BLOCK}
         },
+        _type == "video" => {
+          ${VIDEO_QUERY}
+        },
       }
     },
-    _type == "detailsItem" => {
-      ...,
-      details[]{
-        ${DETAILS_QUERY}
-      }
-    }
   }
 }`  
 const CONFIG_QUERY = `*[_type == "config"] {
@@ -146,6 +167,14 @@ const portableTextComponents = {
       const { html, css } = Slider.render({comp: value})
       return html
     },
+    video: ({value}) => {
+      const i = value.file.lastIndexOf('.') + 1
+      value.ext = value.file.slice(i)
+      console.log(value)
+    //console.log('text/video:',value)
+      const { html, css } = Video.render({comp: value})
+      return html
+    },
     image: ({value}) => {
       //console.log('image:',{value})
       const src =  getSanityImageUrl(value.asset).width(1440).url()
@@ -182,6 +211,11 @@ const portableTextComponents = {
       let out = value.blank ? `<a class="EL" href="${value.href}" rel="external noopener" target="_blanc">${children}</a>` : `<a href="${value.href}">${children}</a>`
       return out
     },
+    /*video: ({value}) => {
+      console.log('video:',value)
+      const { html, css } = Video.render({comp: value})
+      return html
+    },*/
 
   },
   /*detailsItem: ({children, value}) => {
@@ -201,18 +235,23 @@ const portableTextComponents = {
 
 const sorting = (pages) => {
   for (const p of pages || []) {
+    //if (p.slug == 'index') console.log(p.sections)
     for (const sect of p.sections || []) {
-      //console.log(sect)
+      if (sect._type == 'video') {
+        const i = sect.file.lastIndexOf('.') + 1
+        sect.ext = sect.file.slice(i)
+        //console.log(sect)
+      }
       if (sect.image) {
         sect.image.src = getSanityImageUrl(sect.image).width(1440).url()
         //console.log(sect.image)
       }
-      if (sect._type == 'imageCarousel') {
+      /*if (sect._type == 'imageCarousel') {
         //console.log(sect)
         for (const i of sect.images || []) {
           i.src = getSanityImageUrl(i).width(1440).url()
         }
-      }
+      }*/
       if (sect._type == 'textBlock') {
         sect.text = toHTML(sect.content, {
           components: portableTextComponents,
@@ -281,8 +320,8 @@ export const load = async ({ params, url, route/*, fetch*/ }) => {
 
   const subpage = null
   const post = {
-    id: 'index',
-    slug: 'en',
+    //id: 'index',
+    //slug: 'en',
     fallback: '',
     published: true,
     title: 'UroDapter® – Replacing Catheter in the Field of Bladder Instillation',

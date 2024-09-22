@@ -1,6 +1,7 @@
 <script context="module">
   import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
   import Components from '$lib/Components.svelte'
+  import Slider from '$lib/my/Slider.svelte'
   import SubPage from '$lib/SubPage.svelte'
   //import { getSanityImageUrl/*, formatBlogPostDate*/ } from '$lib/sanity/helpers.js'
   //import { onMount } from 'svelte';
@@ -41,8 +42,8 @@
     {/if}
 
     {#if post.hero.ctas}
-      {@const comp = {_type: 'ctaBlock', ctas: post.hero.ctas, slide: true}}
-      <Components {comp}/>
+      {@const comp = {sections: post.hero.ctas}}
+      <Slider {comp}/>
     {/if}
 
     {#if post.subhero}

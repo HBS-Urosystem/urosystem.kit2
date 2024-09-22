@@ -39,6 +39,10 @@ export const page = defineType({
           type: "detailsItem",
           title: "Accordion List Item",
         }),
+        defineArrayMember({
+          type: "video",
+          title: "Video"
+        }),
         /*defineArrayMember({
           type: "cta",
           title: "CTA"

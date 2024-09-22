@@ -6,7 +6,7 @@ import { cta } from "./cta";
 import { cardBlock } from "./cardBlock";
 import { config } from "./config";
 import { slider } from "./slider";
-import { imageCarousel } from "./imageCarousel";
+import { video } from "./video";
 
 export const schemaTypes = [
   page,
@@ -15,7 +15,7 @@ export const schemaTypes = [
   slider,
   cardBlock,
   heroBlock,
-  imageCarousel,
+  video,
   textBlock,
   detailsItem,
 ];

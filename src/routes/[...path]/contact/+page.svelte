@@ -18,7 +18,7 @@
     //console.log({post})
     //console.log()
   }
-  //console.log($state.post)
+  console.log({post})
 </script>
 
 <main>
@@ -80,7 +80,7 @@
     </header>
   {/if}
 
-  <div id="content"></div>
+  <!--<div id="content"></div>-->
 
   <!--{#if !!post.hero}
     <h2>{post.title}</h2>
