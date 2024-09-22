@@ -1,5 +1,5 @@
 //export const csr = false
-export const prerender = true
+//export const prerender = true
 //export const trailingSlash = 'never' // default
 
 import Card from '$lib/my/Card.svelte'
