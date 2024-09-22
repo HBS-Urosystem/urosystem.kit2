@@ -27,7 +27,7 @@
 {#if !!post.hero}
   
   <!--<header id="header" class="-full" style="{post.hero.image ? `background-image: url(${post.hero.image.src})` : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">-->
-  <header id="header" class="-full" style={post.hero.image ? `background-image: url(${post.hero.image.src})` : `background-image: url(/intro_loop_seq.apng); background-size: auto`} on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
+  <header id="header" class="full" style={post.hero.image ? `background-image: url(${post.hero.image.src})` : `background-image: url(/intro_loop_seq.apng); background-size: auto`} on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
 
     {#if post.herotitle && post.herotitle != ''}
       <h1>{post.herotitle}</h1>
@@ -153,11 +153,12 @@
     padding-top: 12rem;
     padding-bottom: 1rem;
     margin-bottom: var(--gap2);
+    min-height: 100vh;
   }
   header.full {
     padding-block: 3rem;
     height: auto;
-    min-height: calc(100vh - var(--rem));
+    min-height: calc(100vh - var(--gap2));
     display: flex;
     flex-direction: column;
     justify-content: center;
