@@ -7,7 +7,7 @@
   $: {
     //console.log('1',/*scrollto,*/ comp.link)
     if (comp.page) {
-      if (comp.page == 'index') comp.page = ''
+      if (comp.page == 'index') comp.page = '';
       link = '/' /*+ $sitelang + '/'*/ + comp.page
     } else if (comp.link && comp.link.startsWith('/')) {
       link = '/' + /*$sitelang + */ (comp.link == '/index' ? '' : comp.link)

@@ -13,6 +13,7 @@
 <script>
   export let comp//, lang
   const lang = comp.lang
+  let link
 
   //if (comp._key == 'abab22bb14aa') console.log('Slider', comp.sections)
 
@@ -24,8 +25,10 @@
   <h5 class="text-center">{comp.subtitle || ''}</h5>
   <section class="slide grid grid-rows-4 grid-flow-col gap-x-8" style="--cols: {comp.sections?.length}; grid-template-rows: auto auto auto auto; grid-template-columns: repeat(var(--cols), 1fr);" bind:this={carous}>
     {#each comp.sections || [] as c}
-    <svelte:component this={options[c._type]} comp={c}/>
-  {/each}
+      <!--{#if c.page || c.link}-->
+        <svelte:component this={options[c._type]} comp={c}/>
+      <!--{/if}-->
+    {/each}
   </section>
   <p class="text-center">{comp.caption|| ''}</p>
 
