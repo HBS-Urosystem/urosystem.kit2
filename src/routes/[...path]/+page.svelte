@@ -153,11 +153,11 @@
     padding-top: 12rem;
     padding-bottom: 1rem;
     margin-bottom: var(--gap2);
-    min-height: 100vh;
   }
   header.full {
     padding-block: 3rem;
     height: auto;
+    min-height: 100vh;
     min-height: calc(100vh - var(--gap2));
     display: flex;
     flex-direction: column;
