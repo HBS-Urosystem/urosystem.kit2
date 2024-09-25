@@ -41,6 +41,9 @@ content[]{
     "file": @.file.asset->url,
     "poster": @.poster.asset->url,
   },
+  _type == "cta" => {
+    "page": @.page->slug.current,
+  },
 }`
 
 const SLIDER_QUERY = `...,
@@ -59,7 +62,7 @@ details[]{
   },
   _type,
   _type == "cta" => {
-    ${CTA_QUERY}
+    ${CTA_QUERY} 
   },
   _type == "video" => {
     ${VIDEO_QUERY}
@@ -89,9 +92,7 @@ const CONTENT_QUERY = `*[_type == "page"] {
     },
     _type == "detailsItem" => {
       ...,
-      details[]{
         ${DETAILS_QUERY}
-      }
     },
     _type == "cardBlock" => {
       ...,
@@ -235,7 +236,8 @@ const portableTextComponents = {
 
 const sorting = (pages) => {
   for (const p of pages || []) {
-    //if (p.slug == 'index') console.log(p.sections)
+    //if (p.slug == 'index') 
+    //console.log(p.slug)
     for (const sect of p.sections || []) {
       if (sect._type == 'video') {
         const i = sect.file.lastIndexOf('.') + 1
@@ -309,9 +311,10 @@ export const load = async ({ params, url, route/*, fetch*/ }) => {
 
   const slug = () => {
     const p = params.path || 'index'
-    //console.log(p)
+    return p;
+    console.log(p)
     const i = p.indexOf('/') + 1
-    //console.log(p.slice(i))
+    console.log(i,p.slice(i))
     return p.slice(i)
   }
   const page = pages.find(p => p.slug == slug())
