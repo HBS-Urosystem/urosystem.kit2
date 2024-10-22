@@ -5,7 +5,7 @@ export const config = defineType({
   name: "config",
   title: "Config",
   fields: [
-    defineField({
+    /*defineField({
       name: "nav",
       title: "Main Nav",
       type: "array",
@@ -19,40 +19,24 @@ export const config = defineType({
           title: "Slider",
         }),
       ],
-    }),
-    defineField({
+    }),*/
+    defineType({
       name: "footer",
       title: "Footer",
-      type: "array",
-      of: [
-        defineArrayMember({
-          type: "heroBlock",
-        }),
-        defineArrayMember({
-          type: "textBlock",
-          title: "Text content"
-        }),
-        //defineArrayMember({
-        //  type: "detailsItem",
-        //  title: "Accordion List Item",
-        //}),
-        defineArrayMember({
-          type: "cta",
-          title: "CTA"
-        }),
-        defineArrayMember({
-          type: "slider",
-          title: "Slider",
-        }),
-      ],
+      type: "footerBlock",
+    }),
+    defineType({
+      name: "nav",
+      title: "Nav",
+      type: "navBlock",
     }),
   ],
-  preview: {
+  /*preview: {
     //return : {
       title: 'title',
       subtitle: 'subtitle',
       slug: 'slug.current',
     //},
-  }
+  }*/
 });
 

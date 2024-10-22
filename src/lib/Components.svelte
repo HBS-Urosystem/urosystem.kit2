@@ -19,7 +19,6 @@
 	//import Modal from '$lib/my/Modal.svelte'
 
   const options = {
-		//article: Article,
 		textBlock: Article,
 		form: Form,
 		//b2bmail: B2Bmail,

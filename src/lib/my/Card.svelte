@@ -5,7 +5,7 @@
   import BuyButton from '$lib/my/BuyButton.svelte'
   import Video from '$lib/my/Video.svelte'
   const options = {
-		article: Article,
+		textBlock: Article,
 		slider: Slider,
 		cta: Cta2,
 		buy: BuyButton,
@@ -16,7 +16,7 @@
   export let comp//, lang
   const lang = comp.lang
 
-//console.log('Card', {comp})
+  //console.log('Card', comp)
 
 </script>
 
@@ -32,10 +32,10 @@
 </aside>
 
 <style>
-  .slide {
+  /*.slide {
     overflow-x: auto;
     padding-inline: var(--gap);
-  }
+  }*/
   /*
   section::before {
     content: '◀︎'

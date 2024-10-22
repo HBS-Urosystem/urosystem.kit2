@@ -1,10 +1,10 @@
 import { defineType, defineField, defineArrayMember } from 'sanity'
-import {BlockElementIcon} from '@sanity/icons'
 
-export const cardBlock = defineType({
+
+export const navBlock = defineType({
   type: "object",
-  name: "cardBlock",
-  title: "Card block",
+  name: "navBlock",
+  title: "Footer",
   fields: [
     defineField({
       type: "string",
@@ -19,7 +19,7 @@ export const cardBlock = defineType({
     defineField({
       type: "array",
       name: "sections",
-      title: "Card Blocks",
+      title: "Footer Blocks",
       of: [
         defineArrayMember({
           type: "heroBlock",
@@ -47,7 +47,7 @@ export const cardBlock = defineType({
       name: "caption",
     }),
   ],
-  icon: BlockElementIcon,
+  /*icon: BlockElementIcon,
   preview: {
     select: {
       title: 'title',
@@ -58,10 +58,10 @@ export const cardBlock = defineType({
       const {title, subtitle, sections} = selection
       return {
         title: title && `${title} ${subtitle}` || subtitle && `${subtitle}`,
-        subtitle: 'Card',
+        subtitle: 'Footer',
         media: BlockElementIcon
       }
     }
-  }
+  }*/
 });
 

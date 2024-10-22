@@ -4,7 +4,7 @@
   import BuyButton from '$lib/my/BuyButton.svelte'
   import Video from '$lib/my/Video.svelte'
   const options = {
-		article: Article,
+		textBlock: Article,
 		cta: Cta2,
 		buy: BuyButton,
 		video: Video,

@@ -8,7 +8,7 @@
   import Details from '$lib/my/Details.svelte'
   import Video from '$lib/my/Video.svelte'
   const options = {
-		article: Article,
+		textBlock: Article,
 		slider: Slider,
 		cta: Cta2,
 		buy: BuyButton,
@@ -17,16 +17,10 @@
 	};
 </script>
 <script>
-  //console.log('Footer', $state.config?.footer)
-  //$: langs = $state.langs
   const comp = $state.config.footer
   const dir = $state.thislang.dir
-	//import { stores } from '@sapper/app';
-	//const { page } = stores()
-	//import { lang } from '$lib/stores'
-  let post, sublinks
 
-  //console.log({comp})
+  //console.log('Footer:',comp)
 
   //export let comp//, lang
   //const lang = comp.lang
@@ -36,20 +30,23 @@
   <!--{#if comp.title}<h2>{comp.title}</h2>{/if}
   {#if comp.subtitle}<h3>{comp.subtitle}</h3>{/if}-->
 
-  {#each comp || [] as c}
+  {#if comp.title}<h2>{comp.title}</h2>{/if}
+  {#if comp.subtitle}<h3>{comp.subtitle}</h3>{/if}
+
+  {#each comp.sections || [] as c}
     <svelte:component this={options[c._type]} comp={c}/>
   {/each}
 
   <!--{#if comp.caption}<h3>{comp.caption}</h3>{/if}-->
 
   <div>
-    {#if $sitelang == 'hu' && _site == '_us'}
+    <!--{#if $sitelang == 'hu' && _site == '_us'}
       <a href="/hu/company#ginop" aria-label="ginop"><img loading="lazy" src="/uploads/ginop.png" alt="GINOP pályázat" style="width:20ch;display:block;"/></a>
-    {/if}
+    {/if}-->
     <a href="/" aria-label="urosystem home"><img loading="lazy" src="/uploads/urosystem_logo_02_web.svg" alt="" style="filter:invert();width:20ch;display:block; aspect-ratio: 100 / 90.861"/></a>
-    {#if $sitelang == 'hu' && _site == '_us'}
+    <!--{#if $sitelang == 'hu' && _site == '_us'}
       <a href="/hu/company#nkfi" aria-label="nkfi"><img loading="lazy" src="/uploads/nkfi.png" alt="NKFI pályázat" style="width:20ch;display:block;"/></a>
-    {/if}
+    {/if}-->
   </div>
   <!-- <nav>
     <ul>

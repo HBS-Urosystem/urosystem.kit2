@@ -1,21 +1,25 @@
+import { config } from "./config";
 import { page } from "./page";
 import { heroBlock } from "./heroBlock";
-import { textBlock } from "./textBlock";
-import { detailsItem } from "./detailsItem";
-import { cta } from "./cta";
 import { cardBlock } from "./cardBlock";
-import { config } from "./config";
+import { textBlock } from "./textBlock";
+import { cta } from "./cta";
 import { slider } from "./slider";
 import { video } from "./video";
+import { detailsItem } from "./detailsItem";
+import { navBlock } from "./navBlock";
+import { footerBlock } from "./footerBlock";
 
 export const schemaTypes = [
-  page,
   config,
+  page,
+  heroBlock,
+  cardBlock,
+  textBlock,
   cta,
   slider,
-  cardBlock,
-  heroBlock,
   video,
-  textBlock,
   detailsItem,
+  navBlock,
+  footerBlock,
 ];

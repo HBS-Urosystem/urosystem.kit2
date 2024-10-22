@@ -31,6 +31,11 @@ export const heroBlock = defineType({
         }),
       ],
     }),
+    defineField({
+      type: "string",
+      name: "caption",
+      title: "Caption",
+    }),
   ],
   icon: SparklesIcon,
   preview: {
@@ -42,7 +47,7 @@ export const heroBlock = defineType({
       const {title, subtitle} = selection
       return {
         subtitle: 'Hero Block',
-        title: `${title} ${subtitle}` || 'Hero Block',
+        title: `${title} • ${subtitle}` || 'Hero Block',
         media: SparklesIcon
       }
     }

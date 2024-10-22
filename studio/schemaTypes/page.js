@@ -33,7 +33,7 @@ export const page = defineType({
         }),
         defineArrayMember({
           type: "textBlock",
-          title: "Text content"
+          title: "Rich content"
         }),
         defineArrayMember({
           type: "detailsItem",

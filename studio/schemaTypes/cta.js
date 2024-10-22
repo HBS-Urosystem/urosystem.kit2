@@ -4,7 +4,7 @@ import {LaunchIcon} from '@sanity/icons'
 export const cta = defineType({
   type: "object",
   name: "cta",
-  title: "Call to action",
+  title: "CTA",
   fields: [
     defineField({
       type: "string",

@@ -1,18 +1,9 @@
 <script context="module">
-  //import Article from '$lib/my/Article.svelte'
-/*  import Images from '$lib/my/Images.svelte'
-  import Cta from '$lib/my/Cta.svelte'
-  import Video from '$lib/my/Video.svelte'
-  const options = {
-		//article: Article,
-		images: Images,
-		cta: Cta,
-		video: Video,
-	};*/
+
 </script>
 <script>
   export let comp
-  //console.log(comp)
+  console.log(comp)
 </script>
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">

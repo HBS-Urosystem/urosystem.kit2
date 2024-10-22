@@ -172,7 +172,7 @@
 {#if data.post.id}
 <slot/>
 {/if}
-<Footer/>
+<Footer comp={data.config.footer}/>
 <!--<Cookies/>-->
 
 {#each $state.langs || [] as lang}

@@ -2,13 +2,14 @@
 //export const prerender = true
 //export const trailingSlash = 'never' // default
 
+import {toHTML} from '@portabletext/to-html'
+
 import Card from '$lib/my/Card.svelte'
 import Details from '$lib/my/Details.svelte'
 import Slider from '$lib/my/Slider.svelte'
 import Video from '$lib/my/Video.svelte'
 import Cta from '$lib/my/Cta2.svelte'
 import { getSanityImageUrl/*, formatBlogPostDate*/ } from '$lib/sanity/helpers.js'
-import {toHTML} from '@portabletext/to-html'
 
 import { redirect } from '@sveltejs/kit'
 //import { _getPost, _getConf } from '$lib/utils'
@@ -18,12 +19,16 @@ import { sitelang } from '$lib/stores'
 import { client } from "$lib/sanity/client"
 /** @type {import('./$types').LayoutServerLoad} */
 
+//const CTA_QUERY = `...,
+//"page": page->slug.current
+//`
 const CTA_QUERY = `...,
-"page": page->slug.current`
+"page": @.page->slug.current,
+`
 
 const VIDEO_QUERY = `...,
-"file": file.asset->url,
-"poster": poster.asset->url
+"file": @.file.asset->url,
+"poster": @.poster.asset->url
 `
 
 const MARKS_QUERY = `...,
@@ -38,20 +43,51 @@ content[]{
     ${MARKS_QUERY}
   },
   _type == "video" => {
-    "file": @.file.asset->url,
-    "poster": @.poster.asset->url,
+    ${VIDEO_QUERY}
   },
   _type == "cta" => {
-    "page": @.page->slug.current,
+    ${CTA_QUERY}
   },
 }`
 
 const SLIDER_QUERY = `...,
 sections[] {
   ...,
+  _type == "textBlock" => {
+    content[] { 
+      ...,
+      markDefs[]{
+        ${MARKS_QUERY}
+      },
+      _type == "video" => {
+        ${VIDEO_QUERY}
+      },
+      _type == "cta" => {
+        ${CTA_QUERY}
+      },
+    },
+  },
+
   _type == "cta" => { 
     ${CTA_QUERY} 
-  }
+  },
+},`
+
+const CARD_QUERY = `...,
+sections[] {
+  type,
+  _type == "cta" => { 
+    ${CTA_QUERY} 
+  },
+  _type == "slider" => {
+    ${SLIDER_QUERY} 
+  },
+  _type == "textBlock" => {
+    ${TEXT_BLOCK}
+  },
+  _type == "video" => {
+    ${VIDEO_QUERY}
+  },
 },`
 
 const DETAILS_QUERY = `...,
@@ -91,45 +127,19 @@ const CONTENT_QUERY = `*[_type == "page"] {
       ${VIDEO_QUERY}
     },
     _type == "detailsItem" => {
-      ...,
-        ${DETAILS_QUERY}
+      ${DETAILS_QUERY}
     },
     _type == "cardBlock" => {
-      ...,
-      sections[] {
-        _type == "cta" => { 
-          ${CTA_QUERY} 
-        },
-        _type == "slider" => {
-          ${SLIDER_QUERY} 
-        },
-        _type == "textBlock" => {
-          ${TEXT_BLOCK}
-        },
-        _type == "video" => {
-          ${VIDEO_QUERY}
-        },
-      }
-    },
+      ${CARD_QUERY}
+    }
   }
 }`  
+
 const CONFIG_QUERY = `*[_type == "config"] {
-  "footer": footer[] {
-    ...,
-    _type,
-    _type == "heroBlock" => {
-      ...
-    },
-    _type == "textBlock" => {
-      ${TEXT_BLOCK}
-    },
-    _type == "cta" => {
-      ${CTA_QUERY}
-    },
-    _type == "slider" => {
-      ${SLIDER_QUERY}
-    },
-  }
+  ...,
+  "footer": @.footer { 
+    ${CARD_QUERY}
+  },
 }`
 const NAV_QUERY = `*[_type == "page"] {
   ...,
@@ -178,7 +188,7 @@ const portableTextComponents = {
     },
     image: ({value}) => {
       //console.log('image:',{value})
-      const src =  getSanityImageUrl(value.asset).width(1440).url()
+      const src = getSanityImageUrl(value.asset).width(1440).url()
       let out = `<figure>
         <img src="${src}" alt="" />`
       if (value.caption) out += `<figcaption>${value.caption}</figcaption>`
@@ -217,80 +227,74 @@ const portableTextComponents = {
       const { html, css } = Video.render({comp: value})
       return html
     },*/
-
+    unknownMark: ({value}) => {
+      console.log('unknownMark',{value})
+    }
   },
-  /*detailsItem: ({children, value}) => {
-    //console.log('detailsItem:',{children, value})
-    let out = `<div class="detailsItem collapse collapse-arrow">
-      <input type="radio" name="details" /> 
-      <p class="collapse-title">
-        ${value.summary}
-      </p>
-      <div class="collapse-content text-sm"> 
-        ${value.text}
-      </div>
-    </div>`
+  /*listItem: ({children, value}) => {
+    console.log('listItem:',children, value.children)
+    let out = `<li class="listItem">${toHTML(value, {
+      components: portableTextComponents,
+      onMissingComponent: (message, options) => {
+        console.log('onMissingComponent/text',{message}, {options})
+      }
+    })}
+    </li>`
     return out
   }*/
 }
 
+const sects = (sect) => {
+  if (sect._type == 'video') {
+    const i = sect.file.lastIndexOf('.') + 1
+    sect.ext = sect.file.slice(i)
+    //console.log(sect)
+  }
+  if (sect.image) {
+    sect.image.src = getSanityImageUrl(sect.image).width(1440).url()
+    //console.log(sect.image)
+  }
+  //if (sect._type == 'imageCarousel') {
+  //  //console.log(sect)
+  //  for (const i of sect.images || []) {
+  //    i.src = getSanityImageUrl(i).width(1440).url()
+  //  }
+  //}
+  if (sect._type == 'textBlock') {
+    sect.text = toHTML(sect.content, {
+      components: portableTextComponents,
+      onMissingComponent: (message, options) => {
+        console.log('onMissingComponent/text',{message}, {options})
+      }
+    })
+  }
+  if (sect._type == 'cardBlock' || sect._type == 'slider' || sect._type == 'footerBlock') {
+    for (let s of sect.sections || []) {
+      s = sects(s)
+    }
+  }
+  if (sect._type == 'detailsItem') {
+    //console.log(sect)
+    sect.text = toHTML(sect.details, {
+      components: portableTextComponents,
+      onMissingComponent: (message, options) => {
+        console.log('onMissingComponent/details',{message}, {options})
+      }
+    })
+    //console.log(sect)
+  }
+  if (sect._type == 'heroBlock') {
+    sect.slide = true
+    //console.log(sect)
+  }
+  // + CTA, SLIDER, VIDEO
+}
+
 const sorting = (pages) => {
-  for (const p of pages || []) {
-    //if (p.slug == 'index') 
-    //console.log(p.slug)
-    for (const sect of p.sections || []) {
-      if (sect._type == 'video') {
-        const i = sect.file.lastIndexOf('.') + 1
-        sect.ext = sect.file.slice(i)
-        //console.log(sect)
-      }
-      if (sect.image) {
-        sect.image.src = getSanityImageUrl(sect.image).width(1440).url()
-        //console.log(sect.image)
-      }
-      /*if (sect._type == 'imageCarousel') {
-        //console.log(sect)
-        for (const i of sect.images || []) {
-          i.src = getSanityImageUrl(i).width(1440).url()
-        }
-      }*/
-      if (sect._type == 'textBlock') {
-        sect.text = toHTML(sect.content, {
-          components: portableTextComponents,
-          onMissingComponent: (message, options) => {
-            console.log('onMissingComponent/text',{message}, {options})
-          }
-        })
-      }
-      if (sect._type == 'cardBlock') {
-        for (const s of sect.sections || []) {
-          if (s._type == 'textBlock') {
-            s.text = toHTML(s.content, {
-              components: portableTextComponents,
-              onMissingComponent: (message, options) => {
-                console.log('onMissingComponent/text',{message}, {options})
-              }
-            })
-          }
-        }
-      }
-      if (sect._type == 'detailsItem') {
-        //console.log(sect)
-        sect.text = toHTML(sect.details, {
-          components: portableTextComponents,
-          onMissingComponent: (message, options) => {
-            console.log('onMissingComponent/details',{message}, {options})
-          }
-        })
-        //console.log(sect)
-      }
-      if (sect._type == 'heroBlock') {
-        sect.slide = true
-        //console.log(sect)
-      }
-      //if (sect._type == 'slider') {
-      //  sect.slide = true
-      //}
+  //console.log(pages)
+  for (let p of pages || []) {
+    for (let sect of p.sections || []) {
+      sect = sects(sect)
     }
   }
   return pages
@@ -298,28 +302,33 @@ const sorting = (pages) => {
 
 
 
-let config, pages
-export const load = async ({ params, url, route/*, fetch*/ }) => {
+export const load = async ({ params/*, url, route, fetch*/ }) => {
+  let config = {}, pages = []
   //console.log(params, url, route)
 
-  const c = /*config ||*/ await client.fetch(CONFIG_QUERY)//.then(([c]) => sorting([c]))
-  //console.log('+layout.server.js',c[0]/*.footer*/)
-  config = c[0]
-  
+  const c = /*config ||*/ await client.fetch(CONFIG_QUERY)
+  //console.log(c)
+  //const footer = sorting([c[0].footer])[0]
+  const footer = c[0].footer
+  for (let sect of footer.sections || []) {
+    sect = sects(sect)
+  }
+  //console.log(footer)
+  config.footer = footer
+
   pages = /*pages ||*/ await client.fetch(CONTENT_QUERY).then((p) => sorting(p))
-  //console.log({pages})
 
   const slug = () => {
     const p = params.path || 'index'
     return p;
-    console.log(p)
+    /*console.log(p)
     const i = p.indexOf('/') + 1
     console.log(i,p.slice(i))
-    return p.slice(i)
+    return p.slice(i)*/
   }
   const page = pages.find(p => p.slug == slug())
 
-  //console.log(page.sections[1])
+  //console.log(page/*.sections[1]*/)
 
   const subpage = null
   const post = {
@@ -347,6 +356,6 @@ export const load = async ({ params, url, route/*, fetch*/ }) => {
     active: true
   }
 
-  //console.log({post})
+  //console.log({config})
   return {config, post, thislang}
 }

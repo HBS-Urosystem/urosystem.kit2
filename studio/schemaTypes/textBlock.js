@@ -88,8 +88,8 @@ export const textBlock = defineType({
     prepare(selection) {
       const {title, subtitle} = selection
       return {
-        title: title && `${title} ${subtitle}` || subtitle && `${subtitle}` || 'Text Content',
-        subtitle: 'Text Content',
+        title: `${title} • ${subtitle}`  || 'Rich Content',
+        subtitle: 'Rich Content',
         media: BlockContentIcon
       }
     }

@@ -23,7 +23,7 @@ export const slider = defineType({
       of: [
         defineArrayMember({
           type: "textBlock",
-          title: "Text content"
+          title: "Rich content"
         }),
         defineArrayMember({
           type: "cta",

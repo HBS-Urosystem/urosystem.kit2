@@ -68,15 +68,15 @@ export const video = defineType({
   icon: PlayIcon,
   preview: {
     select: {
-      label: 'label',
+      caption: 'caption',
       page: 'page.title',
       link: 'link'
     },
     prepare(selection) {
-      const {label, page, link} = selection
+      const {caption, page, link} = selection
       return {
         title: page || link,
-        subtitle: label,
+        subtitle: caption,
         media: PlayIcon
       }
     }
