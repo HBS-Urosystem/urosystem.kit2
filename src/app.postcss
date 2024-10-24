@@ -172,7 +172,7 @@ header, main > aside, footer {
   text-align: center;
   background-color: var(--mid-green);
   color: var(--white);
-  padding: var(--gap);
+  padding-block: var(--gap);
 }
 main > aside, main > section, main > .collapse {
   margin-bottom: var(--halfgap);
@@ -193,20 +193,11 @@ main > aside {
   border-end-start-radius: var(--radius);
   border-start-end-radius: var(--radius);
 }
-aside:has(.slide), footer:has(.slide) {
+/*aside:has(.slide), footer:has(.slide) {
   padding-inline: 0;
-}
-:not(.collapse-content) > .slide {
-  padding-inline: var(--gap);
-}
-/*aside .slide, footer .slide {
-  margin-inline: 0;
-  max-width: 100%;
 }*/
-
-/*.slide {
-  scroll-snap-type: x mandatory;
-  scroll-snap-stop: always;
+/*:not(.collapse-content) > .slide {
+  padding-inline: var(--gap);
 }*/
 .slide > * {
   scroll-snap-align: center;
@@ -259,7 +250,7 @@ header ~ nav, main > article {
   padding: var(--gap) var(--sides);
 }
 header {
-  padding-inline: var(--gap2) var(--gap);
+  padding-inline: var(--gap2);
 }
 header[style*="background-image"] {
   text-shadow: 0 0 0.75em var(--dark-green);
@@ -279,10 +270,6 @@ header ~ nav li, header > nav li {
 
 main > section {
   justify-content: center;
-}
-aside section, footer section {
-  margin: var(--halfgap);
-  padding-block: var(--halfgap);
 }
 /*section:has(aside + aside) {
   justify-content:space-around;

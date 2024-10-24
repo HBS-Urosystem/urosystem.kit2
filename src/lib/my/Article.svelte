@@ -3,7 +3,7 @@
 </script>
 <script>
   export let comp
-  console.log(comp)
+  //console.log(comp)
 </script>
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">

@@ -63,16 +63,9 @@
 </footer>
 
 <style>
-  section * {
-    margin: 0;
-  }
-
   footer {
-    /*border-top: var(--sides) var(--white) solid;*/
-  }
-  .slide {
-    overflow-x: auto;
-    padding-inline: var(--gap);
+    max-width: 100%;
+    overflow: hidden;
   }
 
 /*
