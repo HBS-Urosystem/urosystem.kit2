@@ -21,8 +21,10 @@
     font-weight: bold;
   }*/
   .collapse {
-    max-width: 64ch;
-    margin-inline: auto;
+    margin-inline: var(--sides);
+    width: calc(100% - 2 * var(--sides));
+    /*max-width: 64ch;*/
+    /*margin-inline: auto;*/
     margin-block: var(--gap);
     /*overflow-x: visible;*/
     border-radius: 0;
