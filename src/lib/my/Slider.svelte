@@ -100,12 +100,12 @@
     z-index: 1;
   }
   .slide:after {
-    right: .5rem;
+    right: 1rem;
     content: '▶︎';
   }
   .slide:before {
     content: '◀︎';
-    left: .5rem;
+    left: 1rem;
   }
   /*.slide > a:first-of-type {
     scroll-snap-align: start;
