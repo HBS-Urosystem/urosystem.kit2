@@ -54,11 +54,6 @@ export const video = defineType({
       name: "controls",
      type: "boolean",   
     }),
-    defineField({
-      type: "number",
-      name: "rows",
-      hidden: true
-    }),
   ],
   initialValue: {
     rows: 4,
@@ -68,15 +63,18 @@ export const video = defineType({
   icon: PlayIcon,
   preview: {
     select: {
-      caption: 'caption',
-      page: 'page.title',
-      link: 'link'
+      title: 'title',
+      subtitle: 'subtitle',
+      file: 'file',
+      code: 'code',
+      link: 'link',
     },
     prepare(selection) {
-      const {caption, page, link} = selection
+      const {title, subtitle, file, code, link} = selection
+      const source = file ? 'mp4/webm' : (code ? 'YouTube/Embed' : (link ? 'External' : 'empty'))
       return {
-        title: page || link,
-        subtitle: caption,
+        title: `${title} • ${subtitle}`,
+        subtitle: source,
         media: PlayIcon
       }
     }

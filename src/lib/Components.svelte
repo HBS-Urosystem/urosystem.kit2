@@ -1,8 +1,8 @@
 <script context="module">
   import { variables } from '$lib/stores'
   import Article from '$lib/my/Article.svelte'
-  import Images from '$lib/my/Images.svelte'
-  import Grid from '$lib/my/Grid.svelte'
+  import Hero from '$lib/my/Hero.svelte'
+  //import Grid from '$lib/my/Grid.svelte'
   import Card from '$lib/my/Card.svelte'
   import Slider from '$lib/my/Slider.svelte'
   import Cta from '$lib/my/Cta.svelte'
@@ -25,9 +25,10 @@
 		//acmail: ACmail,
 		//images: Images,
 		//imageCarousel: Images,
-		grid: Grid,
+		//grid: Grid,
 		cardBlock: Card,
-		ctaBlock: Grid,
+		heroBlock: Hero,
+		ctaBlock: Slider,
 		cta: Cta,
 		slider: Slider,
 		video: Video,
@@ -62,7 +63,7 @@
   //console.log($page.params)
   //import { lang } from '$lib/stores'
   //let lang
-  //$: console.log({comp})
+  //$: console.log('COMPS:',{comp})
 </script>
 
 {#if comp._type == 'video'}

@@ -22,9 +22,13 @@ export const slider = defineType({
       title: "Slider Blocks",
       of: [
         defineArrayMember({
+          type: "video",
+          title: "Video"
+        }),
+        /*defineArrayMember({
           type: "textBlock",
           title: "Rich content"
-        }),
+        }),*/
         defineArrayMember({
           type: "cta",
           title: "CTA"
@@ -40,10 +44,11 @@ export const slider = defineType({
   preview: {
     select: {
       sections: 'sections',
+      title: 'title',
     },
-    prepare(sections) {
+    prepare({title,sections}) {
       return {
-        title: 'Slider',
+        title: title || 'Slider',
         subtitle: `${sections.length} slides`,
         media: EllipsisHorizontalIcon
       }

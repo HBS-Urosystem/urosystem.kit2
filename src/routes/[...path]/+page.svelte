@@ -2,6 +2,7 @@
   import { state, sitelang, snapto, gateway, variables } from '$lib/stores'
   import Components from '$lib/Components.svelte'
   import Slider from '$lib/my/Slider.svelte'
+  import Hero from '$lib/my/Hero.svelte'
   import SubPage from '$lib/SubPage.svelte'
   //import { getSanityImageUrl/*, formatBlogPostDate*/ } from '$lib/sanity/helpers.js'
   //import { onMount } from 'svelte';
@@ -20,50 +21,14 @@
     //console.log('POST',post.id)
     //console.log(post.sections)
   }
-  //$: console.log({post})
+  $: console.log(post.sections)
 </script>
 
-<!--{#if $state && !!$state.id}-->
 {#if !!post.hero}
   
-  <!--<header id="header" class="-full" style="{post.hero.image ? `background-image: url(${post.hero.image.src})` : ``}" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">-->
   <header id="header" class="full" style={post.hero.image ? `background-image: url(${post.hero.image.src})` : `background-image: url(/intro_loop_seq.apng); background-size: auto`} on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
 
-    {#if post.herotitle && post.herotitle != ''}
-      <h1>{post.herotitle}</h1>
-      {#if post.hero.subtitle}
-        <h2>{post.hero.subtitle}</h2>
-      {/if}
-    {:else if post.hero.title}<!-- && $state.post.title != '' -->
-      <h1>{post.hero.title}</h1>
-      {#if post.hero.subtitle}
-        <h2>{post.hero.subtitle}</h2>
-      {/if}
-    {/if}
-
-    {#if post.hero.ctas}
-      {@const comp = {sections: post.hero.ctas}}
-      <Slider {comp}/>
-    {/if}
-
-    {#if post.subhero}
-      {#each post.subhero.components || [] as comp}
-        <Components {comp}/>
-      {/each}
-    {/if}
-
-    <!--{#if subs && !post.hidesubs}-->
-    {#if $state.post.subpages && !$state.post.hidesubs}
-      <nav>
-        <ul>
-          <!--{#each subs as sub}-->
-          {#each $state.post.subpages as sub}
-            <li class:active={post.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
-          {/each}
-        </ul>
-      </nav>
-    {/if}
-
+    <Hero comp={post.hero}/>
   </header>
 {:else}
   <header id="header" on:click={() => $snapto = '#content'} on:keypress={() => $snapto = '#content'} tabindex="0" role="link">
@@ -74,24 +39,6 @@
         <h2>{$state.post.subtitle}</h2>
       {/if}
     {/if}
-<!--
-    {#if post.subhero}
-      {#each post.subhero.components || [] as comp}
-        <Components {comp}/>
-      {/each}
-    {/if}
--->
-<!--
-    {#if $state.post.subpages && !$state.post.hidesubs}
-      <nav>
-        <ul>
-          {#each $state.post.subpages as sub}
-            <li class:active={post.id == sub.id}><SubPage {sub} scrollto="#content"/></li>
-          {/each}
-        </ul>
-      </nav>
-    {/if}
--->
   </header>
 {/if}
 

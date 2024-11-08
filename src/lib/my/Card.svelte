@@ -4,19 +4,22 @@
   import Cta2 from '$lib/my/Cta2.svelte'
   import BuyButton from '$lib/my/BuyButton.svelte'
   import Video from '$lib/my/Video.svelte'
+  import Hero from '$lib/my/Hero.svelte'
   const options = {
 		textBlock: Article,
 		slider: Slider,
 		cta: Cta2,
 		buy: BuyButton,
 		video: Video,
+		heroBlock: Hero,
 	};
 </script>
 <script>
-  export let comp//, lang
+  export let comp
+  console.log('CARD:', comp.sections)
   const lang = comp.lang
 
-  //console.log('Card', comp)
+  //if (comp.key == '553deb817c36') console.log('Card', comp)
 
 </script>
 

@@ -75,6 +75,7 @@ sections[] {
 
 const CARD_QUERY = `...,
 sections[] {
+  ...,
   type,
   _type == "cta" => { 
     ${CTA_QUERY} 
@@ -173,17 +174,20 @@ const portableTextComponents = {
       const { html, css } = Cta.render({comp: value})
       return html
     },
-    slider: ({value}) => {
-      //console.log('slider:',value)
-      const { html, css } = Slider.render({comp: value})
-      return html
-    },
+    //slider: ({value}) => {
+    //  //console.log('text/slider:',value)
+    //  for (let s of value.sections || []) {
+    //    s = sects(s)
+    //  }
+    //  const { html, css } = Slider.render({comp: value})
+    //  return html
+    //},
     video: ({value}) => {
-      const i = value.file.lastIndexOf('.') + 1
-      value.ext = value.file.slice(i)
-      //console.log(value)
-    //console.log('text/video:',value)
+      const i = value.file?.lastIndexOf('.') + 1 || value.link?.lastIndexOf('.') + 1
+      value.ext = value.file?.slice(i) || value.link?.slice(i) || ''
+      //console.log('text/video:',value)
       const { html, css } = Video.render({comp: value})
+      //console.log('text/video:',html)
       return html
     },
     image: ({value}) => {
@@ -246,9 +250,9 @@ const portableTextComponents = {
 
 const sects = (sect) => {
   if (sect._type == 'video') {
-    const i = sect.file.lastIndexOf('.') + 1
-    sect.ext = sect.file.slice(i)
-    //console.log(sect)
+    const i = sect.file?.lastIndexOf('.') + 1
+    sect.ext = sect.file?.slice(i)
+    //console.log('sects/video:',sect)
   }
   if (sect.image) {
     sect.image.src = getSanityImageUrl(sect.image).width(1440).url()
@@ -261,6 +265,7 @@ const sects = (sect) => {
   //  }
   //}
   if (sect._type == 'textBlock') {
+    //console.log('sects/text', sect)
     sect.text = toHTML(sect.content, {
       components: portableTextComponents,
       onMissingComponent: (message, options) => {
@@ -281,10 +286,6 @@ const sects = (sect) => {
         console.log('onMissingComponent/details',{message}, {options})
       }
     })
-    //console.log(sect)
-  }
-  if (sect._type == 'heroBlock') {
-    sect.slide = true
     //console.log(sect)
   }
   // + CTA, SLIDER, VIDEO

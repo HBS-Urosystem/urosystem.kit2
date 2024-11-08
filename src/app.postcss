@@ -193,21 +193,10 @@ main > aside {
   border-end-start-radius: var(--radius);
   border-start-end-radius: var(--radius);
 }
-/*aside:has(.slide), footer:has(.slide) {
-  padding-inline: 0;
-}*/
-/*:not(.collapse-content) > .slide {
-  padding-inline: var(--gap);
-}*/
-.slide > * {
+
+.slide >section > * {
   scroll-snap-align: center;
 }
-/*.slide > a:first-of-type {
-  scroll-snap-align: start;
-}
-.slide > a:last-of-type {
-  scroll-snap-align: end;
-}*/
 
 nav, footer{
   background-color: var(--mid-green);
@@ -235,7 +224,7 @@ header, article {
   margin-bottom: var(--gap);
 }*/
 
-article > div, section > div, aside > div, figcaption {
+article > div, figcaption {
   max-width: 64ch;
   margin: 0 auto;
   padding: 0;
@@ -287,6 +276,9 @@ section > aside {
 section > article, section > div {
   flex: 1 0 25ch;
   padding: 0;
+}
+.grid > * {
+  margin-block: 0;
 }
 
 /*article > div:last-child {
@@ -359,17 +351,6 @@ main a:not(:has(> button, > img)) {
 h1 a, .h1 a {
   text-decoration: none;
 }
-/*main header {
-  padding: var(--gap4) var(--sides);
-}*/
-
-/*main > div:not(:has(li)) {*/
-/*main > div {
-  margin-inline: auto;
-}*/
-/*main > div > *:not(aside){
-  padding: 0 var(--sides) var(--gap);
-}*/
 
 a.block, span.block, 
 [data-mobile='false'] a, [data-mobile='false'] span {
@@ -487,9 +468,12 @@ main p, main ul, main ol, main dl, main table/*, footer + aside p*/ {
   margin: 1em 0;
 }
 
-:not(button):first-child, input:first-child + :not(button) {
+article > :first-child {
   margin-top: 0;
 }
+/*:not(button):first-child, input:first-child + :not(button) {
+  margin-top: 0;
+}*/
 :not(button):last-child, :has(~aside) {
   margin-bottom: 0;
 }

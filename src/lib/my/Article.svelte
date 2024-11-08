@@ -3,47 +3,20 @@
 </script>
 <script>
   export let comp
-  //console.log(comp)
+  //console.log('ARTICLE:', comp)
 </script>
 
 <article id="{comp.anchor}" style="{comp.background ? comp.background : ``}">
-    {#if comp.title}<h2>{comp.title}</h2>{/if}
-    <div>
-      {#if comp.subtitle}<h3>{comp.subtitle}</h3>{/if}
+  <h2>{comp.title || ''}</h2><!--{#if comp.title}{/if}-->
+  <h3>{comp.subtitle || ''}</h3><!--{#if comp.subtitle}{/if}-->
+  <div>
     {#if comp.text}{@html comp.text}{/if}
   </div>
-  <!--{#if comp.sections?.length}
-    <section class={comp.framed ? 'framed' : ''}>
-      {#each comp.sections as c}
-      <svelte:component this={options[c.type]} comp={c}/>
-      {/each}
-    </section>
-  {/if}-->
+  <h5>{comp.caption || ''}</h5><!--{#if comp.caption}{/if}-->
 </article>
 
 <style>
-  .collapse-title, :where(.collapse > input[type="checkbox"]), :where(.collapse > input[type="radio"]) {
-    width: 100%;
-  }
   h3 {
     text-align: center;
   }
-  /*.framed {
-    background: white;
-    padding: var(--halfgap);
-    
-    max-width: 64ch;
-    margin-inline: auto;
-    margin-block: 3rem;
-  }
-  .framed :global(figure) {
-    margin-top: 2rem;
-  }
-  .framed :global(*) {
-    color: black;
-    text-shadow: none;
-  }
-  .framed :global(figcaption p) {
-    hyphens: none;
-  }*/
 </style>

@@ -23,6 +23,32 @@ export const heroBlock = defineType({
     }),
     defineField({
       type: "array",
+      name: "sections",
+      title: "Hero Blocks",
+      of: [
+        defineArrayMember({
+          type: "heroBlock",
+        }),
+        defineArrayMember({
+          type: "textBlock",
+          title: "Rich content"
+        }),
+        defineArrayMember({
+          type: "detailsItem",
+          title: "Accordion List Item",
+        }),
+        defineArrayMember({
+          type: "cta",
+          title: "CTA"
+        }),
+        defineArrayMember({
+          type: "slider",
+          title: "Slider",
+        }),
+      ],
+    }),
+    defineField({
+      type: "array",
       name: "ctas",
       title: "CTAs",
       of: [
