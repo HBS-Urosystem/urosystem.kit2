@@ -21,7 +21,7 @@
       <!-- embed code -->
     {:else}
       <!-- YT ID -->
-      <iframe loading="lazy" title="{comp.title || comp.anchor || 'video'}" width="100%" height="315" src="https://www.youtube-nocookie.com/embed/{comp.code}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe loading="lazy" title="{comp.title || comp.anchor || 'video'}" width="560" height="315" src="https://www.youtube-nocookie.com/embed/{comp.code}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     {/if}
   {/if}
 
@@ -41,7 +41,7 @@
   }
   video, iframe {
     cursor: pointer;
-    min-width: 50ch;
+    /*min-width: 50ch;*/
   }
   video {
     object-fit: contain;

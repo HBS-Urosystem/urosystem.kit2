@@ -97,8 +97,8 @@ img, svg {
   --half: calc(var(--rem) / 2);
   --halfgap: calc(var(--rem) * 1.25);
   /*--gap: calc(2.5 * var(--rem));*/
-  --gap: max(5vw, calc(2.5 * var(--rem)));
-  /*--gap: max(12.5vw - 5rem, 2.5rem);*/
+  /*--gap: max(5vw, calc(2.5 * var(--rem)));*/
+  --gap: calc(2.5 * var(--rem));
   --gap2: calc(5 * var(--rem));
   --gap4: calc(10 * var(--rem));
 
@@ -165,7 +165,7 @@ main {
   border-bottom: var(--gap) var(--white) solid;
   /*max-width: 112ch;*/
   margin-inline: auto;
-  padding-inline: var(--sides);
+  /*padding-inline: var(--sides);*/
 }
 
 header, main > aside, footer {
@@ -175,27 +175,39 @@ header, main > aside, footer {
   padding-block: var(--gap);
 }
 main > aside, main > section, main > .collapse {
-  margin-bottom: var(--halfgap);
+  margin-bottom: var(--gap2);
   /*margin-inline: var(--sides);*/
 
 }
 header {
   margin-inline: 0 var(--sides);
   border-end-end-radius: var(--radius);
+  padding-inline: calc(var(--sides) + var(--halfgap)) var(--halfgap);
+}
+header[style*="background-image"] {
+  text-shadow: 0 0 0.75em var(--dark-green);
 }
 footer {
   position: sticky;
   top: 100%;
   border-start-start-radius: var(--radius);
-  margin-left: var(--sides);
+  margin-inline: var(--sides) 0;
+  /*padding-inline: var(--gap) calc(var(--sides) + var(--gap));*/
 }
 main > aside {
   border-end-start-radius: var(--radius);
   border-start-end-radius: var(--radius);
+  margin-inline: var(--sides);
+}
+header > :not(.slide, .fix), aside > :not(.slide, .fix), footer > :not(.slide, .fix) {
+  padding-inline: var(--halfgap);
 }
 
-.slide >section > * {
+.slide > section > * {
   scroll-snap-align: center;
+}
+.grid > * {
+  margin-block: 0;
 }
 
 nav, footer{
@@ -238,12 +250,6 @@ article > div, figcaption {
 header ~ nav, main > article {
   padding: var(--gap) var(--sides);
 }
-header {
-  padding-inline: var(--gap2);
-}
-header[style*="background-image"] {
-  text-shadow: 0 0 0.75em var(--dark-green);
-}
 /*header ~ nav {
   background-image: var(--grad-dark-blue);
 }*/
@@ -257,9 +263,6 @@ header ~ nav li, header > nav li {
   margin: .5rem 0;
 }
 
-main > section {
-  justify-content: center;
-}
 /*section:has(aside + aside) {
   justify-content:space-around;
 }
@@ -272,13 +275,6 @@ section > aside {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 2rem;
-}
-section > article, section > div {
-  flex: 1 0 25ch;
-  padding: 0;
-}
-.grid > * {
-  margin-block: 0;
 }
 
 /*article > div:last-child {

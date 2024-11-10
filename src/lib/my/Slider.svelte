@@ -23,7 +23,7 @@
   afterUpdate(() => {
     //carostyle = getComputedStyle(carous)
     pad = getComputedStyle(carous).paddingInline.replace ('px', '')
-    console.log(carous.scrollWidth, snav)
+    //console.log(carous.scrollWidth, snav)
     //console.log(carostyle.scrollWidth, carostyle.offsetWidth)
     if (carous.scrollWidth > snav) {
       divclass = 'slide'
@@ -31,10 +31,16 @@
       divclass = 'fix'
     }
   })
+  let width = 320;
+  $: if(comp.sections.find(s => s._type == 'video')) {
+    width = 560;
+  } else {
+    width = 320;
+  }
   $: () => {
     //carostyle = getComputedStyle(carous)
     pad = getComputedStyle(carous).paddingInline.replace ('px', '')
-    console.log(carous.scrollWidth, snav)
+    //console.log(carous.scrollWidth, snav)
     //console.log(carostyle.scrollWidth, carostyle.offsetWidth)
     if (carous.scrollWidth > snav) {
       divclass = 'slide'
@@ -46,13 +52,14 @@
   const swipe = (e) => {
     //console.log(carostyle.gridTemplateColumns)
     if (e.offsetX > snav - pad) {
-      carous.scrollLeft += 480;
+      carous.scrollLeft += width;
       //alert ('right')
     }
     if (e.offsetX < pad) {
-      carous.scrollLeft -= 480;
+      carous.scrollLeft -= width;
       //alert ('left')
     }
+    console.log(carous.scrollLeft)
   }
 </script>
 
@@ -62,7 +69,7 @@
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <!-- svelte-ignore a11y-no-static-element-interactions -->
   <div class={divclass} on:click={swipe}>
-    <section class="grid grid-rows-4 grid-flow-col gap-x-8" style="padding-inline: var(--gap); --cols: {comp.sections?.length}; grid-template-rows: auto auto auto auto; grid-template-columns: repeat(var(--cols), 1fr);" bind:this={carous} bind:clientWidth={snav}>
+    <section class={`grid grid-rows-${comp.sections?.length} grid-flow-col gap-x-8`} style="--cols: {comp.sections?.length};" bind:this={carous} bind:clientWidth={snav}>
       {#each comp.sections || [] as c}
         <svelte:component this={options[c._type]} comp={c}/>
       {/each}
@@ -79,8 +86,8 @@
 
   div {
     position: relative;
-    margin-block: var(--halfgap);
-    padding-block: var(--halfgap);
+    /*margin-block: var(--halfgap);
+    padding-block: var(--halfgap);*/
   }
   
   .slide > section {
@@ -89,29 +96,35 @@
     scroll-snap-type: x mandatory;
     scroll-snap-stop: always;
     margin-inline: 0;
+    padding-inline: var(--gap2);
     scroll-behavior: smooth;
+    grid-template-rows: auto auto auto auto;
+    /*grid-template-columns: repeat(var(--cols), 1fr);*/
+    grid-template-columns: repeat(var(--cols), minmax(auto, 1fr));
+    /*grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;*/
   }
   .slide:before, .slide:after {
     position: absolute;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: var(--gap);
+    height: var(--gap);
     background: var(--light-blue);
     border-radius: 50%;
     /*padding-top: 1.4rem;*/
-    line-height: 2.8rem;
-    font-size: 1.5rem;
+    line-height: var(--gap);
+    font-size: var(--halfgap);
     cursor: pointer;
     bottom: 50%;
     text-align: center;
     z-index: 1;
   }
   .slide:after {
-    right: 1rem;
+    right: var(--halfgap);
     content: '▶︎';
   }
   .slide:before {
     content: '◀︎';
-    left: 1rem;
+    left: var(--halfgap);
   }
   /*.slide > a:first-of-type {
     scroll-snap-align: start;
